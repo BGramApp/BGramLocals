@@ -1,0 +1,857 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+ <string name="BGram" translatable="false">BGram</string>
+ <string name="AppName" translatable="false">BGram</string>
+ <string name="AppNameBeta" translatable="false">BGram Beta</string>
+ <string name="BGramVersion">بيگرام للأندرويد%1$s</string>
+
+ <string name="AppNameBGram" translatable="false">BGram</string>
+ <string name="AppNameBGramBeta" translatable="false">BGram Beta</string>
+
+ <!--Biftor-->
+ <string name="BGramSettings">إعدادات بيگرام</string>
+
+ <!-- Ghost mod-->
+ <string name="BiftorGhostMod">تمكين وضع الشبح</string>
+ <string name="BiftorGhostModSub">لن يرى الشخص الآخر علامة تمت القراءة ، مما يعني أنك تقرأ الرسالة حتى تكتب إليه.  يمكنك تبديل وضع القراءة المخفية عن طريق النقر طويلاً على رأس الصفحة.</string>
+
+
+ <!-- Ghost mod hide status-->
+ <string name="BiftorGhostModHideStatus">إخفاء الحالة عند تمكين وضع الشبح</string>
+ <string name="BiftorGhostModHideStatusSub">الاحتفاظ بوضع عدم الاتصال أثناء تمكين وضع " اخفاء تمت القراءة".
+   تحذير: عند إرسال رسالة (حتى إلى الرسائل المحفوظة) ، تكون حالتك "عدم الاتصال" مؤقتًا!</string>
+ <string name="BiftorGhostModHeaderLongClick">تبديل عن طريق النقر لفترة طويلة على الرأس</string>
+ <string name="BiftorGhostModHeaderLongClickSub">قراءة سريعة مخفية التبديل عن طريق النقر مع الاستمرار على العنوان في قائمة الدردشة.</string>
+
+
+ <!-- Biftor hide Typing-->
+ <string name="BiftorGhostModHideTyping">إخفاء الكتابة و الإرسال</string>
+ <string name="BiftorGhostModHideTypingSub">لا ترسل الحالة مثل جاري الكتابة… ،  يتم الإرسال الخ …</string>
+
+
+ <!-- Hide Channel Mute Button -->
+ <string name="BiftorHideChannelMuteButton">إخفاء كتم صوت القناة أو إلغاء كتم الصوت</string>
+
+ <!-- Tabs -->
+ <string name="BiftorTabsStyle">نمط علامة التبويب</string>
+ <string name="BiftorVerticalTabsStyle">علامة التبويب عمودية</string>
+ <string name="BiftorVerticalRightSideBarRound">الحواف</string>
+ <string name="BiftorVerticalRightSideBarOnlyIcon">إظهار الايقونة فقط</string>
+ <string name="BiftorVerticalRightSideBarIconAndText">إظهار الايقونة والنص</string>
+ <string name="BiftorVerticalRightSideBar">الشريط الجانبي الأيمن عمودي</string>
+ <string name="BiftorRightSideAlwaysOpen">دائما مفتوح</string>
+ <string name="BiftorRightSideHideWhenScroll">إخفاء الحواف عند التمرير</string>
+ <string name="BiftorVerticalRightSideRoundSize">حجم الحواف</string>
+ <string name="BiftorVerticalRightSideRoundShowStyle">اظهار نمط الحواف</string>
+ <string name="BiftorVerticalRoundShowByDragging">عن طريق السحب</string>
+ <string name="BiftorVerticalRoundShowByTap">عن طريق النقر على زر عائم</string>
+ <string name="BiftorRightSidePushChatList">ادفع قائمة المحادثة إلى اليسار</string>
+ <string name="BiftorRightSideOpenButton">عرض زر الفتح السريع</string>
+ <string name="BiftorShowTabsAtTop">اظهار بالاعلى</string>
+ <string name="BiftorShowTabsAtBottom">اظهار بالاسفل</string>
+ <string name="BiftorShowNewChatButton">إظهار زر محادثة  جديدة</string>
+ <string name="HideTabs">إخفاء علامات التبويب</string>
+ <string name="All">الكل</string>
+ <string name="Users">المستخدمين</string>
+ <string name="Groups">المجموعات</string>
+ <string name="SuperGroups">المجموعات الخارقة</string>
+ <string name="Channels">القنوات</string>
+ <string name="Bots">البوتات</string>
+ <string name="Favorites">المفضلة</string>
+
+ <string name="AllGroups">كل المجموعات</string>
+ <string name="Unreads">الغير مقروء</string>
+ <string name="Secrets">المحادثات السرية</string>
+ <string name="AllAdmins">كل المسؤولين</string>
+ <string name="AdminChannels">القنوات التي أديرها</string>
+ <string name="AdminGroups">المجموعات التي أديرها</string>
+ <string name="AdminSGroups">المجموعات الخارقة التي أديرها</string>
+ <string name="OwnChannels">القنوات الخاصة</string>
+ <string name="OwnGroups">المجموعات الخاصة</string>
+ <string name="OwnSGroups">المجموعات الخارقة الخاصة</string>
+ <string name="UnmuteUnreads">الصامتة الغير مقروءة</string>
+ <string name="Sort">فرز</string>
+
+ <string name="TabsHeight">إرتفاع علامات التبويب</string>
+ <string name="TabsUnreadTextSize">حجم النص غير المقروء بعلامات التبويب </string>
+ <string name="SetAsDefaultTab">تعيين كعلامة تبويب إفتراضية</string>
+ <string name="ResetDefaultTab">إعادة تعيين علامة التبويب الافتراضية</string>
+ <string name="SortByStatus">فرز حسب الحالة</string>
+ <string name="SortByLastMessage">فرز حسب آخر رسالة</string>
+ <string name="SortByUnreadCount">فرز حسب الرسائل غير المقروءة</string>
+ <string name="ShowSuperGroupsTab">إظهار علامة تبويب المجموعات الخارقة</string>
+ <string name="HideSuperGroupsTab"> إخفاء علامة تبويب المجموعات الخارقة</string>
+ <string name="Tabs">علامات التبويب</string>
+ <string name="HideShowTabs">إخفاء/إظهار علامات التبويب</string>
+ <string name="DisableTabsAnimation">لا تخفي علامات التبويب اثناء التمرير</string>
+ <string name="InfiniteSwipe">إنتقال لا نهائي بين علامات التبويب</string>
+ <string name="HeaderTabCounterCountChats">عد المحادثات بدلا من الرسائل</string>
+ <string name="HeaderTabCounterCountNotMuted">عد الرسائل الغير مكتومة فقط</string>
+ <string name="HideTabsCounters">إخفاء عدادات علامات التبويب</string>
+ <string name="TabsAddToFavorites">إضافة إلى المفضلة</string>
+ <string name="TabsDeleteFromFavorites">حذف من المفضلة</string>
+ <string name="BiftorForceMarkAsRead">قوة علامة القراءة</string>
+
+ <string name="ShowHeaderShadow">إظهار ظل رأس</string>
+
+ <string name="ShowTabsAtBottom">إظهار علامات التبويب بالأسفل</string>
+ <string name="BiftorNumberOfChats">عدد المحادثات:</string>
+ <string name="BiftorLoadingNumberOfChats">جاري تحميل عدد المحادثات ...</string>
+ <string name="BiftorNumberOfVisibleTabs">عدد علامات التبويب المرئية</string>
+ <string name="BiftorTabsGravityCenter">تعيين علامة التبويب الجانبية إلى الوسط</string>
+ <string name="BiftorTabsCenterEachTabs">تقليل حجم كل علامات التبويب</string>
+ <string name="BiftorTabsFitToScreen">ضبط علامات التبويب لتناسب الشاشة</string>
+ <string name="BiftorTabsFitToScreenSub">بعد تمكين هذا الخيار لن تستطيع تعيين علامة التبويب الجانبية إلى الوسط </string>
+ <string name="BiftorDisableChangeTabSwipe"> تعطيل تغيير علامات التبويب من خلال السحب </string>
+ <string name="BiftorJumpToFirstPosition">إنتقل الى العنصر الاول</string>
+
+ <string name="BiftorKeepSelectionAfterForward">إلغاء تحديد الرسائل بعد توجيهها</string>
+ <string name="BiftorKeepSelectionAfterForwardSub">لا تقم بإلغاء تحديد الرسائل بعد توجيهها(لمزيد من الإجراءات مع التحديد).</string>
+ <string name="BiftorKeepSelection">الحفاظ على الإختيار</string>
+
+ <string name="OnlineContacts">جهات الاتصال النشطة</string>
+
+ <string name="ChatCat">المحادثات</string>
+ <string name="EnableSwipeLeftReply">السحب إلى اليسار للرد على الرسائل</string>
+ <string name="EnableSwipeRightForward">السحب إلى اليمين لتوجيه الرسائل</string>
+ <string name="BiftorVibrationSwipeReply">إهتزاز خلال السحب للرد</string>
+ <string name="DisableSwipeBack">تعطيل التمرير مرة أخرى</string>
+ <string name="DisableSwipeBackSub">إذا كنت تستخدم "التمرير إلى اليمين لتوجيه الرسائل" ، فقد تحتاج إلى تمكين هذا الخيار ، لتعطيل المحادثات غير المرغوب فيها عند التمرير إلى اليمين</string>
+
+ <!-- BiftorProForward -->
+ <string name="BiftorProForward">تعديل وإعادة التوجيه</string>
+ <string name="BiftorProForwardDeleteUrl">حذف الرابط</string>
+ <string name="EmptyMessageError">عذرًا ، لا يمكنك إرسال رسالة فارغة.</string>
+ <string name="Quote">إقتبس</string>
+
+ <!-- Biftor ghost mod icon -->
+ <string name="BiftorGhostModIndicator">عرض مؤشر وضع الشبح</string>
+ <string name="BiftorGhostModDisabled">تم تعطيل وضع الشبح ، أنت مرئي الآن</string>
+
+ <!-- Biftor corner for chat Drawable -->
+ <string name="BiftorEnableChatMsgConrner">تمكين زوايا فقاعات المحادثة</string>
+ <string name="BiftorChatMsgInLeftTopConrnerRadi">نصف قطر الزاوية اليسرى للرسائل</string>
+ <string name="BiftorChatMsgInLeftBottomConrnerRadi">نصف قطر الركن الأيسر السفلي للرسائل</string>
+ <string name="BiftorChatMsgInRightTopConrnerRadi">نصف قطر الزاوية اليمنى العليا للرسائل</string>
+ <string name="BiftorChatMsgInRightBottomConrnerRadi">نصف قطر الزاوية اليمنى للرسائل</string>
+ <string name="BiftorLastChatMsgInRightBottomConrnerRadi">آخر الرسالة بنصف قطر الركن الأيسر السفلي</string>
+
+ <string name="BiftorChatMsgOutLeftTopConrnerRadi">خارج نصف قطر في الزاوية اليسرى للرسائل</string>
+ <string name="BiftorChatMsgOutLeftBottomConrnerRadi">خارج نصف قطر الرسائل من أسفل اليسار</string>
+ <string name="BiftorChatMsgOutRightTopConrnerRadi">خارج نصف قطر الزاوية اليمنى العليا للرسائل</string>
+ <string name="BiftorChatMsgOutRightBottomConrnerRadi">خارج نصف قطر الزاوية اليمنى للرسائل</string>
+ <string name="BiftorChatLastMsgOutRightBottomConrnerRadi">آخر الرسالة من نصف قطر الزاوية اليمنى السفلي</string>
+
+ <string name="BiftorChatMsgMediaConrnerRadi">نصف قطر رسالة الوسائط</string>
+
+ <!-- Biftor dismiss only -->
+ <string name="BiftorDismissOnly">الرفض فقط</string>
+
+ <!-- Biftor dark blue theme -->
+ <string name="BGramDarkBlue">بيگرام أزرق غامق</string>
+ <string name="BGramOldNight">الوضع الليلي</string>
+
+ <!-- Biftor select mess text -->
+ <string name="BiftorSelectMessText">تحديد النص</string>
+
+ <!-- Biftor go to first message -->
+ <string name="GoToFirstMessage">الذهاب إلى أول رسالة</string>
+
+ <!--Biftor Save to cloud -->
+ <string name="SaveToCloud">حفظ بسحابتي</string>
+ <string name="SaveToCloudAlert">هل تريد حفظ هذه الرسالة بسحابتك مع الاقتباس او بدون الاقتباس؟</string>
+ <string name="MessageSaved">تم حفظ الرسالة بسحابتك</string>
+ <string name="BiftorSaveWithQuot">مع الإقتباس</string>
+ <string name="BiftorSaveWithOutQuot">بدون الإقتباس</string>
+ <string name="BiftorSaveToCloudDefaultAction">حفظ إلى سحابة الإجراء الإفتراضي</string>
+ <string name="BiftorSaveToCloudAskAlways">إسأل دائما</string>
+
+ <!--Biftor Avatar click menu -->
+ <string name="ShowUserMessages">عرض رسائل المستخدم</string>
+ <string name="ShowUserMedia">عرض وسائط المستخدم</string>
+ <string name="ShowProfile">الملف الشخصي</string>
+ <string name="BiftorCopyUsername">نسخ إسم المستخدم</string>
+ <string name="BiftorUserNameCopied">تم نسخ إسم المستخدم للحافظة</string>
+ <string name="BiftorCopiedToClipBoard">نسخ إلى الحافظة</string>
+ <string name="BiftorSendMessages">إرسال رسالة</string>
+ <string name="BiftorMention">وسم(#)</string>
+ <string name="BiftorContextMenu">قائمة السياق</string>
+ <string name="BiftorUserNameNotFound">لم يتم العثور على إسم المستخدم</string>
+ <string name="BiftorOpenOrChat">إفتح أو المحادثة</string>
+
+ <!-- Biftor user photo as bg of DrawerProfileCell -->
+ <string name="BiftorUserPhotoAsProfileCellBG">إستخدام صورتك الرمزية كغلاف جانبي لدرج الملف الشخصي</string>
+ <!--Biftor media activity context menu -->
+ <string name="BiftorContextMenuGoToMessage">الذهاب إلى رسالة في المحادثة</string>
+
+ <!--Biftor delete media from sdcard if exist too -->
+ <string name="BiftorDeleteMediaFromSdToo">(إن وجد)حذف الوسائط ايضا من ذاكرة الهاتف</string>
+ <string name="BiftorDeleteFromYourSide">سيتم الحذف فقط من الجانب الخاص بك</string>
+ <string name="BiftorDeleteMediaAreYouSure">هل أنت متأكد من أنك تريد حذف الوسائط فقط؟</string>
+
+ <!--Biftor add ability to save files with original name -->
+ <string name="KeepOriginalFilename">إحفظ الملفات بالإسم الأصلي</string>
+ <string name="KeepOriginalFilenameSub"> بدلا من الأرقام سيتم حفظ الملفات بإستخدام الاسم الأصلي </string>
+
+ <!--Biftor ChatPreView -->
+ <string name="BiftorChatPreViewCat">معاينة المحادثة</string>
+ <string name="BiftorHideChatPreViewClearButton">إخفاء زر محفوظات المحادثة </string>
+ <string name="BiftorHideChatPreViewClearButtonSub">إخفاء زر المحفوظات الظاهر لـ "الرسائل المحفوظة" و "المجموعات الخاصة" و "القنوات الخاصة" أيضًا</string>
+ <string name="BiftorHideChatPreViewDeleteButton">إخفاء زر حذف المحادثة</string>
+ <string name="BiftorHideChatPreViewDeleteButtonSub">إخفاء زر الحذف لـ "الرسائل المحفوظة" و "المجموعات الخاصة" و "القنوات الخاصة" أيضًا</string>
+
+ <!--Biftor port create link in message edit text-->
+ <string name="Strikethrough">يتوسطه</string>
+ <string name="BiftorPaste">لصق</string>
+ <string name="BiftorSelectAll">تحديد الكل</string>
+ <string name="BiftorQuotation">اقتبس</string>
+ <string name="BiftorReply">رد</string>
+ <string name="BiftorShare">شارك</string>
+ <string name="BiftorUserMention">مستخدم</string>
+
+ <!--Biftor custom markdown panel-->
+ <string name="EnableCustomMarkDown">قم بتمكين لوحة الماركداون</string>
+ <string name="EnableCustomMarkDownSub">عليك تمكين هذا الخيار، إذا كان جهازك لا يعرض خيارات الماركداون خلال تحرير النص.</string>
+
+ <!--Biftor reset show pin message-->
+ <string name="BiftorResetPinMessage">إعادة تعيين رفض الرسائل المحفوفة بالمخاطر</string>
+
+ <!-- Biftor added about tab-->
+ <string name="BiftorAbout">حول</string>
+ <string name="BGramChangeLog">تغييرات بيگرام</string>
+ <string name="BGramChangeLogSub">كل تغييرات بيگرام</string>
+ <string name="BGramChangeLogLoadFailed">فشل تحميل التغييرات</string>
+ <string name="BiftorSupport">الدعم</string>
+ <string name="BGramOfficialChannel">القناة الرسمية</string>
+ <string name="BGramOfficialChannelSub">القناة الرسمية</string>
+ <string name="BGramOfficialGroupPublic">المجموعة الرسمية العامة</string>
+ <string name="BGramOfficialGroupPublicSub">كل تقارير الأخطاء والأفكار هي موضع ترحيب.</string>
+ <string name="BGramOfficialGroupNormal">المجموعة الرسمية</string>
+ <string name="BGramOfficialGroupNormalSub">إذا كانت المجموعة العامة الرسمية غير متوفرة في بلدك ، فيمكنك استخدام هذه المجموعة.</string>
+ <string name="BGramRateApp">تقييم التطبيق</string>
+ <string name="BGramRateAppSub">إذا أعجبك التطبيق ، فإننا نقدر تقييمك العالي على غوغل بلاي. في حالة وجود أي مشاكل ، قبل إعطاء درجة منخفضة ، لا تتردد في طرح سؤالك في المجموعة الرسمية!</string>
+ <string name="BiftorAppCredits">المساهمون</string>
+ <string name="BiftorAppCreditsSub">قائمة تحتوي معلومات عن أشخاص ساهموا بمهاراتهم من اجل خلق هذا التطبيق</string>
+ <string name="BiftorAppHints">تلميحات ودليل</string>
+ <string name="BiftorAppHintsSub">دليل الفيديو و عمل قائمة النقر على مختلف عناصر الواجهة</string>
+ <string name="BiftorDonate">التبرع</string>
+ <string name="BiftorDonateSub">جعل المطور سعيد (بيتكوين).</string>
+ <string name="BiftorDonateMoreDetail">يمكنك نقل مكافأة صغيرة للمطور للحفاظ على استمرارية العمل.</string>
+ <string name="BiftorDonateBTC">بيتكوين</string>
+ <string name="BiftorDonateBTCCASH">بيتكوين نقدية</string>
+ <string name="BiftorDonateEther">إيثر</string>
+ <string name="BiftorDonateStellar">ستيلر</string>
+ <string name="BiftorDonatePayPal">بايبال</string>
+ <string name="BiftorDonateYandex">Yandex</string>
+ <string name="BiftorGettingDonationAddress"> الحصول على عنوان التبرع ...</string>
+ <string name="BiftorDonationAddressCopied">تم نسخ عنوان التبرع الى الحافظة</string>
+ <string name="BiftorGettingDonationAddressFailed">فشل تحميل  عنوان التبرع , حاول مرة أخرى في وقت لاحق...</string>
+
+ <!-- Biftor added ghost mod tile-->
+ <string name="BiftorGhostModTile">تغيير حالة وضع الشبح</string>
+ <string name="BiftorGhostModIsEnable">وضع الشبح يعمل</string>
+ <string name="BiftorGhostModIsDisable">وضع الشبح معطل</string>
+
+ <!--Biftor allow to set a proxy before login-->
+ <string name="BiftorLoginProxy">قد تحتاج إلى إعداد بروكسي قبل تسجيل الدخول ، في حالة قيام بلدك أو ISP بحظر تيليجرام</string>
+ <string name="BiftorLoginProxyBTN">تعيين البروكسي</string>
+
+ <!-- Biftor chat quick panel -->
+ <string name="QuickBarCat">الشريط السريع</string>
+ <string name="ShowQuickBar">إظهار الشريط السريع</string>
+ <string name="VerticalQuickBar">الشريط السريع عمودي</string>
+ <string name="AlwaysBackToMain">العودة دائما إلى الشاشة الرئيسية</string>
+ <string name="DoNotCloseQuickBar">لا تغلق الشريط السريع</string>
+ <string name="HideQuickBarOnScroll">إخفاء الشريط السريع خلال التمرير</string>
+ <string name="CenterQuickBarButton"> زر الشريط السريع بالوسط</string>
+ <string name="ShowMembersOnQuickBar">عرض الأعضاء في مجموعات</string>
+ <string name="BiftorQuickBarClickAction">النقر على الشريط السريع ليعمل</string>
+ <string name="BiftorQuickBarLongClickAction">تشغيل الشريط السريع بنقرة طويلة</string>
+ <string name="BiftorQuickBarLongClickActionOnMembersList">تشغيل الشريط السريع بنقرة طويلة (قائمة الأعضاء فقط)
+   </string>
+
+ <!--Biftor confirm to voice and video msg-->
+ <string name="BiftorConfirmToSendVoice">التأكيد قبل إرسال مقطع صوتي</string>
+ <string name="BiftorConfirmToSendRoundVideo">التأكيد قبل إرسال مقطع فيديو</string>
+ <string name="BiftorConfirmToSendSticker">التأكيد قبل إرسال ملصق</string>
+ <string name="BiftorConfirmToSendGIF">التأكيد قبل إرسال صورة متحركة</string>
+ <string name="BiftorSendGif">إرسال صورة متحركة</string>
+
+ <!--Biftor drawer show phone type-->
+ <string name="BiftorDrawerShowNameType">نوع عرض الإسم بدرج الملف الشخصي</string>
+ <string name="BiftorDrawerShowPhoneType">نوع عرض رقم الهاتف بدرج الملف الشخصي</string>
+ <string name="BiftorName">الإسم</string>
+ <string name="BiftorPhone">رقم الهاتف</string>
+ <string name="BiftorUserName">إسم المستخدم (إن وجد)</string>
+ <string name="BiftorUserId">آيدي المستخدم</string>
+ <string name="BiftorHide">إخفاء</string>
+
+ <!--Biftor find my messages-->
+ <string name="BiftorFindMyMess">البحث عن رسائلي</string>
+ <string name="BiftorFindReplyToThisMsg">العثور على الرد الذي على هذه الرسالة</string>
+
+ <!--Biftor View Channels only-->
+ <string name="BiftorViewOnly">للإطلاع فقط</string>
+
+ <!--Biftor Direct save and edit btn -->
+ <string name="BiftorShowDirectSaveToCloud">إظهار زر الحفظ المباشر إلى سحابتي</string>
+ <string name="BiftorShowDirectEdit">عرض زر التعديل المباشر </string>
+ <string name="BiftorShowDirectShare">اظهار المشاركة المباشرة</string>
+
+ <!--Biftor copy msg owner name -->
+ <string name="BiftorCopyMsgOwnerName">الاقتباس عند نسخ الرسالة</string>
+ <string name="BiftorCopyMsgWithOwnerName">مع اسم المرسل</string>
+ <string name="BiftorCopyMsgWithOutOwnerName">بدون اسم المرسل</string>
+ <string name="BiftorCopyMsgAlwaysAsk">اسال دائما</string>
+ <string name="BiftorCopyMsgTitle">نسخ الرسالة</string>
+ <string name="BiftorCopyMsgAsk">نسخ مع اسم المرسل؟</string>
+ <string name="BiftorCopyOnlyText">النص فقط</string>
+ <string name="BiftorYes">نعم</string>
+ <string name="BiftorNo">لا</string>
+
+ <!--Biftor forward confirm panel -->
+ <string
+     name="BiftorShowForwardConfirm">إظهار لوحة تأكيد التوجيه</string>
+ <string
+     name="BiftorShowForwardConfirmsSub">عرض لوحة إضافية عند علامة التبويب على لوحة التوجيه بها زر ("إرسال") و رز ("الرجوع")، لتظهر بعدها رسالة تمت إعادة توجيهها .</string>
+ <string name="BiftorGoBack">الرجوع</string>
+
+ <!-- Biftor add night mode switch -->
+ <string name="BiftorNightMode">الوضع الليلي</string>
+ <string name="BiftorNightModeManual">يدوي</string>
+ <string name="BiftorDefaultDayTheme">ثيم النهار الإفتراضي</string>
+ <string name="BiftorDefaultNightTheme">ثيم الليل الإفتراضي</string>
+ <string name="BiftorDefaultThemeDetail">تبديل ثيم الشريط الجانبي للإفتراضي</string>
+
+ <!-- Biftor hidden chats -->
+ <string name="BiftorHiddenChats">المحادثات المخفية</string>
+ <string name="BiftorAddToHiddenChat">إضافة إلى المحادثة المخفية</string>
+ <string name="BiftorDeleteHiddenChats">حذف من المحادثة المخفية</string>
+ <string name="BiftorHiddenChatsPass">رمز مرور قفل المحادثات المخفية</string>
+ <string name="BiftorPassOnlyForHiddenChats">استخدم كلمة المرور فقط للمحادثة المخفية</string>
+ <string name="BiftorSetPassCodeForHiddenChats">تعيين رمز المرور للمحادثات المخفية</string>
+ <string name="BiftorRemoveHiddenChatsFromSearch">إزالة المحادثات المخفية من البحث</string>
+ <string name="BiftorChangePasscodeInfo">عندما تقوم بإعداد رمز مرور إضافي للمحادثة المخفية في كل مرة تريد الوصول إلى خاصية المحادثات المخفية ، فسوف تطلب كلمة المرور الخاصة بك. هذا أيضا عام في جميع حساباتك..
+
+    ملاحظة: إذا نسيت رمز المرور، ستحتاج لحذف وإعادة تنزيل التطبيق. وستخسر كافة محادثاتك السرية وستعود المحادثات العادية فور إعادة تسجيل الدخول  </string>
+ <string name="BiftorHiddenChatsButton">زر المحادثات المخفية</string>
+ <string name="BiftorHiddenChatsButtonNewMessages">إضغط طويلا على الرسائل الجديدة</string>
+ <string name="BiftorHiddenChatsButtonSearch">إضغط طويلا على زر البحث</string>
+ <string name="BiftorHiddenChatsButtonGhostMode">أنقر طويلا على رمز وضع الشبح</string>
+ <string name="BiftorRemoveHiddenChatsNotifi">إزالة إشعارات المحادثات المخفية</string>
+
+ <!-- Biftor export chat list -->
+ <string name="BiftorExportChatsLink">تصدير معلومات المحادثات إلى ذاكرة الهاتف</string>
+ <string name="BiftorExportFailed">فشل التصدير</string>
+ <string name="BiftorExportNoTitle">لا يوجد عنوان</string>
+ <string name="BiftorExportNoUserName">لا يوجد إسم المستخدم</string>
+ <string name="BiftorExportNoLink">لا يوجد رابط</string>
+ <string name="BiftorExportTypePrefix">النوع:</string>
+ <string name="BiftorExportTitlePrefix">العنوان:</string>
+ <string name="BiftorExportUserNamePrefix">إسم المستخدم:</string>
+ <string name="BiftorExportLinkPrefix">الرابط:</string>
+ <string name="BiftorExportUserIdPrefix">آيدي المستخدم:</string>
+ <string name="BiftorExportChatIdPrefix">آيدي المحادثة:</string>
+ <string name="BiftorExportCountPrefix">العداد:</string>
+
+ <!--Show real members of groups or channels -->
+ <string name="BiftorShowExactNumberOfMembers">إظهار العدد الدقيق للأعضاء</string>
+ <string name="BiftorShowExactNumberOfMembersSub">إظهار العدد الدقيق للمجموعات / أعضاء القنوات / المشتركين</string>
+
+ <!--‌ Biftor remove call button in profile -->
+ <string name="BiftorRemoveCallButtonInProfile">إزالة زر الاتصال من على الملف الشخصي</string>
+
+ <!--‌ Biftor forward config -->
+ <string name="ForwardTabsCat">علامة تبويب التوجيه</string>
+ <string name="ForwardTabsHided">علامة تبويب التوجيه مخفية</string>
+ <string name="BiftorForwardCopyLink">نسخ الرابط</string>
+
+ <!--‌ Biftor mark on msg -->
+ <string name="BiftorSetMarkOnMsg">وضع علامة على الرسالة</string>
+ <string name="BiftorGoToMarkedMsg">الذهاب للرسالة التي عليها علامة</string>
+ <string name="BiftorResetMarkedMsg">إعادة تعيين الرسائل التي عليها علامة</string>
+
+ <!--Biftor Font piker -->
+ <string name="BiftorFontsPickerCat">منتقي الخطوط</string>
+ <string name="BiftorEnableCustomFont">تمكين الخط المخصص</string>
+ <string name="BiftorFontsPickerLight">إختر خط خفيف</string>
+ <string name="BiftorFontsPickerBold">إختر الخط  المتوسط العريض</string>
+ <string name="BiftorFontsPickerItalic">إختر الخط المتوسط المائل</string>
+ <string name="BiftorFontsPickerMono">إختر خط أُحادي</string>
+ <string name="BiftorFontsReset">إعادة تعيين الخط الإفتراضي</string>
+ <string name="BiftorFontRestarter">إعادة تشغيل التطبيق</string>
+ <string name="BiftorYouNeedToRestartApp">يجب إعادة تشغيل التطبيق لتطبيق تغييرات الخط</string>
+ <string name="BiftorLongClickOnEachOneToReset">إضغط طويلا على كل خط وحده لتعيينه كخط إفتراضي</string>
+ <string name="BiftorEmojiSize">تعيين حجم الرموز التعبيرية</string>
+ <string name="BiftorEmojiPreview">ضبط حجم الرموز\ %1$s التعبيرية</string>
+ <string name="BiftorVerticalAlignmentBottom">محاذاة الرموز التعبيرية بالأسفل</string>
+
+ <!--Biftor use persian calendar -->
+ <string name="BiftorAlwaysUsePersianCalendar">إستخدام التقويم الفارسي دائما</string>
+
+ <!-- Biftor multiaccount count -->
+ <string name="BiftorAccountRestarterTitle">إعادة تشغيل التطبيق!</string>
+ <string name="BiftorAccountRestarterMess">تم إكتشاف حسابات جديدة، يجب عليك إعادة تشغيل التطبيق لتحميلها.</string>
+ <string name="BiftorAccountRestarterNow">إعادة تشغيله الآن</string>
+
+ <!-- Biftor on or off account -->
+ <string name="BiftorOnline">متصل</string>
+ <string name="BiftorOffline">غير متصل</string>
+ <string name="BiftorNow">الآن</string>
+
+ <string name="BiftorRestartMsg">تحتاج إلى إعادة تشغيل التطبيق لإكمال هذا الإجراء .</string>
+
+ <string name="BiftorLongClickSetDefault">إضغط طويلا على إعادة التعيين إلى الافتراضي</string>
+ <string name="BiftorRestoredToDef">تمت الاستعادة الى الافتراضي</string>
+
+ <!-- Biftor Tablet Mode -->
+ <string name="BiftorSetTabletMode">إستخدام وضع التابلت</string>
+ <string name="BiftorSetTabletModeAuto">تلقائي</string>
+ <string name="BiftorSetTabletModeAlwaysTablet">(فقي)إستخدام وضع التابلت دائما</string>
+ <string name="BiftorSetTabletModeAlwaysPhone">(عمودي)إستخدام وضع الهاتف دائما</string>
+
+ <!-- Biftor full width -->
+ <string name="BiftorFullWidthMsgs">صور كاملة العرض</string>
+ <string name="BiftorFullWidthThreshold">الحد من العرض الكامل </string>
+ <string name="BiftorFullWidthThresholdOfScreen">%1$s من الشاشة</string>
+
+ <!-- Biftor font preview -->
+ <string name="BiftorFontPreviewTextEn" translatable="false">This is your picked font if you like then set it.</string>
+ <string name="BiftorFontPreviewTextFa" translatable="false">این فونت انتخابی شما هست اگر مورد پسند است آن را اعمال کنید.</string>
+ <string name="BiftorFontPreviewTextAr" translatable="false">هذا هو الخط الذي إخترته لتعيينه.</string>
+ <string name="BiftorFontPreviewTextRu" translatable="false">Выберите начертания для применения шрифта.</string>
+
+ <!-- Biftor apply font from chat -->
+ <string name="BiftorApplyFontFile">تطبيق ملف الخط</string>
+ <string name="BiftorApplyFontLight">للخط الخفيف</string>
+ <string name="BiftorApplyFontBold">للخط العريض</string>
+ <string name="BiftorApplyFontItalic">للخط المائل</string>
+ <string name="BiftorApplyFontMono">للخط الأُحادي</string>
+
+ <!-- Biftor group members filter -->
+ <string name="BiftorGroupMembersFilter">فرز الأعضاء</string>
+ <string name="BiftorGroupMembersFilterDeleteAccounts">حذف الحسابات في البداية</string>
+ <string name="BiftorGroupRemoveDeleteAccounts">إزالة الحسابات المحذوفة</string>
+ <string name="BiftorAreYouSureDeletedAccounts">هل أنت متأكد من أنك تريد إزالة الحسابات المحذوفة التي تم عدها؟</string>
+ <string name="BiftorGroupDeleteAllMyMsgs">حذف كل رسائلي</string>
+ <string name="BiftorAreYouSureDeletedAllMsg">هل أنت متأكد من أنك تريد حذف جميع رسائلك **٪ 1 $ s **؟</string>
+
+ <string name="BiftorCreator">المُنشئ:&#160;</string>
+ <string name="BiftorId">الآيدي:&#160;</string>
+
+ <!-- Biftor auto download next media -->
+ <string name="BiftorEnableAutoDownloadNextMedia">تحميل تلقائي للوسائط التالية</string>
+
+ <!-- Biftor enable camera in attach menu -->
+ <string name="BiftorEnableCameraAttachMenu">تمكين زر  الكاميرا بلوحة الإرفاق</string>
+
+ <!-- Biftor added more media screen tabs -->
+ <string name="BiftorMediaTabPhotos_zero">%1$d photos</string>
+ <string name="BiftorMediaTabPhotos_one">%1$d photos</string>
+ <string name="BiftorMediaTabPhotos_two">%1$d photos</string>
+ <string name="BiftorMediaTabPhotos_few">%1$d photos</string>
+ <string name="BiftorMediaTabPhotos_many">%1$d photos</string>
+ <string name="BiftorMediaTabPhotos_other">%1$d photos</string>
+
+ <string name="BiftorMediaTabVideos_zero">%1$d videos</string>
+ <string name="BiftorMediaTabVideos_one">%1$d videos</string>
+ <string name="BiftorMediaTabVideos_two">%1$d videos</string>
+ <string name="BiftorMediaTabVideos_few">%1$d videos</string>
+ <string name="BiftorMediaTabVideos_many">%1$d videos</string>
+ <string name="BiftorMediaTabVideos_other">%1$d videos</string>
+
+ <string name="BiftorMediaTabGifs_zero">%1$d gifs</string>
+ <string name="BiftorMediaTabGifs_one">%1$d gifs</string>
+ <string name="BiftorMediaTabGifs_two">%1$d gifs</string>
+ <string name="BiftorMediaTabGifs_few">%1$d gifs</string>
+ <string name="BiftorMediaTabGifs_many">%1$d gifs</string>
+ <string name="BiftorMediaTabGifs_other">%1$d gifs</string>
+
+ <string name="BiftorMediaTabRounds_zero">%1$d rounds</string>
+ <string name="BiftorMediaTabRounds_one">%1$d rounds</string>
+ <string name="BiftorMediaTabRounds_two">%1$d rounds</string>
+ <string name="BiftorMediaTabRounds_few">%1$d rounds</string>
+ <string name="BiftorMediaTabRounds_many">%1$d rounds</string>
+ <string name="BiftorMediaTabRounds_other">%1$d rounds</string>
+
+ <string name="BiftorMediaTabPhotos">الصور</string>
+ <string name="BiftorProMediaTabPhotos">صور</string>
+ <string name="BiftorProMediaTabVideos">فيديوهات</string>
+ <string name="BiftorProMediaTabGifs">صور متحركة</string>
+ <string name="BiftorProMediaTabRounds">تسجيلات مرئية</string>
+ <string name="BiftorMediaTabVideos">الفيديوهات</string>
+ <string name="BiftorMediaTabGifs">الصور المتحركة</string>
+ <string name="BiftorMediaTabRound">المقاطع المرئية</string>
+ <string name="BiftorNoPhotoMedia"> مشاركة الصور في هذه المحادثة والوصول إليها على أي من الأجهزة الخاصة بك. </string>
+ <string name="BiftorNoPhotoMediaSecret"> الصور من هذه المحادثة سيتم عرضها هنا.</string>
+ <string name="BiftorNoVideoMedia"> مشاركة ملفات الفيديو في هذه المحادثة والوصول إليها على أي من الأجهزة الخاصة بك. </string>
+ <string name="BiftorNoVideoMediaSecret"> مقاطع الفيديو من هذه المحادثة سيتم عرضها هنا.</string>
+ <string name="BiftorNoGifMedia"> مشاركة الصور المتحركة في هذه المحادثة والوصول إليها على أي من الأجهزة الخاصة بك. </string>
+ <string name="BiftorNoGifMediaSecret"> الصور المتحركة من هذه المحادثة سيتم عرضها هنا.</string>
+ <string name="BiftorNoRoundMedia"> مشاركة المقاطع المرئية في هذه المحادثة والوصول إليها على أي من الأجهزة الخاصة بك. </string>
+ <string name="BiftorNoRoundMediaSecret"> المقاطع المرئية من هذه المحادثة سيتم عرضها هنا.</string>
+
+ <!-- Biftor auto proxy switching -->
+ <string name="BiftorAutoProxySwitching">تبديل البروكسي</string>
+ <string name="BiftorProxySwitchingManual">يدوي</string>
+ <string name="BiftorProxySwitchingPing">تبديل تلقائي من بينغ</string>
+ <string name="BiftorProxySwitchingSpeed">تبديل تلقائي لسرعة الإتصال</string>
+ <string name="BiftorProxySwitchingPingSpeed">تبديل تلقائي للبروكسي من طرف بينغ إضافة الى السرعة</string>
+ <string name="BiftorProxySwitchingToBest">تبديل تلقائي لأفضل بروكسي</string>
+ <string name="BiftorProxyCopiedToClipboard">%1$s تم نسخ البروكسي الى الحافظة</string>
+ <string name="BiftorSave">حفظ</string>
+
+ <!-- Biftor added ability to set photo quality -->
+ <string name="BiftorSendingPhotoQuality"> جودة الصورة التي ترسلها </string>
+
+ <!-- Biftor Dialogs avatar click action -->
+ <string name="BiftorDialogsAvatarDefClickAction">أنقر لتشغيل قائمة المحادثة الرمزية</string>
+ <string name="BiftorDialogsAvatarDefLongClickAction"> أنقر مطولا لتشغيل  قائمة المحادثة الرمزية </string>
+ <string name="BiftorOpenAvatar">فتح الصورة الرمزية</string>
+
+ <!-- Biftor paint and mention button -->
+ <string name="BiftorShowPaintBtn">إظهار زر الرسم</string>
+ <string name="BiftorChatBotButton">زر محادثة البوت</string>
+ <string name="BiftorChatBotShow">إظهار البوت</string>
+ <string name="BiftorReplaceBotWithMentionBtn">إظهار الإشارة</string>
+ <string name="BiftorChatBotHide">إخفاء</string>
+
+ <!-- Biftor Clear Cache other files -->
+ <string name="BiftorClearCacheOtherFiles"><![CDATA[حذف الذاكرة المؤقتة —> ملفات أخرى]]></string>
+ <string name="BiftorClearCacheOtherFilesInfo"> الكثير من الملفات المؤقتة التي تتراكم في ذاكرة التخزين المؤقت, و يمكن أن يسبب هذا مشاكل عند التحميل من المحادثات. فإنه من المستحسن أن حذفها من ذاكرة التخزين المؤقت على الأقل مرة واحدة في الأسبوع (<![CDATA[حذف الذاكرة المؤقتة —> ملفات أخرى]]> زر).</string>
+ <string name="BiftorKeepMediaInfo"> في تيليجرام جميع المحادثات ،إرسال الملفات المخزنة على خادم السحابة لدى تيليجرام و تحميلها إلى المجلد المؤقت من الجهاز حيث يمكنك تسجيل الدخول إلى تيليجرام (التخزين المؤقت). هذا الكاش يقلل من الوقت لفتح الملفات ، ولكن يأخذ مساحة على الجهاز الخاص بك.\n\n الصور  ومقاطع الفيديو وغيرها من الملفات من سحابة المحادثات التي لم يتم الوصول إليها خلال هذه الفترة سيتم إزالتها من هذا الجهاز لتوفير مساحة القرص.\n كل  الوسائط المشتركة ستبقى في سحابة تيليجرام يمكن إعادة تحميلها إذا كنت في حاجة إليها مرة أخرى. </string>
+
+ <!-- Biftor Select storage -->
+ <string name="BiftorSelectStorage">حدد تخزين التطبيق</string>
+ <string name="BiftorStorageInternal">التخزين بذاكرة خارجية</string>
+ <string name="BiftorStorageSdcard">التخزين بذاكرة الهاتف</string>
+ <string name="BiftorStorageReadOnly">قراءة فقط</string>
+ <string name="BiftorStorageDeviceAlert"> تتسنى لك إمكانية حفظ الملفات إلى ذاكرة تخزين خارجية على نسخة الأندرويد  4.4 وما فوق ، ولكن التطبيق يمكنه حفظ الملفات في المسار التالي في ذاكرة التخزين الخارجية :\n\n%s\n\n مسار: الملفات التي تم حفظها في هذا المسار ستتم إزالتها اذا قمت  بإلغاء تثبيت BGram. و إذا كنت ترغب في إلغاء تثبيت التطبيق بدون حذف الملفات!   قبل إلغاء تثبيت التطبيق عليك باستخدام تطبيق إدارة الملفات على الهاتف و نقل الملفات التي تم تخزينها في هذا المسار إلى مجلد آخر.\n\n يمكن استخدامها لحفظ الملفات ؟ </string>
+ <string name="BiftorStorageDeviceCantGrantWrite"> لا يمكن منح حق الوصول للكتابة ! </string>
+
+ <!-- Biftor show view count in dialog list-->
+ <string name="BiftorShowViewCount">إظهار عداد المشاهدات بقائمة المحادثة</string>
+ <string name="BiftorShowViewCountSub">إظهار عدد المشاهدات بدلاً من علامات التأشير للقنوات الخاصة في قائمة المحادثات.</string>
+
+ <!-- Biftor backup and restore-->
+ <string name="BiftorBackUpAndRestoreCat">النسخ الإحتياطي و إستعادته</string>
+ <string name="BiftorBackUp">نسخ إحتياطي</string>
+ <string name="BiftorBackUpGlobal">الاعدادات العامة</string>
+ <string name="BiftorBackUpMain">نسخ إحتياطي للإعدادات الرئيسية</string>
+ <string name="BiftorBackUpFav">نسخ إحتياطي للمحادثات المفضلة</string>
+ <string name="BiftorBackUpHidden">نسخ إحتياطي للمحادثات المخفية</string>
+ <string name="BiftorBackUpCustomTabs">علامات تبويب مخصصة</string>
+ <string name="BiftorBackUpAllAndSaveToCloud">نسخ إحتياطي للكل وحفظ بالسحابة</string>
+ <string name="BiftorBackUpSuccessful">نجحت عملية النسخ الإحتياطي إلى:</string>
+ <string name="BiftorBackUpUnSuccessful">نجحت عملية النسخ الإحتياطي!</string>
+
+ <string name="BiftorRestore">إستعادة</string>
+ <string name="BiftorRestoreGlobal">استعادة الإعدادات العامة الافتراضية</string>
+ <string name="BiftorRestoreMain">إستعادة الإعدادات الرئيسية</string>
+ <string name="BiftorRestoreFav">إستعادة المحادثات المفضلة</string>
+ <string name="BiftorRestoreHidden">إستعادة المحادثات المخفية</string>
+ <string name="BiftorRestoreCustomTabs">علامات تبويب مخصصة</string>
+
+ <string name="BiftorRestoreToDef">إستعادة إلى الافتراضي</string>
+ <string name="BiftorRestoreGlobalToDef">استعادة الإعدادات العامة إلى الافتراضي</string>
+ <string name="BiftorRestoreMainToDef">إستعادة قائمة الإعدادات الإفتراضية</string>
+ <string name="BiftorRestoreFavToDef">إستعادة المحادثات المفضلة إلى ألإفتراضية</string>
+ <string name="BiftorRestoreHiddenToDef">إستعادة المحادثات المخفية إلى الإفتراضية</string>
+ <string name="BiftorRestoreCustomTabsToDef">استعادة علامات التبويب المخصصة إلى الافتراضي</string>
+
+ <string name="BiftorRestoreSuccessful">نجحت عملية الإستعادة!</string>
+ <string name="BiftorRestoreUnSuccessful">نجحت عملية الإستعادة!</string>
+ <string name="BiftorApplyBackUpFile">تطبيق ملف النسخ الإحتياطي</string>
+
+ <!--Biftor show or hide cloud icon and record-->
+ <string name="BiftorShowCloudIconInHeader">إظهار أيقونة السحابة بالرأس</string>
+ <string name="BiftorShowVoiceRecordButton">إظهار زر تسجيل الصوت والمقاطع المرئية</string>
+
+ <!--Biftor Contact multi select-->
+ <string name="BiftorAddToTheGroupTitle">إضافة %1$s جهة الإتصال إلى المحادثة %2$s?</string>
+ <string name="BiftorAreYouSureDeleteContact">هل أنت متأكد من أنك تريد حذف  %1$s جهات الإتصال؟</string>
+
+ <!--Biftor dialogs multi select and action-->
+ <string name="BiftorMultiSelect">تحديد متعدد </string>
+ <string name="BiftorAddToGroupOrChannel">إضافة إلى المجموعة والقناة</string>
+ <string name="BiftorDeleteOrLeave">حذف/مغادرة</string>
+ <string name="BiftorDeleteCacheOrDeleteFromCache">حذف ذاكرة التخزين المؤقت</string>
+ <string name="BiftorAreYouSureDeleteCache"> هل أنت متأكد من أنك تريد حذف التخزين المؤقت/حذف ذاكرة التخزين المؤقت %1$s للمحادثات؟ </string>
+ <string name="BiftorAreYouSureDeleteChat"> هل أنت متأكد من أنك تريد حذف/مغادرة %1$s المحادثة ؟ </string>
+ <string name="BiftorMultiSelectAddToTheGroupTitle"> >إضافة %1$s المستخدم إلى المحادثة %2$s ؟ </string>
+
+ <!--Biftor open avatar photo everywhere-->
+ <string name="BiftorOpenAvatarPhoto">فتح الصورة الرمزية</string>
+ <string name="BiftorOpenAvatarPhotoSub"> فتح الصورة الرمزية عندما اضغط على زر الإتصال بقائمة الأعضاء بالمجموعات والقنوات. </string>
+
+ <!--Biftor open video or gif with external player-->
+ <string name="BiftorOpenVideoBy">فتح الفيديو بإستخدام</string>
+ <string name="BiftorDoYouWantPlayWithExPlayer">هل تريد التشغيل بإستخدام مشغل خارجي؟</string>
+ <string name="BiftorVideoPlayerAlwaysExternal">إفتح دائما بإستخدام مشغل خارجي</string>
+ <string name="BiftorVideoPlayerAlwaysInternal">إفتح دائما بإستخدام المشغل الذاخلي</string>
+ <string name="BiftorVideoPlayerAlwaysAsk">إسأل دائما</string>
+
+ <!--Biftor merge msg anti flood-->
+ <string name="BiftorMergeMsgsIntoOne">دمج رسائلي</string>
+ <string name="BiftorMergeMsgsIntoOneSub">ترتيب الرسائل النصية المرسلة بصف واحد </string>
+ <string name="BiftorMergeMsgsTime">دمج والحد من الوقت</string>
+ <string name="BiftorMergeMsgsChars">دمج وحصر الحروف</string>
+ <string name="BiftorMergeToastEnabled">تم تمكين دمج الرسائل</string>
+ <string name="BiftorMergeToastDisabled">تم تعطيل دمج الرسائل </string>
+
+ <!--Biftor add ability to sort accounts-->
+ <string name="BiftorSortAccounts">فرز الحسابات</string>
+ <string name="BiftorHideOffAccounts">إخفاء الحسابات المطفئة</string>
+ <string name="BiftorHideOffAccountsSub">إخفاء جميع الحسابات</string>
+
+
+ <!--Biftor add ability to sort pinned dialogs-->
+ <string name="BiftorSortPinnedDialog">ترتيب المحادثات المثبتة</string>
+
+ <!--Biftor added inviter-->
+ <string name="BiftorInvitedBy">دعوة%1$s</string>
+ <string name="BiftorSelfJoined">انضم عن طريق الرابط</string>
+
+ <!--Biftor enter and exit animation -->
+ <string name="BiftorEnterAndExitAnim">الدخول / الخروج انيميشن</string>
+ <string name="BiftorEnterAndExitTelegramAnim">تيليجرام</string>
+ <string name="BiftorEnterAndExitTelegramXAnim">تيليجرام اكس</string>
+
+
+ <!--Biftor reorder the settings-->
+ <string name="BiftorPrivacyCat">الخصوصية</string>
+ <string name="BiftorSidebarCat">الشريط الجانبي</string>
+ <string name="BiftorFontPickerCat">منتقي الخطوط</string>
+ <string name="BiftorOthersCat">الآخرين</string>
+
+ <string name="BiftorMain">الأساسية</string>
+ <string name="BiftorAppearance">المظهر</string>
+ <string name="BiftorChatListCat">قائمة المحادثة</string>
+ <string name="BiftorTabsCat">علامات التبويب</string>
+ <string name="BiftorButtonsCat">الأزرار</string>
+ <string name="BiftorBubblesCat">فقاعات المحادثة</string>
+
+ <string name="BiftorChatting">المحادثات</string>
+ <string name="BiftorMsgMergingCat">دمج الرسائل</string>
+ <string name="BiftorSendConfirmCat">إرسال التأكيد</string>
+ <string name="BiftorForwardPanelCat">لوحة التوجيه</string>
+
+ <!--Biftor External language-->
+ <string name="BiftorLocalVersion">0</string>
+
+ <!--Biftor login with bot-->
+ <string name="BiftorLoginWithBotToKen">تسجيل الدخول باستخدام توكن بوت</string>
+ <string name="BiftorBotToken">اكتب أو الصق توكن البوت الخاص بك</string>
+
+ <!--Biftor Tor -->
+ <string name="BiftorTorStarting">لقد بدأ تور&#8230;</string>
+ <string name="BiftorTorActivated">متصل بشبكة تور</string>
+ <string name="BiftorTorDisabled">تور متوقف</string>
+ <string name="BiftorTorShuttingDown">تم إيقاف خدمة تور</string>
+ <string name="BiftorTorProcessStarting">بدأ العميل تور&#8230;</string>
+ <string name="BiftorTorProcessComplete">إكتمل</string>
+ <string name="BiftorStopTor">إيقاف تور</string>
+ <string name="BiftorCouldntStartTorProcess">لا يمكن بدء عملية تور: </string>
+ <string name="BiftorTorYourReachableAddressesException">تسببت إعدادات العناوين التي يمكن الوصول إليها في حدوث إستثناء!</string>
+ <string name="BiftorTorYourRelaySettingsException">تسببت إعدادات التناوب في حدوث استثناء!</string>
+ <string name="BiftorTorUseBridges">استخدم الجسور</string>
+ <string name="BiftorFoundExistingTorProcess">تم العثور على عملية جارية لتور&#8230;</string>
+ <string name="BiftorTorSomethingBadHappened">حدث شيء ليس جيد ، تحقق من السجل</string>
+ <string name="BiftorTorUnableToStartTor">غير قادر على تشغيل تور:</string>
+ <string name="BiftorTorNoInternetConnection">لا يوجد اتصال بالإنترنت!  تور في وضع الاستعداد ...</string>
+ <string name="BiftorTorNewnym">لقد تم التحويل الى هوية تور جديدة!</string>
+ <string name="BiftorTorNoInternetConnectionSleep">لا يوجد اتصال بالانترنت!  تور دخل وضعية النوم...</string>
+ <string name="BiftorTorGoodInternetConnectionWakingUp">اتصال الانترنت جيد. جاري إيقاظ تور...</string>
+ <string name="BiftorUpdatingSettingsInTor">تحديث الإعدادات الخاصة بخدمة تور</string>
+ <string name="kbps">كيلوبايت</string>
+ <string name="mbps">ميغابايت</string>
+ <string name="kb">كيلوبايت</string>
+ <string name="mb">ميغابايت</string>
+ <string name="BiftorTorDefaultWorld">عالمي (تلقائي)</string>
+ <string name="BiftorTorBridgeHints">إذا كانت شبكتك المتنقلة تحظر بشكل فعال خدمة تور، فيمكنك استخدام  \'خادم الجسر \' كطريقة بديلة . حدد أحد الخيارات للتهيئة والاختبار ..</string>
+ <string name="BiftorTorTestingBridges">إختبار إتصال الجسر بـ تور ...</string>
+ <string name="BiftorTorTestingBridgesSuccess">نجحت! عملية تكوين جسر جيد!</string>
+ <string name="BiftorTorTestingBridgesFail">فشلت العملية!. جرب خيار آخر</string>
+ <string name="BiftorTorBridgesDirectConnect">توصيل مباشرة مع تور (أفضل خيار)</string>
+ <string name="BiftorTorBridgesCommunity">الاتصال عن طريق خوادم المجتمع</string>
+ <string name="BiftorTorBridgesCloud">الاتصال عن طريق الخوادم السحابية</string>
+ <string name="BiftorTorBridgesGetNew">طلب جسور جديدة من خلال الويب</string>
+ <string name="BiftorTorBridgeInput">قم بلصق الجسر هنا</string>
+ <string name="BiftorTorTroubleConnecting">مشكلة في الاتصال؟</string>
+ <string name="BiftorTorNewIdentity">هوية جديدة</string>
+ <string name="BiftorChangeSideBarProxyToTor">إستبدل بروكسي الشريط الجانبي بـ تور</string>
+ <string name="BiftorUseTor">إستخدام تور</string>
+ <string name="BiftorTor">تور</string>
+ <string name="BiftorConnectingToTor">الإتصال مع تور</string>
+ <string name="BiftorTorSettings">إعدادت تور</string>
+ <string name="BiftorPersistNotification">إستمرار الإشعار</string>
+ <string name="BiftorStopTorWhenAppClosed">إيقاف عند إغلاق التطبيق</string>
+ <string name="BiftorStopTorWhenAppClosedSub">أوقف تور عند إغلاق التطبيق ، إذا قمت بتعطيله ، عند تمكين تور لن يتم إغلاق التطبيق بأكمله.</string>
+ <string name="BiftorIsolateDest">عزل عناوين الوجهة</string>
+ <string name="BiftorIsolateDestSub">استخدام دائرة مختلفة لكل عنوان وجهة</string>
+ <string name="BiftorPreferIpv6">تفضل اتصالات IPv6</string>
+ <string name="BiftorPreferIpv6Sub">إخباري بأنه يتم تفضيل عناوين IPv6</string>
+ <string name="BiftorDisableIpv4">تعطيل اتصالات IPv4</string>
+ <string name="BiftorDisableIpv4Sub">إخباري بعدم الاتصال بعناوين IPv4</string>
+ <string name="BiftorConnectionPadding">حشو الاتصال</string>
+ <string name="BiftorConnectionPaddingSub">يتيح دائمًا توسعة الاتصال للدفاع ضد بعض أشكال تحليل حركة المرور. الافتراضي: تلقائي</string>
+ <string name="BiftorReducedConnectionPadding"> تخفيض الحشو</string>
+ <string name="BiftorReducedConnectionPaddingSub">إغلاق تتابع الإتصال و إرسال حزم أقل لتقليل إستخدام  البيانات و البطارية</string>
+ <string name="BiftorConnectTorWhenForNotify">قم بتوصيل تور  عند تلقي الإخطار</string>
+ <string name="BiftorGetBridgeFromGithub">طلب جسر جديد من (DropBox)</string>
+
+ <!--Biftor custom tabs-->
+ <string name="BiftorNewTab">تبويب جديد</string>
+ <string name="BiftorTabName">اسم التبويب</string>
+ <string name="BiftorTabNameHint">أذخل اسم تبويبك</string>
+ <string name="BiftorTabIcon">أيقونة التبويب</string>
+ <string name="BiftorAddToCustomTabs">إضافة إلى علامات التبويب المخصصة</string>
+ <string name="BiftorDeleteFromCustomTabs">الحذف من علامات التبويب المخصصة</string>
+ <string name="BiftorNoNameError">لا يمكنك جعل علامة التبويب دون اسم.</string>
+ <string name="BiftorCustomTabEndReach">إذا استخدمت بالفعل كل علامات التبويب المخصصة ، فلا يمكنك إنشاء واحدة جديدة.</string>
+ <string name="BiftorCleanCustomTabWarning">هل تريد بالتأكيد حذف كل ما يتعلق بهذا: **%1$s** علامة التبويب المخصصة؟</string>
+ <string name="BiftorTabIconSize">حجم رمز علامة التبويب</string>
+ <string name="BiftorTabIconTextIcon">نص الأيقونة</string>
+ <string name="BiftorTabIconTextIconEnter">أدخل نص</string>
+ <string name="BiftorRemoveExtraIconWarning">هل أنت متأكد من أنك تريد حذف أيقونة٪ 1 $ s ** **؟</string>
+ <string name="BiftorRemoveAllExtraIconWarning">هل أنت متأكد من أنك تريد حذف كل الأيقونات المخصصة؟</string>
+ <string name="BiftorMultiSelectEndReach">لا يمكنك تحديد أكثر من **٪ 1 $ s ** عنصر.</string>
+ <string name="BiftorHideCustomTabChatsFrom">إخفاء محادثات علامة التبويب المخصصة من</string>
+ <string name="BiftorHideCustomTabChatsFromUser">مستخدم</string>
+ <string name="BiftorHideCustomTabChatsFromGroups">مجموعات</string>
+ <string name="BiftorHideCustomTabChatsFromChannel">قنوات</string>
+ <string name="BiftorHideCustomTabChatsFromSupperGroups">مجموعات خارقة</string>
+ <string name="BiftorHideCustomTabChatsFromAllGroups">كل المجموعات</string>
+ <string name="BiftorHideCustomTabChatsFromBots">بوتات</string>
+ <string name="BiftorHideCustomTabChatsFromAll">تبويب الكل</string>
+ <string name="BiftorDontHideCustomTabChats">لا تخفي</string>
+ <string name="BiftorMayNeedsToRestart">قد يحتاج إلى إعادة التشغيل</string>
+
+ <!-- Biftor goto msg for all chats-->
+ <string name="BiftorMentionMsg">إشارة</string>
+ <string name="BiftorMentionMsgGoto">الذهاب إلى:</string>
+ <string name="BiftorGoToLinkChatNotFound">المحادثة **%1$s**لم يتم العثور عليها ، ربما تم حذفها أو أنك لا تملك هذه المحادثة.</string>
+ <string name="BiftorGoToLinkInvalidLink">رابط الرسالة غير صالح</string>
+
+ <!-- Biftor goto msg for all chats-->
+ <string name="BiftorDisableVoiceProximitySensor">تعطيل مستشعر القرب</string>
+ <string name="BiftorDisableVoiceProximitySensorSub">تعطيل مستشعر القرب عند تشغيل الصوت</string>
+
+ <!-- Biftor custom user mention-->
+ <string name="BiftorCustomUserMention">الاشارة لمستحدم مخصص</string>
+ <string name="BiftorUserMentionListLongTap">اشارة الى القائمة الطويلة</string>
+ <string name="BiftorUserMentionListLongTapSub">إجراءات بنقرة طويلة على اسم في القائمة المنسدلة بعد كتابة \ @ في المجموعة.</string>
+ <string name="BiftorUserMentionInsertName">إدراج الاشارة بالاسم</string>
+ <string name="BiftorUserMentionInsertCustomName">تحرير الاشارة المنبثقة</string>
+ <string name="BiftorCustomUserMentionName">ادخل اسم المستخدم</string>
+ <string name="BiftorCustomUserMentionId">أدخل معرف المستخدم</string>
+ <string name="BiftorCustomUserMentionError">لم يتم العثور على المستخدم ، تحقق من هوية المستخدم من الملف الشخصي للمستخدم.</string>
+
+ <!-- Biftor save to chat folder-->
+ <string name="BiftorSaveToChatFolder">حفظ في مجلد المحادثة</string>
+
+ <!--Biftor keep screen on -->
+ <string name="BiftorKeepScreenOn">الحفاظ على الشاشة</string>
+ <string name="BiftorKeepScreenOnSub">تقييد إنقطاع الشاشة عندما يكون التطبيق مفتوحًا.</string>
+
+ <!--Biftor Drawer Menu to Avatar -->
+ <string name="BiftorChangeDrawerMenuToAvatar">عرض الصورة الرمزية في القائمة</string>
+ <string name="BiftorChangeDrawerMenuToAvatarSub">عرض الصورة الرمزية للحساب الحالي على زر قائمة الشريط الجانبي</string>
+
+ <string name="BiftorQuoteForward">“توجيه”</string>
+ <string name="BiftorChannelDiscuss">مناقشة</string>
+
+ <!--Biftor Translate-->
+ <string name="BiftorTranslate">Translate</string>
+ <string name="BiftorTranslateEnterText">Enter text</string>
+ <string name="BiftorTranslateEnterTextEmpty">You must enter text to translate</string>
+ <string name="BiftorTranslateAUTO_DETECT">Auto detect</string>
+ <string name="BiftorTranslateAFRIKAANS">Afrikaans</string>
+ <string name="BiftorTranslateALBANIAN">ALBANIAN</string>
+ <string name="BiftorTranslateARABIC">ARABIC</string>
+ <string name="BiftorTranslateARMENIAN">ARMENIAN</string>
+ <string name="BiftorTranslateAZERBAIJANI">AZERBAIJANI</string>
+ <string name="BiftorTranslateBASQUE">BASQUE</string>
+ <string name="BiftorTranslateBELARUSIAN">BELARUSIAN</string>
+ <string name="BiftorTranslateBENGALI">BENGALI</string>
+ <string name="BiftorTranslateBULGARIAN">BULGARIAN</string>
+ <string name="BiftorTranslateCATALAN">CATALAN</string>
+ <string name="BiftorTranslateCHINESE">CHINESE</string>
+ <string name="BiftorTranslateCROATIAN">CROATIAN</string>
+ <string name="BiftorTranslateCZECH">CZECH</string>
+ <string name="BiftorTranslateDANISH">DANISH</string>
+ <string name="BiftorTranslateDUTCH">DUTCH</string>
+ <string name="BiftorTranslateENGLISH">ENGLISH</string>
+ <string name="BiftorTranslateESTONIAN">ESTONIAN</string>
+ <string name="BiftorTranslateFILIPINO">FILIPINO</string>
+ <string name="BiftorTranslateFINNISH">FINNISH</string>
+ <string name="BiftorTranslateFRENCH">FRENCH</string>
+ <string name="BiftorTranslateGALICIAN">GALICIAN</string>
+ <string name="BiftorTranslateGEORGIAN">GEORGIAN</string>
+ <string name="BiftorTranslateGERMAN">GERMAN</string>
+ <string name="BiftorTranslateGREEK">GREEK</string>
+ <string name="BiftorTranslateGUJARATI">GUJARATI</string>
+ <string name="BiftorTranslateHAITIAN_CREOLE">HAITIAN CREOLE</string>
+ <string name="BiftorTranslateHEBREW">HEBREW</string>
+ <string name="BiftorTranslateHINDI">HINDI</string>
+ <string name="BiftorTranslateHUNGARIAN">HUNGARIAN</string>
+ <string name="BiftorTranslateICELANDIC">ICELANDIC</string>
+ <string name="BiftorTranslateINDONESIAN">INDONESIAN</string>
+ <string name="BiftorTranslateIRISH">IRISH</string>
+ <string name="BiftorTranslateITALIAN">ITALIAN</string>
+ <string name="BiftorTranslateJAPANESE">JAPANESE</string>
+ <string name="BiftorTranslateKANNADA">KANNADA</string>
+ <string name="BiftorTranslateKOREAN">KOREAN</string>
+ <string name="BiftorTranslateLATIN">LATIN</string>
+ <string name="BiftorTranslateLATVIAN">LATVIAN</string>
+ <string name="BiftorTranslateLITHUANIAN">LITHUANIAN</string>
+ <string name="BiftorTranslateMACEDONIAN">MACEDONIAN</string>
+ <string name="BiftorTranslateMALAY">MALAY</string>
+ <string name="BiftorTranslateMALTESE">MALTESE</string>
+ <string name="BiftorTranslateNORWEGIAN">NORWEGIAN</string>
+ <string name="BiftorTranslatePERSIAN">PERSIAN</string>
+ <string name="BiftorTranslatePOLISH">POLISH</string>
+ <string name="BiftorTranslatePORTUGUESE">PORTUGUESE</string>
+ <string name="BiftorTranslateROMANIAN">ROMANIAN</string>
+ <string name="BiftorTranslateRUSSIAN">RUSSIAN</string>
+ <string name="BiftorTranslateSERBIAN">SERBIAN</string>
+ <string name="BiftorTranslateSLOVAK">SLOVAK</string>
+ <string name="BiftorTranslateSLOVENIAN">SLOVENIAN</string>
+ <string name="BiftorTranslateSPANISH">SPANISH</string>
+ <string name="BiftorTranslateSWAHILI">SWAHILI</string>
+ <string name="BiftorTranslateSWEDISH">SWEDISH</string>
+ <string name="BiftorTranslateTAMIL">TAMIL</string>
+ <string name="BiftorTranslateTELUGU">TELUGU</string>
+ <string name="BiftorTranslateTHAI">THAI</string>
+ <string name="BiftorTranslateTURKISH">TURKISH</string>
+ <string name="BiftorTranslateUKRAINIAN">UKRAINIAN</string>
+ <string name="BiftorTranslateURDU">URDU</string>
+ <string name="BiftorTranslateVIETNAMESE">VIETNAMESE</string>
+ <string name="BiftorTranslateWELSH">WELSH</string>
+ <string name="BiftorTranslateYIDDISH">YIDDISH</string>
+ <string name="BiftorTranslateCHINESE_SIMPLIFIED">CHINESE SIMPLIFIED</string>
+ <string name="BiftorTranslateCHINESE_TRADITIONAL">CHINESE TRADITIONAL</string>
+
+
+ <!--Biftor delete from recent search-->
+ <string name="BiftorDeletRecentSearchItem">Are you sure you want to delete this: **%1$s** from recent search?</string>
+
+ <string name="BiftorDrawerContactAndGroup">Contacts and groups</string>
+
+ <!--Biftor floating new msg-->
+ <string name="BiftorChangeToSaveMsg">change FB to save message</string>
+ <string name="BiftorChangeToSaveMsgSub">change new chat button (floating button in chat) to open saved messages</string>
+
+ <string name="BiftorShow">Show</string>
+ <string name="BiftorShowFolder">Show folder</string>
+ <string name="BiftorHideFolder">Hide folder</string>
+ <string name="BiftorHideFolderAreYouSure">Are you sure you want to hide this folder?</string>
+ <string name="BiftorShowFolderAreYouSure">Are you sure you want to show this folder?</string>
+ <!--Biftor internal updater-->
+ <string name="BiftorSkipUpdate">Skip</string>
+ <string name="BiftorRemindTomorrow">Tomorrow</string>
+ <string name="BiftorUpdateIsAvailable">Update is available</string>
+ <string name="BiftorCheckForUpdate">Check for update</string>
+ <string name="BiftorDownloadLatestVersion">Download last version</string>
+</resources>

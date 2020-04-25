@@ -82,8 +82,6 @@
 	<string name="HeaderTabCounterCountChats">Count chats instead of messages</string>
 	<string name="HeaderTabCounterCountNotMuted">Count unmuted only</string>
 	<string name="HideTabsCounters">Hide tabs counters</string>
-	<string name="TabsAddToFavorites">Add to Favorites</string>
-	<string name="TabsDeleteFromFavorites">Delete from Favorites</string>
 	<string name="BiftorForceMarkAsRead">Force mark as read</string>
 
 	<string name="ShowHeaderShadow">Show header shadow</string>
@@ -184,10 +182,6 @@
 	<string name="BiftorDeleteMediaFromSdToo">Also delete from cache</string>
 	<string name="BiftorDeleteFromYourSide">Will delete only from your side</string>
 	<string name="BiftorDeleteMediaAreYouSure">Are you sure you want to delete media only?</string>
-
-	<!--Biftor add ability to save files with original name -->
-	<string name="KeepOriginalFilename">Original filename in cache</string>
-	<string name="KeepOriginalFilenameSub">Use original file names in the cache folder. Not recommended due to negative impact on other features.\n\nTo save with original name, load file and select \"Save to downloads\" in the context menu (the item appears after the file is loaded).</string>
 
 	<!--Biftor ChatPreView -->
 	<string name="BiftorChatPreViewCat">Chat preview</string>
@@ -327,7 +321,7 @@
 	<string name="BiftorHiddenChatsButton">Hidden chats button</string>
 	<string name="BiftorHiddenChatsButtonNewMessages">Long click on new message button</string>
 	<string name="BiftorHiddenChatsButtonSearch">Long click on search</string>
-	<string name="BiftorHiddenChatsButtonGhostMode">Long click on Hidden Read icon</string>
+	<string name="BiftorHiddenChatsButtonOpenDrawer">Long click on open drawer</string>
 	<string name="BiftorRemoveHiddenChatsNotifi">Remove hidden chats notification</string>
 
 	<!-- Biftor export chat list -->
@@ -430,6 +424,8 @@
 
 	<!-- Biftor auto download next media -->
 	<string name="BiftorEnableAutoDownloadNextMedia">Auto download next media</string>
+	<string name="BiftorDisableGoToNextMedia">Disable go to next media</string>
+	<string name="BiftorDisableGoToNextMediaSub">Disable go to next media by tapping on photo edge</string>
 
 	<!-- Biftor enable camera in attach menu -->
 	<string name="BiftorEnableCameraAttachMenu">Enable camera in attach panel</string>
@@ -843,5 +839,22 @@
 	<string name="BiftorUpdateIsAvailable">Update is available</string>
 	<string name="BiftorCheckForUpdate">Check for update</string>
 	<string name="BiftorDownloadLatestVersion">Download last version</string>
+
+
+	<!--Biftor direct chats-->
+	<string name="BiftorDirectChats">Direct chats</string>
+	<string name="BiftorSetAsDirectChats">Set as direct chats</string>
+	<string name="BiftorDirectChatsReset">Reset direct chat</string>
+	<string name="BiftorDisplayDirectChats">Display direct chat at</string>
+	<string name="BiftorDisplayDirectChatsSide">Sidebar</string>
+	<string name="BiftorDisplayDirectChatsTab">Tab</string>
+	<string name="BiftorDisplayDirectChatsSideTab">Sidebar and Tab</string>
+	<string name="BiftorDirectChatsReorder">Direct chats order</string>
+	<string name="BiftorShowDirectChatsInDrawer">Show direct chats in drawer</string>
+	<string name="BiftorAddToFav">Add to favourite</string>
+	<string name="BiftorDeleteFromFav">Delete from favourite</string>
+
+	<string name="BiftorHideSponsorProxy">Hide sponsor</string>
+	<string name="BiftorHideSponsorProxySub">Hide sponsor proxy from chat list</string>
 
 </resources>

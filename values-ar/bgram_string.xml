@@ -89,8 +89,6 @@
  <string name="HeaderTabCounterCountChats">عد المحادثات بدلا من الرسائل</string>
  <string name="HeaderTabCounterCountNotMuted">عد الرسائل الغير مكتومة فقط</string>
  <string name="HideTabsCounters">إخفاء عدادات علامات التبويب</string>
- <string name="TabsAddToFavorites">إضافة إلى المفضلة</string>
- <string name="TabsDeleteFromFavorites">حذف من المفضلة</string>
  <string name="BiftorForceMarkAsRead">قوة علامة القراءة</string>
 
  <string name="ShowHeaderShadow">إظهار ظل رأس</string>
@@ -189,10 +187,6 @@
  <string name="BiftorDeleteMediaFromSdToo">(إن وجد)حذف الوسائط ايضا من ذاكرة الهاتف</string>
  <string name="BiftorDeleteFromYourSide">سيتم الحذف فقط من الجانب الخاص بك</string>
  <string name="BiftorDeleteMediaAreYouSure">هل أنت متأكد من أنك تريد حذف الوسائط فقط؟</string>
-
- <!--Biftor add ability to save files with original name -->
- <string name="KeepOriginalFilename">إحفظ الملفات بالإسم الأصلي</string>
- <string name="KeepOriginalFilenameSub"> بدلا من الأرقام سيتم حفظ الملفات بإستخدام الاسم الأصلي </string>
 
  <!--Biftor ChatPreView -->
  <string name="BiftorChatPreViewCat">معاينة المحادثة</string>
@@ -338,7 +332,7 @@
  <string name="BiftorHiddenChatsButton">زر المحادثات المخفية</string>
  <string name="BiftorHiddenChatsButtonNewMessages">إضغط طويلا على الرسائل الجديدة</string>
  <string name="BiftorHiddenChatsButtonSearch">إضغط طويلا على زر البحث</string>
- <string name="BiftorHiddenChatsButtonGhostMode">أنقر طويلا على رمز وضع الشبح</string>
+ <string name="BiftorHiddenChatsButtonOpenDrawer">Long click on open drawer</string>
  <string name="BiftorRemoveHiddenChatsNotifi">إزالة إشعارات المحادثات المخفية</string>
 
  <!-- Biftor export chat list -->
@@ -442,6 +436,8 @@
 
  <!-- Biftor auto download next media -->
  <string name="BiftorEnableAutoDownloadNextMedia">تحميل تلقائي للوسائط التالية</string>
+ <string name="BiftorDisableGoToNextMedia">Disable go to next media</string>
+ <string name="BiftorDisableGoToNextMediaSub">Disable go to next media by tapping on photo edge</string>
 
  <!-- Biftor enable camera in attach menu -->
  <string name="BiftorEnableCameraAttachMenu">تمكين زر  الكاميرا بلوحة الإرفاق</string>
@@ -854,4 +850,20 @@
  <string name="BiftorUpdateIsAvailable">Update is available</string>
  <string name="BiftorCheckForUpdate">Check for update</string>
  <string name="BiftorDownloadLatestVersion">Download last version</string>
+
+ <!--Biftor direct chats-->
+ <string name="BiftorDirectChats">Direct chats</string>
+ <string name="BiftorSetAsDirectChats">Set as direct chats</string>
+ <string name="BiftorDirectChatsReset">Reset direct chat</string>
+ <string name="BiftorDisplayDirectChats">Display direct chat at</string>
+ <string name="BiftorDisplayDirectChatsSide">Sidebar</string>
+ <string name="BiftorDisplayDirectChatsTab">Tab</string>
+ <string name="BiftorDisplayDirectChatsSideTab">Sidebar and Tab</string>
+ <string name="BiftorDirectChatsReorder">Direct chats order</string>
+ <string name="BiftorShowDirectChatsInDrawer">Show direct chats in drawer</string>
+ <string name="BiftorAddToFav">Add to favourite</string>
+ <string name="BiftorDeleteFromFav">Delete from favourite</string>
+
+ <string name="BiftorHideSponsorProxy">Hide sponsor</string>
+ <string name="BiftorHideSponsorProxySub">Hide sponsor proxy from chat list</string>
 </resources>

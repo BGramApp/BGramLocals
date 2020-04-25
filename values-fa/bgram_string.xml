@@ -82,8 +82,6 @@
     <string name="HeaderTabCounterCountNotMuted">فقط شمارش چت های ساکت نشده</string>
     <string name="HideTabsCounters">عدم نمایش شمارشگر تب ها</string>
     <string name="MarkAllAsRead">تمام موارد رو به عنوان خوانده شده در نظر بگیر</string>
-    <string name="TabsAddToFavorites">افزودن به علاقه مندی ها</string>
-    <string name="TabsDeleteFromFavorites">حذف از علاقه مندی ها</string>
 
     <string name="ShowHeaderShadow">نمایش سایه تب ها</string>
 
@@ -183,10 +181,6 @@
     <string name="BiftorDeleteMediaFromSdToo">همچنین فایل آن در\n حافظه(اگر موجود بود)</string>
     <string name="BiftorDeleteFromYourSide">این پیام فقط برای شما پاک می شود</string>
     <string name="BiftorDeleteMediaAreYouSure">آیا از پاک کردن فقط فایل مدیا اطمینان دارید؟</string>
-
-    <!--Biftor add ability to save files with original name -->
-    <string name="KeepOriginalFilename">با نام اصلی فایل ذخیره کن</string>
-    <string name="KeepOriginalFilenameSub">به جای فقط شماره های فایل ها در قالب نام اصلی ذخیره خواهد شد (فعال کردن این آپشن پیشنهاد نمی شود)</string>
 
     <!--Biftor ChatPreView -->
     <string name="BiftorChatPreViewCat">پیش نمایش چت</string>
@@ -330,7 +324,7 @@
     <string name="BiftorHiddenChatsButton">دکمه دسترسی به چت های مخفی</string>
     <string name="BiftorHiddenChatsButtonNewMessages">لمس طولانی بر روی دکمه پیام جدید</string>
     <string name="BiftorHiddenChatsButtonSearch">لمس طولانی بر روی دکمه جستجو</string>
-    <string name="BiftorHiddenChatsButtonGhostMode">لمس طولانی بر روی دکمه حالت روح</string>
+    <string name="BiftorHiddenChatsButtonOpenDrawer">لمس طولانی بر روی دکمه دراور</string>
     <string name="BiftorRemoveHiddenChatsNotifi">عدم نمایش اعلان چت های مخفی</string>
 
     <!-- Biftor export chat list -->
@@ -435,6 +429,8 @@
 
     <!-- Biftor auto download next media -->
     <string name="BiftorEnableAutoDownloadNextMedia">دانلود خودکار رسانه بعدی</string>
+    <string name="BiftorDisableGoToNextMedia">Disable go to next media</string>
+    <string name="BiftorDisableGoToNextMediaSub">Disable go to next media by tapping on photo edge</string>
 
     <!-- Biftor enable camera in attach menu -->
     <string name="BiftorEnableCameraAttachMenu">نمایش دوربین در منوی پیوست</string>
@@ -847,4 +843,20 @@
     <string name="BiftorUpdateIsAvailable">Update is available</string>
     <string name="BiftorCheckForUpdate">Check for update</string>
     <string name="BiftorDownloadLatestVersion">Download last version</string>
+
+    <!--Biftor direct chats-->
+    <string name="BiftorDirectChats">Direct chats</string>
+    <string name="BiftorSetAsDirectChats">Set as direct chats</string>
+    <string name="BiftorDirectChatsReset">Reset direct chat</string>
+    <string name="BiftorDisplayDirectChats">Display direct chat at</string>
+    <string name="BiftorDisplayDirectChatsSide">Sidebar</string>
+    <string name="BiftorDisplayDirectChatsTab">Tab</string>
+    <string name="BiftorDisplayDirectChatsSideTab">Sidebar and Tab</string>
+    <string name="BiftorDirectChatsReorder">Direct chats order</string>
+    <string name="BiftorShowDirectChatsInDrawer">Show direct chats in drawer</string>
+    <string name="BiftorAddToFav">Add to favourite</string>
+    <string name="BiftorDeleteFromFav">Delete from favourite</string>
+
+    <string name="BiftorHideSponsorProxy">Hide sponsor</string>
+    <string name="BiftorHideSponsorProxySub">Hide sponsor proxy from chat list</string>
 </resources>

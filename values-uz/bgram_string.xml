@@ -81,8 +81,6 @@
 	<string name="HeaderTabCounterCountNotMuted">Ovozsizlarni hisoblamaslik</string>
 	<string name="HideTabsCounters">Xatcho‘pda hisoblagichda ko‘rsatmaslik</string>
 	<string name="MarkAllAsRead">Barini o‘qigan qilib belgilamoq</string>
-	<string name="TabsAddToFavorites">Tanlanganlarga qo‘shmoq</string>
-	<string name="TabsDeleteFromFavorites">Tanlanganlardan o‘chirmoq</string>
 	<string name="BiftorForceMarkAsRead">Majburiy o‘qish</string>
 	<string name="ShowHeaderShadow">Sarlavhani soyada ajratib ko‘rsatmoq</string>
 	<string name="ShowTabsAtBottom">Xatcho‘pni pastga o‘tkazmoq</string>
@@ -186,10 +184,6 @@
 	<!--Biftor delete media from sdcard if exist too -->
 	<string name="BiftorDeleteMediaFromSdToo">Qurilma keshidan ham</string>
 	<string name="BiftorDeleteFromYourSide">Faqat Sizdan</string>
-
-	<!--Biftor add ability to save files with original name -->
-	<string name="KeepOriginalFilename">Fayl nomini saqlamoq</string>
-	<string name="KeepOriginalFilenameSub">Fayl raqamlarda emas, nomi bilan saqlanadi.</string>
 
 	<!--Biftor ChatPreView -->
 	<string name="BiftorChatPreViewCat">Suhbatni oldindan ko‘rish</string>
@@ -330,7 +324,7 @@
 	<string name="BiftorHiddenChatsButton">Maxfiylikka kirish (uzoq bosib turiladi)</string>
 	<string name="BiftorHiddenChatsButtonNewMessages">Yangi xabar</string>
 	<string name="BiftorHiddenChatsButtonSearch">Izlash</string>
-	<string name="BiftorHiddenChatsButtonGhostMode">Maxfiy o‘qish indikatori</string>
+	<string name="BiftorHiddenChatsButtonOpenDrawer">Long click on open drawer</string>
 	<string name="BiftorRemoveHiddenChatsNotifi">Maxfiylik haqida ogohlantirmaslik</string>
 
 	<!-- Biftor export chat list -->
@@ -432,6 +426,8 @@
 
 	<!-- Biftor auto download next media -->
 	<string name="BiftorEnableAutoDownloadNextMedia">Keyingi rasmni yuklamoq</string>
+	<string name="BiftorDisableGoToNextMedia">Disable go to next media</string>
+	<string name="BiftorDisableGoToNextMediaSub">Disable go to next media by tapping on photo edge</string>
 
 	<!-- Biftor enable camera in attach menu -->
 	<string name="BiftorEnableCameraAttachMenu">«Biriktirmoq» panelida kamera</string>
@@ -849,4 +845,20 @@
 	<string name="BiftorUpdateIsAvailable">Update is available</string>
 	<string name="BiftorCheckForUpdate">Check for update</string>
 	<string name="BiftorDownloadLatestVersion">Download last version</string>
+
+	<!--Biftor direct chats-->
+	<string name="BiftorDirectChats">Direct chats</string>
+	<string name="BiftorSetAsDirectChats">Set as direct chats</string>
+	<string name="BiftorDirectChatsReset">Reset direct chat</string>
+	<string name="BiftorDisplayDirectChats">Display direct chat at</string>
+	<string name="BiftorDisplayDirectChatsSide">Sidebar</string>
+	<string name="BiftorDisplayDirectChatsTab">Tab</string>
+	<string name="BiftorDisplayDirectChatsSideTab">Sidebar and Tab</string>
+	<string name="BiftorDirectChatsReorder">Direct chats order</string>
+	<string name="BiftorShowDirectChatsInDrawer">Show direct chats in drawer</string>
+	<string name="BiftorAddToFav">Add to favourite</string>
+	<string name="BiftorDeleteFromFav">Delete from favourite</string>
+
+	<string name="BiftorHideSponsorProxy">Hide sponsor</string>
+	<string name="BiftorHideSponsorProxySub">Hide sponsor proxy from chat list</string>
 </resources>

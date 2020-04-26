@@ -3796,8 +3796,6 @@
     <string name="HeaderTabCounterCountNotMuted">فقط شمارش چت های ساکت نشده</string>
     <string name="HideTabsCounters">عدم نمایش شمارشگر تب ها</string>
     <string name="MarkAllAsRead">تمام موارد رو به عنوان خوانده شده در نظر بگیر</string>
-    <string name="TabsAddToFavorites">افزودن به علاقه مندی ها</string>
-    <string name="TabsDeleteFromFavorites">حذف از علاقه مندی ها</string>
 
     <string name="ShowHeaderShadow">نمایش سایه تب ها</string>
 
@@ -3897,10 +3895,6 @@
     <string name="BiftorDeleteMediaFromSdToo">همچنین فایل آن در\n حافظه(اگر موجود بود)</string>
     <string name="BiftorDeleteFromYourSide">این پیام فقط برای شما پاک می شود</string>
     <string name="BiftorDeleteMediaAreYouSure">آیا از پاک کردن فقط فایل مدیا اطمینان دارید؟</string>
-
-    <!--Biftor add ability to save files with original name -->
-    <string name="KeepOriginalFilename">با نام اصلی فایل ذخیره کن</string>
-    <string name="KeepOriginalFilenameSub">به جای فقط شماره های فایل ها در قالب نام اصلی ذخیره خواهد شد (فعال کردن این آپشن پیشنهاد نمی شود)</string>
 
     <!--Biftor ChatPreView -->
     <string name="BiftorChatPreViewCat">پیش نمایش چت</string>
@@ -4044,7 +4038,7 @@
     <string name="BiftorHiddenChatsButton">دکمه دسترسی به چت های مخفی</string>
     <string name="BiftorHiddenChatsButtonNewMessages">لمس طولانی بر روی دکمه پیام جدید</string>
     <string name="BiftorHiddenChatsButtonSearch">لمس طولانی بر روی دکمه جستجو</string>
-    <string name="BiftorHiddenChatsButtonGhostMode">لمس طولانی بر روی دکمه حالت روح</string>
+    <string name="BiftorHiddenChatsButtonOpenDrawer">لمس طولانی بر روی دکمه دراور</string>
     <string name="BiftorRemoveHiddenChatsNotifi">عدم نمایش اعلان چت های مخفی</string>
 
     <!-- Biftor export chat list -->
@@ -4149,38 +4143,40 @@
 
     <!-- Biftor auto download next media -->
     <string name="BiftorEnableAutoDownloadNextMedia">دانلود خودکار رسانه بعدی</string>
+    <string name="BiftorDisableGoToNextMedia">غیر فعال کردن رفتن به عکس بعدی</string>
+    <string name="BiftorDisableGoToNextMediaSub">غیر فعال کردن رفتن به عکس بعدی با زدن بر روی گوشه های عکس</string>
 
     <!-- Biftor enable camera in attach menu -->
     <string name="BiftorEnableCameraAttachMenu">نمایش دوربین در منوی پیوست</string>
 
     <!-- Biftor added more media screen tabs -->
-    <string name="BiftorMediaTabPhotos_zero">%1$d photos</string>
-    <string name="BiftorMediaTabPhotos_one">%1$d photos</string>
-    <string name="BiftorMediaTabPhotos_two">%1$d photos</string>
-    <string name="BiftorMediaTabPhotos_few">%1$d photos</string>
-    <string name="BiftorMediaTabPhotos_many">%1$d photos</string>
-    <string name="BiftorMediaTabPhotos_other">%1$d photos</string>
+    <string name="BiftorMediaTabPhotos_zero">%1$d عکس</string>
+    <string name="BiftorMediaTabPhotos_one">%1$d عکس</string>
+    <string name="BiftorMediaTabPhotos_two">%1$d عکس</string>
+    <string name="BiftorMediaTabPhotos_few">%1$d عکس</string>
+    <string name="BiftorMediaTabPhotos_many">%1$d عکس</string>
+    <string name="BiftorMediaTabPhotos_other">%1$d عکس</string>
 
-    <string name="BiftorMediaTabVideos_zero">%1$d videos</string>
-    <string name="BiftorMediaTabVideos_one">%1$d videos</string>
-    <string name="BiftorMediaTabVideos_two">%1$d videos</string>
-    <string name="BiftorMediaTabVideos_few">%1$d videos</string>
-    <string name="BiftorMediaTabVideos_many">%1$d videos</string>
-    <string name="BiftorMediaTabVideos_other">%1$d videos</string>
+    <string name="BiftorMediaTabVideos_zero">%1$d فیلم</string>
+    <string name="BiftorMediaTabVideos_one">%1$d فیلم</string>
+    <string name="BiftorMediaTabVideos_two">%1$d فیلم</string>
+    <string name="BiftorMediaTabVideos_few">%1$d فیلم</string>
+    <string name="BiftorMediaTabVideos_many">%1$d فیلم</string>
+    <string name="BiftorMediaTabVideos_other">%1$d فیلم</string>
 
-    <string name="BiftorMediaTabGifs_zero">%1$d gifs</string>
-    <string name="BiftorMediaTabGifs_one">%1$d gifs</string>
-    <string name="BiftorMediaTabGifs_two">%1$d gifs</string>
-    <string name="BiftorMediaTabGifs_few">%1$d gifs</string>
-    <string name="BiftorMediaTabGifs_many">%1$d gifs</string>
-    <string name="BiftorMediaTabGifs_other">%1$d gifs</string>
+    <string name="BiftorMediaTabGifs_zero">%1$d گیف</string>
+    <string name="BiftorMediaTabGifs_one">%1$d گیف</string>
+    <string name="BiftorMediaTabGifs_two">%1$d گیف</string>
+    <string name="BiftorMediaTabGifs_few">%1$d گیف</string>
+    <string name="BiftorMediaTabGifs_many">%1$d گیف</string>
+    <string name="BiftorMediaTabGifs_other">%1$d گیف</string>
 
-    <string name="BiftorMediaTabRounds_zero">%1$d rounds</string>
-    <string name="BiftorMediaTabRounds_one">%1$d rounds</string>
-    <string name="BiftorMediaTabRounds_two">%1$d rounds</string>
-    <string name="BiftorMediaTabRounds_few">%1$d rounds</string>
-    <string name="BiftorMediaTabRounds_many">%1$d rounds</string>
-    <string name="BiftorMediaTabRounds_other">%1$d rounds</string>
+    <string name="BiftorMediaTabRounds_zero">%1$d روند</string>
+    <string name="BiftorMediaTabRounds_one">%1$d روند</string>
+    <string name="BiftorMediaTabRounds_two">%1$d روند</string>
+    <string name="BiftorMediaTabRounds_few">%1$d روند</string>
+    <string name="BiftorMediaTabRounds_many">%1$d روند</string>
+    <string name="BiftorMediaTabRounds_other">%1$d روند</string>
 
     <string name="BiftorMediaTabPhotos">تصاویر</string>
     <string name="BiftorProMediaTabPhotos">تصاویر</string>
@@ -4470,10 +4466,10 @@
     <string name="BiftorChannelDiscuss">بحث</string>
 
     <!--Biftor Translate-->
-    <string name="BiftorTranslate">Translate</string>
-    <string name="BiftorTranslateEnterText">Enter text</string>
-    <string name="BiftorTranslateEnterTextEmpty">You must enter text to translate</string>
-    <string name="BiftorTranslateAUTO_DETECT">Auto detect</string>
+    <string name="BiftorTranslate">ترجمه</string>
+    <string name="BiftorTranslateEnterText">متن خود را وارد کنید</string>
+    <string name="BiftorTranslateEnterTextEmpty">شما باید نوشته خود را برای ترجمه وارد کنید</string>
+    <string name="BiftorTranslateAUTO_DETECT">تشخیص خودکار</string>
     <string name="BiftorTranslateAFRIKAANS">Afrikaans</string>
     <string name="BiftorTranslateALBANIAN">ALBANIAN</string>
     <string name="BiftorTranslateARABIC">ARABIC</string>
@@ -4542,23 +4538,39 @@
 
 
     <!--Biftor delete from recent search-->
-    <string name="BiftorDeletRecentSearchItem">Are you sure you want to delete this: **%1$s** from recent search?</string>
+    <string name="BiftorDeletRecentSearchItem">از پاک کردن این **%1$s** چت از جستوجوی اخیر خود اطمینان دارید؟</string>
 
-    <string name="BiftorDrawerContactAndGroup">Contacts and groups</string>
+    <string name="BiftorDrawerContactAndGroup">مخاطبین و گروه ها</string>
 
     <!--Biftor floating new msg-->
-    <string name="BiftorChangeToSaveMsg">change FB to save message</string>
-    <string name="BiftorChangeToSaveMsgSub">change new chat button (floating button in chat) to open saved messages</string>
+    <string name="BiftorChangeToSaveMsg">تغییر دادن دکمه شناور</string>
+    <string name="BiftorChangeToSaveMsgSub">تغییر حالت دکمه شناور به باز کردن پیام های ذخیره شده</string>
 
-    <string name="BiftorShow">Show</string>
-    <string name="BiftorShowFolder">Show folder</string>
-    <string name="BiftorHideFolder">Hide folder</string>
-    <string name="BiftorHideFolderAreYouSure">Are you sure you want to hide this folder?</string>
-    <string name="BiftorShowFolderAreYouSure">Are you sure you want to show this folder?</string>
+    <string name="BiftorShow">نمایش</string>
+    <string name="BiftorShowFolder">نمایش پوشه</string>
+    <string name="BiftorHideFolder">مخفی کردن پوشه</string>
+    <string name="BiftorHideFolderAreYouSure">از مخفی کردن این پوشه مطمعن هستید؟</string>
+    <string name="BiftorShowFolderAreYouSure">از نمایش این پوشه مطمعن هستید؟</string>
     <!--Biftor internal updater-->
-    <string name="BiftorSkipUpdate">Skip</string>
-    <string name="BiftorRemindTomorrow">Tomorrow</string>
-    <string name="BiftorUpdateIsAvailable">Update is available</string>
-    <string name="BiftorCheckForUpdate">Check for update</string>
-    <string name="BiftorDownloadLatestVersion">Download last version</string>
+    <string name="BiftorSkipUpdate">بعدا</string>
+    <string name="BiftorRemindTomorrow">فردا</string>
+    <string name="BiftorUpdateIsAvailable">آپدیت جدید</string>
+    <string name="BiftorCheckForUpdate">چک کرد نسخه جدید</string>
+    <string name="BiftorDownloadLatestVersion">دانلود کردن اخرین نسخه</string>
+
+    <!--Biftor direct chats-->
+    <string name="BiftorDirectChats">چت های مستقیم</string>
+    <string name="BiftorSetAsDirectChats">انخاب به عنوان چت مستقیم</string>
+    <string name="BiftorDirectChatsReset">ریست کردن چت مستقیم</string>
+    <string name="BiftorDisplayDirectChats">نمایش چت های مسقدیم در</string>
+    <string name="BiftorDisplayDirectChatsSide">منوی کشویی</string>
+    <string name="BiftorDisplayDirectChatsTab">تب</string>
+    <string name="BiftorDisplayDirectChatsSideTab">منوی کشویی و تب</string>
+    <string name="BiftorDirectChatsReorder">ترتیب چت های مستقیم</string>
+    <string name="BiftorShowDirectChatsInDrawer">نمایش چت های مستقیم در منوی کشویی</string>
+    <string name="BiftorAddToFav">افزودن به علاقمندی</string>
+    <string name="BiftorDeleteFromFav">حذف علاقه مندی</string>
+
+    <string name="BiftorHideSponsorProxy">مخفی کردن اسپانسر</string>
+    <string name="BiftorHideSponsorProxySub">مخفی کردن کانال اسپانسر پروکسی در صفحه چت</string>
 </resources>

@@ -683,7 +683,7 @@
     <string name="BiftorReducedConnectionPadding">Vermindere Verbindungsauffüllung</string>
     <string name="BiftorReducedConnectionPaddingSub">Schließe Relay-Verbindungen früher und sende weniger Fülldaten um Bandbreiten und Akkunutzung zu reduzieren</string>
     <string name="BiftorConnectTorWhenForNotify">Connect TOR when notification received</string>
-    <string name="BiftorGetBridgeFromGithub">Request new bridge from DropBox</string>
+    <string name="BiftorGetBridgeFromGithub">Request new bridge from Github</string>
 
     <!--Biftor custom tabs-->
     <string name="BiftorNewTab">Neuer Tab</string>

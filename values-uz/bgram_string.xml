@@ -688,7 +688,7 @@
 	<string name="BiftorReducedConnectionPadding">Bog‘lanish bandligini kamaytirmoq</string>
 	<string name="BiftorReducedConnectionPaddingSub">Bog‘lanishni tezlashtirgan holda, uzatishni kamaytirib battareya sarfi tejab qolinadi.</string>
 	<string name="BiftorConnectTorWhenForNotify">Bildirgi qabul qilinganda, TOR rejimini yoqmoq</string>
-	<string name="BiftorGetBridgeFromGithub">DropBox orqali yangi o‘tilmani so‘ramoq</string>
+	<string name="BiftorGetBridgeFromGithub">Github orqali yangi o‘tilmani so‘ramoq</string>
 
 	<!--Biftor custom tabs-->
 	<string name="BiftorNewTab">Yangi xatcho‘p</string>

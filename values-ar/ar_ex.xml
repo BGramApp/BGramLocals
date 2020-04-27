@@ -4132,7 +4132,7 @@
     <string name="BiftorReducedConnectionPadding"> تخفيض الحشو</string>
     <string name="BiftorReducedConnectionPaddingSub">إغلاق تتابع الإتصال و إرسال حزم أقل لتقليل إستخدام  البيانات و البطارية</string>
     <string name="BiftorConnectTorWhenForNotify">قم بتوصيل تور  عند تلقي الإخطار</string>
-    <string name="BiftorGetBridgeFromGithub">طلب جسر جديد من (DropBox)</string>
+    <string name="BiftorGetBridgeFromGithub">طلب جسر جديد من (Github)</string>
 
     <!--Biftor custom tabs-->
     <string name="BiftorNewTab">تبويب جديد</string>

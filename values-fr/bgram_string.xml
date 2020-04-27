@@ -685,7 +685,7 @@
     <string name="BiftorReducedConnectionPadding">Remplissage de connexion réduit</string>
     <string name="BiftorReducedConnectionPaddingSub">Ferme les connexions de relais plus tôt et envoie moins de paquets de remplissage pour réduire l\'utilisation des données et de la batterie</string>
     <string name="BiftorConnectTorWhenForNotify">Connecter à TOR lorsque la notification est reçue</string>
-    <string name="BiftorGetBridgeFromGithub">Demander un nouveau pont pour DropBox</string>
+    <string name="BiftorGetBridgeFromGithub">Demander un nouveau pont pour Github</string>
 
     <!--Biftor custom tabs-->
     <string name="BiftorNewTab">Nonvel onglet</string>

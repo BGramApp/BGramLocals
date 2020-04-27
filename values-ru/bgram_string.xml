@@ -683,7 +683,7 @@
 	<string name="BiftorReducedConnectionPadding">Сократить ожидание</string>
 	<string name="BiftorReducedConnectionPaddingSub">Закрывает ретрансляционные соединения раньше и отправляет меньше дополнительных пакетов, чтобы уменьшить потребление данных и батареи</string>
 	<string name="BiftorConnectTorWhenForNotify">Подключать TOR при получении Push</string>
-	<string name="BiftorGetBridgeFromGithub">Новый мост из DropBox</string>
+	<string name="BiftorGetBridgeFromGithub">Новый мост из Github</string>
 
 	<!--Biftor custom tabs-->
 	<string name="BiftorNewTab">Новая вкладка</string>

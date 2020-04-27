@@ -678,7 +678,7 @@
     <string name="BiftorStopTorWhenAppClosed">متوقف کردن تور بعد از بسته شدن برنامه</string>
     <string name="BiftorStopTorWhenAppClosedSub">متوقف کردن تور هروقت برنامه بسته شد، اگر شما این گزینه را غیر فعال کنید کل برنامه در زمانی که تور در اجر هست بسته نمی شود.</string>
     <string name="BiftorConnectTorWhenForNotify">اتصال اتوماتیک با آمدن پیام</string>
-    <string name="BiftorGetBridgeFromGithub">درخواست پل از دراپ باکس</string>
+    <string name="BiftorGetBridgeFromGithub">درخواست پل از گیت هاب</string>
 
     <!--Biftor custom tabs-->
     <string name="BiftorNewTab">تب جدید</string>

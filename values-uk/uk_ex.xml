@@ -348,7 +348,7 @@
 	<string name="ArticleByAuthor">від %1$s</string>
 	<string name="ArticleDateByAuthor">%1$s, автор: %2$s</string>
 	<string name="AskAQuestion">Корисна інформація та допомога</string>
-	<string name="AskAQuestionInfo"><![CDATA[<a href=\"https://telegram.me/tglive/458\">Теми для Telegram</a>]]>\n<![CDATA[<a href=\"https://t.me/Telegraph\">Бот сервісу Telegram</a>]]>\n<![CDATA[<a href=\"https://t.me/SpamBot\">Перевірка на спам-бан</a>]]>\n\nЗворотній зв\'язок і допомога щодо <![CDATA[<a href=\"https://t.me/AlterTG\">неофіційних клієнтів Telegram</a>]]> — група <![CDATA[<a href=\"https://t.me/AltTG\">@AltTG</a>]]>.\nЩодо перекладу — <![CDATA[<a href=\"https://t.me/OkS369\">@OkS369</a>]]>.\n\nПідтримка Telegram здійснюється добровольцями. Ми намагаємося відповідати якомога швидше, але іноді доведеться трохи зачекати.\n\nОзнайомтеся з <a href=\"https://telegram.org/faq#general-questions\">ЧаПи Telegram</a>: там є важливі поради щодо усунення <a href=\"https://telegram.org/faq#troubleshooting\">несправностей</a> та відповіді на поширені запитання.</string>
+	<string name="AskAQuestionInfo"><![CDATA[<a href=\"https://telegram.me/tglive/458\">Теми для Telegram</a>]]>\n<![CDATA[<a href=\"https://t.me/Telegraph\">Бот сервісу Telegram</a>]]>\n<![CDATA[<a href=\"https://t.me/SpamBot\">Перевірка на спам-бан</a>]]>\n\nЗворотній зв\'язок і допомога щодо <![CDATA[<a href=\"https://t.me/AlterTG\">неофіційних клієнтів Telegram</a>]]> — група <![CDATA[<a href=\"https://t.me/AltTG\">@AltTG</a>]]>.\nЩодо перекладу — <![CDATA[<a href=\"https://t.me/OkS369\">@OkS369</a>]]>.\n\nПідтримка Telegram здійснюється добровольцями. Ми намагаємося відповідати якомога швидше, але іноді доведеться трохи зачекати.\n\nОзнайомтеся з <![CDATA[<a href=\"https://telegram.org/faq#general-questions\">ЧаПи Telegram</a>]]>: там є важливі поради щодо усунення <![CDATA[<a href=\"https://telegram.org/faq#troubleshooting\">несправностей</a>]]> та відповіді на поширені запитання.</string>
 	<string name="AskButton">Запитати</string>
 	<string name="AttachAudio">Голосове повідомлення</string>
 	<string name="AttachBotsHelp">Прокрутіть вниз для ботів</string>
@@ -4238,7 +4238,7 @@
     <string name="BiftorReducedConnectionPadding">Зменшення розміру підключення</string>
     <string name="BiftorReducedConnectionPaddingSub">Раніше закриває релейні з\'єднання та надсилає менше пакетів для зменшення передачі даних та використання батареї</string>
     <string name="BiftorConnectTorWhenForNotify">Підключення TOR, коли отримано сповіщення</string>
-    <string name="BiftorGetBridgeFromGithub">Вимагати новий міст від DropBox</string>
+    <string name="BiftorGetBridgeFromGithub">Вимагати новий міст від Github</string>
 
     <!-- Biftor goto msg for all chats-->
     <string name="BiftorMentionMsg">Згадка</string>

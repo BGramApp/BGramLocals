@@ -80,7 +80,6 @@
 	<string name="HeaderTabCounterCountChats">Xabarlar o‘rniga chatlarni hisoblamoq</string>
 	<string name="HeaderTabCounterCountNotMuted">Ovozsizlarni hisoblamaslik</string>
 	<string name="HideTabsCounters">Xatcho‘pda hisoblagichda ko‘rsatmaslik</string>
-	<string name="MarkAllAsRead">Barini o‘qigan qilib belgilamoq</string>
 	<string name="BiftorForceMarkAsRead">Majburiy o‘qish</string>
 	<string name="ShowHeaderShadow">Sarlavhani soyada ajratib ko‘rsatmoq</string>
 	<string name="ShowTabsAtBottom">Xatcho‘pni pastga o‘tkazmoq</string>

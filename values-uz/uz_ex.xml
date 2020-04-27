@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="AppName">Telegram</string>
-    <string name="AppNameBeta">Telegram</string>
     <string name="LanguageName">O‘zbek</string>
     <string name="English">Ingliz</string>
     <string name="LanguageNameInEnglish">Uzbek</string>
@@ -3826,7 +3824,6 @@
 	<string name="HeaderTabCounterCountChats">Xabarlar o‘rniga chatlarni hisoblamoq</string>
 	<string name="HeaderTabCounterCountNotMuted">Ovozsizlarni hisoblamaslik</string>
 	<string name="HideTabsCounters">Xatcho‘pda hisoblagichda ko‘rsatmaslik</string>
-	<string name="MarkAllAsRead">Barini o‘qigan qilib belgilamoq</string>
 	<string name="BiftorForceMarkAsRead">Majburiy o‘qish</string>
 	<string name="ShowHeaderShadow">Sarlavhani soyada ajratib ko‘rsatmoq</string>
 	<string name="ShowTabsAtBottom">Xatcho‘pni pastga o‘tkazmoq</string>

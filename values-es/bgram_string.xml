@@ -321,7 +321,7 @@
     <string name="BiftorHiddenChatsButton">Botón de chats ocultos</string>
     <string name="BiftorHiddenChatsButtonNewMessages">Toque largo en botón nuevo mensaje</string>
     <string name="BiftorHiddenChatsButtonSearch">Toque largo en búsqueda</string>
-    <string name="BiftorHiddenChatsButtonOpenDrawer">Long click on open drawer</string>
+    <string name="BiftorHiddenChatsButtonOpenDrawer">Toque largo en el cajón</string>
     <string name="BiftorRemoveHiddenChatsNotifi">Elimina notif. chats ocultos</string>
 
     <!-- Biftor export chat list -->
@@ -424,19 +424,19 @@
 
     <!-- Biftor auto download next media -->
     <string name="BiftorEnableAutoDownloadNextMedia">Autodescargar siguiente imagen</string>
-    <string name="BiftorDisableGoToNextMedia">Disable go to next media</string>
-    <string name="BiftorDisableGoToNextMediaSub">Disable go to next media by tapping on photo edge</string>
+    <string name="BiftorDisableGoToNextMedia">Desactivar ir al siguiente medio</string>
+    <string name="BiftorDisableGoToNextMediaSub">Desactiva ir al siguiente medio al tocar los bordes de una foto</string>
 
     <!-- Biftor enable camera in attach menu -->
     <string name="BiftorEnableCameraAttachMenu">Activar cámara en panel adjuntar</string>
 
     <!-- Biftor added more media screen tabs -->
-    <string name="BiftorMediaTabPhotos_zero">%1$d photos</string>
-    <string name="BiftorMediaTabPhotos_one">%1$d photos</string>
-    <string name="BiftorMediaTabPhotos_two">%1$d photos</string>
-    <string name="BiftorMediaTabPhotos_few">%1$d photos</string>
-    <string name="BiftorMediaTabPhotos_many">%1$d photos</string>
-    <string name="BiftorMediaTabPhotos_other">%1$d photos</string>
+    <string name="BiftorMediaTabPhotos_zero">%1$d fotos</string>
+    <string name="BiftorMediaTabPhotos_one">%1$d fotos</string>
+    <string name="BiftorMediaTabPhotos_two">%1$d fotos</string>
+    <string name="BiftorMediaTabPhotos_few">%1$d fotos</string>
+    <string name="BiftorMediaTabPhotos_many">%1$d fotos</string>
+    <string name="BiftorMediaTabPhotos_other">%1$d fotos</string>
 
     <string name="BiftorMediaTabVideos_zero">%1$d videos</string>
     <string name="BiftorMediaTabVideos_one">%1$d videos</string>
@@ -452,12 +452,12 @@
     <string name="BiftorMediaTabGifs_many">%1$d gifs</string>
     <string name="BiftorMediaTabGifs_other">%1$d gifs</string>
 
-    <string name="BiftorMediaTabRounds_zero">%1$d rounds</string>
-    <string name="BiftorMediaTabRounds_one">%1$d rounds</string>
-    <string name="BiftorMediaTabRounds_two">%1$d rounds</string>
-    <string name="BiftorMediaTabRounds_few">%1$d rounds</string>
-    <string name="BiftorMediaTabRounds_many">%1$d rounds</string>
-    <string name="BiftorMediaTabRounds_other">%1$d rounds</string>
+    <string name="BiftorMediaTabRounds_zero">%1$d videomensajes</string>
+    <string name="BiftorMediaTabRounds_one">%1$d videomensajes</string>
+    <string name="BiftorMediaTabRounds_two">%1$d videomensajes</string>
+    <string name="BiftorMediaTabRounds_few">%1$d videomensajes</string>
+    <string name="BiftorMediaTabRounds_many">%1$d videomensajes</string>
+    <string name="BiftorMediaTabRounds_other">%1$d videomensajes</string>
 
     <string name="BiftorMediaTabPhotos">FOTOS</string>
     <string name="BiftorProMediaTabPhotos">Fotos</string>
@@ -747,10 +747,10 @@
     <string name="BiftorChannelDiscuss">Conversar</string>
 
     <!--Biftor Translate-->
-    <string name="BiftorTranslate">Translate</string>
-    <string name="BiftorTranslateEnterText">Enter text</string>
-    <string name="BiftorTranslateEnterTextEmpty">You must enter text to translate</string>
-    <string name="BiftorTranslateAUTO_DETECT">Auto detect</string>
+    <string name="BiftorTranslate">Traductor</string>
+    <string name="BiftorTranslateEnterText">Introduce el texto</string>
+    <string name="BiftorTranslateEnterTextEmpty">Debes introducir texto para traducir</string>
+    <string name="BiftorTranslateAUTO_DETECT">Autodetectar</string>
     <string name="BiftorTranslateAFRIKAANS">Afrikaans</string>
     <string name="BiftorTranslateALBANIAN">ALBANIAN</string>
     <string name="BiftorTranslateARABIC">ARABIC</string>
@@ -819,39 +819,39 @@
 
 
     <!--Biftor delete from recent search-->
-    <string name="BiftorDeletRecentSearchItem">Are you sure you want to delete this: **%1$s** from recent search?</string>
+    <string name="BiftorDeletRecentSearchItem">¿Estás seguro que quieres borrar esto: **%1$s** de la búsqueda reciente?</string>
 
-    <string name="BiftorDrawerContactAndGroup">Contacts and groups</string>
+    <string name="BiftorDrawerContactAndGroup">Contactos y grupos</string>
 
     <!--Biftor floating new msg-->
-    <string name="BiftorChangeToSaveMsg">change FB to save message</string>
-    <string name="BiftorChangeToSaveMsgSub">change new chat button (floating button in chat) to open saved messages</string>
+    <string name="BiftorChangeToSaveMsg">Cambiar botón a mensajes guardados</string>
+    <string name="BiftorChangeToSaveMsgSub">Cambia el botón de nuevo chat (botón flotante en el chat) para abrir mensajes guardados</string>
 
-    <string name="BiftorShow">Show</string>
-    <string name="BiftorShowFolder">Show folder</string>
-    <string name="BiftorHideFolder">Hide folder</string>
-    <string name="BiftorHideFolderAreYouSure">Are you sure you want to hide this folder?</string>
-    <string name="BiftorShowFolderAreYouSure">Are you sure you want to show this folder?</string>
+    <string name="BiftorShow">Mostrar</string>
+    <string name="BiftorShowFolder">Mostrar carpeta</string>
+    <string name="BiftorHideFolder">Ocultar carpeta</string>
+    <string name="BiftorHideFolderAreYouSure">¿Estás seguro que quieres ocultar esta carpeta?</string>
+    <string name="BiftorShowFolderAreYouSure">¿Estás seguro que quieres mostrar esta carpeta?</string>
     <!--Biftor internal updater-->
-    <string name="BiftorSkipUpdate">Skip</string>
-    <string name="BiftorRemindTomorrow">Tomorrow</string>
-    <string name="BiftorUpdateIsAvailable">Update is available</string>
-    <string name="BiftorCheckForUpdate">Check for update</string>
-    <string name="BiftorDownloadLatestVersion">Download last version</string>
+    <string name="BiftorSkipUpdate">Saltar</string>
+    <string name="BiftorRemindTomorrow">Mañana</string>
+    <string name="BiftorUpdateIsAvailable">Actualización disponible</string>
+    <string name="BiftorCheckForUpdate">Buscar actualización</string>
+    <string name="BiftorDownloadLatestVersion">Descargar la última versión</string>
 
     <!--Biftor direct chats-->
-    <string name="BiftorDirectChats">Direct chats</string>
-    <string name="BiftorSetAsDirectChats">Set as direct chats</string>
-    <string name="BiftorDirectChatsReset">Reset direct chat</string>
-    <string name="BiftorDisplayDirectChats">Display direct chat at</string>
-    <string name="BiftorDisplayDirectChatsSide">Sidebar</string>
-    <string name="BiftorDisplayDirectChatsTab">Tab</string>
-    <string name="BiftorDisplayDirectChatsSideTab">Sidebar and Tab</string>
-    <string name="BiftorDirectChatsReorder">Direct chats order</string>
-    <string name="BiftorShowDirectChatsInDrawer">Show direct chats in drawer</string>
-    <string name="BiftorAddToFav">Add to favourite</string>
-    <string name="BiftorDeleteFromFav">Delete from favourite</string>
+    <string name="BiftorDirectChats">Chats directos</string>
+    <string name="BiftorSetAsDirectChats">Establecer como chat directo</string>
+    <string name="BiftorDirectChatsReset">Resetear chats directos</string>
+    <string name="BiftorDisplayDirectChats">Mostrar chat directo en</string>
+    <string name="BiftorDisplayDirectChatsSide">Barra lateral</string>
+    <string name="BiftorDisplayDirectChatsTab">Pestaña</string>
+    <string name="BiftorDisplayDirectChatsSideTab">Barra lateral y pestaña</string>
+    <string name="BiftorDirectChatsReorder">Ordenar chats directos</string>
+    <string name="BiftorShowDirectChatsInDrawer">Muestra chats directos en el cajón</string>
+    <string name="BiftorAddToFav">Añadir a favoritos</string>
+    <string name="BiftorDeleteFromFav">Eliminar de favoritos</string>
 
-    <string name="BiftorHideSponsorProxy">Hide sponsor</string>
-    <string name="BiftorHideSponsorProxySub">Hide sponsor proxy from chat list</string>
+    <string name="BiftorHideSponsorProxy">Ocultar patrocinador</string>
+    <string name="BiftorHideSponsorProxySub">Oculta el proxy patrocinado de la lista de chats</string>
 </resources>

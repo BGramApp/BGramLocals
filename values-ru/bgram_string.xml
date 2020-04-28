@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version='1.0' encoding='UTF-8'?>
 <resources>
 
 	<string name="BGram">BGram</string>
@@ -43,7 +43,7 @@
 	<string name="BiftorRightSideOpenButton">Кнопка вызова панели</string>
 	<string name="BiftorShowTabsAtTop">Сверху</string>
 	<string name="BiftorShowTabsAtBottom">Снизу</string>
-	<string name="BiftorShowNewChatButton">Показывать кнопку «Создать чат»</string>
+	<string name="BiftorShowNewChatButton">Показывать плавающую кнопку</string>
 	<string name="HideTabs">Не использовать вкладки</string>
 	<string name="All">Все</string>
 	<string name="Users">Личные</string>
@@ -51,8 +51,7 @@
 	<string name="SuperGroups">Супергруппы</string>
 	<string name="Channels">Каналы</string>
 	<string name="Bots">Боты</string>
-	<string name="Favorites">Избранные</string>
-
+	<string name="Favorites">Любимые</string>
 	<string name="AllGroups">Все группы</string>
 	<string name="Unreads">Непрочтённые</string>
 	<string name="Secrets">Секретные</string>
@@ -82,7 +81,6 @@
 	<string name="HeaderTabCounterCountChats">Считать чаты вместо сообщений</string>
 	<string name="HeaderTabCounterCountNotMuted">Не считать приглушённые</string>
 	<string name="HideTabsCounters">Скрыть счётчики на вкладках</string>
-	<string name="MarkAllAsRead">Отметить все прочитанными</string>
 	<string name="BiftorForceMarkAsRead">Принудительное прочтение</string>
 
 	<string name="ShowHeaderShadow">Отделять тенью от заголовка</string>
@@ -155,14 +153,14 @@
 	<string name="SaveToCloud">Сохранить в облако</string>
 	<string name="SaveToCloudAlert">С именем автора?</string>
 	<string name="MessageSaved">Сохранено в облаке</string>
-	<string name="BiftorSaveWithQuot">Да</string>
+	<string name="BiftorSaveWithQuot">С автором</string>
 	<string name="BiftorSaveWithOutQuot">Без автора</string>
 	<string name="BiftorSaveToCloudDefaultAction">Сохранение источника при отправке в облако</string>
 	<string name="BiftorSaveToCloudAskAlways">Всегда спрашивать</string>
 
 	<!--Biftor Avatar click menu -->
 	<string name="ShowUserMessages">Сообщения пользователя</string>
-	<string name="ShowUserMedia">Медиафайлы пользователя</string>
+	<string name="ShowUserMedia">Файлы пользователя</string>
 	<string name="ShowProfile">Открыть профиль</string>
 	<string name="BiftorCopyUsername">Копировать @username</string>
 	<string name="BiftorUserNameCopied">Юзернейм скопирован</string>
@@ -217,7 +215,7 @@
 	<string name="BGramOfficialChannelSub">Информация об обновлениях.</string>
 	<string name="BGramOfficialGroupPublic">Официальная группа</string>
 	<string name="BGramOfficialGroupPublicSub">Для сообщений об ошибках и предложений.</string>
-	<string name="BGramOfficialGroupNormal">Иранская группа</string>
+	<string name="BGramOfficialGroupNormal">Farsi группа</string>
 	<string name="BGramOfficialGroupNormalSub">Для иранских пользователей.</string>
 	<string name="BGramRateApp">Оценить</string>
 	<string name="BGramRateAppSub">Будем признательны за высокую оценку в Google Play! Также вы нам поможете, отмечая как спам необоснованные отрицательные отзывы.\nБольшинство проблем легко решаются, если задать вопрос в официальной группе.</string>
@@ -319,10 +317,10 @@
 	<string name="BiftorSetPassCodeForHiddenChats">Задать пароль для скрытых</string>
 	<string name="BiftorRemoveHiddenChatsFromSearch">Не показывать при поиске</string>
 	<string name="BiftorChangePasscodeInfo">После установки пароля приложение будет запрашивать его при каждом доступе к скрытым чатам. Опция едина для всех ваших аккаунтов. \nЕсли вы забудете код доступа, вам придётся переустановить приложение. При этом будут утрачены секретные чаты.</string>
-	<string name="BiftorHiddenChatsButton">Доступ к скрытым (долгое нажатие)</string>
-	<string name="BiftorHiddenChatsButtonNewMessages">Плавающая кнопка</string>
+	<string name="BiftorHiddenChatsButton">Доступ к скрытым</string>
+	<string name="BiftorHiddenChatsButtonNewMessages">Удержание плавающей кнопки</string>
 	<string name="BiftorHiddenChatsButtonSearch">Поиск</string>
-	<string name="BiftorHiddenChatsButtonOpenDrawer">Long click on open drawer</string>
+	<string name="BiftorHiddenChatsButtonOpenDrawer">Удержание кнопки главного меню</string>
 	<string name="BiftorRemoveHiddenChatsNotifi">Не уведомлять о скрытых</string>
 
 	<!-- Biftor export chat list -->
@@ -425,41 +423,37 @@
 
 	<!-- Biftor auto download next media -->
 	<string name="BiftorEnableAutoDownloadNextMedia">Предзагрузка соседних медиа</string>
-	<string name="BiftorDisableGoToNextMedia">Disable go to next media</string>
-	<string name="BiftorDisableGoToNextMediaSub">Disable go to next media by tapping on photo edge</string>
+	<string name="BiftorDisableGoToNextMedia">Запретить листание медиа</string>
+	<string name="BiftorDisableGoToNextMediaSub">Отключить переход к следующему медиа при нажатии на край.</string>
 
 	<!-- Biftor enable camera in attach menu -->
 	<string name="BiftorEnableCameraAttachMenu">Камера в панели «прикрепить»</string>
 
 	<!-- Biftor added more media screen tabs -->
-	<string name="BiftorMediaTabPhotos_zero">%1$d photos</string>
-	<string name="BiftorMediaTabPhotos_one">%1$d photos</string>
-	<string name="BiftorMediaTabPhotos_two">%1$d photos</string>
-	<string name="BiftorMediaTabPhotos_few">%1$d photos</string>
-	<string name="BiftorMediaTabPhotos_many">%1$d photos</string>
-	<string name="BiftorMediaTabPhotos_other">%1$d photos</string>
-
-	<string name="BiftorMediaTabVideos_zero">%1$d videos</string>
-	<string name="BiftorMediaTabVideos_one">%1$d videos</string>
-	<string name="BiftorMediaTabVideos_two">%1$d videos</string>
-	<string name="BiftorMediaTabVideos_few">%1$d videos</string>
-	<string name="BiftorMediaTabVideos_many">%1$d videos</string>
-	<string name="BiftorMediaTabVideos_other">%1$d videos</string>
-
-	<string name="BiftorMediaTabGifs_zero">%1$d gifs</string>
-	<string name="BiftorMediaTabGifs_one">%1$d gifs</string>
-	<string name="BiftorMediaTabGifs_two">%1$d gifs</string>
-	<string name="BiftorMediaTabGifs_few">%1$d gifs</string>
-	<string name="BiftorMediaTabGifs_many">%1$d gifs</string>
-	<string name="BiftorMediaTabGifs_other">%1$d gifs</string>
-
-	<string name="BiftorMediaTabRounds_zero">%1$d rounds</string>
-	<string name="BiftorMediaTabRounds_one">%1$d rounds</string>
-	<string name="BiftorMediaTabRounds_two">%1$d rounds</string>
-	<string name="BiftorMediaTabRounds_few">%1$d rounds</string>
-	<string name="BiftorMediaTabRounds_many">%1$d rounds</string>
-	<string name="BiftorMediaTabRounds_other">%1$d rounds</string>
-
+	<string name="BiftorMediaTabPhotos_zero">%1$d фото</string>
+	<string name="BiftorMediaTabPhotos_one">%1$d фото</string>
+	<string name="BiftorMediaTabPhotos_two">%1$d фото</string>
+	<string name="BiftorMediaTabPhotos_few">%1$d фото</string>
+	<string name="BiftorMediaTabPhotos_many">%1$d фото</string>
+	<string name="BiftorMediaTabPhotos_other">%1$d фото</string>
+	<string name="BiftorMediaTabVideos_zero">%1$d видео</string>
+	<string name="BiftorMediaTabVideos_one">%1$d видео</string>
+	<string name="BiftorMediaTabVideos_two">%1$d видео</string>
+	<string name="BiftorMediaTabVideos_few">%1$d видео</string>
+	<string name="BiftorMediaTabVideos_many">%1$d видео</string>
+	<string name="BiftorMediaTabVideos_other">%1$d видео</string>
+	<string name="BiftorMediaTabGifs_zero">%1$d GIF</string>
+	<string name="BiftorMediaTabGifs_one">%1$d GIF</string>
+	<string name="BiftorMediaTabGifs_two">%1$d GIF</string>
+	<string name="BiftorMediaTabGifs_few">%1$d GIF</string>
+	<string name="BiftorMediaTabGifs_many">%1$d GIF</string>
+	<string name="BiftorMediaTabGifs_other">%1$d GIF</string>
+	<string name="BiftorMediaTabRounds_zero">%1$d записей</string>
+	<string name="BiftorMediaTabRounds_one">%1$d запись</string>
+	<string name="BiftorMediaTabRounds_two">%1$d записи</string>
+	<string name="BiftorMediaTabRounds_few">%1$d записи</string>
+	<string name="BiftorMediaTabRounds_many">%1$d записей</string>
+	<string name="BiftorMediaTabRounds_other">%1$d записей</string>
 	<string name="BiftorMediaTabPhotos">ФОТО</string>
 	<string name="BiftorProMediaTabPhotos">Фото</string>
 	<string name="BiftorProMediaTabVideos">Видео</string>
@@ -524,7 +518,7 @@
 	<string name="BiftorBackUp">Резервное копирование</string>
 	<string name="BiftorBackUpGlobal">Общие настройки</string>
 	<string name="BiftorBackUpMain">Главные настройки</string>
-	<string name="BiftorBackUpFav">Избранные чаты</string>
+	<string name="BiftorBackUpFav">Любимые чаты</string>
 	<string name="BiftorBackUpHidden">Скрытые чаты</string>
 	<string name="BiftorBackUpCustomTabs">Созданные вкладки</string>
 	<string name="BiftorBackUpFonts">Пользовательские шрифты</string>
@@ -535,14 +529,14 @@
 	<string name="BiftorRestore">Восстановление</string>
 	<string name="BiftorRestoreGlobal">Общие настройки</string>
 	<string name="BiftorRestoreMain">Главные настройки</string>
-	<string name="BiftorRestoreFav">Избранные чаты</string>
+	<string name="BiftorRestoreFav">Любимые чаты</string>
 	<string name="BiftorRestoreHidden">Скрытые чаты</string>
 	<string name="BiftorRestoreCustomTabs">Созданные вкладки</string>
 
 	<string name="BiftorRestoreToDef">Сброс к значениям по умолчанию</string>
 	<string name="BiftorRestoreGlobalToDef">Сбросить общие настройки</string>
 	<string name="BiftorRestoreMainToDef">Сбросить главные настройки</string>
-	<string name="BiftorRestoreFavToDef">Восстановить избранные чаты</string>
+	<string name="BiftorRestoreFavToDef">Восстановить любимые чаты</string>
 	<string name="BiftorRestoreHiddenToDef">Восстановить скрытые чаты</string>
 	<string name="BiftorRestoreCustomTabsToDef">Сбросить созданные вкладки</string>
 
@@ -748,111 +742,109 @@
 	<string name="BiftorChannelDiscuss">Обсудить</string>
 
 	<!--Biftor Translate-->
-	<string name="BiftorTranslate">Translate</string>
-	<string name="BiftorTranslateEnterText">Enter text</string>
-	<string name="BiftorTranslateEnterTextEmpty">You must enter text to translate</string>
-	<string name="BiftorTranslateAUTO_DETECT">Auto detect</string>
-	<string name="BiftorTranslateAFRIKAANS">Afrikaans</string>
-	<string name="BiftorTranslateALBANIAN">ALBANIAN</string>
-	<string name="BiftorTranslateARABIC">ARABIC</string>
-	<string name="BiftorTranslateARMENIAN">ARMENIAN</string>
-	<string name="BiftorTranslateAZERBAIJANI">AZERBAIJANI</string>
-	<string name="BiftorTranslateBASQUE">BASQUE</string>
-	<string name="BiftorTranslateBELARUSIAN">BELARUSIAN</string>
-	<string name="BiftorTranslateBENGALI">BENGALI</string>
-	<string name="BiftorTranslateBULGARIAN">BULGARIAN</string>
-	<string name="BiftorTranslateCATALAN">CATALAN</string>
-	<string name="BiftorTranslateCHINESE">CHINESE</string>
-	<string name="BiftorTranslateCROATIAN">CROATIAN</string>
-	<string name="BiftorTranslateCZECH">CZECH</string>
-	<string name="BiftorTranslateDANISH">DANISH</string>
-	<string name="BiftorTranslateDUTCH">DUTCH</string>
-	<string name="BiftorTranslateENGLISH">ENGLISH</string>
-	<string name="BiftorTranslateESTONIAN">ESTONIAN</string>
-	<string name="BiftorTranslateFILIPINO">FILIPINO</string>
-	<string name="BiftorTranslateFINNISH">FINNISH</string>
-	<string name="BiftorTranslateFRENCH">FRENCH</string>
-	<string name="BiftorTranslateGALICIAN">GALICIAN</string>
-	<string name="BiftorTranslateGEORGIAN">GEORGIAN</string>
-	<string name="BiftorTranslateGERMAN">GERMAN</string>
-	<string name="BiftorTranslateGREEK">GREEK</string>
-	<string name="BiftorTranslateGUJARATI">GUJARATI</string>
-	<string name="BiftorTranslateHAITIAN_CREOLE">HAITIAN CREOLE</string>
-	<string name="BiftorTranslateHEBREW">HEBREW</string>
-	<string name="BiftorTranslateHINDI">HINDI</string>
-	<string name="BiftorTranslateHUNGARIAN">HUNGARIAN</string>
-	<string name="BiftorTranslateICELANDIC">ICELANDIC</string>
-	<string name="BiftorTranslateINDONESIAN">INDONESIAN</string>
-	<string name="BiftorTranslateIRISH">IRISH</string>
-	<string name="BiftorTranslateITALIAN">ITALIAN</string>
-	<string name="BiftorTranslateJAPANESE">JAPANESE</string>
-	<string name="BiftorTranslateKANNADA">KANNADA</string>
-	<string name="BiftorTranslateKOREAN">KOREAN</string>
-	<string name="BiftorTranslateLATIN">LATIN</string>
-	<string name="BiftorTranslateLATVIAN">LATVIAN</string>
-	<string name="BiftorTranslateLITHUANIAN">LITHUANIAN</string>
-	<string name="BiftorTranslateMACEDONIAN">MACEDONIAN</string>
-	<string name="BiftorTranslateMALAY">MALAY</string>
-	<string name="BiftorTranslateMALTESE">MALTESE</string>
-	<string name="BiftorTranslateNORWEGIAN">NORWEGIAN</string>
-	<string name="BiftorTranslatePERSIAN">PERSIAN</string>
-	<string name="BiftorTranslatePOLISH">POLISH</string>
-	<string name="BiftorTranslatePORTUGUESE">PORTUGUESE</string>
-	<string name="BiftorTranslateROMANIAN">ROMANIAN</string>
-	<string name="BiftorTranslateRUSSIAN">RUSSIAN</string>
-	<string name="BiftorTranslateSERBIAN">SERBIAN</string>
-	<string name="BiftorTranslateSLOVAK">SLOVAK</string>
-	<string name="BiftorTranslateSLOVENIAN">SLOVENIAN</string>
-	<string name="BiftorTranslateSPANISH">SPANISH</string>
-	<string name="BiftorTranslateSWAHILI">SWAHILI</string>
-	<string name="BiftorTranslateSWEDISH">SWEDISH</string>
-	<string name="BiftorTranslateTAMIL">TAMIL</string>
-	<string name="BiftorTranslateTELUGU">TELUGU</string>
-	<string name="BiftorTranslateTHAI">THAI</string>
-	<string name="BiftorTranslateTURKISH">TURKISH</string>
-	<string name="BiftorTranslateUKRAINIAN">UKRAINIAN</string>
-	<string name="BiftorTranslateURDU">URDU</string>
-	<string name="BiftorTranslateVIETNAMESE">VIETNAMESE</string>
-	<string name="BiftorTranslateWELSH">WELSH</string>
-	<string name="BiftorTranslateYIDDISH">YIDDISH</string>
-	<string name="BiftorTranslateCHINESE_SIMPLIFIED">CHINESE SIMPLIFIED</string>
-	<string name="BiftorTranslateCHINESE_TRADITIONAL">CHINESE TRADITIONAL</string>
-
+	<string name="BiftorTranslate">Перевести</string>
+	<string name="BiftorTranslateEnterText">Введите текст</string>
+	<string name="BiftorTranslateEnterTextEmpty">Введите текст для перевода</string>
+	<string name="BiftorTranslateAUTO_DETECT">АВТО</string>
+	<string name="BiftorTranslateAFRIKAANS">Африкаанс</string>
+	<string name="BiftorTranslateALBANIAN">Албанский</string>
+	<string name="BiftorTranslateARABIC">Арабский </string>
+	<string name="BiftorTranslateARMENIAN">Армянский</string>
+	<string name="BiftorTranslateAZERBAIJANI">Азербайджанский </string>
+	<string name="BiftorTranslateBASQUE">Баскский</string>
+	<string name="BiftorTranslateBELARUSIAN">Белорусский</string>
+	<string name="BiftorTranslateBENGALI">Бенгальский</string>
+	<string name="BiftorTranslateBULGARIAN">Болгарский</string>
+	<string name="BiftorTranslateCATALAN">Каталонский</string>
+	<string name="BiftorTranslateCHINESE">Китайский</string>
+	<string name="BiftorTranslateCROATIAN">Хорватский</string>
+	<string name="BiftorTranslateCZECH">Чешский</string>
+	<string name="BiftorTranslateDANISH">Датский</string>
+	<string name="BiftorTranslateDUTCH">Голландский</string>
+	<string name="BiftorTranslateENGLISH">Английский</string>
+	<string name="BiftorTranslateESTONIAN">Эстонский</string>
+	<string name="BiftorTranslateFILIPINO">Филиппинский</string>
+	<string name="BiftorTranslateFINNISH">Финский</string>
+	<string name="BiftorTranslateFRENCH">Французский</string>
+	<string name="BiftorTranslateGALICIAN">Галицкая</string>
+	<string name="BiftorTranslateGEORGIAN">Грузинский</string>
+	<string name="BiftorTranslateGERMAN">Немецкий</string>
+	<string name="BiftorTranslateGREEK">Греческий</string>
+	<string name="BiftorTranslateGUJARATI">Гуджарати</string>
+	<string name="BiftorTranslateHAITIAN_CREOLE">Гаитянский креольский </string>
+	<string name="BiftorTranslateHEBREW">Еврей</string>
+	<string name="BiftorTranslateHINDI">Хинди</string>
+	<string name="BiftorTranslateHUNGARIAN">Венгерский</string>
+	<string name="BiftorTranslateICELANDIC">Исландский</string>
+	<string name="BiftorTranslateINDONESIAN">Индонезийский</string>
+	<string name="BiftorTranslateIRISH">Ирландский</string>
+	<string name="BiftorTranslateITALIAN">Итальянский</string>
+	<string name="BiftorTranslateJAPANESE">Японский</string>
+	<string name="BiftorTranslateKANNADA">Каннада</string>
+	<string name="BiftorTranslateKOREAN">Корейский</string>
+	<string name="BiftorTranslateLATIN">Латинский</string>
+	<string name="BiftorTranslateLATVIAN">Латвийский</string>
+	<string name="BiftorTranslateLITHUANIAN">Литовский</string>
+	<string name="BiftorTranslateMACEDONIAN">Македонский</string>
+	<string name="BiftorTranslateMALAY">Малайский</string>
+	<string name="BiftorTranslateMALTESE">Мальтийский</string>
+	<string name="BiftorTranslateNORWEGIAN">Норвежский </string>
+	<string name="BiftorTranslatePERSIAN">Персидский</string>
+	<string name="BiftorTranslatePOLISH">Польский</string>
+	<string name="BiftorTranslatePORTUGUESE">Португальский</string>
+	<string name="BiftorTranslateROMANIAN">Румынский</string>
+	<string name="BiftorTranslateRUSSIAN">Русский</string>
+	<string name="BiftorTranslateSERBIAN">Сербский</string>
+	<string name="BiftorTranslateSLOVAK">Словацкий</string>
+	<string name="BiftorTranslateSLOVENIAN">Словенский</string>
+	<string name="BiftorTranslateSPANISH">Испанский</string>
+	<string name="BiftorTranslateSWAHILI">Суахили</string>
+	<string name="BiftorTranslateSWEDISH">Шведский</string>
+	<string name="BiftorTranslateTAMIL">Тамильский</string>
+	<string name="BiftorTranslateTELUGU">Телугу</string>
+	<string name="BiftorTranslateTHAI">Тайский</string>
+	<string name="BiftorTranslateTURKISH">Турецкий</string>
+	<string name="BiftorTranslateUKRAINIAN">Украинский</string>
+	<string name="BiftorTranslateURDU">Урду</string>
+	<string name="BiftorTranslateVIETNAMESE">Вьетнамский</string>
+	<string name="BiftorTranslateWELSH">Валлийский</string>
+	<string name="BiftorTranslateYIDDISH">Идиш</string>
+	<string name="BiftorTranslateCHINESE_SIMPLIFIED">Китайский упрощенный  </string>
+	<string name="BiftorTranslateCHINESE_TRADITIONAL">Китайский традиционный</string>
 
 	<!--Biftor delete from recent search-->
-	<string name="BiftorDeletRecentSearchItem">Are you sure you want to delete this: **%1$s** from recent search?</string>
-
-	<string name="BiftorDrawerContactAndGroup">Contacts and groups</string>
+	<string name="BiftorDeletRecentSearchItem">Удалить **%1$s** из истории поиска?</string>
+	<string name="BiftorDrawerContactAndGroup">Контакты и группы</string>
 
 	<!--Biftor floating new msg-->
-	<string name="BiftorChangeToSaveMsg">change FB to save message</string>
-	<string name="BiftorChangeToSaveMsgSub">change new chat button (floating button in chat) to open saved messages</string>
+	<string name="BiftorChangeToSaveMsg">Облако на плавающей кнопке</string>
+	<string name="BiftorChangeToSaveMsgSub">Заменить кнопку нового чата на Облако. Чтобы начать чат, просто найдите собеседника через поиск.</string>
 
-	<string name="BiftorShow">Show</string>
-	<string name="BiftorShowFolder">Show folder</string>
-	<string name="BiftorHideFolder">Hide folder</string>
-	<string name="BiftorHideFolderAreYouSure">Are you sure you want to hide this folder?</string>
-	<string name="BiftorShowFolderAreYouSure">Are you sure you want to show this folder?</string>
+	<string name="BiftorShow">Показывать</string>
+	<string name="BiftorShowFolder">Показывать папку</string>
+	<string name="BiftorHideFolder">Скрыть папку</string>
+	<string name="BiftorHideFolderAreYouSure">Вы точно хотите скрыть папку?</string>
+	<string name="BiftorShowFolderAreYouSure">Точно показать?</string>
 	<!--Biftor internal updater-->
-	<string name="BiftorSkipUpdate">Skip</string>
-	<string name="BiftorRemindTomorrow">Tomorrow</string>
-	<string name="BiftorUpdateIsAvailable">Update is available</string>
-	<string name="BiftorCheckForUpdate">Check for update</string>
-	<string name="BiftorDownloadLatestVersion">Download last version</string>
+	<string name="BiftorSkipUpdate">Пропустить</string>
+	<string name="BiftorRemindTomorrow">Напомнить завтра</string>
+	<string name="BiftorUpdateIsAvailable">Доступно обновление</string>
+	<string name="BiftorCheckForUpdate">Проверить обновления</string>
+	<string name="BiftorDownloadLatestVersion">Скачать обновление</string>
 
 	<!--Biftor direct chats-->
-	<string name="BiftorDirectChats">Direct chats</string>
-	<string name="BiftorSetAsDirectChats">Set as direct chats</string>
-	<string name="BiftorDirectChatsReset">Reset direct chat</string>
-	<string name="BiftorDisplayDirectChats">Display direct chat at</string>
-	<string name="BiftorDisplayDirectChatsSide">Sidebar</string>
-	<string name="BiftorDisplayDirectChatsTab">Tab</string>
-	<string name="BiftorDisplayDirectChatsSideTab">Sidebar and Tab</string>
-	<string name="BiftorDirectChatsReorder">Direct chats order</string>
-	<string name="BiftorShowDirectChatsInDrawer">Show direct chats in drawer</string>
-	<string name="BiftorAddToFav">Add to favourite</string>
-	<string name="BiftorDeleteFromFav">Delete from favourite</string>
+	<string name="BiftorDirectChats">Избранное</string>
+	<string name="BiftorSetAsDirectChats">Назначить Избранным</string>
+	<string name="BiftorDirectChatsReset">Снять статус Избранного</string>
+	<string name="BiftorDisplayDirectChats">Показывать Избранное</string>
+	<string name="BiftorDisplayDirectChatsSide">В главном меню</string>
+	<string name="BiftorDisplayDirectChatsTab">Как папку</string>
+	<string name="BiftorDisplayDirectChatsSideTab">Оба варианта</string>
+	<string name="BiftorDirectChatsReorder">Сортировка Избранного</string>
+	<string name="BiftorShowDirectChatsInDrawer">Показывать Избранное в главном меню</string>
+	<string name="BiftorAddToFav">Добавить в любимые</string>
+	<string name="BiftorDeleteFromFav">Удалить из любимых</string>
 
-	<string name="BiftorHideSponsorProxy">Hide sponsor</string>
-	<string name="BiftorHideSponsorProxySub">Hide sponsor proxy from chat list</string>
+	<string name="BiftorHideSponsorProxy">Скрыть спонсора</string>
+	<string name="BiftorHideSponsorProxySub">Не показывать спонсора прокси в списке чатов.</string>
 </resources>

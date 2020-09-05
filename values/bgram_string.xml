@@ -11,8 +11,8 @@
 
 	<!-- Ghost mode-->
 	<string name="BiftorGhostMod">Hidden reading</string>
-	<string name="BiftorGhostModSub">A user doesn\'t know that you read the message until you reply. In this mode, read messages may appear again as unread after a while.\nEnable: long tap on header in chat list.</string>
-	<string name="BiftorGhostModHeaderLongClick">Toggle by long tap on header</string>
+	<string name="BiftorGhostModSub">A user doesn\'t know that you read the message until you reply. In this mode, read messages may appear again as unread after a while.\nEnable: long press on header in chat list.</string>
+	<string name="BiftorGhostModHeaderLongClick">Toggle by long press on header</string>
 	<string name="BiftorGhostModHeaderLongClickSub">Quick Hidden Read switching by tap and hold on title in chat list.</string>
 
 	<!-- Ghost mode hide status-->
@@ -43,7 +43,7 @@
 	<string name="BiftorRightSideOpenButton">Show quick open button</string>
 	<string name="BiftorShowTabsAtTop">Show at top</string>
 	<string name="BiftorShowTabsAtBottom">Show at bottom</string>
-	<string name="BiftorShowNewChatButton">Show new chat button</string>
+	<string name="BiftorShowNewChatButton">Show floating button</string>
 	<string name="HideTabs">Disable tab bar</string>
 	<string name="All">All</string>
 	<string name="Users">Users</string>
@@ -233,6 +233,8 @@
 	<string name="BiftorDonateStellar">Stellar</string>
 	<string name="BiftorDonatePayPal">PayPal</string>
 	<string name="BiftorDonateYandex">Yandex</string>
+	<string name="BiftorDonatePayeer">Payeer</string>
+	<string name="BiftorDonateQiwi">Qiwi</string>
 	<string name="BiftorGettingDonationAddress">Getting donation address…</string>
 	<string name="BiftorDonationAddressCopied">Donation address copied to clipboard.</string>
 	<string name="BiftorGettingDonationAddressFailed">Failed to load donation address, try again later…</string>
@@ -243,7 +245,7 @@
 	<string name="BiftorGhostModIsDisable">Hidden read is disabled</string>
 
 	<!--Biftor allow to set a proxy before login-->
-	<string name="BiftorLoginProxy">How to enable TOR:\n▸open SET PROXY section,\n▸add new proxy (socks5), server 127.0.0.1, port 9050,\n▸enable TOR and wait for 100% bootstrapped. \nDone. \n\nIn case of connection problems, enable bridges and get them from Dropbox.</string>
+	<string name="BiftorLoginProxy">How to enable TOR:\n▸open SET PROXY section,\n▸add new proxy (socks5), server 127.0.0.1, port 9050,\n▸enable TOR and wait for 100% bootstrapped. \nDone. \n\nIn case of connection problems, enable bridges and get them from Github.</string>
 	<string name="BiftorLoginProxyBTN">SET PROXY</string>
 
 	<!-- Biftor chat quick panel -->
@@ -256,8 +258,8 @@
 	<string name="CenterQuickBarButton">Center quick bar button</string>
 	<string name="ShowMembersOnQuickBar">Show members in groups</string>
 	<string name="BiftorQuickBarClickAction">Avatar click action</string>
-	<string name="BiftorQuickBarLongClickAction">Avatar long click action</string>
-	<string name="BiftorQuickBarLongClickActionOnMembersList">Group members long click action</string>
+	<string name="BiftorQuickBarLongClickAction">Avatar long press action</string>
+	<string name="BiftorQuickBarLongClickActionOnMembersList">Group members long press action</string>
 
 	<!--Biftor confirm to voice and video msg-->
 	<string name="BiftorConfirmToSendVoice">Voice messages</string>
@@ -319,9 +321,9 @@
 	<string name="BiftorRemoveHiddenChatsFromSearch">Remove hidden chats from search</string>
 	<string name="BiftorChangePasscodeInfo">When you set up an additional passcode for hidden chats each time you want get access to hidden chats property, will ask your password. also this is general in all your accounts. \n\nNote: if you forget the passcode, you can not open your hidden chats, you\'ll need to delete and reinstall the app. All secret chats will be lost.</string>
 	<string name="BiftorHiddenChatsButton">Hidden chats button</string>
-	<string name="BiftorHiddenChatsButtonNewMessages">Long click on new message button</string>
-	<string name="BiftorHiddenChatsButtonSearch">Long click on search</string>
-	<string name="BiftorHiddenChatsButtonOpenDrawer">Long click on open drawer</string>
+	<string name="BiftorHiddenChatsButtonNewMessages">Long press on floating button</string>
+	<string name="BiftorHiddenChatsButtonSearch">Long press on search</string>
+	<string name="BiftorHiddenChatsButtonOpenDrawer">Long press on menu button</string>
 	<string name="BiftorRemoveHiddenChatsNotifi">Remove hidden chats notification</string>
 
 	<!-- Biftor export chat list -->
@@ -365,7 +367,7 @@
 	<string name="BiftorFontsReset">Reset to default font</string>
 	<string name="BiftorFontRestarter">Restart app</string>
 	<string name="BiftorYouNeedToRestartApp">Restart the app to apply font changes</string>
-	<string name="BiftorLongClickOnEachOneToReset">Long click to reset to default</string>
+	<string name="BiftorLongClickOnEachOneToReset">Long press to reset to default</string>
 	<string name="BiftorEmojiSize">Emoji size</string>
 	<string name="BiftorEmojiPreview">Adjust emoji\'s %1$s size</string>
 	<string name="BiftorVerticalAlignmentBottom">Emoji bottom alignment</string>
@@ -384,7 +386,7 @@
 
 	<string name="BiftorRestartMsg">Please restart the app to complete this action.</string>
 
-	<string name="BiftorLongClickSetDefault">Long click to reset to default.</string>
+	<string name="BiftorLongClickSetDefault">Long press to reset to default.</string>
 	<string name="BiftorRestoredToDef">Restored to default.</string>
 
 	<!-- Biftor Tablet Mode -->
@@ -491,7 +493,7 @@
 
 	<!-- Biftor Dialogs avatar click action -->
 	<string name="BiftorDialogsAvatarDefClickAction">Chat list avatar click action</string>
-	<string name="BiftorDialogsAvatarDefLongClickAction">Chat list avatar long click action</string>
+	<string name="BiftorDialogsAvatarDefLongClickAction">Chat list avatar long press action</string>
 	<string name="BiftorOpenAvatar">Open avatar</string>
 
 	<!-- Biftor paint and mention button -->
@@ -723,8 +725,8 @@
 
 	<!-- Biftor custom user mention-->
 	<string name="BiftorCustomUserMention">Custom user mention</string>
-	<string name="BiftorUserMentionListLongTap">Mention list long tap</string>
-	<string name="BiftorUserMentionListLongTapSub">Action by long tap on a name in drop-down list after typing \@ in group.</string>
+	<string name="BiftorUserMentionListLongTap">Mention list long press</string>
+	<string name="BiftorUserMentionListLongTapSub">Action by long press on a name in drop-down list after typing \@ in group.</string>
 	<string name="BiftorUserMentionInsertName">Insert mention by name</string>
 	<string name="BiftorUserMentionInsertCustomName">Editing mention popup</string>
 	<string name="BiftorCustomUserMentionName">Enter user name</string>
@@ -819,13 +821,13 @@
 
 
 	<!--Biftor delete from recent search-->
-	<string name="BiftorDeletRecentSearchItem">Are you sure you want to delete this: **%1$s** from recent search?</string>
+	<string name="BiftorDeletRecentSearchItem">Are you sure you want to delete **%1$s** from recent search?</string>
 
-	<string name="BiftorDrawerContactAndGroup">Contacts and groups</string>
+	<string name="BiftorDrawerContactAndGroup">Contacts and Groups</string>
 
 	<!--Biftor floating new msg-->
-	<string name="BiftorChangeToSaveMsg">change FB to save message</string>
-	<string name="BiftorChangeToSaveMsgSub">change new chat button (floating button in chat) to open saved messages</string>
+	<string name="BiftorChangeToSaveMsg">Saved Messages on floating</string>
+	<string name="BiftorChangeToSaveMsgSub">Change New Chat (floating button in main screen) to open Saved Messages</string>
 
 	<string name="BiftorShow">Show</string>
 	<string name="BiftorShowFolder">Show folder</string>
@@ -842,19 +844,52 @@
 
 
 	<!--Biftor direct chats-->
-	<string name="BiftorDirectChats">Direct chats</string>
-	<string name="BiftorSetAsDirectChats">Set as direct chats</string>
-	<string name="BiftorDirectChatsReset">Reset direct chat</string>
-	<string name="BiftorDisplayDirectChats">Display direct chat at</string>
+	<string name="BiftorDirectChats">Direct Chats</string>
+	<string name="BiftorSetAsDirectChats">Set as Direct Chats</string>
+	<string name="BiftorDirectChatsReset">Reset Direct Chats</string>
+	<string name="BiftorDisplayDirectChats">Display Direct Chats at</string>
 	<string name="BiftorDisplayDirectChatsSide">Sidebar</string>
-	<string name="BiftorDisplayDirectChatsTab">Tab</string>
-	<string name="BiftorDisplayDirectChatsSideTab">Sidebar and Tab</string>
+	<string name="BiftorDisplayDirectChatsTab">Tabs</string>
+	<string name="BiftorDisplayDirectChatsSideTab">Sidebar and tabs</string>
 	<string name="BiftorDirectChatsReorder">Direct chats order</string>
-	<string name="BiftorShowDirectChatsInDrawer">Show direct chats in drawer</string>
+	<string name="BiftorShowDirectChatsInDrawer">Show Direct Chats in sidebar</string>
 	<string name="BiftorAddToFav">Add to favourite</string>
 	<string name="BiftorDeleteFromFav">Delete from favourite</string>
 
 	<string name="BiftorHideSponsorProxy">Hide sponsor</string>
-	<string name="BiftorHideSponsorProxySub">Hide sponsor proxy from chat list</string>
+	<string name="BiftorHideSponsorProxySub">Hide proxy sponsor from chat list</string>
+
+	<!--Biftor shadow socks-->
+	<string name="BiftorPing">Ping</string>
+	<string name="BiftorProxyTypeShadowSocks">ShadowSocks Proxy</string>
+	<string name="BiftorProxyTypeShadowSocksR">ShadowSocksR Proxy</string>
+	<string name="BiftorProxyTypeVmess">Vmess Proxy</string>
+	<string name="BiftorProxyInfoSSR">ShadowsocksR Proxy Settings</string>
+	<string name="BiftorProxyInfoSS">Shadowsocks Proxy Settings</string>
+	<string name="BiftorProxyInfoVmess">Vmess Proxy Settings</string>
+	<string name="BiftorShadowProxySponsor">Sponsor</string>
+
+	<string name="BiftorShadowSocksHelp">Help</string>
+	<string name="BiftorImportProxy">Import from url</string>
+	<string name="BiftorConnection">Connect: %1$d ms</string>
+
+	<string name="BiftorVmessUserId">User Id</string>
+	<string name="BiftorVmessAlterId">Alter Id</string>
+	<string name="BiftorVmessSecurity">Security</string>
+	<string name="BiftorVmessNetwork">Network</string>
+	<string name="BiftorVmessHeadType">Head Type</string>
+	<string name="BiftorVmessRequestHost">Request Host / QUIC Security</string>
+	<string name="BiftorVmessPath">Path / QUICK Key</string>
+	<string name="BiftorVmessTls">Use TLS</string>
+
+	<string name="BiftorSSPassword">Password</string>
+	<string name="BiftorSSMethod">Encrypt Method</string>
+	<string name="BiftorSSPlugin">Plugin</string>
+	<string name="BiftorSSPluginOpts">Plugin Config</string>
+
+	<string name="BiftorSSRProtocol">Protocol</string>
+	<string name="BiftorSSRProtocolParams">Protocol Params</string>
+	<string name="BiftorSSRObfs">Obfs</string>
+	<string name="BiftorSSRObfsParam">Obfs Param</string>
 
 </resources>

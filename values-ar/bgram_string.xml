@@ -238,6 +238,8 @@
  <string name="BiftorDonateStellar">ستيلر</string>
  <string name="BiftorDonatePayPal">بايبال</string>
  <string name="BiftorDonateYandex">Yandex</string>
+ <string name="BiftorDonatePayeer">Payeer</string>
+ <string name="BiftorDonateQiwi">Qiwi</string>
  <string name="BiftorGettingDonationAddress"> الحصول على عنوان التبرع ...</string>
  <string name="BiftorDonationAddressCopied">تم نسخ عنوان التبرع الى الحافظة</string>
  <string name="BiftorGettingDonationAddressFailed">فشل تحميل  عنوان التبرع , حاول مرة أخرى في وقت لاحق...</string>
@@ -866,4 +868,37 @@
 
  <string name="BiftorHideSponsorProxy">Hide sponsor</string>
  <string name="BiftorHideSponsorProxySub">Hide sponsor proxy from chat list</string>
+
+ <!--Biftor shadow socks-->
+ <string name="BiftorPing">Ping</string>
+ <string name="BiftorProxyTypeShadowSocks">ShadowSocks Proxy</string>
+ <string name="BiftorProxyTypeShadowSocksR">ShadowSocksR Proxy</string>
+ <string name="BiftorProxyTypeVmess">Vmess Proxy</string>
+ <string name="BiftorProxyInfoSSR">ShadowsocksR Proxy Settings</string>
+ <string name="BiftorProxyInfoSS">Shadowsocks Proxy Settings</string>
+ <string name="BiftorProxyInfoVmess">Vmess Proxy Settings</string>
+ <string name="BiftorShadowProxySponsor">Sponsor</string>
+
+ <string name="BiftorShadowSocksHelp">Help</string>
+ <string name="BiftorImportProxy">Import from url</string>
+ <string name="BiftorConnection">Connect: %1$d ms</string>
+
+ <string name="BiftorVmessUserId">User Id</string>
+ <string name="BiftorVmessAlterId">Alter Id</string>
+ <string name="BiftorVmessSecurity">Security</string>
+ <string name="BiftorVmessNetwork">Network</string>
+ <string name="BiftorVmessHeadType">Head Type</string>
+ <string name="BiftorVmessRequestHost">Request Host / QUIC Security</string>
+ <string name="BiftorVmessPath">Path / QUICK Key</string>
+ <string name="BiftorVmessTls">Use TLS</string>
+
+ <string name="BiftorSSPassword">Password</string>
+ <string name="BiftorSSMethod">Encrypt Method</string>
+ <string name="BiftorSSPlugin">Plugin</string>
+ <string name="BiftorSSPluginOpts">Plugin Config</string>
+
+ <string name="BiftorSSRProtocol">Protocol</string>
+ <string name="BiftorSSRProtocolParams">Protocol Params</string>
+ <string name="BiftorSSRObfs">Obfs</string>
+ <string name="BiftorSSRObfsParam">Obfs Param</string>
 </resources>

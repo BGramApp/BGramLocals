@@ -232,6 +232,8 @@
 	<string name="BiftorDonateStellar">Stellar</string>
 	<string name="BiftorDonatePayPal">PayPal</string>
 	<string name="BiftorDonateYandex">Yandex</string>
+	<string name="BiftorDonatePayeer">Payeer</string>
+	<string name="BiftorDonateQiwi">Qiwi</string>
 	<string name="BiftorGettingDonationAddress">Запрос адреса…</string>
 	<string name="BiftorDonationAddressCopied">Адрес скопирован в буфер обмена.</string>
 	<string name="BiftorGettingDonationAddressFailed">Не удалось загрузить адрес, попробуйте позже...</string>
@@ -242,7 +244,7 @@
 	<string name="BiftorGhostModIsDisable">Скрытое чтение отключено</string>
 
 	<!--Biftor allow to set a proxy before login-->
-	<string name="BiftorLoginProxy">Включение TOR: \n▸нажмите НАСТРОЙКИ ПРОКСИ \n▸Добавить прокси (socks5) — введите сервер 127.0.0.1, порт 9050,\n▸нажмите «Использовать TOR» и ждите 100% загрузки.\n▸Готово. \n\nВ сложных случаях включите мосты и запросите их из Dropbox.</string>
+	<string name="BiftorLoginProxy">Включение TOR: \n▸нажмите НАСТРОЙКИ ПРОКСИ \n▸Добавить прокси (socks5) — введите сервер 127.0.0.1, порт 9050,\n▸нажмите «Использовать TOR» и ждите 100% загрузки.\n▸Готово. \n\nВ сложных случаях включите мосты и запросите их из Github.</string>
 	<string name="BiftorLoginProxyBTN">НАСТРОЙКИ ПРОКСИ</string>
 
 	<!-- Biftor chat quick panel -->
@@ -498,7 +500,7 @@
 
 	<!-- Biftor Clear Cache other files -->
 	<string name="BiftorClearCacheOtherFiles"><![CDATA[Удалить временные файлы]]></string>
-	<string name="BiftorClearCacheOtherFilesInfo">✱​ Для профилактики проблем с загрузкой периодически удаляйте из кеша временные файлы (мелкие служебные файлы; накапливаясь в кеше, они могут увеличить время загрузки списка чатов).</string>
+	<string name="BiftorClearCacheOtherFilesInfo">✱​ Периодически удаляйте из кеша временные файлы. Это мелкие служебные файлы. Накапливаясь, они замедляют загрузку чатов.</string>
 	<string name="BiftorKeepMediaInfo">В Telegram все чаты и отправленные медиа находятся на облачном сервере. При просмотре медиа в чате они загружаются с сервера на ваше устройство (кеширование) и хранятся в папке Telegram для быстрого доступа. Для экономии места можно задать срок, после которого **из кеша** удалятся медиа, которые вы не смотрите. Все вложения останутся в переписке и снова скачаются при просмотре.</string>
 
 	<!-- Biftor Select storage -->
@@ -823,12 +825,12 @@
 	<string name="BiftorShow">Показывать</string>
 	<string name="BiftorShowFolder">Показывать папку</string>
 	<string name="BiftorHideFolder">Скрыть папку</string>
-	<string name="BiftorHideFolderAreYouSure">Вы точно хотите скрыть папку?</string>
+	<string name="BiftorHideFolderAreYouSure">Хотите скрыть папку?</string>
 	<string name="BiftorShowFolderAreYouSure">Точно показать?</string>
 	<!--Biftor internal updater-->
-	<string name="BiftorSkipUpdate">Пропустить</string>
-	<string name="BiftorRemindTomorrow">Напомнить завтра</string>
-	<string name="BiftorUpdateIsAvailable">Доступно обновление</string>
+	<string name="BiftorSkipUpdate">Отклонить</string>
+	<string name="BiftorRemindTomorrow">Завтранах!</string>
+	<string name="BiftorUpdateIsAvailable">Нажмите ОК для обновления</string>
 	<string name="BiftorCheckForUpdate">Проверить обновления</string>
 	<string name="BiftorDownloadLatestVersion">Скачать обновление</string>
 
@@ -845,6 +847,38 @@
 	<string name="BiftorAddToFav">Добавить в любимые</string>
 	<string name="BiftorDeleteFromFav">Удалить из любимых</string>
 
-	<string name="BiftorHideSponsorProxy">Скрыть спонсора</string>
-	<string name="BiftorHideSponsorProxySub">Не показывать спонсора прокси в списке чатов.</string>
+	<string name="BiftorHideSponsorProxy">Не показывать спонсора</string>
+	<string name="BiftorHideSponsorProxySub">Скрыть спонсора прокси в списке чатов.</string>
+
+	<!--Biftor shadow socks-->
+	<string name="BiftorPing">Ping</string>
+	<string name="BiftorProxyTypeShadowSocks">ShadowSocks Proxy</string>
+	<string name="BiftorProxyTypeShadowSocksR">ShadowSocksR Proxy</string>
+	<string name="BiftorProxyTypeVmess">Vmess Proxy</string>
+	<string name="BiftorProxyInfoSSR">ShadowsocksR Proxy Settings</string>
+	<string name="BiftorProxyInfoSS">Shadowsocks Proxy Settings</string>
+	<string name="BiftorProxyInfoVmess">Vmess Proxy Settings</string>
+	<string name="BiftorShadowProxySponsor">Спонсор</string>
+	<string name="BiftorShadowSocksHelp">Помощь</string>
+	<string name="BiftorImportProxy">Import from url</string>
+	<string name="BiftorConnection">Соединение: %1$d мс</string>
+
+	<string name="BiftorVmessUserId">User Id</string>
+	<string name="BiftorVmessAlterId">Alter Id</string>
+	<string name="BiftorVmessSecurity">Security</string>
+	<string name="BiftorVmessNetwork">Network</string>
+	<string name="BiftorVmessHeadType">Head Type</string>
+	<string name="BiftorVmessRequestHost">Request Host / QUIC Security</string>
+	<string name="BiftorVmessPath">Path / QUICK Key</string>
+	<string name="BiftorVmessTls">Use TLS</string>
+
+	<string name="BiftorSSPassword">Password</string>
+	<string name="BiftorSSMethod">Encrypt Method</string>
+	<string name="BiftorSSPlugin">Plugin</string>
+	<string name="BiftorSSPluginOpts">Plugin Config</string>
+
+	<string name="BiftorSSRProtocol">Protocol</string>
+	<string name="BiftorSSRProtocolParams">Protocol Params</string>
+	<string name="BiftorSSRObfs">Obfs</string>
+	<string name="BiftorSSRObfsParam">Obfs Param</string>
 </resources>

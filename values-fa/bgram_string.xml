@@ -225,13 +225,15 @@
     <string name="BiftorAppHintsSub">راهنمایی ها و ویدیوهای برای استفاه از اپشن های برنامه</string>
     <string name="BiftorDonate">حمایت (مالی)</string>
     <string name="BiftorDonateSub">انگیزه دادن و تشویق کردن توسعه دهنده</string>
-    <string name="BiftorDonateMoreDetail">شما می توانید برای اهدا مبلغ کوچکی به توسعه دهنده داوطلب شوید  تا از توسعه دهنده حمایت کنید که کار خود را ادامه دهید.</string>
+    <string name="BiftorDonateMoreDetail">شما می توانید برای اهدا مبلغ کوچکی به توسعه دهنده داوطلب شوید  تا از توسعه دهنده حمایت کنید که کار خود را ادامه دهد.</string>
     <string name="BiftorDonateBTC">Bitcoin</string>
     <string name="BiftorDonateBTCCASH">Bitcoin cash</string>
     <string name="BiftorDonateEther">Ether</string>
     <string name="BiftorDonateStellar">Stellar</string>
     <string name="BiftorDonatePayPal">PayPal</string>
     <string name="BiftorDonateYandex">Yandex</string>
+    <string name="BiftorDonatePayeer">Payeer</string>
+    <string name="BiftorDonateQiwi">Qiwi</string>
     <string name="BiftorGettingDonationAddress">گرفتن ادرس حساب…</string>
     <string name="BiftorDonationAddressCopied">ادرس حساب در کلیپ بورد کپی شد.</string>
     <string name="BiftorGettingDonationAddressFailed">موفق به دریافت ادرس حساب نشد، لطفا دوباره امتحان کنید …</string>
@@ -324,7 +326,7 @@
     <string name="BiftorHiddenChatsButton">دکمه دسترسی به چت های مخفی</string>
     <string name="BiftorHiddenChatsButtonNewMessages">لمس طولانی بر روی دکمه پیام جدید</string>
     <string name="BiftorHiddenChatsButtonSearch">لمس طولانی بر روی دکمه جستجو</string>
-    <string name="BiftorHiddenChatsButtonOpenDrawer">لمس طولانی بر روی دکمه دراور</string>
+    <string name="BiftorHiddenChatsButtonOpenDrawer">لمس طولانی بر روی دکمه منوی کشویی</string>
     <string name="BiftorRemoveHiddenChatsNotifi">عدم نمایش اعلان چت های مخفی</string>
 
     <!-- Biftor export chat list -->
@@ -848,7 +850,7 @@
     <string name="BiftorDirectChats">چت های مستقیم</string>
     <string name="BiftorSetAsDirectChats">انخاب به عنوان چت مستقیم</string>
     <string name="BiftorDirectChatsReset">ریست کردن چت مستقیم</string>
-    <string name="BiftorDisplayDirectChats">نمایش چت های مسقدیم در</string>
+    <string name="BiftorDisplayDirectChats">نمایش چت های مستقیم در</string>
     <string name="BiftorDisplayDirectChatsSide">منوی کشویی</string>
     <string name="BiftorDisplayDirectChatsTab">تب</string>
     <string name="BiftorDisplayDirectChatsSideTab">منوی کشویی و تب</string>
@@ -859,4 +861,37 @@
 
     <string name="BiftorHideSponsorProxy">مخفی کردن اسپانسر</string>
     <string name="BiftorHideSponsorProxySub">مخفی کردن کانال اسپانسر پروکسی در صفحه چت</string>
+
+    <!--Biftor shadow socks-->
+    <string name="BiftorPing">پینگ</string>
+    <string name="BiftorProxyTypeShadowSocks">پروکسی SS</string>
+    <string name="BiftorProxyTypeShadowSocksR">پروکسی SSR</string>
+    <string name="BiftorProxyTypeVmess">پروکسی Vmess</string>
+    <string name="BiftorProxyInfoSSR">تنظیمات SSR</string>
+    <string name="BiftorProxyInfoSS">تنظیمات SS</string>
+    <string name="BiftorProxyInfoVmess">تنظیمات Vmess</string>
+    <string name="BiftorShadowProxySponsor">اسپانسر</string>
+
+    <string name="BiftorShadowSocksHelp">جستوجو</string>
+    <string name="BiftorImportProxy">گرفتن از ادرس</string>
+    <string name="BiftorConnection">وصل شد: %1$d میلی ثانیه</string>
+
+    <string name="BiftorVmessUserId">User Id</string>
+    <string name="BiftorVmessAlterId">Alter Id</string>
+    <string name="BiftorVmessSecurity">Security</string>
+    <string name="BiftorVmessNetwork">Network</string>
+    <string name="BiftorVmessHeadType">Head Type</string>
+    <string name="BiftorVmessRequestHost">Request Host / QUIC Security</string>
+    <string name="BiftorVmessPath">Path / QUICK Key</string>
+    <string name="BiftorVmessTls">Use TLS</string>
+
+    <string name="BiftorSSPassword">پسورد</string>
+    <string name="BiftorSSMethod">متد رمزنگاری</string>
+    <string name="BiftorSSPlugin">پلاگین</string>
+    <string name="BiftorSSPluginOpts">تنظیمات پلاگین</string>
+
+    <string name="BiftorSSRProtocol">پروتکل</string>
+    <string name="BiftorSSRProtocolParams">مقادیر پروتکل</string>
+    <string name="BiftorSSRObfs">Obfs</string>
+    <string name="BiftorSSRObfsParam">Obfs Param</string>
 </resources>

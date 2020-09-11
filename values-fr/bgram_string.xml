@@ -4,7 +4,7 @@
     <string name="BGram" translatable="false">BGram</string>
     <string name="AppName" translatable="false">BGram</string>
     <string name="AppNameBeta" translatable="false">BGram Beta</string>
-    <string name="BGramVersion">BGram for Android %1$s</string>
+    <string name="BGramVersion">BGram pour Android %1$s</string>
 
     <!--Biftor-->
     <string name="BGramSettings">Paramètres BGram</string>

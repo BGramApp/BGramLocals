@@ -4498,7 +4498,7 @@
     <string name="BiftorKeepScreenOn">Залишати екран увімкненим</string>
     <string name="BiftorKeepScreenOnSub">Запобігає вимкненю екрану, коли програма відкрита.</string>
 
-	
+
     <!--Biftor Drawer Menu to Avatar -->
     <string name="BiftorChangeDrawerMenuToAvatar">Показати аватар у меню</string>
     <string name="BiftorChangeDrawerMenuToAvatarSub">Показувати аватар поточного облікового запису на кнопці меню</string>
@@ -4592,7 +4592,7 @@
     <string name="BiftorHideFolder">Сховати папку</string>
     <string name="BiftorHideFolderAreYouSure">Ви впевнені, що хочете приховати цю папку?</string>
     <string name="BiftorShowFolderAreYouSure">Ви впевнені, що хочете показати цю папку?</string>
-	
+
     <!--Biftor internal updater-->
     <string name="BiftorSkipUpdate">Пропустити</string>
     <string name="BiftorRemindTomorrow">Завтра</string>
@@ -4600,7 +4600,7 @@
     <string name="BiftorCheckForUpdate">Перевірити наявність оновлень</string>
     <string name="BiftorDownloadLatestVersion">Завантажити останню версію</string>
 
-	
+
     <!--Biftor direct chats-->
     <string name="BiftorDirectChats">Важливі чати</string>
     <string name="BiftorSetAsDirectChats">Встановити як важливі чати</string>
@@ -4629,7 +4629,7 @@
 
     <string name="BiftorShadowSocksHelp">Допомога</string>
     <string name="BiftorImportProxy">Імпорт з URL</string>
-    <string name="BiftorConnection">З'єднання: %1$d мс</string>
+    <string name="BiftorConnection">З\'єднання: %1$d мс</string>
 
     <string name="BiftorVmessUserId">Id користувача</string>
     <string name="BiftorVmessAlterId">Alter Id</string>

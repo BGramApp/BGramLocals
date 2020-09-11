@@ -3720,7 +3720,7 @@
     <string name="BGram" translatable="false">BGram</string>
     <string name="AppName" translatable="false">BGram</string>
     <string name="AppNameBeta" translatable="false">BGram Beta</string>
-    <string name="BGramVersion">BGram for Android %1$s</string>
+    <string name="BGramVersion">BGram pour Android %1$s</string>
 
     <!--Biftor-->
     <string name="BGramSettings">Paramètres BGram</string>
@@ -4145,8 +4145,8 @@
 
     <!-- Biftor auto download next media -->
     <string name="BiftorEnableAutoDownloadNextMedia">Télécharger automatiquement le média suivant</string>
-    <string name="BiftorDisableGoToNextMedia">Disable go to next media</string>
-    <string name="BiftorDisableGoToNextMediaSub">Disable go to next media by tapping on photo edge</string>
+    <string name="BiftorDisableGoToNextMedia">Désactiver défilement média</string>
+    <string name="BiftorDisableGoToNextMediaSub">Désactivez le passage au média suivant en appuyant sur le bord de la photo</string>
 
     <!-- Biftor enable camera in attach menu -->
     <string name="BiftorEnableCameraAttachMenu">Activer la caméra dans le menu "pièce jointe"</string>
@@ -4288,7 +4288,7 @@
     <string name="BiftorMultiSelectAddToTheGroupTitle">Ajouter %1$s utilisateur(s) à %2$s?</string>
 
     <!--Biftor open avatar photo everywhere-->
-    <string name="BiftorOpenAvatarPhoto">Ouvrir avatar par tap</string>
+    <string name="BiftorOpenAvatarPhoto">Afficher l\'avatar par appuie</string>
     <string name="BiftorOpenAvatarPhotoSub">Ouvrir une photo lorsque vous appuyez sur un avatar dans la liste des contacts et des membres du groupe.</string>
 
     <!--Biftor open video or GIF with external player-->
@@ -4308,7 +4308,7 @@
 
     <!--Biftor add ability to sort accounts-->
     <string name="BiftorSortAccounts">Ordre des comptes</string>
-    <string name="BiftorHideOffAccounts">Masquer désactiver</string>
+    <string name="BiftorHideOffAccounts">Masquer comptes désactivés</string>
     <string name="BiftorHideOffAccountsSub">Ne pas afficher les comptes désactivés dans la liste</string>
 
     <!--Biftor add ability to sort pinned dialogs-->
@@ -4316,7 +4316,7 @@
 
     <!--Biftor added inviter-->
     <string name="BiftorInvitedBy">Invité par %1$s</string>
-    <string name="BiftorSelfJoined">Joint par lien</string>
+    <string name="BiftorSelfJoined">Rejoint par lien</string>
 
     <!--Biftor enter and exit animation -->
     <string name="BiftorEnterAndExitAnim">Animation d\'entrée / sortie</string>
@@ -4467,9 +4467,9 @@
     <string name="BiftorChannelDiscuss">Discuter</string>
 
     <!--Biftor Translate-->
-    <string name="BiftorTranslate">Translate</string>
-    <string name="BiftorTranslateEnterText">Enter text</string>
-    <string name="BiftorTranslateEnterTextEmpty">You must enter text to translate</string>
+    <string name="BiftorTranslate">Traduire</string>
+    <string name="BiftorTranslateEnterText">Entrer votre texte</string>
+    <string name="BiftorTranslateEnterTextEmpty">Vous devez saisir du texte à traduire</string>
     <string name="BiftorTranslateAUTO_DETECT">Auto detect</string>
     <string name="BiftorTranslateAFRIKAANS">Afrikaans</string>
     <string name="BiftorTranslateALBANIAN">ALBANIAN</string>
@@ -4541,11 +4541,12 @@
     <!--Biftor delete from recent search-->
     <string name="BiftorDeletRecentSearchItem">Are you sure you want to delete this: **%1$s** from recent search?</string>
 
-    <string name="BiftorDrawerContactAndGroup">Contacts and groups</string>
+    <string name="BiftorDrawerContactAndGroup">Contacts et groupes</string>
 
     <!--Biftor floating new msg-->
-    <string name="BiftorChangeToSaveMsg">change FB to save message</string>
-    <string name="BiftorChangeToSaveMsgSub">change new chat button (floating button in chat) to open saved messages</string>
+    <string name="BiftorChangeToSaveMsg">Modifier bouton flottant pour les messages enregistrés</string>
+    <string name="BiftorChangeToSaveMsgSub">Modifier le bouton de nouvelle conversation (bouton flottant) pour ouvrir les messages enregistrés
+</string>
 
     <string name="BiftorShow">Show</string>
     <string name="BiftorShowFolder">Show folder</string>
@@ -4563,17 +4564,17 @@
     <string name="BiftorDirectChats">Direct chats</string>
     <string name="BiftorSetAsDirectChats">Set as direct chats</string>
     <string name="BiftorDirectChatsReset">Reset direct chat</string>
-    <string name="BiftorDisplayDirectChats">Display direct chat at</string>
-    <string name="BiftorDisplayDirectChatsSide">Sidebar</string>
-    <string name="BiftorDisplayDirectChatsTab">Tab</string>
-    <string name="BiftorDisplayDirectChatsSideTab">Sidebar and Tab</string>
+    <string name="BiftorDisplayDirectChats">Afficher le chat direct sur</string>
+    <string name="BiftorDisplayDirectChatsSide">Barre latérale</string>
+    <string name="BiftorDisplayDirectChatsTab">Onglet</string>
+    <string name="BiftorDisplayDirectChatsSideTab">Barre latérale et Onglet</string>
     <string name="BiftorDirectChatsReorder">Direct chats order</string>
     <string name="BiftorShowDirectChatsInDrawer">Show direct chats in drawer</string>
     <string name="BiftorAddToFav">Add to favourite</string>
     <string name="BiftorDeleteFromFav">Delete from favourite</string>
 
-    <string name="BiftorHideSponsorProxy">Hide sponsor</string>
-    <string name="BiftorHideSponsorProxySub">Hide sponsor proxy from chat list</string>
+    <string name="BiftorHideSponsorProxy">Masquer le sponsor</string>
+    <string name="BiftorHideSponsorProxySub">Masquer le sponsor du proxy de la liste de discussion</string>
 
     <!--Biftor shadow socks-->
     <string name="BiftorPing">Ping</string>

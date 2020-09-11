@@ -572,7 +572,7 @@
     <string name="BiftorMultiSelectAddToTheGroupTitle">Ajouter %1$s utilisateur(s) à %2$s?</string>
 
     <!--Biftor open avatar photo everywhere-->
-    <string name="BiftorOpenAvatarPhoto">Afficher l'avatar par appuie</string>
+    <string name="BiftorOpenAvatarPhoto">Afficher l\'avatar par appuie</string>
     <string name="BiftorOpenAvatarPhotoSub">Ouvrir une photo lorsque vous appuyez sur un avatar dans la liste des contacts et des membres du groupe.</string>
 
     <!--Biftor open video or GIF with external player-->

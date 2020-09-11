@@ -871,7 +871,7 @@
 
     <string name="BiftorShadowSocksHelp">Допомога</string>
     <string name="BiftorImportProxy">Імпорт з URL</string>
-    <string name="BiftorConnection">З'єднання: %1$d мс</string>
+    <string name="BiftorConnection">З\'єднання: %1$d мс</string>
 
     <string name="BiftorVmessUserId">Id користувача</string>
     <string name="BiftorVmessAlterId">Alter Id</string>

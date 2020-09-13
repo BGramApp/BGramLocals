@@ -717,8 +717,8 @@
     <string name="BiftorMayNeedsToRestart">Nécessite d\'être redémarré</string>
 
     <!-- Biftor goto msg for all chats-->
-    <string name="BiftorMentionMsg">Mention</string>
-    <string name="BiftorMentionMsgGoto">Aller à :</string>
+    <string name="BiftorMentionMsg">Mentionner</string>
+    <string name="BiftorMentionMsgGoto">››&#160</string>
     <string name="BiftorGoToLinkChatNotFound">La discssion **%1$s** n\'a pas été trouvée, elle a peut-être été supprimée ou elle n\'existe pas.</string>
     <string name="BiftorGoToLinkInvalidLink">Lien du message invalide</string>
 

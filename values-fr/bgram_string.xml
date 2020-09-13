@@ -211,7 +211,7 @@
     <!-- Biftor added about tab-->
     <string name="BiftorAbout">Info</string>
     <string name="BGramChangeLog">ChangeLog</string>
-    <string name="BGramChangeLogSub">Toutes les fonctionnalités dans l'ordre où elles ont été ajoutées</string>
+    <string name="BGramChangeLogSub">Toutes les fonctionnalités dans l\'ordre où elles ont été ajoutées</string>
     <string name="BGramChangeLogLoadFailed">Échec du chargement du ChangLog</string>
     <string name="BiftorSupport">Support</string>
     <string name="BGramOfficialChannel">Chaîne officielle</string>
@@ -239,7 +239,7 @@
     <string name="BiftorDonateQiwi">Qiwi</string>
     <string name="BiftorGettingDonationAddress">Obtention de l'adresse de don…</string>
     <string name="BiftorDonationAddressCopied">Adresse de don copiée dans le presse-papiers.</string>
-    <string name="BiftorGettingDonationAddressFailed">Échec du chargement de l'adresse de don, réessayez plus tard… </string>
+    <string name="BiftorGettingDonationAddressFailed">Échec du chargement de l\'adresse de don, réessayez plus tard… </string>
 
     <!-- Biftor added ghost mode tile-->
     <string name="BiftorGhostModTile">Masquer le statut du mode "Lecture cachée"</string>
@@ -259,9 +259,9 @@
     <string name="HideQuickBarOnScroll">Masquer lors du défilement</string>
     <string name="CenterQuickBarButton">Centrer le bouton de la barre rapide</string>
     <string name="ShowMembersOnQuickBar">Afficher les membres des groupes</string>
-    <string name="BiftorQuickBarClickAction">Action de clique sur l\'avatar</string>
-    <string name="BiftorQuickBarLongClickAction">Action d\'un long clique sur l\'avatar</string>
-    <string name="BiftorQuickBarLongClickActionOnMembersList">Action d\'un long clique sur les membres d\'un groupe</string>
+    <string name="BiftorQuickBarClickAction">Action d'un appui sur l\'avatar</string>
+    <string name="BiftorQuickBarLongClickAction">Action d\'un appui long sur l\'avatar</string>
+    <string name="BiftorQuickBarLongClickActionOnMembersList">Action d\'un appui long sur les membres d\'un groupe</string>
 
     <!--Biftor confirm to voice and video msg-->
     <string name="BiftorConfirmToSendVoice">Messages vocaux</string>

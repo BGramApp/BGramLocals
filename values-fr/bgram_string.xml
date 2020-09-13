@@ -668,7 +668,7 @@
     <string name="BiftorTorBridgeInput">Collez votre passerelle ici</string>
     <string name="BiftorTorTroubleConnecting">Problème de connexion ?</string>
     <string name="BiftorTorNewIdentity">Nouvelle identité</string>
-    <string name="BiftorChangeSideBarProxyToTor">Remplacer le proxy de la barre latérale par TOR</string>
+    <string name="BiftorChangeSideBarProxyToTor">Utiliser TOR plutôt qu'un proxy</string>
     <string name="BiftorUseTor">Utiliser TOR</string>
     <string name="BiftorTor">TOR</string>
     <string name="BiftorConnectingToTor">Connexion à TOR</string>

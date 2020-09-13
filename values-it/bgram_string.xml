@@ -490,7 +490,7 @@
     <string name="BiftorProxySwitchingSpeed">Automatico in base alla velocità di connessione</string>
     <string name="BiftorProxySwitchingPingSpeed">Automatico in base a ping e velocità</string>
     <string name="BiftorProxySwitchingToBest">Passa automaticamente al miglior proxy</string>
-    <string name="BiftorProxyCopiedToClipboard">%1$s proxy copiate negli appunti</string>
+    <string name="BiftorProxyCopiedToClipboard">%1$s proxy copiati negli appunti</string>
     <string name="BiftorSave">Salva</string>
 
     <!-- Biftor added ability to set photo quality -->
@@ -532,7 +532,7 @@
     <string name="BiftorBackUpMain">Impostazioni principali</string>
     <string name="BiftorBackUpFav">Chat preferite</string>
     <string name="BiftorBackUpHidden">Chat nascoste</string>
-    <string name="BiftorBackUpCustomTabs">Custom tabs</string>
+    <string name="BiftorBackUpCustomTabs">Tab custom</string>
     <string name="BiftorBackUpFonts">Font personalizzato</string>
     <string name="BiftorBackUpAllAndSaveToCloud">Backup completo e salva sul cloud</string>
     <string name="BiftorBackUpSuccessful">Backup completato in:</string>
@@ -543,7 +543,7 @@
     <string name="BiftorRestoreMain">Impostazioni principali</string>
     <string name="BiftorRestoreFav">Chat preferite</string>
     <string name="BiftorRestoreHidden">Chat nascoste</string>
-    <string name="BiftorRestoreCustomTabs">Custom tabs</string>
+    <string name="BiftorRestoreCustomTabs">Tab custom</string>
 
     <string name="BiftorRestoreToDef">Ripristino alle impostaz. predefinite</string>
     <string name="BiftorRestoreGlobalToDef">Ripristina impostazioni globali predefinite</string>
@@ -863,34 +863,34 @@
 
     <!--Biftor shadow socks-->
     <string name="BiftorPing">Ping</string>
-    <string name="BiftorProxyTypeShadowSocks">ShadowSocks Proxy</string>
-    <string name="BiftorProxyTypeShadowSocksR">ShadowSocksR Proxy</string>
-    <string name="BiftorProxyTypeVmess">Vmess Proxy</string>
-    <string name="BiftorProxyInfoSSR">ShadowsocksR Proxy Settings</string>
-    <string name="BiftorProxyInfoSS">Shadowsocks Proxy Settings</string>
-    <string name="BiftorProxyInfoVmess">Vmess Proxy Settings</string>
+    <string name="BiftorProxyTypeShadowSocks">Proxy ShadowSocks</string>
+    <string name="BiftorProxyTypeShadowSocksR">Proxy ShadowSocksR</string>
+    <string name="BiftorProxyTypeVmess">Proxy Vmess</string>
+    <string name="BiftorProxyInfoSSR">Impostazioni proxy ShadowsocksR</string>
+    <string name="BiftorProxyInfoSS">Impostazioni proxy Shadowsocks</string>
+    <string name="BiftorProxyInfoVmess">Impostazioni proxy Vmess</string>
     <string name="BiftorShadowProxySponsor">Sponsor</string>
 
-    <string name="BiftorShadowSocksHelp">Help</string>
-    <string name="BiftorImportProxy">Import from url</string>
-    <string name="BiftorConnection">Connect: %1$d ms</string>
+    <string name="BiftorShadowSocksHelp">Aiuto</string>
+    <string name="BiftorImportProxy">Importa da URL</string>
+    <string name="BiftorConnection">Connessione: %1$d ms</string>
 
-    <string name="BiftorVmessUserId">User Id</string>
-    <string name="BiftorVmessAlterId">Alter Id</string>
-    <string name="BiftorVmessSecurity">Security</string>
-    <string name="BiftorVmessNetwork">Network</string>
-    <string name="BiftorVmessHeadType">Head Type</string>
-    <string name="BiftorVmessRequestHost">Request Host / QUIC Security</string>
-    <string name="BiftorVmessPath">Path / QUICK Key</string>
-    <string name="BiftorVmessTls">Use TLS</string>
+    <string name="BiftorVmessUserId">ID utente</string>
+    <string name="BiftorVmessAlterId">ID alter</string>
+    <string name="BiftorVmessSecurity">Sicurezza</string>
+    <string name="BiftorVmessNetwork">Rete</string>
+    <string name="BiftorVmessHeadType">Tipo HEAD</string>
+    <string name="BiftorVmessRequestHost">Richiedi host/sicurezza QUIC</string>
+    <string name="BiftorVmessPath">Percorso/chiave QUIC</string>
+    <string name="BiftorVmessTls">Usa TLS</string>
 
     <string name="BiftorSSPassword">Password</string>
-    <string name="BiftorSSMethod">Encrypt Method</string>
+    <string name="BiftorSSMethod">Metodo crittografia</string>
     <string name="BiftorSSPlugin">Plugin</string>
-    <string name="BiftorSSPluginOpts">Plugin Config</string>
+    <string name="BiftorSSPluginOpts">Configurazione plugin</string>
 
-    <string name="BiftorSSRProtocol">Protocol</string>
-    <string name="BiftorSSRProtocolParams">Protocol Params</string>
-    <string name="BiftorSSRObfs">Obfs</string>
-    <string name="BiftorSSRObfsParam">Obfs Param</string>
+    <string name="BiftorSSRProtocol">Protocollo</string>
+    <string name="BiftorSSRProtocolParams">Parametri protocollo</string>
+    <string name="BiftorSSRObfs">OBFS</string>
+    <string name="BiftorSSRObfsParam">Parametri OBFS</string>
 </resources>

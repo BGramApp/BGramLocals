@@ -495,9 +495,9 @@
     <string name="BiftorSendingPhotoQuality">Qualité de la photo à l\'envoi</string>
 
     <!-- Biftor Dialogs avatar click action -->
-    <string name="BiftorDialogsAvatarDefClickAction">Action d'un appui sur la liste des discussions</string>
-    <string name="BiftorDialogsAvatarDefLongClickAction">Action d'un appui long sur la liste des discssions</string>
-    <string name="BiftorOpenAvatar">Ouvrir avatar</string>
+    <string name="BiftorDialogsAvatarDefClickAction">Appui sur l'avatar dans la liste de discussion</string>
+    <string name="BiftorDialogsAvatarDefLongClickAction">Appui long sur l'avatar dans la liste de discussion</string>
+    <string name="BiftorOpenAvatar">Afficher l'avatar</string>
 
     <!-- Biftor paint and mention button -->
     <string name="BiftorShowPaintBtn">Afficher le bouton de dessin dans le chat</string>

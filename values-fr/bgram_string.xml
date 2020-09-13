@@ -322,7 +322,7 @@
     <string name="BiftorSetPassCodeForHiddenChats">Définissez votre code pour les chats cachés</string>
     <string name="BiftorRemoveHiddenChatsFromSearch">Ignorer les discussions cachées de la recherche</string>
     <string name="BiftorChangePasscodeInfo">Lorsque vous configurez un mot de passe supplémentaire pour les discussions cachées, à chaque fois que vous souhaitez y accéder, le mot de passe vous sera demandé. Le mot de passe sera défini dans tous vos comptes.\n\nRemarque : si vous oubliez votre mot de passe, vous ne pourrez plus accéder à vos discussions masquées et vous devrez désinstaller et réinstaller l\'application. Toutes les discussions cachées seront perdues.</string>
-    <string name="BiftorHiddenChatsButton">Bouton de discussions masqués</string>
+    <string name="BiftorHiddenChatsButton">Accès aux discussions masqués</string>
     <string name="BiftorHiddenChatsButtonNewMessages">Appui long sur le bouton de nouveau message</string>
     <string name="BiftorHiddenChatsButtonSearch">Appui long sur la recherche</string>
     <string name="BiftorHiddenChatsButtonOpenDrawer">Appui long sur le menu ouvert</string>

@@ -316,13 +316,13 @@
 
     <!-- Biftor hidden chats -->
     <string name="BiftorHiddenChats">Discussions cachées</string>
-    <string name="BiftorAddToHiddenChat">Ajouter aux discussions cachées</string>
-    <string name="BiftorDeleteHiddenChats">Supprimer des discussions cachées</string>
-    <string name="BiftorHiddenChatsPass">Code de vérouillage des discussions cachées</string>
-    <string name="BiftorSetPassCodeForHiddenChats">Mot de passe discussions cachées</string>
+    <string name="BiftorAddToHiddenChat">Cacher la discussion</string>
+    <string name="BiftorDeleteHiddenChats">Retirer des discussions cachées</string>
+    <string name="BiftorHiddenChatsPass">Mot de passe pour les chats cachés</string>
+    <string name="BiftorSetPassCodeForHiddenChats">Définissez votre code pour les chats cachés</string>
     <string name="BiftorRemoveHiddenChatsFromSearch">Ignorer les discussions cachées de la recherche</string>
-    <string name="BiftorChangePasscodeInfo">Lorsque vous configurez un mot de passe supplémentaire pour les discussions cachées, à chaque fois que vous souhaitez accéder à une des conversations cachées, vous devrez saisir votre mot de passe. Cela est valable dans tous vos comptes. Remarque : si vous oubliez le code d\'authentification, vous ne pouvez pas ouvrir vos discussions cachées, vous devrez supprimer et réinstaller l\'application. Toutes les discussions secrètes seront perdues.</string>
-    <string name="BiftorHiddenChatsButton">Masquer le bouton des discussions</string>
+    <string name="BiftorChangePasscodeInfo">Lorsque vous configurez un mot de passe supplémentaire pour les discussions cachées, à chaque fois que vous souhaitez y accéder, le mot de passe vous sera demandé. Le mot de passe sera défini dans tous vos comptes.\n\nRemarque : si vous oubliez votre mot de passe, vous ne pourrez plus accéder à vos discussions masquées et vous devrez désinstaller et réinstaller l\'application. Toutes les discussions cachées seront perdues.</string>
+    <string name="BiftorHiddenChatsButton">Bouton de discussions masqués</string>
     <string name="BiftorHiddenChatsButtonNewMessages">Appui long sur le bouton de nouveau message</string>
     <string name="BiftorHiddenChatsButtonSearch">Appui long sur la recherche</string>
     <string name="BiftorHiddenChatsButtonOpenDrawer">Appui long sur le menu ouvert</string>

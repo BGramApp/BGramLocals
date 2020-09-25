@@ -865,34 +865,34 @@
 
 	<!--Biftor shadow socks-->
 	<string name="BiftorPing">Ping</string>
-	<string name="BiftorProxyTypeShadowSocks">ShadowSocks Proxy</string>
-	<string name="BiftorProxyTypeShadowSocksR">ShadowSocksR Proxy</string>
-	<string name="BiftorProxyTypeVmess">Vmess Proxy</string>
-	<string name="BiftorProxyInfoSSR">ShadowsocksR Proxy Settings</string>
-	<string name="BiftorProxyInfoSS">Shadowsocks Proxy Settings</string>
-	<string name="BiftorProxyInfoVmess">Vmess Proxy Settings</string>
-	<string name="BiftorShadowProxySponsor">Sponsor</string>
+	<string name="BiftorProxyTypeShadowSocks">ShadowSocks Proksisi</string>
+	<string name="BiftorProxyTypeShadowSocksR">ShadowSocksR Proksisi</string>
+	<string name="BiftorProxyTypeVmess">Vmess Proksisi</string>
+	<string name="BiftorProxyInfoSSR">ShadowsocksR Proksisi tanlovlari</string>
+	<string name="BiftorProxyInfoSS">Shadowsocks Proksisi tanlovlari</string>
+	<string name="BiftorProxyInfoVmess">Vmess Proksisi tanlovlari</string>
+	<string name="BiftorShadowProxySponsor">Homiy</string>
 
-	<string name="BiftorShadowSocksHelp">Help</string>
-	<string name="BiftorImportProxy">Import from url</string>
-	<string name="BiftorConnection">Connect: %1$d ms</string>
+	<string name="BiftorShadowSocksHelp">Yordam</string>
+	<string name="BiftorImportProxy">Havoladan olmoq</string>
+	<string name="BiftorConnection">Ulanish: %1$d ms</string>
 
-	<string name="BiftorVmessUserId">User Id</string>
+	<string name="BiftorVmessUserId">Yuzer Idsi</string>
 	<string name="BiftorVmessAlterId">Alter Id</string>
-	<string name="BiftorVmessSecurity">Security</string>
-	<string name="BiftorVmessNetwork">Network</string>
-	<string name="BiftorVmessHeadType">Head Type</string>
-	<string name="BiftorVmessRequestHost">Request Host / QUIC Security</string>
-	<string name="BiftorVmessPath">Path / QUICK Key</string>
-	<string name="BiftorVmessTls">Use TLS</string>
+	<string name="BiftorVmessSecurity">Himoya</string>
+	<string name="BiftorVmessNetwork">Tarmoq</string>
+	<string name="BiftorVmessHeadType">Asosiy turi</string>
+	<string name="BiftorVmessRequestHost">Host so‘rovi / QUIC Xavfsizlik</string>
+	<string name="BiftorVmessPath">Yo‘lak / QUICK kalit</string>
+	<string name="BiftorVmessTls">TLSdan foydalanmoq</string>
 
-	<string name="BiftorSSPassword">Password</string>
-	<string name="BiftorSSMethod">Encrypt Method</string>
-	<string name="BiftorSSPlugin">Plugin</string>
-	<string name="BiftorSSPluginOpts">Plugin Config</string>
+	<string name="BiftorSSPassword">Parol</string>
+	<string name="BiftorSSMethod">Shifrlash uslubi</string>
+	<string name="BiftorSSPlugin">Plagin</string>
+	<string name="BiftorSSPluginOpts">Plagin tanlovi</string>
 
-	<string name="BiftorSSRProtocol">Protocol</string>
-	<string name="BiftorSSRProtocolParams">Protocol Params</string>
+	<string name="BiftorSSRProtocol">Protokol</string>
+	<string name="BiftorSSRProtocolParams">Protokol parametrlari</string>
 	<string name="BiftorSSRObfs">Obfs</string>
-	<string name="BiftorSSRObfsParam">Obfs Param</string>
+	<string name="BiftorSSRObfsParam">Obfs parametrlari</string>
 </resources>

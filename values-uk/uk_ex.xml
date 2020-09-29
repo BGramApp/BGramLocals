@@ -245,7 +245,7 @@
    <string name="AddOneMemberAlertTitle">Додати учасника</string>
    <string name="AddOneMemberForwardMessages">Показувати **%1$s** попередні 100 повідомлень</string>
    <string name="AddPeopleNearby">Знайти людей поблизу</string>
-   <string name="AddPhoto">Встановити нове фото</string>
+   <string name="AddPhoto">Установити нове фото</string>
    <string name="AddProxy">Додати проксі</string>
    <string name="AddRecipient">Додати одержувача</string>
    <string name="AddShortcut">Додати на головний екран</string>
@@ -408,7 +408,7 @@
    <string name="AskAQuestionInfo"><![CDATA[<a href=\"https://telegram.me/tglive/458\">Теми для Telegram</a>]]>\n<![CDATA[<a href=\"https://t.me/Telegraph\">Бот сервісу Telegram</a>]]>\n<![CDATA[<a href=\"https://t.me/SpamBot\">Перевірка на спам-бан</a>]]>\n\nЗворотній зв\'язок і допомога щодо <![CDATA[<a href=\"https://t.me/AlterTG\">неофіційних клієнтів Telegram</a>]]> — група <![CDATA[<a href=\"https://t.me/AltTG\">@AltTG</a>]]>.\nЩодо перекладу — <![CDATA[<a href=\"https://t.me/OkS369\">@OkS369</a>]]>.\n\nПідтримка Telegram здійснюється добровольцями. Ми намагаємося відповідати якомога швидше, але іноді доведеться трохи зачекати.\n\nОзнайомтеся з <![CDATA[<a href=\"https://telegram.org/faq#general-questions\">ЧаПи Telegram</a>]]>: там є важливі поради щодо усунення <![CDATA[<a href=\"https://telegram.org/faq#troubleshooting\">несправностей</a>]]> та відповіді на поширені запитання.</string>
    <string name="AskButton">Запитати</string>
    <string name="AttachAudio">Голосове повідомлення</string>
-   <string name="AttachBotsHelp">Прокрутіть вниз для ботів</string>
+   <string name="AttachBotsHelp">Прокрутіть униз для ботів</string>
    <string name="AttachContact">Контакт</string>
    <string name="AttachDestructingPhoto">Самознищуване фото</string>
    <string name="AttachDestructingVideo">Самознищуване відео</string>
@@ -529,14 +529,14 @@
    <string name="BackgroundColor">Колір</string>
    <string name="BackgroundColorPreviewLine1">Змінюйте колір гортанням уліво-вправо</string>
    <string name="BackgroundColorPreviewLine2">Лосось — риба, а не колір.</string>
-   <string name="BackgroundColorSinglePreviewLine1">Щоб застосувати фон, натисніть «Встановити фон»</string>
+   <string name="BackgroundColorSinglePreviewLine1">Щоб застосувати тло, натисніть «Установити тло»</string>
    <string name="BackgroundColorSinglePreviewLine2">Насолоджуйтесь видом</string>
    <string name="BackgroundHexColorCode">HEX-код кольору</string>
    <string name="BackgroundIntensity">Інтенсивність</string>
    <string name="BackgroundMotion">Рухомий</string>
    <string name="BackgroundPattern">Із візерунком</string>
-   <string name="BackgroundPreview">Попередній перегляд фону</string>
-   <string name="BackgroundPreviewLine1">Порада: фон іноді виглядає краще з ефектом розмиття.</string>
+   <string name="BackgroundPreview">Попередній перегляд тла</string>
+   <string name="BackgroundPreviewLine1">Порада: Тло з ефектом розмиття, іноді краще на вигляд .</string>
    <string name="BackgroundPreviewLine2">Овва, дякую!</string>
    <string name="BackgroundRestricted">Фонові дані обмежені.</string>
    <string name="BackgroundSearchColor">Колір:</string>
@@ -646,7 +646,7 @@
    <string name="Caption">Опис</string>
    <string name="CardNumberCopied">Номер картки скопійовано</string>
    <string name="Change">Змінити</string>
-   <string name="ChangeChatBackground">Змінити фон чатів</string>
+   <string name="ChangeChatBackground">Змінити тло чатів</string>
    <string name="ChangeLanguageLater">Ви завжди можете змінити мову в Налаштуваннях.</string>
    <string name="ChangePasscode">Змінити код блокування</string>
    <string name="ChangePasscodeInfo">Після встановлення коду блокування на сторінці чатів зʼявиться значок замка для блокування й розблокування застосунку.\n\nПримітка: якщо ви забудете код блокування, перевстановіть застосунок. При цьому всі секретні чати буде втрачено.</string>
@@ -659,7 +659,7 @@
    <string name="ChangePhoneNumberOccupied">Номер %1$s вже привʼязаний до іншого акаунта Telegram. Видаліть його, перш ніж перейти на новий номер.</string>
    <string name="ChangePublicLimitReached">Ви зайняли забагато публічних псевдонімів. Відкличте один з них або встановіть приватне посилання.</string>
    <string name="ChangeRecoveryEmail">Змінити е-пошту для відновлення</string>
-   <string name="ChangeWallpaperToColor">Ви дійсно хочете замінити ваш фон кольором?</string>
+   <string name="ChangeWallpaperToColor">Ви дійсно хочете замінити ваше тло кольором?</string>
    <string name="ChannelAddAdmin">Додати адміністратора</string>
    <string name="ChannelAddException">Додати виняток</string>
    <string name="ChannelAddMembers">Додати учасників</string>
@@ -786,7 +786,7 @@
    <string name="ChatAdmin">адмін</string>
    <string name="ChatArchived">Чат архівовано</string>
    <string name="ChatArchivedInfo">Щоб приховати архів, проведіть на ньому вліво.</string>
-   <string name="ChatBackground">Фон чатів</string>
+   <string name="ChatBackground">Тло чатів</string>
    <string name="ChatCamera">Камера</string>
    <string name="ChatDeletedUndo">Чат видалено</string>
    <string name="ChatDistanceToPeer">%1$s у %2$s</string>
@@ -806,11 +806,11 @@
    <string name="ChatListDefault">У два рядки</string>
    <string name="ChatListExpanded">У три рядки</string>
    <string name="ChatLocation">Розташування</string>
-   <string name="ChatSetLocation">Встановити розташування</string>
+   <string name="ChatSetLocation">Установити розташування</string>
    <string name="ChatSetLocationInfo">Вашу групу зможуть знайти в розділі «Люди поблизу».</string>
-   <string name="ChatSetNewPhoto">Встановити нове фото</string>
-   <string name="ChatSetPhotoOrVideo">Встановити фото або відео</string>
-   <string name="ChatSetThisLocation">Встановити це розташування</string>
+   <string name="ChatSetNewPhoto">Установити нове фото</string>
+   <string name="ChatSetPhotoOrVideo">Установити фото або відео</string>
+   <string name="ChatSetThisLocation">Установити це розташування</string>
    <string name="ChatSettings">Налаштування чатів</string>
    <string name="ChatVideo">Відео</string>
    <string name="ChatWasMovedToMainList">Чат перенесено в основний список.</string>
@@ -907,7 +907,7 @@
    <string name="ColorDark">Темний</string>
    <string name="ColorGreen">Зелений</string>
    <string name="ColorOrange">Помаранчевий</string>
-   <string name="ColorPickerBackground">Фон</string>
+   <string name="ColorPickerBackground">Тло</string>
    <string name="ColorPickerMainColor">Основний колір</string>
    <string name="ColorPickerMyMessages">Мої повідомлення</string>
    <string name="ColorPickerReset">СКИНУТИ</string>
@@ -1059,15 +1059,15 @@
    <string name="DeleteAndExit">Видалити та покинути групу</string>
    <string name="DeleteAndExitButton">Видалити й покинути групу</string>
    <string name="DeleteAndStop">Видалити й зупинити</string>
-   <string name="DeleteBackground_few">Видалити %1$d фони</string>
-   <string name="DeleteBackground_many">Видалити %1$d фонів</string>
-   <string name="DeleteBackground_one">Видалити фон</string>
-   <string name="DeleteBackground_other">Видалити %1$d фон</string>
-   <string name="DeleteBackground_two">Видалити %1$d фон</string>
-   <string name="DeleteBackground_zero">Видалити %1$d фон</string>
+   <string name="DeleteBackground_few">Видалити %1$d тони</string>
+   <string name="DeleteBackground_many">Видалити %1$d тонів</string>
+   <string name="DeleteBackground_one">Видалити тло</string>
+   <string name="DeleteBackground_other">Видалити %1$d тло</string>
+   <string name="DeleteBackground_two">Видалити %1$d тло</string>
+   <string name="DeleteBackground_zero">Видалити %1$d тло</string>
    <string name="DeleteBanUser">Заблокувати користувача</string>
    <string name="DeleteChat">Видалити й вийти</string>
-   <string name="DeleteChatBackgroundsAlert">Ви дійсно хочете видалити вибрані фони?</string>
+   <string name="DeleteChatBackgroundsAlert">Ви дійсно хочете видалити вибрані?</string>
    <string name="DeleteChatUser">Видалити чат</string>
    <string name="DeleteContact">Видалити контакт</string>
    <string name="DeleteFewChatsTitle">Видалити %1$s</string>
@@ -1191,7 +1191,7 @@
    <string name="EditAdminTransferChannelToast">**%1$s** тепер володіє каналом.</string>
    <string name="EditAdminTransferGroupToast">**%1$s** тепер володіє групою.</string>
    <string name="EditAdminTransferReadyAlertText">Ця дія повністю передасть користувачу **%2$s** **права на володіння** **%1$s**.</string>
-   <string name="EditAdminTransferSetPassword">Встановити пароль</string>
+   <string name="EditAdminTransferSetPassword">Установити пароль</string>
    <string name="EditAdminWhatCanDo">Цей адміністратор може:</string>
    <string name="EditCantEditPermissions">Ви не можете змінити цей дозвіл.</string>
    <string name="EditCantEditPermissionsPublic">У публічних групах не можна дозволити цю дію.</string>
@@ -1673,7 +1673,7 @@
    <string name="IncorrectLocalization">Некоректний файл перекладу</string>
    <string name="IncorrectTheme">Некоректний файл теми</string>
    <string name="Info">Дані</string>
-   <string name="InstallGoogleMaps">Встановити Карти Google?</string>
+   <string name="InstallGoogleMaps">Установити Карти Google?</string>
    <string name="InstantView">МИТТЄВИЙ ПЕРЕГЛЯД</string>
    <string name="InstantViewNightMode">Темна тема автоматично вмикатиметься о нічній порі</string>
    <string name="InstantViewReference">Примітка</string>
@@ -1739,10 +1739,10 @@
    <string name="KickFromGroup">Вилучити з групи</string>
    <string name="KickFromSupergroup">Обмежити користувача</string>
    <string name="Language">Мова</string>
-   <string name="LanguageAlert">Ви збираєтеся застосувати переклад (**%1$s**), який готовий на %2$d%%.\n\nУвесь інтерфейс буде перекладено. Ви можете повідомляти про помилки на [платформі перекладів].\n\nВстановити іншу мову можна буде в Налаштуваннях застосунку.</string>
+   <string name="LanguageAlert">Ви збираєтеся застосувати переклад (**%1$s**), який готовий на %2$d%%.\n\nУвесь інтерфейс буде перекладено. Ви можете повідомляти про помилки на [платформі перекладів].\n\nУстановити іншу мову можна буде в Налаштуваннях застосунку.</string>
    <string name="LanguageCode">uk</string>
    <string name="LanguageCustom">Власна</string>
-   <string name="LanguageCustomAlert">Ви збираєтеся застосувати переклад (**%1$s**), який готовий на %2$d%%.\n\nУвесь інтерфейс буде перекладено. Ви можете повідомляти про помилки на [платформі перекладів].\n\nВстановити іншу мову можна буде в Налаштуваннях застосунку.</string>
+   <string name="LanguageCustomAlert">Ви збираєтеся застосувати переклад (**%1$s**), який готовий на %2$d%%.\n\nУвесь інтерфейс буде перекладено. Ви можете повідомляти про помилки на [платформі перекладів].\n\nУстановити іншу мову можна буде в Налаштуваннях застосунку.</string>
    <string name="LanguageName">Українська</string>
    <string name="LanguageNameInEnglish">Ukrainian for BGram</string>
    <string name="LanguageSame">Ви вже користуєтеся цим перекладом (**%1$s**). Ви можете змінити мову будь-коли в Налаштуваннях.</string>
@@ -2869,10 +2869,10 @@
    <string name="ResetAutomaticMediaDownload">Скинути ці налаштування</string>
    <string name="ResetAutomaticMediaDownloadAlert">Ви дійсно хочете скинути налаштування автозавантаження?</string>
    <string name="ResetAutomaticMediaDownloadAlertTitle">Скинути налаштування</string>
-   <string name="ResetChatBackgrounds">Скинути фони для чатів</string>
-   <string name="ResetChatBackgroundsAlert">Ви дійсно хочете скинути всі фони?</string>
-   <string name="ResetChatBackgroundsAlertTitle">Скинути фони для чатів</string>
-   <string name="ResetChatBackgroundsInfo">Видалити всі додані фони і відновити стандартні.</string>
+   <string name="ResetChatBackgrounds">Скинути тло для чатів</string>
+   <string name="ResetChatBackgroundsAlert">Ви дійсно хочете скинути тло всюди?</string>
+   <string name="ResetChatBackgroundsAlertTitle">Скинути тло для чатів</string>
+   <string name="ResetChatBackgroundsInfo">Видалити всі додані тони й відновити стандартне тло.</string>
    <string name="ResetMyAccount">СКИНУТИ МІЙ АКАНУТ</string>
    <string name="ResetMyAccountText">Якщо продовжити скидання акаунта, ви втратите всі чати й повідомлення разом з усіма поширеними медіа й файлами.</string>
    <string name="ResetMyAccountWarning">Попередження</string>
@@ -2935,7 +2935,7 @@
    <string name="ScreenCaptureInfo">Якщо вимкнено, ви не зможете робити скріншотів у програмі, але вмісту ваших чатів не буде видно в перемикачі завдань.</string>
    <string name="SdCard">Карта памʼяті</string>
    <string name="Search">Пошук</string>
-   <string name="SearchBackgrounds">Пошук фонів</string>
+   <string name="SearchBackgrounds">Пошук тла</string>
    <string name="SearchByColor">Пошук за кольором</string>
    <string name="SearchEmojiHint">Пошук емодзі</string>
    <string name="SearchForPeople">Пошук людей...</string>
@@ -3045,24 +3045,24 @@
    <string name="ServiceNotifications">Службові сповіщення</string>
    <string name="SessionsInfo">Керування сеансами на інших пристроях.</string>
    <string name="SessionsTitle">Активні сеанси</string>
-   <string name="Set">Встановити</string>
-   <string name="SetAdditionalPassword">Встановити додатковий пароль</string>
+   <string name="Set">Установити</string>
+   <string name="SetAdditionalPassword">Установити додатковий пароль</string>
    <string name="SetAdditionalPasswordInfo">Ви можете встановити пароль, який потрібно буде вводити при вході з нового пристрою на додачу до SMS-коду.</string>
-   <string name="SetAdmins">Встановити адміністраторів</string>
+   <string name="SetAdmins">Установити адміністраторів</string>
    <string name="SetAdminsAll">Усі учасники – адміністратори</string>
    <string name="SetAdminsAllInfo">Усі учасники можуть додавати нових учасників, прикріплювати повідомлення, змінювати назву та фото групи.</string>
    <string name="SetAdminsNotAllInfo">Лише адміністратори можуть додавати й вилучати учасників, прикріплювати повідомлення, змінювати назву та фото групи.</string>
    <string name="SetAdminsTitle">Адміністратори чату</string>
    <string name="SetAsAdmin">Підвищити до адміністратора</string>
    <string name="SetAsMain">Зробити основним</string>
-   <string name="SetBackground">ВСТАНОВИТИ ФОН</string>
-   <string name="SetColor">Встановити колір</string>
-   <string name="SetPasscode">Встановити код блокування</string>
-   <string name="SetPasscodeInfo">Встановіть на застосунок код блокування, щоб інші не змогли відкрити його.</string>
-   <string name="SetProfilePhoto">Встановити фото</string>
-   <string name="SetRecoveryEmail">Встановити е-пошту для відновлення</string>
-   <string name="SetReminder">Встановити нагадування</string>
-   <string name="SetTimer">Встановити таймер самознищення</string>
+   <string name="SetBackground">УСТАНОВИТИ ТЛО</string>
+   <string name="SetColor">Установити колір</string>
+   <string name="SetPasscode">Установити код блокування</string>
+   <string name="SetPasscodeInfo">Установіть на застосунок код блокування, щоб інші не змогли відкрити його.</string>
+   <string name="SetProfilePhoto">Установити фото</string>
+   <string name="SetRecoveryEmail">Установити е-пошту для відновлення</string>
+   <string name="SetReminder">Установити нагадування</string>
+   <string name="SetTimer">Установити таймер самознищення</string>
    <string name="SetUrlAvailable">%1$s доступне.</string>
    <string name="SetUrlChecking">Перевіряємо посилання…</string>
    <string name="SetUrlInUse">Це посилання вже зайняте.</string>
@@ -3359,7 +3359,7 @@
    <string name="ThemeResetToDefaults">Скинути на типові</string>
    <string name="ThemeResetToDefaultsText">Ви дійсно хочете скинути розмір тексту та налаштування кольорів?</string>
    <string name="ThemeResetToDefaultsTitle">Скинути налаштування</string>
-   <string name="ThemeSetUrl">Встановити посилання</string>
+   <string name="ThemeSetUrl">Установити посилання</string>
    <string name="ThemeSetUrlHelp">Можна використовувати латинські літери (a-z), цифри (0-9) та підкреслення (_).\nМінімальна довжина – 5 символів.</string>
    <string name="ThemeUrl">Посилання на тему</string>
    <string name="TimeToEdit">%1$s</string>
@@ -3402,7 +3402,7 @@
    <string name="TwoStepVerificationPasswordReturnSettings">Повернутися в Налаштування</string>
    <string name="TwoStepVerificationPasswordSet">Пароль встановлено!</string>
    <string name="TwoStepVerificationPasswordSetInfo">Цей пароль запитуватиметься при вході з нового пристрою додатково до SMS-коду.</string>
-   <string name="TwoStepVerificationSetPassword">Встановити пароль</string>
+   <string name="TwoStepVerificationSetPassword">Установити пароль</string>
    <string name="TwoStepVerificationTitle">Двоетапна перевірка</string>
    <string name="TypeLocationGroup">Посилання</string>
    <string name="TypeLocationGroupEdit">Натисніть, щоб додати постійне посилання</string>
@@ -3792,7 +3792,7 @@
     <string name="BiftorVerticalRightSideBarIconAndText">Показувати іконки та текст</string>
     <string name="BiftorVerticalRightSideBar">Справа</string>
     <string name="BiftorRightSideAlwaysOpen">Не приховувати</string>
-    <string name="BiftorRightSideHideWhenScroll">Приховувати кнопки при прокрутці</string>
+    <string name="BiftorRightSideHideWhenScroll">Приховувати кнопки при прокручуванні</string>
     <string name="BiftorVerticalRightSideRoundSize">Розмір кнопок</string>
     <string name="BiftorVerticalRightSideRoundShowStyle">Спосіб відкриття кнопок</string>
     <string name="BiftorVerticalRoundShowByDragging">Ковзання від правого краю</string>
@@ -3826,7 +3826,7 @@
 
     <string name="TabsHeight">Висота панелі вкладок</string>
     <string name="TabsUnreadTextSize">Розмір тексту лічильника непрочитаних</string>
-    <string name="SetAsDefaultTab">Встановити вкладку як початкову</string>
+    <string name="SetAsDefaultTab">Установити вкладку як початкову</string>
     <string name="ResetDefaultTab">Скинути початкову вкладку</string>
     <string name="SortByStatus">Сортувати за статусом</string>
     <string name="SortByLastMessage">Сортувати за часом</string>
@@ -3850,7 +3850,7 @@
     <string name="BiftorNumberOfVisibleTabs">Кількість видимих вкладок на екрані</string>
     <string name="BiftorTabsGravityCenter">Притягування до центру</string>
     <string name="BiftorTabsCenterEachTabs">Ширина вкладок</string>
-    <string name="BiftorTabsFitToScreen">Вписати вкладки в ширину екрану</string>
+    <string name="BiftorTabsFitToScreen">Вписати вкладки в ширину екрана</string>
     <string name="BiftorTabsFitToScreenSub">Це вимкне притягування до центру</string>
     <string name="BiftorDisableChangeTabSwipe">Не змінювати вкладки ковзанням</string>
     <string name="BiftorJumpToFirstPosition">Перейти до першого елемента</string>
@@ -3931,7 +3931,7 @@
     <string name="BiftorOpenOrChat">Перейти до чату</string>
 
     <!-- Biftor user photo as bg of DrawerProfileCell-->
-    <string name="BiftorUserPhotoAsProfileCellBG">Ваш аватар, як фон бічного меню</string>
+    <string name="BiftorUserPhotoAsProfileCellBG">Ваша світлина, як тло бічного меню</string>
 
     <!--Biftor media activity context menu -->
     <string name="BiftorContextMenuGoToMessage">Показати в чаті</string>
@@ -4010,9 +4010,9 @@
     <string name="QuickBarCat">Панель швидкого доступу</string>
     <string name="ShowQuickBar">Показати панель чатів</string>
     <string name="VerticalQuickBar">Вертикальна панель чатів</string>
-    <string name="AlwaysBackToMain">Повертатися до головного екрану</string>
+    <string name="AlwaysBackToMain">Повертатися до головного екрана</string>
     <string name="DoNotCloseQuickBar">Не закривати панель чатів</string>
-    <string name="HideQuickBarOnScroll">Приховати при прокрутці</string>
+    <string name="HideQuickBarOnScroll">Приховати при прокручуванні</string>
     <string name="CenterQuickBarButton">Розмістити по центру</string>
     <string name="ShowMembersOnQuickBar">Показувати учасників у групах</string>
     <string name="BiftorQuickBarClickAction">Дія при одинарному натисканні</string>
@@ -4066,8 +4066,8 @@
     <!-- Biftor add night mode switch -->
     <string name="BiftorNightMode">Нічний режим</string>
     <string name="BiftorNightModeManual">Ручний</string>
-    <string name="BiftorDefaultDayTheme">Денна тема за замовчуванням</string>
-    <string name="BiftorDefaultNightTheme">Нічна тема за замовчуванням</string>
+    <string name="BiftorDefaultDayTheme">Усталена денна тема</string>
+    <string name="BiftorDefaultNightTheme">Усталена нічна тема</string>
     <string name="BiftorDefaultThemeDetail">Стандартні теми перемикача бічної панелі</string>
 
     <!-- Biftor hidden chats -->
@@ -4111,7 +4111,7 @@
     <string name="BiftorForwardCopyLink">Посилання</string>
 
     <!--‌ Biftor mark on msg -->
-    <string name="BiftorSetMarkOnMsg">Встановити закладку</string>
+    <string name="BiftorSetMarkOnMsg">Установити закладку</string>
     <string name="BiftorGoToMarkedMsg">До закладки</string>
     <string name="BiftorResetMarkedMsg">Видалити закладку</string>
 
@@ -4125,7 +4125,7 @@
     <string name="BiftorFontsReset">Скинути до стандартного</string>
     <string name="BiftorFontRestarter">Перезапустити додаток</string>
     <string name="BiftorYouNeedToRestartApp">Щоб застосувати зміни шрифту, потрібно перезапустити додаток</string>
-    <string name="BiftorLongClickOnEachOneToReset">Тривале натискання відновить значення за замовчуванням</string>
+    <string name="BiftorLongClickOnEachOneToReset">Тривале натискання відновить усталене значення</string>
     <string name="BiftorEmojiSize">Розмір смайликів</string>
     <string name="BiftorEmojiPreview">Розмір %1$s emoji</string>
     <string name="BiftorVerticalAlignmentBottom">Припасувати до низу</string>
@@ -4144,8 +4144,8 @@
 
     <string name="BiftorRestartMsg">Вам потрібно перезапустити програму, щоб завершити цю дію.</string>
 
-    <string name="BiftorLongClickSetDefault">Тривале натискання відновить значення за замовчуванням</string>
-    <string name="BiftorRestoredToDef">Налаштування за замовчуванням відновлено.</string>
+    <string name="BiftorLongClickSetDefault">Тривале натискання відновить усталене значення</string>
+    <string name="BiftorRestoredToDef">Усталені налаштування відновлено.</string>
 
     <!-- Biftor Tablet Mode -->
     <string name="BiftorSetTabletMode">Режим планшета</string>
@@ -4156,7 +4156,7 @@
     <!-- Biftor full width -->
     <string name="BiftorFullWidthMsgs">Збільшити розмір фото</string>
     <string name="BiftorFullWidthThreshold">Ширина фото в чаті</string>
-    <string name="BiftorFullWidthThresholdOfScreen">%1$s екрану</string>
+    <string name="BiftorFullWidthThresholdOfScreen">%1$s екрана</string>
 
     <!-- Biftor font preview -->
     <string name="BiftorFontPreviewTextEn" translatable="false">This is your picked font if you like then set it.</string>
@@ -4250,8 +4250,8 @@
     <string name="BiftorSendingPhotoQuality">Якість фото, що надсилаються</string>
 
     <!-- Biftor Dialogs avatar click action -->
-    <string name="BiftorDialogsAvatarDefClickAction">Одинарне натискання на аватар</string>
-    <string name="BiftorDialogsAvatarDefLongClickAction">Дія тривалого натискання на аватар у списку чатів</string>
+    <string name="BiftorDialogsAvatarDefClickAction">Одинарне натискання на світлину</string>
+    <string name="BiftorDialogsAvatarDefLongClickAction">Дія тривалого натискання на світлину у списку чатів</string>
     <string name="BiftorOpenAvatar">Відкрити фото</string>
 
     <!-- Biftor paint and mention button -->
@@ -4328,7 +4328,7 @@
 
     <!--Biftor open avatar photo everywhere-->
     <string name="BiftorOpenAvatarPhoto">Відкрити фото</string>
-    <string name="BiftorOpenAvatarPhotoSub">Відкрити аватар коли торкнетеся його в списку контактів та учасників групи/каналу</string>
+    <string name="BiftorOpenAvatarPhotoSub">Відкрити світлину, коли торкнетеся її у списку контактів та учасників групи/каналу</string>
 
     <!--Biftor open video or gif with external player-->
     <string name="BiftorOpenVideoBy">Відеопрогравач</string>
@@ -4411,7 +4411,7 @@
     <string name="mbps">mbps</string>
     <string name="kb">KB</string>
     <string name="mb">MB</string>
-    <string name="BiftorTorDefaultWorld">За замовчуванням (Авто)</string>
+    <string name="BiftorTorDefaultWorld">Усталено (Авто)</string>
     <string name="BiftorTorBridgeHints">Якщо ваша мобільна мережа активно блокує TOR, можна використовувати \'мостовий сервер\' як альтернативний спосіб. ОБЕРІТЬ один із варіантів для налаштування та тестування…</string>
     <string name="BiftorTorTestingBridges">Тестування мостового з\'єднання з TOR....</string>
     <string name="BiftorTorTestingBridgesSuccess">Успіх. Конфігурація моста прийнятна!</string>
@@ -4465,7 +4465,7 @@
     <string name="BiftorDisableIpv4">Вимкнути з\'єднання IPv4</string>
     <string name="BiftorDisableIpv4Sub">Вказує, щоб виходи не підключались до адрес IPv4</string>
     <string name="BiftorConnectionPadding">Заповнення підключення</string>
-    <string name="BiftorConnectionPaddingSub">Завжди дає змогу захистити зв\'язок від деяких форм аналізу трафіку. За замовчуванням: авто</string>
+    <string name="BiftorConnectionPaddingSub">Завжди дає змогу захистити зв\'язок від деяких форм аналізу трафіку. Усталено: авто</string>
     <string name="BiftorReducedConnectionPadding">Зменшення розміру підключення</string>
     <string name="BiftorReducedConnectionPaddingSub">Раніше закриває релейні з\'єднання та надсилає менше пакетів для зменшення передачі даних та використання батареї</string>
     <string name="BiftorConnectTorWhenForNotify">Підключення TOR, коли отримано сповіщення</string>
@@ -4492,16 +4492,16 @@
     <string name="BiftorCustomUserMentionError">Користувача не знайдено, скопіюйте ID з його профілю.</string>
 
     <!-- Biftor save to chat folder-->
-    <string name="BiftorSaveToChatFolder">Зберегти в папці чату</string>
+    <string name="BiftorSaveToChatFolder">Зберегти в теці чату</string>
 
     <!--Biftor keep screen on -->
     <string name="BiftorKeepScreenOn">Залишати екран увімкненим</string>
-    <string name="BiftorKeepScreenOnSub">Запобігає вимкненю екрану, коли програма відкрита.</string>
+    <string name="BiftorKeepScreenOnSub">Запобігає вимкненю екрана, коли програма відкрита.</string>
 
 
     <!--Biftor Drawer Menu to Avatar -->
-    <string name="BiftorChangeDrawerMenuToAvatar">Показати аватар у меню</string>
-    <string name="BiftorChangeDrawerMenuToAvatarSub">Показувати аватар поточного облікового запису на кнопці меню</string>
+    <string name="BiftorChangeDrawerMenuToAvatar">Показати світлину в меню</string>
+    <string name="BiftorChangeDrawerMenuToAvatarSub">Показувати світлину поточного облікового запису на кнопці меню</string>
 
     <string name="BiftorQuoteForward">Переслати</string>
     <string name="BiftorChannelDiscuss">Обговорити</string>
@@ -4588,10 +4588,10 @@
     <string name="BiftorChangeToSaveMsgSub">Змінити кнопку нового чату (рухома кнопка на головному екрані) на кнопку відкриття збереженого</string>
 
     <string name="BiftorShow">Показати</string>
-    <string name="BiftorShowFolder">Показати папку</string>
-    <string name="BiftorHideFolder">Сховати папку</string>
-    <string name="BiftorHideFolderAreYouSure">Ви впевнені, що хочете приховати цю папку?</string>
-    <string name="BiftorShowFolderAreYouSure">Ви впевнені, що хочете показати цю папку?</string>
+    <string name="BiftorShowFolder">Показати теку</string>
+    <string name="BiftorHideFolder">Сховати теку</string>
+    <string name="BiftorHideFolderAreYouSure">Ви впевнені, що хочете приховати цю теку?</string>
+    <string name="BiftorShowFolderAreYouSure">Ви впевнені, що хочете показати цю теку?</string>
 
     <!--Biftor internal updater-->
     <string name="BiftorSkipUpdate">Пропустити</string>
@@ -4603,7 +4603,7 @@
 
     <!--Biftor direct chats-->
     <string name="BiftorDirectChats">Важливі чати</string>
-    <string name="BiftorSetAsDirectChats">Встановити як важливі чати</string>
+    <string name="BiftorSetAsDirectChats">Установити як важливі чати</string>
     <string name="BiftorDirectChatsReset">Скинути важливий чат</string>
     <string name="BiftorDisplayDirectChats">Де показувати важливі чати</string>
     <string name="BiftorDisplayDirectChatsSide">Бічна панель</string>

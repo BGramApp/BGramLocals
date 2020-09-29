@@ -17,7 +17,7 @@
 
     <!-- Ghost mode hide status-->
     <string name="BiftorGhostModHideStatus">Приховати «online» статус</string>
-    <string name="BiftorGhostModHideStatusSub">Залишатись в режимі «offline», коли увімкнено приховане читання.\nУвага! Якщо ви надсилаєте повідомлення (навіть до збережених повідомлень), ваш статус тимчасово стає «online»!</string>
+    <string name="BiftorGhostModHideStatusSub">Залишатись у режимі «offline», коли ввімкнено приховане читання.\nУвага! Якщо ви надсилаєте повідомлення (навіть до збережених повідомлень), ваш статус тимчасово буде «online»!</string>
 
     <!-- Biftor hide Typing-->
     <string name="BiftorGhostModHideTyping">Приховати діяльність</string>
@@ -32,13 +32,13 @@
     <string name="BiftorVerticalRightSideBarRound">Кнопки</string>
     <string name="BiftorVerticalRightSideBarOnlyIcon">Показувати лише іконки</string>
     <string name="BiftorVerticalRightSideBarIconAndText">Показувати іконки та текст</string>
-    <string name="BiftorVerticalRightSideBar">Справа</string>
+    <string name="BiftorVerticalRightSideBar">Праворуч</string>
     <string name="BiftorRightSideAlwaysOpen">Не приховувати</string>
-    <string name="BiftorRightSideHideWhenScroll">Приховувати кнопки при прокрутці</string>
+    <string name="BiftorRightSideHideWhenScroll">Приховувати кнопки при прокручуванні</string>
     <string name="BiftorVerticalRightSideRoundSize">Розмір кнопок</string>
-    <string name="BiftorVerticalRightSideRoundShowStyle">Спосіб відкриття кнопок</string>
+    <string name="BiftorVerticalRightSideRoundShowStyle">Спосіб розгорнення кнопок</string>
     <string name="BiftorVerticalRoundShowByDragging">Ковзання від правого краю</string>
-    <string name="BiftorVerticalRoundShowByTap">Натискання на плаваючу кнопку</string>
+    <string name="BiftorVerticalRoundShowByTap">Натискання на рухому кнопку</string>
     <string name="BiftorRightSidePushChatList">Зсув списку чатів</string>
     <string name="BiftorRightSideOpenButton">Кнопка виклику панелі</string>
     <string name="BiftorShowTabsAtTop">Згори</string>
@@ -46,7 +46,7 @@
     <string name="BiftorShowNewChatButton">Показувати рухому кнопку</string>
     <string name="HideTabs">Приховати панель вкладок</string>
     <string name="All">Всі</string>
-    <string name="Users">Діалоги</string>
+    <string name="Users">Бесіди</string>
     <string name="Groups">Групи</string>
     <string name="SuperGroups">Супергрупи</string>
     <string name="Channels">Канали</string>
@@ -63,12 +63,12 @@
     <string name="OwnChannels">Мої канали</string>
     <string name="OwnGroups">Мої групи</string>
     <string name="OwnSGroups">Мої супергрупи</string>
-    <string name="UnmuteUnreads">Не прочитані із сповіщеннями</string>
+    <string name="UnmuteUnreads">Непрочитані із сповіщеннями</string>
     <string name="Sort">Порядок</string>
 
     <string name="TabsHeight">Висота панелі вкладок</string>
     <string name="TabsUnreadTextSize">Розмір тексту лічильника непрочитаних</string>
-    <string name="SetAsDefaultTab">Встановити вкладку як початкову</string>
+    <string name="SetAsDefaultTab">Установити вкладку як початкову</string>
     <string name="ResetDefaultTab">Скинути початкову вкладку</string>
     <string name="SortByStatus">Сортувати за статусом</string>
     <string name="SortByLastMessage">Сортувати за часом</string>
@@ -86,20 +86,20 @@
 
     <string name="ShowHeaderShadow">Показувати тінь заголовку</string>
 
-    <string name="ShowTabsAtBottom">Показувати панель вкладок внизу</string>
+    <string name="ShowTabsAtBottom">Показувати панель укладок унизу</string>
     <string name="BiftorNumberOfChats">Чатів у вкладці:</string>
     <string name="BiftorLoadingNumberOfChats">Підрахунок кількості чатів...</string>
-    <string name="BiftorNumberOfVisibleTabs">Кількість видимих вкладок на екрані</string>
+    <string name="BiftorNumberOfVisibleTabs">Кількість видимих укладок на екрані</string>
     <string name="BiftorTabsGravityCenter">Притягування до центру</string>
     <string name="BiftorTabsCenterEachTabs">Ширина вкладок</string>
-    <string name="BiftorTabsFitToScreen">Вписати вкладки в ширину екрану</string>
+    <string name="BiftorTabsFitToScreen">Вписати вкладки в ширину екрана</string>
     <string name="BiftorTabsFitToScreenSub">Це вимкне притягування до центру</string>
     <string name="BiftorDisableChangeTabSwipe">Не змінювати вкладки ковзанням</string>
-    <string name="BiftorJumpToFirstPosition">Перейти до першого елемента</string>
+    <string name="BiftorJumpToFirstPosition">Перейти до першого елементу</string>
 
     <string name="BiftorKeepSelection">Залишати виділення</string>
     <string name="BiftorKeepSelectionAfterForward">Зберігати виділення</string>
-    <string name="BiftorKeepSelectionAfterForwardSub">Зберігати виділення після пересилки (для подальших дій з виділеними).</string>
+    <string name="BiftorKeepSelectionAfterForwardSub">Зберігати виділення після пересилання (для подальших дій із виділеними).</string>
 
     <string name="OnlineContacts">Контакти онлайн</string>
 
@@ -112,14 +112,14 @@
     <string name="DisableSwipeBackSub">Якщо ви використовуєте «Переслати ковзанням праворуч», можливо, потрібно буде ввімкнути цей параметр, щоб уникнути небажаних закриттів чатів, коли проводитимете пальцем праворуч</string>
 
     <!-- BiftorProForward -->
-    <string name="BiftorProForward">Редагувати і переслати</string>
+    <string name="BiftorProForward">Змінити й переслати</string>
     <string name="BiftorProForwardDeleteUrl">Видалити посилання</string>
     <string name="EmptyMessageError">Неможливо надіслати порожнє повідомлення.</string>
     <string name="Quote">ЦИТАТА</string>
 
     <!-- Biftor ghost mod icon -->
     <string name="BiftorGhostModIndicator">Індикатор режиму прихованого читання</string>
-    <string name="BiftorGhostModDisabled">Приховане читання ВИМКНУТО</string>
+    <string name="BiftorGhostModDisabled">Приховане читання ВИМКНЕНО</string>
 
     <!-- Biftor corner for chat Drawable -->
     <string name="BiftorEnableChatMsgConrner">Заокруглювати повідомлення</string>
@@ -173,7 +173,7 @@
     <string name="BiftorOpenOrChat">Перейти до чату</string>
 
     <!-- Biftor user photo as bg of DrawerProfileCell-->
-    <string name="BiftorUserPhotoAsProfileCellBG">Ваш аватар, як фон бічного меню</string>
+    <string name="BiftorUserPhotoAsProfileCellBG">Ваша світлина, як тло бічного меню</string>
 
     <!--Biftor media activity context menu -->
     <string name="BiftorContextMenuGoToMessage">Показати в чаті</string>
@@ -210,7 +210,7 @@
     <string name="BiftorAbout">ІНФО</string>
     <string name="BGramChangeLog">Історія змін</string>
     <string name="BGramChangeLogSub">Усі зміни в хронологічному порядку</string>
-    <string name="BGramChangeLogLoadFailed">Не вдалось завантажити історію змін</string>
+    <string name="BGramChangeLogLoadFailed">Не вдалося завантажити історію змін</string>
     <string name="BiftorSupport">Підтримка</string>
     <string name="BGramOfficialChannel">Офіційний канал BGram</string>
     <string name="BGramOfficialChannelSub">Новини BGram</string>
@@ -242,7 +242,7 @@
     <!-- Biftor added ghost mod tile-->
     <string name="BiftorGhostModTile">Режим прихованого читання</string>
     <string name="BiftorGhostModIsEnable">Приховане читання АКТИВОВАНО</string>
-    <string name="BiftorGhostModIsDisable">Приховане читання ВИМКНУТО</string>
+    <string name="BiftorGhostModIsDisable">Приховане читання ВИМКНЕНО</string>
 
     <!--Biftor allow to set a proxy before login-->
     <string name="BiftorLoginProxy">Вам може знадобитися налаштування проксі-сервера, перш ніж увійдете в систему, якщо ваша країна або інтернет-провайдер блокує Telegram</string>
@@ -252,9 +252,9 @@
     <string name="QuickBarCat">Панель швидкого доступу</string>
     <string name="ShowQuickBar">Показати панель чатів</string>
     <string name="VerticalQuickBar">Вертикальна панель чатів</string>
-    <string name="AlwaysBackToMain">Повертатися до головного екрану</string>
+    <string name="AlwaysBackToMain">Повертатися до головного екрана</string>
     <string name="DoNotCloseQuickBar">Не закривати панель чатів</string>
-    <string name="HideQuickBarOnScroll">Приховати при прокрутці</string>
+    <string name="HideQuickBarOnScroll">Приховати при прокручуванні</string>
     <string name="CenterQuickBarButton">Розмістити по центру</string>
     <string name="ShowMembersOnQuickBar">Показувати учасників у групах</string>
     <string name="BiftorQuickBarClickAction">Дія при одинарному натисканні</string>
@@ -308,8 +308,8 @@
     <!-- Biftor add night mode switch -->
     <string name="BiftorNightMode">Нічний режим</string>
     <string name="BiftorNightModeManual">Ручний</string>
-    <string name="BiftorDefaultDayTheme">Денна тема за замовчуванням</string>
-    <string name="BiftorDefaultNightTheme">Нічна тема за замовчуванням</string>
+    <string name="BiftorDefaultDayTheme">Денна тема, усталена</string>
+    <string name="BiftorDefaultNightTheme">Нічна тема, усталена/string>
     <string name="BiftorDefaultThemeDetail">Стандартні теми перемикача бічної панелі</string>
 
     <!-- Biftor hidden chats -->
@@ -319,7 +319,7 @@
     <string name="BiftorHiddenChatsPass">Захист кодом доступу</string>
     <string name="BiftorSetPassCodeForHiddenChats">Задати пароль</string>
     <string name="BiftorRemoveHiddenChatsFromSearch">Не показувати при пошуку</string>
-    <string name="BiftorChangePasscodeInfo">Коли ви встановлюєте додатковий пароль для прихованих чатів, щоразу, коли ви хочете отримати доступ до прихованого властивості чатів, він запитає ваш пароль. Також він є загальним для всіх ваших облікових записів.\n\nПримітка. Якщо ви забули пароль, ви не зможете відкривати приховані чати, вам доведеться видалити та перевстановити додаток. Всі секретні чати будуть втрачені при цьому.</string>
+    <string name="BiftorChangePasscodeInfo">Коли ви встановлюєте додатковий пароль для прихованих чатів, щоразу, коли ви хочете отримати доступ до прихованих властивостей чатів, він запитає ваш пароль. Також він є загальним для всіх ваших облікових записів.\n\nПримітка. Якщо ви забули пароль, ви не зможете відкривати приховані чати, вам доведеться видалити та перевстановити додаток. Всі секретні чати будуть втрачені при цьому.</string>
     <string name="BiftorHiddenChatsButton">Доступ до прихованих чатів</string>
     <string name="BiftorHiddenChatsButtonNewMessages">Тривале натискання на рухому кнопку</string>
     <string name="BiftorHiddenChatsButtonSearch">Тривале натискання на кнопку пошуку</string>
@@ -348,12 +348,12 @@
     <string name="BiftorRemoveCallButtonInProfile">Приховати кнопку виклику в профілі</string>
 
     <!--‌ Biftor forward config -->
-    <string name="ForwardTabsCat">Вкладки панелі пересилки</string>
+    <string name="ForwardTabsCat">Вкладки панелі пересилання</string>
     <string name="ForwardTabsHided">Не показувати вкладки</string>
     <string name="BiftorForwardCopyLink">Посилання</string>
 
     <!--‌ Biftor mark on msg -->
-    <string name="BiftorSetMarkOnMsg">Встановити закладку</string>
+    <string name="BiftorSetMarkOnMsg">Установити закладку</string>
     <string name="BiftorGoToMarkedMsg">До закладки</string>
     <string name="BiftorResetMarkedMsg">Видалити закладку</string>
 
@@ -367,7 +367,7 @@
     <string name="BiftorFontsReset">Скинути до стандартного</string>
     <string name="BiftorFontRestarter">Перезапустити додаток</string>
     <string name="BiftorYouNeedToRestartApp">Щоб застосувати зміни шрифту, потрібно перезапустити додаток</string>
-    <string name="BiftorLongClickOnEachOneToReset">Тривале натискання відновить значення за замовчуванням</string>
+    <string name="BiftorLongClickOnEachOneToReset">Тривале натискання відновить усталене значення</string>
     <string name="BiftorEmojiSize">Розмір смайликів</string>
     <string name="BiftorEmojiPreview">Розмір %1$s emoji</string>
     <string name="BiftorVerticalAlignmentBottom">Припасувати до низу</string>
@@ -386,8 +386,8 @@
 
     <string name="BiftorRestartMsg">Вам потрібно перезапустити програму, щоб завершити цю дію.</string>
 
-    <string name="BiftorLongClickSetDefault">Тривале натискання відновить значення за замовчуванням</string>
-    <string name="BiftorRestoredToDef">Налаштування за замовчуванням відновлено.</string>
+    <string name="BiftorLongClickSetDefault">Тривале натискання відновить усталене значення</string>
+    <string name="BiftorRestoredToDef">Усталені налаштування відновлено.</string>
 
     <!-- Biftor Tablet Mode -->
     <string name="BiftorSetTabletMode">Режим планшета</string>
@@ -398,7 +398,7 @@
     <!-- Biftor full width -->
     <string name="BiftorFullWidthMsgs">Збільшити розмір фото</string>
     <string name="BiftorFullWidthThreshold">Ширина фото в чаті</string>
-    <string name="BiftorFullWidthThresholdOfScreen">%1$s екрану</string>
+    <string name="BiftorFullWidthThresholdOfScreen">%1$s екрана</string>
 
     <!-- Biftor font preview -->
     <string name="BiftorFontPreviewTextEn" translatable="false">This is your picked font if you like then set it.</string>
@@ -492,8 +492,8 @@
     <string name="BiftorSendingPhotoQuality">Якість фото, що надсилаються</string>
 
     <!-- Biftor Dialogs avatar click action -->
-    <string name="BiftorDialogsAvatarDefClickAction">Одинарне натискання на аватар</string>
-    <string name="BiftorDialogsAvatarDefLongClickAction">Дія тривалого натискання на аватар у списку чатів</string>
+    <string name="BiftorDialogsAvatarDefClickAction">Одинарне натискання на світлину</string>
+    <string name="BiftorDialogsAvatarDefLongClickAction">Дія тривалого натискання на світлину у списку чатів</string>
     <string name="BiftorOpenAvatar">Відкрити фото</string>
 
     <!-- Biftor paint and mention button -->
@@ -540,7 +540,7 @@
     <string name="BiftorRestoreHidden">Відновити приховані чати</string>
     <string name="BiftorRestoreCustomTabs">Відновити власні вкладки</string>
 
-    <string name="BiftorRestoreToDef">Скинути до значень за умовчанням</string>
+    <string name="BiftorRestoreToDef">Скинути до усталених значень</string>
     <string name="BiftorRestoreGlobalToDef">Скинути глобальні налаштування</string>
     <string name="BiftorRestoreMainToDef">Скинути основні налаштування</string>
     <string name="BiftorRestoreFavToDef">Скинути улюблені чати</string>
@@ -570,7 +570,7 @@
 
     <!--Biftor open avatar photo everywhere-->
     <string name="BiftorOpenAvatarPhoto">Відкрити фото</string>
-    <string name="BiftorOpenAvatarPhotoSub">Відкрити аватар коли торкнетеся його в списку контактів та учасників групи/каналу</string>
+    <string name="BiftorOpenAvatarPhotoSub">Відкрити світлину коли торкнетеся її у списку контактів та учасників групи/каналу</string>
 
     <!--Biftor open video or gif with external player-->
     <string name="BiftorOpenVideoBy">Відеопрогравач</string>
@@ -620,7 +620,7 @@
     <string name="BiftorChatting">Чат</string>
     <string name="BiftorMsgMergingCat">Об\'єднання повідомлень</string>
     <string name="BiftorSendConfirmCat">Підтверджувати відправлення</string>
-    <string name="BiftorForwardPanelCat">Панель пересилки</string>
+    <string name="BiftorForwardPanelCat">Панель пересилання</string>
 
     <!--Biftor External language-->
     <string name="BiftorLocalVersion">0</string>
@@ -653,7 +653,7 @@
     <string name="mbps">mbps</string>
     <string name="kb">KB</string>
     <string name="mb">MB</string>
-    <string name="BiftorTorDefaultWorld">За замовчуванням (Авто)</string>
+    <string name="BiftorTorDefaultWorld">Усталено (Авто)</string>
     <string name="BiftorTorBridgeHints">Якщо ваша мобільна мережа активно блокує TOR, можна використовувати \'мостовий сервер\' як альтернативний спосіб. ОБЕРІТЬ один із варіантів для налаштування та тестування…</string>
     <string name="BiftorTorTestingBridges">Тестування мостового з\'єднання з TOR....</string>
     <string name="BiftorTorTestingBridgesSuccess">Успіх. Конфігурація моста прийнятна!</string>
@@ -707,7 +707,7 @@
     <string name="BiftorDisableIpv4">Вимкнути з\'єднання IPv4</string>
     <string name="BiftorDisableIpv4Sub">Вказує, щоб виходи не підключались до адрес IPv4</string>
     <string name="BiftorConnectionPadding">Заповнення підключення</string>
-    <string name="BiftorConnectionPaddingSub">Завжди дає змогу захистити зв\'язок від деяких форм аналізу трафіку. За замовчуванням: авто</string>
+    <string name="BiftorConnectionPaddingSub">Завжди дає змогу захистити зв\'язок від деяких форм аналізу трафіку. Усталено: авто</string>
     <string name="BiftorReducedConnectionPadding">Зменшення розміру підключення</string>
     <string name="BiftorReducedConnectionPaddingSub">Раніше закриває релейні з\'єднання та надсилає менше пакетів для зменшення передачі даних та використання батареї</string>
     <string name="BiftorConnectTorWhenForNotify">Підключення TOR, коли отримано сповіщення</string>
@@ -734,16 +734,16 @@
     <string name="BiftorCustomUserMentionError">Користувача не знайдено, скопіюйте ID з його профілю.</string>
 
     <!-- Biftor save to chat folder-->
-    <string name="BiftorSaveToChatFolder">Зберегти в папці чату</string>
+    <string name="BiftorSaveToChatFolder">Зберегти в теці чату</string>
 
     <!--Biftor keep screen on -->
     <string name="BiftorKeepScreenOn">Залишати екран увімкненим</string>
-    <string name="BiftorKeepScreenOnSub">Запобігає вимкненю екрану, коли програма відкрита.</string>
+    <string name="BiftorKeepScreenOnSub">Запобігає вимкненю екрана, коли програма відкрита.</string>
 
 	
     <!--Biftor Drawer Menu to Avatar -->
-    <string name="BiftorChangeDrawerMenuToAvatar">Показати аватар у меню</string>
-    <string name="BiftorChangeDrawerMenuToAvatarSub">Показувати аватар поточного облікового запису на кнопці меню</string>
+    <string name="BiftorChangeDrawerMenuToAvatar">Показати світлину в меню</string>
+    <string name="BiftorChangeDrawerMenuToAvatarSub">Показувати світлину поточного облікового запису на кнопці меню</string>
 
     <string name="BiftorQuoteForward">Переслати</string>
     <string name="BiftorChannelDiscuss">Обговорити</string>
@@ -830,10 +830,10 @@
     <string name="BiftorChangeToSaveMsgSub">Змінити кнопку нового чату (рухома кнопка на головному екрані) на кнопку відкриття збереженого</string>
 
     <string name="BiftorShow">Показати</string>
-    <string name="BiftorShowFolder">Показати папку</string>
-    <string name="BiftorHideFolder">Сховати папку</string>
-    <string name="BiftorHideFolderAreYouSure">Ви впевнені, що хочете приховати цю папку?</string>
-    <string name="BiftorShowFolderAreYouSure">Ви впевнені, що хочете показати цю папку?</string>
+    <string name="BiftorShowFolder">Показати теку</string>
+    <string name="BiftorHideFolder">Сховати теку</string>
+    <string name="BiftorHideFolderAreYouSure">Ви впевнені, що хочете приховати цю теку?</string>
+    <string name="BiftorShowFolderAreYouSure">Ви впевнені, що хочете показати цю теку?</string>
 	
     <!--Biftor internal updater-->
     <string name="BiftorSkipUpdate">Пропустити</string>
@@ -845,7 +845,7 @@
 	
     <!--Biftor direct chats-->
     <string name="BiftorDirectChats">Важливі чати</string>
-    <string name="BiftorSetAsDirectChats">Встановити як важливі чати</string>
+    <string name="BiftorSetAsDirectChats">Установити як важливі чати</string>
     <string name="BiftorDirectChatsReset">Скинути важливий чат</string>
     <string name="BiftorDisplayDirectChats">Де показувати важливі чати</string>
     <string name="BiftorDisplayDirectChatsSide">Бічна панель</string>

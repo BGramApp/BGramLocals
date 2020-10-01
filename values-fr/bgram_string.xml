@@ -237,7 +237,7 @@
     <string name="BiftorDonateYandex">Yandex</string>
     <string name="BiftorDonatePayeer">Payeer</string>
     <string name="BiftorDonateQiwi">Qiwi</string>
-    <string name="BiftorGettingDonationAddress">Obtention de l'adresse de don…</string>
+    <string name="BiftorGettingDonationAddress">Obtention de l\'adresse de don…</string>
     <string name="BiftorDonationAddressCopied">Adresse de don copiée dans le presse-papiers.</string>
     <string name="BiftorGettingDonationAddressFailed">Échec du chargement de l\'adresse de don, réessayez plus tard… </string>
 
@@ -259,7 +259,7 @@
     <string name="HideQuickBarOnScroll">Masquer lors du défilement</string>
     <string name="CenterQuickBarButton">Centrer le bouton de la barre rapide</string>
     <string name="ShowMembersOnQuickBar">Afficher les membres des groupes</string>
-    <string name="BiftorQuickBarClickAction">Action d'un appui sur l\'avatar</string>
+    <string name="BiftorQuickBarClickAction">Action d\'un appui sur l\'avatar</string>
     <string name="BiftorQuickBarLongClickAction">Action d\'un appui long sur l\'avatar</string>
     <string name="BiftorQuickBarLongClickActionOnMembersList">Action d\'un appui long sur les membres d\'un groupe</string>
 
@@ -288,7 +288,7 @@
 
     <!--Biftor Direct save and edit btn -->
     <string name="BiftorShowDirectSaveToCloud">Afficher l\'icône "Enregistrer" le message</string>
-    <string name="BiftorShowDirectEdit"> Afficher l\'icône d'édition rapide </string>
+    <string name="BiftorShowDirectEdit"> Afficher l\'icône d\'édition rapide </string>
     <string name="BiftorShowDirectShare">Afficher l\'icône de partage direct</string>
 
     <!--Biftor copy msg owner name -->
@@ -410,7 +410,7 @@
     <string name="BiftorFontPreviewTextFr" translatable="false">C\'est la police que vous avez choisie si vous le souhaitez, puis définissez-la.</string>
 
     <!-- Biftor apply font from chat -->
-    <string name="BiftorApplyFontFile">Appliquer une police à partir d'un fichier</string>
+    <string name="BiftorApplyFontFile">Appliquer une police à partir d\'un fichier</string>
     <string name="BiftorApplyFontLight">Appliquer une police</string>
     <string name="BiftorApplyFontBold">Appliquer une police en gras</string>
     <string name="BiftorApplyFontItalic">Appliquer une police en italique</string>
@@ -495,9 +495,9 @@
     <string name="BiftorSendingPhotoQuality">Qualité de la photo à l\'envoi</string>
 
     <!-- Biftor Dialogs avatar click action -->
-    <string name="BiftorDialogsAvatarDefClickAction">Appui sur l'avatar dans la liste de discussion</string>
-    <string name="BiftorDialogsAvatarDefLongClickAction">Appui long sur l'avatar dans la liste de discussion</string>
-    <string name="BiftorOpenAvatar">Afficher l'avatar</string>
+    <string name="BiftorDialogsAvatarDefClickAction">Appui sur l\'avatar dans la liste de discussion</string>
+    <string name="BiftorDialogsAvatarDefLongClickAction">Appui long sur l\'avatar dans la liste de discussion</string>
+    <string name="BiftorOpenAvatar">Afficher l\'avatar</string>
 
     <!-- Biftor paint and mention button -->
     <string name="BiftorShowPaintBtn">Afficher le bouton de dessin dans le chat</string>
@@ -572,7 +572,7 @@
     <string name="BiftorMultiSelectAddToTheGroupTitle">Ajouter %1$s utilisateur(s) à %2$s?</string>
 
     <!--Biftor open avatar photo everywhere-->
-    <string name="BiftorOpenAvatarPhoto">Afficher l'avatar</string>
+    <string name="BiftorOpenAvatarPhoto">Afficher l\'avatar</string>
     <string name="BiftorOpenAvatarPhotoSub">Ouvrir la photo lorsque vous appuyez sur un avatar dans la liste des contacts et des membres du groupe.</string>
 
     <!--Biftor open video or GIF with external player-->
@@ -668,7 +668,7 @@
     <string name="BiftorTorBridgeInput">Collez votre passerelle ici</string>
     <string name="BiftorTorTroubleConnecting">Problème de connexion ?</string>
     <string name="BiftorTorNewIdentity">Nouvelle identité</string>
-    <string name="BiftorChangeSideBarProxyToTor">Utiliser TOR plutôt qu'un proxy</string>
+    <string name="BiftorChangeSideBarProxyToTor">Utiliser TOR plutôt qu\'un proxy</string>
     <string name="BiftorUseTor">Utiliser TOR</string>
     <string name="BiftorTor">TOR</string>
     <string name="BiftorConnectingToTor">Connexion à TOR</string>
@@ -691,7 +691,7 @@
 
     <!--Biftor custom tabs-->
     <string name="BiftorNewTab">Nonvel onglet</string>
-    <string name="BiftorTabName">Nom de l'onglet</string>
+    <string name="BiftorTabName">Nom de l\'onglet</string>
     <string name="BiftorTabNameHint">Saisissez le nom votre onglet</string>
     <string name="BiftorTabIcon">Icône de l\'onglet</string>
     <string name="BiftorAddToCustomTabs">Ajouter aux onglets personnalisés</string>
@@ -718,7 +718,7 @@
 
     <!-- Biftor goto msg for all chats-->
     <string name="BiftorMentionMsg">Mentionner</string>
-    <string name="BiftorMentionMsgGoto">››&#160</string>
+    <string name="BiftorMentionMsgGoto">››&amp;#160</string>
     <string name="BiftorGoToLinkChatNotFound">La discssion **%1$s** n\'a pas été trouvée, elle a peut-être été supprimée ou elle n\'existe pas.</string>
     <string name="BiftorGoToLinkInvalidLink">Lien du message invalide</string>
 
@@ -731,7 +731,7 @@
     <string name="BiftorUserMentionListLongTap">Appui long sur la liste des mentions</string>
     <string name="BiftorUserMentionListLongTapSub">Action par un appui long sur un nom dans la liste déroulante après avoir tapé \ @ dans le groupe.</string>
     <string name="BiftorUserMentionInsertName">Insertion de la mention par nom</string>
-    <string name="BiftorUserMentionInsertCustomName">Pop-up d'édtition des mentions</string>
+    <string name="BiftorUserMentionInsertCustomName">Pop-up d\'édtition des mentions</string>
     <string name="BiftorCustomUserMentionName">Entrer le nom d\'utilisateur</string>
     <string name="BiftorCustomUserMentionId">Entrer l\'ID de l\'utilisateur</string>
     <string name="BiftorCustomUserMentionError">Utilisateur introuvable, vérifiez l\'ID utilisateur à partir du profil de l\'utilisateur.</string>

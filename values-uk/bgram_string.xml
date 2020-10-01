@@ -309,7 +309,7 @@
     <string name="BiftorNightMode">Нічний режим</string>
     <string name="BiftorNightModeManual">Ручний</string>
     <string name="BiftorDefaultDayTheme">Денна тема, усталена</string>
-    <string name="BiftorDefaultNightTheme">Нічна тема, усталена/string>
+    <string name="BiftorDefaultNightTheme">Нічна тема, усталена</string>
     <string name="BiftorDefaultThemeDetail">Стандартні теми перемикача бічної панелі</string>
 
     <!-- Biftor hidden chats -->

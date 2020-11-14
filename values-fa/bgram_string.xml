@@ -138,6 +138,8 @@
 
     <!-- Biftor dismiss only -->
     <string name="BiftorDismissOnly">فقط مخفیش کن</string>
+    <string name="BiftorUnpinMessageAlertTitle">برداشتن سنجاق ها</string>
+    <string name="BiftorUnpinMessageAlert">آیا میخواهید همه سنجاق ها را مخفی یا بردارید؟</string>
 
     <!-- Biftor dark blue theme -->
     <string name="BGramDarkBlue">آبی تیره</string>
@@ -196,7 +198,7 @@
     <string name="BiftorQuotation">نقل و قول</string>
     <string name="BiftorReply">پاسخ</string>
     <string name="BiftorShare">اشتراک</string>
-    <string name="BiftorUserMention">کاربر&#8288; ID</string>
+    <string name="BiftorUserMention">&#8288; ID</string>
 
     <!--Biftor custom markdown panel-->
     <string name="EnableCustomMarkDown">فعال کردن منوی تغییر نوشته</string>
@@ -634,6 +636,12 @@
     <!--Biftor login with bot-->
     <string name="BiftorLoginWithBotToKen">ورود با توکن ربات</string>
     <string name="BiftorBotToken">توکن ربات خود را وارد کنید</string>
+    <string name="BiftorLoginWithBotInfo">You can use the @BotFather to create a new bot.\n\nWhen you login with a bot, you will have all the limitations that bots have, including:\n
+		- You do not have access to your contacts.\n
+		- You can\'t join groups and channels (unless admins add you).\n
+		- You can only write to users who have already sent you /start.\n
+		- You will not be able to see when users read your messages.\n
+		- The chat list is empty when you first login, and will populate when the bot receives messages from users and groups. Group detection can be particularly slow.</string>
 
     <!--Biftor Tor -->
     <string name="BiftorTorStarting">تور درحال اجرا است&#8230;</string>
@@ -758,7 +766,7 @@
     <string name="BiftorTranslateEnterText">متن خود را وارد کنید</string>
     <string name="BiftorTranslateEnterTextEmpty">شما باید نوشته خود را برای ترجمه وارد کنید</string>
     <string name="BiftorTranslateAUTO_DETECT">تشخیص خودکار</string>
-    <string name="BiftorTranslateAFRIKAANS">Afrikaans</string>
+    <string name="BiftorTranslateAFRIKAANS">AFRIKAANS</string>
     <string name="BiftorTranslateALBANIAN">ALBANIAN</string>
     <string name="BiftorTranslateARABIC">ARABIC</string>
     <string name="BiftorTranslateARMENIAN">ARMENIAN</string>
@@ -793,6 +801,7 @@
     <string name="BiftorTranslateITALIAN">ITALIAN</string>
     <string name="BiftorTranslateJAPANESE">JAPANESE</string>
     <string name="BiftorTranslateKANNADA">KANNADA</string>
+    <string name="BiftorTranslateKAZAKH">KAZAKH</string>
     <string name="BiftorTranslateKOREAN">KOREAN</string>
     <string name="BiftorTranslateLATIN">LATIN</string>
     <string name="BiftorTranslateLATVIAN">LATVIAN</string>
@@ -818,11 +827,13 @@
     <string name="BiftorTranslateTURKISH">TURKISH</string>
     <string name="BiftorTranslateUKRAINIAN">UKRAINIAN</string>
     <string name="BiftorTranslateURDU">URDU</string>
+    <string name="BiftorTranslateUZBEK">UZBEK</string>
     <string name="BiftorTranslateVIETNAMESE">VIETNAMESE</string>
     <string name="BiftorTranslateWELSH">WELSH</string>
     <string name="BiftorTranslateYIDDISH">YIDDISH</string>
     <string name="BiftorTranslateCHINESE_SIMPLIFIED">CHINESE SIMPLIFIED</string>
     <string name="BiftorTranslateCHINESE_TRADITIONAL">CHINESE TRADITIONAL</string>
+
 
 
     <!--Biftor delete from recent search-->
@@ -894,4 +905,19 @@
     <string name="BiftorSSRProtocolParams">مقادیر پروتکل</string>
     <string name="BiftorSSRObfs">Obfs</string>
     <string name="BiftorSSRObfsParam">Obfs Param</string>
+    <string name="BiftorShadowSocksModule">شادوساکس</string>
+    <string name="BiftorStartShadowAsService">شروع به عنوان سرویس</string>
+    <string name="BiftorStartShadowAsServiceSub">باز نگه داشتن ارتباط در پس زمینه</string>
+    <string name="BiftorShadowSockServiceConnecting">در حال اتصال به شدوساکس</string>
+    <string name="BiftorShadowSockServiceConnected">شدوساکس متصل شد: %s</string>
+    <string name="BiftorShadowSockServiceStop">توقف</string>
+    <string name="BiftorShadowSocksConfig">تنظیمات شدوساکس</string>
+    <string name="BiftorStopShadowSocksWhenAppClosed">متوقف کردن بعد از بسته شدن برنامه</string>
+    <string name="BiftorStopShadowSocksWhenAppClosedSub">متوقف کردن شدوساکس هروقت برنامه بسته شد، اگر شما این گزینه را غیر فعال کنید کل برنامه در زمانی که سرویس شدوساکس در اجر هست بسته نمی شود.</string>
+
+    <!--Biftor ads-->
+    <string name="BiftorAdsTypeAdMob">AdMob</string>
+    <string name="BiftorAdsTypeCustom">Ads</string>
+    <string name="BiftorAdsTitle">BGram Ads</string>
+    <string name="BiftorAdsSubTitle">با تماشای تبلیغ، از بیگرام حمایت کنید</string>
 </resources>

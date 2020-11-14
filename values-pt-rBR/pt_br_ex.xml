@@ -20,7 +20,7 @@
     <string name="SyncContactsAdded">Contatos deste dispositivo foram adicionados à sua conta.</string>
     <!--code enter view-->
     <string name="YourCode">Verificar Número</string>
-    <string name="SentSmsCode">Enviamos uma SMS com um código de ativação para **%1$s**.</string>
+    <string name="SentSmsCode">Enviamos um SMS com um código de ativação para **%1$s**.</string>
     <string name="SentAppCode">Enviamos o código para o app do **Telegram** em seu outro dispositivo.</string>
     <string name="SentAppCodeTitle">Confira suas mensagens no Telegram</string>
     <string name="SentSmsCodeTitle">Inserir código</string>
@@ -179,7 +179,7 @@
     <string name="MuteFor">Silenciar por %1$s</string>
     <string name="UnmuteNotifications">Restaurar Som</string>
     <string name="WillUnmuteIn">Em %1$s</string>
-    <string name="MuteDisable">Desativar</string>
+    <string name="MuteDisable">Silenciar para sempre</string>
     <string name="Hashtags">HASHTAGS</string>
     <string name="Recent">Recente</string>
     <string name="ChatHints">Pessoas</string>
@@ -224,6 +224,31 @@
     <string name="HideNewChatsAlertTitle">Ocultar novos chats?</string>
     <string name="HideNewChatsAlertText">Parece que você está recebendo muitas mensagens de pessoas que não estão na sua agenda. Quer **silenciar** e **arquivar** essas conversas automaticamente?</string>
     <string name="GoToSettings">ABRIR CONFIGURAÇÕES</string>
+    <string name="OpenProfile">Abrir Perfil</string>
+    <string name="OpenChannel2">Abrir Canal</string>
+    <string name="OpenGroup2">Abrir Grupo</string>
+    <string name="SendMessage">Enviar Mensagem</string>
+    <string name="Mention">Mencionar</string>
+    <string name="NotificationsMutedHint">Notificações silenciadas</string>
+    <string name="NotificationsMutedForHint">Notificações silenciadas por %1$s</string>
+    <string name="NotificationsUnmutedHint">Notificações restauradas</string>
+    <string name="MessagesDeletedHint_zero">%1$d mensagens apagadas</string>
+    <string name="MessagesDeletedHint_one">Mensagem apagada</string>
+    <string name="MessagesDeletedHint_two">%1$d mensagens apagadas</string>
+    <string name="MessagesDeletedHint_few">%1$d mensagens apagadas</string>
+    <string name="MessagesDeletedHint_many">%1$d mensagens apagadas</string>
+    <string name="MessagesDeletedHint_other">%1$d mensagens apagadas</string>
+    <string name="SearchEmptyViewTitle">Sem Resultados</string>
+    <string name="SearchEmptyViewTitle2">Sem Resultados</string>
+    <string name="SearchEmptyViewFilteredSubtitle2">Tente uma nova busca.</string>
+    <string name="SearchEmptyViewFilteredSubtitleMusic">Músicas de todos os seus chats aparecerão aqui.</string>
+    <string name="SearchEmptyViewFilteredSubtitleFiles">Arquivos de todos os seus chats aparecerão aqui.</string>
+    <string name="SearchEmptyViewFilteredSubtitleLinks">Links de todos os seus chats aparecerão aqui.</string>
+    <string name="SearchEmptyViewFilteredSubtitleVoice">Voz de todos os seus chats aparecerão aqui.</string>
+    <string name="SearchEmptyViewFilteredSubtitleMedia">Mídias de todos os seus chats aparecerão aqui.</string>
+    <string name="SearchAllChatsShort">Chats</string>
+    <string name="MessagePinnedHint">Mensagem fixada</string>
+    <string name="MessageUnpinnedHint">Mensagem desafixada</string>
     <!--channels-->
     <string name="SetAsAdmin">Promover a administrador</string>
     <string name="EditAdminRights">Editar permissões de admin</string>
@@ -344,7 +369,7 @@
     <string name="ActionChannelChangedVideo">Vídeo do canal alterado</string>
     <string name="ActionChannelRemovedPhoto">Foto do canal removida</string>
     <string name="ActionChannelChangedTitle">Nome do canal alterado para un2</string>
-    <string name="ChangePublicLimitReached">Desculpe, você reservou muitos nomes públicos. Você pode remover o link público de um de seus grupos ou canais, ou criar de forma privada.</string>
+    <string name="ChangePublicLimitReached">Desculpe, você reservou muitos nomes públicos. Você pode remover o link público de um dos seus grupos ou canais, ou criar de forma privada.</string>
     <string name="ChannelCreator">Dono</string>
     <string name="ChannelAdministrator">Administrador</string>
     <string name="ChannelAdmin">Admin</string>
@@ -362,6 +387,7 @@
     <string name="ChannelAdminsInfo">Você pode adicionar administradores para ajudar você a gerenciar o seu canal. Aperte e segure para removê-los.</string>
     <string name="ChannelJoinTo">Deseja entrar no canal \'%1$s\'?</string>
     <string name="ChannelCantOpenPrivate">Desculpe, este chat não está mais acessível.</string>
+    <string name="ChannelCantOpenBannedByAdmin">Desculpe, você foi banido por um administrador e não pode acessar este chat.</string>
     <string name="ChannelCantOpenBanned">Infelizmente você foi banido de participar de grupos públicos.</string>
     <string name="ChannelCantOpenNa">Desculpe, este chat não está mais acessível.</string>
     <string name="ChannelAddTo">Adicionar %1$s ao canal?</string>
@@ -416,6 +442,7 @@
     <string name="EditAdminDeleteMessages">Apagar Mensagens de Outros</string>
     <string name="EditAdminGroupDeleteMessages">Apagar Mensagens</string>
     <string name="EditAdminAddAdmins">Adicionar Novos Admins</string>
+    <string name="EditAdminSendAnonymously">Enviar Anonimamente</string>
     <string name="EditAdminRemoveAdmin">Dispensar admin</string>
     <string name="EditAdminGroupTransfer">Transferir Posse do Grupo</string>
     <string name="EditAdminChannelTransfer">Transferir Posse do Canal</string>
@@ -506,11 +533,12 @@
     <string name="MakeAdmin">TORNAR ADMIN</string>
     <string name="AdminWillBeRemoved">%1$s será removido dos admins se você restringir.</string>
     <string name="Discussion">Conversa</string>
+    <string name="ViewDiscussion">Ver conversa</string>
     <string name="DiscussionInfo">Vincule um grupo para comentários</string>
     <string name="LinkedChannel">Canal Vinculado</string>
-    <string name="DiscussionChannelHelp">Escolha um grupo para conversas que será exibido em seu canal.</string>
+    <string name="DiscussionChannelHelp3">Selecione um grupo para armazenar os comentários do seu canal.</string>
     <string name="DiscussionChannelHelp2">Tudo que você postar no canal será encaminhado para este grupo.</string>
-    <string name="DiscussionChannelGroupSetHelp">Um link para **%1$s** é exibido no painel inferior para todos os inscritos.</string>
+    <string name="DiscussionChannelGroupSetHelp2">**%1$s** foi selecionado como o grupo usado para armazenar os comentários do seu canal.</string>
     <string name="DiscussionGroupHelp">O canal **%1$s** está vinculado a este grupo de conversa.</string>
     <string name="DiscussionGroupHelp2">Todas as novas mensagens postadas neste canal serão encaminhadas ao grupo.</string>
     <string name="DiscussionCreateGroup">Criar Grupo</string>
@@ -536,6 +564,7 @@
     <string name="SlowmodeSendError">O Modo Lento está ativado. Você não pode enviar mais de uma mensagem por vez.</string>
     <string name="SlowmodeSelectSendError">O Modo Lento está ativado. Você não pode selecionar mais itens.</string>
     <string name="SlowmodeSendErrorTooLong">Desculpe, este texto é muito longo para ser enviado em uma só mensagem.\n\nO Modo Lento está ativado. Você não pode enviar mais de uma mensagem por vez.</string>
+    <string name="UserSetAsAdminHint">**%1$s** promovido a admin</string>
     <!--polls-->
     <string name="NewPoll">Nova Enquete</string>
     <string name="NewQuiz">Novo Quiz</string>
@@ -685,6 +714,7 @@
     <string name="EventLogPromotedEditMessages">Editar mensagens</string>
     <string name="EventLogPromotedDeleteMessages">Apagar mensagens</string>
     <string name="EventLogPromotedAddAdmins">Adicionar admins</string>
+    <string name="EventLogPromotedSendAnonymously">Enviar anonimamente</string>
     <string name="EventLogPromotedBanUsers">Banir usuários</string>
     <string name="EventLogPromotedAddUsers">Adicionar usuários</string>
     <string name="EventLogPromotedTitle">Título: %1$s</string>
@@ -854,6 +884,7 @@
     <string name="AddContactFullChat">ADD %1$s A CONTATOS</string>
     <string name="ViewContact">VER CONTATO</string>
     <string name="BlockUserAlert">Deseja bloquear as mensagens e chamadas de **%1$s** no Telegram?</string>
+    <string name="BlockUserReplyAlert">Deseja bloquear as mensagens de **%1$s**?</string>
     <string name="ReportSpamAlert">Tem certeza de que deseja denunciar este usuário por spam?</string>
     <string name="ReportSpamAlertGroup">Tem certeza de que deseja denunciar este grupo por spam?</string>
     <string name="ReportSpamAlertChannel">Tem certeza de que deseja denunciar este canal por spam?</string>
@@ -866,12 +897,14 @@
     <string name="TapHereGifs">Toque aqui para acessar os GIFs salvos</string>
     <string name="PinMessage">Fixar</string>
     <string name="PinNotify">Notificar todos os membros</string>
+    <string name="PinAlsoFor">Fixar para %1$s também</string>
     <string name="UnpinMessage">Desafixar</string>
     <string name="PinMessageAlertTitle">Fixar mensagem</string>
     <string name="UnpinMessageAlertTitle">Desafixar mensagem</string>
-    <string name="PinMessageAlert">Deseja fixar essa mensagem no grupo?</string>
+    <string name="PinOldMessageAlert">Deseja fixar uma mensagem mais antiga enquanto deixa a mais recente fixada?</string>
+    <string name="PinMessageAlert">Deseja fixar a mensagem para todos os membros do grupo?</string>
     <string name="PinMessageAlertChannel">Deseja fixar essa mensagem no canal?</string>
-    <string name="PinMessageAlertChat">Deseja fixar essa mensagem no topo do seu chat de Mensagens Salvas?</string>
+    <string name="PinMessageAlertChat">Deseja fixar essa mensagem no topo do chat?</string>
     <string name="UnpinMessageAlert">Deseja desafixar essa mensagem?</string>
     <string name="DeleteBanUser">Banir usuário</string>
     <string name="DeleteReportSpam">Denunciar spam</string>
@@ -894,6 +927,7 @@
     <string name="ReportChatOther">Outro</string>
     <string name="ReportChatDescription">Descrição</string>
     <string name="PinnedMessage">Mensagem fixada</string>
+    <string name="PreviousPinnedMessage">Mensagem Anterior</string>
     <string name="PinnedPoll">Enquete fixada</string>
     <string name="EditedMessage">editada</string>
     <string name="EditMessage">Editar Mensagem</string>
@@ -967,7 +1001,7 @@
     <string name="TapForVideo">Toque para foto, segure para vídeo</string>
     <string name="TapToViewAsList">Toque para ver em lista.</string>
     <string name="SendWithoutSound">Enviar sem som</string>
-    <string name="MessageScheduleSend">Enviar Agora</string>>
+    <string name="MessageScheduleSend">Enviar Agora</string>
     <string name="MessageScheduleEditTime">Reagendar</string>
     <string name="MessageScheduleToday">Hoje</string>
     <string name="Schedule">Agendar</string>
@@ -1012,6 +1046,28 @@
     <string name="SecretChatTimerMinutes">m</string>
     <string name="SecretChatTimerHours">h</string>
     <string name="SecretChatTimerWeeks">S</string>
+    <string name="SharedToPrivateMessagesAndGroups">para mensagens privadas e grupos</string>
+    <string name="BotOwnershipTransfer">Transferir Posse do Bot</string>
+    <string name="BotOwnershipTransferReadyAlertText">Isso vai transferir todos os direitos de **dono** do bot para o usuário selecionado.</string>
+    <string name="BotOwnershipTransferChangeOwner">Alterar Dono</string>
+    <string name="BotOwnershipTransferAlertText">Você pode transferir este bot somente se tiver:</string>
+    <string name="LeaveAComment">Deixe um comentário</string>
+    <string name="CommentsTitle">Comentários</string>
+    <string name="Comment">Comentar</string>
+    <string name="RepliesTitle">Respostas</string>
+    <string name="NoComments">Nenhum comentário ainda...</string>
+    <string name="NoReplies">Nenhuma resposta ainda...</string>
+    <string name="ViewInChat">Ver no chat</string>
+    <string name="SendAnonymously">Envio anônimo</string>
+    <string name="DiscussionStarted">Tópico iniciado</string>
+    <string name="ViewThread">Ver Tópico</string>
+    <string name="ChooseDate">Escolher data</string>
+    <string name="RepliesChatInfo">Este chat te ajuda a acompanhar as respostas aos comentários que você fez nos canais.</string>
+    <string name="ChannelPostDeleted">Desculpe, esse post foi removido do grupo de conversa.</string>
+    <string name="UnpinAllMessages">DESAFIXAR TUDO</string>
+    <string name="HidePinnedMessages">OCULTAR MENSAGENS FIXADAS</string>
+    <string name="PinnedMessagesHidden">Mensagens fixadas ocultadas</string>
+    <string name="PinnedMessagesHiddenInfo">As mensagens fixadas só aparecerão de novo se uma nova mensagem for fixada.</string>
     <!--notification-->
     <string name="MessageLifetimeChanged">"%1$s alterou o timer de autodestruição para %2$s "</string>
     <string name="MessageLifetimeChangedOutgoing">Você alterou o timer de autodestruição para %1$s</string>
@@ -1127,6 +1183,25 @@
     <string name="NotificationActionPinnedGeoLiveChannel">%1$s fixou uma localização em tempo real</string>
     <string name="NotificationActionPinnedGifChannel">%1$s fixou um GIF</string>
     <string name="NotificationActionPinnedMusicChannel">%1$s fixou um arquivo de áudio</string>
+    <string name="NotificationActionPinnedTextUser">%1$s fixou \"%2$s\"</string>
+    <string name="NotificationActionPinnedNoTextUser">%1$s fixou uma mensagem</string>
+    <string name="NotificationActionPinnedPollUser">%1$s fixou a enquete %2$s</string>
+    <string name="NotificationActionPinnedQuizUser">%1$s fixou o quiz %2$s</string>
+    <string name="NotificationActionPinnedPhotoUser">%1$s fixou uma foto</string>
+    <string name="NotificationActionPinnedGameUser">%1$s fixou um jogo</string>
+    <string name="NotificationActionPinnedGameScoreUser">%1$s fixou uma pontuação de jogo</string>
+    <string name="NotificationActionPinnedVideoUser">%1$s fixou um vídeo</string>
+    <string name="NotificationActionPinnedFileUser">%1$s fixou um arquivo</string>
+    <string name="NotificationActionPinnedInvoiceUser">%1$s fixou uma fatura</string>
+    <string name="NotificationActionPinnedStickerUser">%1$s fixou um sticker</string>
+    <string name="NotificationActionPinnedStickerEmojiUser">%1$s fixou o sticker %2$s</string>
+    <string name="NotificationActionPinnedVoiceUser">%1$s fixou uma mensagem de voz</string>
+    <string name="NotificationActionPinnedRoundUser">%1$s fixou uma mensagem de vídeo</string>
+    <string name="NotificationActionPinnedContactUser">%1$s fixou o contato %2$s</string>
+    <string name="NotificationActionPinnedGeoUser">%1$s fixou um mapa</string>
+    <string name="NotificationActionPinnedGeoLiveUser">%1$s fixou uma localização ao vivo</string>
+    <string name="NotificationActionPinnedGifUser">%1$s fixou um GIF</string>
+    <string name="NotificationActionPinnedMusicUser">%1$s fixou um arquivo de áudio</string>
     <string name="SecretChatName">Telegram</string>
     <!--contacts view-->
     <string name="SelectContact">Selecione um Contato</string>
@@ -1163,6 +1238,13 @@
     <string name="SortedByLastSeen">Listado por Visto por Último</string>
     <string name="AddContactByPhone">Adicionar %1$s</string>
     <string name="PhoneNumberSearch">Número de telefone</string>
+    <string name="NoContactsYet">Você ainda não tem contatos no Telegram</string>
+    <string name="NoContactsYetLine1">Convide amigos para testar o Telegram</string>
+    <string name="NoContactsYetLine2">Encontre pessoas próximas</string>
+    <string name="NoContactsYetLine3">Busque pessoas por nome de usuário</string>
+    <string name="NewContactAlertTitle">Novo contato</string>
+    <string name="NewContactAlertMessage">O número de **%1$s** não está nos seus contatos. Deseja adicionar?</string>
+    <string name="NewContactAlertButton">Adicionar contato</string>
     <!--group create view-->
     <string name="SendMessageTo">Adicionar pessoas...</string>
     <string name="SoftUserLimitAlert">Você poderá adicionar mais membros depois de criar o grupo.</string>
@@ -1222,9 +1304,11 @@
     <string name="ContactNotRegisteredTitle">Convidar para o Telegram</string>
     <string name="ContactNotRegistered">%1$s ainda não está no Telegram. Gostaria de fazer um convite?</string>
     <string name="Invite">Convidar</string>
+    <string name="Block">BLOQUEAR</string>
+    <string name="BlockAndDeleteReplies">BLOQUEAR E APAGAR RESPOSTAS</string>
     <string name="BlockContact">Bloquear usuário</string>
     <string name="BlockUser">Bloquear usuário</string>
-    <string name="BlockUsers">Bloquear usuários</string>
+    <string name="BlockUsers">Bloquear</string>
     <string name="BlockUserMessage">Deseja bloquear as mensagens e chamadas de **%1$s** no Telegram?</string>
     <string name="BlockUsersMessage">Deseja bloquear as mensagens e chamadas de **%1$s** no Telegram?</string>
     <string name="UserBlocked">Usuário bloqueado</string>
@@ -1353,9 +1437,9 @@
     <string name="ArchivedMasksInfo">Você pode ter até 200 pacotes de máscaras. Pacotes não usados são arquivados quando você adiciona mais.</string>
     <string name="SendSticker">ENVIAR STICKER</string>
     <string name="ArchivedStickersAlertTitle">Stickers arquivados</string>
-    <string name="ArchivedStickersAlertInfo">Alguns de seus pacotes de sticker antigos foram arquivados. Você pode reativá-los nas Configurações de Sticker.</string>
+    <string name="ArchivedStickersAlertInfo">Alguns dos seus pacotes de sticker antigos foram arquivados. Você pode reativá-los nas Configurações de Sticker.</string>
     <string name="ArchivedMasksAlertTitle">Máscaras arquivadas</string>
-    <string name="ArchivedMasksAlertInfo">Alguns de seus pacotes de máscaras antigos foram arquivados. Você pode reativá-los nas Configurações de Máscaras.</string>
+    <string name="ArchivedMasksAlertInfo">Alguns dos seus pacotes de máscaras antigos foram arquivados. Você pode reativá-los nas Configurações de Máscaras.</string>
     <string name="DeleteStickerSetsAlertTitle">Apagar %1$s</string>
     <string name="DeleteStickersAlertMessage">Tem certeza de que deseja apagar os pacotes de sticker selecionados?</string>
     <string name="ArchiveStickerSetsAlertTitle">Arquivar %1$s</string>
@@ -2230,8 +2314,8 @@
     <string name="SharedMediaTabFull2">Mídia Compartilhada</string>
     <string name="SharedGroupsTab2">Grupos</string>
     <string name="SharedLinksTab2">Links</string>
-    <string name="SharedMusicTab2">Áudios</string>
-    <string name="SharedVoiceTab2">Mensagens de Voz</string>
+    <string name="SharedMusicTab2">Música</string>
+    <string name="SharedVoiceTab2">Voz</string>
     <string name="SharedGIFsTab2">GIFs</string>
     <string name="DocumentsTitle">Arquivos Compartilhados</string>
     <string name="SharedContentTitle">Conteúdo Compartilhado</string>
@@ -2256,6 +2340,12 @@
     <string name="KMetersAway2">%1$s km de distância</string>
     <string name="FootsAway">%1$s pés de distância</string>
     <string name="MilesAway">%1$s milhas de distância</string>
+    <string name="FootsShort">%1$s pés</string>
+    <string name="MilesShort">%1$s mi</string>
+    <string name="Mi">mi</string>
+    <string name="Km">km</string>
+    <string name="MetersShort">%1$s m</string>
+    <string name="KMetersShort">%1$s km</string>
     <string name="MetersFromYou2">%1$s m de você</string>
     <string name="KMetersFromYou2">%1$s km de você</string>
     <string name="FootsFromYou">%1$s pés de você</string>
@@ -2289,6 +2379,8 @@
     <string name="LocationUpdatedJustNow">atualizado agora</string>
     <string name="SharingYouAndOtherName">Você e %1$s</string>
     <string name="AttachLiveLocationIsSharing">%1$s com %2$s</string>
+    <string name="AttachLiveLocationIsSharingChat">%1$s com %2$s</string>
+    <string name="AttachLiveLocationIsSharingChats">%1$s com %2$s</string>
     <string name="StopAllLocationSharings">PARAR TODOS</string>
     <string name="SharingLiveLocationTitle">Compartilhando a Localização com %1$s</string>
     <string name="LiveLocationAlertPrivate">Escolha por quanto tempo %1$s verá sua localização precisa.</string>
@@ -2317,6 +2409,19 @@
     <string name="ChatSetThisLocation">Definir esta localização</string>
     <string name="ChatSetLocationInfo">As pessoas poderão encontrar seu grupo na seção \"Pessoas Próximas\".</string>
     <string name="PlacesInThisArea">Lugares por aqui</string>
+    <string name="LocationNotifiation">Alerta de proximidade</string>
+    <string name="LocationNotifiationButtonUser">Notificar quando %1$s estiver a %2$s</string>
+    <string name="LocationNotifiationButtonGroup">Notificar quando alguém estiver a %1$s</string>
+    <string name="LocationNotifiationCloser">Você já está mais perto que %1$s</string>
+    <string name="ShareLocationAlertTitle">Compartilhar Localização</string>
+    <string name="ShareLocationAlertButton">Compartilhar</string>
+    <string name="ShareLocationAlertText">Para o alerta funcionar, compartilhe a sua localização em tempo real neste chat.</string>
+    <string name="ProximityTooltioUser">Alertar quando %1$s estiver perto</string>
+    <string name="ProximityTooltioGroup">Alertar quando outros participantes estiverem perto</string>
+    <string name="ProximityAlertSet">Alerta de proximidade ativado</string>
+    <string name="ProximityAlertSetInfoUser">Vamos te notificar quando %1$s estiver a %2$s de você.</string>
+    <string name="ProximityAlertSetInfoGroup2">We will notify you once someone is within %1$s from you.</string>
+    <string name="ProximityAlertCancelled">Alerta de proximidade cancelado</string>
     <!--photo gallery view-->
     <string name="ShowAsList">Exibir em lista</string>
     <string name="ShowAsGrid">Exibir em grade</string>
@@ -2422,6 +2527,43 @@
     <string name="MainChannelProfileVideoSetHint">Este é o vídeo principal do canal agora.</string>
     <string name="MainGroupProfilePhotoSetHint">Esta é a foto principal do grupo agora.</string>
     <string name="MainGroupProfileVideoSetHint">Este é o vídeo principal do grupo agora.</string>
+    <string name="PhotoSavedHint">Foto salva na galeria</string>
+    <string name="VideoSavedHint">Vídeo salvo na galeria</string>
+    <string name="PhotoSavedToDownloadsHint">Foto salva em downloads</string>
+    <string name="VideoSavedToDownloadsHint">Vídeo salvo em downloads</string>
+    <string name="GifSavedToDownloadsHint">GIF salvo em downloads</string>
+    <string name="AudioSavedHint">Arquivo salvo nas músicas</string>
+    <string name="FileSavedHint">Arquivo salvo em downloads</string>
+    <string name="FilesSavedHint_zero">%1$d arquivos salvos em downloads</string>
+    <string name="FilesSavedHint_one">Arquivo salvo em downloads</string>
+    <string name="FilesSavedHint_two">%1$d arquivos salvos em downloads</string>
+    <string name="FilesSavedHint_few">%1$d arquivos salvos em downloads</string>
+    <string name="FilesSavedHint_many">%1$d arquivos salvos em downloads</string>
+    <string name="FilesSavedHint_other">%1$d arquivos salvos em downloads</string>
+    <string name="PhotosSavedHint_zero">%1$d fotos salvas na galeria</string>
+    <string name="PhotosSavedHint_one">Foto salva na galeria</string>
+    <string name="PhotosSavedHint_two">%1$d fotos salvas na galeria</string>
+    <string name="PhotosSavedHint_few">%1$d fotos salvas na galeria</string>
+    <string name="PhotosSavedHint_many">%1$d fotos salvas na galeria</string>
+    <string name="PhotosSavedHint_other">%1$d fotos salvas na galeria</string>
+    <string name="VideosSavedHint_zero">%1$d vídeos salvos na galeria</string>
+    <string name="VideosSavedHint_one">Vídeo salvo na galeria</string>
+    <string name="VideosSavedHint_two">%1$d vídeos salvos na galeria</string>
+    <string name="VideosSavedHint_few">%1$d vídeos salvos na galeria</string>
+    <string name="VideosSavedHint_many">%1$d vídeos salvos na galeria</string>
+    <string name="VideosSavedHint_other">%1$d vídeos salvos na galeria</string>
+    <string name="AudiosSavedHint_zero">%1$d arquivos salvos nas músicas</string>
+    <string name="AudiosSavedHint_one">Arquivo salvo nas músicas</string>
+    <string name="AudiosSavedHint_two">%1$d arquivos salvos nas músicas</string>
+    <string name="AudiosSavedHint_few">%1$d arquivos salvos nas músicas</string>
+    <string name="AudiosSavedHint_many">%1$d arquivos salvos nas músicas</string>
+    <string name="AudiosSavedHint_other">%1$d arquivos salvos nas músicas</string>
+    <string name="MediaSavedHint_zero">%1$d itens salvos na galeria</string>
+    <string name="MediaSavedHint_one">Um item salvo na galeria</string>
+    <string name="MediaSavedHint_two">%1$d itens salvos na galeria</string>
+    <string name="MediaSavedHint_few">%1$d itens salvos na galeria</string>
+    <string name="MediaSavedHint_many">%1$d itens salvos na galeria</string>
+    <string name="MediaSavedHint_other">%1$d itens salvos na galeria</string>
     <!--password view-->
     <string name="TwoStepVerification">Verificação em Duas Etapas</string>
     <string name="TwoStepVerificationTitle">Verificação em Duas Etapas</string>
@@ -2519,7 +2661,7 @@
     <string name="BytesSent">Bytes enviados</string>
     <string name="BytesReceived">Bytes recebidos</string>
     <string name="FilesDataUsage">Arquivos</string>
-    <string name="CallsDataUsage">Configurações de chamadas</string>
+    <string name="CallsDataUsage">Chamadas</string>
     <string name="OutgoingCalls">Chamadas Efetuadas</string>
     <string name="IncomingCalls">Chamadas Recebidas</string>
     <string name="CallsTotalTime">Tempo total</string>
@@ -2610,7 +2752,7 @@
     <string name="InviteToGroupError">Desculpe, você não pode adicionar esse usuário a grupos devido às configurações de privacidade dele.</string>
     <string name="InviteToChannelError">Desculpe, você não pode adicionar esse usuário a canais devido às configurações de privacidade dele.</string>
     <string name="CreateGroupError">Desculpe, você não pode criar um grupo com esses usuários devido às configurações de privacidade deles.</string>
-    <string name="PrivacyCallsP2PHelp">Desativar a conexão de ponta a ponta irá transmitir as chamadas através dos servidores do Telegram para evitar que seu endereço de IP seja revelado, mas irá diminuir a qualidade do áudio.</string>
+    <string name="PrivacyCallsP2PHelp">Desativar a conexão de ponta a ponta irá transmitir as chamadas através dos servidores do Telegram para evitar que o seu endereço de IP seja revelado, mas poderá diminuir a qualidade do áudio e do vídeo.</string>
     <string name="SyncContactsDelete">Apagar Contatos Sincronizados</string>
     <string name="SuggestContacts">Sugerir Contatos Frequentes</string>
     <string name="SuggestContactsInfo">Exibe as pessoas com quem você mais conversa no topo da seção de busca para acesso rápido.</string>
@@ -2648,7 +2790,7 @@
     <string name="Edit">Editar</string>
     <string name="Send">Enviar</string>
     <string name="Call">Ligar</string>
-    <string name="VideoCall">Video Call</string>
+    <string name="VideoCall">Videochamada</string>
     <string name="Copy">Copiar</string>
     <string name="Delete">Apagar</string>
     <string name="Start">Iniciar</string>
@@ -2705,6 +2847,9 @@
     <string name="ActionAddUserSelf">un1 retornou ao grupo</string>
     <string name="ActionAddUserSelfMega">un1 entrou no grupo</string>
     <string name="ActionAddUserSelfYou">Você retornou ao grupo</string>
+    <string name="ActionUserWithinRadius">un1 está a %1$s de você</string>
+    <string name="ActionUserWithinYouRadius">Você está a %1$s de un1</string>
+    <string name="ActionUserWithinOtherRadius">un1 está agora a %1$s de un2</string>
     <string name="ActionBotAllowed">Você permitiu que o bot te envie mensagens ao fazer o login em %1$s.</string>
     <string name="ActionBotDocuments">%1$s recebeu os seguintes documentos: %2$s</string>
     <string name="ActionBotDocumentIdentity">Dados pessoais</string>
@@ -2807,7 +2952,7 @@
     <string name="ShareYouLocationInfo">Isso irá enviar sua localização atual ao bot.</string>
     <string name="ShareYouLocationUnable">O app não conseguiu determinar a sua localização atual.</string>
     <string name="ShareYouLocationUnableManually">Escolher manualmente</string>
-    <string name="ShareYouLocationInline">Esse bot gostaria de saber sua localização todas as vezes que você enviá-lo uma mensagem. Isso pode ser utilizado para providenciar resultados específicos de localização.</string>
+    <string name="ShareYouLocationInline">Este bot gostaria de saber a sua localização sempre que você o usar. Isso pode ser utilizado para mostrar resultados baseados em localização.</string>
     <string name="ShareYouPhoneNumberTitle">Compartilhar seu número de telefone?</string>
     <string name="AreYouSureShareMyContactInfoBot">O bot saberá seu número de telefone. Isso pode ser útil para a integração com outros serviços.</string>
     <string name="AreYouSureShareMyContactInfoUser">Deseja compartilhar o seu número de telefone %1$s com **%2$s**?</string>
@@ -2818,7 +2963,7 @@
     <string name="AreYouSureSecretChatTitle">Chat secreto</string>
     <string name="AreYouSureSecretChat">Tem certeza de que deseja iniciar um chat secreto?</string>
     <string name="AreYouSureRegistration">Tem certeza de que deseja cancelar o registro?</string>
-    <string name="StopVerification">Deseja interromper o processo de verificação?</string>
+    <string name="StopVerification">Deseja parar o processo de verificação?</string>
     <string name="AreYouSureClearHistoryWithUser">Tem certeza de que deseja limpar o histórico do chat com **%1$s**?</string>
     <string name="AreYouSureClearHistoryWithSecretUser">Tem certeza de que deseja limpar o histórico do chat secreto com **%1$s**?</string>
     <string name="AreYouSureClearHistoryWithChat">Tem certeza de que deseja limpar o histórico do chat em **%1$s**?</string>
@@ -2881,6 +3026,7 @@
     <string name="PermissionDrawAboveOtherApps">Para reproduzir vídeos no modo PiP, o Telegram precisa de acesso para aparecer sobre outros apps.</string>
     <string name="PermissionOpenSettings">CONFIGURAÇÕES</string>
     <string name="PermissionXiaomiLockscreen">Por favor, permita que o Telegram seja mostrado na tela de bloqueio para que as chamadas possam funcionar corretamente.</string>
+    <string name="PermissionBackgroundLocation">Para enviar a sua localização em tempo real neste chat, o Telegram precisa de acesso  contínuo à sua localização, inclusive enquanto o app estiver em segundo plano.\n\nO Telegram acessará a sua localização somente pela duração que você escolher e você pode parar de compartilhar a qualquer momento. Não usaremos a sua localização para nenhum outro motivo além de compartilhar neste chat.</string>
     <!--charts-->
     <string name="GrowthChartTitle">Crescimento</string>
     <string name="FollowersChartTitle">Inscritos</string>
@@ -2954,6 +3100,15 @@
     <string name="TopDaysOfWeekChartTitle">Dias da semana</string>
     <string name="StatisticSearchUserHistory">Ver Mensagens</string>
     <string name="StatisticOpenProfile">Ver Perfil</string>
+    <string name="SearchTipToday">Hoje</string>
+    <string name="SearchTipYesterday">Ontem</string>
+    <string name="StatisticViews">Visualizações</string>
+    <string name="PublicShares">Compartilhamentos Públicos</string>
+    <string name="PrivateShares">Compartilhamentos Privados</string>
+    <string name="ViewStats">Ver Estatísticas</string>
+    <string name="ViewChannelStats">Ver Estatísticas do Canal</string>
+    <string name="ViewMessageStatistic">Estatísticas da Mensagem</string>
+    <string name="ViewMessage">Abrir Mensagem</string>
     <!--Intro view-->
     <string name="Page1Title">Telegram</string>
     <string name="Page2Title">Rápido</string>
@@ -2981,17 +3136,17 @@
     <string name="VoipFailed">Falha ao conectar</string>
     <string name="VoipRinging">Tocando</string>
     <string name="VoipBusy">Linha ocupada</string>
-    <string name="VoipInCallBranding">Chamada do Telegram</string>
-    <string name="VoipInVideoCallBranding">Telegram Video Call</string>
-    <string name="VoipOutgoingCall">Chamada do Telegram em andamento</string>
-    <string name="VoipEndCall">Encerrar Chamada</string>
+    <string name="VoipInCallBranding">Chamada via Telegram</string>
+    <string name="VoipInVideoCallBranding">Videochamada via Telegram</string>
+    <string name="VoipOutgoingCall">Chamada via Telegram em andamento</string>
+    <string name="VoipEndCall">Encerrar</string>
     <string name="VoipOngoingAlertTitle">Outra chamada em andamento</string>
     <string name="VoipOngoingAlert">Você está em uma chamada com **%1$s**. Gostaria de desligar e iniciar uma nova com **%2$s**?</string>
-    <string name="VoipNotificationSettings">Chamadas de voz</string>
+    <string name="VoipNotificationSettings">Chamadas</string>
     <string name="VoipSettingsRingtone">Toque</string>
     <string name="VoipRingtoneInfo">Você pode personalizar o toque usado quando esse contato te ligar no Telegram.</string>
     <string name="Calls">Chamadas</string>
-    <string name="CustomP2PInfo">Chamadas de ponta a ponta serão (ou não) estabelecidas com esses usuários, ignorando as opções acima.</string>
+    <string name="CustomP2PInfo">Chamadas de ponta a ponta serão (ou não) estabelecidas com esses usuários, ignorando as opções do topo.</string>
     <string name="P2PEnabledWith">Usar ponta a ponta com</string>
     <string name="WhoCanCallMe">Quem pode me ligar?</string>
     <string name="WhoCanCallMeInfo">Você pode restringir quem pode te ligar.</string>
@@ -3009,32 +3164,35 @@
     <string name="VoipOfflineOpenSettings">Configurações</string>
     <string name="CallMessageOutgoing">Chamada efetuada</string>
     <string name="CallMessageIncoming">Chamada recebida</string>
-    <string name="CallMessageVideoOutgoing">Outgoing Video Call</string>
-    <string name="CallMessageVideoIncoming">Incoming Video Call</string>
+    <string name="CallMessageVideoOutgoing">Videochamada efetuada</string>
+    <string name="CallMessageVideoIncoming">Videochamada recebida</string>
     <string name="CallMessageIncomingMissed">Chamada perdida</string>
     <string name="CallMessageOutgoingMissed">Chamada cancelada</string>
     <string name="CallMessageIncomingDeclined">Chamada recusada</string>
-    <string name="CallMessageVideoIncomingMissed">Missed Video Call</string>
-    <string name="CallMessageVideoOutgoingMissed">Cancelled Video Call</string>
-    <string name="CallMessageVideoIncomingDeclined">Declined Video Call</string>
+    <string name="CallMessageVideoIncomingMissed">Videochamada perdida</string>
+    <string name="CallMessageVideoOutgoingMissed">Videochamada cancelada</string>
+    <string name="CallMessageVideoIncomingDeclined">Videochamada recusada</string>
     <string name="CallMessageWithDuration">%1$s (%2$s)</string>
     <string name="NoCallLog">Você ainda não realizou chamadas.</string>
     <string name="VoipPeerIncompatible">O aplicativo de **%1$s** está usando um protocolo incompatível. O aplicativo desse usuário precisa ser atualizado para que você possa chamá-lo.</string>
-    <string name="VoipPeerOutdated">O aplicativo de **%1$s** não suporta chamadas. O aplicativo desse usuário precisa ser atualizado para que você possa chamá-lo.</string>
+    <string name="VoipPeerOutdated">O aplicativo de **%1$s** não faz chamadas e precisa ser atualizado para isso.</string>
+    <string name="VoipPeerVideoOutdated">Desculpe, a versão do Telegram de **%1$s** é antiga e não faz videochamadas.</string>
+    <string name="VoipPeerVideoOutdatedMakeVoice">Fazer chamada de voz</string>
     <string name="VoipRateCallAlert">Como estava a qualidade da sua chamada no Telegram?</string>
     <string name="VoipNeedMicPermission">O Telegram precisa acessar seu microfone para poder fazer chamadas.</string>
-    <string name="VoipNeedMicCameraPermission">Telegram needs access to your microphone and camera so that you can make video calls.</string>
+    <string name="VoipNeedMicCameraPermission">O Telegram precisa de acesso ao seu microfone e à câmera para que você possa fazer videochamadas.</string>
     <string name="VoipFeedbackCommentHint">Adicionar um comentário opcional</string>
     <string name="CallBack">Ligar de Volta</string>
     <string name="CallAgain">Ligar Novamente</string>
     <string name="DefaultRingtone">Padrão</string>
     <string name="ConfirmDeleteCallLog">Deseja apagar essa entrada do registro de chamadas?</string>
-    <string name="CallViaTelegram">Chamada do Telegram</string>
-    <string name="VideoCallViaTelegram">Telegram Video Call</string>
+    <string name="CallViaTelegram">Chamada via Telegram</string>
+    <string name="VideoCallViaTelegram">Videochamada via Telegram</string>
     <string name="VoipAudioRoutingEarpiece">Auricular</string>
+    <string name="VoipAudioRoutingHeadset">Headset</string>
     <string name="VoipAudioRoutingSpeaker">Alto-falante</string>
     <string name="VoipAudioRoutingBluetooth">Bluetooth</string>
-    <string name="VoipOutputDevices">Output Devices</string>
+    <string name="VoipOutputDevices">Dispositivos de Saída</string>
     <string name="ReturnToCall">RETORNAR À LIGAÇÃO</string>
     <string name="CallNotAvailable">Desculpe, você não pode realizar essa chamada por conta das configurações de privacidade de %1$s.</string>
     <string name="CallEmojiKeyTooltip">Se os emojis na tela de %1$s são os mesmos, esta chamada é 100%% segura.</string>
@@ -3052,8 +3210,8 @@
     <string name="QuickReplyDefault4">Não posso falar agora, me liga depois?</string>
     <string name="QuickReplyCustom">Mensagem Customizada...</string>
     <string name="AllowCustomQuickReply">Permitir Personalização</string>
-    <string name="VoipInCallBrandingWithName">Chamada do Telegram para %s</string>
-    <string name="VoipInVideoCallBrandingWithName">Telegram Video Call to %s</string>
+    <string name="VoipInCallBrandingWithName">Chamada via Telegram para %s</string>
+    <string name="VoipInVideoCallBrandingWithName">Videochamada via Telegram para %s</string>
     <string name="VoipErrorUnknown">Não é possível realizar chamadas no momento.</string>
     <string name="RateCallEcho">Ouvi minha própria voz</string>
     <string name="RateCallNoise">Ouvi barulho no fundo</string>
@@ -3062,24 +3220,32 @@
     <string name="RateCallSilentLocal">Não consegui ouvir a outra pessoa</string>
     <string name="RateCallSilentRemote">A outra pessoa não conseguiu me ouvir</string>
     <string name="RateCallDropped">Chamada encerrada do nada</string>
-    <string name="TapToTurnCamera">Tap here to turn on your camera</string>
-    <string name="VoipUnmute">Unmute</string>
-    <string name="VoipMute">Mute</string>
-    <string name="VoipStartVideo">Start Video</string>
-    <string name="VoipStopVideo">Stop Video</string>
-    <string name="VoipSpeaker">Speaker</string>
-    <string name="VoipFlip">Flip</string>
-    <string name="VoipSwitchToVideoCall">Switch to video call?</string>
-    <string name="VoipSwitch">SWITCH</string>
-    <string name="VoipUserMicrophoneIsOff">%s\'s microphone is off</string>
-    <string name="VoipUserCameraIsOff">%s\'s camera is off</string>
-    <string name="AcceptCall">Accept</string>
-    <string name="DeclineCall">Decline</string>
-    <string name="RetryCall">Retry</string>
+    <string name="RateCallVideoDistorted">Vídeo distorcido</string>
+    <string name="RateCallVideoPixelated">Vídeo quadriculado</string>
+    <string name="TapToTurnCamera">Toque aqui para ligar a sua câmera</string>
+    <string name="VoipUnmute">Ativar Som</string>
+    <string name="VoipMute">Silenciar</string>
+    <string name="VoipStartVideo">Iniciar Vídeo</string>
+    <string name="VoipStopVideo">Parar Vídeo</string>
+    <string name="VoipSpeaker">Alto-falante</string>
+    <string name="VoipFlip">Virar</string>
+    <string name="VoipSwitchToVideoCall">Alternar para videochamada?</string>
+    <string name="VoipSwitch">ALTERNAR</string>
+    <string name="VoipUserMicrophoneIsOff">O microfone de %s está desligado</string>
+    <string name="VoipUserCameraIsOff">A câmera de %s está desligada</string>
+    <string name="AcceptCall">Aceitar</string>
+    <string name="DeclineCall">Recusar</string>
+    <string name="RetryCall">Ligar</string>
+    <string name="VoipVideoUnavailable">Vídeo</string>
+    <string name="CallAlert">Fazer chamada para **%1$s**?</string>
+    <string name="CallAlertTitle">Chamada de Voz</string>
+    <string name="VideoCallAlert">Fazer videochamada para **%1$s**?</string>
+    <string name="VideoCallAlertTitle">Videochamada</string>
+    <string name="VoipReconnecting">Reconectando</string>
     <!--contacts shortcuts-->
-    <string name="ContactShortcutMessage">Message %1$s</string>
-    <string name="ContactShortcutVoiceCall">Voice call %1$s</string>
-    <string name="ContactShortcutVideoCall">Video call %1$s</string>
+    <string name="ContactShortcutMessage">Mensagem para %1$s</string>
+    <string name="ContactShortcutVoiceCall">Chamar %1$s por voz</string>
+    <string name="ContactShortcutVideoCall">Chamar %1$s por vídeo</string>
     <!--plural-->
     <string name="DeleteBackground_zero">Apagar %1$d papéis de parede</string>
     <string name="DeleteBackground_one">Apagar papel de parede</string>
@@ -3177,6 +3343,12 @@
     <string name="NewMessages_few">%1$d novas mensagens</string>
     <string name="NewMessages_many">%1$d novas mensagens</string>
     <string name="NewMessages_other">%1$d novas mensagens</string>
+    <string name="MessagesUnpinned_zero">%1$d mensagens desafixadas</string>
+    <string name="MessagesUnpinned_one">mensagem desafixada</string>
+    <string name="MessagesUnpinned_two">%1$d mensagens desafixadas</string>
+    <string name="MessagesUnpinned_few">%1$d mensagens desafixadas</string>
+    <string name="MessagesUnpinned_many">%1$d mensagens desafixadas</string>
+    <string name="MessagesUnpinned_other">%1$d mensagens desafixadas</string>
     <string name="messages_zero">%1$d mensagens</string>
     <string name="messages_one">%1$d mensagem</string>
     <string name="messages_two">%1$d mensagens</string>
@@ -3333,6 +3505,18 @@
     <string name="Shares_few">%1$s compartilhamentos</string>
     <string name="Shares_many">%1$s compartilhamentos</string>
     <string name="Shares_other">%1$s compartilhamentos</string>
+    <string name="PublicSharesCount_zero">%1$s compartilhamentos públicos</string>
+    <string name="PublicSharesCount_one">%1$s compartilhamento público</string>
+    <string name="PublicSharesCount_two">%1$s compartilhamentos públicos</string>
+    <string name="PublicSharesCount_few">%1$s compartilhamentos públicos</string>
+    <string name="PublicSharesCount_many">%1$s compartilhamentos públicos</string>
+    <string name="PublicSharesCount_other">%1$s compartilhamentos públicos</string>
+    <string name="Shared_zero">%1$s compartilhados</string>
+    <string name="Shared_one">%1$s compartilhado</string>
+    <string name="Shared_two">%1$s compartilhados</string>
+    <string name="Shared_few">%1$s compartilhados</string>
+    <string name="Shared_many">%1$s compartilhados</string>
+    <string name="Shared_other">%1$s compartilhados</string>
     <string name="StickerSets_zero">%1$s pacotes de sticker</string>
     <string name="StickerSets_one">%1$s pacote de sticker</string>
     <string name="StickerSets_two">%1$s pacotes de sticker</string>
@@ -3520,6 +3704,42 @@
     <string name="MembersCountSelected_few">%1$d de %2$d selecionados</string>
     <string name="MembersCountSelected_many">%1$d de %2$d selecionados</string>
     <string name="MembersCountSelected_other">%1$d de %2$d selecionados</string>
+    <string name="ViewReplies_zero">Ver %1$d Respostas</string>
+    <string name="ViewReplies_one">Ver %1$d Resposta</string>
+    <string name="ViewReplies_two">Ver %1$d Respostas</string>
+    <string name="ViewReplies_few">Ver %1$d Respostas</string>
+    <string name="ViewReplies_many">Ver %1$d Respostas</string>
+    <string name="ViewReplies_other">Ver %1$d Respostas</string>
+    <string name="Replies_zero">%1$d Respostas</string>
+    <string name="Replies_one">%1$d Resposta</string>
+    <string name="Replies_two">%1$d Respostas</string>
+    <string name="Replies_few">%1$d Respostas</string>
+    <string name="Replies_many">%1$d Respostas</string>
+    <string name="Replies_other">%1$d Respostas</string>
+    <string name="Comments_zero">%1$d Comentários</string>
+    <string name="Comments_one">%1$d Comentário</string>
+    <string name="Comments_two">%1$d Comentários</string>
+    <string name="Comments_few">%1$d Comentários</string>
+    <string name="Comments_many">%1$d Comentários</string>
+    <string name="Comments_other">%1$d Comentários</string>
+    <string name="CommentsCount_zero">%1$d comentários</string>
+    <string name="CommentsCount_one">%1$d comentário</string>
+    <string name="CommentsCount_two">%1$d comentários</string>
+    <string name="CommentsCount_few">%1$d comentários</string>
+    <string name="CommentsCount_many">%1$d comentários</string>
+    <string name="CommentsCount_other">%1$d comentários</string>
+    <string name="CommentsNoNumber_zero">comentários</string>
+    <string name="CommentsNoNumber_one">comentário</string>
+    <string name="CommentsNoNumber_two">comentários</string>
+    <string name="CommentsNoNumber_few">comentários</string>
+    <string name="CommentsNoNumber_many">comentários</string>
+    <string name="CommentsNoNumber_other">comentários</string>
+    <string name="PinnedMessagesCount_zero">%1$d Mensagens Fixadas</string>
+    <string name="PinnedMessagesCount_one">Mensagem Fixada</string>
+    <string name="PinnedMessagesCount_two">%1$d Mensagens Fixadas</string>
+    <string name="PinnedMessagesCount_few">%1$d Mensagens Fixadas</string>
+    <string name="PinnedMessagesCount_many">%1$d Mensagens Fixadas</string>
+    <string name="PinnedMessagesCount_other">%1$d Mensagens Fixadas</string>
     <!--accessibility descriptions-->
     <string name="AccDescrGroup">Grupo</string>
     <string name="AccDescrChannel">Canal</string>
@@ -3593,6 +3813,7 @@
     <string name="AccDescrIVTitle">Título</string>
     <string name="AccDescrIVHeading">Cabeçalho</string>
     <string name="AccDescrMyLocation">Minha localização</string>
+    <string name="AccDescrLocationNotify">Notificar quando pessoas que compartilham a localização estiverem perto</string>
     <string name="AccDescrVideoQuality">Qualidade do vídeo</string>
     <string name="AccDescrAspectRatio">Proporção da imagem</string>
     <string name="AccDescrTakeMorePics">Tirar mais uma foto</string>
@@ -3640,13 +3861,15 @@
     <string name="AccDescrShareInChats_other">Encaminhar em %1$d chats</string>
     <string name="AccDescrQuizCorrectAnswer">Resposta correta</string>
     <string name="AccDescrPipMode">Modo de Janela Flutuante</string>
-    <string name="AccDescrVoipMicOn">Microphone is on</string>
-    <string name="AccDescrVoipMicOff">Microphone is off</string>
-    <string name="AccDescrVoipCamSwitchedToFront">Switched to front camera</string>
-    <string name="AccDescrVoipCamSwitchedToBack">Switched to rear camera</string>
-    <string name="AccDescrVoipCamOn">Camera is on</string>
-    <string name="AccDescrVoipCamOff">Camera is off</string>
+    <string name="AccDescrVoipMicOn">Microfone ligado</string>
+    <string name="AccDescrVoipMicOff">Microfone desligado</string>
+    <string name="AccDescrVoipCamSwitchedToFront">Alternou para a câmera frontal</string>
+    <string name="AccDescrVoipCamSwitchedToBack">Alternou para a câmera traseira</string>
+    <string name="AccDescrVoipCamOn">Câmera ligada</string>
+    <string name="AccDescrVoipCamOff">Câmera desligada</string>
+    <string name="AccPinnedMessagesList">Lista de mensagens fixadas</string>
     <!--date formatters-->
+    <string name="formatterMonthYear">MMMM \'de\' yyyy</string>
     <string name="formatterStats12H">dd \'de\' MMM \'de\' yyyy, h:mm a</string>
     <string name="formatterStats24H">dd \'de\' MMM \'de\' yyyy, HH:mm</string>
     <string name="formatterBannedUntil12H">dd \'de\' MMM \'de\' yyyy, h:mm a</string>
@@ -3661,6 +3884,7 @@
     <string name="chatDate">d \'de\' MMMM</string>
     <string name="chatFullDate">d \'de\' MMMM \'de\' yyyy</string>
     <string name="formatterWeek">EEE</string>
+    <string name="formatterWeekLong">EEEE</string>
     <string name="formatterDay24H">HH:mm</string>
     <string name="formatterDay12H">h:mm a</string>
     <string name="formatDateAtTime">%1$s, %2$s</string>
@@ -3699,19 +3923,19 @@
 
     <!-- Biftor hide Typing-->
     <string name="BiftorGhostModHideTyping">Ocultar digitação</string>
-    <string name="BiftorGhostModHideTypingSub">Não enviar status como digitação, envio etc ...</string>
+    <string name="BiftorGhostModHideTypingSub">Não enviar status como digitação, envio etc …</string>
 
     <!-- Hide Channel Mute Button -->
     <string name="BiftorHideChannelMuteButton">Ocultar painel inferior nos canais</string>
 
     <!-- Tabs -->
-    <string name="BiftorTabsStyle">Estilo da aba</string>
+    <string name="BiftorTabsStyle">Estilo</string>
     <string name="BiftorVerticalTabsStyle">Estilo da aba vertical</string>
     <string name="BiftorVerticalRightSideBarRound">Botão redondo</string>
     <string name="BiftorVerticalRightSideBarOnlyIcon">Apenas ícone</string>
     <string name="BiftorVerticalRightSideBarIconAndText">Ícone e texto</string>
-    <string name="BiftorVerticalRightSideBar">Barra lateral direita vertical</string>
-    <string name="BiftorRightSideAlwaysOpen">Sempre aberto</string>
+    <string name="BiftorVerticalRightSideBar">Redonda</string>
+    <string name="BiftorRightSideAlwaysOpen">Sempre aberta</string>
     <string name="BiftorRightSideHideWhenScroll">Ocultar botão redondo quando rolar</string>
     <string name="BiftorVerticalRightSideRoundSize">Tamanho do botão redondo</string>
     <string name="BiftorVerticalRightSideRoundShowStyle">Mostrar estilo</string>
@@ -3719,11 +3943,11 @@
     <string name="BiftorVerticalRoundShowByTap">Ao tocar no botão flutuante</string>
     <string name="BiftorRightSidePushChatList">Empurrar lista de chats para a esquerda</string>
     <string name="BiftorRightSideOpenButton">Mostrar botão de abertura rápida</string>
-    <string name="BiftorShowTabsAtTop">Mostrar no topo</string>
-    <string name="BiftorShowTabsAtBottom">Mostrar na parte inferior</string>
+    <string name="BiftorShowTabsAtTop">Topo</string>
+    <string name="BiftorShowTabsAtBottom">Inferior</string>
     <string name="BiftorShowNewChatButton">Mostrar botão de novo chat</string>
     <string name="HideTabs">Desativar barra de abas</string>
-    <string name="All">Tudo</string>
+    <string name="All">Todos</string>
     <string name="Users">Usuários</string>
     <string name="Groups">Grupos</string>
     <string name="SuperGroups">Supergrupos</string>
@@ -3745,21 +3969,21 @@
     <string name="Sort">Ordenar abas</string>
 
     <string name="TabsHeight">Altura das abas</string>
-    <string name="TabsUnreadTextSize">Tamanho do texto dos contadores das abas</string>
-    <string name="SetAsDefaultTab">Definir como aba padrão</string>
+    <string name="TabsUnreadTextSize">Tamanho do texto dos contadores</string>
+    <string name="SetAsDefaultTab">-> Definir como pasta padrão</string>
     <string name="ResetDefaultTab">Redefinir aba padrão</string>
     <string name="SortByStatus">Ordenar por estado</string>
     <string name="SortByLastMessage">Ordenar por última mensagem</string>
     <string name="SortByUnreadCount">Ordenar por mensagens não lidas</string>
     <string name="ShowSuperGroupsTab">Mostrar aba de supergrupos</string>
     <string name="HideSuperGroupsTab">Esconder aba supergrupos</string>
-    <string name="Tabs">Abas</string>
+    <string name="Tabs">Pastas</string>
     <string name="HideShowTabs">Ordenar abas</string>
     <string name="DisableTabsAnimation">Não esconder as abas ao rolar</string>
     <string name="InfiniteSwipe">Deslize infinito entre abas</string>
     <string name="HeaderTabCounterCountChats">Contar conversas e não mensagens</string>
     <string name="HeaderTabCounterCountNotMuted">Contar apenas com som</string>
-    <string name="HideTabsCounters">Ocultar contadores de abas</string>
+    <string name="HideTabsCounters">Ocultar contadores</string>
     <string name="BiftorForceMarkAsRead">Forçar marcação como lido</string>
 
     <string name="ShowHeaderShadow">Mostrar sombra no cabeçalho</string>
@@ -3772,13 +3996,13 @@
     <string name="BiftorTabsCenterEachTabs">Largura da aba</string>
     <string name="BiftorTabsFitToScreen">Ajustar abas à tela</string>
     <string name="BiftorTabsFitToScreenSub">Desativar as abas que se atraem para o centro.</string>
-    <string name="BiftorDisableChangeTabSwipe">Desativar deslize entre abas</string>
+    <string name="BiftorDisableChangeTabSwipe">Desativar deslize</string>
     <string name="BiftorJumpToFirstPosition">Ir para o primeiro item</string>
 
 
-    <string name="BiftorKeepSelection">Mantenha a seleção</string>
-    <string name="BiftorKeepSelectionAfterForward">Manter seleção após encaminhar</string>
-    <string name="BiftorKeepSelectionAfterForwardSub">Não desmarcar mensagens após o encaminhamento (para ações adicionais com selecionadas).</string>
+    <string name="BiftorKeepSelection">Manter seleção</string>
+    <string name="BiftorKeepSelectionAfterForward">Manter seleção</string>
+    <string name="BiftorKeepSelectionAfterForwardSub">Não desmarcar mensagens após o encaminhamento (para ações adicionais com as selecionadas).</string>
 
     <string name="OnlineContacts">Contatos online</string>
 
@@ -3791,7 +4015,7 @@
     <string name="DisableSwipeBackSub">Se você estiver usando o recurso \'Deslizar para a direita\', talvez seja necessário ativar essa opção para desativar bate-papos próximos indesejados quando deslizar para a direita</string>
 
     <!-- BiftorProForward -->
-    <string name="BiftorProForward">Editar e repostar</string>
+    <string name="BiftorProForward">Editar e enviar</string>
     <string name="BiftorProForwardDeleteUrl">Excluir URL</string>
     <string name="EmptyMessageError">Você não pode enviar uma mensagem vazia.</string>
     <string name="Quote">CITAR</string>
@@ -3819,38 +4043,40 @@
 
     <!-- Biftor dismiss only -->
     <string name="BiftorDismissOnly">Dispensar apenas</string>
+    <string name="BiftorUnpinMessageAlertTitle">Unpin messages</string>
+    <string name="BiftorUnpinMessageAlert">Do you want to dismiss or unpin all messages?</string>
 
     <!-- Biftor dark blue theme -->
     <string name="BGramDarkBlue">Azul Escuro BGram</string>
     <string name="BGramOldNight">Escuro BGram</string>
 
     <!-- Biftor select mess text -->
-    <string name="BiftorSelectMessText">Copiar seleção</string>
+    <string name="BiftorSelectMessText">Selecionar e copiar</string>
 
     <!-- Biftor go to first message -->
     <string name="GoToFirstMessage">Primeira mensagem</string>
 
     <!--Biftor Save to cloud -->
-    <string name="SaveToCloud">Salvar no meu perfil</string>
+    <string name="SaveToCloud">Salvar</string>
     <string name="SaveToCloudAlert">Salvar com ou sem citação?</string>
     <string name="MessageSaved">Mensagem salva</string>
-    <string name="BiftorSaveWithQuot">Com citação</string>
-    <string name="BiftorSaveWithOutQuot">Sem citação</string>
+    <string name="BiftorSaveWithQuot">Sim</string>
+    <string name="BiftorSaveWithOutQuot">Não</string>
     <string name="BiftorSaveToCloudDefaultAction">Citar ao salvar mensagem</string>
-    <string name="BiftorSaveToCloudAskAlways">Sempre perguntar</string>
+    <string name="BiftorSaveToCloudAskAlways">Perguntar</string>
 
     <!--Biftor Avatar click menu -->
-    <string name="ShowUserMessages">Ver todas as mensagens</string>
-    <string name="ShowUserMedia">Mostrar mídia</string>
-    <string name="ShowProfile">Abrir perfil</string>
-    <string name="BiftorCopyUsername">Copiar nome de usuário</string>
+    <string name="ShowUserMessages">Ver Mensagens</string>
+    <string name="ShowUserMedia">Ver Mídia</string>
+    <string name="ShowProfile">Perfil</string>
+    <string name="BiftorCopyUsername">Copiar Nome de Usuário</string>
     <string name="BiftorUserNameCopied">Nome de usuário copiado para a área de transferência</string>
     <string name="BiftorCopiedToClipBoard">Copiado para a área de transferência</string>
     <string name="BiftorSendMessages">Enviar mensagem</string>
     <string name="BiftorMention">Mencionar</string>
-    <string name="BiftorContextMenu">Menu de opções</string>
+    <string name="BiftorContextMenu">Menu de Opções</string>
     <string name="BiftorUserNameNotFound">Nome de usuário não encontrado</string>
-    <string name="BiftorOpenOrChat">Abrir chat</string>
+    <string name="BiftorOpenOrChat">Chat</string>
 
     <!-- Biftor user photo as bg of DrawerProfileCell-->
     <string name="BiftorUserPhotoAsProfileCellBG">Usar avatar como plano de fundo</string>
@@ -3864,11 +4090,11 @@
     <string name = "BiftorDeleteMediaAreYouSure">Tem certeza de que deseja excluir somente a mídia?</string>
 
     <!--Biftor ChatPreView -->
-    <string name="BiftorChatPreViewCat">Prévia do chat</string>
+    <string name="BiftorChatPreViewCat">Prévia</string>
     <string name="BiftorHideChatPreViewClearButton">Ocultar o botão de Limpar Histórico</string>
-    <string name="BiftorHideChatPreViewClearButtonSub">Ocultar o botão limpar histórico para Mensagens salvas, grupos e canais próprios.</string>
+    <string name="BiftorHideChatPreViewClearButtonSub">Oculta o botão limpar histórico para Mensagens salvas, grupos e canais próprios.</string>
     <string name="BiftorHideChatPreViewDeleteButton">Ocultar o botão de Excluir Chat</string>
-    <string name="BiftorHideChatPreViewDeleteButtonSub">Ocultar o botão de exclusão para Mensagens salvas, grupos e canais próprios.</string>
+    <string name="BiftorHideChatPreViewDeleteButtonSub">Oculta o botão de exclusão do chat para Mensagens salvas, grupos e canais próprios.</string>
 
     <!--Biftor port create link in message edit text-->
     <string name="Strikethrough">Tachado</string>
@@ -3888,13 +4114,13 @@
 
     <!-- Biftor added about tab-->
     <string name="BiftorAbout">Info</string>
-    <string name="BGramChangeLog">Registro de alterações</string>
+    <string name="BGramChangeLog">Registro de Alterações</string>
     <string name="BGramChangeLogSub">Todos os recursos na ordem em que foram adicionados</string>
     <string name="BGramChangeLogLoadFailed">Falha ao carregar o registro</string>
     <string name="BiftorSupport">Suporte</string>
 
     <string name="BGramOfficialChannel">Canal oficial</string>
-    <string name="BGramOfficialChannelSub">Notícias e atualizações do BGram</string>
+    <string name="BGramOfficialChannelSub">Notícias e atualizações do BGram.</string>
     <string name="BGramOfficialGroupPublic">Grupo oficial</string>
     <string name="BGramOfficialGroupPublicSub">Todos os relatórios de erros e idéias são bem-vindos.</string>
     <string name="BGramOfficialGroupNormal">Grupo privado iraniano</string>
@@ -3902,7 +4128,7 @@
     <string name="BGramRateApp">Avaliar aplicativo</string>
     <string name="BGramRateAppSub">Se você gosta do aplicativo, agradecemos sua alta pontuação no Google Play. Em caso de problemas, antes de dar uma pontuação baixa, sinta-se à vontade para fazer uma pergunta no grupo oficial.</string>
     <string name="BiftorAppCredits">Créditos</string>
-    <string name="BiftorAppCreditsSub">Créditos para quem ajudou a fazer este aplicativo</string>
+    <string name="BiftorAppCreditsSub">Créditos para quem ajudou a fazer este aplicativo.</string>
     <string name="BiftorAppHints">Guia BGram</string>
     <string name="BiftorAppHintsSub">Guia de vídeo e lista de ações, clicando nos elementos da interface.</string>
     <string name="BiftorDonate">Doar</string>
@@ -3931,16 +4157,16 @@
 
     <!-- Biftor chat quick panel -->
     <string name="QuickBarCat">Acesso rápido</string>
-    <string name="ShowQuickBar">Ativar acesso rápido</string>
-    <string name="VerticalQuickBar">Acesso rápido vertical</string>
+    <string name="ShowQuickBar">Ativar</string>
+    <string name="VerticalQuickBar">Vertical</string>
     <string name="AlwaysBackToMain">Sempre voltar à tela principal</string>
-    <string name="DoNotCloseQuickBar">Não fechar o acesso rápido</string>
+    <string name="DoNotCloseQuickBar">Sempre aberto</string>
     <string name="HideQuickBarOnScroll">Ocultar ao rolar</string>
-    <string name="CenterQuickBarButton">Botão de acesso rápido central</string>
+    <string name="CenterQuickBarButton">Central</string>
     <string name="ShowMembersOnQuickBar">Mostrar membros do grupo</string>
-    <string name="BiftorQuickBarClickAction">Ação de toque rápido</string>
-    <string name="BiftorQuickBarLongClickAction">Ação de toque longo</string>
-    <string name="BiftorQuickBarLongClickActionOnMembersList">Ação de toque longo no membro</string>
+    <string name="BiftorQuickBarClickAction">Toque rápido</string>
+    <string name="BiftorQuickBarLongClickAction">Toque longo</string>
+    <string name="BiftorQuickBarLongClickActionOnMembersList">Toque longo no membro</string>
 
     <!--Biftor confirm to voice and video msg-->
     <string name="BiftorConfirmToSendVoice">Mensagens de voz</string>
@@ -3960,21 +4186,21 @@
 
     <!--Biftor find my messages-->
     <string name="BiftorFindMyMess">Minhas mensagens</string>
-    <string name="BiftorFindReplyToThisMsg">Mostrar respostas</string>
+    <string name="BiftorFindReplyToThisMsg">Respostas</string>
 
     <!--Biftor View Channels only-->
     <string name="BiftorViewOnly">Apenas ver</string>
 
     <!--Biftor Direct save and edit btn -->
     <string name="BiftorShowDirectSaveToCloud">Botão salvar nas mensagens salvas</string>
-    <string name="BiftorShowDirectEdit">Botão de edição direta</string>
-    <string name="BiftorShowDirectShare">Mostrar compartilhamento direto</string>
+    <string name="BiftorShowDirectEdit">Mostrar botão de edição</string>
+    <string name="BiftorShowDirectShare">Mostrar envio direto</string>
 
     <!--Biftor copy msg owner name -->
-    <string name="BiftorCopyMsgOwnerName">Citar ao copiar mensagem</string>
-    <string name="BiftorCopyMsgWithOwnerName">Com nome do autor</string>
-    <string name="BiftorCopyMsgWithOutOwnerName">Sem nome do autor</string>
-    <string name="BiftorCopyMsgAlwaysAsk">Sempre perguntar</string>
+    <string name="BiftorCopyMsgOwnerName">Citar autor ao copiar mensagem</string>
+    <string name="BiftorCopyMsgWithOwnerName">Sim</string>
+    <string name="BiftorCopyMsgWithOutOwnerName">Não</string>
+    <string name="BiftorCopyMsgAlwaysAsk">Perguntar</string>
     <string name="BiftorCopyMsgTitle">Copiar mensagem</string>
     <string name="BiftorCopyMsgAsk">Copiar com nome do autor?</string>
     <string name="BiftorCopyOnlyText">Somente texto</string>
@@ -3982,8 +4208,8 @@
     <string name="BiftorNo">Não</string>
 
     <!--Biftor forward confirm panel -->
-    <string name="BiftorShowForwardConfirm">Mostrar destinatários antes de enviar</string>
-    <string name="BiftorShowForwardConfirmsSub">Mostrar a lista de destinatários em um painel especial antes de enviar.</string>
+    <string name="BiftorShowForwardConfirm">Ver destinatários antes de enviar</string>
+    <string name="BiftorShowForwardConfirmsSub">Mostra a lista de destinatários em um painel especial antes de enviar.</string>
     <string name="BiftorGoBack">Voltar</string>
 
     <!-- Biftor add night mode switch -->
@@ -3997,13 +4223,13 @@
     <string name="BiftorHiddenChats">Conversas Ocultas</string>
     <string name="BiftorAddToHiddenChat">Ocultar</string>
     <string name="BiftorDeleteHiddenChats">Mostrar</string>
-    <string name="BiftorHiddenChatsPass">Bloquear chats ocultos por código</string>
+    <string name="BiftorHiddenChatsPass">Bloquear chats ocultos</string>
     <string name="BiftorSetPassCodeForHiddenChats">Defina sua senha de chat oculto</string>
     <string name="BiftorRemoveHiddenChatsFromSearch">Remover chats ocultos da pesquisa</string>
     <string name="BiftorChangePasscodeInfo">Ao configurar uma senha adicional para chats ocultos sempre que você quiser acessar eles, a senha será solicitada. Isso é geral em todas as suas contas. \n\nNota: se você esquecer a senha, não poderá abrir seus chats ocultos, será necessário excluir e reinstalar o aplicativo. Todos os bate-papos secretos serão perdidos.</string>
     <string name="BiftorHiddenChatsButton">Localização do botão</string>
-    <string name="BiftorHiddenChatsButtonNewMessages">Longo toque no botão nova mensagem</string>
-    <string name="BiftorHiddenChatsButtonSearch">Longo toque na pesquisa</string>
+    <string name="BiftorHiddenChatsButtonNewMessages">Segure o botão de nova mensagem</string>
+    <string name="BiftorHiddenChatsButtonSearch">Segure o botão de pesquisa</string>
     <string name="BiftorHiddenChatsButtonOpenDrawer">Longo toque na gaveta aberta</string>
     <string name="BiftorRemoveHiddenChatsNotifi">Remover a notificação de chats ocultos</string>
 
@@ -4034,17 +4260,17 @@
     <string name="BiftorForwardCopyLink">Copiar Link</string>
 
     <!--‌ Biftor mark on msg -->
-    <string name="BiftorSetMarkOnMsg">Marcar mensagem</string>
+    <string name="BiftorSetMarkOnMsg">Marcar</string>
     <string name="BiftorGoToMarkedMsg">Mensagem marcada</string>
-    <string name="BiftorResetMarkedMsg">Remover marcador</string>
+    <string name="BiftorResetMarkedMsg">Desmarcar</string>
 
     <!--Biftor Font picker -->
     <string name="BiftorFontsPickerCat">Seletor de Fontes</string>
     <string name="BiftorEnableCustomFont">Usar fonte personalizada</string>
-    <string name="BiftorFontsPickerLight">Escolher fonte regular</string>
-    <string name="BiftorFontsPickerBold">Escolher fonte negrito</string>
-    <string name="BiftorFontsPickerItalic">Escolher fonte itálica</string>
-    <string name="BiftorFontsPickerMono">Escolher fonte mono</string>
+    <string name="BiftorFontsPickerLight">Regular</string>
+    <string name="BiftorFontsPickerBold">Negrito</string>
+    <string name="BiftorFontsPickerItalic">Itálico</string>
+    <string name="BiftorFontsPickerMono">Mono</string>
     <string name="BiftorFontsReset">Redefinir para fonte padrão</string>
     <string name="BiftorFontRestarter">Reinicie o aplicativo</string>
     <string name="BiftorYouNeedToRestartApp">Reinicie o aplicativo para aplicar alterações de fonte</string>
@@ -4054,7 +4280,7 @@
     <string name="BiftorVerticalAlignmentBottom">Fundo de alinhamento do emoji</string>
 
     <!--Biftor use persian calendar -->
-    <string name="BiftorAlwaysUsePersianCalendar">Sempre usar calendário persa</string>
+    <string name="BiftorAlwaysUsePersianCalendar">Usar calendário persa</string>
     <!-- Biftor multiaccount count -->
     <string name="BiftorAccountRestarterTitle">Reinicie o aplicativo!</string>
     <string name="BiftorAccountRestarterMess">Novas contas detectadas. Por favor, reinicie o aplicativo para carregá-los.</string>
@@ -4102,13 +4328,13 @@
     <string name="BiftorGroupDeleteAllMyMsgs">Excluir minhas mensagens</string>
     <string name="BiftorAreYouSureDeletedAllMsg">Tem certeza que deseja excluir todas as suas mensagens **%1$s**?</string>
 
-    <string name="BiftorCreator">Criador:&#160;</string>
+    <string name="BiftorCreator">Dono:&#160;</string>
     <string name="BiftorId">ID:&#160;</string>
 
     <!-- Biftor auto download next media -->
     <string name="BiftorEnableAutoDownloadNextMedia">Baixar próxima mídia</string>
-    <string name="BiftorDisableGoToNextMedia">Disable go to next media</string>
-    <string name="BiftorDisableGoToNextMediaSub">Disable go to next media by tapping on photo edge</string>
+    <string name="BiftorDisableGoToNextMedia">Desativar troca de mídia</string>
+    <string name="BiftorDisableGoToNextMediaSub">Desative a mudança para a próxima mídia tocando na borda da foto</string>
 
     <!-- Biftor enable camera in attach menu -->
     <string name="BiftorEnableCameraAttachMenu">Ativar câmera no painel de anexos</string>
@@ -4173,15 +4399,15 @@
     <string name="BiftorSendingPhotoQuality">Qualidade da foto enviada</string>
 
     <!-- Biftor Dialogs avatar click action -->
-    <string name="BiftorDialogsAvatarDefClickAction">Ação do toque no avatar dos chats</string>
-    <string name="BiftorDialogsAvatarDefLongClickAction">Ação do toque longo no avatar dos chats</string>
-    <string name="BiftorOpenAvatar">Abrir avatar</string>
+    <string name="BiftorDialogsAvatarDefClickAction">Toque no avatar dos chats</string>
+    <string name="BiftorDialogsAvatarDefLongClickAction">Toque longo no avatar dos chats</string>
+    <string name="BiftorOpenAvatar">Foto</string>
 
     <!-- Biftor paint and mention button -->
-    <string name="BiftorShowPaintBtn">Mostrar botão de desenho no chat</string>
+    <string name="BiftorShowPaintBtn">Mostrar botão de desenho</string>
     <string name="BiftorChatBotButton">Ação do botão bot</string>
-    <string name="BiftorChatBotShow">Comandos do bot (padrão)</string>
-    <string name="BiftorReplaceBotWithMentionBtn">Mencionar o membro do grupo</string>
+    <string name="BiftorChatBotShow">Comandos (padrão)</string>
+    <string name="BiftorReplaceBotWithMentionBtn">Mencionar</string>
     <string name="BiftorChatBotHide">Ocultar</string>
 
     <!-- Biftor Clear Cache other files -->
@@ -4199,7 +4425,7 @@
 
     <!-- Biftor show view count in dialog list-->
     <string name="BiftorShowViewCount">Mostrar exibições na lista de chats</string>
-    <string name="BiftorShowViewCountSub">Mostrar contagem de visualizações em vez de marcas de seleção para os próprios canais na lista de bate-papo.</string>
+    <string name="BiftorShowViewCountSub">Mostrar contagem de visualizações em vez de marcas de seleção para os próprios canais na lista de chats.</string>
 
     <!-- Biftor backup and restore-->
     <string name="BiftorBackUpAndRestoreCat">Backup e Restauração</string>
@@ -4250,21 +4476,21 @@
     <string name="BiftorMultiSelectAddToTheGroupTitle">Adicionar %1$s usuário(s) para o chat %2$s?</string>
 
     <!--Biftor open avatar photo everywhere-->
-    <string name="BiftorOpenAvatarPhoto">Abra o avatar por toque</string>
-    <string name="BiftorOpenAvatarPhotoSub">Abra a foto quando tocar no avatar em contatos e na lista de membros do grupo.</string>
+    <string name="BiftorOpenAvatarPhoto">Abrir avatar</string>
+    <string name="BiftorOpenAvatarPhotoSub">Abra a foto quando tocar no avatar na página de contatos e na lista de membros do grupo.</string>
 
     <!--Biftor open video or GIF with external player-->
     <string name="BiftorOpenVideoBy">Video player</string>
     <string name="BiftorDoYouWantPlayWithExPlayer">Você quer abrir um vídeo com um player externo?</string>
-    <string name="BiftorVideoPlayerAlwaysExternal">Sempre externo</string>
-    <string name="BiftorVideoPlayerAlwaysInternal">Sempre interno</string>
-    <string name="BiftorVideoPlayerAlwaysAsk">Sempre perguntar</string>
+    <string name="BiftorVideoPlayerAlwaysExternal">Externo</string>
+    <string name="BiftorVideoPlayerAlwaysInternal">Interno</string>
+    <string name="BiftorVideoPlayerAlwaysAsk">Perguntar</string>
 
     <!--Biftor merge msg antiflood-->
-    <string name="BiftorMergeMsgsIntoOne">Mesclar minhas mensagens</string>
+    <string name="BiftorMergeMsgsIntoOne">Minhas mensagens</string>
     <string name="BiftorMergeMsgsIntoOneSub">Concatenar mensagens de texto enviadas em fila para não inundar e incomodar outras pessoas.</string>
-    <string name="BiftorMergeMsgsTime">Limite de tempo de mesclagem</string>
-    <string name="BiftorMergeMsgsChars">Limite de caracteres de mensagem</string>
+    <string name="BiftorMergeMsgsTime">Limite de tempo</string>
+    <string name="BiftorMergeMsgsChars">Limite de caracteres</string>
     <string name="BiftorMergeToastEnabled">Mesclagem de mensagens ativada</string>
     <string name="BiftorMergeToastDisabled">Mesclagem de mensagens desativada</string>
 
@@ -4294,21 +4520,28 @@
     <string name="BiftorMain">Principal</string>
     <string name="BiftorAppearance">Visão</string>
     <string name="BiftorChatListCat">Lista de Chats</string>
-    <string name="BiftorTabsCat">Abas</string>
+    <string name="BiftorTabsCat">Pastas</string>
     <string name="BiftorButtonsCat">Botões</string>
     <string name="BiftorBubblesCat">Bolhas no Chat</string>
 
     <string name="BiftorChatting">Chat</string>
     <string name="BiftorMsgMergingCat">Mesclagem de Mensagens</string>
     <string name="BiftorSendConfirmCat">Confirmação de Envio</string>
-    <string name="BiftorForwardPanelCat">Compartilhamento Direto</string>
+    <string name="BiftorForwardPanelCat">Envio Direto</string>
 
     <!--Biftor External language-->
     <string name="BiftorLocalVersion">0</string>
 
     <!--Biftor login with bot-->
     <string name="BiftorLoginWithBotToKen">Login com token de bot</string>
-    <string name="BiftorBotToken">Digite ou cole seu token de bot</string>
+    <string name="BiftorBotToken">Paste your bot token</string>
+    <string name="BiftorLoginWithBotInfo">You can use the @BotFather to create a new bot.\n\nWhen you login with a bot, you will have all the limitations that bots have, including:\n
+		- You do not have access to your contacts.\n
+		- You can\'t join groups and channels (unless admins add you).\n
+		- You can only write to users who have already sent you /start.\n
+		- You will not be able to see when users read your messages.\n
+		- The chat list is empty when you first login, and will populate when the bot receives messages from users and groups. Group detection can be particularly slow.</string>
+
 
     <!--Biftor Tor -->
     <string name="BiftorTorStarting">TOR está começando&#8230;</string>
@@ -4346,7 +4579,7 @@
     <string name="BiftorTorBridgeInput">Cole sua ponte aqui</string>
     <string name="BiftorTorTroubleConnecting">Problemas para se conectar?</string>
     <string name="BiftorTorNewIdentity">Nova identidade</string>
-    <string name="BiftorChangeSideBarProxyToTor">Substituir proxy da barra lateral por TOR</string>
+    <string name="BiftorChangeSideBarProxyToTor">Substituir proxy por TOR</string>
     <string name="BiftorUseTor">Use TOR</string>
     <string name="BiftorTor">TOR</string>
     <string name="BiftorConnectingToTor">Conectando às TOR</string>
@@ -4406,12 +4639,12 @@
     <string name="BiftorDisableVoiceProximitySensorSub">Desativar o sensor de proximidade quando o áudio estiver tocando</string>
 
     <!-- Biftor custom user mention-->
-    <string name="BiftorCustomUserMention">Menção de usuário personalizada</string>
-    <string name="BiftorUserMentionListLongTap">Mencionar com toque longo na lista</string>
-    <string name="BiftorUserMentionListLongTapSub">Ação por toque longo em um nome na lista suspensa depois de digitar @ no grupo.</string>
-    <string name="BiftorUserMentionInsertName">Inserir menção</string>
-    <string name="BiftorUserMentionInsertCustomName">Editar menção</string>
-    <string name="BiftorCustomUserMentionName">Insira o nome de usuário</string>
+    <string name="BiftorCustomUserMention">Menção personalizada de usuário</string>
+    <string name="BiftorUserMentionListLongTap">Toque longo na lista suspensa</string>
+    <string name="BiftorUserMentionListLongTapSub">Ação ao pressionar um nome na lista suspensa depois de digitar @ no grupo.</string>
+    <string name="BiftorUserMentionInsertName">Inserir</string>
+    <string name="BiftorUserMentionInsertCustomName">Editar</string>
+    <string name="BiftorCustomUserMentionName">Insira o texto</string>
     <string name="BiftorCustomUserMentionId">Digite o ID do usuário</string>
     <string name="BiftorCustomUserMentionError">Usuário não encontrado no banco de dados, copie o ID do perfil do usuário.</string>
 
@@ -4431,7 +4664,7 @@
 
     <!--Biftor Translate-->
     <string name="BiftorTranslate">Traduzir</string>
-    <string name="BiftorTranslateEnterText">Inserir texto</string>
+    <string name="BiftorTranslateEnterText">Texto</string>
     <string name="BiftorTranslateEnterTextEmpty">Você deve inserir o texto para traduzir</string>
     <string name="BiftorTranslateAUTO_DETECT">AUTOMÁTICO</string>
     <string name="BiftorTranslateAFRIKAANS">AFRIKAANS</string>
@@ -4469,6 +4702,7 @@
     <string name="BiftorTranslateITALIAN">ITALIAN</string>
     <string name="BiftorTranslateJAPANESE">JAPANESE</string>
     <string name="BiftorTranslateKANNADA">KANNADA</string>
+    <string name="BiftorTranslateKAZAKH">KAZAKH</string>
     <string name="BiftorTranslateKOREAN">KOREAN</string>
     <string name="BiftorTranslateLATIN">LATIN</string>
     <string name="BiftorTranslateLATVIAN">LATVIAN</string>
@@ -4494,6 +4728,7 @@
     <string name="BiftorTranslateTURKISH">TURKISH</string>
     <string name="BiftorTranslateUKRAINIAN">UKRAINIAN</string>
     <string name="BiftorTranslateURDU">URDU</string>
+    <string name="BiftorTranslateUZBEK">UZBEK</string>
     <string name="BiftorTranslateVIETNAMESE">VIETNAMESE</string>
     <string name="BiftorTranslateWELSH">WELSH</string>
     <string name="BiftorTranslateYIDDISH">YIDDISH</string>
@@ -4504,7 +4739,7 @@
     <!--Biftor delete from recent search-->
     <string name="BiftorDeletRecentSearchItem">Deseja mesmo remover **%1$s** do histórico de busca?</string>
 
-    <string name="BiftorDrawerContactAndGroup">Contatos e grupos</string>
+    <string name="BiftorDrawerContactAndGroup">Contatos e Grupos</string>
 
     <!--Biftor floating new msg-->
     <string name="BiftorChangeToSaveMsg">Botão da nuvem flutuante</string>
@@ -4524,8 +4759,8 @@
 
     <!--Biftor direct chats-->
     <string name="BiftorDirectChats">Chats diretos</string>
-    <string name="BiftorSetAsDirectChats">Definir como chats diretos</string>
-    <string name="BiftorDirectChatsReset">Resetar chats diretos</string>
+    <string name="BiftorSetAsDirectChats">Favoritar</string>
+    <string name="BiftorDirectChatsReset">Resetar</string>
     <string name="BiftorDisplayDirectChats">Exibir chat direto na</string>
     <string name="BiftorDisplayDirectChatsSide">Barra lateral</string>
     <string name="BiftorDisplayDirectChatsTab">Aba</string>
@@ -4536,38 +4771,53 @@
     <string name="BiftorDeleteFromFav">Remover dos favoritos</string>
 
     <string name="BiftorHideSponsorProxy">Ocultar patrocinador</string>
-    <string name="BiftorHideSponsorProxySub">Ocultar o proxy do patrocinador na lista de chats</string>
+    <string name="BiftorHideSponsorProxySub">Ocultar o patrocinador do proxy na lista de chats</string>
 
     <!--Biftor shadow socks-->
     <string name="BiftorPing">Ping</string>
-    <string name="BiftorProxyTypeShadowSocks">ShadowSocks Proxy</string>
-    <string name="BiftorProxyTypeShadowSocksR">ShadowSocksR Proxy</string>
-    <string name="BiftorProxyTypeVmess">Vmess Proxy</string>
-    <string name="BiftorProxyInfoSSR">ShadowsocksR Proxy Settings</string>
-    <string name="BiftorProxyInfoSS">Shadowsocks Proxy Settings</string>
-    <string name="BiftorProxyInfoVmess">Vmess Proxy Settings</string>
-    <string name="BiftorShadowProxySponsor">Sponsor</string>
+    <string name="BiftorProxyTypeShadowSocks">Proxy ShadowSocks</string>
+    <string name="BiftorProxyTypeShadowSocksR">Proxy ShadowSocksR</string>
+    <string name="BiftorProxyTypeVmess">Proxy Vmess</string>
+    <string name="BiftorProxyInfoSSR">Configurações do Proxy ShadowsocksR</string>
+    <string name="BiftorProxyInfoSS">Configurações do Shadowsocks</string>
+    <string name="BiftorProxyInfoVmess">Configurações do Vmess</string>
+    <string name="BiftorShadowProxySponsor">Patrocinador</string>
 
-    <string name="BiftorShadowSocksHelp">Help</string>
-    <string name="BiftorImportProxy">Import from url</string>
-    <string name="BiftorConnection">Connect: %1$d ms</string>
+    <string name="BiftorShadowSocksHelp">Ajuda</string>
+    <string name="BiftorImportProxy">Importar da url</string>
+    <string name="BiftorConnection">Conectar: %1$d ms</string>
 
-    <string name="BiftorVmessUserId">User Id</string>
-    <string name="BiftorVmessAlterId">Alter Id</string>
-    <string name="BiftorVmessSecurity">Security</string>
-    <string name="BiftorVmessNetwork">Network</string>
-    <string name="BiftorVmessHeadType">Head Type</string>
-    <string name="BiftorVmessRequestHost">Request Host / QUIC Security</string>
-    <string name="BiftorVmessPath">Path / QUICK Key</string>
+    <string name="BiftorVmessUserId">ID do usuário</string>
+    <string name="BiftorVmessAlterId">Alterar Id</string>
+    <string name="BiftorVmessSecurity">Segurança</string>
+    <string name="BiftorVmessNetwork">Rede</string>
+    <string name="BiftorVmessHeadType">Tipo de Cabeça</string>
+    <string name="BiftorVmessRequestHost">Solicitar host / Segurança QUIC</string>
+    <string name="BiftorVmessPath">Caminho / Senha QUICK</string>
     <string name="BiftorVmessTls">Use TLS</string>
 
-    <string name="BiftorSSPassword">Password</string>
-    <string name="BiftorSSMethod">Encrypt Method</string>
-    <string name="BiftorSSPlugin">Plugin</string>
-    <string name="BiftorSSPluginOpts">Plugin Config</string>
+    <string name="BiftorSSPassword">Senha</string>
+    <string name="BiftorSSMethod">Método de criptografia</string>
+    <string name="BiftorSSPlugin">Configurações do Plugin</string>
+    <string name="BiftorSSPluginOpts">Plugin</string>
 
-    <string name="BiftorSSRProtocol">Protocol</string>
-    <string name="BiftorSSRProtocolParams">Protocol Params</string>
+    <string name="BiftorSSRProtocol">Protocolo</string>
+    <string name="BiftorSSRProtocolParams">Parâmetros de protocolo</string>
     <string name="BiftorSSRObfs">Obfs</string>
-    <string name="BiftorSSRObfsParam">Obfs Param</string>
+    <string name="BiftorSSRObfsParam">Parâmetro Obfs</string>
+    <string name="BiftorShadowSocksModule">Shadow socks</string>
+    <string name="BiftorStartShadowAsService">Start shadow as service</string>
+    <string name="BiftorStartShadowAsServiceSub">Run shadow socks as background service</string>
+    <string name="BiftorShadowSockServiceConnecting">Shadow Socks service is connecting</string>
+    <string name="BiftorShadowSockServiceConnected">Shadow Socks service is running: %s</string>
+    <string name="BiftorShadowSockServiceStop">Stop</string>
+    <string name="BiftorShadowSocksConfig">Shadow socks config</string>
+    <string name="BiftorStopShadowSocksWhenAppClosed">Stop Shadow socks when app closed</string>
+    <string name="BiftorStopShadowSocksWhenAppClosedSub">Stop the Shadow socks when App Closed, if you disable it, when the Shadow socks is enable the whole app will not close.</string>
+
+    <!--Biftor ads-->
+    <string name="BiftorAdsTypeAdMob">AdMob</string>
+    <string name="BiftorAdsTypeCustom">Ads</string>
+    <string name="BiftorAdsTitle">BGram Ads</string>
+    <string name="BiftorAdsSubTitle">Support BGram by Watching an Ad</string>
 </resources>

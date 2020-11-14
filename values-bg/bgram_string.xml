@@ -142,6 +142,8 @@
 
     <!-- Biftor dismiss only -->
     <string name="BiftorDismissOnly">Отхвърляне</string>
+    <string name="BiftorUnpinMessageAlertTitle">Unpin messages</string>
+    <string name="BiftorUnpinMessageAlert">Do you want to dismiss or unpin all messages?</string>
 
     <!-- Biftor dark blue theme -->
     <string name="BGramDarkBlue">BGram Тъмно синьо</string>
@@ -630,7 +632,13 @@
 
     <!--Biftor login with bot-->
     <string name="BiftorLoginWithBotToKen">Влезте със знака за бот (@)</string>
-    <string name="BiftorBotToken">Въведете или поставете знака за бот (@)</string>
+    <string name="BiftorBotToken">Paste your bot token</string>
+    <string name="BiftorLoginWithBotInfo">You can use the @BotFather to create a new bot.\n\nWhen you login with a bot, you will have all the limitations that bots have, including:\n
+		- You do not have access to your contacts.\n
+		- You can\'t join groups and channels (unless admins add you).\n
+		- You can only write to users who have already sent you /start.\n
+		- You will not be able to see when users read your messages.\n
+		- The chat list is empty when you first login, and will populate when the bot receives messages from users and groups. Group detection can be particularly slow.</string>
 
     <!--Biftor Tor -->
     <string name="BiftorTorStarting">TOR is starting&#8230;</string>
@@ -751,7 +759,7 @@
     <string name="BiftorTranslateEnterText">Enter text</string>
     <string name="BiftorTranslateEnterTextEmpty">You must enter text to translate</string>
     <string name="BiftorTranslateAUTO_DETECT">Auto detect</string>
-    <string name="BiftorTranslateAFRIKAANS">Afrikaans</string>
+    <string name="BiftorTranslateAFRIKAANS">AFRIKAANS</string>
     <string name="BiftorTranslateALBANIAN">ALBANIAN</string>
     <string name="BiftorTranslateARABIC">ARABIC</string>
     <string name="BiftorTranslateARMENIAN">ARMENIAN</string>
@@ -786,6 +794,7 @@
     <string name="BiftorTranslateITALIAN">ITALIAN</string>
     <string name="BiftorTranslateJAPANESE">JAPANESE</string>
     <string name="BiftorTranslateKANNADA">KANNADA</string>
+    <string name="BiftorTranslateKAZAKH">KAZAKH</string>
     <string name="BiftorTranslateKOREAN">KOREAN</string>
     <string name="BiftorTranslateLATIN">LATIN</string>
     <string name="BiftorTranslateLATVIAN">LATVIAN</string>
@@ -811,11 +820,13 @@
     <string name="BiftorTranslateTURKISH">TURKISH</string>
     <string name="BiftorTranslateUKRAINIAN">UKRAINIAN</string>
     <string name="BiftorTranslateURDU">URDU</string>
+    <string name="BiftorTranslateUZBEK">UZBEK</string>
     <string name="BiftorTranslateVIETNAMESE">VIETNAMESE</string>
     <string name="BiftorTranslateWELSH">WELSH</string>
     <string name="BiftorTranslateYIDDISH">YIDDISH</string>
     <string name="BiftorTranslateCHINESE_SIMPLIFIED">CHINESE SIMPLIFIED</string>
     <string name="BiftorTranslateCHINESE_TRADITIONAL">CHINESE TRADITIONAL</string>
+
 
 
     <!--Biftor delete from recent search-->
@@ -887,4 +898,19 @@
     <string name="BiftorSSRProtocolParams">Protocol Params</string>
     <string name="BiftorSSRObfs">Obfs</string>
     <string name="BiftorSSRObfsParam">Obfs Param</string>
+    <string name="BiftorShadowSocksModule">Shadow socks</string>
+    <string name="BiftorStartShadowAsService">Start shadow as service</string>
+    <string name="BiftorStartShadowAsServiceSub">Run shadow socks as background service</string>
+    <string name="BiftorShadowSockServiceConnecting">Shadow Socks service is connecting</string>
+    <string name="BiftorShadowSockServiceConnected">Shadow Socks service is running: %s</string>
+    <string name="BiftorShadowSockServiceStop">Stop</string>
+    <string name="BiftorShadowSocksConfig">Shadow socks config</string>
+    <string name="BiftorStopShadowSocksWhenAppClosed">Stop Shadow socks when app closed</string>
+    <string name="BiftorStopShadowSocksWhenAppClosedSub">Stop the Shadow socks when App Closed, if you disable it, when the Shadow socks is enable the whole app will not close.</string>
+
+    <!--Biftor ads-->
+    <string name="BiftorAdsTypeAdMob">AdMob</string>
+    <string name="BiftorAdsTypeCustom">Ads</string>
+    <string name="BiftorAdsTitle">BGram Ads</string>
+    <string name="BiftorAdsSubTitle">Support BGram by Watching an Ad</string>
 </resources>

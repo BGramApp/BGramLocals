@@ -21,19 +21,19 @@
 
     <!-- Biftor hide Typing-->
     <string name="BiftorGhostModHideTyping">Ocultar digitação</string>
-    <string name="BiftorGhostModHideTypingSub">Não enviar status como digitação, envio etc ...</string>
+    <string name="BiftorGhostModHideTypingSub">Não enviar status como digitação, envio etc …</string>
 
     <!-- Hide Channel Mute Button -->
     <string name="BiftorHideChannelMuteButton">Ocultar painel inferior nos canais</string>
 
     <!-- Tabs -->
-    <string name="BiftorTabsStyle">Estilo da aba</string>
+    <string name="BiftorTabsStyle">Estilo</string>
     <string name="BiftorVerticalTabsStyle">Estilo da aba vertical</string>
     <string name="BiftorVerticalRightSideBarRound">Botão redondo</string>
     <string name="BiftorVerticalRightSideBarOnlyIcon">Apenas ícone</string>
     <string name="BiftorVerticalRightSideBarIconAndText">Ícone e texto</string>
-    <string name="BiftorVerticalRightSideBar">Barra lateral direita vertical</string>
-    <string name="BiftorRightSideAlwaysOpen">Sempre aberto</string>
+    <string name="BiftorVerticalRightSideBar">Redonda</string>
+    <string name="BiftorRightSideAlwaysOpen">Sempre aberta</string>
     <string name="BiftorRightSideHideWhenScroll">Ocultar botão redondo quando rolar</string>
     <string name="BiftorVerticalRightSideRoundSize">Tamanho do botão redondo</string>
     <string name="BiftorVerticalRightSideRoundShowStyle">Mostrar estilo</string>
@@ -41,11 +41,11 @@
     <string name="BiftorVerticalRoundShowByTap">Ao tocar no botão flutuante</string>
     <string name="BiftorRightSidePushChatList">Empurrar lista de chats para a esquerda</string>
     <string name="BiftorRightSideOpenButton">Mostrar botão de abertura rápida</string>
-    <string name="BiftorShowTabsAtTop">Mostrar no topo</string>
-    <string name="BiftorShowTabsAtBottom">Mostrar na parte inferior</string>
+    <string name="BiftorShowTabsAtTop">Topo</string>
+    <string name="BiftorShowTabsAtBottom">Inferior</string>
     <string name="BiftorShowNewChatButton">Mostrar botão de novo chat</string>
     <string name="HideTabs">Desativar barra de abas</string>
-    <string name="All">Tudo</string>
+    <string name="All">Todos</string>
     <string name="Users">Usuários</string>
     <string name="Groups">Grupos</string>
     <string name="SuperGroups">Supergrupos</string>
@@ -67,21 +67,21 @@
     <string name="Sort">Ordenar abas</string>
 
     <string name="TabsHeight">Altura das abas</string>
-    <string name="TabsUnreadTextSize">Tamanho do texto dos contadores das abas</string>
-    <string name="SetAsDefaultTab">Definir como aba padrão</string>
+    <string name="TabsUnreadTextSize">Tamanho do texto dos contadores</string>
+    <string name="SetAsDefaultTab">-> Definir como pasta padrão</string>
     <string name="ResetDefaultTab">Redefinir aba padrão</string>
     <string name="SortByStatus">Ordenar por estado</string>
     <string name="SortByLastMessage">Ordenar por última mensagem</string>
     <string name="SortByUnreadCount">Ordenar por mensagens não lidas</string>
     <string name="ShowSuperGroupsTab">Mostrar aba de supergrupos</string>
     <string name="HideSuperGroupsTab">Esconder aba supergrupos</string>
-    <string name="Tabs">Abas</string>
+    <string name="Tabs">Pastas</string>
     <string name="HideShowTabs">Ordenar abas</string>
     <string name="DisableTabsAnimation">Não esconder as abas ao rolar</string>
     <string name="InfiniteSwipe">Deslize infinito entre abas</string>
     <string name="HeaderTabCounterCountChats">Contar conversas e não mensagens</string>
     <string name="HeaderTabCounterCountNotMuted">Contar apenas com som</string>
-    <string name="HideTabsCounters">Ocultar contadores de abas</string>
+    <string name="HideTabsCounters">Ocultar contadores</string>
     <string name="BiftorForceMarkAsRead">Forçar marcação como lido</string>
 
     <string name="ShowHeaderShadow">Mostrar sombra no cabeçalho</string>
@@ -94,13 +94,13 @@
     <string name="BiftorTabsCenterEachTabs">Largura da aba</string>
     <string name="BiftorTabsFitToScreen">Ajustar abas à tela</string>
     <string name="BiftorTabsFitToScreenSub">Desativar as abas que se atraem para o centro.</string>
-    <string name="BiftorDisableChangeTabSwipe">Desativar deslize entre abas</string>
+    <string name="BiftorDisableChangeTabSwipe">Desativar deslize</string>
     <string name="BiftorJumpToFirstPosition">Ir para o primeiro item</string>
 
 
-    <string name="BiftorKeepSelection">Mantenha a seleção</string>
-    <string name="BiftorKeepSelectionAfterForward">Manter seleção após encaminhar</string>
-    <string name="BiftorKeepSelectionAfterForwardSub">Não desmarcar mensagens após o encaminhamento (para ações adicionais com selecionadas).</string>
+    <string name="BiftorKeepSelection">Manter seleção</string>
+    <string name="BiftorKeepSelectionAfterForward">Manter seleção</string>
+    <string name="BiftorKeepSelectionAfterForwardSub">Não desmarcar mensagens após o encaminhamento (para ações adicionais com as selecionadas).</string>
 
     <string name="OnlineContacts">Contatos online</string>
 
@@ -113,7 +113,7 @@
     <string name="DisableSwipeBackSub">Se você estiver usando o recurso \'Deslizar para a direita\', talvez seja necessário ativar essa opção para desativar bate-papos próximos indesejados quando deslizar para a direita</string>
 
     <!-- BiftorProForward -->
-    <string name="BiftorProForward">Editar e repostar</string>
+    <string name="BiftorProForward">Editar e enviar</string>
     <string name="BiftorProForwardDeleteUrl">Excluir URL</string>
     <string name="EmptyMessageError">Você não pode enviar uma mensagem vazia.</string>
     <string name="Quote">CITAR</string>
@@ -141,38 +141,40 @@
 
     <!-- Biftor dismiss only -->
     <string name="BiftorDismissOnly">Dispensar apenas</string>
+    <string name="BiftorUnpinMessageAlertTitle">Unpin messages</string>
+    <string name="BiftorUnpinMessageAlert">Do you want to dismiss or unpin all messages?</string>
 
     <!-- Biftor dark blue theme -->
     <string name="BGramDarkBlue">Azul Escuro BGram</string>
     <string name="BGramOldNight">Escuro BGram</string>
 
     <!-- Biftor select mess text -->
-    <string name="BiftorSelectMessText">Copiar seleção</string>
+    <string name="BiftorSelectMessText">Selecionar e copiar</string>
 
     <!-- Biftor go to first message -->
     <string name="GoToFirstMessage">Primeira mensagem</string>
 
     <!--Biftor Save to cloud -->
-    <string name="SaveToCloud">Salvar no meu perfil</string>
+    <string name="SaveToCloud">Salvar</string>
     <string name="SaveToCloudAlert">Salvar com ou sem citação?</string>
     <string name="MessageSaved">Mensagem salva</string>
-    <string name="BiftorSaveWithQuot">Com citação</string>
-    <string name="BiftorSaveWithOutQuot">Sem citação</string>
+    <string name="BiftorSaveWithQuot">Sim</string>
+    <string name="BiftorSaveWithOutQuot">Não</string>
     <string name="BiftorSaveToCloudDefaultAction">Citar ao salvar mensagem</string>
-    <string name="BiftorSaveToCloudAskAlways">Sempre perguntar</string>
+    <string name="BiftorSaveToCloudAskAlways">Perguntar</string>
 
     <!--Biftor Avatar click menu -->
-    <string name="ShowUserMessages">Ver todas as mensagens</string>
-    <string name="ShowUserMedia">Mostrar mídia</string>
-    <string name="ShowProfile">Abrir perfil</string>
-    <string name="BiftorCopyUsername">Copiar nome de usuário</string>
+    <string name="ShowUserMessages">Ver Mensagens</string>
+    <string name="ShowUserMedia">Ver Mídia</string>
+    <string name="ShowProfile">Perfil</string>
+    <string name="BiftorCopyUsername">Copiar Nome de Usuário</string>
     <string name="BiftorUserNameCopied">Nome de usuário copiado para a área de transferência</string>
     <string name="BiftorCopiedToClipBoard">Copiado para a área de transferência</string>
     <string name="BiftorSendMessages">Enviar mensagem</string>
     <string name="BiftorMention">Mencionar</string>
-    <string name="BiftorContextMenu">Menu de opções</string>
+    <string name="BiftorContextMenu">Menu de Opções</string>
     <string name="BiftorUserNameNotFound">Nome de usuário não encontrado</string>
-    <string name="BiftorOpenOrChat">Abrir chat</string>
+    <string name="BiftorOpenOrChat">Chat</string>
 
     <!-- Biftor user photo as bg of DrawerProfileCell-->
     <string name="BiftorUserPhotoAsProfileCellBG">Usar avatar como plano de fundo</string>
@@ -186,11 +188,11 @@
     <string name = "BiftorDeleteMediaAreYouSure">Tem certeza de que deseja excluir somente a mídia?</string>
 
     <!--Biftor ChatPreView -->
-    <string name="BiftorChatPreViewCat">Prévia do chat</string>
+    <string name="BiftorChatPreViewCat">Prévia</string>
     <string name="BiftorHideChatPreViewClearButton">Ocultar o botão de Limpar Histórico</string>
-    <string name="BiftorHideChatPreViewClearButtonSub">Ocultar o botão limpar histórico para Mensagens salvas, grupos e canais próprios.</string>
+    <string name="BiftorHideChatPreViewClearButtonSub">Oculta o botão limpar histórico para Mensagens salvas, grupos e canais próprios.</string>
     <string name="BiftorHideChatPreViewDeleteButton">Ocultar o botão de Excluir Chat</string>
-    <string name="BiftorHideChatPreViewDeleteButtonSub">Ocultar o botão de exclusão para Mensagens salvas, grupos e canais próprios.</string>
+    <string name="BiftorHideChatPreViewDeleteButtonSub">Oculta o botão de exclusão do chat para Mensagens salvas, grupos e canais próprios.</string>
 
     <!--Biftor port create link in message edit text-->
     <string name="Strikethrough">Tachado</string>
@@ -210,13 +212,13 @@
 
     <!-- Biftor added about tab-->
     <string name="BiftorAbout">Info</string>
-    <string name="BGramChangeLog">Registro de alterações</string>
+    <string name="BGramChangeLog">Registro de Alterações</string>
     <string name="BGramChangeLogSub">Todos os recursos na ordem em que foram adicionados</string>
     <string name="BGramChangeLogLoadFailed">Falha ao carregar o registro</string>
     <string name="BiftorSupport">Suporte</string>
 
     <string name="BGramOfficialChannel">Canal oficial</string>
-    <string name="BGramOfficialChannelSub">Notícias e atualizações do BGram</string>
+    <string name="BGramOfficialChannelSub">Notícias e atualizações do BGram.</string>
     <string name="BGramOfficialGroupPublic">Grupo oficial</string>
     <string name="BGramOfficialGroupPublicSub">Todos os relatórios de erros e idéias são bem-vindos.</string>
     <string name="BGramOfficialGroupNormal">Grupo privado iraniano</string>
@@ -224,7 +226,7 @@
     <string name="BGramRateApp">Avaliar aplicativo</string>
     <string name="BGramRateAppSub">Se você gosta do aplicativo, agradecemos sua alta pontuação no Google Play. Em caso de problemas, antes de dar uma pontuação baixa, sinta-se à vontade para fazer uma pergunta no grupo oficial.</string>
     <string name="BiftorAppCredits">Créditos</string>
-    <string name="BiftorAppCreditsSub">Créditos para quem ajudou a fazer este aplicativo</string>
+    <string name="BiftorAppCreditsSub">Créditos para quem ajudou a fazer este aplicativo.</string>
     <string name="BiftorAppHints">Guia BGram</string>
     <string name="BiftorAppHintsSub">Guia de vídeo e lista de ações, clicando nos elementos da interface.</string>
     <string name="BiftorDonate">Doar</string>
@@ -253,16 +255,16 @@
 
     <!-- Biftor chat quick panel -->
     <string name="QuickBarCat">Acesso rápido</string>
-    <string name="ShowQuickBar">Ativar acesso rápido</string>
-    <string name="VerticalQuickBar">Acesso rápido vertical</string>
+    <string name="ShowQuickBar">Ativar</string>
+    <string name="VerticalQuickBar">Vertical</string>
     <string name="AlwaysBackToMain">Sempre voltar à tela principal</string>
-    <string name="DoNotCloseQuickBar">Não fechar o acesso rápido</string>
+    <string name="DoNotCloseQuickBar">Sempre aberto</string>
     <string name="HideQuickBarOnScroll">Ocultar ao rolar</string>
-    <string name="CenterQuickBarButton">Botão de acesso rápido central</string>
+    <string name="CenterQuickBarButton">Central</string>
     <string name="ShowMembersOnQuickBar">Mostrar membros do grupo</string>
-    <string name="BiftorQuickBarClickAction">Ação de toque rápido</string>
-    <string name="BiftorQuickBarLongClickAction">Ação de toque longo</string>
-    <string name="BiftorQuickBarLongClickActionOnMembersList">Ação de toque longo no membro</string>
+    <string name="BiftorQuickBarClickAction">Toque rápido</string>
+    <string name="BiftorQuickBarLongClickAction">Toque longo</string>
+    <string name="BiftorQuickBarLongClickActionOnMembersList">Toque longo no membro</string>
 
     <!--Biftor confirm to voice and video msg-->
     <string name="BiftorConfirmToSendVoice">Mensagens de voz</string>
@@ -282,21 +284,21 @@
 
     <!--Biftor find my messages-->
     <string name="BiftorFindMyMess">Minhas mensagens</string>
-    <string name="BiftorFindReplyToThisMsg">Mostrar respostas</string>
+    <string name="BiftorFindReplyToThisMsg">Respostas</string>
 
     <!--Biftor View Channels only-->
     <string name="BiftorViewOnly">Apenas ver</string>
 
     <!--Biftor Direct save and edit btn -->
     <string name="BiftorShowDirectSaveToCloud">Botão salvar nas mensagens salvas</string>
-    <string name="BiftorShowDirectEdit">Botão de edição direta</string>
-    <string name="BiftorShowDirectShare">Mostrar compartilhamento direto</string>
+    <string name="BiftorShowDirectEdit">Mostrar botão de edição</string>
+    <string name="BiftorShowDirectShare">Mostrar envio direto</string>
 
     <!--Biftor copy msg owner name -->
-    <string name="BiftorCopyMsgOwnerName">Citar ao copiar mensagem</string>
-    <string name="BiftorCopyMsgWithOwnerName">Com nome do autor</string>
-    <string name="BiftorCopyMsgWithOutOwnerName">Sem nome do autor</string>
-    <string name="BiftorCopyMsgAlwaysAsk">Sempre perguntar</string>
+    <string name="BiftorCopyMsgOwnerName">Citar autor ao copiar mensagem</string>
+    <string name="BiftorCopyMsgWithOwnerName">Sim</string>
+    <string name="BiftorCopyMsgWithOutOwnerName">Não</string>
+    <string name="BiftorCopyMsgAlwaysAsk">Perguntar</string>
     <string name="BiftorCopyMsgTitle">Copiar mensagem</string>
     <string name="BiftorCopyMsgAsk">Copiar com nome do autor?</string>
     <string name="BiftorCopyOnlyText">Somente texto</string>
@@ -304,8 +306,8 @@
     <string name="BiftorNo">Não</string>
 
     <!--Biftor forward confirm panel -->
-    <string name="BiftorShowForwardConfirm">Mostrar destinatários antes de enviar</string>
-    <string name="BiftorShowForwardConfirmsSub">Mostrar a lista de destinatários em um painel especial antes de enviar.</string>
+    <string name="BiftorShowForwardConfirm">Ver destinatários antes de enviar</string>
+    <string name="BiftorShowForwardConfirmsSub">Mostra a lista de destinatários em um painel especial antes de enviar.</string>
     <string name="BiftorGoBack">Voltar</string>
 
     <!-- Biftor add night mode switch -->
@@ -319,13 +321,13 @@
     <string name="BiftorHiddenChats">Conversas Ocultas</string>
     <string name="BiftorAddToHiddenChat">Ocultar</string>
     <string name="BiftorDeleteHiddenChats">Mostrar</string>
-    <string name="BiftorHiddenChatsPass">Bloquear chats ocultos por código</string>
+    <string name="BiftorHiddenChatsPass">Bloquear chats ocultos</string>
     <string name="BiftorSetPassCodeForHiddenChats">Defina sua senha de chat oculto</string>
     <string name="BiftorRemoveHiddenChatsFromSearch">Remover chats ocultos da pesquisa</string>
     <string name="BiftorChangePasscodeInfo">Ao configurar uma senha adicional para chats ocultos sempre que você quiser acessar eles, a senha será solicitada. Isso é geral em todas as suas contas. \n\nNota: se você esquecer a senha, não poderá abrir seus chats ocultos, será necessário excluir e reinstalar o aplicativo. Todos os bate-papos secretos serão perdidos.</string>
     <string name="BiftorHiddenChatsButton">Localização do botão</string>
-    <string name="BiftorHiddenChatsButtonNewMessages">Longo toque no botão nova mensagem</string>
-    <string name="BiftorHiddenChatsButtonSearch">Longo toque na pesquisa</string>
+    <string name="BiftorHiddenChatsButtonNewMessages">Segure o botão de nova mensagem</string>
+    <string name="BiftorHiddenChatsButtonSearch">Segure o botão de pesquisa</string>
     <string name="BiftorHiddenChatsButtonOpenDrawer">Longo toque na gaveta aberta</string>
     <string name="BiftorRemoveHiddenChatsNotifi">Remover a notificação de chats ocultos</string>
 
@@ -356,17 +358,17 @@
     <string name="BiftorForwardCopyLink">Copiar Link</string>
 
     <!--‌ Biftor mark on msg -->
-    <string name="BiftorSetMarkOnMsg">Marcar mensagem</string>
+    <string name="BiftorSetMarkOnMsg">Marcar</string>
     <string name="BiftorGoToMarkedMsg">Mensagem marcada</string>
-    <string name="BiftorResetMarkedMsg">Remover marcador</string>
+    <string name="BiftorResetMarkedMsg">Desmarcar</string>
 
     <!--Biftor Font picker -->
     <string name="BiftorFontsPickerCat">Seletor de Fontes</string>
     <string name="BiftorEnableCustomFont">Usar fonte personalizada</string>
-    <string name="BiftorFontsPickerLight">Escolher fonte regular</string>
-    <string name="BiftorFontsPickerBold">Escolher fonte negrito</string>
-    <string name="BiftorFontsPickerItalic">Escolher fonte itálica</string>
-    <string name="BiftorFontsPickerMono">Escolher fonte mono</string>
+    <string name="BiftorFontsPickerLight">Regular</string>
+    <string name="BiftorFontsPickerBold">Negrito</string>
+    <string name="BiftorFontsPickerItalic">Itálico</string>
+    <string name="BiftorFontsPickerMono">Mono</string>
     <string name="BiftorFontsReset">Redefinir para fonte padrão</string>
     <string name="BiftorFontRestarter">Reinicie o aplicativo</string>
     <string name="BiftorYouNeedToRestartApp">Reinicie o aplicativo para aplicar alterações de fonte</string>
@@ -376,7 +378,7 @@
     <string name="BiftorVerticalAlignmentBottom">Fundo de alinhamento do emoji</string>
 
     <!--Biftor use persian calendar -->
-    <string name="BiftorAlwaysUsePersianCalendar">Sempre usar calendário persa</string>
+    <string name="BiftorAlwaysUsePersianCalendar">Usar calendário persa</string>
     <!-- Biftor multiaccount count -->
     <string name="BiftorAccountRestarterTitle">Reinicie o aplicativo!</string>
     <string name="BiftorAccountRestarterMess">Novas contas detectadas. Por favor, reinicie o aplicativo para carregá-los.</string>
@@ -424,13 +426,13 @@
     <string name="BiftorGroupDeleteAllMyMsgs">Excluir minhas mensagens</string>
     <string name="BiftorAreYouSureDeletedAllMsg">Tem certeza que deseja excluir todas as suas mensagens **%1$s**?</string>
 
-    <string name="BiftorCreator">Criador:&#160;</string>
+    <string name="BiftorCreator">Dono:&#160;</string>
     <string name="BiftorId">ID:&#160;</string>
 
     <!-- Biftor auto download next media -->
     <string name="BiftorEnableAutoDownloadNextMedia">Baixar próxima mídia</string>
-    <string name="BiftorDisableGoToNextMedia">Disable go to next media</string>
-    <string name="BiftorDisableGoToNextMediaSub">Disable go to next media by tapping on photo edge</string>
+    <string name="BiftorDisableGoToNextMedia">Desativar troca de mídia</string>
+    <string name="BiftorDisableGoToNextMediaSub">Desative a mudança para a próxima mídia tocando na borda da foto</string>
 
     <!-- Biftor enable camera in attach menu -->
     <string name="BiftorEnableCameraAttachMenu">Ativar câmera no painel de anexos</string>
@@ -495,15 +497,15 @@
     <string name="BiftorSendingPhotoQuality">Qualidade da foto enviada</string>
 
     <!-- Biftor Dialogs avatar click action -->
-    <string name="BiftorDialogsAvatarDefClickAction">Ação do toque no avatar dos chats</string>
-    <string name="BiftorDialogsAvatarDefLongClickAction">Ação do toque longo no avatar dos chats</string>
-    <string name="BiftorOpenAvatar">Abrir avatar</string>
+    <string name="BiftorDialogsAvatarDefClickAction">Toque no avatar dos chats</string>
+    <string name="BiftorDialogsAvatarDefLongClickAction">Toque longo no avatar dos chats</string>
+    <string name="BiftorOpenAvatar">Foto</string>
 
     <!-- Biftor paint and mention button -->
-    <string name="BiftorShowPaintBtn">Mostrar botão de desenho no chat</string>
+    <string name="BiftorShowPaintBtn">Mostrar botão de desenho</string>
     <string name="BiftorChatBotButton">Ação do botão bot</string>
-    <string name="BiftorChatBotShow">Comandos do bot (padrão)</string>
-    <string name="BiftorReplaceBotWithMentionBtn">Mencionar o membro do grupo</string>
+    <string name="BiftorChatBotShow">Comandos (padrão)</string>
+    <string name="BiftorReplaceBotWithMentionBtn">Mencionar</string>
     <string name="BiftorChatBotHide">Ocultar</string>
 
     <!-- Biftor Clear Cache other files -->
@@ -521,7 +523,7 @@
 
     <!-- Biftor show view count in dialog list-->
     <string name="BiftorShowViewCount">Mostrar exibições na lista de chats</string>
-    <string name="BiftorShowViewCountSub">Mostrar contagem de visualizações em vez de marcas de seleção para os próprios canais na lista de bate-papo.</string>
+    <string name="BiftorShowViewCountSub">Mostrar contagem de visualizações em vez de marcas de seleção para os próprios canais na lista de chats.</string>
 
     <!-- Biftor backup and restore-->
     <string name="BiftorBackUpAndRestoreCat">Backup e Restauração</string>
@@ -572,21 +574,21 @@
     <string name="BiftorMultiSelectAddToTheGroupTitle">Adicionar %1$s usuário(s) para o chat %2$s?</string>
 
     <!--Biftor open avatar photo everywhere-->
-    <string name="BiftorOpenAvatarPhoto">Abra o avatar por toque</string>
-    <string name="BiftorOpenAvatarPhotoSub">Abra a foto quando tocar no avatar em contatos e na lista de membros do grupo.</string>
+    <string name="BiftorOpenAvatarPhoto">Abrir avatar</string>
+    <string name="BiftorOpenAvatarPhotoSub">Abra a foto quando tocar no avatar na página de contatos e na lista de membros do grupo.</string>
 
     <!--Biftor open video or GIF with external player-->
     <string name="BiftorOpenVideoBy">Video player</string>
     <string name="BiftorDoYouWantPlayWithExPlayer">Você quer abrir um vídeo com um player externo?</string>
-    <string name="BiftorVideoPlayerAlwaysExternal">Sempre externo</string>
-    <string name="BiftorVideoPlayerAlwaysInternal">Sempre interno</string>
-    <string name="BiftorVideoPlayerAlwaysAsk">Sempre perguntar</string>
+    <string name="BiftorVideoPlayerAlwaysExternal">Externo</string>
+    <string name="BiftorVideoPlayerAlwaysInternal">Interno</string>
+    <string name="BiftorVideoPlayerAlwaysAsk">Perguntar</string>
 
     <!--Biftor merge msg antiflood-->
-    <string name="BiftorMergeMsgsIntoOne">Mesclar minhas mensagens</string>
+    <string name="BiftorMergeMsgsIntoOne">Minhas mensagens</string>
     <string name="BiftorMergeMsgsIntoOneSub">Concatenar mensagens de texto enviadas em fila para não inundar e incomodar outras pessoas.</string>
-    <string name="BiftorMergeMsgsTime">Limite de tempo de mesclagem</string>
-    <string name="BiftorMergeMsgsChars">Limite de caracteres de mensagem</string>
+    <string name="BiftorMergeMsgsTime">Limite de tempo</string>
+    <string name="BiftorMergeMsgsChars">Limite de caracteres</string>
     <string name="BiftorMergeToastEnabled">Mesclagem de mensagens ativada</string>
     <string name="BiftorMergeToastDisabled">Mesclagem de mensagens desativada</string>
 
@@ -616,21 +618,28 @@
     <string name="BiftorMain">Principal</string>
     <string name="BiftorAppearance">Visão</string>
     <string name="BiftorChatListCat">Lista de Chats</string>
-    <string name="BiftorTabsCat">Abas</string>
+    <string name="BiftorTabsCat">Pastas</string>
     <string name="BiftorButtonsCat">Botões</string>
     <string name="BiftorBubblesCat">Bolhas no Chat</string>
 
     <string name="BiftorChatting">Chat</string>
     <string name="BiftorMsgMergingCat">Mesclagem de Mensagens</string>
     <string name="BiftorSendConfirmCat">Confirmação de Envio</string>
-    <string name="BiftorForwardPanelCat">Compartilhamento Direto</string>
+    <string name="BiftorForwardPanelCat">Envio Direto</string>
 
     <!--Biftor External language-->
     <string name="BiftorLocalVersion">0</string>
 
     <!--Biftor login with bot-->
     <string name="BiftorLoginWithBotToKen">Login com token de bot</string>
-    <string name="BiftorBotToken">Digite ou cole seu token de bot</string>
+    <string name="BiftorBotToken">Paste your bot token</string>
+    <string name="BiftorLoginWithBotInfo">You can use the @BotFather to create a new bot.\n\nWhen you login with a bot, you will have all the limitations that bots have, including:\n
+		- You do not have access to your contacts.\n
+		- You can\'t join groups and channels (unless admins add you).\n
+		- You can only write to users who have already sent you /start.\n
+		- You will not be able to see when users read your messages.\n
+		- The chat list is empty when you first login, and will populate when the bot receives messages from users and groups. Group detection can be particularly slow.</string>
+
 
     <!--Biftor Tor -->
     <string name="BiftorTorStarting">TOR está começando&#8230;</string>
@@ -668,7 +677,7 @@
     <string name="BiftorTorBridgeInput">Cole sua ponte aqui</string>
     <string name="BiftorTorTroubleConnecting">Problemas para se conectar?</string>
     <string name="BiftorTorNewIdentity">Nova identidade</string>
-    <string name="BiftorChangeSideBarProxyToTor">Substituir proxy da barra lateral por TOR</string>
+    <string name="BiftorChangeSideBarProxyToTor">Substituir proxy por TOR</string>
     <string name="BiftorUseTor">Use TOR</string>
     <string name="BiftorTor">TOR</string>
     <string name="BiftorConnectingToTor">Conectando às TOR</string>
@@ -728,12 +737,12 @@
     <string name="BiftorDisableVoiceProximitySensorSub">Desativar o sensor de proximidade quando o áudio estiver tocando</string>
 
     <!-- Biftor custom user mention-->
-    <string name="BiftorCustomUserMention">Menção de usuário personalizada</string>
-    <string name="BiftorUserMentionListLongTap">Mencionar com toque longo na lista</string>
-    <string name="BiftorUserMentionListLongTapSub">Ação por toque longo em um nome na lista suspensa depois de digitar @ no grupo.</string>
-    <string name="BiftorUserMentionInsertName">Inserir menção</string>
-    <string name="BiftorUserMentionInsertCustomName">Editar menção</string>
-    <string name="BiftorCustomUserMentionName">Insira o nome de usuário</string>
+    <string name="BiftorCustomUserMention">Menção personalizada de usuário</string>
+    <string name="BiftorUserMentionListLongTap">Toque longo na lista suspensa</string>
+    <string name="BiftorUserMentionListLongTapSub">Ação ao pressionar um nome na lista suspensa depois de digitar @ no grupo.</string>
+    <string name="BiftorUserMentionInsertName">Inserir</string>
+    <string name="BiftorUserMentionInsertCustomName">Editar</string>
+    <string name="BiftorCustomUserMentionName">Insira o texto</string>
     <string name="BiftorCustomUserMentionId">Digite o ID do usuário</string>
     <string name="BiftorCustomUserMentionError">Usuário não encontrado no banco de dados, copie o ID do perfil do usuário.</string>
 
@@ -753,7 +762,7 @@
 
     <!--Biftor Translate-->
     <string name="BiftorTranslate">Traduzir</string>
-    <string name="BiftorTranslateEnterText">Inserir texto</string>
+    <string name="BiftorTranslateEnterText">Texto</string>
     <string name="BiftorTranslateEnterTextEmpty">Você deve inserir o texto para traduzir</string>
     <string name="BiftorTranslateAUTO_DETECT">AUTOMÁTICO</string>
     <string name="BiftorTranslateAFRIKAANS">AFRIKAANS</string>
@@ -791,6 +800,7 @@
     <string name="BiftorTranslateITALIAN">ITALIAN</string>
     <string name="BiftorTranslateJAPANESE">JAPANESE</string>
     <string name="BiftorTranslateKANNADA">KANNADA</string>
+    <string name="BiftorTranslateKAZAKH">KAZAKH</string>
     <string name="BiftorTranslateKOREAN">KOREAN</string>
     <string name="BiftorTranslateLATIN">LATIN</string>
     <string name="BiftorTranslateLATVIAN">LATVIAN</string>
@@ -816,6 +826,7 @@
     <string name="BiftorTranslateTURKISH">TURKISH</string>
     <string name="BiftorTranslateUKRAINIAN">UKRAINIAN</string>
     <string name="BiftorTranslateURDU">URDU</string>
+    <string name="BiftorTranslateUZBEK">UZBEK</string>
     <string name="BiftorTranslateVIETNAMESE">VIETNAMESE</string>
     <string name="BiftorTranslateWELSH">WELSH</string>
     <string name="BiftorTranslateYIDDISH">YIDDISH</string>
@@ -826,7 +837,7 @@
     <!--Biftor delete from recent search-->
     <string name="BiftorDeletRecentSearchItem">Deseja mesmo remover **%1$s** do histórico de busca?</string>
 
-    <string name="BiftorDrawerContactAndGroup">Contatos e grupos</string>
+    <string name="BiftorDrawerContactAndGroup">Contatos e Grupos</string>
 
     <!--Biftor floating new msg-->
     <string name="BiftorChangeToSaveMsg">Botão da nuvem flutuante</string>
@@ -846,8 +857,8 @@
 
     <!--Biftor direct chats-->
     <string name="BiftorDirectChats">Chats diretos</string>
-    <string name="BiftorSetAsDirectChats">Definir como chats diretos</string>
-    <string name="BiftorDirectChatsReset">Resetar chats diretos</string>
+    <string name="BiftorSetAsDirectChats">Favoritar</string>
+    <string name="BiftorDirectChatsReset">Resetar</string>
     <string name="BiftorDisplayDirectChats">Exibir chat direto na</string>
     <string name="BiftorDisplayDirectChatsSide">Barra lateral</string>
     <string name="BiftorDisplayDirectChatsTab">Aba</string>
@@ -858,38 +869,53 @@
     <string name="BiftorDeleteFromFav">Remover dos favoritos</string>
 
     <string name="BiftorHideSponsorProxy">Ocultar patrocinador</string>
-    <string name="BiftorHideSponsorProxySub">Ocultar o proxy do patrocinador na lista de chats</string>
+    <string name="BiftorHideSponsorProxySub">Ocultar o patrocinador do proxy na lista de chats</string>
 
     <!--Biftor shadow socks-->
     <string name="BiftorPing">Ping</string>
-    <string name="BiftorProxyTypeShadowSocks">ShadowSocks Proxy</string>
-    <string name="BiftorProxyTypeShadowSocksR">ShadowSocksR Proxy</string>
-    <string name="BiftorProxyTypeVmess">Vmess Proxy</string>
-    <string name="BiftorProxyInfoSSR">ShadowsocksR Proxy Settings</string>
-    <string name="BiftorProxyInfoSS">Shadowsocks Proxy Settings</string>
-    <string name="BiftorProxyInfoVmess">Vmess Proxy Settings</string>
-    <string name="BiftorShadowProxySponsor">Sponsor</string>
+    <string name="BiftorProxyTypeShadowSocks">Proxy ShadowSocks</string>
+    <string name="BiftorProxyTypeShadowSocksR">Proxy ShadowSocksR</string>
+    <string name="BiftorProxyTypeVmess">Proxy Vmess</string>
+    <string name="BiftorProxyInfoSSR">Configurações do Proxy ShadowsocksR</string>
+    <string name="BiftorProxyInfoSS">Configurações do Shadowsocks</string>
+    <string name="BiftorProxyInfoVmess">Configurações do Vmess</string>
+    <string name="BiftorShadowProxySponsor">Patrocinador</string>
 
-    <string name="BiftorShadowSocksHelp">Help</string>
-    <string name="BiftorImportProxy">Import from url</string>
-    <string name="BiftorConnection">Connect: %1$d ms</string>
+    <string name="BiftorShadowSocksHelp">Ajuda</string>
+    <string name="BiftorImportProxy">Importar da url</string>
+    <string name="BiftorConnection">Conectar: %1$d ms</string>
 
-    <string name="BiftorVmessUserId">User Id</string>
-    <string name="BiftorVmessAlterId">Alter Id</string>
-    <string name="BiftorVmessSecurity">Security</string>
-    <string name="BiftorVmessNetwork">Network</string>
-    <string name="BiftorVmessHeadType">Head Type</string>
-    <string name="BiftorVmessRequestHost">Request Host / QUIC Security</string>
-    <string name="BiftorVmessPath">Path / QUICK Key</string>
+    <string name="BiftorVmessUserId">ID do usuário</string>
+    <string name="BiftorVmessAlterId">Alterar Id</string>
+    <string name="BiftorVmessSecurity">Segurança</string>
+    <string name="BiftorVmessNetwork">Rede</string>
+    <string name="BiftorVmessHeadType">Tipo de Cabeça</string>
+    <string name="BiftorVmessRequestHost">Solicitar host / Segurança QUIC</string>
+    <string name="BiftorVmessPath">Caminho / Senha QUICK</string>
     <string name="BiftorVmessTls">Use TLS</string>
 
-    <string name="BiftorSSPassword">Password</string>
-    <string name="BiftorSSMethod">Encrypt Method</string>
-    <string name="BiftorSSPlugin">Plugin</string>
-    <string name="BiftorSSPluginOpts">Plugin Config</string>
+    <string name="BiftorSSPassword">Senha</string>
+    <string name="BiftorSSMethod">Método de criptografia</string>
+    <string name="BiftorSSPlugin">Configurações do Plugin</string>
+    <string name="BiftorSSPluginOpts">Plugin</string>
 
-    <string name="BiftorSSRProtocol">Protocol</string>
-    <string name="BiftorSSRProtocolParams">Protocol Params</string>
+    <string name="BiftorSSRProtocol">Protocolo</string>
+    <string name="BiftorSSRProtocolParams">Parâmetros de protocolo</string>
     <string name="BiftorSSRObfs">Obfs</string>
-    <string name="BiftorSSRObfsParam">Obfs Param</string>
+    <string name="BiftorSSRObfsParam">Parâmetro Obfs</string>
+    <string name="BiftorShadowSocksModule">Shadow socks</string>
+    <string name="BiftorStartShadowAsService">Start shadow as service</string>
+    <string name="BiftorStartShadowAsServiceSub">Run shadow socks as background service</string>
+    <string name="BiftorShadowSockServiceConnecting">Shadow Socks service is connecting</string>
+    <string name="BiftorShadowSockServiceConnected">Shadow Socks service is running: %s</string>
+    <string name="BiftorShadowSockServiceStop">Stop</string>
+    <string name="BiftorShadowSocksConfig">Shadow socks config</string>
+    <string name="BiftorStopShadowSocksWhenAppClosed">Stop Shadow socks when app closed</string>
+    <string name="BiftorStopShadowSocksWhenAppClosedSub">Stop the Shadow socks when App Closed, if you disable it, when the Shadow socks is enable the whole app will not close.</string>
+
+    <!--Biftor ads-->
+    <string name="BiftorAdsTypeAdMob">AdMob</string>
+    <string name="BiftorAdsTypeCustom">Ads</string>
+    <string name="BiftorAdsTitle">BGram Ads</string>
+    <string name="BiftorAdsSubTitle">Support BGram by Watching an Ad</string>
 </resources>

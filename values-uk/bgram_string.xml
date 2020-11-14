@@ -139,6 +139,8 @@
 
     <!-- Biftor dismiss only -->
     <string name="BiftorDismissOnly">Тільки приховати</string>
+    <string name="BiftorUnpinMessageAlertTitle">Unpin messages</string>
+    <string name="BiftorUnpinMessageAlert">Do you want to dismiss or unpin all messages?</string>
 
     <!-- Biftor dark blue theme -->
     <string name="BGramDarkBlue">BGram DarkBlue</string>
@@ -627,7 +629,13 @@
 
     <!--Biftor login with bot-->
     <string name="BiftorLoginWithBotToKen">Авторизуватись через токен бота</string>
-    <string name="BiftorBotToken">Введіть або вставте ваш токен бота</string>
+    <string name="BiftorBotToken">Paste your bot token</string>
+    <string name="BiftorLoginWithBotInfo">You can use the @BotFather to create a new bot.\n\nWhen you login with a bot, you will have all the limitations that bots have, including:\n
+		- You do not have access to your contacts.\n
+		- You can\'t join groups and channels (unless admins add you).\n
+		- You can only write to users who have already sent you /start.\n
+		- You will not be able to see when users read your messages.\n
+		- The chat list is empty when you first login, and will populate when the bot receives messages from users and groups. Group detection can be particularly slow.</string>
 
     <!--Biftor Tor -->
     <string name="BiftorTorStarting">TOR запускається&#8230;</string>
@@ -753,72 +761,73 @@
     <string name="BiftorTranslateEnterText">Введіть текст</string>
     <string name="BiftorTranslateEnterTextEmpty">Ви повинні ввести текст для перекладу</string>
     <string name="BiftorTranslateAUTO_DETECT">Автовизначення</string>
-    <string name="BiftorTranslateAFRIKAANS">Африканська</string>
-    <string name="BiftorTranslateALBANIAN">Албанська</string>
-    <string name="BiftorTranslateARABIC">Арабська</string>
-    <string name="BiftorTranslateARMENIAN">Вірменська</string>
-    <string name="BiftorTranslateAZERBAIJANI">Азербайджанська</string>
-    <string name="BiftorTranslateBASQUE">Баскська</string>
-    <string name="BiftorTranslateBELARUSIAN">Білоруська</string>
-    <string name="BiftorTranslateBENGALI">Бенгальська</string>
-    <string name="BiftorTranslateBULGARIAN">Болгарська</string>
-    <string name="BiftorTranslateCATALAN">Каталанська</string>
-    <string name="BiftorTranslateCHINESE">Китайська</string>
-    <string name="BiftorTranslateCROATIAN">Хорватська</string>
-    <string name="BiftorTranslateCZECH">Чеська</string>
-    <string name="BiftorTranslateDANISH">Датська</string>
-    <string name="BiftorTranslateDUTCH">Нідерландська</string>
-    <string name="BiftorTranslateENGLISH">Англійська</string>
-    <string name="BiftorTranslateESTONIAN">Естонська</string>
-    <string name="BiftorTranslateFILIPINO">Філіппінська</string>
-    <string name="BiftorTranslateFINNISH">Фінська</string>
-    <string name="BiftorTranslateFRENCH">Французька</string>
-    <string name="BiftorTranslateGALICIAN">Галісійська</string>
-    <string name="BiftorTranslateGEORGIAN">Грузинська</string>
-    <string name="BiftorTranslateGERMAN">Німецька</string>
-    <string name="BiftorTranslateGREEK">Грецька</string>
-    <string name="BiftorTranslateGUJARATI">Гуджараті</string>
-    <string name="BiftorTranslateHAITIAN_CREOLE">Гаїтянська креольська</string>
-    <string name="BiftorTranslateHEBREW">Іврит</string>
-    <string name="BiftorTranslateHINDI">Хінді</string>
-    <string name="BiftorTranslateHUNGARIAN">Угорська</string>
-    <string name="BiftorTranslateICELANDIC">Ісландська</string>
-    <string name="BiftorTranslateINDONESIAN">Індонезійська</string>
-    <string name="BiftorTranslateIRISH">Ірландська</string>
-    <string name="BiftorTranslateITALIAN">Італійська</string>
-    <string name="BiftorTranslateJAPANESE">Японська</string>
-    <string name="BiftorTranslateKANNADA">Каннада</string>
-    <string name="BiftorTranslateKOREAN">Корейська</string>
-    <string name="BiftorTranslateLATIN">Латинська</string>
-    <string name="BiftorTranslateLATVIAN">Латиська</string>
-    <string name="BiftorTranslateLITHUANIAN">Литовська</string>
-    <string name="BiftorTranslateMACEDONIAN">Македонська</string>
-    <string name="BiftorTranslateMALAY">Малайська</string>
-    <string name="BiftorTranslateMALTESE">Мальтійська</string>
-    <string name="BiftorTranslateNORWEGIAN">Норвезька</string>
-    <string name="BiftorTranslatePERSIAN">Перська</string>
-    <string name="BiftorTranslatePOLISH">Польська</string>
-    <string name="BiftorTranslatePORTUGUESE">Португальська</string>
-    <string name="BiftorTranslateROMANIAN">Румунська</string>
-    <string name="BiftorTranslateRUSSIAN">Російська</string>
-    <string name="BiftorTranslateSERBIAN">Сербська</string>
-    <string name="BiftorTranslateSLOVAK">Словацька</string>
-    <string name="BiftorTranslateSLOVENIAN">Словенська</string>
-    <string name="BiftorTranslateSPANISH">Іспанська</string>
-    <string name="BiftorTranslateSWAHILI">Суахілі</string>
-    <string name="BiftorTranslateSWEDISH">Шведська</string>
-    <string name="BiftorTranslateTAMIL">Тамільська</string>
-    <string name="BiftorTranslateTELUGU">Телугу</string>
-    <string name="BiftorTranslateTHAI">Тайська</string>
-    <string name="BiftorTranslateTURKISH">Турецька</string>
-    <string name="BiftorTranslateUKRAINIAN">Українська</string>
-    <string name="BiftorTranslateURDU">Урду</string>
-    <string name="BiftorTranslateVIETNAMESE">В\'єтнамська</string>
-    <string name="BiftorTranslateWELSH">Валлійська</string>
-    <string name="BiftorTranslateYIDDISH">Ідиш</string>
-    <string name="BiftorTranslateCHINESE_SIMPLIFIED">Китайська (спрощене письмо)</string>
-    <string name="BiftorTranslateCHINESE_TRADITIONAL">Китайська (традиційне письмо)</string>
-
+    <string name="BiftorTranslateAFRIKAANS">AFRIKAANS</string>
+    <string name="BiftorTranslateALBANIAN">ALBANIAN</string>
+    <string name="BiftorTranslateARABIC">ARABIC</string>
+    <string name="BiftorTranslateARMENIAN">ARMENIAN</string>
+    <string name="BiftorTranslateAZERBAIJANI">AZERBAIJANI</string>
+    <string name="BiftorTranslateBASQUE">BASQUE</string>
+    <string name="BiftorTranslateBELARUSIAN">BELARUSIAN</string>
+    <string name="BiftorTranslateBENGALI">BENGALI</string>
+    <string name="BiftorTranslateBULGARIAN">BULGARIAN</string>
+    <string name="BiftorTranslateCATALAN">CATALAN</string>
+    <string name="BiftorTranslateCHINESE">CHINESE</string>
+    <string name="BiftorTranslateCROATIAN">CROATIAN</string>
+    <string name="BiftorTranslateCZECH">CZECH</string>
+    <string name="BiftorTranslateDANISH">DANISH</string>
+    <string name="BiftorTranslateDUTCH">DUTCH</string>
+    <string name="BiftorTranslateENGLISH">ENGLISH</string>
+    <string name="BiftorTranslateESTONIAN">ESTONIAN</string>
+    <string name="BiftorTranslateFILIPINO">FILIPINO</string>
+    <string name="BiftorTranslateFINNISH">FINNISH</string>
+    <string name="BiftorTranslateFRENCH">FRENCH</string>
+    <string name="BiftorTranslateGALICIAN">GALICIAN</string>
+    <string name="BiftorTranslateGEORGIAN">GEORGIAN</string>
+    <string name="BiftorTranslateGERMAN">GERMAN</string>
+    <string name="BiftorTranslateGREEK">GREEK</string>
+    <string name="BiftorTranslateGUJARATI">GUJARATI</string>
+    <string name="BiftorTranslateHAITIAN_CREOLE">HAITIAN CREOLE</string>
+    <string name="BiftorTranslateHEBREW">HEBREW</string>
+    <string name="BiftorTranslateHINDI">HINDI</string>
+    <string name="BiftorTranslateHUNGARIAN">HUNGARIAN</string>
+    <string name="BiftorTranslateICELANDIC">ICELANDIC</string>
+    <string name="BiftorTranslateINDONESIAN">INDONESIAN</string>
+    <string name="BiftorTranslateIRISH">IRISH</string>
+    <string name="BiftorTranslateITALIAN">ITALIAN</string>
+    <string name="BiftorTranslateJAPANESE">JAPANESE</string>
+    <string name="BiftorTranslateKANNADA">KANNADA</string>
+    <string name="BiftorTranslateKAZAKH">KAZAKH</string>
+    <string name="BiftorTranslateKOREAN">KOREAN</string>
+    <string name="BiftorTranslateLATIN">LATIN</string>
+    <string name="BiftorTranslateLATVIAN">LATVIAN</string>
+    <string name="BiftorTranslateLITHUANIAN">LITHUANIAN</string>
+    <string name="BiftorTranslateMACEDONIAN">MACEDONIAN</string>
+    <string name="BiftorTranslateMALAY">MALAY</string>
+    <string name="BiftorTranslateMALTESE">MALTESE</string>
+    <string name="BiftorTranslateNORWEGIAN">NORWEGIAN</string>
+    <string name="BiftorTranslatePERSIAN">PERSIAN</string>
+    <string name="BiftorTranslatePOLISH">POLISH</string>
+    <string name="BiftorTranslatePORTUGUESE">PORTUGUESE</string>
+    <string name="BiftorTranslateROMANIAN">ROMANIAN</string>
+    <string name="BiftorTranslateRUSSIAN">RUSSIAN</string>
+    <string name="BiftorTranslateSERBIAN">SERBIAN</string>
+    <string name="BiftorTranslateSLOVAK">SLOVAK</string>
+    <string name="BiftorTranslateSLOVENIAN">SLOVENIAN</string>
+    <string name="BiftorTranslateSPANISH">SPANISH</string>
+    <string name="BiftorTranslateSWAHILI">SWAHILI</string>
+    <string name="BiftorTranslateSWEDISH">SWEDISH</string>
+    <string name="BiftorTranslateTAMIL">TAMIL</string>
+    <string name="BiftorTranslateTELUGU">TELUGU</string>
+    <string name="BiftorTranslateTHAI">THAI</string>
+    <string name="BiftorTranslateTURKISH">TURKISH</string>
+    <string name="BiftorTranslateUKRAINIAN">UKRAINIAN</string>
+    <string name="BiftorTranslateURDU">URDU</string>
+    <string name="BiftorTranslateUZBEK">UZBEK</string>
+    <string name="BiftorTranslateVIETNAMESE">VIETNAMESE</string>
+    <string name="BiftorTranslateWELSH">WELSH</string>
+    <string name="BiftorTranslateYIDDISH">YIDDISH</string>
+    <string name="BiftorTranslateCHINESE_SIMPLIFIED">CHINESE SIMPLIFIED</string>
+    <string name="BiftorTranslateCHINESE_TRADITIONAL">CHINESE TRADITIONAL</string>
 
     <!--Biftor delete from recent search-->
     <string name="BiftorDeletRecentSearchItem">Ви впевнені, що хочете видалити : **%1$s** з нещодавнього пошуку?</string>
@@ -891,5 +900,19 @@
     <string name="BiftorSSRProtocolParams">Параметри протоколу</string>
     <string name="BiftorSSRObfs">Obfs</string>
     <string name="BiftorSSRObfsParam">Параметри Obfs</string>
-  
+    <string name="BiftorShadowSocksModule">Shadow socks</string>
+    <string name="BiftorStartShadowAsService">Start shadow as service</string>
+    <string name="BiftorStartShadowAsServiceSub">Run shadow socks as background service</string>
+    <string name="BiftorShadowSockServiceConnecting">Shadow Socks service is connecting</string>
+    <string name="BiftorShadowSockServiceConnected">Shadow Socks service is running: %s</string>
+    <string name="BiftorShadowSockServiceStop">Stop</string>
+    <string name="BiftorShadowSocksConfig">Shadow socks config</string>
+    <string name="BiftorStopShadowSocksWhenAppClosed">Stop Shadow socks when app closed</string>
+    <string name="BiftorStopShadowSocksWhenAppClosedSub">Stop the Shadow socks when App Closed, if you disable it, when the Shadow socks is enable the whole app will not close.</string>
+
+    <!--Biftor ads-->
+    <string name="BiftorAdsTypeAdMob">AdMob</string>
+    <string name="BiftorAdsTypeCustom">Ads</string>
+    <string name="BiftorAdsTitle">BGram Ads</string>
+    <string name="BiftorAdsSubTitle">Support BGram by Watching an Ad</string>
 </resources>

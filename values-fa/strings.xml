@@ -179,7 +179,7 @@
     <string name="MuteFor">بی‌صدا کردن به مدت %1$s</string>
     <string name="UnmuteNotifications">صدادار کردن</string>
     <string name="WillUnmuteIn">ظرف %1$s</string>
-    <string name="MuteDisable">غیرفعال کردن</string>
+    <string name="MuteDisable">بی‌صدا کردن برای همیشه</string>
     <string name="Hashtags">هشتگ‌ها</string>
     <string name="Recent">اخیراً</string>
     <string name="ChatHints">افراد</string>
@@ -224,6 +224,31 @@
     <string name="HideNewChatsAlertTitle">گفتگوهای جدید پنهان شوند؟</string>
     <string name="HideNewChatsAlertText">شما در حال دریافت گفتگوهای جدید زیادی از کاربرانی هستید که در فهرست مخاطبین شما نیستند. آیا تمایل دارید چنین گفتگوهایی **به صورت خودکار بی‌صدا** و **بایگانی** شوند؟</string>
     <string name="GoToSettings">رفتن به تنظیمات</string>
+    <string name="OpenProfile">باز کردن پروفایل</string>
+    <string name="OpenChannel2">باز کردن کانال</string>
+    <string name="OpenGroup2">مشاهده گروه</string>
+    <string name="SendMessage">ارسال پیام</string>
+    <string name="Mention">اشاره کردن</string>
+    <string name="NotificationsMutedHint">اعلان‌ها بی‌صدا شدند</string>
+    <string name="NotificationsMutedForHint">اعلان‌ها برای %1$s بی‌صدا شدند</string>
+    <string name="NotificationsUnmutedHint">اعلان‌ها صدادار شدند</string>
+    <string name="MessagesDeletedHint_zero">%1$d پیام پاک شدند</string>
+    <string name="MessagesDeletedHint_one">%1$d پیام پاک شد</string>
+    <string name="MessagesDeletedHint_two">%1$d پیام پاک شدند</string>
+    <string name="MessagesDeletedHint_few">%1$d پیام پاک شدند</string>
+    <string name="MessagesDeletedHint_many">%1$d پیام پاک شدند</string>
+    <string name="MessagesDeletedHint_other">%1$d پیام پاک شدند</string>
+    <string name="SearchEmptyViewTitle">بدون نتیجه</string>
+    <string name="SearchEmptyViewTitle2">بدون نتیجه</string>
+    <string name="SearchEmptyViewFilteredSubtitle2">عبارت دیگری جستجو کنید.</string>
+    <string name="SearchEmptyViewFilteredSubtitleMusic">موسیقی‌های مربوط به تمامی گفتگوهای شما، اینجا نمایش داده خواهند شد.</string>
+    <string name="SearchEmptyViewFilteredSubtitleFiles">فایل‌های مربوط به تمامی گفتگوهای شما، اینجا نمایش داده خواهند شد.</string>
+    <string name="SearchEmptyViewFilteredSubtitleLinks">لینک‌های مربوط به تمامی گفتگوهای شما، اینجا نمایش داده خواهند شد.</string>
+    <string name="SearchEmptyViewFilteredSubtitleVoice">صداهای مربوط به تمامی گفتگوهای شما، اینجا نمایش داده خواهند شد.</string>
+    <string name="SearchEmptyViewFilteredSubtitleMedia">رسانه‌های مربوط به تمامی گفتگوهای شما، اینجا نمایش داده خواهند شد.</string>
+    <string name="SearchAllChatsShort">گفتگوها</string>
+    <string name="MessagePinnedHint">پیام سنجاق شد</string>
+    <string name="MessageUnpinnedHint">سنجاق پیام برداشته شد</string>
     <!--channels-->
     <string name="SetAsAdmin">ارتقا‌‌ء به مدیر</string>
     <string name="EditAdminRights">ویرایش اختیارات مدیر</string>
@@ -362,6 +387,7 @@
     <string name="ChannelAdminsInfo">شما می‌توانید مدیرانی را به کانال خود اضافه کنید تا در مدیریت آن به شما کمک کنند. برای حذف آن‌ها ضربه بزنید و نگه دارید.</string>
     <string name="ChannelJoinTo">آیا می‌خواهید به کانال «%1$s» بپیوندید؟</string>
     <string name="ChannelCantOpenPrivate">متأسفانه این گفتگو دیگر قابل دسترسی نیست.</string>
+    <string name="ChannelCantOpenBannedByAdmin">متأسفانه شما نمی‌توانید به این گفتگو دسترسی پیدا کنید، زیرا توسط یک مدیر مسدود شده‌اید.</string>
     <string name="ChannelCantOpenBanned">متأسفانه شما از مشارکت در گروه‌های عمومی محروم شده‌اید.</string>
     <string name="ChannelCantOpenNa">متأسفانه این گفتگو دیگر قابل دسترسی نیست.</string>
     <string name="ChannelAddTo">%1$s به کانال اضافه شود؟</string>
@@ -416,6 +442,7 @@
     <string name="EditAdminDeleteMessages">حذف پیام‌های دیگران</string>
     <string name="EditAdminGroupDeleteMessages">حذف پیام‌ها</string>
     <string name="EditAdminAddAdmins">افزودن مدیران جدید</string>
+    <string name="EditAdminSendAnonymously">ارسال به صورت ناشناس</string>
     <string name="EditAdminRemoveAdmin">برکناری مدیر</string>
     <string name="EditAdminGroupTransfer">انتقال مالکیت گروه</string>
     <string name="EditAdminChannelTransfer">انتقال مالکیت کانال</string>
@@ -506,11 +533,12 @@
     <string name="MakeAdmin">مدیر کردن</string>
     <string name="AdminWillBeRemoved">در صورتی که %1$s را محدود کنید، او از فهرست مدیران حذف خواهد شد.</string>
     <string name="Discussion">بحث</string>
+    <string name="ViewDiscussion">مشاهده بحث</string>
     <string name="DiscussionInfo">یک گفتگوی گروهی را برای نظرات اضافه کنید</string>
     <string name="LinkedChannel">کانال متصل</string>
-    <string name="DiscussionChannelHelp">یک گفتگوی گروهی را برای بحثی که در کانال شما نمایش داده خواهد شد، انتخاب کنید.</string>
+    <string name="DiscussionChannelHelp3">گروهی را به عنوان میزبان دیدگاه‌های کانالتان انتخاب کنید.</string>
     <string name="DiscussionChannelHelp2">هر چیزی که در کانال ارسال کنید، به این گروه هدایت خواهد شد.</string>
-    <string name="DiscussionChannelGroupSetHelp">یک لینک به **%1$s** برای همه مشترکین در پایین پنل نشان داده می‌شود.</string>
+    <string name="DiscussionChannelGroupSetHelp2">**%1$s** به عنوان گروه میزبان دیدگاه‌های کانال شما انتخاب شده است.</string>
     <string name="DiscussionGroupHelp">**%1$s** گروه را به عنوان صفحه بحث خود متصل کرده است.</string>
     <string name="DiscussionGroupHelp2">تمامی پیام‌های جدید ارسال شده در این کانال، به این گروه هدایت می‌شوند.</string>
     <string name="DiscussionCreateGroup">ایجاد گروه جدید</string>
@@ -536,6 +564,7 @@
     <string name="SlowmodeSendError">حالت آرام فعال است. نمی‌توانید بیش از یک پیام به صورت همزمان ارسال کنید.</string>
     <string name="SlowmodeSelectSendError">حالت آرام فعال است. نمی‌توانید موارد بیشتری انتخاب کنید.</string>
     <string name="SlowmodeSendErrorTooLong">متأسفانه این متن بسیار طولانی بوده و در یک پیام ارسال نمی‌شود.\n\nحالت آرام فعال است. نمی‌توانید بیش از یک پیام به صورت همزمان ارسال کنید.</string>
+    <string name="UserSetAsAdminHint">**%1$s** به مدیر ارتقاء یافت</string>
     <!--polls-->
     <string name="NewPoll">نظرسنجی جدید</string>
     <string name="NewQuiz">آزمون جدید</string>
@@ -579,7 +608,7 @@
     <string name="Unvote">پس گرفتن رأی</string>
     <string name="FinalResults">نتایج نهایی</string>
     <string name="NoVotes">بدون رأی</string>
-    <string name="NoVotesQuiz">کسی پاسخ نداد</string>
+    <string name="NoVotesQuiz">کسی پاسخ نداده است</string>
     <string name="Vote_zero">%1$d رأی</string>
     <string name="Vote_one">%1$d رأی</string>
     <string name="Vote_two">%1$d رأی</string>
@@ -685,6 +714,7 @@
     <string name="EventLogPromotedEditMessages">ویرایش پیام‌ها</string>
     <string name="EventLogPromotedDeleteMessages">حذف پیام‌ها</string>
     <string name="EventLogPromotedAddAdmins">افزودن مدیران</string>
+    <string name="EventLogPromotedSendAnonymously">ارسال به صورت ناشناس</string>
     <string name="EventLogPromotedBanUsers">محروم کردن کاربران</string>
     <string name="EventLogPromotedAddUsers">افزودن کاربران</string>
     <string name="EventLogPromotedTitle">عنوان: %1$s</string>
@@ -854,6 +884,7 @@
     <string name="AddContactFullChat">افزودن %1$s به مخاطبین</string>
     <string name="ViewContact">مشاهده مخاطب</string>
     <string name="BlockUserAlert">آیا می‌خواهید **%1$s** را از ارسال پیام و تماس با شما در تلگرام مسدود کنید؟</string>
+    <string name="BlockUserReplyAlert">آیا می‌خواهید پیام‌های **%1$s** را مسدود کنید؟</string>
     <string name="ReportSpamAlert">آیا از گزارش هرزنامه از جانب این کاربر اطمینان دارید؟</string>
     <string name="ReportSpamAlertGroup">آیا از گزارش هرزنامه از جانب این گروه اطمینان دارید؟</string>
     <string name="ReportSpamAlertChannel">آیا از گزارش هرزنامه از جانب این کانال اطمینان دارید؟</string>
@@ -866,10 +897,12 @@
     <string name="TapHereGifs">جهت دسترسی به گیف‌های ذخیره شده اینجا را بزنید</string>
     <string name="PinMessage">سنجاق کردن</string>
     <string name="PinNotify">به تمامی اعضا اطلاع داده شود</string>
+    <string name="PinAlsoFor">برای %1$s نیز سنجاق شود</string>
     <string name="UnpinMessage">برداشتن سنجاق</string>
     <string name="PinMessageAlertTitle">سنجاق کردن پیام</string>
     <string name="UnpinMessageAlertTitle">برداشتن سنجاق پیام</string>
-    <string name="PinMessageAlert">آیا می‌خواهید این پیام را در این گروه سنجاق کنید؟</string>
+    <string name="PinOldMessageAlert">آیا می‌خواهید در حالی که پیام جدیدتری سنجاق شده است، پیام قدیمی‌تری را سنجاق کنید؟</string>
+    <string name="PinMessageAlert">آیا می‌خواهید این پیام را برای تمامی اعضای این گروه سنجاق کنید؟</string>
     <string name="PinMessageAlertChannel">آیا می‌خواهید این پیام را در این کانال سنجاق کنید؟</string>
     <string name="PinMessageAlertChat">آیا می‌خواهید این پیام را در بالای گفتگو سنجاق کنید؟</string>
     <string name="UnpinMessageAlert">آیا می‌خواهید سنجاق این پیام را بردارید؟</string>
@@ -894,6 +927,7 @@
     <string name="ReportChatOther">سایر</string>
     <string name="ReportChatDescription">توضیحات</string>
     <string name="PinnedMessage">پیام سنجاق شده</string>
+    <string name="PreviousPinnedMessage">پیام قبلی</string>
     <string name="PinnedPoll">نظرسنجی سنجاق شده</string>
     <string name="EditedMessage">ویرایش شده</string>
     <string name="EditMessage">ویرایش پیام</string>
@@ -967,7 +1001,7 @@
     <string name="TapForVideo">برای عکس گرفتن ضربه بزنید، برای ویدیو گرفتن نگه دارید</string>
     <string name="TapToViewAsList">برای مشاهده به صورت فهرست ضربه بزنید.</string>
     <string name="SendWithoutSound">ارسال بی‌صدا</string>
-    <string name="MessageScheduleSend">ارسال همین الان</string>>
+    <string name="MessageScheduleSend">ارسال همین الان</string>
     <string name="MessageScheduleEditTime">زمان‌بندی مجدد</string>
     <string name="MessageScheduleToday">امروز</string>
     <string name="Schedule">زمان‌بندی</string>
@@ -1012,6 +1046,28 @@
     <string name="SecretChatTimerMinutes">دقیقه</string>
     <string name="SecretChatTimerHours">ساعت</string>
     <string name="SecretChatTimerWeeks">هفته</string>
+    <string name="SharedToPrivateMessagesAndGroups">به پیام‌های خصوصی و گروه‌ها</string>
+    <string name="BotOwnershipTransfer">انتقال مالکیت ربات</string>
+    <string name="BotOwnershipTransferReadyAlertText">این کار اختیارات **مالکیت کامل** ربات را به کاربر انتخاب شده انتفال می‌دهد.</string>
+    <string name="BotOwnershipTransferChangeOwner">تغییر مالک</string>
+    <string name="BotOwnershipTransferAlertText">شما فقط در صورت داشتن موارد زیر می‌توانید ربات را انتقال دهید:</string>
+    <string name="LeaveAComment">دیدگاهی بگذارید</string>
+    <string name="CommentsTitle">دیدگاه‌ها</string>
+    <string name="Comment">دیدگاه</string>
+    <string name="RepliesTitle">پاسخ‌ها</string>
+    <string name="NoComments">هنوز دیدگاهی ارسال نشده است...</string>
+    <string name="NoReplies">هنوز پاسخی داده نشده است...</string>
+    <string name="ViewInChat">مشاهده در گفتگو</string>
+    <string name="SendAnonymously">ارسال به صورت ناشناس</string>
+    <string name="DiscussionStarted">بحث شروع شد</string>
+    <string name="ViewThread">مشاهده رشته</string>
+    <string name="ChooseDate">انتخاب تاریخ</string>
+    <string name="RepliesChatInfo">این گفتگو به شما کمک می‌کند پاسخ دیگران به دیدگاه‌هایتان در کانال‌ها را دنبال کنید.</string>
+    <string name="ChannelPostDeleted">متأسفانه این پست از گروه بحث حذف شده است.</string>
+    <string name="UnpinAllMessages">برداشتن سنجاق تمامی پیام‌ها</string>
+    <string name="HidePinnedMessages">پنهان کردن پیام‌های سنجاق شده</string>
+    <string name="PinnedMessagesHidden">پیام‌های سنجاق شده پنهان شدند</string>
+    <string name="PinnedMessagesHiddenInfo">در صورتی که پیام جدیدی سنجاق شود، پیام‌های سنجاق شده مجدداً نمایش داده خواهند شد.</string>
     <!--notification-->
     <string name="MessageLifetimeChanged">%1$s زمان‌سنج نابود کننده را روی %2$s تنظیم کرد</string>
     <string name="MessageLifetimeChangedOutgoing">شما زمان‌سنج نابود کننده را روی %1$s تنظیم کردید</string>
@@ -1127,6 +1183,25 @@
     <string name="NotificationActionPinnedGeoLiveChannel">%1$s یک موقعیت مکانی لحظه‌ای را سنجاق کرد</string>
     <string name="NotificationActionPinnedGifChannel">%1$s یک گیف را سنجاق کرد</string>
     <string name="NotificationActionPinnedMusicChannel">%1$s یک فایل صوتی را سنجاق کرد</string>
+    <string name="NotificationActionPinnedTextUser">%1$s «%2$s» را سنجاق کرد</string>
+    <string name="NotificationActionPinnedNoTextUser">%1$s یک پیام را سنجاق کرد</string>
+    <string name="NotificationActionPinnedPollUser">%1$s نظرسنجی %2$s را سنجاق کرد</string>
+    <string name="NotificationActionPinnedQuizUser">%1$s آزمون %2$s را سنجاق کرد</string>
+    <string name="NotificationActionPinnedPhotoUser">%1$s یک عکس را سنجاق کرد</string>
+    <string name="NotificationActionPinnedGameUser">%1$s یک بازی را سنجاق کرد</string>
+    <string name="NotificationActionPinnedGameScoreUser">%1$s یک امتیاز بازی را سنجاق کرد</string>
+    <string name="NotificationActionPinnedVideoUser">%1$s یک ویدیو را سنجاق کرد</string>
+    <string name="NotificationActionPinnedFileUser">%1$s یک فایل را سنجاق کرد</string>
+    <string name="NotificationActionPinnedInvoiceUser">%1$s یک صورت‌حساب را سنجاق کرد</string>
+    <string name="NotificationActionPinnedStickerUser">%1$s یک استیکر را سنجاق کرد</string>
+    <string name="NotificationActionPinnedStickerEmojiUser">%1$s یک استیکر %2$s را سنجاق کرد</string>
+    <string name="NotificationActionPinnedVoiceUser">%1$s یک پیام صوتی را سنجاق کرد</string>
+    <string name="NotificationActionPinnedRoundUser">%1$s یک پیام ویدیویی را سنجاق کرد</string>
+    <string name="NotificationActionPinnedContactUser">%1$s مخاطب %2$s را سنجاق کرد</string>
+    <string name="NotificationActionPinnedGeoUser">%1$s یک نقشه را سنجاق کرد</string>
+    <string name="NotificationActionPinnedGeoLiveUser">%1$s یک موقعیت مکانی لحظه‌ای را سنجاق کرد</string>
+    <string name="NotificationActionPinnedGifUser">%1$s یک گیف را سنجاق کرد</string>
+    <string name="NotificationActionPinnedMusicUser">%1$s یک فایل صوتی را سنجاق کرد</string>
     <string name="SecretChatName">تلگرام</string>
     <!--contacts view-->
     <string name="SelectContact">انتخاب مخاطب</string>
@@ -1163,6 +1238,13 @@
     <string name="SortedByLastSeen">مرتب شده بر اساس آخرین زمان بازدید</string>
     <string name="AddContactByPhone">افزودن %1$s</string>
     <string name="PhoneNumberSearch">شماره تلفن</string>
+    <string name="NoContactsYet">هنوز مخاطبی در تلگرام ندارید</string>
+    <string name="NoContactsYetLine1">دعوت کردن دوستان به تلگرام</string>
+    <string name="NoContactsYetLine2">پیدا کردن افراد نزدیک برای گفتگو</string>
+    <string name="NoContactsYetLine3">جستجوی افراد با نام کاربری</string>
+    <string name="NewContactAlertTitle">مخاطب جدید</string>
+    <string name="NewContactAlertMessage">شماره تلفن **%1$s** در فهرست مخاطبین شما نیست. آیا می‌خواهید آن را اضافه کنید؟</string>
+    <string name="NewContactAlertButton">افزودن مخاطب</string>
     <!--group create view-->
     <string name="SendMessageTo">افزودن افراد...</string>
     <string name="SoftUserLimitAlert">پس از ایجاد گروه می‌توانید اعضای بیشتری را اضافه کنید.</string>
@@ -1222,6 +1304,8 @@
     <string name="ContactNotRegisteredTitle">دعوت به تلگرام</string>
     <string name="ContactNotRegistered">%1$s هنوز وارد تلگرام نشده است، آیا تمایل دارید او را به پیوستن به تلگرام دعوت‌ کنید؟</string>
     <string name="Invite">دعوت</string>
+    <string name="Block">مسدود کردن</string>
+    <string name="BlockAndDeleteReplies">مسدود و حذف کردن پاسخ‌ها</string>
     <string name="BlockContact">مسدود کردن کاربر</string>
     <string name="BlockUser">مسدود کردن کاربر</string>
     <string name="BlockUsers">مسدود کردن کاربران</string>
@@ -1739,7 +1823,7 @@
     <string name="EmptyExceptions">خالی</string>
     <string name="SmartNotificationsInfo">%1$d / %2$s</string>
     <string name="SmartNotificationsDisabled">غیرفعال</string>
-    <string name="SmartNotificationsAlert">تکرار زنگ هشدار</string>
+    <string name="SmartNotificationsAlert">تکرار زنگ اعلان</string>
     <string name="SmartNotificationsDetail">%1$s به مدت هر %2$s</string>
     <string name="SecretWebPage">پیش‌نمایش‌های لینک</string>
     <string name="SecretWebPageInfo">پیش‌نمایش‌های لینک بر روی سرورهای تلگرام ایجاد می‌شوند. ما اطلاعات مربوط به لینک‌های ارسالی شما را ذخیره نمی‌کنیم.</string>
@@ -2230,8 +2314,8 @@
     <string name="SharedMediaTabFull2">رسانه‌های اشتراکی</string>
     <string name="SharedGroupsTab2">گروه‌ها</string>
     <string name="SharedLinksTab2">لینک‌ها</string>
-    <string name="SharedMusicTab2">صداها</string>
-    <string name="SharedVoiceTab2">پیام‌های صوتی</string>
+    <string name="SharedMusicTab2">موسیقی</string>
+    <string name="SharedVoiceTab2">صدا</string>
     <string name="SharedGIFsTab2">گیف‌ها</string>
     <string name="DocumentsTitle">فایل‌های اشتراکی</string>
     <string name="SharedContentTitle">مخاطبین اشتراکی</string>
@@ -2242,12 +2326,12 @@
     <string name="NoSharedFiles">فایل‌ها و سندها را در این گفتگو به اشتراک بگذارید و بر روی هر دستگاه خود به آن‌ها دسترسی داشته باشید.</string>
     <string name="NoSharedLinks">لینک‌ها را در این گفتگو به اشتراک بگذارید و بر روی هر دستگاه خود به آن‌ها دسترسی داشته باشید.</string>
     <string name="NoSharedVoice">پیام‌های صوتی را در این گفتگو به اشتراک بگذارید و بر روی هر دستگاه خود به آن‌ها دسترسی داشته باشید.</string>
-    <string name="NoMediaSecret">عکس‌ها و ویدیوهای این گفتگو در اینجا نمایش داده می‌شوند.</string>
-    <string name="NoSharedAudioSecret">موسیقی‌های این گفتگو در اینجا نمایش داده می‌شوند.</string>
-    <string name="NoSharedFilesSecret">فایل‌ها و سند‌های به اشتراک گذاشته شده در این گفتگو در اینجا نمایش داده می‌شوند.</string>
-    <string name="NoSharedLinksSecret">لینک‌های به اشتراک گذاشته شده در این گفتگو در اینجا نمایش داده می‌شوند.</string>
-    <string name="NoSharedVoiceSecret">پیام‌های صوتی این گفتگو در اینجا نمایش داده خواهند شد.</string>
-    <string name="NoSharedGifSecret">گیف‌های این گفتگو در اینجا نمایش داده خواهند شد.</string>
+    <string name="NoMediaSecret">عکس‌ها و ویدیوهای این گفتگو، اینجا نمایش داده خواهند شد.</string>
+    <string name="NoSharedAudioSecret">موسیقی‌های این گفتگو، اینجا نمایش داده خواهند شد.</string>
+    <string name="NoSharedFilesSecret">فایل‌ها و سند‌های به اشتراک گذاشته شده در این گفتگو، اینجا نمایش داده خواهند شد.</string>
+    <string name="NoSharedLinksSecret">لینک‌های به اشتراک گذاشته شده در این گفتگو، اینجا نمایش داده خواهند شد.</string>
+    <string name="NoSharedVoiceSecret">پیام‌های صوتی این گفتگو، اینجا نمایش داده خواهند شد.</string>
+    <string name="NoSharedGifSecret">گیف‌های این گفتگو، اینجا نمایش داده خواهند شد.</string>
     <!--map view-->
     <string name="Map">نقشه</string>
     <string name="Satellite">ماهواره</string>
@@ -2256,6 +2340,12 @@
     <string name="KMetersAway2">%1$s کیلومتر دورتر</string>
     <string name="FootsAway">%1$s فوت دورتر</string>
     <string name="MilesAway">%1$s مایل دورتر</string>
+    <string name="FootsShort">%1$s فوت</string>
+    <string name="MilesShort">%1$s مایل</string>
+    <string name="Mi">مایل</string>
+    <string name="Km">کیلومتر</string>
+    <string name="MetersShort">%1$s متر</string>
+    <string name="KMetersShort">%1$s کیلومتر</string>
     <string name="MetersFromYou2">%1$s متر دورتر از شما</string>
     <string name="KMetersFromYou2">%1$s کیلومتر دورتر از شما</string>
     <string name="FootsFromYou">%1$s فوت دورتر از شما</string>
@@ -2289,6 +2379,8 @@
     <string name="LocationUpdatedJustNow">آخرین به‌روزرسانی همین الان</string>
     <string name="SharingYouAndOtherName">شما و %1$s</string>
     <string name="AttachLiveLocationIsSharing">در حال اشتراک %1$s با %2$s</string>
+    <string name="AttachLiveLocationIsSharingChat">در حال به اشتراک گذاری %1$s با %2$s</string>
+    <string name="AttachLiveLocationIsSharingChats">در حال به اشتراک گذاری %1$s با %2$s گفتگو</string>
     <string name="StopAllLocationSharings">متوقف کردن همه</string>
     <string name="SharingLiveLocationTitle">شما در حال اشتراک موقعیت مکانی لحظه‌ای خود با %1$s هستید</string>
     <string name="LiveLocationAlertPrivate">انتخاب کنید که تا چه مدت %1$s بتواند موقعیت مکانی دقیق شما را ببیند.</string>
@@ -2317,6 +2409,19 @@
     <string name="ChatSetThisLocation">تنظیم این موقعیت مکانی</string>
     <string name="ChatSetLocationInfo">افراد قادر خواهند بود گروه شما را در قسمت «افراد نزدیک» پیدا کنند.</string>
     <string name="PlacesInThisArea">مکان‌ها در این ناحیه</string>
+    <string name="LocationNotifiation">اعلان مجاورت</string>
+    <string name="LocationNotifiationButtonUser">هنگامی که %1$s در محدوده %2$s قرار گرفت، اطلاع‌رسانی شود</string>
+    <string name="LocationNotifiationButtonGroup">هنگامی که کسی در محدوده %1$s قرار گرفت، اطلاع‌رسانی شود</string>
+    <string name="LocationNotifiationCloser">شما در حال حاضر نزدیک‌تر از %1$s هستید</string>
+    <string name="ShareLocationAlertTitle">به اشتراک گذاشتن موقعیت مکانی</string>
+    <string name="ShareLocationAlertButton">به اشتراک گذاشتن</string>
+    <string name="ShareLocationAlertText">برای این که اطلاع‌رسانی انجام شود، لطفاً موقعیت مکانی لحظه‌ای خود را در این گفتگو به اشتراک بگذارید.</string>
+    <string name="ProximityTooltioUser">هنگامی که %1$s در نزدیکی است، اطلاع‌رسانی شود</string>
+    <string name="ProximityTooltioGroup">هنگامی که سایر اعضای گروه در نزدیکی هستند، اطلاع‌رسانی شود</string>
+    <string name="ProximityAlertSet">تنظیم اعلان مجاورت</string>
+    <string name="ProximityAlertSetInfoUser">هنگامی که %1$s در محدوده %2$s از شما قرار گرفت، به شما اطلاع خواهیم داد</string>
+    <string name="ProximityAlertSetInfoGroup2">هرگاه کسی در محدوده %1$s از شما قرار گرفت، به شما اطلاع خواهیم داد.</string>
+    <string name="ProximityAlertCancelled">اعلان مجاورت لغو شد</string>
     <!--photo gallery view-->
     <string name="ShowAsList">نمایش به صورت فهرست</string>
     <string name="ShowAsGrid">نمایش به صورت جدول</string>
@@ -2422,6 +2527,43 @@
     <string name="MainChannelProfileVideoSetHint">این اکنون ویدیوی اصلی کانال است.</string>
     <string name="MainGroupProfilePhotoSetHint">این اکنون عکس اصلی گروه است.</string>
     <string name="MainGroupProfileVideoSetHint">این اکنون ویدیوی اصلی گروه است.</string>
+    <string name="PhotoSavedHint">عکس در گالری ذخیره شد</string>
+    <string name="VideoSavedHint">ویدیو در گالری ذخیره شد</string>
+    <string name="PhotoSavedToDownloadsHint">عکس در دانلودها ذخیره شد</string>
+    <string name="VideoSavedToDownloadsHint">ویدیو در دانلودها ذخیره شد</string>
+    <string name="GifSavedToDownloadsHint">گیف در دانلودها ذخیره شد</string>
+    <string name="AudioSavedHint">فایل در موسیقی ذخیره شد</string>
+    <string name="FileSavedHint">فایل در دانلودها ذخیره شد</string>
+    <string name="FilesSavedHint_zero">%1$d فایل در دانلودها ذخیره شد</string>
+    <string name="FilesSavedHint_one">فایل در دانلودها ذخیره شد</string>
+    <string name="FilesSavedHint_two">%1$d فایل در دانلودها ذخیره شد</string>
+    <string name="FilesSavedHint_few">%1$d فایل در دانلودها ذخیره شد</string>
+    <string name="FilesSavedHint_many">%1$d فایل در دانلودها ذخیره شد</string>
+    <string name="FilesSavedHint_other">%1$d فایل در دانلودها ذخیره شد</string>
+    <string name="PhotosSavedHint_zero">%1$d عکس در گالری ذخیره شد</string>
+    <string name="PhotosSavedHint_one">عکس در گالری ذخیره شد</string>
+    <string name="PhotosSavedHint_two">%1$d عکس در گالری ذخیره شد</string>
+    <string name="PhotosSavedHint_few">%1$d عکس در گالری ذخیره شد</string>
+    <string name="PhotosSavedHint_many">%1$d عکس در گالری ذخیره شد</string>
+    <string name="PhotosSavedHint_other">%1$d عکس در گالری ذخیره شد</string>
+    <string name="VideosSavedHint_zero">%1$d ویدیو در گالری ذخیره شد</string>
+    <string name="VideosSavedHint_one">ویدیو در گالری ذخیره شد</string>
+    <string name="VideosSavedHint_two">%1$d ویدیو در گالری ذخیره شد</string>
+    <string name="VideosSavedHint_few">%1$d ویدیو در گالری ذخیره شد</string>
+    <string name="VideosSavedHint_many">%1$d ویدیو در گالری ذخیره شد</string>
+    <string name="VideosSavedHint_other">%1$d ویدیو در گالری ذخیره شد</string>
+    <string name="AudiosSavedHint_zero">%1$d فایل در موسیقی ذخیره شد</string>
+    <string name="AudiosSavedHint_one">فایل در موسیقی ذخیره شد</string>
+    <string name="AudiosSavedHint_two">%1$d فایل در موسیقی ذخیره شد</string>
+    <string name="AudiosSavedHint_few">%1$d فایل در موسیقی ذخیره شد</string>
+    <string name="AudiosSavedHint_many">%1$d فایل در موسیقی ذخیره شد</string>
+    <string name="AudiosSavedHint_other">%1$d فایل در موسیقی ذخیره شد</string>
+    <string name="MediaSavedHint_zero">%1$d مورد در گالری ذخیره شد</string>
+    <string name="MediaSavedHint_one">یک مورد در گالری ذخیره شد</string>
+    <string name="MediaSavedHint_two">%1$d مورد در گالری ذخیره شد</string>
+    <string name="MediaSavedHint_few">%1$d مورد در گالری ذخیره شد</string>
+    <string name="MediaSavedHint_many">%1$d مورد در گالری ذخیره شد</string>
+    <string name="MediaSavedHint_other">%1$d مورد در گالری ذخیره شد</string>
     <!--password view-->
     <string name="TwoStepVerification">تأیید دو مرحله‌ای</string>
     <string name="TwoStepVerificationTitle">تأیید دو مرحله‌ای</string>
@@ -2519,7 +2661,7 @@
     <string name="BytesSent">بایت‌های ارسالی</string>
     <string name="BytesReceived">بایت‌های دریافتی</string>
     <string name="FilesDataUsage">فایل‌ها</string>
-    <string name="CallsDataUsage">تنظیمات تماس</string>
+    <string name="CallsDataUsage">تماس‌ها</string>
     <string name="OutgoingCalls">تماس‌های خروجی</string>
     <string name="IncomingCalls">تماس‌های دریافتی</string>
     <string name="CallsTotalTime">مجموع زمان</string>
@@ -2649,7 +2791,7 @@
     <string name="Send">ارسال</string>
     <string name="Call">تماس</string>
     <string name="VideoCall">تماس ویدیویی</string>
-    <string name="Copy">کپی کردن</string>
+    <string name="Copy">کپی</string>
     <string name="Delete">حذف</string>
     <string name="Start">شروع</string>
     <string name="DeleteAndStop">حذف و متوقف کردن</string>
@@ -2705,6 +2847,9 @@
     <string name="ActionAddUserSelf">un1 به گروه بازگشت</string>
     <string name="ActionAddUserSelfMega">un1 به گروه پیوست</string>
     <string name="ActionAddUserSelfYou">شما به گروه بازگشتید</string>
+    <string name="ActionUserWithinRadius">un1 اکنون در محدوده %1$s از شما قرار دارد</string>
+    <string name="ActionUserWithinYouRadius">شما اکنون در محدوده %1$s از un1 قرار دارید</string>
+    <string name="ActionUserWithinOtherRadius">un1 اکنون در محدوده %1$s از un2 قرار دارد</string>
     <string name="ActionBotAllowed">شما به این ربات اجازه دادید تا هرگاه در %1$s وارد حساب کاربری خود شدید، به شما پیام ارسال کند.\n</string>
     <string name="ActionBotDocuments">%1$s سندهای مقابل را دریافت کرد: %2$s</string>
     <string name="ActionBotDocumentIdentity">جزئیات شخصی</string>
@@ -2881,6 +3026,7 @@
     <string name="PermissionDrawAboveOtherApps">تلگرام جهت پخش ویدیوها در حالت تصویر در تصویر باید به گزینه فعال بودن بر روی سایر برنامه‌ها دسترسی داشته باشد.</string>
     <string name="PermissionOpenSettings">تنظیمات</string>
     <string name="PermissionXiaomiLockscreen">لطفاً به تلگرام اجازه نمایش در صفحه قفل را بدهید تا تماس‌ها به درستی عمل کنند.</string>
+    <string name="PermissionBackgroundLocation">برای به اشتراک گذاری موقعیت مکانی لحظه‌ای خود در این گفتگو، تلگرام باید در تمام مدت به موقعیت مکانی شما دسترسی داشته باشد، حتی هنگامی که برنامه در پیش‌زمینه است.\n\nما فقط در مدت زمانی که شما انتخاب می‌کنید به موقعیت مکانی شما دسترسی خواهیم داشت، و شما می‌توانید هر زمان که بخواهید به اشتراک گذاری آن را متوقف کنید. ما از موقعیت مکانی شما برای هیچ هدفی جز به اشتراک گذاری آن در این گفتگو استفاده نمی‌کنیم.</string>
     <!--charts-->
     <string name="GrowthChartTitle">رشد</string>
     <string name="FollowersChartTitle">دنبال‌کنندگان</string>
@@ -2954,6 +3100,15 @@
     <string name="TopDaysOfWeekChartTitle">روزهای برتر هفته</string>
     <string name="StatisticSearchUserHistory">مشاهده پیام‌ها</string>
     <string name="StatisticOpenProfile">باز کردن پروفایل</string>
+    <string name="SearchTipToday">امروز</string>
+    <string name="SearchTipYesterday">دیروز</string>
+    <string name="StatisticViews">بازدیدها</string>
+    <string name="PublicShares">به اشتراک گذاری‌های عمومی</string>
+    <string name="PrivateShares">به اشتراک گذاری‌های خصوصی</string>
+    <string name="ViewStats">مشاهده آمار</string>
+    <string name="ViewChannelStats">مشاهده آمار کانال</string>
+    <string name="ViewMessageStatistic">آمار پیام</string>
+    <string name="ViewMessage">باز کردن پیام</string>
     <!--Intro view-->
     <string name="Page1Title">تلگرام</string>
     <string name="Page2Title">سریع</string>
@@ -3021,12 +3176,12 @@
     <string name="NoCallLog">شما هنوز تماسی برقرار نکرده‌اید.</string>
     <string name="VoipPeerIncompatible">**%1$s** از یک پروتکل ناسازگار استفاده می‌کند. او باید نرم‌افزار خود را بروزرسانی کند تا شما بتوانید با او تماس بگیرید.</string>
     <string name="VoipPeerOutdated">برنامه **%1$s** از تماس پشتیبانی نمی‌کند. او باید تلگرام خود را به‌روزرسانی کند تا شما بتوانید با او تماس بگیرید.</string>
-    <string name="VoipPeerVideoOutdated">Sorry, **%1$s** is using an old version of Telegram that doesn\'t support video calls.</string>
+    <string name="VoipPeerVideoOutdated">متأسفانه **%1$s** از نسخه قدیمی تلگرام استفاده می‌کند که از تماس‌های ویدیویی پشتیبانی نمی‌کند.</string>
     <string name="VoipPeerVideoOutdatedMakeVoice">تماس صوتی بگیرید</string>
     <string name="VoipRateCallAlert">لطفاً به کیفیت تماس تلگرامی خود امتیاز دهید</string>
     <string name="VoipNeedMicPermission">تلگرام باید به میکروفن شما دسترسی داشته باشد تا بتوانید تماس برقرار کنید.</string>
     <string name="VoipNeedMicCameraPermission">تلگرام باید به میکروفن و دوربین شما دسترسی داشته باشد تا بتوانید تماس ویدیویی برقرار کنید.</string>
-    <string name="VoipFeedbackCommentHint">یک نظر اختیاری اضافه کنید</string>
+    <string name="VoipFeedbackCommentHint">یک دیدگاه اختیاری اضافه کنید</string>
     <string name="CallBack">تماس</string>
     <string name="CallAgain">تماس مجدد</string>
     <string name="DefaultRingtone">پیش‌فرض</string>
@@ -3065,7 +3220,7 @@
     <string name="RateCallSilentLocal">من قادر به شنیدن صدای طرف مقابل نبودم</string>
     <string name="RateCallSilentRemote">طرف مقابل قادر به شنیدن صدای من نبود</string>
     <string name="RateCallDropped">تماس به طور غیرمنتظره‌ای پایان یافت</string>
-    <string name="RateCallVideoDistorted">Video was distorted</string>
+    <string name="RateCallVideoDistorted">ویدیو واضح نبود</string>
     <string name="RateCallVideoPixelated">ویدیو پیکسل پیکسل شده بود</string>
     <string name="TapToTurnCamera">برای فعال کردن دوربین خود اینجا را بزنید</string>
     <string name="VoipUnmute">صدادار کردن</string>
@@ -3082,6 +3237,11 @@
     <string name="DeclineCall">رد کردن</string>
     <string name="RetryCall">تلاش مجدد</string>
     <string name="VoipVideoUnavailable">ویدیو</string>
+    <string name="CallAlert">آیا از برقراری تماس با **%1$s** اطمینان دارید؟</string>
+    <string name="CallAlertTitle">تماس صوتی</string>
+    <string name="VideoCallAlert">آیا از برقراری تماس ویدیویی با **%1$s** اطمینان دارید؟</string>
+    <string name="VideoCallAlertTitle">تماس ویدیویی</string>
+    <string name="VoipReconnecting">در حال اتصال مجدد</string>
     <!--contacts shortcuts-->
     <string name="ContactShortcutMessage">ارسال پیام به %1$s</string>
     <string name="ContactShortcutVoiceCall">تماس ویدیویی با %1$s</string>
@@ -3183,6 +3343,12 @@
     <string name="NewMessages_few">%1$d پیام جدید</string>
     <string name="NewMessages_many">%1$d پیام جدید</string>
     <string name="NewMessages_other">%1$d پیام جدید</string>
+    <string name="MessagesUnpinned_zero">سنجاق %1$d پیام برداشته شد</string>
+    <string name="MessagesUnpinned_one">سنجاق پیام برداشته شد</string>
+    <string name="MessagesUnpinned_two">سنجاق %1$d پیام برداشته شد</string>
+    <string name="MessagesUnpinned_few">سنجاق %1$d پیام برداشته شد</string>
+    <string name="MessagesUnpinned_many">سنجاق %1$d پیام برداشته شد</string>
+    <string name="MessagesUnpinned_other">سنجاق %1$d پیام برداشته شد</string>
     <string name="messages_zero">%1$d پیام</string>
     <string name="messages_one">%1$d پیام</string>
     <string name="messages_two">%1$d پیام</string>
@@ -3339,6 +3505,18 @@
     <string name="Shares_few">%1$s به اشتراک گذاری</string>
     <string name="Shares_many">%1$s به اشتراک گذاری</string>
     <string name="Shares_other">%1$s به اشتراک گذاری</string>
+    <string name="PublicSharesCount_zero">%1$s به اشتراک گذاری عمومی</string>
+    <string name="PublicSharesCount_one">%1$s به اشتراک گذاری عمومی</string>
+    <string name="PublicSharesCount_two">%1$s به اشتراک گذاری عمومی</string>
+    <string name="PublicSharesCount_few">%1$s به اشتراک گذاری عمومی</string>
+    <string name="PublicSharesCount_many">%1$s به اشتراک گذاری عمومی</string>
+    <string name="PublicSharesCount_other">%1$s به اشتراک گذاری عمومی</string>
+    <string name="Shared_zero">%1$s به اشتراک گذاشته شده</string>
+    <string name="Shared_one">%1$s به اشتراک گذاشته شده</string>
+    <string name="Shared_two">%1$s به اشتراک گذاشته شده</string>
+    <string name="Shared_few">%1$s به اشتراک گذاشته شده</string>
+    <string name="Shared_many">%1$s به اشتراک گذاشته شده</string>
+    <string name="Shared_other">%1$s به اشتراک گذاشته شده</string>
     <string name="StickerSets_zero">%1$s بسته استیکر</string>
     <string name="StickerSets_one">%1$s بسته استیکر</string>
     <string name="StickerSets_two">%1$s بسته استیکر</string>
@@ -3526,6 +3704,42 @@
     <string name="MembersCountSelected_few">%1$d از %2$d انتخاب شده</string>
     <string name="MembersCountSelected_many">%1$d از %2$d انتخاب شده</string>
     <string name="MembersCountSelected_other">%1$d از %2$d انتخاب شده</string>
+    <string name="ViewReplies_zero">مشاهده %1$d پاسخ</string>
+    <string name="ViewReplies_one">مشاهده %1$d پاسخ</string>
+    <string name="ViewReplies_two">مشاهده %1$d پاسخ</string>
+    <string name="ViewReplies_few">مشاهده %1$d پاسخ</string>
+    <string name="ViewReplies_many">مشاهده %1$d پاسخ</string>
+    <string name="ViewReplies_other">مشاهده %1$d پاسخ</string>
+    <string name="Replies_zero">%1$d پاسخ</string>
+    <string name="Replies_one">%1$d پاسخ</string>
+    <string name="Replies_two">%1$d پاسخ</string>
+    <string name="Replies_few">%1$d پاسخ</string>
+    <string name="Replies_many">%1$d پاسخ</string>
+    <string name="Replies_other">%1$d پاسخ</string>
+    <string name="Comments_zero">%1$d دیدگاه</string>
+    <string name="Comments_one">%1$d دیدگاه</string>
+    <string name="Comments_two">%1$d دیدگاه</string>
+    <string name="Comments_few">%1$d دیدگاه</string>
+    <string name="Comments_many">%1$d دیدگاه</string>
+    <string name="Comments_other">%1$d دیدگاه</string>
+    <string name="CommentsCount_zero">%1$d دیدگاه</string>
+    <string name="CommentsCount_one">%1$d دیدگاه</string>
+    <string name="CommentsCount_two">%1$d دیدگاه</string>
+    <string name="CommentsCount_few">%1$d دیدگاه</string>
+    <string name="CommentsCount_many">%1$d دیدگاه</string>
+    <string name="CommentsCount_other">%1$d دیدگاه</string>
+    <string name="CommentsNoNumber_zero">دیدگاه</string>
+    <string name="CommentsNoNumber_one">دیدگاه</string>
+    <string name="CommentsNoNumber_two">دیدگاه</string>
+    <string name="CommentsNoNumber_few">دیدگاه</string>
+    <string name="CommentsNoNumber_many">دیدگاه</string>
+    <string name="CommentsNoNumber_other">دیدگاه</string>
+    <string name="PinnedMessagesCount_zero">%1$d پیام سنجاق شده</string>
+    <string name="PinnedMessagesCount_one">پیام سنجاق شده</string>
+    <string name="PinnedMessagesCount_two">%1$d پیام سنجاق شده</string>
+    <string name="PinnedMessagesCount_few">%1$d پیام سنجاق شده</string>
+    <string name="PinnedMessagesCount_many">%1$d پیام سنجاق شده</string>
+    <string name="PinnedMessagesCount_other">%1$d پیام سنجاق شده</string>
     <!--accessibility descriptions-->
     <string name="AccDescrGroup">گروه</string>
     <string name="AccDescrChannel">کانال</string>
@@ -3599,6 +3813,7 @@
     <string name="AccDescrIVTitle">عنوان</string>
     <string name="AccDescrIVHeading">عنوان</string>
     <string name="AccDescrMyLocation">موقعیت مکانی من</string>
+    <string name="AccDescrLocationNotify">هنگامی که افرادی که موقعیت مکانی خود را به اشتراک گذاشته‌اند در محدوده قرار گرفتند، اطلاع‌رسانی شود</string>
     <string name="AccDescrVideoQuality">کیفیت ویدیو</string>
     <string name="AccDescrAspectRatio">"نسبت تصویر "</string>
     <string name="AccDescrTakeMorePics">یک عکس دیگر نیز بگیرید</string>
@@ -3652,7 +3867,9 @@
     <string name="AccDescrVoipCamSwitchedToBack">به دوربین پشت تغییر داده شد</string>
     <string name="AccDescrVoipCamOn">دوربین فعال است</string>
     <string name="AccDescrVoipCamOff">دوربین غیرفعال است</string>
+    <string name="AccPinnedMessagesList">فهرست پیام‌های سنجاق شده</string>
     <!--date formatters-->
+    <string name="formatterMonthYear">MMMM yyyy</string>
     <string name="formatterStats12H">MMM dd yyyy, h:mm a</string>
     <string name="formatterStats24H">MMM dd yyyy, HH:mm</string>
     <string name="formatterBannedUntil12H">MMM dd yyyy, h:mm a</string>
@@ -3667,6 +3884,7 @@
     <string name="chatDate">MMMM d</string>
     <string name="chatFullDate">MMMM d, yyyy</string>
     <string name="formatterWeek">EEE</string>
+    <string name="formatterWeekLong">EEEE</string>
     <string name="formatterDay24H">HH:mm</string>
     <string name="formatterDay12H">h:mm a</string>
     <string name="formatDateAtTime">%1$s در %2$s</string>
@@ -3678,7 +3896,6 @@
     <string name="RemindTodayAt">\'یادآوری امروز در\' HH:mm</string>
     <string name="RemindDayAt">" \'یادآوری در تاریخ\' MMM d \'در\' HH:mm"</string>
     <string name="RemindDayYearAt">" \'یادآوری در تاریخ\' MMM d yyy \'در\' HH:mm"</string>
-    <string name="VoipReconnecting">در حال اتصال مجدد</string>
 
     <!-- new from translations.telegram.org -->
 
@@ -3711,6 +3928,8 @@
     <string name="DeleteLocalization">فایل زبان حذف شود؟</string>
     <string name="DeleteTheseChats">حذف گفتگوها</string>
     <string name="DiceInfo">"اموجی &#127922; را به هر گفتگویی ارسال کنید تا عددی تصادفی از تلگرام دریافت کنید. "</string>
+    <string name="DiscussionChannelGroupSetHelp">یک لینک به **%1$s** برای همه مشترکین در پایین پنل نشان داده می‌شود.</string>
+    <string name="DiscussionChannelHelp">یک گفتگوی گروهی را برای بحثی که در کانال شما نمایش داده خواهد شد، انتخاب کنید.</string>
     <string name="EmailPasswordConfirmText">برای تکمیل راه‌اندازی تأیید دو مرحله‌ای مراحل زیر را دنبال کنید:\n\n1. ایمیل خود را بررسی کنید (پوشه هرزنامه را فراموش نکنید)\n%1$s\n\n2. بر روی لینک فعال‌سازی کلیک کنید.</string>
     <string name="EmojiBigSize">رسم اموجی تکی بزرگ</string>
     <string name="EnableProxyAlert">آیا از فعال کردن این پروکسی اطمینان دارید؟</string>
@@ -3721,6 +3940,7 @@
     <string name="KMetersAway">کیلومتر دورتر</string>
     <string name="KickFromSupergroup">محدود کردن کاربر</string>
     <string name="LocalDatabaseClear">پیام‌های متنی ذخیره شده پاک شوند؟</string>
+    <string name="LocationNotifiationButton">هنگام قرار گرفتن در محدوده %1$s به من اطلاع بده</string>
     <string name="MembersCount">%1$d از %2$d انتخاب شده</string>
     <string name="MetersAway">متر دورتر</string>
     <string name="MobileUsage">میزان استفاده از داده تلفن همراه</string>
@@ -3780,7 +4000,7 @@
     <string name="SharedLinksTab">لینک‌ها</string>
     <string name="SharedMediaTab">رسانه‌ها</string>
     <string name="SharedMediaTitle">رسانه‌های اشتراکی</string>
-    <string name="SharedMusicTab">صداها</string>
+    <string name="SharedMusicTab">موسیقی‌ها</string>
     <string name="SharedVoiceTab">پیام‌های صوتی</string>
     <string name="ShowNearbyPlaces">جهت مشاهده مکان‌های نزدیک صفحه را به سمت بالا بکشید</string>
     <string name="Shuffle">پخش تصادفی</string>
@@ -3800,7 +4020,6 @@
     <string name="_tg_open_google_play">باز کردن Google Play</string>
     <string name="download_telegram_text">شما جهت ورود به حساب کاربری خود در **%s** به تلگرام احتیاج دارید. آیا تمایل دارید آن را الان نصب کنید؟</string>
     <string name="formatDateScheduleDay">EEE MMM d</string>
-    <string name="formatterMonthYear">MMMM yyyy</string>
     <string name="login_with_telegram">ورود با حساب کاربری تلگرام</string>
     <string name="telegram_passport">پاسپورت تلگرام</string>
 </resources>

@@ -52,6 +52,7 @@
 	<string name="Channels">Каналы</string>
 	<string name="Bots">Боты</string>
 	<string name="Favorites">Любимые</string>
+
 	<string name="AllGroups">Все группы</string>
 	<string name="Unreads">Непрочтённые</string>
 	<string name="Secrets">Секретные</string>
@@ -138,6 +139,8 @@
 
 	<!-- Biftor dismiss only -->
 	<string name="BiftorDismissOnly">Только скрыть</string>
+	<string name="BiftorUnpinMessageAlertTitle">Открепить сообщения</string>
+	<string name="BiftorUnpinMessageAlert">Вы хотите скрыть или открепить все сообщения?</string>
 
 	<!-- Biftor dark blue theme -->
 	<string name="BGramDarkBlue">BGram Dark Blue</string>
@@ -256,9 +259,9 @@
 	<string name="HideQuickBarOnScroll">Скрывать при прокрутке</string>
 	<string name="CenterQuickBarButton">Центрировать кнопку</string>
 	<string name="ShowMembersOnQuickBar">Показывать членов группы</string>
-	<string name="BiftorQuickBarClickAction">Тап по аватару в панели</string>
-	<string name="BiftorQuickBarLongClickAction">Долгий тап по аватару в панели</string>
-	<string name="BiftorQuickBarLongClickActionOnMembersList">Долгий тап в панели (в группе)</string>
+	<string name="BiftorQuickBarClickAction">Нажатие на аватар в панели</string>
+	<string name="BiftorQuickBarLongClickAction">Удержание аватара в панели</string>
+	<string name="BiftorQuickBarLongClickActionOnMembersList">Удержание в панели (в группе)</string>
 
 	<!--Biftor confirm to voice and video msg-->
 	<string name="BiftorConfirmToSendVoice">Аудиосообщения</string>
@@ -300,7 +303,7 @@
 	<string name="BiftorNo">Нет</string>
 
 	<!--Biftor forward confirm panel -->
-	<string name="BiftorShowForwardConfirm">Просмотр списка получателей</string>
+	<string name="BiftorShowForwardConfirm">Список получателей при отправке</string>
 	<string name="BiftorShowForwardConfirmsSub">Дополнительная панель подтверждения при мультипересылке.</string>
 	<string name="BiftorGoBack">Назад</string>
 
@@ -366,7 +369,7 @@
 	<string name="BiftorFontsReset">Сброс к значению по умолчанию</string>
 	<string name="BiftorFontRestarter">Перезапустить приложение</string>
 	<string name="BiftorYouNeedToRestartApp">Перезапустите приложение для применения шрифта</string>
-	<string name="BiftorLongClickOnEachOneToReset">Долгий тап восстановит начальное значение.</string>
+	<string name="BiftorLongClickOnEachOneToReset">Удерживайте для сброса к начальному значению.</string>
 	<string name="BiftorEmojiSize">Размер смайлов</string>
 	<string name="BiftorEmojiPreview">Размер %1$s эмодзи</string>
 	<string name="BiftorVerticalAlignmentBottom">Выровнять по горизонтали</string>
@@ -385,7 +388,7 @@
 
 	<string name="BiftorRestartMsg">Перезапустите приложение</string>
 
-	<string name="BiftorLongClickSetDefault">Долгий тап восстановит начальное значение.</string>
+	<string name="BiftorLongClickSetDefault">Удержание восстановит начальное значение.</string>
 	<string name="BiftorRestoredToDef">Восстановлены настройки по умолчанию.</string>
 
 	<!-- Biftor Tablet Mode -->
@@ -420,8 +423,8 @@
 	<string name="BiftorGroupDeleteAllMyMsgs">Удалить все мои сообщения</string>
 	<string name="BiftorAreYouSureDeletedAllMsg">Внимание! \nВы собираетесь удалить все свои сообщения из **%1$s**! \nПродолжить?</string>
 
-	<string name="BiftorCreator">Создатель:&#160;</string>
-	<string name="BiftorId">ID&#160;</string>
+	<string name="BiftorCreator">Создатель: </string>
+	<string name="BiftorId">ID </string>
 
 	<!-- Biftor auto download next media -->
 	<string name="BiftorEnableAutoDownloadNextMedia">Предзагрузка соседних медиа</string>
@@ -487,21 +490,21 @@
 	<string name="BiftorSendingPhotoQuality">Качество отправляемых фото</string>
 
 	<!-- Biftor Dialogs avatar click action -->
-	<string name="BiftorDialogsAvatarDefClickAction">Тап по фото</string>
-	<string name="BiftorDialogsAvatarDefLongClickAction">Долгий тап по фото</string>
+	<string name="BiftorDialogsAvatarDefClickAction">Нажатие на фото</string>
+	<string name="BiftorDialogsAvatarDefLongClickAction">Удержание фото</string>
 	<string name="BiftorOpenAvatar">Открыть фото</string>
 
 	<!-- Biftor paint and mention button -->
 	<string name="BiftorShowPaintBtn">Кнопка «рисовать» в чате</string>
 	<string name="BiftorChatBotButton">Функция кнопки ботов</string>
-	<string name="BiftorChatBotShow">Команды бота (по умолчанию)</string>
-	<string name="BiftorReplaceBotWithMentionBtn">Заменить кнопкой упоминания</string>
+	<string name="BiftorChatBotShow">Команды бота ( / )</string>
+	<string name="BiftorReplaceBotWithMentionBtn">Заменить кнопкой упоминания (@)</string>
 	<string name="BiftorChatBotHide">Не показывать</string>
 
 	<!-- Biftor Clear Cache other files -->
 	<string name="BiftorClearCacheOtherFiles"><![CDATA[Удалить временные файлы]]></string>
-	<string name="BiftorClearCacheOtherFilesInfo">✱​ Периодически удаляйте из кеша временные файлы. Это мелкие служебные файлы. Накапливаясь, они замедляют загрузку чатов.</string>
-	<string name="BiftorKeepMediaInfo">В Telegram все чаты и отправленные медиа находятся на облачном сервере. При просмотре медиа в чате они загружаются с сервера на ваше устройство (кеширование) и хранятся в папке Telegram для быстрого доступа. Для экономии места можно задать срок, после которого **из кеша** удалятся медиа, которые вы не смотрите. Все вложения останутся в переписке и снова скачаются при просмотре.</string>
+	<string name="BiftorClearCacheOtherFilesInfo">✱​ Периодически избавляйтесь от временных файлов. Это мелкие служебные файлы, которые могут накапливаться и замедлять загрузку чатов.</string>
+	<string name="BiftorKeepMediaInfo">Telegram – облачный сервис. Ваши чаты и отправленные медиа находятся на облачном сервере и загружаются к вам на устройство, когда вы их смотрите (кешируются), где хранятся во временной папке для быстрого доступа (**в кеше**). Для экономии места задайте срок удаления **из кеша** медиа, которые вы не смотрите. Все вложения останутся в переписке и при просмотре скачаются снова.</string>
 
 	<!-- Biftor Select storage -->
 	<string name="BiftorSelectStorage">Устройство хранения</string>
@@ -564,7 +567,7 @@
 	<string name="BiftorMultiSelectAddToTheGroupTitle">Добавить контакты (%1$s) в %2$s?</string>
 
 	<!--Biftor open avatar photo everywhere-->
-	<string name="BiftorOpenAvatarPhoto">Просмотр фото по тапу</string>
+	<string name="BiftorOpenAvatarPhoto">Просмотр фото по нажатию</string>
 	<string name="BiftorOpenAvatarPhotoSub">Открывать фото при нажатии на аватар в списке контактов или членов группы.</string>
 
 	<!--Biftor open video or GIF with external player-->
@@ -622,7 +625,8 @@
 
 	<!--Biftor login with bot-->
 	<string name="BiftorLoginWithBotToKen">Вход по токену бота</string>
-	<string name="BiftorBotToken">Введите токен, выданный @BotFather</string>
+	<string name="BiftorBotToken">Введите ваш токен бота.</string>
+	<string name="BiftorLoginWithBotInfo">Создайте нового бота с @BotFather и введите здесь его токен. \nБоты — это не обычные аккаунты, у них есть ограничения. Например: \n- Они не имеют доступа к вашим контактам. \n- Они не могут вступать в группы или каналы (но их может добавить администратор). \n- Могут общаться только с пользователями, которые им напишут. \n- Не видят, когда пользователь читает сообщение. \n- Не могут заблокировать пользователя. \n- При первом входе видят пустой список чатов, который наполняется по мере получения сообщений от пользователей и в группах. Обнаружение групп может быть особенно медленным.</string>
 
 	<!--Biftor Tor -->
 	<string name="BiftorTorStarting">Запуск TOR&#8230;</string>
@@ -748,71 +752,73 @@
 	<string name="BiftorTranslateEnterText">Введите текст</string>
 	<string name="BiftorTranslateEnterTextEmpty">Введите текст для перевода</string>
 	<string name="BiftorTranslateAUTO_DETECT">АВТО</string>
-	<string name="BiftorTranslateAFRIKAANS">Африкаанс</string>
-	<string name="BiftorTranslateALBANIAN">Албанский</string>
-	<string name="BiftorTranslateARABIC">Арабский </string>
-	<string name="BiftorTranslateARMENIAN">Армянский</string>
-	<string name="BiftorTranslateAZERBAIJANI">Азербайджанский </string>
-	<string name="BiftorTranslateBASQUE">Баскский</string>
-	<string name="BiftorTranslateBELARUSIAN">Белорусский</string>
-	<string name="BiftorTranslateBENGALI">Бенгальский</string>
-	<string name="BiftorTranslateBULGARIAN">Болгарский</string>
-	<string name="BiftorTranslateCATALAN">Каталонский</string>
-	<string name="BiftorTranslateCHINESE">Китайский</string>
-	<string name="BiftorTranslateCROATIAN">Хорватский</string>
-	<string name="BiftorTranslateCZECH">Чешский</string>
-	<string name="BiftorTranslateDANISH">Датский</string>
-	<string name="BiftorTranslateDUTCH">Голландский</string>
-	<string name="BiftorTranslateENGLISH">Английский</string>
-	<string name="BiftorTranslateESTONIAN">Эстонский</string>
-	<string name="BiftorTranslateFILIPINO">Филиппинский</string>
-	<string name="BiftorTranslateFINNISH">Финский</string>
-	<string name="BiftorTranslateFRENCH">Французский</string>
-	<string name="BiftorTranslateGALICIAN">Галицкая</string>
-	<string name="BiftorTranslateGEORGIAN">Грузинский</string>
-	<string name="BiftorTranslateGERMAN">Немецкий</string>
-	<string name="BiftorTranslateGREEK">Греческий</string>
-	<string name="BiftorTranslateGUJARATI">Гуджарати</string>
-	<string name="BiftorTranslateHAITIAN_CREOLE">Гаитянский креольский </string>
-	<string name="BiftorTranslateHEBREW">Еврей</string>
-	<string name="BiftorTranslateHINDI">Хинди</string>
-	<string name="BiftorTranslateHUNGARIAN">Венгерский</string>
-	<string name="BiftorTranslateICELANDIC">Исландский</string>
-	<string name="BiftorTranslateINDONESIAN">Индонезийский</string>
-	<string name="BiftorTranslateIRISH">Ирландский</string>
-	<string name="BiftorTranslateITALIAN">Итальянский</string>
-	<string name="BiftorTranslateJAPANESE">Японский</string>
-	<string name="BiftorTranslateKANNADA">Каннада</string>
-	<string name="BiftorTranslateKOREAN">Корейский</string>
-	<string name="BiftorTranslateLATIN">Латинский</string>
-	<string name="BiftorTranslateLATVIAN">Латвийский</string>
-	<string name="BiftorTranslateLITHUANIAN">Литовский</string>
-	<string name="BiftorTranslateMACEDONIAN">Македонский</string>
-	<string name="BiftorTranslateMALAY">Малайский</string>
-	<string name="BiftorTranslateMALTESE">Мальтийский</string>
-	<string name="BiftorTranslateNORWEGIAN">Норвежский </string>
-	<string name="BiftorTranslatePERSIAN">Персидский</string>
-	<string name="BiftorTranslatePOLISH">Польский</string>
-	<string name="BiftorTranslatePORTUGUESE">Португальский</string>
-	<string name="BiftorTranslateROMANIAN">Румынский</string>
-	<string name="BiftorTranslateRUSSIAN">Русский</string>
-	<string name="BiftorTranslateSERBIAN">Сербский</string>
-	<string name="BiftorTranslateSLOVAK">Словацкий</string>
-	<string name="BiftorTranslateSLOVENIAN">Словенский</string>
-	<string name="BiftorTranslateSPANISH">Испанский</string>
-	<string name="BiftorTranslateSWAHILI">Суахили</string>
-	<string name="BiftorTranslateSWEDISH">Шведский</string>
-	<string name="BiftorTranslateTAMIL">Тамильский</string>
-	<string name="BiftorTranslateTELUGU">Телугу</string>
-	<string name="BiftorTranslateTHAI">Тайский</string>
-	<string name="BiftorTranslateTURKISH">Турецкий</string>
-	<string name="BiftorTranslateUKRAINIAN">Украинский</string>
-	<string name="BiftorTranslateURDU">Урду</string>
-	<string name="BiftorTranslateVIETNAMESE">Вьетнамский</string>
-	<string name="BiftorTranslateWELSH">Валлийский</string>
-	<string name="BiftorTranslateYIDDISH">Идиш</string>
-	<string name="BiftorTranslateCHINESE_SIMPLIFIED">Китайский упрощенный  </string>
-	<string name="BiftorTranslateCHINESE_TRADITIONAL">Китайский традиционный</string>
+	<string name="BiftorTranslateAFRIKAANS">AFRIKAANS</string>
+	<string name="BiftorTranslateALBANIAN">ALBANIAN</string>
+	<string name="BiftorTranslateARABIC">ARABIC</string>
+	<string name="BiftorTranslateARMENIAN">ARMENIAN</string>
+	<string name="BiftorTranslateAZERBAIJANI">AZERBAIJANI</string>
+	<string name="BiftorTranslateBASQUE">BASQUE</string>
+	<string name="BiftorTranslateBELARUSIAN">BELARUSIAN</string>
+	<string name="BiftorTranslateBENGALI">BENGALI</string>
+	<string name="BiftorTranslateBULGARIAN">BULGARIAN</string>
+	<string name="BiftorTranslateCATALAN">CATALAN</string>
+	<string name="BiftorTranslateCHINESE">CHINESE</string>
+	<string name="BiftorTranslateCROATIAN">CROATIAN</string>
+	<string name="BiftorTranslateCZECH">CZECH</string>
+	<string name="BiftorTranslateDANISH">DANISH</string>
+	<string name="BiftorTranslateDUTCH">DUTCH</string>
+	<string name="BiftorTranslateENGLISH">ENGLISH</string>
+	<string name="BiftorTranslateESTONIAN">ESTONIAN</string>
+	<string name="BiftorTranslateFILIPINO">FILIPINO</string>
+	<string name="BiftorTranslateFINNISH">FINNISH</string>
+	<string name="BiftorTranslateFRENCH">FRENCH</string>
+	<string name="BiftorTranslateGALICIAN">GALICIAN</string>
+	<string name="BiftorTranslateGEORGIAN">GEORGIAN</string>
+	<string name="BiftorTranslateGERMAN">GERMAN</string>
+	<string name="BiftorTranslateGREEK">GREEK</string>
+	<string name="BiftorTranslateGUJARATI">GUJARATI</string>
+	<string name="BiftorTranslateHAITIAN_CREOLE">HAITIAN CREOLE</string>
+	<string name="BiftorTranslateHEBREW">HEBREW</string>
+	<string name="BiftorTranslateHINDI">HINDI</string>
+	<string name="BiftorTranslateHUNGARIAN">HUNGARIAN</string>
+	<string name="BiftorTranslateICELANDIC">ICELANDIC</string>
+	<string name="BiftorTranslateINDONESIAN">INDONESIAN</string>
+	<string name="BiftorTranslateIRISH">IRISH</string>
+	<string name="BiftorTranslateITALIAN">ITALIAN</string>
+	<string name="BiftorTranslateJAPANESE">JAPANESE</string>
+	<string name="BiftorTranslateKANNADA">KANNADA</string>
+	<string name="BiftorTranslateKAZAKH">KAZAKH</string>
+	<string name="BiftorTranslateKOREAN">KOREAN</string>
+	<string name="BiftorTranslateLATIN">LATIN</string>
+	<string name="BiftorTranslateLATVIAN">LATVIAN</string>
+	<string name="BiftorTranslateLITHUANIAN">LITHUANIAN</string>
+	<string name="BiftorTranslateMACEDONIAN">MACEDONIAN</string>
+	<string name="BiftorTranslateMALAY">MALAY</string>
+	<string name="BiftorTranslateMALTESE">MALTESE</string>
+	<string name="BiftorTranslateNORWEGIAN">NORWEGIAN</string>
+	<string name="BiftorTranslatePERSIAN">PERSIAN</string>
+	<string name="BiftorTranslatePOLISH">POLISH</string>
+	<string name="BiftorTranslatePORTUGUESE">PORTUGUESE</string>
+	<string name="BiftorTranslateROMANIAN">ROMANIAN</string>
+	<string name="BiftorTranslateRUSSIAN">RUSSIAN</string>
+	<string name="BiftorTranslateSERBIAN">SERBIAN</string>
+	<string name="BiftorTranslateSLOVAK">SLOVAK</string>
+	<string name="BiftorTranslateSLOVENIAN">SLOVENIAN</string>
+	<string name="BiftorTranslateSPANISH">SPANISH</string>
+	<string name="BiftorTranslateSWAHILI">SWAHILI</string>
+	<string name="BiftorTranslateSWEDISH">SWEDISH</string>
+	<string name="BiftorTranslateTAMIL">TAMIL</string>
+	<string name="BiftorTranslateTELUGU">TELUGU</string>
+	<string name="BiftorTranslateTHAI">THAI</string>
+	<string name="BiftorTranslateTURKISH">TURKISH</string>
+	<string name="BiftorTranslateUKRAINIAN">UKRAINIAN</string>
+	<string name="BiftorTranslateURDU">URDU</string>
+	<string name="BiftorTranslateUZBEK">UZBEK</string>
+	<string name="BiftorTranslateVIETNAMESE">VIETNAMESE</string>
+	<string name="BiftorTranslateWELSH">WELSH</string>
+	<string name="BiftorTranslateYIDDISH">YIDDISH</string>
+	<string name="BiftorTranslateCHINESE_SIMPLIFIED">CHINESE SIMPLIFIED</string>
+	<string name="BiftorTranslateCHINESE_TRADITIONAL">CHINESE TRADITIONAL</string>
 
 	<!--Biftor delete from recent search-->
 	<string name="BiftorDeletRecentSearchItem">Удалить **%1$s** из истории поиска?</string>
@@ -828,9 +834,9 @@
 	<string name="BiftorHideFolderAreYouSure">Хотите скрыть папку?</string>
 	<string name="BiftorShowFolderAreYouSure">Точно показать?</string>
 	<!--Biftor internal updater-->
-	<string name="BiftorSkipUpdate">Отклонить</string>
+	<string name="BiftorSkipUpdate">Пропустить</string>
 	<string name="BiftorRemindTomorrow">Завтранах!</string>
-	<string name="BiftorUpdateIsAvailable">Нажмите ОК для обновления</string>
+	<string name="BiftorUpdateIsAvailable">Нажмите ОК для обновления</string>
 	<string name="BiftorCheckForUpdate">Проверить обновления</string>
 	<string name="BiftorDownloadLatestVersion">Скачать обновление</string>
 
@@ -859,6 +865,7 @@
 	<string name="BiftorProxyInfoSS">Shadowsocks Proxy Settings</string>
 	<string name="BiftorProxyInfoVmess">Vmess Proxy Settings</string>
 	<string name="BiftorShadowProxySponsor">Спонсор</string>
+
 	<string name="BiftorShadowSocksHelp">Помощь</string>
 	<string name="BiftorImportProxy">Import from url</string>
 	<string name="BiftorConnection">Соединение: %1$d мс</string>
@@ -881,4 +888,19 @@
 	<string name="BiftorSSRProtocolParams">Protocol Params</string>
 	<string name="BiftorSSRObfs">Obfs</string>
 	<string name="BiftorSSRObfsParam">Obfs Param</string>
+	<string name="BiftorShadowSocksModule">Shadow socks</string>
+	<string name="BiftorStartShadowAsService">Start shadow as service</string>
+	<string name="BiftorStartShadowAsServiceSub">Run shadow socks as background service</string>
+	<string name="BiftorShadowSockServiceConnecting">Shadow Socks service is connecting</string>
+	<string name="BiftorShadowSockServiceConnected">Shadow Socks service is running: %s</string>
+	<string name="BiftorShadowSockServiceStop">Stop</string>
+	<string name="BiftorShadowSocksConfig">Shadow socks config</string>
+	<string name="BiftorStopShadowSocksWhenAppClosed">Stop Shadow socks when app closed</string>
+	<string name="BiftorStopShadowSocksWhenAppClosedSub">Stop the Shadow socks when App Closed, if you disable it, when the Shadow socks is enable the whole app will not close.</string>
+
+	<!--Biftor ads-->
+	<string name="BiftorAdsTypeAdMob">AdMob</string>
+	<string name="BiftorAdsTypeCustom">Ads</string>
+	<string name="BiftorAdsTitle">BGram ads</string>
+	<string name="BiftorAdsSubTitle">Поддержите BGram просмотром рекламы</string>
 </resources>

@@ -201,7 +201,7 @@
    <string name="PinToTopLimitReached2">В основному списку можна прикріпити до %1$s. У папках та архіві ця кількість не обмежена.</string>
    <string name="PinFolderLimitReached">На жаль, не можна прикріпити більше чатів.</string>
    <string name="UnpinFromTop">Відкріпити</string>
-   <string name="MarkAsUnread">Позначити як непрочитаний</string>
+   <string name="MarkAsUnread">Позначити непрочитаним</string>
    <string name="MarkAsRead">Прочитано</string>
    <string name="MarkAllAsRead">Позначити всі прочитаними</string>
    <string name="HideAboveTheList">Приховати над списком</string>
@@ -1273,7 +1273,7 @@
    <string name="RevokeLink">Відкликати посилання</string>
    <string name="RevokeLinkAlert">Ви дійсно хочете відкликати посилання **%1$s**?\n\nГрупа \"**%2$s**\" стане приватною.</string>
    <string name="RevokeLinkAlertChannel">Ви дійсно хочете відкликати посилання **%1$s**?\n\nКанал \"**%2$s**\" стане приватним.</string>
-   <string name="CopyLink">Копіювати посилання</string>
+   <string name="CopyLink">Скопіювати посилання</string>
    <string name="ShareLink">Поділитися посиланням</string>
    <string name="LinkInfo">За цим посиланням будь-який користувач Telegram може приєднатися до вашої групи.</string>
    <string name="SearchForPeople">Пошук людей...</string>
@@ -1569,7 +1569,7 @@
    <string name="ResetNotificationsAlertTitle">Скинути всі сповіщення</string>
    <string name="ResetNotificationsAlert">Ви дійсно хочете скинути всі налаштування сповіщень на типові?</string>
    <string name="TextSizeHeader">Розмір тексту повідомлень</string>
-   <string name="AskAQuestion">Поставити запитання</string>
+   <string name="AskAQuestion">Корисна інформація та допомога</string>
    <string name="AddAnExplanation">Додати пояснення</string>
    <string name="AddAnExplanationInfo">Текст, який побачить учасник, якщо вибере неправильну відповідь (корисний для освітніх вікторин).</string>
    <string name="EnableAnimations">Анімація інтерфейсу</string>
@@ -1697,7 +1697,7 @@
    <string name="LanguageUnsupportedError">Перекладу такою мовою немає.</string>
    <string name="LanguageSame">Ви вже користуєтеся цим перекладом (**%1$s**). Ви можете змінити мову будь-коли в Налаштуваннях.</string>
    <string name="LanguageUnknownCustomAlert">На жаль, цей сторонній переклад (**%1$s**) не містить даних для Telegram на Android.</string>
-   <string name="AskAQuestionInfo">Підтримка Telegram здійснюється добровольцями. Ми намагаємося відповідати якомога швидше, але іноді доведеться трохи зачекати.\n\nОзнайомтеся з <![CDATA[<a href=\"https://telegram.org/faq#general-questions\">ЧаПи Telegram</a>]]>: там є важливі поради щодо усунення <![CDATA[<a href=\"https://telegram.org/faq#troubleshooting\">несправностей</a>]]> та відповіді на поширені запитання.</string>
+   <string name="AskAQuestionInfo"><![CDATA[<a href=\"https://telegram.me/tglive/458\">Теми для Telegram</a>]]>\n<![CDATA[<a href=\"https://t.me/Telegraph\">Бот сервісу Telegram</a>]]>\n<![CDATA[<a href=\"https://t.me/SpamBot\">Перевірка на спам-бан</a>]]>\n\nЗворотній зв\'язок і допомога щодо <![CDATA[<a href=\"https://t.me/AlterTG\">неофіційних клієнтів Telegram</a>]]> — група <![CDATA[<a href=\"https://t.me/AltTG\">@AltTG</a>]]>.\nЩодо перекладу — <![CDATA[<a href=\"https://t.me/OkS369\">@OkS369</a>]]>.\n\nПідтримка Telegram здійснюється добровольцями. Ми намагаємося відповідати якомога швидше, але іноді доведеться трохи зачекати.\n\nОзнайомтеся з <![CDATA[<a href=\"https://telegram.org/faq#general-questions\">ЧаПи Telegram</a>]]>: там є важливі поради щодо усунення <![CDATA[<a href=\"https://telegram.org/faq#troubleshooting\">несправностей</a>]]> та відповіді на поширені запитання.</string>
    <string name="AskButton">Запитати</string>
    <string name="TelegramFAQ">ЧаПи Telegram</string>
    <string name="TelegramFaq">ЧаПи Telegram</string>

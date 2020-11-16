@@ -12,8 +12,8 @@
     <!-- Ghost mode-->
     <string name="BiftorGhostMod">Приховане читання</string>
     <string name="BiftorGhostModSub">Користувач не знатиме, що ви прочитали повідомлення, доки ви не відповісте йому</string>
-    <string name="BiftorGhostModHeaderLongClick">Перемикати тривалим натисканням на заголовок</string>
-    <string name="BiftorGhostModHeaderLongClickSub">Швидке перемикання Прихованого Читання натисканням та утриманням на загаловку у списку чатів</string>
+    <string name="BiftorGhostModHeaderLongClick">Перемикати затисканням на заголовоку</string>
+    <string name="BiftorGhostModHeaderLongClickSub">Швидке перемикання Прихованого Читання затисканням на загаловку у списку чатів</string>
 
     <!-- Ghost mode hide status-->
     <string name="BiftorGhostModHideStatus">Приховати «online» статус</string>
@@ -31,7 +31,7 @@
     <string name="BiftorVerticalTabsStyle">Стиль вертикальної панелі</string>
     <string name="BiftorVerticalRightSideBarRound">Кнопки</string>
     <string name="BiftorVerticalRightSideBarOnlyIcon">Показувати лише іконки</string>
-    <string name="BiftorVerticalRightSideBarIconAndText">Показувати іконки та текст</string>
+    <string name="BiftorVerticalRightSideBarIconAndText">Показувати іконки й текст</string>
     <string name="BiftorVerticalRightSideBar">Праворуч</string>
     <string name="BiftorRightSideAlwaysOpen">Не приховувати</string>
     <string name="BiftorRightSideHideWhenScroll">Приховувати кнопки при прокручуванні</string>
@@ -45,7 +45,7 @@
     <string name="BiftorShowTabsAtBottom">Знизу</string>
     <string name="BiftorShowNewChatButton">Показувати рухому кнопку</string>
     <string name="HideTabs">Приховати панель вкладок</string>
-    <string name="All">Всі</string>
+    <string name="All">Усі</string>
     <string name="Users">Бесіди</string>
     <string name="Groups">Групи</string>
     <string name="SuperGroups">Супергрупи</string>
@@ -63,7 +63,7 @@
     <string name="OwnChannels">Мої канали</string>
     <string name="OwnGroups">Мої групи</string>
     <string name="OwnSGroups">Мої супергрупи</string>
-    <string name="UnmuteUnreads">Непрочитані із сповіщеннями</string>
+    <string name="UnmuteUnreads">Непрочитані зі сповіщеннями</string>
     <string name="Sort">Порядок</string>
 
     <string name="TabsHeight">Висота панелі вкладок</string>
@@ -75,7 +75,7 @@
     <string name="SortByUnreadCount">Сортувати за непрочитаними</string>
     <string name="ShowSuperGroupsTab">Показати вкладку супергрупи</string>
     <string name="HideSuperGroupsTab">Приховати вкладку супергрупи</string>
-    <string name="Tabs">Вкладки</string>
+    <string name="Tabs">Укладки</string>
     <string name="HideShowTabs">Вибрати вкладки</string>
     <string name="DisableTabsAnimation">Не приховувати при прокручуванні</string>
     <string name="InfiniteSwipe">Безкінечне прокручування</string>
@@ -92,14 +92,14 @@
     <string name="BiftorNumberOfVisibleTabs">Кількість видимих укладок на екрані</string>
     <string name="BiftorTabsGravityCenter">Притягування до центру</string>
     <string name="BiftorTabsCenterEachTabs">Ширина вкладок</string>
-    <string name="BiftorTabsFitToScreen">Вписати вкладки в ширину екрана</string>
+    <string name="BiftorTabsFitToScreen">Уписати вкладки в ширину екрана</string>
     <string name="BiftorTabsFitToScreenSub">Це вимкне притягування до центру</string>
     <string name="BiftorDisableChangeTabSwipe">Не змінювати вкладки ковзанням</string>
     <string name="BiftorJumpToFirstPosition">Перейти до першого елементу</string>
 
     <string name="BiftorKeepSelection">Залишати виділення</string>
     <string name="BiftorKeepSelectionAfterForward">Зберігати виділення</string>
-    <string name="BiftorKeepSelectionAfterForwardSub">Зберігати виділення після пересилання (для подальших дій із виділеними).</string>
+    <string name="BiftorKeepSelectionAfterForwardSub">Зберігати виділення після пересилання (для подальших дій з виділеними).</string>
 
     <string name="OnlineContacts">Контакти онлайн</string>
 
@@ -139,8 +139,8 @@
 
     <!-- Biftor dismiss only -->
     <string name="BiftorDismissOnly">Тільки приховати</string>
-    <string name="BiftorUnpinMessageAlertTitle">Unpin messages</string>
-    <string name="BiftorUnpinMessageAlert">Do you want to dismiss or unpin all messages?</string>
+    <string name="BiftorUnpinMessageAlertTitle">Відкріпити всі</string>
+    <string name="BiftorUnpinMessageAlert">Скасувати або відкріпити всі повідомлення?</string>
 
     <!-- Biftor dark blue theme -->
     <string name="BGramDarkBlue">BGram DarkBlue</string>
@@ -175,7 +175,7 @@
     <string name="BiftorOpenOrChat">Перейти до чату</string>
 
     <!-- Biftor user photo as bg of DrawerProfileCell-->
-    <string name="BiftorUserPhotoAsProfileCellBG">Ваша світлина, як тло бічного меню</string>
+    <string name="BiftorUserPhotoAsProfileCellBG">Світлина як тло бічного меню</string>
 
     <!--Biftor media activity context menu -->
     <string name="BiftorContextMenuGoToMessage">Показати в чаті</string>
@@ -186,15 +186,15 @@
     <string name="BiftorDeleteMediaAreYouSure">Справді видалити лише медіафайли?</string>
 
     <!--Biftor ChatPreView -->
-    <string name="BiftorChatPreViewCat">Попередній перегляд чату</string>
-    <string name="BiftorHideChatPreViewClearButton">Приховати кнопку «Очистити історію»</string>
+    <string name="BiftorChatPreViewCat">Доперегляд чату</string>
+    <string name="BiftorHideChatPreViewClearButton">Без кнопки «Очистити історію»</string>
     <string name="BiftorHideChatPreViewClearButtonSub">Приховати кнопку «Очистити історію» для збережених повідомлень, власних груп та власних каналів</string>
     <string name="BiftorHideChatPreViewDeleteButton">Приховати кнопку «Видалити чат»</string>
     <string name="BiftorHideChatPreViewDeleteButtonSub">Приховати кнопку «Видалити чат» для збережених повідомлень, власних груп та власних каналів</string>
 
     <!--Biftor port create link in message edit text-->
     <string name="Strikethrough">Закреслений</string>
-    <string name="BiftorPaste">Вставити</string>
+    <string name="BiftorPaste">Вкласти</string>
     <string name="BiftorSelectAll">Виділити все</string>
     <string name="BiftorQuotation">Цитата</string>
     <string name="BiftorReply">Копія</string>
@@ -217,15 +217,15 @@
     <string name="BGramOfficialChannel">Офіційний канал BGram</string>
     <string name="BGramOfficialChannelSub">Новини BGram</string>
     <string name="BGramOfficialGroupPublic">Офіційна (публічна) група BGram</string>
-    <string name="BGramOfficialGroupPublicSub">Всі повідомлення про недоліки, проблеми та ідеї вітаються.</string>
+    <string name="BGramOfficialGroupPublicSub">Приймаємо всі повідомлення про недоліки, проблеми та ідеї.</string>
     <string name="BGramOfficialGroupNormal">Офіційна (приватна) група BGram</string>
-    <string name="BGramOfficialGroupNormalSub">Якщо офіційна публічна група не доступна у вашій країні, то ви можете скористатись цією. Зауважте, що вона призначена для іранських користувачів</string>
-    <string name="BGramRateApp">Оцініть програму</string>
-    <string name="BGramRateAppSub">Якщо вам подобається додаток, ми будемо вдячні за вашу високу оцінку в Google Play. У разі будь-яких проблем, перед тим, як ставити низький бал, не соромтеся задавати питання в офіційній групі!</string>
+    <string name="BGramOfficialGroupNormalSub">Якщо офіційна публічна група не доступна у вашій країні, то ви можете скористатися цією. Зауважте, що вона призначена для іранських користувачів</string>
+    <string name="BGramRateApp">Оцініть додаток</string>
+    <string name="BGramRateAppSub">Якщо вам подобається додаток, ми будемо вдячні за вашу високу оцінку в Google Play. У разі будь-яких проблем, перед тим, як ставити низьку оцінку, будь ласка, поставте питання в офіційній групі!</string>
     <string name="BiftorAppCredits">Подяки</string>
-    <string name="BiftorAppCreditsSub">Подяки тим, хто допомагав створювати і покращувати цей додаток</string>
-    <string name="BiftorAppHints">Поради та підказки</string>
-    <string name="BiftorAppHintsSub">Посібник із відео та списком дій щодо натискання різних елементів інтерфейсу.</string>
+    <string name="BiftorAppCreditsSub">Подяки тим, хто допомагав створювати й покращувати цей додаток</string>
+    <string name="BiftorAppHints">Поради й підказки</string>
+    <string name="BiftorAppHintsSub">Посібник з відео та списком дій щодо натискання різних елементів інтерфейсу.</string>
     <string name="BiftorDonate">Віддячити розробнику</string>
     <string name="BiftorDonateSub">Потішити автора нагородою</string>
     <string name="BiftorDonateMoreDetail">Ви можете передати невелику винагороду для розробника, щоб підтримувати робочий настрій.</string>
@@ -260,8 +260,8 @@
     <string name="CenterQuickBarButton">Розмістити по центру</string>
     <string name="ShowMembersOnQuickBar">Показувати учасників у групах</string>
     <string name="BiftorQuickBarClickAction">Дія при одинарному натисканні</string>
-    <string name="BiftorQuickBarLongClickAction">Дія при тривалому натисканні</string>
-    <string name="BiftorQuickBarLongClickActionOnMembersList">Дія при тривалому натисканні (для груп)</string>
+    <string name="BiftorQuickBarLongClickAction">Дія при затисканні</string>
+    <string name="BiftorQuickBarLongClickActionOnMembersList">Дія при затисканні (для груп)</string>
 
     <!--Biftor confirm to voice and video msg-->
     <string name="BiftorConfirmToSendVoice">Голосові повідомлення</string>
@@ -272,7 +272,7 @@
 
     <!--Biftor drawer show phone type-->
     <string name="BiftorDrawerShowNameType">Рядок імені</string>
-    <string name="BiftorDrawerShowPhoneType">Рядок номеру телефону</string>
+    <string name="BiftorDrawerShowPhoneType">Рядок номера телефону</string>
     <string name="BiftorName">Ім\'я</string>
     <string name="BiftorPhone">Телефон</string>
     <string name="BiftorUserName">Псевдонім користувача (якщо є)</string>
@@ -312,20 +312,20 @@
     <string name="BiftorNightModeManual">Ручний</string>
     <string name="BiftorDefaultDayTheme">Денна тема, усталена</string>
     <string name="BiftorDefaultNightTheme">Нічна тема, усталена</string>
-    <string name="BiftorDefaultThemeDetail">Стандартні теми перемикача бічної панелі</string>
+    <string name="BiftorDefaultThemeDetail">Усталені теми перемикача бічної панелі</string>
 
     <!-- Biftor hidden chats -->
     <string name="BiftorHiddenChats">Приховані чати</string>
     <string name="BiftorAddToHiddenChat">Додати чат до прихованих</string>
-    <string name="BiftorDeleteHiddenChats">Видалити з прихованих чатів</string>
+    <string name="BiftorDeleteHiddenChats">Вилучити з прихованих чатів</string>
     <string name="BiftorHiddenChatsPass">Захист кодом доступу</string>
     <string name="BiftorSetPassCodeForHiddenChats">Задати пароль</string>
     <string name="BiftorRemoveHiddenChatsFromSearch">Не показувати при пошуку</string>
-    <string name="BiftorChangePasscodeInfo">Коли ви встановлюєте додатковий пароль для прихованих чатів, щоразу, коли ви хочете отримати доступ до прихованих властивостей чатів, він запитає ваш пароль. Також він є загальним для всіх ваших облікових записів.\n\nПримітка. Якщо ви забули пароль, ви не зможете відкривати приховані чати, вам доведеться видалити та перевстановити додаток. Всі секретні чати будуть втрачені при цьому.</string>
+    <string name="BiftorChangePasscodeInfo">Коли ви встановлюєте додатковий пароль для прихованих чатів, щоразу, коли ви хочете отримати доступ до прихованих властивостей чатів, то отримаєте запит вашого паролю. Він є загальним для всіх ваших облікових записів.\n\nПримітка. Якщо ви забули пароль, то не зможете розгорнути приховані чати, вам доведеться видалити та перевстановити додаток. Всі секретні чати будуть утрачені при цьому.</string>
     <string name="BiftorHiddenChatsButton">Доступ до прихованих чатів</string>
-    <string name="BiftorHiddenChatsButtonNewMessages">Тривале натискання на рухому кнопку</string>
-    <string name="BiftorHiddenChatsButtonSearch">Тривале натискання на кнопку пошуку</string>
-    <string name="BiftorHiddenChatsButtonOpenDrawer">Тривале натискання на кнопку меню</string>
+    <string name="BiftorHiddenChatsButtonNewMessages">Затиснення рухомої кнопки</string>
+    <string name="BiftorHiddenChatsButtonSearch">Затиснення кнопки пошуку</string>
+    <string name="BiftorHiddenChatsButtonOpenDrawer">Затиснення кнопки меню</string>
     <string name="BiftorRemoveHiddenChatsNotifi">Не сповіщати про приховані чати</string>
 
     <!-- Biftor export chat list -->
@@ -344,13 +344,13 @@
 
     <!--Show real members of groups or channels -->
     <string name="BiftorShowExactNumberOfMembers">Показувати точну кількість</string>
-    <string name="BiftorShowExactNumberOfMembersSub">Показувати точне число переглядів та учасників/підписників («2 125», а не «2k»)</string>
+    <string name="BiftorShowExactNumberOfMembersSub">Показувати точне число переглядів й учасників/підписників («2 125», а не «2k»)</string>
 
     <!--‌ Biftor remove call button in profile -->
-    <string name="BiftorRemoveCallButtonInProfile">Приховати кнопку виклику в профілі</string>
+    <string name="BiftorRemoveCallButtonInProfile">Приховати кнопку виклику у профілі</string>
 
     <!--‌ Biftor forward config -->
-    <string name="ForwardTabsCat">Вкладки панелі пересилання</string>
+    <string name="ForwardTabsCat">Укладки панелі пересилання</string>
     <string name="ForwardTabsHided">Не показувати вкладки</string>
     <string name="BiftorForwardCopyLink">Посилання</string>
 
@@ -366,10 +366,10 @@
     <string name="BiftorFontsPickerBold">Жирний</string>
     <string name="BiftorFontsPickerItalic">Курсив</string>
     <string name="BiftorFontsPickerMono">Моноширинний</string>
-    <string name="BiftorFontsReset">Скинути до стандартного</string>
+    <string name="BiftorFontsReset">Скинути до усталеного</string>
     <string name="BiftorFontRestarter">Перезапустити додаток</string>
     <string name="BiftorYouNeedToRestartApp">Щоб застосувати зміни шрифту, потрібно перезапустити додаток</string>
-    <string name="BiftorLongClickOnEachOneToReset">Тривале натискання відновить усталене значення</string>
+    <string name="BiftorLongClickOnEachOneToReset">Затискання поверне усталене значення</string>
     <string name="BiftorEmojiSize">Розмір смайликів</string>
     <string name="BiftorEmojiPreview">Розмір %1$s emoji</string>
     <string name="BiftorVerticalAlignmentBottom">Припасувати до низу</string>
@@ -377,18 +377,18 @@
     <!--Biftor use persian calendar -->
     <string name="BiftorAlwaysUsePersianCalendar">Іранський календар</string>
     <!-- Biftor multiaccount count -->
-    <string name="BiftorAccountRestarterTitle">Перезапустити програму?</string>
-    <string name="BiftorAccountRestarterMess">Виявлено нові облікові записи, вам доведеться перезапустити програму, щоб завантажити їх.</string>
-    <string name="BiftorAccountRestarterNow">Перезапустити програму</string>
+    <string name="BiftorAccountRestarterTitle">Перезапустити додаток?</string>
+    <string name="BiftorAccountRestarterMess">Виявлено нові облікові записи, вам доведеться перезапустити додаток, щоб завантажити їх.</string>
+    <string name="BiftorAccountRestarterNow">Перезапустити додаток</string>
 
     <!-- Biftor on or off account -->
     <string name="BiftorOnline">увімкнутий</string>
     <string name="BiftorOffline">вимкнутий</string>
     <string name="BiftorNow">— аккаунт</string>
 
-    <string name="BiftorRestartMsg">Вам потрібно перезапустити програму, щоб завершити цю дію.</string>
+    <string name="BiftorRestartMsg">Вам потрібно перезапустити додаток, щоб завершити цю дію.</string>
 
-    <string name="BiftorLongClickSetDefault">Тривале натискання відновить усталене значення</string>
+    <string name="BiftorLongClickSetDefault">Затискання відновить усталене значення</string>
     <string name="BiftorRestoredToDef">Усталені налаштування відновлено.</string>
 
     <!-- Biftor Tablet Mode -->
@@ -419,11 +419,11 @@
     <string name="BiftorGroupMembersFilter">Фільтр учасників</string>
     <string name="BiftorGroupMembersFilterDeleteAccounts">Видалені акаунти на початку</string>
     <string name="BiftorGroupRemoveDeleteAccounts">Вилучити видалені акаунти</string>
-    <string name="BiftorAreYouSureDeletedAccounts">Ви певні, що хочете вилучити перелічені видалені акаунти?</string>
+    <string name="BiftorAreYouSureDeletedAccounts">Ви впевнені, що хочете вилучити відмічені видалені акаунти?</string>
     <string name="BiftorGroupDeleteAllMyMsgs">Видалити всі мої повідомлення</string>
-    <string name="BiftorAreYouSureDeletedAllMsg">Ви певні, що хочете видалити усі ваші повідомлення **%1$s**?</string>
+    <string name="BiftorAreYouSureDeletedAllMsg">Ви впевнені, що хочете видалити всі ваші повідомлення **%1$s**?</string>
 
-    <string name="BiftorCreator">Творець: </string>
+    <string name="BiftorCreator">Засновник: </string>
     <string name="BiftorId">id: </string>
 
     <!-- Biftor auto download next media -->
@@ -482,7 +482,7 @@
 
     <!-- Biftor auto proxy switching -->
     <string name="BiftorAutoProxySwitching">Автовибір проксі</string>
-    <string name="BiftorProxySwitchingManual">Вручну</string>
+    <string name="BiftorProxySwitchingManual">Уручну</string>
     <string name="BiftorProxySwitchingPing">За пінгом</string>
     <string name="BiftorProxySwitchingSpeed">За швидкістю з\'єднання</string>
     <string name="BiftorProxySwitchingPingSpeed">За пінгом та швидкістю</string>
@@ -495,66 +495,66 @@
 
     <!-- Biftor Dialogs avatar click action -->
     <string name="BiftorDialogsAvatarDefClickAction">Одинарне натискання на світлину</string>
-    <string name="BiftorDialogsAvatarDefLongClickAction">Дія тривалого натискання на світлину у списку чатів</string>
+    <string name="BiftorDialogsAvatarDefLongClickAction">Дія за затисканням світлини у списку чатів</string>
     <string name="BiftorOpenAvatar">Відкрити фото</string>
 
     <!-- Biftor paint and mention button -->
     <string name="BiftorShowPaintBtn">Показати кнопку «Малюнок»</string>
     <string name="BiftorChatBotButton">Кнопка ботів у чаті</string>
-    <string name="BiftorChatBotShow">Кнопка команд ботів (типово)</string>
-    <string name="BiftorReplaceBotWithMentionBtn">Замінити кнопкою згадування</string>
+    <string name="BiftorChatBotShow">Кнопка команд ботів (усталено)</string>
+    <string name="BiftorReplaceBotWithMentionBtn">Замінити кнопкою згадки</string>
     <string name="BiftorChatBotHide">Приховати</string>
 
     <!-- Biftor Clear Cache other files -->
     <string name="BiftorClearCacheOtherFiles">Очистити кеш -> Інші файли</string>
-    <string name="BiftorClearCacheOtherFilesInfo">У кеші накопичується багато тимчасових файлів, що може спричинити проблеми при завантаженні чатів. Рекомендується видаляти їх з кеша щонайменше раз на тиждень (Очистити кеш -> Інші файли).</string>
-    <string name="BiftorKeepMediaInfo">У телеграмі всі чати та відправлені файли зберігаються на хмарному сервері Telegram і завантажуються в тимчасову папку пристрою, де ви входите в Telegram (кешування). Цей кеш зменшує час для відкриття файлів, але займає місце на вашому пристрої.\n\nФотографії, відеоролики та інші файли з хмарних чатів, до яких ви **не отримували доступу**, протягом цього періоду буде видалено з цього пристрою, щоб заощадити місце на диску. Усі медіа зберігатимуться в хмарі Telegram, і їх можна буде повторно завантажити, якщо вам це буде потрібно.</string>
+    <string name="BiftorClearCacheOtherFilesInfo">У кеші накопичується багато тимчасових файлів, що може спричинити проблеми при завантаженні чатів. Рекомендується видаляти їх з кешу щонайменше раз на тиждень (Очистити кеш -> Інші файли).</string>
+    <string name="BiftorKeepMediaInfo">У телеграмі всі чати та відправлені файли зберігаються на хмарному сервері Telegram і завантажуються в тимчасову теку пристрою, де ви входите в Telegram (кешування). Цей кеш зменшує час для відкриття файлів, але займає місце на вашому пристрої.\n\nФотографії, відеоролики та інші файли з хмарних чатів, до яких ви **не отримували доступу**, протягом цього періоду буде видалено з цього пристрою, щоб заощадити місце на диску. Усі медіа зберігатимуться в хмарі Telegram, і їх можна буде повторно завантажити, якщо вам це буде потрібно.</string>
 
     <!-- Biftor Select storage -->
     <string name="BiftorSelectStorage">Накопичувач для даних програми</string>
     <string name="BiftorStorageInternal">Внутрішня SD-карта</string>
     <string name="BiftorStorageSdcard">SD-карта</string>
     <string name="BiftorStorageReadOnly">Лише для читання</string>
-    <string name="BiftorStorageDeviceAlert">Немає можливості зберігати файли на зовнішній пам\'яті на ОС Android 4.4 або новіших версіях, але програма може зберігати файли лише на наступному шляху у зовнішній пам\'яті:\n\n%s\n\nЗверніть увагу: файли, збережені на цьому шляху, будуть видалені, коли  ви видалятимете BGram. Отже, якщо ви хочете видалити додаток без видалення файлів, перед видаленням програми скористайтеся програмою для керування файлами на своєму телефоні та перемістіть файли, збережені на цьому шляху, в іншу папку.\n\nЧи буде цей шлях використовуватись вами для збереження файлів?"</string>
-    <string name="BiftorStorageDeviceCantGrantWrite">Неможливо надати доступ до запису. Надайте програмі дозвіл на запис\читання!</string>
+    <string name="BiftorStorageDeviceAlert">Немає можливості зберігати файли у зовнішньому накопичувачі на ОС Android 4.4 або новіших версіях, але програма може зберігати файли лише на наступному шляху в зовнішній пам\'яті:\n\n%s\n\nЗверніть увагу: файли, збережені на цьому шляху, будуть видалені, коли  ви видалятимете BGram. Отже, якщо ви хочете видалити додаток без видалення файлів, перед видаленням додатку скористайтеся програмою для керування файлами на своєму пристрої та перемістіть файли, збережені на цьому шляху, в іншу теку.\n\nЧи використовуватимете ви цей шлях для збереження файлів?"</string>
+    <string name="BiftorStorageDeviceCantGrantWrite">Неможливо надати доступ до запису. Надайте додатку дозвіл на запис\читання!</string>
 
     <!-- Biftor show view count in dialog list-->
     <string name="BiftorShowViewCount">Кількість переглядів</string>
-    <string name="BiftorShowViewCountSub">Показати кількість переглядів замість позначок доставки для власних каналів у списку чатів.</string>
+    <string name="BiftorShowViewCountSub">Показ кількості переглядів для власних каналів у списку чатів, замість позначок доставки.</string>
 
     <!-- Biftor backup and restore-->
     <string name="BiftorBackUpAndRestoreCat">Резервне копіювання та відновлення</string>
     <string name="BiftorBackUp">Резервне копіювання</string>
-    <string name="BiftorBackUpGlobal">Глобальні налаштування</string>
+    <string name="BiftorBackUpGlobal">Усеосяжні налаштування</string>
     <string name="BiftorBackUpMain">Основні налаштування</string>
     <string name="BiftorBackUpFav">Улюблені чати</string>
     <string name="BiftorBackUpHidden">Приховані чати</string>
     <string name="BiftorBackUpCustomTabs">Власні вкладки</string>
     <string name="BiftorBackUpFonts">Користувацькі шрифти</string>
     <string name="BiftorBackUpAllAndSaveToCloud">Додати все до збереженого</string>
-    <string name="BiftorBackUpSuccessful">Резервне копіювання успішне.\nЗбержено до:\n</string>
-    <string name="BiftorBackUpUnSuccessful">Резервне копіювання не вдалося</string>
+    <string name="BiftorBackUpSuccessful">Резервне копіювання виконано.\nЗбержено до:\n</string>
+    <string name="BiftorBackUpUnSuccessful">Резервне копіювання не вдалось</string>
 
     <string name="BiftorRestore">Відновлення</string>
-    <string name="BiftorRestoreGlobal">Відновити глобальні налаштування</string>
+    <string name="BiftorRestoreGlobal">Відновити всеосяжні налаштування</string>
     <string name="BiftorRestoreMain">Відновити основні налаштування</string>
     <string name="BiftorRestoreFav">Відновити улюблені чати</string>
     <string name="BiftorRestoreHidden">Відновити приховані чати</string>
     <string name="BiftorRestoreCustomTabs">Відновити власні вкладки</string>
 
     <string name="BiftorRestoreToDef">Скинути до усталених значень</string>
-    <string name="BiftorRestoreGlobalToDef">Скинути глобальні налаштування</string>
+    <string name="BiftorRestoreGlobalToDef">Скинути всеосяжні налаштування</string>
     <string name="BiftorRestoreMainToDef">Скинути основні налаштування</string>
     <string name="BiftorRestoreFavToDef">Скинути улюблені чати</string>
     <string name="BiftorRestoreHiddenToDef">Скинути приховані чати</string>
     <string name="BiftorRestoreCustomTabsToDef">Скинути власні вкладки</string>
 
-    <string name="BiftorRestoreSuccessful">Відновлення успішне!</string>
-    <string name="BiftorRestoreUnSuccessful">Відновлення не вдалося</string>
+    <string name="BiftorRestoreSuccessful">Відновлення виконано!</string>
+    <string name="BiftorRestoreUnSuccessful">Відновлення не вдалось</string>
     <string name="BiftorApplyBackUpFile">Застосувати файл резервної копії</string>
 
     <!--Biftor show or hide cloud icon and record-->
-    <string name="BiftorShowCloudIconInHeader">Кнопка збереженого у заголовку</string>
+    <string name="BiftorShowCloudIconInHeader">Кнопка збереженого в заголовку</string>
     <string name="BiftorShowVoiceRecordButton">Кнопка запису голосового/відеоповідомлення</string>
 
     <!--Biftor Contact multi select-->
@@ -567,16 +567,16 @@
     <string name="BiftorDeleteOrLeave">Видалити/Залишити</string>
     <string name="BiftorDeleteCacheOrDeleteFromCache">Видалити кеш/історію</string>
     <string name="BiftorAreYouSureDeleteCache">Обрано: %1$s\n\nВи впевнені, що хочете видалити кеш %1$s чатів?\nУвага: для особистих чатів це очистить історію!\n\nПродовжити?</string>
-    <string name="BiftorAreYouSureDeleteChat">Обрано: %1$s\n\nВи впевнені, що хочете видалити/залишити обрані чати (%1$s)?</string>
+    <string name="BiftorAreYouSureDeleteChat">Обрано: %1$s\n\nВи впевнені, що хочете видалити/залишити вибрані чати (%1$s)?</string>
     <string name="BiftorMultiSelectAddToTheGroupTitle">Додати користувачів (%1$s) до %2$s?</string>
 
     <!--Biftor open avatar photo everywhere-->
     <string name="BiftorOpenAvatarPhoto">Відкрити фото</string>
-    <string name="BiftorOpenAvatarPhotoSub">Відкрити світлину коли торкнетеся її у списку контактів та учасників групи/каналу</string>
+    <string name="BiftorOpenAvatarPhotoSub">Відкрити світлину за натисканням у списку контактів та учасників групи/каналу</string>
 
     <!--Biftor open video or gif with external player-->
     <string name="BiftorOpenVideoBy">Відеопрогравач</string>
-    <string name="BiftorDoYouWantPlayWithExPlayer">Хочете запустити це у зовнішньому програвачі?</string>
+    <string name="BiftorDoYouWantPlayWithExPlayer">Хочете запустити це в зовнішньому програвачі?</string>
     <string name="BiftorVideoPlayerAlwaysExternal">Завжди зовнішній</string>
     <string name="BiftorVideoPlayerAlwaysInternal">Завжди внутрішній</string>
     <string name="BiftorVideoPlayerAlwaysAsk">Завжди запитувати</string>
@@ -615,7 +615,7 @@
     <string name="BiftorMain">Загальні</string>
     <string name="BiftorAppearance">Вигляд</string>
     <string name="BiftorChatListCat">Список чатів</string>
-    <string name="BiftorTabsCat">Вкладки</string>
+    <string name="BiftorTabsCat">Укладки</string>
     <string name="BiftorButtonsCat">Кнопки</string>
     <string name="BiftorBubblesCat">Бульбашки чату</string>
 
@@ -629,13 +629,13 @@
 
     <!--Biftor login with bot-->
     <string name="BiftorLoginWithBotToKen">Авторизуватись через токен бота</string>
-    <string name="BiftorBotToken">Paste your bot token</string>
-    <string name="BiftorLoginWithBotInfo">You can use the @BotFather to create a new bot.\n\nWhen you login with a bot, you will have all the limitations that bots have, including:\n
-		- You do not have access to your contacts.\n
-		- You can\'t join groups and channels (unless admins add you).\n
-		- You can only write to users who have already sent you /start.\n
-		- You will not be able to see when users read your messages.\n
-		- The chat list is empty when you first login, and will populate when the bot receives messages from users and groups. Group detection can be particularly slow.</string>
+    <string name="BiftorBotToken">Вкладіть токен бота</string>
+    <string name="BiftorLoginWithBotInfo">Використайте @BotFather для створення нового бота.\n\nВхід за допомогою бота має обмеження, які мають усі боти, як от:\n
+		- Ви не матимете доступу до своїх контактів.\n
+		- Не зможете приєднатися до груп чи каналів (якщо адмін не долучить вас).\n
+		- Зможете писати лише тим користувачам, котрі натиснули на /start.\n
+		- Не бачитимете коли користувачі набиратимуть для вас повідомлення.\n
+		- Список чату буде порожнім при першому вході в систему, та поповниться, коли бот отримає повідомлення від користувачів та груп. Виявлення груп може бути повільним.</string>
 
     <!--Biftor Tor -->
     <string name="BiftorTorStarting">TOR запускається&#8230;</string>
@@ -649,7 +649,7 @@
     <string name="BiftorTorYourReachableAddressesException">Налаштування доступних адрес призвели до помилки!</string>
     <string name="BiftorTorYourRelaySettingsException">Ваші налаштування ретрансляції викликали помилку!</string>
     <string name="BiftorTorUseBridges">Використовувати мости</string>
-    <string name="BiftorFoundExistingTorProcess">знайдено існуючий процес TOR&#8230;</string>
+    <string name="BiftorFoundExistingTorProcess">знайдено наявний процес TOR&#8230;</string>
     <string name="BiftorTorSomethingBadHappened">Сталося щось погане. Перевірте журнал подій</string>
     <string name="BiftorTorUnableToStartTor">Неможливо запустити TOR:</string>
     <string name="BiftorTorNoInternetConnection">Без підключення до Інтернету; TOR в режимі очікування…</string>
@@ -664,7 +664,7 @@
     <string name="BiftorTorDefaultWorld">Усталено (Авто)</string>
     <string name="BiftorTorBridgeHints">Якщо ваша мобільна мережа активно блокує TOR, можна використовувати \'мостовий сервер\' як альтернативний спосіб. ОБЕРІТЬ один із варіантів для налаштування та тестування…</string>
     <string name="BiftorTorTestingBridges">Тестування мостового з\'єднання з TOR....</string>
-    <string name="BiftorTorTestingBridgesSuccess">Успіх. Конфігурація моста прийнятна!</string>
+    <string name="BiftorTorTestingBridgesSuccess">Успіх! Конфігурація моста прийнятна!</string>
     <string name="BiftorTorTestingBridgesFail">Невдача. Спробуйте інший варіант</string>
     <string name="BiftorTorBridgesDirectConnect">Підключення безпосередньо до TOR (найкраще)</string>
     <string name="BiftorTorBridgesCommunity">Підключення через сервери спільноти</string>
@@ -687,25 +687,25 @@
     <string name="BiftorTabName">Назва вкладки</string>
     <string name="BiftorTabNameHint">Введіть назву для вашої вкладки</string>
     <string name="BiftorTabIcon">Іконка вкладки</string>
-    <string name="BiftorAddToCustomTabs">Додати до власних вкладок</string>
+    <string name="BiftorAddToCustomTabs">Додати до власних укладок</string>
     <string name="BiftorDeleteFromCustomTabs">Видалити із власних вкладок</string>
     <string name="BiftorNoNameError">Ви не можете створити вкладку без імені</string>
-    <string name="BiftorCustomTabEndReach">Ви не можете створити ще одну вкладку (не більше 50 вкладок).</string>
-    <string name="BiftorCleanCustomTabWarning">Впевнені, що хочете видалити створені вкладки? (%1$s)</string>
+    <string name="BiftorCustomTabEndReach">Ви не можете створити ще одну вкладку (найбільше 50 вкладок).</string>
+    <string name="BiftorCleanCustomTabWarning">Упевнені, що хочете видалити створені вкладки? (%1$s)</string>
     <string name="BiftorTabIconSize">Розмір значків</string>
     <string name="BiftorTabIconTextIcon">Текстова іконка</string>
     <string name="BiftorTabIconTextIconEnter">Введіть текст</string>
     <string name="BiftorRemoveExtraIconWarning">Виділено значків: **%1$s**. \nВидалити?</string>
-    <string name="BiftorRemoveAllExtraIconWarning">Ви певні, що хочете видалити усі додані вами значки?</string>
-    <string name="BiftorMultiSelectEndReach">Ви не можете обрати більше, ніж  **%1$s** елементів.</string>
-    <string name="BiftorHideCustomTabChatsFrom">Приховати чати (власних вкладок) з вкладок</string>
+    <string name="BiftorRemoveAllExtraIconWarning">Ви впевнені, що хочете видалити всі додані вами значки?</string>
+    <string name="BiftorMultiSelectEndReach">Ви не можете вибрати більше, ніж  **%1$s** елементів.</string>
+    <string name="BiftorHideCustomTabChatsFrom">Приховати чати (власних укладок) з укладок</string>
     <string name="BiftorHideCustomTabChatsFromUser">Діалоги</string>
     <string name="BiftorHideCustomTabChatsFromGroups">Групи</string>
     <string name="BiftorHideCustomTabChatsFromChannel">Канали</string>
     <string name="BiftorHideCustomTabChatsFromSupperGroups">Супергрупи</string>
     <string name="BiftorHideCustomTabChatsFromBots">Боти</string>
-    <string name="BiftorHideCustomTabChatsFromAllGroups">Всі групи</string>
-    <string name="BiftorHideCustomTabChatsFromAll">Вкладка "Усі"</string>
+    <string name="BiftorHideCustomTabChatsFromAllGroups">Усі групи</string>
+    <string name="BiftorHideCustomTabChatsFromAll">Укладка "Усі"</string>
     <string name="BiftorDontHideCustomTabChats">Не приховувати</string>
     <string name="BiftorMayNeedsToRestart">Може знадобитись перезапуск</string>
     <string name="BiftorIsolateDest">Відокремте адреси призначення</string>
@@ -713,9 +713,9 @@
     <string name="BiftorPreferIpv6">Надвати перевагу підключенню IPv6</string>
     <string name="BiftorPreferIpv6Sub">Повідомляє виходам підключення, що адресам IPv6 надається перевага</string>
     <string name="BiftorDisableIpv4">Вимкнути з\'єднання IPv4</string>
-    <string name="BiftorDisableIpv4Sub">Вказує, щоб виходи не підключались до адрес IPv4</string>
+    <string name="BiftorDisableIpv4Sub">Указує, щоб виходи не підключались до адрес IPv4</string>
     <string name="BiftorConnectionPadding">Заповнення підключення</string>
-    <string name="BiftorConnectionPaddingSub">Завжди дає змогу захистити зв\'язок від деяких форм аналізу трафіку. Усталено: авто</string>
+    <string name="BiftorConnectionPaddingSub">Завжди дає змогу захистити зв\'язок від деяких форм розбору трафіку. Усталено: авто</string>
     <string name="BiftorReducedConnectionPadding">Зменшення розміру підключення</string>
     <string name="BiftorReducedConnectionPaddingSub">Раніше закриває релейні з\'єднання та надсилає менше пакетів для зменшення передачі даних та використання батареї</string>
     <string name="BiftorConnectTorWhenForNotify">Підключення TOR, коли отримано сповіщення</string>
@@ -725,7 +725,7 @@
     <string name="BiftorMentionMsg">Згадка</string>
     <string name="BiftorMentionMsgGoto">Перейти до:</string>
     <string name="BiftorGoToLinkChatNotFound">Посилання не знайдено: **%1$s** немає у списку ваших чатів.</string>
-    <string name="BiftorGoToLinkInvalidLink">Некоректне посилання</string>
+    <string name="BiftorGoToLinkInvalidLink">Недійсне посилання</string>
 
     <!-- Biftor goto msg for all chats-->
     <string name="BiftorDisableVoiceProximitySensor">Вимкнути зміну динаміка</string>
@@ -733,10 +733,10 @@
 
     <!-- Biftor custom user mention-->
     <string name="BiftorCustomUserMention">Згадка з довільним текстом</string>
-    <string name="BiftorUserMentionListLongTap">Вставка згадки за іменем</string>
-    <string name="BiftorUserMentionListLongTapSub">Дія за тривалим натисканням на ім\'я у випадаючому списку після введення \@ у групі.</string>
-    <string name="BiftorUserMentionInsertName">Вставити згадку за іменем</string>
-    <string name="BiftorUserMentionInsertCustomName">Редагувати текст згадки</string>
+    <string name="BiftorUserMentionListLongTap">Згадка за іменем</string>
+    <string name="BiftorUserMentionListLongTapSub">Дія за затисканням на ім\'я у випливному списку після введення \@ у групі.</string>
+    <string name="BiftorUserMentionInsertName">Вкласти згадку за іменем</string>
+    <string name="BiftorUserMentionInsertCustomName">Змінити текст згадки</string>
     <string name="BiftorCustomUserMentionName">Текст згадки</string>
     <string name="BiftorCustomUserMentionId">ID користувача</string>
     <string name="BiftorCustomUserMentionError">Користувача не знайдено, скопіюйте ID з його профілю.</string>
@@ -746,7 +746,7 @@
 
     <!--Biftor keep screen on -->
     <string name="BiftorKeepScreenOn">Залишати екран увімкненим</string>
-    <string name="BiftorKeepScreenOnSub">Запобігає вимкненю екрана, коли програма відкрита.</string>
+    <string name="BiftorKeepScreenOnSub">Запобігає вимкненю екрана, коли додаток у дії.</string>
 
 	
     <!--Biftor Drawer Menu to Avatar -->
@@ -858,7 +858,7 @@
     <string name="BiftorDirectChatsReset">Скинути важливий чат</string>
     <string name="BiftorDisplayDirectChats">Де показувати важливі чати</string>
     <string name="BiftorDisplayDirectChatsSide">Бічна панель</string>
-    <string name="BiftorDisplayDirectChatsTab">Вкладки</string>
+    <string name="BiftorDisplayDirectChatsTab">Укладки</string>
     <string name="BiftorDisplayDirectChatsSideTab">Бічна панель і вкладки</string>
     <string name="BiftorDirectChatsReorder">Порядок важливих чатів</string>
     <string name="BiftorShowDirectChatsInDrawer">Показати важливі чати в меню</string>
@@ -901,18 +901,18 @@
     <string name="BiftorSSRObfs">Obfs</string>
     <string name="BiftorSSRObfsParam">Параметри Obfs</string>
     <string name="BiftorShadowSocksModule">Shadow socks</string>
-    <string name="BiftorStartShadowAsService">Start shadow as service</string>
-    <string name="BiftorStartShadowAsServiceSub">Run shadow socks as background service</string>
-    <string name="BiftorShadowSockServiceConnecting">Shadow Socks service is connecting</string>
-    <string name="BiftorShadowSockServiceConnected">Shadow Socks service is running: %s</string>
-    <string name="BiftorShadowSockServiceStop">Stop</string>
-    <string name="BiftorShadowSocksConfig">Shadow socks config</string>
-    <string name="BiftorStopShadowSocksWhenAppClosed">Stop Shadow socks when app closed</string>
-    <string name="BiftorStopShadowSocksWhenAppClosedSub">Stop the Shadow socks when App Closed, if you disable it, when the Shadow socks is enable the whole app will not close.</string>
+    <string name="BiftorStartShadowAsService">Застосувати shadow</string>
+    <string name="BiftorStartShadowAsServiceSub">Запустити shadow socks у фоновому режимі</string>
+    <string name="BiftorShadowSockServiceConnecting">Shadow Socks застосовано</string>
+    <string name="BiftorShadowSockServiceConnected">Shadow Socks у дії: %s</string>
+    <string name="BiftorShadowSockServiceStop">Зупинити</string>
+    <string name="BiftorShadowSocksConfig">Shadow socks налаштування</string>
+    <string name="BiftorStopShadowSocksWhenAppClosed">Зупинити Shadow коли додаток вимкнений</string>
+    <string name="BiftorStopShadowSocksWhenAppClosedSub">зупинити Shadow socks коли додаток закритий, якщо застосувати це, коли Shadow socks діє додаток не закриється остаточно.</string>
 
     <!--Biftor ads-->
     <string name="BiftorAdsTypeAdMob">AdMob</string>
-    <string name="BiftorAdsTypeCustom">Ads</string>
-    <string name="BiftorAdsTitle">BGram Ads</string>
-    <string name="BiftorAdsSubTitle">Support BGram by Watching an Ad</string>
+    <string name="BiftorAdsTypeCustom">Реклама</string>
+    <string name="BiftorAdsTitle">BGram реклама</string>
+    <string name="BiftorAdsSubTitle">Підтримати BGram переглядом реклами</string>
 </resources>

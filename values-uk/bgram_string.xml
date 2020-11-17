@@ -13,7 +13,7 @@
     <string name="BiftorGhostMod">Приховане читання</string>
     <string name="BiftorGhostModSub">Користувач не знатиме, що ви прочитали повідомлення, доки ви не відповісте йому</string>
     <string name="BiftorGhostModHeaderLongClick">Перемикати затисканням на заголовоку</string>
-    <string name="BiftorGhostModHeaderLongClickSub">Швидке перемикання Прихованого Читання затисканням на загаловку у списку чатів</string>
+    <string name="BiftorGhostModHeaderLongClickSub">Швидке перемикання Прихованого читання затисканням на загаловку у списку чатів</string>
 
     <!-- Ghost mode hide status-->
     <string name="BiftorGhostModHideStatus">Приховати «online» статус</string>

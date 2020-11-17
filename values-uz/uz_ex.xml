@@ -5,7 +5,7 @@
     <string name="LanguageName">O‘zbek</string>
     <string name="English">Ingliz</string>
     <string name="LanguageNameInEnglish">Uzbek</string>
-    <string name="LanguageCode">uz</string>
+    <string name="LanguageCode">uz_ex</string>
     <string name="ContinueOnThisLanguage">O‘zbek tilida davom etish</string>
     <!--signin view-->
     <string name="YourPhone">Telefon raqamingiz</string>

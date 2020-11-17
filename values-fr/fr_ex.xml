@@ -3,7 +3,7 @@
     <string name="LanguageName">Français</string>
     <string name="English">Anglais</string>
     <string name="LanguageNameInEnglish">French</string>
-    <string name="LanguageCode">fr</string>
+    <string name="LanguageCode">fr_ex</string>
     <string name="ContinueOnThisLanguage">Continuer en français</string>
     <!--signin view-->
     <string name="YourPhone">Votre téléphone</string>

@@ -3,7 +3,7 @@
     <string name="LanguageName">فارسی</string>
     <string name="English">انگلیسی</string>
     <string name="LanguageNameInEnglish">Persian</string>
-    <string name="LanguageCode">fa</string>
+    <string name="LanguageCode">fa_ex</string>
     <string name="ContinueOnThisLanguage">با زبان فارسی ادامه دهید</string>
     <!--signin view-->
     <string name="YourPhone">شماره تلفن شما</string>

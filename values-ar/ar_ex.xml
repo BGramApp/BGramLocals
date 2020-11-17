@@ -3,7 +3,7 @@
     <string name="LanguageName">العربية</string>
     <string name="English">الإنجليزية</string>
     <string name="LanguageNameInEnglish">Arabic</string>
-    <string name="LanguageCode">ar</string>
+    <string name="LanguageCode">ar_ex</string>
     <string name="ContinueOnThisLanguage">الاستمرار باللغة العربية</string>
     <!--signin view-->
     <string name="YourPhone">رقمك</string>

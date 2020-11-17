@@ -3,7 +3,7 @@
     <string name="LanguageName">Русский</string>
     <string name="English">English</string>
     <string name="LanguageNameInEnglish">Полный перевод для BGram</string>
-    <string name="LanguageCode">ru</string>
+    <string name="LanguageCode">ru_emoji_ex</string>
     <string name="ContinueOnThisLanguage">Продолжить на русском</string>
     <!--signin view-->
     <string name="YourPhone">Ваш телефон</string>

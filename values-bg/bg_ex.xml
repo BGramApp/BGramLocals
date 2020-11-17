@@ -3,7 +3,7 @@
     <string name="LanguageName">Български</string>
     <string name="English">Английски</string>
     <string name="LanguageNameInEnglish">Bulgarian</string>
-    <string name="LanguageCode">bg</string>
+    <string name="LanguageCode">bg_ex</string>
     <string name="ContinueOnThisLanguage">Продължаване на български</string>
     <!--signin view-->
     <string name="YourPhone">Вашият телефон</string>

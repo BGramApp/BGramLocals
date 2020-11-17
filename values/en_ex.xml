@@ -4597,6 +4597,7 @@
     <string name="BiftorReducedConnectionPaddingSub">Closes relay connections sooner and sends less padding packets to reduce data and battery usage</string>
     <string name="BiftorConnectTorWhenForNotify">Connect TOR when notification received</string>
     <string name="BiftorGetBridgeFromGithub">Request new bridge from Github</string>
+    <string name="BiftorTORModule">BGram TOR</string>
 
     <!--Biftor custom tabs-->
     <string name="BiftorNewTab">New tab</string>

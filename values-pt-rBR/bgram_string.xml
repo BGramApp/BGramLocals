@@ -697,6 +697,7 @@
     <string name="BiftorReducedConnectionPaddingSub">Fecha as conexões de retransmissão mais cedo e envia menos pacotes de preenchimento para reduzir os dados e o uso da bateria</string>
     <string name="BiftorConnectTorWhenForNotify">Conecte o Tor quando a notificação for recebida</string>
     <string name="BiftorGetBridgeFromGithub">Solicitar nova ponte do Github</string>
+    <string name="BiftorTORModule">BGram TOR</string>
 
     <!--Biftor custom tabs-->
     <string name="BiftorNewTab">Nova aba</string>

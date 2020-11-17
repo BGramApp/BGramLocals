@@ -720,6 +720,7 @@
     <string name="BiftorReducedConnectionPaddingSub">Раніше закриває релейні з\'єднання та надсилає менше пакетів для зменшення передачі даних та використання батареї</string>
     <string name="BiftorConnectTorWhenForNotify">Підключення TOR, коли отримано сповіщення</string>
     <string name="BiftorGetBridgeFromGithub">Вимагати новий міст від Github</string>
+    <string name="BiftorTORModule">BGram TOR</string>
 
     <!-- Biftor goto msg for all chats-->
     <string name="BiftorMentionMsg">Згадка</string>

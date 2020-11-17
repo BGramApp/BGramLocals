@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-   <string name="AppName">Telegram</string>
-   <string name="AppNameBeta">Telegram</string>
    <string name="LanguageName">Українська</string>
    <string name="English">Англійська</string>
    <string name="LanguageNameInEnglish">Ukrainian</string>
@@ -4749,6 +4747,7 @@
     <string name="BiftorReducedConnectionPaddingSub">Раніше закриває релейні з\'єднання та надсилає менше пакетів для зменшення передачі даних та використання батареї</string>
     <string name="BiftorConnectTorWhenForNotify">Підключення TOR, коли отримано сповіщення</string>
     <string name="BiftorGetBridgeFromGithub">Вимагати новий міст від Github</string>
+   <string name="BiftorTORModule">BGram TOR</string>
 
     <!-- Biftor goto msg for all chats-->
     <string name="BiftorMentionMsg">Згадка</string>

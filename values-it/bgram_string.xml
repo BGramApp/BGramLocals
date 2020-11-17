@@ -726,6 +726,7 @@
     <string name="BiftorMayNeedsToRestart">Potrebbe richiedere il riavvio</string>
     <string name="BiftorConnectTorWhenForNotify">Inizia la connessione a Tor alla ricezione di una notifica</string>
     <string name="BiftorGetBridgeFromGithub">Scarica lista bridge da Github</string>
+    <string name="BiftorTORModule">BGram TOR</string>
 
     <!-- Biftor goto msg for all chats-->
     <string name="BiftorMentionMsg">Menzione</string>

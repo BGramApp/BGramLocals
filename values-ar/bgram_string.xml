@@ -145,8 +145,8 @@
 
  <!-- Biftor dismiss only -->
  <string name="BiftorDismissOnly">الرفض فقط</string>
- <string name="BiftorUnpinMessageAlertTitle">Unpin messages</string>
- <string name="BiftorUnpinMessageAlert">Do you want to dismiss or unpin all messages?</string>
+ <string name="BiftorUnpinMessageAlertTitle">إلغاء تثبيت الرسائل</string>
+ <string name="BiftorUnpinMessageAlert">هل تريد رفض أو إلغاء تثبيت كل الرسائل؟</string>
 
  <!-- Biftor dark blue theme -->
  <string name="BGramDarkBlue">بيگرام أزرق غامق</string>
@@ -336,7 +336,7 @@
  <string name="BiftorHiddenChatsButton">زر المحادثات المخفية</string>
  <string name="BiftorHiddenChatsButtonNewMessages">إضغط طويلا على الرسائل الجديدة</string>
  <string name="BiftorHiddenChatsButtonSearch">إضغط طويلا على زر البحث</string>
- <string name="BiftorHiddenChatsButtonOpenDrawer">Long click on open drawer</string>
+ <string name="BiftorHiddenChatsButtonOpenDrawer">نقرة طويلة على درج مفتوح</string>
  <string name="BiftorRemoveHiddenChatsNotifi">إزالة إشعارات المحادثات المخفية</string>
 
  <!-- Biftor export chat list -->
@@ -447,33 +447,33 @@
  <string name="BiftorEnableCameraAttachMenu">تمكين زر  الكاميرا بلوحة الإرفاق</string>
 
  <!-- Biftor added more media screen tabs -->
- <string name="BiftorMediaTabPhotos_zero">%1$d photos</string>
- <string name="BiftorMediaTabPhotos_one">%1$d photos</string>
- <string name="BiftorMediaTabPhotos_two">%1$d photos</string>
- <string name="BiftorMediaTabPhotos_few">%1$d photos</string>
- <string name="BiftorMediaTabPhotos_many">%1$d photos</string>
- <string name="BiftorMediaTabPhotos_other">%1$d photos</string>
+ <string name="BiftorMediaTabPhotos_zero">%1$d صور</string>
+ <string name="BiftorMediaTabPhotos_one">%1$d صور</string>
+ <string name="BiftorMediaTabPhotos_two">%1$d صور</string>
+ <string name="BiftorMediaTabPhotos_few">%1$d صور</string>
+ <string name="BiftorMediaTabPhotos_many">%1$d صور</string>
+ <string name="BiftorMediaTabPhotos_other">%1$d صور</string>
 
- <string name="BiftorMediaTabVideos_zero">%1$d videos</string>
- <string name="BiftorMediaTabVideos_one">%1$d videos</string>
- <string name="BiftorMediaTabVideos_two">%1$d videos</string>
- <string name="BiftorMediaTabVideos_few">%1$d videos</string>
- <string name="BiftorMediaTabVideos_many">%1$d videos</string>
- <string name="BiftorMediaTabVideos_other">%1$d videos</string>
+ <string name="BiftorMediaTabVideos_zero">%1$d مقاطع فيديو</string>
+ <string name="BiftorMediaTabVideos_one">%1$d مقاطع فيديو</string>
+ <string name="BiftorMediaTabVideos_two">%1$d مقاطع فيديو</string>
+ <string name="BiftorMediaTabVideos_few">%1$d مقاطع فيديو</string>
+ <string name="BiftorMediaTabVideos_many">%1$d مقاطع فيديو</string>
+ <string name="BiftorMediaTabVideos_other">%1$d مقاطع فيديو</string>
 
- <string name="BiftorMediaTabGifs_zero">%1$d gifs</string>
- <string name="BiftorMediaTabGifs_one">%1$d gifs</string>
- <string name="BiftorMediaTabGifs_two">%1$d gifs</string>
- <string name="BiftorMediaTabGifs_few">%1$d gifs</string>
- <string name="BiftorMediaTabGifs_many">%1$d gifs</string>
- <string name="BiftorMediaTabGifs_other">%1$d gifs</string>
+ <string name="BiftorMediaTabGifs_zero">%1$d صور متحركة</string>
+ <string name="BiftorMediaTabGifs_one">%1$d صور متحركة</string>
+ <string name="BiftorMediaTabGifs_two">%1$d صور متحركة</string>
+ <string name="BiftorMediaTabGifs_few">%1$d صور متحركة</string>
+ <string name="BiftorMediaTabGifs_many">%1$d صور متحركة</string>
+ <string name="BiftorMediaTabGifs_other">%1$d صور متحركة</string>
 
- <string name="BiftorMediaTabRounds_zero">%1$d rounds</string>
- <string name="BiftorMediaTabRounds_one">%1$d rounds</string>
- <string name="BiftorMediaTabRounds_two">%1$d rounds</string>
- <string name="BiftorMediaTabRounds_few">%1$d rounds</string>
- <string name="BiftorMediaTabRounds_many">%1$d rounds</string>
- <string name="BiftorMediaTabRounds_other">%1$d rounds</string>
+ <string name="BiftorMediaTabRounds_zero">%1$d مقاطع فيديو مستديرة</string>
+ <string name="BiftorMediaTabRounds_one">%1$d مقاطع فيديو مستديرة</string>
+ <string name="BiftorMediaTabRounds_two">%1$d مقاطع فيديو مستديرة</string>
+ <string name="BiftorMediaTabRounds_few">%1$d مقاطع فيديو مستديرة</string>
+ <string name="BiftorMediaTabRounds_many">%1$d مقاطع فيديو مستديرة</string>
+ <string name="BiftorMediaTabRounds_other">%1$d مقاطع فيديو مستديرة</string>
 
  <string name="BiftorMediaTabPhotos">الصور</string>
  <string name="BiftorProMediaTabPhotos">صور</string>
@@ -642,13 +642,13 @@
 
  <!--Biftor login with bot-->
  <string name="BiftorLoginWithBotToKen">تسجيل الدخول باستخدام توكن بوت</string>
- <string name="BiftorBotToken">Paste your bot token</string>
- <string name="BiftorLoginWithBotInfo">You can use the @BotFather to create a new bot.\n\nWhen you login with a bot, you will have all the limitations that bots have, including:\n
-		- You do not have access to your contacts.\n
-		- You can\'t join groups and channels (unless admins add you).\n
-		- You can only write to users who have already sent you /start.\n
-		- You will not be able to see when users read your messages.\n
-		- The chat list is empty when you first login, and will populate when the bot receives messages from users and groups. Group detection can be particularly slow.</string>
+ <string name="BiftorBotToken">لصق رمز البوت الخاص بك</string>
+ <string name="BiftorLoginWithBotInfo">يمكنك استخدام BotFather لإنشاء بوت جديد. \ n \ n عند تسجيل الدخول باستخدام بوت، سيكون لديك كل القيود التي تفرضها برامج البوت، بما في ذلك: \ n
+- ليس لديك حق الوصول إلى جهات الاتصال الخاصة بك. \ n
+- لا يمكنك الانضمام إلى المجموعات والقنوات (ما لم يضيفك المسؤولون). \ n
+- يمكنك فقط الكتابة إلى المستخدمين الذين أرسلوا لك /start.\n
+- لن تتمكن من رؤية الوقت الذي يقرأ فيه المستخدمون رسائلك. \ n
+- تكون قائمة الدردشة فارغة عند تسجيل الدخول لأول مرة ، وستظهر عندما يتلقى البوت رسائل من المستخدمين والمجموعات. يمكن أن يكون اكتشاف المجموعة بطيئا بشكل خاص</string>
 
  <!--Biftor Tor -->
  <string name="BiftorTorStarting">لقد بدأ تور&#8230;</string>
@@ -706,7 +706,7 @@
  <string name="BiftorReducedConnectionPaddingSub">إغلاق تتابع الإتصال و إرسال حزم أقل لتقليل إستخدام  البيانات و البطارية</string>
  <string name="BiftorConnectTorWhenForNotify">قم بتوصيل تور  عند تلقي الإخطار</string>
  <string name="BiftorGetBridgeFromGithub">طلب جسر جديد من (Github)</string>
- <string name="BiftorTORModule">BGram TOR</string>
+ <string name="BiftorTORModule">بيكرام تور</string>
 
  <!--Biftor custom tabs-->
  <string name="BiftorNewTab">تبويب جديد</string>
@@ -717,7 +717,7 @@
  <string name="BiftorDeleteFromCustomTabs">الحذف من علامات التبويب المخصصة</string>
  <string name="BiftorNoNameError">لا يمكنك جعل علامة التبويب دون اسم.</string>
  <string name="BiftorCustomTabEndReach">إذا استخدمت بالفعل كل علامات التبويب المخصصة ، فلا يمكنك إنشاء واحدة جديدة.</string>
- <string name="BiftorCleanCustomTabWarning">هل تريد بالتأكيد حذف كل ما يتعلق بهذا: **%1$s** علامة التبويب المخصصة؟</string>
+ <string name="BiftorCleanCustomTabWarning">هل تريد بالتأكيد حذف كل ما يتعلق بهذا: **%1 $s** علامة التبويب المخصصة؟</string>
  <string name="BiftorTabIconSize">حجم رمز علامة التبويب</string>
  <string name="BiftorTabIconTextIcon">نص الأيقونة</string>
  <string name="BiftorTabIconTextIconEnter">أدخل نص</string>
@@ -770,162 +770,162 @@
  <string name="BiftorChannelDiscuss">مناقشة</string>
 
  <!--Biftor Translate-->
- <string name="BiftorTranslate">Translate</string>
- <string name="BiftorTranslateEnterText">Enter text</string>
- <string name="BiftorTranslateEnterTextEmpty">You must enter text to translate</string>
- <string name="BiftorTranslateAUTO_DETECT">Auto detect</string>
- <string name="BiftorTranslateAFRIKAANS">AFRIKAANS</string>
- <string name="BiftorTranslateALBANIAN">ALBANIAN</string>
- <string name="BiftorTranslateARABIC">ARABIC</string>
- <string name="BiftorTranslateARMENIAN">ARMENIAN</string>
- <string name="BiftorTranslateAZERBAIJANI">AZERBAIJANI</string>
- <string name="BiftorTranslateBASQUE">BASQUE</string>
- <string name="BiftorTranslateBELARUSIAN">BELARUSIAN</string>
- <string name="BiftorTranslateBENGALI">BENGALI</string>
- <string name="BiftorTranslateBULGARIAN">BULGARIAN</string>
- <string name="BiftorTranslateCATALAN">CATALAN</string>
- <string name="BiftorTranslateCHINESE">CHINESE</string>
- <string name="BiftorTranslateCROATIAN">CROATIAN</string>
- <string name="BiftorTranslateCZECH">CZECH</string>
- <string name="BiftorTranslateDANISH">DANISH</string>
- <string name="BiftorTranslateDUTCH">DUTCH</string>
- <string name="BiftorTranslateENGLISH">ENGLISH</string>
- <string name="BiftorTranslateESTONIAN">ESTONIAN</string>
- <string name="BiftorTranslateFILIPINO">FILIPINO</string>
- <string name="BiftorTranslateFINNISH">FINNISH</string>
- <string name="BiftorTranslateFRENCH">FRENCH</string>
- <string name="BiftorTranslateGALICIAN">GALICIAN</string>
- <string name="BiftorTranslateGEORGIAN">GEORGIAN</string>
- <string name="BiftorTranslateGERMAN">GERMAN</string>
- <string name="BiftorTranslateGREEK">GREEK</string>
- <string name="BiftorTranslateGUJARATI">GUJARATI</string>
- <string name="BiftorTranslateHAITIAN_CREOLE">HAITIAN CREOLE</string>
- <string name="BiftorTranslateHEBREW">HEBREW</string>
- <string name="BiftorTranslateHINDI">HINDI</string>
- <string name="BiftorTranslateHUNGARIAN">HUNGARIAN</string>
- <string name="BiftorTranslateICELANDIC">ICELANDIC</string>
- <string name="BiftorTranslateINDONESIAN">INDONESIAN</string>
- <string name="BiftorTranslateIRISH">IRISH</string>
- <string name="BiftorTranslateITALIAN">ITALIAN</string>
- <string name="BiftorTranslateJAPANESE">JAPANESE</string>
- <string name="BiftorTranslateKANNADA">KANNADA</string>
- <string name="BiftorTranslateKAZAKH">KAZAKH</string>
- <string name="BiftorTranslateKOREAN">KOREAN</string>
- <string name="BiftorTranslateLATIN">LATIN</string>
- <string name="BiftorTranslateLATVIAN">LATVIAN</string>
- <string name="BiftorTranslateLITHUANIAN">LITHUANIAN</string>
- <string name="BiftorTranslateMACEDONIAN">MACEDONIAN</string>
- <string name="BiftorTranslateMALAY">MALAY</string>
- <string name="BiftorTranslateMALTESE">MALTESE</string>
- <string name="BiftorTranslateNORWEGIAN">NORWEGIAN</string>
- <string name="BiftorTranslatePERSIAN">PERSIAN</string>
- <string name="BiftorTranslatePOLISH">POLISH</string>
- <string name="BiftorTranslatePORTUGUESE">PORTUGUESE</string>
- <string name="BiftorTranslateROMANIAN">ROMANIAN</string>
- <string name="BiftorTranslateRUSSIAN">RUSSIAN</string>
- <string name="BiftorTranslateSERBIAN">SERBIAN</string>
- <string name="BiftorTranslateSLOVAK">SLOVAK</string>
- <string name="BiftorTranslateSLOVENIAN">SLOVENIAN</string>
- <string name="BiftorTranslateSPANISH">SPANISH</string>
- <string name="BiftorTranslateSWAHILI">SWAHILI</string>
- <string name="BiftorTranslateSWEDISH">SWEDISH</string>
- <string name="BiftorTranslateTAMIL">TAMIL</string>
- <string name="BiftorTranslateTELUGU">TELUGU</string>
- <string name="BiftorTranslateTHAI">THAI</string>
- <string name="BiftorTranslateTURKISH">TURKISH</string>
- <string name="BiftorTranslateUKRAINIAN">UKRAINIAN</string>
- <string name="BiftorTranslateURDU">URDU</string>
- <string name="BiftorTranslateUZBEK">UZBEK</string>
- <string name="BiftorTranslateVIETNAMESE">VIETNAMESE</string>
- <string name="BiftorTranslateWELSH">WELSH</string>
- <string name="BiftorTranslateYIDDISH">YIDDISH</string>
- <string name="BiftorTranslateCHINESE_SIMPLIFIED">CHINESE SIMPLIFIED</string>
- <string name="BiftorTranslateCHINESE_TRADITIONAL">CHINESE TRADITIONAL</string>
+ <string name="BiftorTranslate">ترجمة</string>
+ <string name="BiftorTranslateEnterText">أدخل نص</string>
+ <string name="BiftorTranslateEnterTextEmpty">يجب عليك إدخال نص لترجمته</string>
+ <string name="BiftorTranslateAUTO_DETECT">إكتشاف تلقائي</string>
+ <string name="BiftorTranslateAFRIKAANS">الافريقية</string>
+ <string name="BiftorTranslateALBANIAN">الألبانية</string>
+ <string name="BiftorTranslateARABIC">العربية</string>
+ <string name="BiftorTranslateARMENIAN">الأمريكية</string>
+ <string name="BiftorTranslateAZERBAIJANI">الأذربيجانية</string>
+ <string name="BiftorTranslateBASQUE">الباسكية</string>
+ <string name="BiftorTranslateBELARUSIAN">البيلاروسية</string>
+ <string name="BiftorTranslateBENGALI">البنغالية</string>
+ <string name="BiftorTranslateBULGARIAN">البلغارية</string>
+ <string name="BiftorTranslateCATALAN">الكتالونية</string>
+ <string name="BiftorTranslateCHINESE">الصينية</string>
+ <string name="BiftorTranslateCROATIAN">الكرواتية</string>
+ <string name="BiftorTranslateCZECH">التشيكية</string>
+ <string name="BiftorTranslateDANISH">الدانماركية</string>
+ <string name="BiftorTranslateDUTCH">الهولندية</string>
+ <string name="BiftorTranslateENGLISH">الإنجليزية</string>
+ <string name="BiftorTranslateESTONIAN">الإستونية</string>
+ <string name="BiftorTranslateFILIPINO">الفليينية</string>
+ <string name="BiftorTranslateFINNISH">الفنلندية</string>
+ <string name="BiftorTranslateFRENCH">الفرنسية</string>
+ <string name="BiftorTranslateGALICIAN">الجاليسيانية</string>
+ <string name="BiftorTranslateGEORGIAN">الجورجية</string>
+ <string name="BiftorTranslateGERMAN">الألمانية</string>
+ <string name="BiftorTranslateGREEK">اليونانية</string>
+ <string name="BiftorTranslateGUJARATI">الكجراتية</string>
+ <string name="BiftorTranslateHAITIAN_CREOLE">الكريولية الهايتية</string>
+ <string name="BiftorTranslateHEBREW">العبرية</string>
+ <string name="BiftorTranslateHINDI">الهندية</string>
+ <string name="BiftorTranslateHUNGARIAN">الهنغارية</string>
+ <string name="BiftorTranslateICELANDIC">الأيسلندية</string>
+ <string name="BiftorTranslateINDONESIAN">الإندونيسية</string>
+ <string name="BiftorTranslateIRISH">الأيرلندية</string>
+ <string name="BiftorTranslateITALIAN">الإيطالية</string>
+ <string name="BiftorTranslateJAPANESE">اليابانية</string>
+ <string name="BiftorTranslateKANNADA">الكنادية</string>
+ <string name="BiftorTranslateKAZAKH">الكازاخية</string>
+ <string name="BiftorTranslateKOREAN">الكورية</string>
+ <string name="BiftorTranslateLATIN">اللاتينية</string>
+ <string name="BiftorTranslateLATVIAN">اللاتفية</string>
+ <string name="BiftorTranslateLITHUANIAN">الليتوانية</string>
+ <string name="BiftorTranslateMACEDONIAN">المقدونية</string>
+ <string name="BiftorTranslateMALAY">الملايوية</string>
+ <string name="BiftorTranslateMALTESE">المالطية</string>
+ <string name="BiftorTranslateNORWEGIAN">النرويجية</string>
+ <string name="BiftorTranslatePERSIAN">الفارسية</string>
+ <string name="BiftorTranslatePOLISH">البولونية</string>
+ <string name="BiftorTranslatePORTUGUESE">البرتغالية</string>
+ <string name="BiftorTranslateROMANIAN">الرومانية</string>
+ <string name="BiftorTranslateRUSSIAN">الروسية</string>
+ <string name="BiftorTranslateSERBIAN">الصربية</string>
+ <string name="BiftorTranslateSLOVAK">السلوفاكية</string>
+ <string name="BiftorTranslateSLOVENIAN">السلوفينية</string>
+ <string name="BiftorTranslateSPANISH">الإسبانية</string>
+ <string name="BiftorTranslateSWAHILI">السواحلية</string>
+ <string name="BiftorTranslateSWEDISH">السويدية</string>
+ <string name="BiftorTranslateTAMIL">التاميلية</string>
+ <string name="BiftorTranslateTELUGU">التيلوغوية</string>
+ <string name="BiftorTranslateTHAI">التايلاندية</string>
+ <string name="BiftorTranslateTURKISH">التركية</string>
+ <string name="BiftorTranslateUKRAINIAN">الأوكرانية</string>
+ <string name="BiftorTranslateURDU">الأردية</string>
+ <string name="BiftorTranslateUZBEK">الأوزباكية</string>
+ <string name="BiftorTranslateVIETNAMESE">الفيتنامية</string>
+ <string name="BiftorTranslateWELSH">الويلزية</string>
+ <string name="BiftorTranslateYIDDISH">اليديشية</string>
+ <string name="BiftorTranslateCHINESE_SIMPLIFIED">الصينية المبسطة</string>
+ <string name="BiftorTranslateCHINESE_TRADITIONAL">الصينية التقليدية</string>
 
 
 
  <!--Biftor delete from recent search-->
- <string name="BiftorDeletRecentSearchItem">Are you sure you want to delete this: **%1$s** from recent search?</string>
+ <string name="BiftorDeletRecentSearchItem">هل أنت متأكد أنك تريد حذف هذا: **٪ 1 $s** من البحث الأخير؟</string>
 
- <string name="BiftorDrawerContactAndGroup">Contacts and groups</string>
+ <string name="BiftorDrawerContactAndGroup">جهات الاتصال والمجموعات</string>
 
  <!--Biftor floating new msg-->
- <string name="BiftorChangeToSaveMsg">change FB to save message</string>
- <string name="BiftorChangeToSaveMsgSub">change new chat button (floating button in chat) to open saved messages</string>
+ <string name="BiftorChangeToSaveMsg">تغيير الزر العائم لحفظ الرسالة</string>
+ <string name="BiftorChangeToSaveMsgSub">تغيير زر الدردشة الجديد (الزر العائم في الدردشة) لفتح الرسائل المحفوظة</string>
 
- <string name="BiftorShow">Show</string>
- <string name="BiftorShowFolder">Show folder</string>
- <string name="BiftorHideFolder">Hide folder</string>
- <string name="BiftorHideFolderAreYouSure">Are you sure you want to hide this folder?</string>
- <string name="BiftorShowFolderAreYouSure">Are you sure you want to show this folder?</string>
+ <string name="BiftorShow">إظهار</string>
+ <string name="BiftorShowFolder">إظهار المجلد</string>
+ <string name="BiftorHideFolder">إخفاء المجلد</string>
+ <string name="BiftorHideFolderAreYouSure">هل أنت متأكد أنك تريد إخفاء هذا المجلد؟</string>
+ <string name="BiftorShowFolderAreYouSure">هل أنت متأكد أنك تريد إظهار هذا المجلد؟</string>
  <!--Biftor internal updater-->
- <string name="BiftorSkipUpdate">Skip</string>
- <string name="BiftorRemindTomorrow">Tomorrow</string>
- <string name="BiftorUpdateIsAvailable">Update is available</string>
- <string name="BiftorCheckForUpdate">Check for update</string>
- <string name="BiftorDownloadLatestVersion">Download last version</string>
+ <string name="BiftorSkipUpdate">تخطي</string>
+ <string name="BiftorRemindTomorrow">غدا</string>
+ <string name="BiftorUpdateIsAvailable">التحديث متوفر</string>
+ <string name="BiftorCheckForUpdate">فحص لمعرفة توفر التحديث</string>
+ <string name="BiftorDownloadLatestVersion">تحميل أحدث نسخة</string>
 
  <!--Biftor direct chats-->
- <string name="BiftorDirectChats">Direct chats</string>
- <string name="BiftorSetAsDirectChats">Set as direct chats</string>
- <string name="BiftorDirectChatsReset">Reset direct chat</string>
- <string name="BiftorDisplayDirectChats">Display direct chat at</string>
- <string name="BiftorDisplayDirectChatsSide">Sidebar</string>
- <string name="BiftorDisplayDirectChatsTab">Tab</string>
- <string name="BiftorDisplayDirectChatsSideTab">Sidebar and Tab</string>
- <string name="BiftorDirectChatsReorder">Direct chats order</string>
- <string name="BiftorShowDirectChatsInDrawer">Show direct chats in drawer</string>
- <string name="BiftorAddToFav">Add to favourite</string>
- <string name="BiftorDeleteFromFav">Delete from favourite</string>
+ <string name="BiftorDirectChats">الدردشات المباشرة</string>
+ <string name="BiftorSetAsDirectChats">تعيين كمحادثات مباشرة</string>
+ <string name="BiftorDirectChatsReset">إعادة تعيين الدردشة المباشرة</string>
+ <string name="BiftorDisplayDirectChats">عرض الدردشة المباشرة على</string>
+ <string name="BiftorDisplayDirectChatsSide">الشريط الجانبي</string>
+ <string name="BiftorDisplayDirectChatsTab">التبويب</string>
+ <string name="BiftorDisplayDirectChatsSideTab">الشريط الجانبي وعلامة التبويب</string>
+ <string name="BiftorDirectChatsReorder">ترتيب الدردشات المباشرة</string>
+ <string name="BiftorShowDirectChatsInDrawer">عرض الدردشات المباشرة بالقائمة</string>
+ <string name="BiftorAddToFav">أضف إلى المفضلة</string>
+ <string name="BiftorDeleteFromFav">حذف من المفضلة</string>
 
- <string name="BiftorHideSponsorProxy">Hide sponsor</string>
- <string name="BiftorHideSponsorProxySub">Hide sponsor proxy from chat list</string>
+ <string name="BiftorHideSponsorProxy">إخفاء الراعي</string>
+ <string name="BiftorHideSponsorProxySub">إخفاء راعي البروكسي من قائمة الدردشة</string>
 
  <!--Biftor shadow socks-->
- <string name="BiftorPing">Ping</string>
- <string name="BiftorProxyTypeShadowSocks">ShadowSocks Proxy</string>
- <string name="BiftorProxyTypeShadowSocksR">ShadowSocksR Proxy</string>
- <string name="BiftorProxyTypeVmess">Vmess Proxy</string>
- <string name="BiftorProxyInfoSSR">ShadowsocksR Proxy Settings</string>
- <string name="BiftorProxyInfoSS">Shadowsocks Proxy Settings</string>
- <string name="BiftorProxyInfoVmess">Vmess Proxy Settings</string>
- <string name="BiftorShadowProxySponsor">Sponsor</string>
+ <string name="BiftorPing">بينغ</string>
+ <string name="BiftorProxyTypeShadowSocks">بروكسي شادو سوكس</string>
+ <string name="BiftorProxyTypeShadowSocksR">بروكسي شادو سوكسر</string>
+ <string name="BiftorProxyTypeVmess">بروكسي فيميس</string>
+ <string name="BiftorProxyInfoSSR">إعدادات بروكسي شادو سوكسر</string>
+ <string name="BiftorProxyInfoSS">إعدادات بروكسي شادو سوكس</string>
+ <string name="BiftorProxyInfoVmess">إعدادات بروكسي فيميس</string>
+ <string name="BiftorShadowProxySponsor">الراعي</string>
 
- <string name="BiftorShadowSocksHelp">Help</string>
- <string name="BiftorImportProxy">Import from url</string>
- <string name="BiftorConnection">Connect: %1$d ms</string>
+ <string name="BiftorShadowSocksHelp">مساعدة</string>
+ <string name="BiftorImportProxy">إستيراد بإستخدام رابط</string>
+ <string name="BiftorConnection">الاتصال: %1$d بالثانية</string>
 
- <string name="BiftorVmessUserId">User Id</string>
- <string name="BiftorVmessAlterId">Alter Id</string>
- <string name="BiftorVmessSecurity">Security</string>
- <string name="BiftorVmessNetwork">Network</string>
- <string name="BiftorVmessHeadType">Head Type</string>
- <string name="BiftorVmessRequestHost">Request Host / QUIC Security</string>
- <string name="BiftorVmessPath">Path / QUICK Key</string>
- <string name="BiftorVmessTls">Use TLS</string>
+ <string name="BiftorVmessUserId">أيدي المستخدم</string>
+ <string name="BiftorVmessAlterId">الأيدي المعدل</string>
+ <string name="BiftorVmessSecurity">الحماية</string>
+ <string name="BiftorVmessNetwork">الشبكة</string>
+ <string name="BiftorVmessHeadType">نوع الرأس</string>
+ <string name="BiftorVmessRequestHost">طلب مضيف / حماية كويك</string>
+ <string name="BiftorVmessPath">مسار / مفتاح سريع</string>
+ <string name="BiftorVmessTls">استخدم TLS</string>
 
- <string name="BiftorSSPassword">Password</string>
- <string name="BiftorSSMethod">Encrypt Method</string>
- <string name="BiftorSSPlugin">Plugin</string>
- <string name="BiftorSSPluginOpts">Plugin Config</string>
+ <string name="BiftorSSPassword">كلمة السر</string>
+ <string name="BiftorSSMethod">طريقة التشفير</string>
+ <string name="BiftorSSPlugin">برنامج مساعد</string>
+ <string name="BiftorSSPluginOpts">تكوين البرنامج المساعد</string>
 
- <string name="BiftorSSRProtocol">Protocol</string>
- <string name="BiftorSSRProtocolParams">Protocol Params</string>
+ <string name="BiftorSSRProtocol">بروتوكول</string>
+ <string name="BiftorSSRProtocolParams">معلمات البروتوكول</string>
  <string name="BiftorSSRObfs">Obfs</string>
- <string name="BiftorSSRObfsParam">Obfs Param</string>
- <string name="BiftorShadowSocksModule">Shadow socks</string>
- <string name="BiftorStartShadowAsService">Start shadow as service</string>
- <string name="BiftorStartShadowAsServiceSub">Run shadow socks as background service</string>
- <string name="BiftorShadowSockServiceConnecting">Shadow Socks service is connecting</string>
- <string name="BiftorShadowSockServiceConnected">Shadow Socks service is running: %s</string>
- <string name="BiftorShadowSockServiceStop">Stop</string>
- <string name="BiftorShadowSocksConfig">Shadow socks config</string>
- <string name="BiftorStopShadowSocksWhenAppClosed">Stop Shadow socks when app closed</string>
- <string name="BiftorStopShadowSocksWhenAppClosedSub">Stop the Shadow socks when App Closed, if you disable it, when the Shadow socks is enable the whole app will not close.</string>
+ <string name="BiftorSSRObfsParam">Obfs معلمات</string>
+ <string name="BiftorShadowSocksModule">شادو سوكس</string>
+ <string name="BiftorStartShadowAsService">إبدأ شادو كخدمة</string>
+ <string name="BiftorStartShadowAsServiceSub">تشغيل شادو سوكس كخدمة في الخلفية</string>
+ <string name="BiftorShadowSockServiceConnecting">خدمة شادو سوكس قيد الاتصال</string>
+ <string name="BiftorShadowSockServiceConnected">خدمة شادو سوكس قيد التشغيل: %s</string>
+ <string name="BiftorShadowSockServiceStop">إيقاف</string>
+ <string name="BiftorShadowSocksConfig">إعداد شادو سوكس</string>
+ <string name="BiftorStopShadowSocksWhenAppClosed">وقف شادو سوكس عند إغلاق التطبيق</string>
+ <string name="BiftorStopShadowSocksWhenAppClosedSub">أوقف شادو سوكس عند إغلاق التطبيق ، إذا قمت بتعطيله ، فلن يتم إغلاق التطبيق بالكامل عند تمكين شادو سوكس.</string>
 
  <!--Biftor ads-->
- <string name="BiftorAdsTypeAdMob">AdMob</string>
- <string name="BiftorAdsTypeCustom">Ads</string>
- <string name="BiftorAdsTitle">BGram Ads</string>
- <string name="BiftorAdsSubTitle">Support BGram by Watching an Ad</string>
+ <string name="BiftorAdsTypeAdMob">أدموب</string>
+ <string name="BiftorAdsTypeCustom">إعلانات</string>
+ <string name="BiftorAdsTitle">إعلانات بيكرام</string>
+ <string name="BiftorAdsSubTitle">إدعم بيغرام من خلال مشاهدة إعلان</string>
 </resources>

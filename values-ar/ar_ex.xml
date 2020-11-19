@@ -35,7 +35,7 @@
     <string name="DidNotGetTheCode">لم يصلك الرمز؟</string>
     <string name="DidNotGetTheCodeSms">إرسال الرمز برسالة SMS قصيرة</string>
     <string name="CancelAccountReset">إلغاء إعادة تعيين الحساب</string>
-    <string name="CancelAccountResetInfo2">Somebody with access to **%1$s** has requested to delete your Telegram account and reset your 2-Step Verification password.\n\nIf this wasn\'t you, please enter the code we\'ve just sent you via SMS. You can also cancel this by *changing your phone number*.</string>
+    <string name="CancelAccountResetInfo2">شخص لديه حق الوصول إلى **%1$s** طلب حذف حساب تيليجرام الخاص بك وإعادة تعيين كلمة مرور التحقق بخطوتين.\n\nإذا لم تكن أنت ، فالرجاء إدخال الرمز الذي أرسلناه لك للتو عبر الرسائل القصيرة. يمكنك أيضًا إلغاء هذا عن طريق *تغيير رقم هاتفك*.</string>
     <string name="ResetAccount">إعادة تعيين الحساب</string>
     <string name="ResetAccountInfo">نظرًا لأن الحساب **%1$s** نشطٌ ومحميٌ بكلمة مرور؛ سنقوم بحذفه خلال أسبوع لدواعٍ أمنية.\n\nيمْكنك إلغاء هذه العملية في أي وقت.</string>
     <string name="ResetAccountStatus">ستتمكن من إعادة تعيين حسابك خلال:</string>
@@ -564,7 +564,7 @@
     <string name="SlowmodeSendError">تم تفعيل الوضع البطيء. لا يمكنك إرسال أكثر من رسالة مرةً واحدة.</string>
     <string name="SlowmodeSelectSendError">تم تفعيل الوضع البطيء. لا يمكنك تحديد المزيد من العناصر.</string>
     <string name="SlowmodeSendErrorTooLong">المعذرة، هذا النص طويل للغاية ولا يمكن إرساله برسالة واحدة.\n\nتم تفعيل الوضع البطيء. لا يمكنك إرسال عدة رسائل مرةً واحدة.</string>
-    <string name="UserSetAsAdminHint">**%1$s** promoted to admin</string>
+    <string name="UserSetAsAdminHint">**%1$s** تمت ترقيته إلى مشرف</string>
     <!--polls-->
     <string name="NewPoll">استفتاء جديد</string>
     <string name="NewQuiz">اختبار جديد</string>
@@ -901,7 +901,7 @@
     <string name="UnpinMessage">إلغاء التثبيت</string>
     <string name="PinMessageAlertTitle">تثبيت الرسالة</string>
     <string name="UnpinMessageAlertTitle">إلغاء تثبيت الرسالة</string>
-    <string name="PinOldMessageAlert">Do you want to pin an older message while leaving a more recent one pinned?</string>
+    <string name="PinOldMessageAlert">هل تريد تثبيت رسالة قديمة مع ترك رسالة أحدث مثبتة؟</string>
     <string name="PinMessageAlert">هل تريد تثبيت هذه الرسالة لكل الأعضاء في المجموعة؟</string>
     <string name="PinMessageAlertChannel">هل ترغب في تثبيت هذه الرسالة في هذه القناة؟</string>
     <string name="PinMessageAlertChat">هل ترغب في تثبيت هذه الرسالة أعلى هذه المحادثة؟</string>
@@ -1066,8 +1066,8 @@
     <string name="ChannelPostDeleted">المعذرة، تمت إزالة هذا المنشور من مجموعة المناقشة.</string>
     <string name="UnpinAllMessages">إلغاء تثبيت كل الرسائل</string>
     <string name="HidePinnedMessages">إخفاء الرسائل المثبّتة</string>
-    <string name="PinnedMessagesHidden">Pinned messages hidden</string>
-    <string name="PinnedMessagesHiddenInfo">Pinned messages will be shown again if a new message is pinned.</string>
+    <string name="PinnedMessagesHidden">الرسائل المثبتة مخفية</string>
+    <string name="PinnedMessagesHiddenInfo">سيتم عرض الرسائل المثبتة مرة أخرى إذا تم تثبيت رسالة جديدة.</string>
     <!--notification-->
     <string name="MessageLifetimeChanged">عيّن %1$s عداد التدمير الذاتي ليصبح %2$s</string>
     <string name="MessageLifetimeChangedOutgoing">قمت بتعيين عداد التدمير الذاتي ليصبح %1$s</string>
@@ -2379,8 +2379,8 @@
     <string name="LocationUpdatedJustNow">تم تحديثه الآن</string>
     <string name="SharingYouAndOtherName">أنت و%1$s</string>
     <string name="AttachLiveLocationIsSharing">%1$s تتم مشاركته مع %2$s</string>
-    <string name="AttachLiveLocationIsSharingChat">%1$s sharing with %2$s</string>
-    <string name="AttachLiveLocationIsSharingChats">%1$s sharing with %2$s</string>
+    <string name="AttachLiveLocationIsSharingChat">%1$s مشاركة مع %2$s</string>
+    <string name="AttachLiveLocationIsSharingChats">%1$s مشاركة مع %2$s</string>
     <string name="StopAllLocationSharings">إيقاف الكل</string>
     <string name="SharingLiveLocationTitle">تقوم بمشاركة موقعك الحي مع %1$s</string>
     <string name="LiveLocationAlertPrivate">اختر المدة التي سيتمكن خلالها %1$s من مشاهدة موقعك الفعلي.</string>
@@ -2411,7 +2411,7 @@
     <string name="PlacesInThisArea">الأماكن في هذه المنطقة</string>
     <string name="LocationNotifiation">تنبيه الاقتراب</string>
     <string name="LocationNotifiationButtonUser">نبّهني عندما يكون %1$s على بعد&#160;%2$s</string>
-    <string name="LocationNotifiationButtonGroup">Notify when someone is within %1$s</string>
+    <string name="LocationNotifiationButtonGroup">إشعاري عندما يكون شخص ما في الداخل %1$s</string>
     <string name="LocationNotifiationCloser">أنت أقرب من&#160;%1$s</string>
     <string name="ShareLocationAlertTitle">مشاركة الموقع</string>
     <string name="ShareLocationAlertButton">مشاركة</string>
@@ -2419,9 +2419,9 @@
     <string name="ProximityTooltioUser">التنبيه عندما يكون %1$s  قريبًا</string>
     <string name="ProximityTooltioGroup">التنبيه عندما يكون أعضاء المجموعة قريبين</string>
     <string name="ProximityAlertSet">Proximity alert set</string>
-    <string name="ProximityAlertSetInfoUser">We will notify you once %1$s is within %2$s from you.</string>
-    <string name="ProximityAlertSetInfoGroup2">We will notify you once someone is within %1$s from you.</string>
-    <string name="ProximityAlertCancelled">Proximity alert cancelled</string>
+    <string name="ProximityAlertSetInfoUser">سوف نخطرك مرة واحدة %1$s ضمن %2$s منك</string>
+    <string name="ProximityAlertSetInfoGroup2">سنخطرك بمجرد وجود شخص ما في الداخل %1$s منك.</string>
+    <string name="ProximityAlertCancelled">تم إلغاء تنبيه القرب</string>
     <!--photo gallery view-->
     <string name="ShowAsList">عرض في لائحة</string>
     <string name="ShowAsGrid">عرض كمصفوفة</string>
@@ -2532,38 +2532,38 @@
     <string name="PhotoSavedToDownloadsHint">تم حفظ الصورة في التنزيلات</string>
     <string name="VideoSavedToDownloadsHint">تم حفظ المقطع في التنزيلات</string>
     <string name="GifSavedToDownloadsHint">تم حفظ الصورة المتحركة في التنزيلات</string>
-    <string name="AudioSavedHint">File saved to music</string>
-    <string name="FileSavedHint">File saved to downloads</string>
-    <string name="FilesSavedHint_zero">%1$d files saved to downloads</string>
-    <string name="FilesSavedHint_one">File saved to downloads</string>
-    <string name="FilesSavedHint_two">%1$d files saved to downloads</string>
-    <string name="FilesSavedHint_few">%1$d files saved to downloads</string>
-    <string name="FilesSavedHint_many">%1$d files saved to downloads</string>
-    <string name="FilesSavedHint_other">%1$d files saved to downloads</string>
-    <string name="PhotosSavedHint_zero">%1$d photos saved to gallery</string>
-    <string name="PhotosSavedHint_one">Photo saved to gallery</string>
-    <string name="PhotosSavedHint_two">%1$d photos saved to gallery</string>
-    <string name="PhotosSavedHint_few">%1$d photos saved to gallery</string>
-    <string name="PhotosSavedHint_many">%1$d photos saved to gallery</string>
-    <string name="PhotosSavedHint_other">%1$d photos saved to gallery</string>
-    <string name="VideosSavedHint_zero">%1$d videos saved to gallery</string>
-    <string name="VideosSavedHint_one">Video saved to gallery</string>
-    <string name="VideosSavedHint_two">%1$d videos saved to gallery</string>
-    <string name="VideosSavedHint_few">%1$d videos saved to gallery</string>
-    <string name="VideosSavedHint_many">%1$d videos saved to gallery</string>
-    <string name="VideosSavedHint_other">%1$d videos saved to gallery</string>
-    <string name="AudiosSavedHint_zero">%1$d files saved to music</string>
-    <string name="AudiosSavedHint_one">File saved to music</string>
-    <string name="AudiosSavedHint_two">%1$d files saved to music</string>
-    <string name="AudiosSavedHint_few">%1$d files saved to music</string>
-    <string name="AudiosSavedHint_many">%1$d files saved to music</string>
-    <string name="AudiosSavedHint_other">%1$d files saved to music</string>
-    <string name="MediaSavedHint_zero">%1$d items saved to gallery</string>
-    <string name="MediaSavedHint_one">One item saved to gallery</string>
-    <string name="MediaSavedHint_two">%1$d items saved to gallery</string>
-    <string name="MediaSavedHint_few">%1$d items saved to gallery</string>
-    <string name="MediaSavedHint_many">%1$d items saved to gallery</string>
-    <string name="MediaSavedHint_other">%1$d items saved to gallery</string>
+    <string name="AudioSavedHint">تم حفظ الملف في الموسيقى</string>
+    <string name="FileSavedHint">تم حفظ الملف في التنزيلات</string>
+    <string name="FilesSavedHint_zero">%1$d تم حفظ الملفات في التنزيلات</string>
+    <string name="FilesSavedHint_one">تم حفظ الملف في التنزيلات</string>
+    <string name="FilesSavedHint_two">%1$d تم حفظ الملفات في التنزيلات</string>
+    <string name="FilesSavedHint_few">%1$d تم حفظ الملفات في التنزيلات</string>
+    <string name="FilesSavedHint_many">%1$d تم حفظ الملفات في التنزيلات</string>
+    <string name="FilesSavedHint_other">%1$d تم حفظ الملفات في التنزيلات</string>
+    <string name="PhotosSavedHint_zero">%1$d تم حفظ الصورة بالمعرض</string>
+    <string name="PhotosSavedHint_one">تم حفظ الصورة بالمعرض</string>
+    <string name="PhotosSavedHint_two">%1$d تم حفظ الصور بالمعرض</string>
+    <string name="PhotosSavedHint_few">%1$d تم حفظ الصور بالمعرض</string>
+    <string name="PhotosSavedHint_many">%1$d تم حفظ الصور بالمعرض</string>
+    <string name="PhotosSavedHint_other">%1$d تم حفظ الصور بالمعرض</string>
+    <string name="VideosSavedHint_zero">%1$d تم حفظ الصور بالمعرض</string>
+    <string name="VideosSavedHint_one">تم حفظ الفيديو بالمعرض</string>
+    <string name="VideosSavedHint_two">%1$d تم حفظ الفيديو بالمعرض</string>
+    <string name="VideosSavedHint_few">%1$d تم حفظ الفيديوهات بالمعرض</string>
+    <string name="VideosSavedHint_many">%1$d تم حفظ الفيديوهات بالمعرض</string>
+    <string name="VideosSavedHint_other">%1$d تم حفظ الفيديوهات في المعرض</string>
+    <string name="AudiosSavedHint_zero">%1$d تم حفظ الملفات في الموسيقى</string>
+    <string name="AudiosSavedHint_one">تم حفظ الملف في الموسيقى</string>
+    <string name="AudiosSavedHint_two">%1$d تم حفظ الملفات في الموسيقى</string>
+    <string name="AudiosSavedHint_few">%1$d تم حفظ الملفات في الموسيقى</string>
+    <string name="AudiosSavedHint_many">%1$d تم حفظ الملفات في الموسيقى</string>
+    <string name="AudiosSavedHint_other">%1$d تم حفظ الملفات في الموسيقى</string>
+    <string name="MediaSavedHint_zero">%1$d تم حفظ العناصر في المعرض</string>
+    <string name="MediaSavedHint_one">تم حفظ عنصر واحد في المعرض</string>
+    <string name="MediaSavedHint_two">%1$d تم حفظ العناصر في المعرض</string>
+    <string name="MediaSavedHint_few">%1$d تم حفظ العناصر في المعرض</string>
+    <string name="MediaSavedHint_many">%1$d تم حفظ العناصر في المعرض</string>
+    <string name="MediaSavedHint_other">%1$d تم حفظ العناصر في المعرض</string>
     <!--password view-->
     <string name="TwoStepVerification">التحقق بخطوتين</string>
     <string name="TwoStepVerificationTitle">التحقق بخطوتين</string>
@@ -3026,7 +3026,7 @@
     <string name="PermissionDrawAboveOtherApps">يحتاج تيليجرام إلى صلاحية الظهور فوق التطبيقات لتشغيل المقاطع المرئية في وضع (صورة في الصورة).</string>
     <string name="PermissionOpenSettings">الإعدادات</string>
     <string name="PermissionXiaomiLockscreen">يرجى السماح لتيليجرام بالظهور على شاشة القفل للتمكن من إجراء المكالمات دون مشاكل.</string>
-    <string name="PermissionBackgroundLocation">To share your live location in this chat, Telegram needs access to your location all the time, including while the app is in the background.\n\nWe will access your location only for the duration you choose, and you can stop sharing it any time. We won\'t use your location for any purpose other than sharing it in this chat.</string>
+    <string name="PermissionBackgroundLocation">لمشاركة موقعك المباشر في هذه الدردشة ، يحتاج تيليجرام إلى الوصول إلى موقعك طوال الوقت ، بما في ذلك أثناء وجود التطبيق في الخلفية. \ n \ n سنصل إلى موقعك فقط للمدة التي تختارها ، ويمكنك إيقاف مشاركته لأي زمن. لن نستخدم موقعك لأي غرض بخلاف مشاركته في هذه الدردشة.</string>
     <!--charts-->
     <string name="GrowthChartTitle">النّمو</string>
     <string name="FollowersChartTitle">المتابِعون</string>
@@ -3103,8 +3103,8 @@
     <string name="SearchTipToday">اليوم</string>
     <string name="SearchTipYesterday">يوم أمس</string>
     <string name="StatisticViews">المشاهدات</string>
-    <string name="PublicShares">Public Shares</string>
-    <string name="PrivateShares">Private Shares</string>
+    <string name="PublicShares">مشاركات عامة</string>
+    <string name="PrivateShares">مشاركات خاصة</string>
     <string name="ViewStats">عرض الإحصائيات</string>
     <string name="ViewChannelStats">عرض إحصائيات القناة</string>
     <string name="ViewMessageStatistic">إحصائيات المنشور</string>
@@ -3343,12 +3343,12 @@
     <string name="NewMessages_few">%1$d رسائل جديدة</string>
     <string name="NewMessages_many">%1$d رسالة جديدة</string>
     <string name="NewMessages_other">%1$d رسالة جديدة</string>
-    <string name="MessagesUnpinned_zero">%1$d messages unpinned</string>
-    <string name="MessagesUnpinned_one">message unpinned</string>
-    <string name="MessagesUnpinned_two">%1$d messages unpinned</string>
-    <string name="MessagesUnpinned_few">%1$d messages unpinned</string>
-    <string name="MessagesUnpinned_many">%1$d messages unpinned</string>
-    <string name="MessagesUnpinned_other">%1$d messages unpinned</string>
+    <string name="MessagesUnpinned_zero">%1$d تم إلغاء تثبيت الرسائل</string>
+    <string name="MessagesUnpinned_one">تم إلغاء تثبيت الرسالة</string>
+    <string name="MessagesUnpinned_two">%1$d تم إلغاء تثبيت الرسائل</string>
+    <string name="MessagesUnpinned_few">%1$d تم إلغاء تثبيت الرسائل</string>
+    <string name="MessagesUnpinned_many">%1$d تم إلغاء تثبيت الرسائل</string>
+    <string name="MessagesUnpinned_other">%1$d تم إلغاء تثبيت الرسائل</string>
     <string name="messages_zero">%1$d رسالة</string>
     <string name="messages_one">رسالة واحدة</string>
     <string name="messages_two">رسالتين</string>
@@ -3505,12 +3505,12 @@
     <string name="Shares_few">%1$s مشاركات</string>
     <string name="Shares_many">%1$s مشاركة</string>
     <string name="Shares_other">%1$s مشاركة</string>
-    <string name="PublicSharesCount_zero">%1$s public shares</string>
-    <string name="PublicSharesCount_one">%1$s public share</string>
-    <string name="PublicSharesCount_two">%1$s public shares</string>
-    <string name="PublicSharesCount_few">%1$s public shares</string>
-    <string name="PublicSharesCount_many">%1$s public shares</string>
-    <string name="PublicSharesCount_other">%1$s public shares</string>
+    <string name="PublicSharesCount_zero">%1$s المشاركات العامة</string>
+    <string name="PublicSharesCount_one">%1$s مشاركة عامة</string>
+    <string name="PublicSharesCount_two">%1$s المشاركات العامة</string>
+    <string name="PublicSharesCount_few">%1$s المشاركات العامة</string>
+    <string name="PublicSharesCount_many">%1$s المشاركات العامة</string>
+    <string name="PublicSharesCount_other">%1$s المشاركات العامة</string>
     <string name="Shared_zero">%1$s مشاركة</string>
     <string name="Shared_one">مشاركة واحدة</string>
     <string name="Shared_two">مشاركتان</string>
@@ -3734,12 +3734,12 @@
     <string name="CommentsNoNumber_few">تعليقات</string>
     <string name="CommentsNoNumber_many">تعليقًا</string>
     <string name="CommentsNoNumber_other">تعليق</string>
-    <string name="PinnedMessagesCount_zero">%1$d Pinned Messages</string>
-    <string name="PinnedMessagesCount_one">Pinned Message</string>
-    <string name="PinnedMessagesCount_two">%1$d Pinned Messages</string>
-    <string name="PinnedMessagesCount_few">%1$d Pinned Messages</string>
-    <string name="PinnedMessagesCount_many">%1$d Pinned Messages</string>
-    <string name="PinnedMessagesCount_other">%1$d Pinned Messages</string>
+    <string name="PinnedMessagesCount_zero">%1$d الرسائل المثبتة</string>
+    <string name="PinnedMessagesCount_one">رسالة مثبتة</string>
+    <string name="PinnedMessagesCount_two">%1$d الرسائل المثبتة</string>
+    <string name="PinnedMessagesCount_few">%1$d الرسائل المثبتة</string>
+    <string name="PinnedMessagesCount_many">%1$d الرسائل المثبتة</string>
+    <string name="PinnedMessagesCount_other">%1$d الرسائل المثبتة</string>
     <!--accessibility descriptions-->
     <string name="AccDescrGroup">مجموعة</string>
     <string name="AccDescrChannel">قناة</string>
@@ -4047,8 +4047,8 @@
 
     <!-- Biftor dismiss only -->
     <string name="BiftorDismissOnly">الرفض فقط</string>
-    <string name="BiftorUnpinMessageAlertTitle">Unpin messages</string>
-    <string name="BiftorUnpinMessageAlert">Do you want to dismiss or unpin all messages?</string>
+    <string name="BiftorUnpinMessageAlertTitle">إلغاء تثبيت الرسائل</string>
+    <string name="BiftorUnpinMessageAlert">هل تريد رفض أو إلغاء تثبيت كل الرسائل؟</string>
 
     <!-- Biftor dark blue theme -->
     <string name="BGramDarkBlue">بيگرام أزرق غامق</string>
@@ -4141,9 +4141,9 @@
     <string name="BiftorDonateEther">إيثر</string>
     <string name="BiftorDonateStellar">ستيلر</string>
     <string name="BiftorDonatePayPal">بايبال</string>
-    <string name="BiftorDonateYandex">Yandex</string>
-    <string name="BiftorDonatePayeer">Payeer</string>
-    <string name="BiftorDonateQiwi">Qiwi</string>
+    <string name="BiftorDonateYandex">ياندكس</string>
+    <string name="BiftorDonatePayeer">بايير</string>
+    <string name="BiftorDonateQiwi">كيوي</string>
     <string name="BiftorGettingDonationAddress"> الحصول على عنوان التبرع ...</string>
     <string name="BiftorDonationAddressCopied">تم نسخ عنوان التبرع الى الحافظة</string>
     <string name="BiftorGettingDonationAddressFailed">فشل تحميل  عنوان التبرع , حاول مرة أخرى في وقت لاحق...</string>
@@ -4238,7 +4238,7 @@
     <string name="BiftorHiddenChatsButton">زر المحادثات المخفية</string>
     <string name="BiftorHiddenChatsButtonNewMessages">إضغط طويلا على الرسائل الجديدة</string>
     <string name="BiftorHiddenChatsButtonSearch">إضغط طويلا على زر البحث</string>
-    <string name="BiftorHiddenChatsButtonOpenDrawer">Long click on open drawer</string>
+    <string name="BiftorHiddenChatsButtonOpenDrawer">نقرة طويلة على درج مفتوح</string>
     <string name="BiftorRemoveHiddenChatsNotifi">إزالة إشعارات المحادثات المخفية</string>
 
     <!-- Biftor export chat list -->
@@ -4349,33 +4349,33 @@
     <string name="BiftorEnableCameraAttachMenu">تمكين زر  الكاميرا بلوحة الإرفاق</string>
 
     <!-- Biftor added more media screen tabs -->
-    <string name="BiftorMediaTabPhotos_zero">%1$d photos</string>
-    <string name="BiftorMediaTabPhotos_one">%1$d photos</string>
-    <string name="BiftorMediaTabPhotos_two">%1$d photos</string>
-    <string name="BiftorMediaTabPhotos_few">%1$d photos</string>
-    <string name="BiftorMediaTabPhotos_many">%1$d photos</string>
-    <string name="BiftorMediaTabPhotos_other">%1$d photos</string>
+    <string name="BiftorMediaTabPhotos_zero">%1$d صور</string>
+    <string name="BiftorMediaTabPhotos_one">%1$d صور</string>
+    <string name="BiftorMediaTabPhotos_two">%1$d صور</string>
+    <string name="BiftorMediaTabPhotos_few">%1$d صور</string>
+    <string name="BiftorMediaTabPhotos_many">%1$d صور</string>
+    <string name="BiftorMediaTabPhotos_other">%1$d صور</string>
 
-    <string name="BiftorMediaTabVideos_zero">%1$d videos</string>
-    <string name="BiftorMediaTabVideos_one">%1$d videos</string>
-    <string name="BiftorMediaTabVideos_two">%1$d videos</string>
-    <string name="BiftorMediaTabVideos_few">%1$d videos</string>
-    <string name="BiftorMediaTabVideos_many">%1$d videos</string>
-    <string name="BiftorMediaTabVideos_other">%1$d videos</string>
+    <string name="BiftorMediaTabVideos_zero">%1$d مقاطع فيديو</string>
+    <string name="BiftorMediaTabVideos_one">%1$d مقاطع فيديو</string>
+    <string name="BiftorMediaTabVideos_two">%1$d مقاطع فيديو</string>
+    <string name="BiftorMediaTabVideos_few">%1$d مقاطع فيديو</string>
+    <string name="BiftorMediaTabVideos_many">%1$d مقاطع فيديو</string>
+    <string name="BiftorMediaTabVideos_other">%1$d مقاطع فيديو</string>
 
-    <string name="BiftorMediaTabGifs_zero">%1$d gifs</string>
-    <string name="BiftorMediaTabGifs_one">%1$d gifs</string>
-    <string name="BiftorMediaTabGifs_two">%1$d gifs</string>
-    <string name="BiftorMediaTabGifs_few">%1$d gifs</string>
-    <string name="BiftorMediaTabGifs_many">%1$d gifs</string>
-    <string name="BiftorMediaTabGifs_other">%1$d gifs</string>
+    <string name="BiftorMediaTabGifs_zero">%1$d صور متحركة</string>
+    <string name="BiftorMediaTabGifs_one">%1$d صور متحركة</string>
+    <string name="BiftorMediaTabGifs_two">%1$d صور متحركة</string>
+    <string name="BiftorMediaTabGifs_few">%1$d صور متحركة</string>
+    <string name="BiftorMediaTabGifs_many">%1$d صور متحركة</string>
+    <string name="BiftorMediaTabGifs_other">%1$d صور متحركة</string>
 
-    <string name="BiftorMediaTabRounds_zero">%1$d rounds</string>
-    <string name="BiftorMediaTabRounds_one">%1$d rounds</string>
-    <string name="BiftorMediaTabRounds_two">%1$d rounds</string>
-    <string name="BiftorMediaTabRounds_few">%1$d rounds</string>
-    <string name="BiftorMediaTabRounds_many">%1$d rounds</string>
-    <string name="BiftorMediaTabRounds_other">%1$d rounds</string>
+    <string name="BiftorMediaTabRounds_zero">%1$d مقاطع فيديو مستديرة</string>
+    <string name="BiftorMediaTabRounds_one">%1$d مقاطع فيديو مستديرة</string>
+    <string name="BiftorMediaTabRounds_two">%1$d مقاطع فيديو مستديرة</string>
+    <string name="BiftorMediaTabRounds_few">%1$d مقاطع فيديو مستديرة</string>
+    <string name="BiftorMediaTabRounds_many">%1$d مقاطع فيديو مستديرة</string>
+    <string name="BiftorMediaTabRounds_other">%1$d مقاطع فيديو مستديرة</string>
 
     <string name="BiftorMediaTabPhotos">الصور</string>
     <string name="BiftorProMediaTabPhotos">صور</string>
@@ -4540,17 +4540,18 @@
     <string name="BiftorForwardPanelCat">لوحة التوجيه</string>
 
     <!--Biftor External language-->
-    <string name="BiftorLocalVersion">0</string>
+    <string name="BiftorLocalVersion">1</string>
 
     <!--Biftor login with bot-->
     <string name="BiftorLoginWithBotToKen">تسجيل الدخول باستخدام توكن بوت</string>
-    <string name="BiftorBotToken">Paste your bot token</string>
-    <string name="BiftorLoginWithBotInfo">You can use the @BotFather to create a new bot.\n\nWhen you login with a bot, you will have all the limitations that bots have, including:\n
-		- You do not have access to your contacts.\n
-		- You can\'t join groups and channels (unless admins add you).\n
-		- You can only write to users who have already sent you /start.\n
-		- You will not be able to see when users read your messages.\n
-		- The chat list is empty when you first login, and will populate when the bot receives messages from users and groups. Group detection can be particularly slow.</string>
+    <string name="BiftorBotToken">لصق رمز البوت الخاص بك</string>
+    <string name="BiftorLoginWithBotInfo">يمكنك استخدام BotFather لإنشاء بوت جديد. \ n \ n عند تسجيل الدخول باستخدام بوت، سيكون لديك كل القيود التي تفرضها برامج البوت، بما في ذلك: \ n
+	- ليس لديك حق الوصول إلى جهات الاتصال الخاصة بك. \ n
+	- لا يمكنك الانضمام إلى المجموعات والقنوات (ما لم يضيفك المسؤولون). \ n
+	- يمكنك فقط الكتابة إلى المستخدمين الذين أرسلوا لك /start.\n
+	- لن تتمكن من رؤية الوقت الذي يقرأ فيه المستخدمون رسائلك. \ n
+	- تكون قائمة الدردشة فارغة عند تسجيل الدخول لأول مرة ، وستظهر عندما يتلقى البوت رسائل من المستخدمين والمجموعات. يمكن أن يكون اكتشاف المجموعة بطيئا بشكل خاص</string>
+
 
     <!--Biftor Tor -->
     <string name="BiftorTorStarting">لقد بدأ تور&#8230;</string>
@@ -4608,7 +4609,7 @@
     <string name="BiftorReducedConnectionPaddingSub">إغلاق تتابع الإتصال و إرسال حزم أقل لتقليل إستخدام  البيانات و البطارية</string>
     <string name="BiftorConnectTorWhenForNotify">قم بتوصيل تور  عند تلقي الإخطار</string>
     <string name="BiftorGetBridgeFromGithub">طلب جسر جديد من (Github)</string>
-    <string name="BiftorTORModule">BGram TOR</string>
+    <string name="BiftorTORModule">بيكرام تور</string>
 
     <!--Biftor custom tabs-->
     <string name="BiftorNewTab">تبويب جديد</string>
@@ -4672,162 +4673,162 @@
     <string name="BiftorChannelDiscuss">مناقشة</string>
 
     <!--Biftor Translate-->
-    <string name="BiftorTranslate">Translate</string>
-    <string name="BiftorTranslateEnterText">Enter text</string>
-    <string name="BiftorTranslateEnterTextEmpty">You must enter text to translate</string>
-    <string name="BiftorTranslateAUTO_DETECT">Auto detect</string>
-    <string name="BiftorTranslateAFRIKAANS">AFRIKAANS</string>
-    <string name="BiftorTranslateALBANIAN">ALBANIAN</string>
-    <string name="BiftorTranslateARABIC">ARABIC</string>
-    <string name="BiftorTranslateARMENIAN">ARMENIAN</string>
-    <string name="BiftorTranslateAZERBAIJANI">AZERBAIJANI</string>
-    <string name="BiftorTranslateBASQUE">BASQUE</string>
-    <string name="BiftorTranslateBELARUSIAN">BELARUSIAN</string>
-    <string name="BiftorTranslateBENGALI">BENGALI</string>
-    <string name="BiftorTranslateBULGARIAN">BULGARIAN</string>
-    <string name="BiftorTranslateCATALAN">CATALAN</string>
-    <string name="BiftorTranslateCHINESE">CHINESE</string>
-    <string name="BiftorTranslateCROATIAN">CROATIAN</string>
-    <string name="BiftorTranslateCZECH">CZECH</string>
-    <string name="BiftorTranslateDANISH">DANISH</string>
-    <string name="BiftorTranslateDUTCH">DUTCH</string>
-    <string name="BiftorTranslateENGLISH">ENGLISH</string>
-    <string name="BiftorTranslateESTONIAN">ESTONIAN</string>
-    <string name="BiftorTranslateFILIPINO">FILIPINO</string>
-    <string name="BiftorTranslateFINNISH">FINNISH</string>
-    <string name="BiftorTranslateFRENCH">FRENCH</string>
-    <string name="BiftorTranslateGALICIAN">GALICIAN</string>
-    <string name="BiftorTranslateGEORGIAN">GEORGIAN</string>
-    <string name="BiftorTranslateGERMAN">GERMAN</string>
-    <string name="BiftorTranslateGREEK">GREEK</string>
-    <string name="BiftorTranslateGUJARATI">GUJARATI</string>
-    <string name="BiftorTranslateHAITIAN_CREOLE">HAITIAN CREOLE</string>
-    <string name="BiftorTranslateHEBREW">HEBREW</string>
-    <string name="BiftorTranslateHINDI">HINDI</string>
-    <string name="BiftorTranslateHUNGARIAN">HUNGARIAN</string>
-    <string name="BiftorTranslateICELANDIC">ICELANDIC</string>
-    <string name="BiftorTranslateINDONESIAN">INDONESIAN</string>
-    <string name="BiftorTranslateIRISH">IRISH</string>
-    <string name="BiftorTranslateITALIAN">ITALIAN</string>
-    <string name="BiftorTranslateJAPANESE">JAPANESE</string>
-    <string name="BiftorTranslateKANNADA">KANNADA</string>
-    <string name="BiftorTranslateKAZAKH">KAZAKH</string>
-    <string name="BiftorTranslateKOREAN">KOREAN</string>
-    <string name="BiftorTranslateLATIN">LATIN</string>
-    <string name="BiftorTranslateLATVIAN">LATVIAN</string>
-    <string name="BiftorTranslateLITHUANIAN">LITHUANIAN</string>
-    <string name="BiftorTranslateMACEDONIAN">MACEDONIAN</string>
-    <string name="BiftorTranslateMALAY">MALAY</string>
-    <string name="BiftorTranslateMALTESE">MALTESE</string>
-    <string name="BiftorTranslateNORWEGIAN">NORWEGIAN</string>
-    <string name="BiftorTranslatePERSIAN">PERSIAN</string>
-    <string name="BiftorTranslatePOLISH">POLISH</string>
-    <string name="BiftorTranslatePORTUGUESE">PORTUGUESE</string>
-    <string name="BiftorTranslateROMANIAN">ROMANIAN</string>
-    <string name="BiftorTranslateRUSSIAN">RUSSIAN</string>
-    <string name="BiftorTranslateSERBIAN">SERBIAN</string>
-    <string name="BiftorTranslateSLOVAK">SLOVAK</string>
-    <string name="BiftorTranslateSLOVENIAN">SLOVENIAN</string>
-    <string name="BiftorTranslateSPANISH">SPANISH</string>
-    <string name="BiftorTranslateSWAHILI">SWAHILI</string>
-    <string name="BiftorTranslateSWEDISH">SWEDISH</string>
-    <string name="BiftorTranslateTAMIL">TAMIL</string>
-    <string name="BiftorTranslateTELUGU">TELUGU</string>
-    <string name="BiftorTranslateTHAI">THAI</string>
-    <string name="BiftorTranslateTURKISH">TURKISH</string>
-    <string name="BiftorTranslateUKRAINIAN">UKRAINIAN</string>
-    <string name="BiftorTranslateURDU">URDU</string>
-    <string name="BiftorTranslateUZBEK">UZBEK</string>
-    <string name="BiftorTranslateVIETNAMESE">VIETNAMESE</string>
-    <string name="BiftorTranslateWELSH">WELSH</string>
-    <string name="BiftorTranslateYIDDISH">YIDDISH</string>
-    <string name="BiftorTranslateCHINESE_SIMPLIFIED">CHINESE SIMPLIFIED</string>
-    <string name="BiftorTranslateCHINESE_TRADITIONAL">CHINESE TRADITIONAL</string>
+    <string name="BiftorTranslate">ترجمة</string>
+    <string name="BiftorTranslateEnterText">أدخل نص</string>
+    <string name="BiftorTranslateEnterTextEmpty">يجب عليك إدخال نص لترجمته</string>
+    <string name="BiftorTranslateAUTO_DETECT">إكتشاف تلقائي</string>
+    <string name="BiftorTranslateAFRIKAANS">الافريقية</string>
+    <string name="BiftorTranslateALBANIAN">الألبانية</string>
+    <string name="BiftorTranslateARABIC">العربية</string>
+    <string name="BiftorTranslateARMENIAN">الأمريكية</string>
+    <string name="BiftorTranslateAZERBAIJANI">الأذربيجانية</string>
+    <string name="BiftorTranslateBASQUE">الباسكية</string>
+    <string name="BiftorTranslateBELARUSIAN">البيلاروسية</string>
+    <string name="BiftorTranslateBENGALI">البنغالية</string>
+    <string name="BiftorTranslateBULGARIAN">البلغارية</string>
+    <string name="BiftorTranslateCATALAN">الكتالونية</string>
+    <string name="BiftorTranslateCHINESE">الصينية</string>
+    <string name="BiftorTranslateCROATIAN">الكرواتية</string>
+    <string name="BiftorTranslateCZECH">التشيكية</string>
+    <string name="BiftorTranslateDANISH">الدانماركية</string>
+    <string name="BiftorTranslateDUTCH">الهولندية</string>
+    <string name="BiftorTranslateENGLISH">الإنجليزية</string>
+    <string name="BiftorTranslateESTONIAN">الإستونية</string>
+    <string name="BiftorTranslateFILIPINO">الفليينية</string>
+    <string name="BiftorTranslateFINNISH">الفنلندية</string>
+    <string name="BiftorTranslateFRENCH">الفرنسية</string>
+    <string name="BiftorTranslateGALICIAN">الجاليسيانية</string>
+    <string name="BiftorTranslateGEORGIAN">الجورجية</string>
+    <string name="BiftorTranslateGERMAN">الألمانية</string>
+    <string name="BiftorTranslateGREEK">اليونانية</string>
+    <string name="BiftorTranslateGUJARATI">الكجراتية</string>
+    <string name="BiftorTranslateHAITIAN_CREOLE">الكريولية الهايتية</string>
+    <string name="BiftorTranslateHEBREW">العبرية</string>
+    <string name="BiftorTranslateHINDI">الهندية</string>
+    <string name="BiftorTranslateHUNGARIAN">الهنغارية</string>
+    <string name="BiftorTranslateICELANDIC">الأيسلندية</string>
+    <string name="BiftorTranslateINDONESIAN">الإندونيسية</string>
+    <string name="BiftorTranslateIRISH">الأيرلندية</string>
+    <string name="BiftorTranslateITALIAN">الإيطالية</string>
+    <string name="BiftorTranslateJAPANESE">اليابانية</string>
+    <string name="BiftorTranslateKANNADA">الكنادية</string>
+    <string name="BiftorTranslateKAZAKH">الكازاخية</string>
+    <string name="BiftorTranslateKOREAN">الكورية</string>
+    <string name="BiftorTranslateLATIN">اللاتينية</string>
+    <string name="BiftorTranslateLATVIAN">اللاتفية</string>
+    <string name="BiftorTranslateLITHUANIAN">الليتوانية</string>
+    <string name="BiftorTranslateMACEDONIAN">المقدونية</string>
+    <string name="BiftorTranslateMALAY">الملايوية</string>
+    <string name="BiftorTranslateMALTESE">المالطية</string>
+    <string name="BiftorTranslateNORWEGIAN">النرويجية</string>
+    <string name="BiftorTranslatePERSIAN">الفارسية</string>
+    <string name="BiftorTranslatePOLISH">البولونية</string>
+    <string name="BiftorTranslatePORTUGUESE">البرتغالية</string>
+    <string name="BiftorTranslateROMANIAN">الرومانية</string>
+    <string name="BiftorTranslateRUSSIAN">الروسية</string>
+    <string name="BiftorTranslateSERBIAN">الصربية</string>
+    <string name="BiftorTranslateSLOVAK">السلوفاكية</string>
+    <string name="BiftorTranslateSLOVENIAN">السلوفينية</string>
+    <string name="BiftorTranslateSPANISH">الإسبانية</string>
+    <string name="BiftorTranslateSWAHILI">السواحلية</string>
+    <string name="BiftorTranslateSWEDISH">السويدية</string>
+    <string name="BiftorTranslateTAMIL">التاميلية</string>
+    <string name="BiftorTranslateTELUGU">التيلوغوية</string>
+    <string name="BiftorTranslateTHAI">التايلاندية</string>
+    <string name="BiftorTranslateTURKISH">التركية</string>
+    <string name="BiftorTranslateUKRAINIAN">الأوكرانية</string>
+    <string name="BiftorTranslateURDU">الأردية</string>
+    <string name="BiftorTranslateUZBEK">الأوزباكية</string>
+    <string name="BiftorTranslateVIETNAMESE">الفيتنامية</string>
+    <string name="BiftorTranslateWELSH">الويلزية</string>
+    <string name="BiftorTranslateYIDDISH">اليديشية</string>
+    <string name="BiftorTranslateCHINESE_SIMPLIFIED">الصينية المبسطة</string>
+    <string name="BiftorTranslateCHINESE_TRADITIONAL">الصينية التقليدية</string>
 
 
 
     <!--Biftor delete from recent search-->
-    <string name="BiftorDeletRecentSearchItem">Are you sure you want to delete this: **%1$s** from recent search?</string>
+    <string name="BiftorDeletRecentSearchItem">هل أنت متأكد أنك تريد حذف هذا: **٪ 1 $s** من البحث الأخير؟</string>
 
-    <string name="BiftorDrawerContactAndGroup">Contacts and groups</string>
+    <string name="BiftorDrawerContactAndGroup">جهات الاتصال والمجموعات</string>
 
     <!--Biftor floating new msg-->
-    <string name="BiftorChangeToSaveMsg">change FB to save message</string>
-    <string name="BiftorChangeToSaveMsgSub">change new chat button (floating button in chat) to open saved messages</string>
+    <string name="BiftorChangeToSaveMsg">تغيير الزر العائم لحفظ الرسالة</string>
+    <string name="BiftorChangeToSaveMsgSub">تغيير زر الدردشة الجديد (الزر العائم في الدردشة) لفتح الرسائل المحفوظة</string>
 
-    <string name="BiftorShow">Show</string>
-    <string name="BiftorShowFolder">Show folder</string>
-    <string name="BiftorHideFolder">Hide folder</string>
-    <string name="BiftorHideFolderAreYouSure">Are you sure you want to hide this folder?</string>
-    <string name="BiftorShowFolderAreYouSure">Are you sure you want to show this folder?</string>
+    <string name="BiftorShow">إظهار</string>
+    <string name="BiftorShowFolder">إظهار المجلد</string>
+    <string name="BiftorHideFolder">إخفاء المجلد</string>
+    <string name="BiftorHideFolderAreYouSure">هل أنت متأكد أنك تريد إخفاء هذا المجلد؟</string>
+    <string name="BiftorShowFolderAreYouSure">هل أنت متأكد أنك تريد إظهار هذا المجلد؟</string>
     <!--Biftor internal updater-->
-    <string name="BiftorSkipUpdate">Skip</string>
-    <string name="BiftorRemindTomorrow">Tomorrow</string>
-    <string name="BiftorUpdateIsAvailable">Update is available</string>
-    <string name="BiftorCheckForUpdate">Check for update</string>
-    <string name="BiftorDownloadLatestVersion">Download last version</string>
+    <string name="BiftorSkipUpdate">تخطي</string>
+    <string name="BiftorRemindTomorrow">غدا</string>
+    <string name="BiftorUpdateIsAvailable">التحديث متوفر</string>
+    <string name="BiftorCheckForUpdate">فحص لمعرفة توفر التحديث</string>
+    <string name="BiftorDownloadLatestVersion">تحميل أحدث نسخة</string>
 
     <!--Biftor direct chats-->
-    <string name="BiftorDirectChats">Direct chats</string>
-    <string name="BiftorSetAsDirectChats">Set as direct chats</string>
-    <string name="BiftorDirectChatsReset">Reset direct chat</string>
-    <string name="BiftorDisplayDirectChats">Display direct chat at</string>
-    <string name="BiftorDisplayDirectChatsSide">Sidebar</string>
-    <string name="BiftorDisplayDirectChatsTab">Tab</string>
-    <string name="BiftorDisplayDirectChatsSideTab">Sidebar and Tab</string>
-    <string name="BiftorDirectChatsReorder">Direct chats order</string>
-    <string name="BiftorShowDirectChatsInDrawer">Show direct chats in drawer</string>
-    <string name="BiftorAddToFav">Add to favourite</string>
-    <string name="BiftorDeleteFromFav">Delete from favourite</string>
+    <string name="BiftorDirectChats">الدردشات المباشرة</string>
+    <string name="BiftorSetAsDirectChats">تعيين كمحادثات مباشرة</string>
+    <string name="BiftorDirectChatsReset">إعادة تعيين الدردشة المباشرة</string>
+    <string name="BiftorDisplayDirectChats">عرض الدردشة المباشرة على</string>
+    <string name="BiftorDisplayDirectChatsSide">الشريط الجانبي</string>
+    <string name="BiftorDisplayDirectChatsTab">التبويب</string>
+    <string name="BiftorDisplayDirectChatsSideTab">الشريط الجانبي وعلامة التبويب</string>
+    <string name="BiftorDirectChatsReorder">ترتيب الدردشات المباشرة</string>
+    <string name="BiftorShowDirectChatsInDrawer">عرض الدردشات المباشرة بالقائمة</string>
+    <string name="BiftorAddToFav">أضف إلى المفضلة</string>
+    <string name="BiftorDeleteFromFav">حذف من المفضلة</string>
 
-    <string name="BiftorHideSponsorProxy">Hide sponsor</string>
-    <string name="BiftorHideSponsorProxySub">Hide sponsor proxy from chat list</string>
+    <string name="BiftorHideSponsorProxy">إخفاء الراعي</string>
+    <string name="BiftorHideSponsorProxySub">إخفاء راعي البروكسي من قائمة الدردشة</string>
 
     <!--Biftor shadow socks-->
-    <string name="BiftorPing">Ping</string>
-    <string name="BiftorProxyTypeShadowSocks">ShadowSocks Proxy</string>
-    <string name="BiftorProxyTypeShadowSocksR">ShadowSocksR Proxy</string>
-    <string name="BiftorProxyTypeVmess">Vmess Proxy</string>
-    <string name="BiftorProxyInfoSSR">ShadowsocksR Proxy Settings</string>
-    <string name="BiftorProxyInfoSS">Shadowsocks Proxy Settings</string>
-    <string name="BiftorProxyInfoVmess">Vmess Proxy Settings</string>
-    <string name="BiftorShadowProxySponsor">Sponsor</string>
+    <string name="BiftorPing">بينغ</string>
+    <string name="BiftorProxyTypeShadowSocks">بروكسي شادو سوكس</string>
+    <string name="BiftorProxyTypeShadowSocksR">بروكسي شادو سوكسر</string>
+    <string name="BiftorProxyTypeVmess">بروكسي فيميس</string>
+    <string name="BiftorProxyInfoSSR">إعدادات بروكسي شادو سوكسر</string>
+    <string name="BiftorProxyInfoSS">إعدادات بروكسي شادو سوكس</string>
+    <string name="BiftorProxyInfoVmess">إعدادات بروكسي فيميس</string>
+    <string name="BiftorShadowProxySponsor">الراعي</string>
 
-    <string name="BiftorShadowSocksHelp">Help</string>
-    <string name="BiftorImportProxy">Import from url</string>
-    <string name="BiftorConnection">Connect: %1$d ms</string>
+    <string name="BiftorShadowSocksHelp">مساعدة</string>
+    <string name="BiftorImportProxy">إستيراد بإستخدام رابط</string>
+    <string name="BiftorConnection">الاتصال: %1$d بالثانية</string>
 
-    <string name="BiftorVmessUserId">User Id</string>
-    <string name="BiftorVmessAlterId">Alter Id</string>
-    <string name="BiftorVmessSecurity">Security</string>
-    <string name="BiftorVmessNetwork">Network</string>
-    <string name="BiftorVmessHeadType">Head Type</string>
-    <string name="BiftorVmessRequestHost">Request Host / QUIC Security</string>
-    <string name="BiftorVmessPath">Path / QUICK Key</string>
-    <string name="BiftorVmessTls">Use TLS</string>
+    <string name="BiftorVmessUserId">أيدي المستخدم</string>
+    <string name="BiftorVmessAlterId">الأيدي المعدل</string>
+    <string name="BiftorVmessSecurity">الحماية</string>
+    <string name="BiftorVmessNetwork">الشبكة</string>
+    <string name="BiftorVmessHeadType">نوع الرأس</string>
+    <string name="BiftorVmessRequestHost">طلب مضيف / حماية كويك</string>
+    <string name="BiftorVmessPath">مسار / مفتاح سريع</string>
+    <string name="BiftorVmessTls">استخدم TLS</string>
 
-    <string name="BiftorSSPassword">Password</string>
-    <string name="BiftorSSMethod">Encrypt Method</string>
-    <string name="BiftorSSPlugin">Plugin</string>
-    <string name="BiftorSSPluginOpts">Plugin Config</string>
+    <string name="BiftorSSPassword">كلمة السر</string>
+    <string name="BiftorSSMethod">طريقة التشفير</string>
+    <string name="BiftorSSPlugin">برنامج مساعد</string>
+    <string name="BiftorSSPluginOpts">تكوين البرنامج المساعد</string>
 
-    <string name="BiftorSSRProtocol">Protocol</string>
-    <string name="BiftorSSRProtocolParams">Protocol Params</string>
+    <string name="BiftorSSRProtocol">بروتوكول</string>
+    <string name="BiftorSSRProtocolParams">معلمات البروتوكول</string>
     <string name="BiftorSSRObfs">Obfs</string>
-    <string name="BiftorSSRObfsParam">Obfs Param</string>
-    <string name="BiftorShadowSocksModule">Shadow socks</string>
-    <string name="BiftorStartShadowAsService">Start shadow as service</string>
-    <string name="BiftorStartShadowAsServiceSub">Run shadow socks as background service</string>
-    <string name="BiftorShadowSockServiceConnecting">Shadow Socks service is connecting</string>
-    <string name="BiftorShadowSockServiceConnected">Shadow Socks service is running: %s</string>
-    <string name="BiftorShadowSockServiceStop">Stop</string>
-    <string name="BiftorShadowSocksConfig">Shadow socks config</string>
-    <string name="BiftorStopShadowSocksWhenAppClosed">Stop Shadow socks when app closed</string>
-    <string name="BiftorStopShadowSocksWhenAppClosedSub">Stop the Shadow socks when App Closed, if you disable it, when the Shadow socks is enable the whole app will not close.</string>
+    <string name="BiftorSSRObfsParam">Obfs معلمات</string>
+    <string name="BiftorShadowSocksModule">شادو سوكس</string>
+    <string name="BiftorStartShadowAsService">إبدأ شادو كخدمة</string>
+    <string name="BiftorStartShadowAsServiceSub">تشغيل شادو سوكس كخدمة في الخلفية</string>
+    <string name="BiftorShadowSockServiceConnecting">خدمة شادو سوكس قيد الاتصال</string>
+    <string name="BiftorShadowSockServiceConnected">خدمة شادو سوكس قيد التشغيل: %s</string>
+    <string name="BiftorShadowSockServiceStop">إيقاف</string>
+    <string name="BiftorShadowSocksConfig">إعداد شادو سوكس</string>
+    <string name="BiftorStopShadowSocksWhenAppClosed">وقف شادو سوكس عند إغلاق التطبيق</string>
+    <string name="BiftorStopShadowSocksWhenAppClosedSub">أوقف شادو سوكس عند إغلاق التطبيق ، إذا قمت بتعطيله ، فلن يتم إغلاق التطبيق بالكامل عند تمكين شادو سوكس.</string>
 
     <!--Biftor ads-->
-    <string name="BiftorAdsTypeAdMob">AdMob</string>
-    <string name="BiftorAdsTypeCustom">Ads</string>
-    <string name="BiftorAdsTitle">BGram Ads</string>
-    <string name="BiftorAdsSubTitle">Support BGram by Watching an Ad</string>
+    <string name="BiftorAdsTypeAdMob">أدموب</string>
+    <string name="BiftorAdsTypeCustom">إعلانات</string>
+    <string name="BiftorAdsTitle">إعلانات بيكرام</string>
+    <string name="BiftorAdsSubTitle">إدعم بيغرام من خلال مشاهدة إعلان</string>
 </resources>

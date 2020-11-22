@@ -593,7 +593,7 @@
 	<!--Biftor add ability to sort accounts-->
 	<string name="BiftorSortAccounts">Akkauntlar ro‘yxati</string>
 	<string name="BiftorHideOffAccounts">Nofaollarni berkitmoq</string>
-	<string name="BiftorHideOffAccountsSub">Ro‘yxatdagi nofaol akkauntlarni koʻrsatilmaydi.</string>
+	<string name="BiftorHideOffAccountsSub">Ro‘yxatdagi nofaol akkauntlar koʻrsatilmaydi.</string>
 
 	<!--Biftor add ability to sort pinned dialogs-->
 	<string name="BiftorSortPinnedDialog">Biriktirilgan chatlar tartibi</string>
@@ -636,12 +636,12 @@
 	<!--Biftor login with bot-->
 	<string name="BiftorLoginWithBotToKen">Token orqali kirmoq</string>
 	<string name="BiftorBotToken">Token botni kiriting</string>
-	<string name="BiftorLoginWithBotInfo">You can use the @BotFather to create a new bot.\n\nWhen you login with a bot, you will have all the limitations that bots have, including:\n
-		- You do not have access to your contacts.\n
-		- You can\'t join groups and channels (unless admins add you).\n
-		- You can only write to users who have already sent you /start.\n
-		- You will not be able to see when users read your messages.\n
-		- The chat list is empty when you first login, and will populate when the bot receives messages from users and groups. Group detection can be particularly slow.</string>
+	<string name="BiftorLoginWithBotInfo">Siz yangi bot yaratish uchun @BotFather-dan foydalanishingiz mumkin. \ N \ nBot bilan kirganingizda, botlarda mavjud boʻlgan barcha cheklovlarga ega bo'lasiz, jumladan: \ n
+- Kontaktlaringizga kirishingiz mumkin emas. \ N
+- Siz guruhlarga va kanallarga qoʻshila olmaysiz (agar administratorlar sizni qoʻshmasa). \ N
+- Sizni faqat allaqachon yuborgan foydalanuvchilarga yozishingiz mumkin /start.\n
+- Foydalanuvchilar sizning xabarlaringizni qachon oʻqiganini koʻra olmaysiz. \ N
+- Siz birinchi marta kirganingizda chat roʻyxati boʻsh boʻladi va bot foydalanuvchilar va guruhlardan xabarlar olganida toʻldiriladi. Guruhlarni aniqlash ayniqsa sekin boʻlishi mumkin.</string>
 
 	<!--Biftor Tor -->
 	<string name="BiftorTorStarting">TOR&#8230; kirish</string>
@@ -828,7 +828,7 @@
 	<string name="BiftorTranslateTURKISH">TURKISH</string>
 	<string name="BiftorTranslateUKRAINIAN">UKRAINIAN</string>
 	<string name="BiftorTranslateURDU">URDU</string>
-	<string name="BiftorTranslateUZBEK">UZBEK</string>
+	<string name="BiftorTranslateUZBEK">OʻZBEKCHA</string>
 	<string name="BiftorTranslateVIETNAMESE">VIETNAMESE</string>
 	<string name="BiftorTranslateWELSH">WELSH</string>
 	<string name="BiftorTranslateYIDDISH">YIDDISH</string>
@@ -906,18 +906,18 @@
 	<string name="BiftorSSRObfs">Obfs</string>
 	<string name="BiftorSSRObfsParam">Obfs parametrlari</string>
 	<string name="BiftorShadowSocksModule">Shadow socks</string>
-	<string name="BiftorStartShadowAsService">Start shadow as service</string>
-	<string name="BiftorStartShadowAsServiceSub">Run shadow socks as background service</string>
-	<string name="BiftorShadowSockServiceConnecting">Shadow Socks service is connecting</string>
-	<string name="BiftorShadowSockServiceConnected">Shadow Socks service is running: %s</string>
-	<string name="BiftorShadowSockServiceStop">Stop</string>
-	<string name="BiftorShadowSocksConfig">Shadow socks config</string>
-	<string name="BiftorStopShadowSocksWhenAppClosed">Stop Shadow socks when app closed</string>
-	<string name="BiftorStopShadowSocksWhenAppClosedSub">Stop the Shadow socks when App Closed, if you disable it, when the Shadow socks is enable the whole app will not close.</string>
+	<string name="BiftorStartShadowAsService">Shadow socks xizmatini yoqmoq</string>
+	<string name="BiftorStartShadowAsServiceSub">Shadow socks xizmatini foyda yoqmoq</string>
+	<string name="BiftorShadowSockServiceConnecting">Shadow Socks xizmati bogʻlanmoqda</string>
+	<string name="BiftorShadowSockServiceConnected">Shadow Socks xizmatiga kirilmoqda: %s</string>
+	<string name="BiftorShadowSockServiceStop">Toʻxtatmoq	</string>
+	<string name="BiftorShadowSocksConfig">Shadow socks tanlovlari</string>
+	<string name="BiftorStopShadowSocksWhenAppClosed">Ilovada yopilganda xizmatni toʻxtatmoq</string>
+	<string name="BiftorStopShadowSocksWhenAppClosedSub">Shadow socks xizmati ilova yopilganda, agar uni oʻchirib qoʻysangiz, Shadow socks yoqilganda, butun ilova yopilmaydi.</string>
 
 	<!--Biftor ads-->
 	<string name="BiftorAdsTypeAdMob">AdMob</string>
-	<string name="BiftorAdsTypeCustom">Ads</string>
-	<string name="BiftorAdsTitle">BGram Ads</string>
-	<string name="BiftorAdsSubTitle">Support BGram by Watching an Ad</string>
+	<string name="BiftorAdsTypeCustom">Reklamalar</string>
+	<string name="BiftorAdsTitle">BGram reklamalari</string>
+	<string name="BiftorAdsSubTitle">Reklama koʻrish orqali ilovani qoʻllab-quvvatlamoq</string>
 </resources>

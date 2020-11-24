@@ -4046,8 +4046,8 @@
 
     <!-- Biftor dismiss only -->
     <string name="BiftorDismissOnly">Archivia</string>
-    <string name="BiftorUnpinMessageAlertTitle">Unpin messages</string>
-    <string name="BiftorUnpinMessageAlert">Do you want to dismiss or unpin all messages?</string>
+    <string name="BiftorUnpinMessageAlertTitle">Stacca messaggi</string>
+    <string name="BiftorUnpinMessageAlert">Vuoi nascondere o staccare tutti i messaggi fissati?</string>
 
     <!-- Biftor dark blue theme -->
     <string name="BGramDarkBlue">BGram blu scuro</string>
@@ -4216,7 +4216,7 @@
 
     <!-- Biftor add night mode switch -->
     <string name="BiftorNightMode">Modalità notte</string>
-    <string name="BiftorNightModeManual">Manual</string>
+    <string name="BiftorNightModeManual">Manuale</string>
     <string name="BiftorDefaultDayTheme">Tema predefinito durante il giorno</string>
     <string name="BiftorDefaultNightTheme">Tema predefinito durante la notte</string>
     <string name="BiftorDefaultThemeDetail">Impostaz. predef. per il tema della barra laterale</string>
@@ -4232,7 +4232,7 @@
     <string name="BiftorHiddenChatsButton">Tasto chat nascoste</string>
     <string name="BiftorHiddenChatsButtonNewMessages">Tocco prol. sull\'icona della matita</string>
     <string name="BiftorHiddenChatsButtonSearch">Tocco prol. sulla barra di ricerca</string>
-    <string name="BiftorHiddenChatsButtonOpenDrawer">Long click on open drawer</string>
+    <string name="BiftorHiddenChatsButtonOpenDrawer">Tocco prol. su pulsante menù laterale</string>
     <string name="BiftorRemoveHiddenChatsNotifi">Disattiva notifica chat nascoste</string>
 
     <!-- Biftor export chat list -->
@@ -4335,8 +4335,8 @@
 
     <!-- Biftor auto download next media -->
     <string name="BiftorEnableAutoDownloadNextMedia">Scarica auto. media successivi</string>
-    <string name="BiftorDisableGoToNextMedia">Disable go to next media</string>
-    <string name="BiftorDisableGoToNextMediaSub">Disable go to next media by tapping on photo edge</string>
+    <string name="BiftorDisableGoToNextMedia">Disabilita tocco su media</string>
+    <string name="BiftorDisableGoToNextMediaSub">Disattiva passaggio a media successivo su tocco a lato dello schermo</string>
 
     <!-- Biftor enable camera in attach menu -->
     <string name="BiftorEnableCameraAttachMenu">Attiva fotocamera negli allegati</string>
@@ -4536,13 +4536,13 @@
 
     <!--Biftor login with bot-->
     <string name="BiftorLoginWithBotToKen">Login con bot token</string>
-    <string name="BiftorBotToken">Paste your bot token</string>
-    <string name="BiftorLoginWithBotInfo">You can use the @BotFather to create a new bot.\n\nWhen you login with a bot, you will have all the limitations that bots have, including:\n
-		- You do not have access to your contacts.\n
-		- You can\'t join groups and channels (unless admins add you).\n
-		- You can only write to users who have already sent you /start.\n
-		- You will not be able to see when users read your messages.\n
-		- The chat list is empty when you first login, and will populate when the bot receives messages from users and groups. Group detection can be particularly slow.</string>
+    <string name="BiftorBotToken">Incolla il token</string>
+    <string name="BiftorLoginWithBotInfo">Puoi usare @BotFather per creare un bot.\n\nSe accederai come bot, avrai le stesse limitazioni che hanno i bot, tra cui:\n
+		- Il non poter accedere né avere contatti.\n
+		- Il non potersi unire a gruppi e canali se non esplicitamente aggiunto.\n
+		- Puoi scrivere solo ad utenti che ti hanno già contattato.\n
+		- Non riceverai conferme di lettura ai messaggi che invii.\n
+		- La lista chat verrà popolata non appena riceverai messaggi da utenti e gruppi. Il popolamento automatico della lista gruppi sfortunatamente è particolarmente lento.</string>
 
 
     <!--Biftor Tor -->
@@ -4628,7 +4628,7 @@
     <string name="BiftorMayNeedsToRestart">Potrebbe richiedere il riavvio</string>
     <string name="BiftorConnectTorWhenForNotify">Inizia la connessione a Tor alla ricezione di una notifica</string>
     <string name="BiftorGetBridgeFromGithub">Scarica lista bridge da Github</string>
-    <string name="BiftorTORModule">BGram TOR</string>
+    <string name="BiftorTORModule">BGram Tor</string>
 
     <!-- Biftor goto msg for all chats-->
     <string name="BiftorMentionMsg">Menzione</string>
@@ -4669,7 +4669,7 @@
     <string name="BiftorTranslateEnterText">Inserisci testo</string>
     <string name="BiftorTranslateEnterTextEmpty">Devi inserire del testo da tradurre</string>
     <string name="BiftorTranslateAUTO_DETECT">Automatico</string>
-    <string name="BiftorTranslateAFRIKAANS">AFRIKAANS</string>
+    <string name="BiftorTranslateAFRIKAANS">Afrikaans</string>
     <string name="BiftorTranslateALBANIAN">Albanese</string>
     <string name="BiftorTranslateARABIC">Arabo</string>
     <string name="BiftorTranslateARMENIAN">Armeno</string>
@@ -4704,7 +4704,7 @@
     <string name="BiftorTranslateITALIAN">Italiano</string>
     <string name="BiftorTranslateJAPANESE">Giapponese</string>
     <string name="BiftorTranslateKANNADA">Kannada</string>
-    <string name="BiftorTranslateKAZAKH">KAZAKH</string>
+    <string name="BiftorTranslateKAZAKH">Kazako</string>
     <string name="BiftorTranslateKOREAN">Coreano</string>
     <string name="BiftorTranslateLATIN">Latino</string>
     <string name="BiftorTranslateLATVIAN">Lettone</string>
@@ -4807,18 +4807,19 @@
     <string name="BiftorSSRProtocolParams">Parametri protocollo</string>
     <string name="BiftorSSRObfs">OBFS</string>
     <string name="BiftorSSRObfsParam">Parametri OBFS</string>
-    <string name="BiftorShadowSocksModule">Shadow socks</string>
-    <string name="BiftorStartShadowAsService">Start shadow as service</string>
-    <string name="BiftorStartShadowAsServiceSub">Run shadow socks as background service</string>
-    <string name="BiftorShadowSockServiceConnecting">Shadow Socks service is connecting</string>
-    <string name="BiftorShadowSockServiceConnected">Shadow Socks service is running: %s</string>
-    <string name="BiftorShadowSockServiceStop">Stop</string>	<string name="BiftorShadowSocksConfig">Shadow socks config</string>
-    <string name="BiftorStopShadowSocksWhenAppClosed">Stop Shadow socks when app closed</string>
-    <string name="BiftorStopShadowSocksWhenAppClosedSub">Stop the Shadow socks when App Closed, if you disable it, when the Shadow socks is enable the whole app will not close.</string>
+    <string name="BiftorShadowSocksModule">ShadowSocks</string>
+    <string name="BiftorStartShadowAsService">Avvia SS come servizio</string>
+    <string name="BiftorStartShadowAsServiceSub">Avvia ShadowSocks come servizio in background</string>
+    <string name="BiftorShadowSockServiceConnecting">Connessione in corso servizio ShadowSocks</string>
+    <string name="BiftorShadowSockServiceConnected">Servizio ShadowSocks attivo: %s</string>
+    <string name="BiftorShadowSockServiceStop">Ferma</string>
+	<string name="BiftorShadowSocksConfig">Configurazione ShadowSocks</string>
+    <string name="BiftorStopShadowSocksWhenAppClosed">Arresta ShadowSocks su chiusura app</string>
+    <string name="BiftorStopShadowSocksWhenAppClosedSub">Ferma ShadowSocks alla chiusura dell\'app, mentre, ad opzione disattivata, a SS attivato, manterrà la connessione in sottofondo.</string>
 
     <!--Biftor ads-->
     <string name="BiftorAdsTypeAdMob">AdMob</string>
-    <string name="BiftorAdsTypeCustom">Ads</string>
-    <string name="BiftorAdsTitle">BGram Ads</string>
-    <string name="BiftorAdsSubTitle">Support BGram by Watching an Ad</string>
+    <string name="BiftorAdsTypeCustom">Pubblicità</string>
+    <string name="BiftorAdsTitle">Pubblicità BGram</string>
+    <string name="BiftorAdsSubTitle">Sostieni BGram guardando una pubblicità</string>
 </resources>

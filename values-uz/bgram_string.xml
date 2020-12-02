@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
 	<string name="BGram" translatable="false">BGram</string>
 	<string name="AppName" translatable="false">BGram</string>
 	<string name="AppNameBeta" translatable="false">BGram Beta</string>
@@ -108,7 +107,7 @@
 	<string name="BiftorVibrationSwipeReply">Surish payti titrash</string>
 	<string name="DisableSwipeBack">O‘ngga surganda chatni yopmaslik</string>
 	<string name="DisableSwipeBackSub">Agar xabarni surib yoʻllash faol boʻlmasa, buni faollashtiring.</string>
-	<string name="MesCat">Xabar</string>
+	<string name="MesCat">Xabar kiriting</string>
 
 	<!-- BiftorProForward -->
 	<string name="BiftorProForward">O‘zgartirish va Uzatish</string>
@@ -225,7 +224,7 @@
 	<string name="BGramRateApp">Ilovani baholash</string>
 	<string name="BGramRateAppSub">Agar ilova ma’qul kelgan boʻlsa, «Google Play»da ilovani yuqori baholang. \nIstalgan muammo toʻg‘risida rasmiy guruhda bemalol baholashdan oldin xabar qoldiring!</string>
 	<string name="BiftorAppCredits">Minnadorchilik</string>
-	<string name="BiftorAppCreditsSub">Ushbu ilovani yaratishga yordam berganlar</string>
+	<string name="BiftorAppCreditsSub">Ushbu ilovani tuzishga yordam berganlar</string>
 	<string name="BiftorAppHints">Maslahatlar</string>
 	<string name="BiftorAppHintsSub">Interfeysda ishlash boʻyicha videogid</string>
 	<string name="BiftorDonate">Muallifga moddiy qoʻllab-quvvatlash</string>
@@ -636,12 +635,12 @@
 	<!--Biftor login with bot-->
 	<string name="BiftorLoginWithBotToKen">Token orqali kirish</string>
 	<string name="BiftorBotToken">Token botni kiriting</string>
-	<string name="BiftorLoginWithBotInfo">Siz yangi bot yaratish uchun @BotFather-dan foydalanishingiz mumkin. \ N \ nBot bilan kirganingizda, botlarda mavjud boʻlgan barcha cheklovlarga ega bo'lasiz, jumladan: \ n
-- Kontaktlaringizga kirishingiz mumkin emas. \ N
-- Siz guruhlarga va kanallarga qoʻshila olmaysiz (agar administratorlar sizni qoʻshmasa). \ N
-- Sizni faqat allaqachon yuborgan foydalanuvchilarga yozishingiz mumkin /start.\n
-- Foydalanuvchilar sizning xabarlaringizni qachon oʻqiganini koʻra olmaysiz. \ N
-- Siz birinchi marta kirganingizda chat roʻyxati boʻsh boʻladi va bot foydalanuvchilar va guruhlardan xabarlar olganida toʻldiriladi. Guruhlarni aniqlash ayniqsa sekin boʻlishi mumkin.</string>
+	<string name="BiftorLoginWithBotInfo">Siz yangi botni @BotFather orqali tuzishingiz mumkin.\n\nBot bilan kirganingizda, botlarda mavjud boʻlgan barcha cheklovlarga ega boʻlasiz, jumladan:\n
+– Kontaktlaringizga kirishingiz mumkin emas.\n
+– Siz guruhlarga va kanallarga qoʻshila olmaysiz (agar administratorlar sizni qoʻshmasa).\n
+– Siz faqat \start buyrugʻi orqali foydalanuvchilarga yozishingiz mumkin.\n
+– Foydalanuvchilar Sizning xabarlaringizni qachon oʻqiganini koʻra olmaysiz.\n
+– Siz birinchi marta kirganingizda chat roʻyxati boʻsh boʻladi va bot foydalanuvchilar va guruhlardan xabarlar olganida toʻldiriladi. Guruhlarni aniqlash sekin boʻlishi mumkin.</string>
 
 	<!--Biftor Tor -->
 	<string name="BiftorTorStarting">TOR&#8230; kirish</string>
@@ -887,8 +886,8 @@
 	<string name="BiftorImportProxy">Havoladan olish</string>
 	<string name="BiftorConnection">Ulanish vaqti: %1$d ms</string>
 
-	<string name="BiftorVmessUserId">Yuzer id kodi</string>
-	<string name="BiftorVmessAlterId">Alter Id</string>
+	<string name="BiftorVmessUserId">Foydalanuvchi ID kodi</string>
+	<string name="BiftorVmessAlterId">Alter ID</string>
 	<string name="BiftorVmessSecurity">Himoya</string>
 	<string name="BiftorVmessNetwork">Tarmoq</string>
 	<string name="BiftorVmessHeadType">Asosiy turi</string>
@@ -904,10 +903,10 @@
 	<string name="BiftorSSRProtocol">Protokol</string>
 	<string name="BiftorSSRProtocolParams">Protokol parametrlari</string>
 	<string name="BiftorSSRObfs">Obfs</string>
-	<string name="BiftorSSRObfsParam">Obfs parametrlari</string>
+	<string name="BiftorSSRObfsParam">«Obfs» parametrlari</string>
 	<string name="BiftorShadowSocksModule">Shadow socks</string>
-	<string name="BiftorStartShadowAsService">«ShadowSocks» xizmatini yoqish</string>
-	<string name="BiftorStartShadowAsServiceSub">«ShadowSocks» xizmatini foyda yoqish</string>
+	<string name="BiftorStartShadowAsService">«ShadowSocks» xizmati</string>
+	<string name="BiftorStartShadowAsServiceSub">Ilova «ShadowSocks» xizmatidan foydalanadi.</string>
 	<string name="BiftorShadowSockServiceConnecting">«ShadowSocks» xizmati bogʻlanmoqda</string>
 	<string name="BiftorShadowSockServiceConnected">«ShadowSocks» xizmatiga kirilmoqda: %s</string>
 	<string name="BiftorShadowSockServiceStop">Toʻxtatish</string>

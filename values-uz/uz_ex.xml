@@ -4864,7 +4864,7 @@
 	<string name="BiftorChannelDiscuss">Muhokamaga</string>
 
 	<!--Biftor Translate-->
-	<string name="BiftorTranslate">Tarjima</string>
+	<string name="BiftorTranslate">Tarjima qilish</string>
 	<string name="BiftorTranslateEnterText">Matn kiriting</string>
 	<string name="BiftorTranslateEnterTextEmpty">Tarjima qilish uchun matn kiriting</string>
 	<string name="BiftorTranslateAUTO_DETECT">Avtomatik aniqlash</string>
@@ -4937,7 +4937,7 @@
 	<string name="BiftorTranslateCHINESE_TRADITIONAL">XITOY ANʼANAVIY</string>
 
 	<!--Biftor delete from recent search-->
-	<string name="BiftorDeletRecentSearchItem">Siz **%1$s**ni soʻnggi izlanganlar roʻyxatidan olib tashlamoqchimisiz?</string>
+	<string name="BiftorDeletRecentSearchItem">**%1$s**ni soʻnggi izlanganlar roʻyxatidan olib tashlamoqchimisiz?</string>
 
 
 	<string name="BiftorDrawerContactAndGroup">Kontaktlar va guruhlar</string>

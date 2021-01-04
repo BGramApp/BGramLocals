@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
 	<string name="BGram" translatable="false">BGram</string>
 	<string name="AppName" translatable="false">BGram</string>
 	<string name="AppNameBeta" translatable="false">BGram Beta</string>
-	<string name="BGramVersion">Android %1$s uchun oʻzbekcha BGram</string>
+	<string name="BGramVersion">Android %1$s uchun BGram ilovasi</string>
 
 	<!--Biftor-->
 	<string name="BGramSettings">BGram tanlovlari</string>
@@ -32,8 +32,8 @@
 	<string name="BiftorVerticalRightSideBarOnlyIcon">Faqat yorliq</string>
 	<string name="BiftorVerticalRightSideBarIconAndText">Yorliq va matnni</string>
 	<string name="BiftorVerticalRightSideBar">Oʻng tomonda koʻrsatish</string>
-	<string name="BiftorRightSideAlwaysOpen">Doim koʻrsatish</string>
-	<string name="BiftorRightSideHideWhenScroll">Yurgʻizganda aylanani berkitish</string>
+	<string name="BiftorRightSideAlwaysOpen">Tugmani doim koʻrsatish</string>
+	<string name="BiftorRightSideHideWhenScroll">Harakatlanganda tugmani berkitish</string>
 	<string name="BiftorVerticalRightSideRoundSize">Tugma oʻlchami</string>
 	<string name="BiftorVerticalRightSideRoundShowStyle">Tugma koʻrinishi</string>
 	<string name="BiftorVerticalRoundShowByDragging">Oʻngga surish</string>
@@ -65,7 +65,7 @@
 	<string name="Sort">Xatchoʻplar tartibi</string>
 	<string name="TabsHeight">Xatchoʻplar paneli boʻyi</string>
 	<string name="TabsUnreadTextSize">Hisoblagich raqami oʻlchami</string>
-	<string name="BiftorShowFolderNameInHeader">Show folder\'s name in header</string>
+	<string name="BiftorShowFolderNameInHeader">Sarlavhada jild nomini koʻrsatish</string>
 	<string name="SetAsDefaultTab">Xatchoʻpni soʻrovsiz oʻrnatish</string>
 	<string name="ResetDefaultTab">Xatchoʻpdagi oʻzgarishini bekor qilish</string>
 	<string name="SortByStatus">Holat boʻyicha saralash</string>
@@ -76,10 +76,10 @@
 	<string name="Tabs">Xatchoʻplar</string>
 	<string name="HideShowTabs">Xatchoʻplar tanlovi</string>
 	<string name="DisableTabsAnimation">Roʻyxatni koʻrayotganda berkitmaslik</string>
-	<string name="InfiniteSwipe">Aylanasiga xatchoʻpni koʻrish</string>
+	<string name="InfiniteSwipe">Cheklovsiz xatchoʻpni koʻrish</string>
 	<string name="HeaderTabCounterCountChats">Xabarlar oʻrniga chatlarni hisoblash</string>
 	<string name="HeaderTabCounterCountNotMuted">Ovozsizlarni hisoblamaslik</string>
-	<string name="HideTabsCounters">Xatchoʻpda hisoblagichda koʻrsatmaslik</string>
+	<string name="HideTabsCounters">Hisoblagichni koʻrsatmaslik</string>
 	<string name="BiftorForceMarkAsRead">Majburiy oʻqish</string>
 	<string name="ShowHeaderShadow">Sarlavhani soyada ajratib koʻrsatish</string>
 	<string name="ShowTabsAtBottom">Xatchoʻpni pastga oʻtkazish</string>
@@ -231,8 +231,8 @@
 	<string name="BiftorDonate">Muallifni moddiy qoʻllab-quvvatlash</string>
 	<string name="BiftorDonateSub">Muallifni quvontirish</string>
 	<string name="BiftorDonateMoreDetail">Siz muallifning ishchanligini oshirish uchun kam summada ragʻbatlantirishingiz mumkin. Katta miqdorda ragʻbatlatirish, oʻzingiz istagan funksiyani kiritish taklifini berish imkonini beradi.</string>
-	<string name="BiftorDonateBTC">Bitcoin</string>
-	<string name="BiftorDonateBTCCASH">Bitcoin raqami</string>
+	<string name="BiftorDonateBTC">Bitkoin</string>
+	<string name="BiftorDonateBTCCASH">Bitkoin raqami</string>
 	<string name="BiftorDonateEther">Ether</string>
 	<string name="BiftorDonateStellar">Stellar</string>
 	<string name="BiftorDonatePayPal">PayPal</string>
@@ -240,7 +240,7 @@
 	<string name="BiftorDonatePayeer">Payeer</string>
 	<string name="BiftorDonateQiwi">Qiwi</string>
 	<string name="BiftorGettingDonationAddress">Manzil soʻrovi ketmoqda…</string>
-	<string name="BiftorDonationAddressCopied">Bitkoyn-hamyoni manzilidan nusxa olindi.</string>
+	<string name="BiftorDonationAddressCopied">Bitkoin hamyoni manzilidan nusxa olindi.</string>
 	<string name="BiftorGettingDonationAddressFailed">Manzildan nusxa olib boʻlmadi…</string>
 
 	<!-- Biftor added ghost mode tile-->
@@ -721,9 +721,9 @@
 	<string name="BiftorMayNeedsToRestart">Qayta yuklashga toʻgʻri keladi</string>
 
 	<!-- Biftor goto msg for all chats-->
-	<string name="BiftorMentionMsg">id xabar</string>
+	<string name="BiftorMentionMsg">Xabar ID kodi</string>
 	<string name="BiftorMentionMsgGoto">\»»</string>
-	<string name="BiftorGoToLinkChatNotFound">Havola topilmadi: **%1$s** chatlaringiz roʻyxatida yoʻq.</string>
+	<string name="BiftorGoToLinkChatNotFound">Havola topilmadi. **%1$s** chatlaringiz roʻyxatida yoʻq.</string>
 	<string name="BiftorGoToLinkInvalidLink">Havola notoʻgʻri</string>
 
 	<!-- Biftor goto msg for all chats-->
@@ -737,8 +737,8 @@
 	<string name="BiftorUserMentionInsertName">Nom qoʻyish</string>
 	<string name="BiftorUserMentionInsertCustomName">Bildirgi matnini tahrirlash</string>
 	<string name="BiftorCustomUserMentionName">Bildirgi matni</string>
-	<string name="BiftorCustomUserMentionId">ID foydalanuvchi</string>
-	<string name="BiftorCustomUserMentionError">ID topilmadi, foydalanuvchi profilidan uni nusxalang.</string>
+	<string name="BiftorCustomUserMentionId">Foydalanuvchi ID kodi</string>
+	<string name="BiftorCustomUserMentionError">ID kodi topilmadi, foydalanuvchi profilidan uni nusxalang.</string>
 
 	<!-- Biftor save to chat folder-->
 	<string name="BiftorSaveToChatFolder">Chatlar jildiga saqlash</string>
@@ -756,10 +756,10 @@
 
 	<!--Biftor Translate-->
 	<string name="BiftorTranslate">Tarjima qilish</string>
-	<string name="BiftorUndoTranslation">Undo translation</string>
-	<string name="BiftorResetTranslation">Reset translation</string>
-	<string name="BiftorTranslateSettings">Translation Settings</string>
-	<string name="BiftorTranslateSource">Translation Source</string>
+	<string name="BiftorUndoTranslation">Tarjimani bekor qilish</string>
+	<string name="BiftorResetTranslation">Standart tarjima</string>
+	<string name="BiftorTranslateSettings">Tarjima tanlovlari</string>
+	<string name="BiftorTranslateSource">Tarjima qilish manbai</string>
 	<string name="BiftorTranslateSourceGoogle">Google</string>
 	<string name="BiftorTranslateSourceYandex">Yandex</string>
 	<string name="BiftorTranslateEnterText">Matn kiriting</string>

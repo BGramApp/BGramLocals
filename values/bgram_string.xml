@@ -68,6 +68,7 @@
 
 	<string name="TabsHeight">Tab bar height</string>
 	<string name="TabsUnreadTextSize">Counter text size </string>
+	<string name="BiftorShowFolderNameInHeader">Show folder\'s name in header</string>
 	<string name="SetAsDefaultTab">Set as default tab</string>
 	<string name="ResetDefaultTab">Reset default tab</string>
 	<string name="SortByStatus">Sort by status</string>
@@ -510,14 +511,6 @@
 	<string name="BiftorClearCacheOtherFilesInfo">A lot of temporary files accumulate in the cache, and this can cause problems when loading chats. It is advisable to delete them from the cache at least once a week (<![CDATA[Clear Cache —> Other files]]> button).</string>
 	<string name="BiftorKeepMediaInfo">Telegram is a cloud service. Your chats and shared media are stored on the Telegram cloud server and downloaded to the temporary folder on your device for quick access (cached) when you watch them.\n\nPhotos, videos and other files from cloud chats that you have **not accessed** during this period will be removed from this device to save disk space.\nAll media will stay in the Telegram cloud and will be re-downloaded when you play it.</string>
 
-	<!-- Biftor Select storage -->
-	<string name="BiftorSelectStorage">App storage</string>
-	<string name="BiftorStorageInternal">Internal SD card</string>
-	<string name="BiftorStorageSdcard">SD card</string>
-	<string name="BiftorStorageReadOnly">Read only</string>
-	<string name="BiftorStorageDeviceAlert">There isn\'t possibility to save files to external storage on Android 4.4 and above, but the app can save files only in the following path in the external storage:\n\n%s\n\nNotice: files that are saved in this path will be removed by uninstalling BGram. So if you want to uninstall application without deleting files, before uninstalling the application use the file manager application on your phone and move the files that are stored in this path to another folder.\n\nWill this path be used to save files?</string>
-	<string name="BiftorStorageDeviceCantGrantWrite">Can\'t grant write access!</string>
-
 	<!-- Biftor show view count in dialog list-->
 	<string name="BiftorShowViewCount">Show views in chat list </string>
 	<string name="BiftorShowViewCountSub">Show view count instead of check marks for own channels in chat list.</string>
@@ -760,6 +753,12 @@
 
 	<!--Biftor Translate-->
 	<string name="BiftorTranslate">Translate</string>
+	<string name="BiftorUndoTranslation">Undo translation</string>
+	<string name="BiftorResetTranslation">Reset translation</string>
+	<string name="BiftorTranslateSettings">Translation Settings</string>
+	<string name="BiftorTranslateSource">Translation Source</string>
+	<string name="BiftorTranslateSourceGoogle">Google</string>
+	<string name="BiftorTranslateSourceYandex">Yandex</string>
 	<string name="BiftorTranslateEnterText">Enter text</string>
 	<string name="BiftorTranslateEnterTextEmpty">You must enter text to translate</string>
 	<string name="BiftorTranslateAUTO_DETECT">Auto detect</string>
@@ -918,5 +917,4 @@
 	<string name="BiftorAdsTypeCustom">Ads</string>
 	<string name="BiftorAdsTitle">BGram Ads</string>
 	<string name="BiftorAdsSubTitle">Support BGram by Watching an Ad</string>
-
 </resources>

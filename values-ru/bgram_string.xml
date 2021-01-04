@@ -68,6 +68,7 @@
 
 	<string name="TabsHeight">Высота панели вкладок</string>
 	<string name="TabsUnreadTextSize">Размер цифр счётчика</string>
+	<string name="BiftorShowFolderNameInHeader">Имя папки в заголовке</string>
 	<string name="SetAsDefaultTab">Сделать вкладкой по умолчанию</string>
 	<string name="ResetDefaultTab">Сбросить вкладку по умолчанию</string>
 	<string name="SortByStatus">Сортировать по статусу</string>
@@ -140,7 +141,7 @@
 	<!-- Biftor dismiss only -->
 	<string name="BiftorDismissOnly">Только скрыть</string>
 	<string name="BiftorUnpinMessageAlertTitle">Открепить сообщения</string>
-	<string name="BiftorUnpinMessageAlert">Вы хотите скрыть или открепить все сообщения?</string>
+	<string name="BiftorUnpinMessageAlert">Вы хотите скрыть или открепить все сообщения?</string>
 
 	<!-- Biftor dark blue theme -->
 	<string name="BGramDarkBlue">BGram Dark Blue</string>
@@ -303,7 +304,7 @@
 	<string name="BiftorNo">Нет</string>
 
 	<!--Biftor forward confirm panel -->
-	<string name="BiftorShowForwardConfirm">Список получателей при отправке</string>
+	<string name="BiftorShowForwardConfirm">Список получателей при отправке</string>
 	<string name="BiftorShowForwardConfirmsSub">Дополнительная панель подтверждения при мультипересылке.</string>
 	<string name="BiftorGoBack">Назад</string>
 
@@ -369,7 +370,7 @@
 	<string name="BiftorFontsReset">Сброс к значению по умолчанию</string>
 	<string name="BiftorFontRestarter">Перезапустить приложение</string>
 	<string name="BiftorYouNeedToRestartApp">Перезапустите приложение для применения шрифта</string>
-	<string name="BiftorLongClickOnEachOneToReset">Удерживайте для сброса к начальному значению.</string>
+	<string name="BiftorLongClickOnEachOneToReset">Удерживайте для сброса к начальному значению.</string>
 	<string name="BiftorEmojiSize">Размер смайлов</string>
 	<string name="BiftorEmojiPreview">Размер %1$s эмодзи</string>
 	<string name="BiftorVerticalAlignmentBottom">Выровнять по горизонтали</string>
@@ -504,15 +505,7 @@
 	<!-- Biftor Clear Cache other files -->
 	<string name="BiftorClearCacheOtherFiles"><![CDATA[Удалить временные файлы]]></string>
 	<string name="BiftorClearCacheOtherFilesInfo">✱​ Периодически избавляйтесь от временных файлов. Это мелкие служебные файлы, которые могут накапливаться и замедлять загрузку чатов.</string>
-	<string name="BiftorKeepMediaInfo">Telegram – облачный сервис. Ваши чаты и отправленные медиа находятся на облачном сервере и загружаются к вам на устройство, когда вы их смотрите (кешируются), где хранятся во временной папке для быстрого доступа (**в кеше**). Для экономии места задайте срок удаления **из кеша** медиа, которые вы не смотрите. Все вложения останутся в переписке и при просмотре скачаются снова.</string>
-
-	<!-- Biftor Select storage -->
-	<string name="BiftorSelectStorage">Устройство хранения</string>
-	<string name="BiftorStorageInternal">Внутренняя память</string>
-	<string name="BiftorStorageSdcard">Внешняя SD-карта</string>
-	<string name="BiftorStorageReadOnly">Память только для чтения</string>
-	<string name="BiftorStorageDeviceAlert">Android 4.4 и более поздние версии не позволяют хранить файлы на внешнем устройстве, но BGram может хранить их в папке приложения:\n\n%s\n\nВнимание! При удалении приложения файлы в этой папке будут удалены! \nВыбрать эту папку?</string>
-	<string name="BiftorStorageDeviceCantGrantWrite">Отсутствует разрешение на запись</string>
+	<string name="BiftorKeepMediaInfo">Telegram – облачный сервис. Ваши чаты и отправленные медиа находятся на облачном сервере и загружаются к вам на устройство, когда вы их смотрите (кешируются), где хранятся во временной папке для быстрого доступа (**в кеше**). Для экономии места задайте срок удаления **из кеша** медиа, которые вы не смотрите. Все вложения останутся в переписке и при просмотре скачаются снова.</string>
 
 	<!-- Biftor show view count in dialog list-->
 	<string name="BiftorShowViewCount">Показывать просмотры</string>
@@ -626,7 +619,7 @@
 	<!--Biftor login with bot-->
 	<string name="BiftorLoginWithBotToKen">Вход по токену бота</string>
 	<string name="BiftorBotToken">Введите ваш токен бота.</string>
-	<string name="BiftorLoginWithBotInfo">Создайте нового бота с @BotFather и введите здесь его токен. \nБоты — это не обычные аккаунты, у них есть ограничения. Например: \n- Они не имеют доступа к вашим контактам. \n- Они не могут вступать в группы или каналы (но их может добавить администратор). \n- Могут общаться только с пользователями, которые им напишут. \n- Не видят, когда пользователь читает сообщение. \n- Не могут заблокировать пользователя. \n- При первом входе видят пустой список чатов, который наполняется по мере получения сообщений от пользователей и в группах. Обнаружение групп может быть особенно медленным.</string>
+	<string name="BiftorLoginWithBotInfo">Создайте нового бота с @BotFather и введите здесь его токен. \nБоты — это не обычные аккаунты, у них есть ограничения. Например: \n- Они не имеют доступа к вашим контактам. \n- Они не могут вступать в группы или каналы (но их может добавить администратор). \n- Могут общаться только с пользователями, которые им напишут. \n- Не видят, когда пользователь читает сообщение. \n- Не могут заблокировать пользователя. \n- При первом входе видят пустой список чатов, который наполняется по мере получения сообщений от пользователей и в группах. Обнаружение групп может быть особенно медленным.</string>
 
 	<!--Biftor Tor -->
 	<string name="BiftorTorStarting">Запуск TOR&#8230;</string>
@@ -750,6 +743,12 @@
 
 	<!--Biftor Translate-->
 	<string name="BiftorTranslate">Перевести</string>
+	<string name="BiftorUndoTranslation">Отменить</string>
+	<string name="BiftorResetTranslation">Сброс</string>
+	<string name="BiftorTranslateSettings">Настройки переводчика</string>
+	<string name="BiftorTranslateSource">Сервис перевода</string>
+	<string name="BiftorTranslateSourceGoogle">Google</string>
+	<string name="BiftorTranslateSourceYandex">Яндекс</string>
 	<string name="BiftorTranslateEnterText">Введите текст</string>
 	<string name="BiftorTranslateEnterTextEmpty">Введите текст для перевода</string>
 	<string name="BiftorTranslateAUTO_DETECT">АВТО</string>
@@ -801,7 +800,7 @@
 	<string name="BiftorTranslatePOLISH">POLISH</string>
 	<string name="BiftorTranslatePORTUGUESE">PORTUGUESE</string>
 	<string name="BiftorTranslateROMANIAN">ROMANIAN</string>
-	<string name="BiftorTranslateRUSSIAN">RUSSIAN</string>
+	<string name="BiftorTranslateRUSSIAN">РУССКИЙ</string>
 	<string name="BiftorTranslateSERBIAN">SERBIAN</string>
 	<string name="BiftorTranslateSLOVAK">SLOVAK</string>
 	<string name="BiftorTranslateSLOVENIAN">SLOVENIAN</string>

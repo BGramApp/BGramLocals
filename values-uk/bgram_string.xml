@@ -68,6 +68,7 @@
 
     <string name="TabsHeight">Висота панелі вкладок</string>
     <string name="TabsUnreadTextSize">Розмір тексту лічильника непрочитаних</string>
+    <string name="BiftorShowFolderNameInHeader">Show folder\'s name in header</string>
     <string name="SetAsDefaultTab">Установити вкладку як початкову</string>
     <string name="ResetDefaultTab">Скинути початкову вкладку</string>
     <string name="SortByStatus">Сортувати за статусом</string>
@@ -510,13 +511,6 @@
     <string name="BiftorClearCacheOtherFilesInfo">У кеші накопичується багато тимчасових файлів, що може спричинити проблеми при завантаженні чатів. Рекомендується видаляти їх з кешу щонайменше раз на тиждень (Очистити кеш -> Інші файли).</string>
     <string name="BiftorKeepMediaInfo">У телеграмі всі чати та відправлені файли зберігаються на хмарному сервері Telegram і завантажуються в тимчасову теку пристрою, де ви входите в Telegram (кешування). Цей кеш зменшує час для відкриття файлів, але займає місце на вашому пристрої.\n\nФотографії, відеоролики та інші файли з хмарних чатів, до яких ви **не отримували доступу**, протягом цього періоду буде видалено з цього пристрою, щоб заощадити місце на диску. Усі медіа зберігатимуться в хмарі Telegram, і їх можна буде повторно завантажити, якщо вам це буде потрібно.</string>
 
-    <!-- Biftor Select storage -->
-    <string name="BiftorSelectStorage">Накопичувач для даних програми</string>
-    <string name="BiftorStorageInternal">Внутрішня SD-карта</string>
-    <string name="BiftorStorageSdcard">SD-карта</string>
-    <string name="BiftorStorageReadOnly">Лише для читання</string>
-    <string name="BiftorStorageDeviceAlert">Немає можливості зберігати файли у зовнішньому накопичувачі на ОС Android 4.4 або новіших версіях, але програма може зберігати файли лише на наступному шляху в зовнішній пам\'яті:\n\n%s\n\nЗверніть увагу: файли, збережені на цьому шляху, будуть видалені, коли  ви видалятимете BGram. Отже, якщо ви хочете видалити додаток без видалення файлів, перед видаленням додатку скористайтеся програмою для керування файлами на своєму пристрої та перемістіть файли, збережені на цьому шляху, в іншу теку.\n\nЧи використовуватимете ви цей шлях для збереження файлів?"</string>
-    <string name="BiftorStorageDeviceCantGrantWrite">Неможливо надати доступ до запису. Надайте додатку дозвіл на запис\читання!</string>
 
     <!-- Biftor show view count in dialog list-->
     <string name="BiftorShowViewCount">Кількість переглядів</string>
@@ -749,7 +743,7 @@
     <string name="BiftorKeepScreenOn">Залишати екран увімкненим</string>
     <string name="BiftorKeepScreenOnSub">Запобігає вимкненю екрана, коли додаток у дії.</string>
 
-	
+
     <!--Biftor Drawer Menu to Avatar -->
     <string name="BiftorChangeDrawerMenuToAvatar">Показати світлину в меню</string>
     <string name="BiftorChangeDrawerMenuToAvatarSub">Показувати світлину поточного облікового запису на кнопці меню</string>
@@ -759,6 +753,12 @@
 
     <!--Biftor Translate-->
     <string name="BiftorTranslate">Перекласти</string>
+    <string name="BiftorUndoTranslation">Undo translation</string>
+    <string name="BiftorResetTranslation">Reset translation</string>
+    <string name="BiftorTranslateSettings">Translation Settings</string>
+    <string name="BiftorTranslateSource">Translation Source</string>
+    <string name="BiftorTranslateSourceGoogle">Google</string>
+    <string name="BiftorTranslateSourceYandex">Yandex</string>
     <string name="BiftorTranslateEnterText">Введіть текст</string>
     <string name="BiftorTranslateEnterTextEmpty">Ви повинні ввести текст для перекладу</string>
     <string name="BiftorTranslateAUTO_DETECT">Автовизначення</string>
@@ -844,7 +844,7 @@
     <string name="BiftorHideFolder">Сховати теку</string>
     <string name="BiftorHideFolderAreYouSure">Ви впевнені, що хочете приховати цю теку?</string>
     <string name="BiftorShowFolderAreYouSure">Ви впевнені, що хочете показати цю теку?</string>
-	
+
     <!--Biftor internal updater-->
     <string name="BiftorSkipUpdate">Пропустити</string>
     <string name="BiftorRemindTomorrow">Завтра</string>
@@ -852,7 +852,7 @@
     <string name="BiftorCheckForUpdate">Перевірити наявність оновлень</string>
     <string name="BiftorDownloadLatestVersion">Завантажити останню версію</string>
 
-	
+
     <!--Biftor direct chats-->
     <string name="BiftorDirectChats">Важливі чати</string>
     <string name="BiftorSetAsDirectChats">Установити як важливі чати</string>

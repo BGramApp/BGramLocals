@@ -68,6 +68,7 @@
 
     <string name="TabsHeight">Altezza delle tab</string>
     <string name="TabsUnreadTextSize">Dimensione testo delle tab non lette</string>
+    <string name="BiftorShowFolderNameInHeader">Show folder\'s name in header</string>
     <string name="SetAsDefaultTab">Imposta la tab come predefinita</string>
     <string name="ResetDefaultTab">Ripristina la tab predefinita</string>
     <string name="SortByStatus">Ordina per stato</string>
@@ -515,14 +516,6 @@
     <string name="BiftorClearCacheOtherFilesInfo">Molti file temporanei si accumulano nella cache, e questo può causare rallentamenti durante il caricamento delle chat. È consigliabile cancellare la cache almeno una volta a settimana usando (<![CDATA[Svuota cache —> Altri file]]>)</string>
     <string name="BiftorKeepMediaInfo">Tutte le chat e i file inviati vengono salvati sui server Telegram e scaricati in una cartella temporanea nel dispositivo (caching). Questa cache riduce il tempo di caricamento delle conversazioni, ma occupa spazio sul tuo dispositivo.\n\nFoto, video e altri file dalle chat che **non utilizzate** durante questo periodo, saranno rimossi dal dispositivo per risparmiare spazio su disco.\nTutti i media restano in Telegram e possono essere riscaricati quando servono.</string>
 
-    <!-- Biftor Select storage -->
-    <string name="BiftorSelectStorage">Seleziona memoria dell\'app</string>
-    <string name="BiftorStorageInternal">Memoria interna</string>
-    <string name="BiftorStorageSdcard">Memoria esterna</string>
-    <string name="BiftorStorageReadOnly">Sola lettura</string>
-    <string name="BiftorStorageDeviceAlert">Non vi è la possibilità di salvare i file nella memoria esterna su Android 4.4 o superiore, ma l\'app può salvare i file solo nel seguente percorso:\n\n%s\n\nNOTA: i file che vengono salvati in questo percorso, verranno rimossi con la disinstallazione di BifToGram. Quindi, se volete disinstallare l\'applicazione senza cancellare i file, prima di disinstallare l\'app usate un File Manager per spostare i file che sono salvati in questo percorso in un\'altra cartella.\n\nVuoi usare questo percorso per salvare i file?</string>
-    <string name="BiftorStorageDeviceCantGrantWrite">Non è possibile ottenere l\'accesso in scrittura!</string>
-
     <!-- Biftor show view count in dialog list-->
     <string name="BiftorShowViewCount">Mostra numero visualiz. nella lista chat</string>
     <string name="BiftorShowViewCountSub">Mostra il conteggio delle visualizzazioni anziché i segni di spunta per i propri canali nell\'elenco delle chat</string>
@@ -764,6 +757,12 @@
 
     <!--Biftor Translate-->
     <string name="BiftorTranslate">Traduci</string>
+    <string name="BiftorUndoTranslation">Undo translation</string>
+    <string name="BiftorResetTranslation">Reset translation</string>
+    <string name="BiftorTranslateSettings">Translation Settings</string>
+    <string name="BiftorTranslateSource">Translation Source</string>
+    <string name="BiftorTranslateSourceGoogle">Google</string>
+    <string name="BiftorTranslateSourceYandex">Yandex</string>
     <string name="BiftorTranslateEnterText">Inserisci testo</string>
     <string name="BiftorTranslateEnterTextEmpty">Devi inserire del testo da tradurre</string>
     <string name="BiftorTranslateAUTO_DETECT">Automatico</string>
@@ -911,7 +910,7 @@
     <string name="BiftorShadowSockServiceConnecting">Connessione in corso servizio ShadowSocks</string>
     <string name="BiftorShadowSockServiceConnected">Servizio ShadowSocks attivo: %s</string>
     <string name="BiftorShadowSockServiceStop">Ferma</string>
-	<string name="BiftorShadowSocksConfig">Configurazione ShadowSocks</string>
+    <string name="BiftorShadowSocksConfig">Configurazione ShadowSocks</string>
     <string name="BiftorStopShadowSocksWhenAppClosed">Arresta ShadowSocks su chiusura app</string>
     <string name="BiftorStopShadowSocksWhenAppClosedSub">Ferma ShadowSocks alla chiusura dell\'app, mentre, ad opzione disattivata, a SS attivato, manterrà la connessione in sottofondo.</string>
 

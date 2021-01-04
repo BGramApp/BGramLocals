@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
 	<string name="BGram" translatable="false">BGram</string>
 	<string name="AppName" translatable="false">BGram</string>
@@ -65,6 +65,7 @@
 	<string name="Sort">Xatchoʻplar tartibi</string>
 	<string name="TabsHeight">Xatchoʻplar paneli boʻyi</string>
 	<string name="TabsUnreadTextSize">Hisoblagich raqami oʻlchami</string>
+	<string name="BiftorShowFolderNameInHeader">Show folder\'s name in header</string>
 	<string name="SetAsDefaultTab">Xatchoʻpni soʻrovsiz oʻrnatish</string>
 	<string name="ResetDefaultTab">Xatchoʻpdagi oʻzgarishini bekor qilish</string>
 	<string name="SortByStatus">Holat boʻyicha saralash</string>
@@ -510,14 +511,6 @@
 	<string name="BiftorClearCacheOtherFilesInfo">Ishlash jarayonida vaqtinchalik fayllar keshga saqlanadi. Bu esa chatlarni me’yoriy yuklanishiga xalaqit beradi. Haftada bir marta boʻlsa ham ularni keshdan tozalab tashlang («Vaqtinchalik fayllarni tozalash» tugmasidan foydalangan holda).</string>
 	<string name="BiftorKeepMediaInfo">Telegramda barcha chatlar va joʻnatilgan fayllar serverda saqlanadi va Siz akkauntingizga kirganingizda ular yuklab olinib, jildda saqlanadi. Kesh fayllarni ochishni tezlashtiradi, biroq qurilmada ortiqcha joy oladi. Joyni tejash maqsadida Siz muddatni belgilashingiz mumkin, ushbu muddat tugagandan soʻng agar foydalanmasangiz yuklab olingan rasm, video va boshqa fayllar **keshdan** olib tashlanadi. Barchasi yozishmalarda saqlanadi va ularni istalgan vaqt qayta yuklab olishingiz mumkin.</string>
 
-	<!-- Biftor Select storage -->
-	<string name="BiftorSelectStorage">Ilova joylashgan jild</string>
-	<string name="BiftorStorageInternal">Ichki xotira</string>
-	<string name="BiftorStorageSdcard">Tashqi SD-karta</string>
-	<string name="BiftorStorageReadOnly">Faqat oʻqish uchun</string>
-	<string name="BiftorStorageDeviceAlert">Android 4.4 va undan eskilari fayllarni tashqi xotiraga saqlash imkonini bermaydi, biroq BGram quyidagi yoʻllar orqali fayllarni tashqi xotiraga saqlay oladi:\n\n%s\n\nDiqqat! Ilova oʻchirilgan taqdirda jildi ham oʻchadi! Ilovani oʻchirishdan oldin jildni tarkibi bilan boshqa joyga oʻtkazing. \nFayllarni saqlash uchun ushbu jilddan foydalanilsinmi?</string>
-	<string name="BiftorStorageDeviceCantGrantWrite">Yozishga ruxsat yoʻq!</string>
-
 	<!-- Biftor show view count in dialog list-->
 	<string name="BiftorShowViewCount">Chatlar roʻyxatida oʻqilganlik soni</string>
 	<string name="BiftorShowViewCountSub">Chatlar roʻyxatidagi kanallaringiz uchun nishoncha oʻrniga oʻqiganlar soni koʻrsatiladi.</string>
@@ -763,6 +756,12 @@
 
 	<!--Biftor Translate-->
 	<string name="BiftorTranslate">Tarjima</string>
+	<string name="BiftorUndoTranslation">Undo translation</string>
+	<string name="BiftorResetTranslation">Reset translation</string>
+	<string name="BiftorTranslateSettings">Translation Settings</string>
+	<string name="BiftorTranslateSource">Translation Source</string>
+	<string name="BiftorTranslateSourceGoogle">Google</string>
+	<string name="BiftorTranslateSourceYandex">Yandex</string>
 	<string name="BiftorTranslateEnterText">Matn kiriting</string>
 	<string name="BiftorTranslateEnterTextEmpty">Tarjima qilish uchun matn kiriting</string>
 	<string name="BiftorTranslateAUTO_DETECT">Avtomatik aniqlash</string>

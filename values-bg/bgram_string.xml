@@ -69,6 +69,7 @@
 
     <string name="TabsHeight">Височина на раздела</string>
     <string name="TabsUnreadTextSize">Размер на текста в раздел непрочетени</string>
+    <string name="BiftorShowFolderNameInHeader">Show folder\'s name in header</string>
     <string name="SetAsDefaultTab">Задайте като раздел по подразбиране</string>
     <string name="ResetDefaultTab">Възстанови на раздела по подразбиране</string>
     <string name="SortByStatus">Подреди по състояние</string>
@@ -513,14 +514,6 @@
     <string name="BiftorClearCacheOtherFilesInfo">В кеша се натрупват много временни файлове, което може да доведе до проблеми при зареждането на чатове. Препоръчително е да ги изтриете от кеша поне веднъж седмично (<![CDATA[Clear Cache —> Other files]]> бутон).</string>
     <string name="BiftorKeepMediaInfo">В Telegram всички разговори и изпратени файлове се съхраняват в облачния сървър на Telegram и се изтеглят във временна папка на устройството Ви (кеширане). Този кеш намалява времето за отваряне на файлове, но заема достатъчно място на устройството Ви.\n\nСнимките, видеоклиповете и другите файлове от облачните чатове, на които ** не сте осъществили достъп ** през този период, ще бъдат премахнати от това устройство, за да се спести място на диска.\nВсички медии ще останат в облака на Telegram и ще могат да бъдат изтеглени отново, ако имате нужда от тях.</string>
 
-    <!-- Biftor Select storage -->
-    <string name="BiftorSelectStorage">Изберете място за съхранение</string>
-    <string name="BiftorStorageInternal">Вътрешно хранилище</string>
-    <string name="BiftorStorageSdcard">Външна SD карта</string>
-    <string name="BiftorStorageReadOnly">Само за четене</string>
-    <string name="BiftorStorageDeviceAlert">Няма възможност за запазване на файлове на външно хранилище в Android 4.4 и по-нови версии, но приложението може да записва файлове само в следния път на външното хранилище:\n\n%s\n\nЗабележка: файловете, които са запаметени в този път, ще бъдат премахнати чрез деинсталирането на BGram. Така че, ако искате да деинсталирате приложението без да изтривате файлове, преди да деинсталирате приложението, използвайте приложението за мениджър на файлове на телефона си и преместете файловете, които са съхранени по този път, в друга папка.\n\nЩе се използва ли този път за запазване на файловете?</string>
-    <string name="BiftorStorageDeviceCantGrantWrite">Не може да се даде достъп за записване!</string>
-
     <!-- Biftor show view count in dialog list-->
     <string name="BiftorShowViewCount"> Покажи брой изгледи в списъка с чатове </string>
     <string name="BiftorShowViewCountSub">Показване на броя на отметките, вместо отметките за собствените канали в чата.</string>
@@ -757,6 +750,12 @@
 
     <!--Biftor Translate-->
     <string name="BiftorTranslate">Translate</string>
+    <string name="BiftorUndoTranslation">Undo translation</string>
+    <string name="BiftorResetTranslation">Reset translation</string>
+    <string name="BiftorTranslateSettings">Translation Settings</string>
+    <string name="BiftorTranslateSource">Translation Source</string>
+    <string name="BiftorTranslateSourceGoogle">Google</string>
+    <string name="BiftorTranslateSourceYandex">Yandex</string>
     <string name="BiftorTranslateEnterText">Enter text</string>
     <string name="BiftorTranslateEnterTextEmpty">You must enter text to translate</string>
     <string name="BiftorTranslateAUTO_DETECT">Auto detect</string>

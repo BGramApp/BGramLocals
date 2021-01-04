@@ -68,6 +68,7 @@
 
     <string name="TabsHeight">Altura de las pestañas</string>
     <string name="TabsUnreadTextSize">Tamaño texto contadores en pestañas</string>
+    <string name="BiftorShowFolderNameInHeader">Show folder\'s name in header</string>
     <string name="SetAsDefaultTab">Fijar como pestaña por defecto</string>
     <string name="ResetDefaultTab">Restablecer pestaña por defecto</string>
     <string name="SortByStatus">Ordenar por estado</string>
@@ -510,14 +511,6 @@
     <string name="BiftorClearCacheOtherFilesInfo">Los archivos temporales se acumulan en la caché y esto causa problemas para cargar los chats. Es recomendable borrarlos al menos una vez a la semana con el botón (<![CDATA[Borrar archivos temporales]]>).</string>
     <string name="BiftorKeepMediaInfo">Todos los chats y archivos enviados se almacenan en la nube de Telegram y se descargan a la carpeta temporal del dispositivo en el que te conectas a Telegram (cacheado). Esto reduce el tiempo para abrir archivos, pero ocupa espacio en tu dispositivo.\n\nLas fotos, videos y otros archivos de los chats en la nube que **no hayas accedido** durante este periodo se eliminarán del dispositivo para ahorrar espacio.\nTodos los archivos permanecerán en la nube de Telegram y pueden ser descargados si se necesitan otra vez.</string>
 
-    <!-- Biftor Select storage -->
-    <string name="BiftorSelectStorage">Almacenamiento de la aplicación</string>
-    <string name="BiftorStorageInternal">Memoria interna</string>
-    <string name="BiftorStorageSdcard">SD card</string>
-    <string name="BiftorStorageReadOnly">Solo lectura</string>
-    <string name="BiftorStorageDeviceAlert">No hay posibilidad de almacenar archivos en almacenamiento externo en Android 4.4 o superior, pero la aplicación puede guardar archivos solo en la siguiente ruta del almacenamiento externo:\n\n%s\n\nNota: los archivos guardados en esta ruta se eliminarán al desinstalar BGram. Si desea desinstalar sin borrar los archivos, antes de hacerlo, use un gestor de archivos para moverlos a otra carpeta.\n\n¿Desea usar esta ruta para guardar los archivos?</string>
-    <string name="BiftorStorageDeviceCantGrantWrite">¡No tiene permiso de escritura!</string>
-
     <!-- Biftor show view count in dialog list-->
     <string name="BiftorShowViewCount">Mostrar vistas en lista de chats</string>
     <string name="BiftorShowViewCountSub">Muestra número de vistas en vez doble check para canales propios en la lista de chats.</string>
@@ -759,6 +752,12 @@
 
     <!--Biftor Translate-->
     <string name="BiftorTranslate">Traductor</string>
+    <string name="BiftorUndoTranslation">Undo translation</string>
+    <string name="BiftorResetTranslation">Reset translation</string>
+    <string name="BiftorTranslateSettings">Translation Settings</string>
+    <string name="BiftorTranslateSource">Translation Source</string>
+    <string name="BiftorTranslateSourceGoogle">Google</string>
+    <string name="BiftorTranslateSourceYandex">Yandex</string>
     <string name="BiftorTranslateEnterText">Introduce el texto</string>
     <string name="BiftorTranslateEnterTextEmpty">Debes introducir texto para traducir</string>
     <string name="BiftorTranslateAUTO_DETECT">Autodetectar</string>

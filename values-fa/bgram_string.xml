@@ -67,6 +67,7 @@
 
     <string name="TabsHeight">ارتفاع تب ها</string>
     <string name="TabsUnreadTextSize">تنظیم سایز نوشته تعداد  پیام های  تب ها</string>
+    <string name="BiftorShowFolderNameInHeader">نمایش نام پوشه در سربرگ</string>
     <string name="SetAsDefaultTab">انتخاب به عنوان تب پیشفرض</string>
     <string name="ResetDefaultTab">ریست کردن تب پیشفرض</string>
     <string name="SortByStatus">بر اساس اخرین وضعیت</string>
@@ -81,7 +82,7 @@
     <string name="HeaderTabCounterCountChats">شمارش تعداد چت ها به جای تعداد پیام ها</string>
     <string name="HeaderTabCounterCountNotMuted">فقط شمارش چت های ساکت نشده</string>
     <string name="HideTabsCounters">عدم نمایش شمارشگر تب ها</string>
-    <string name="MarkAllAsRead">تمام موارد رو به عنوان خوانده شده در نظر بگیر</string>
+    <string name="MarkAllAsRead">خوانده شدن همه پیام ها</string>
 
     <string name="ShowHeaderShadow">نمایش سایه تب ها</string>
 
@@ -516,13 +517,6 @@
     <string name="BiftorKeepMediaInfo">عکس‌ها، ویدئوها و سایر فایل‌های گفتگوهای اَبری که شما در این بازه آن‌ها را ** مشاهده نکرده‌اید** جهت ذخیره‌سازی فضای دیسک از این دستگاه حذف می‌شوند.
 
 تمامی رسانه‌ها در اَبر تلگرام باقی مانده و در صورت نیاز شما می‌توانید آن‌ها را دوباره دانلود کنید.</string>
-    <!-- Biftor Select storage -->
-    <string name="BiftorSelectStorage">محل ذخیره سازی</string>
-    <string name="BiftorStorageInternal">حافظه داخلی</string>
-    <string name="BiftorStorageSdcard">اس دی کارد</string>
-    <string name="BiftorStorageReadOnly">فقط خواندن</string>
-    <string name="BiftorStorageDeviceAlert">این امکان برای دستگاه هایی با اندروید بالای 4.4 امکان پذیر نمی باشد، ولی برنامه می تواند فایل ها را در ادرس زیر ذخییره کند: \n\n%s\n\n در نظر داشته باشید فایل های ذخیره شده در این ادرس با پاک شدن برنامه حذف می شوند.</string>
-    <string name="BiftorStorageDeviceCantGrantWrite">اجازه نوشتن گرفته نشد!</string>
 
     <!-- Biftor show view count in dialog list-->
     <string name="BiftorShowViewCount">نمایش تعداد بازدید پست های کانال</string>
@@ -689,7 +683,7 @@
     <string name="BiftorStopTorWhenAppClosedSub">متوقف کردن تور هروقت برنامه بسته شد، اگر شما این گزینه را غیر فعال کنید کل برنامه در زمانی که تور در اجر هست بسته نمی شود.</string>
     <string name="BiftorConnectTorWhenForNotify">اتصال اتوماتیک با آمدن پیام</string>
     <string name="BiftorGetBridgeFromGithub">درخواست پل از گیت هاب</string>
-    <string name="BiftorTORModule">BGram TOR</string>
+    <string name="BiftorTORModule">بیگرام تور</string>
 
     <!--Biftor custom tabs-->
     <string name="BiftorNewTab">تب جدید</string>
@@ -764,6 +758,12 @@
 
     <!--Biftor Translate-->
     <string name="BiftorTranslate">ترجمه</string>
+    <string name="BiftorUndoTranslation">متن اصلی</string>
+    <string name="BiftorResetTranslation">ریست کردن ترجمه</string>
+    <string name="BiftorTranslateSettings">تنظیمات ترجمه</string>
+    <string name="BiftorTranslateSource">منبع ترجمه</string>
+    <string name="BiftorTranslateSourceGoogle">گوگل</string>
+    <string name="BiftorTranslateSourceYandex">یاندکس</string>
     <string name="BiftorTranslateEnterText">متن خود را وارد کنید</string>
     <string name="BiftorTranslateEnterTextEmpty">شما باید نوشته خود را برای ترجمه وارد کنید</string>
     <string name="BiftorTranslateAUTO_DETECT">تشخیص خودکار</string>

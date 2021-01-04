@@ -75,6 +75,7 @@
 
  <string name="TabsHeight">إرتفاع علامات التبويب</string>
  <string name="TabsUnreadTextSize">حجم النص غير المقروء بعلامات التبويب </string>
+ <string name="BiftorShowFolderNameInHeader">Show folder\'s name in header</string>
  <string name="SetAsDefaultTab">تعيين كعلامة تبويب إفتراضية</string>
  <string name="ResetDefaultTab">إعادة تعيين علامة التبويب الافتراضية</string>
  <string name="SortByStatus">فرز حسب الحالة</string>
@@ -522,14 +523,6 @@
  <string name="BiftorClearCacheOtherFilesInfo"> الكثير من الملفات المؤقتة التي تتراكم في ذاكرة التخزين المؤقت, و يمكن أن يسبب هذا مشاكل عند التحميل من المحادثات. فإنه من المستحسن أن حذفها من ذاكرة التخزين المؤقت على الأقل مرة واحدة في الأسبوع (<![CDATA[حذف الذاكرة المؤقتة —> ملفات أخرى]]> زر).</string>
  <string name="BiftorKeepMediaInfo"> في تيليجرام جميع المحادثات ،إرسال الملفات المخزنة على خادم السحابة لدى تيليجرام و تحميلها إلى المجلد المؤقت من الجهاز حيث يمكنك تسجيل الدخول إلى تيليجرام (التخزين المؤقت). هذا الكاش يقلل من الوقت لفتح الملفات ، ولكن يأخذ مساحة على الجهاز الخاص بك.\n\n الصور  ومقاطع الفيديو وغيرها من الملفات من سحابة المحادثات التي لم يتم الوصول إليها خلال هذه الفترة سيتم إزالتها من هذا الجهاز لتوفير مساحة القرص.\n كل  الوسائط المشتركة ستبقى في سحابة تيليجرام يمكن إعادة تحميلها إذا كنت في حاجة إليها مرة أخرى. </string>
 
- <!-- Biftor Select storage -->
- <string name="BiftorSelectStorage">حدد تخزين التطبيق</string>
- <string name="BiftorStorageInternal">التخزين بذاكرة خارجية</string>
- <string name="BiftorStorageSdcard">التخزين بذاكرة الهاتف</string>
- <string name="BiftorStorageReadOnly">قراءة فقط</string>
- <string name="BiftorStorageDeviceAlert"> تتسنى لك إمكانية حفظ الملفات إلى ذاكرة تخزين خارجية على نسخة الأندرويد  4.4 وما فوق ، ولكن التطبيق يمكنه حفظ الملفات في المسار التالي في ذاكرة التخزين الخارجية :\n\n%s\n\n مسار: الملفات التي تم حفظها في هذا المسار ستتم إزالتها اذا قمت  بإلغاء تثبيت BGram. و إذا كنت ترغب في إلغاء تثبيت التطبيق بدون حذف الملفات!   قبل إلغاء تثبيت التطبيق عليك باستخدام تطبيق إدارة الملفات على الهاتف و نقل الملفات التي تم تخزينها في هذا المسار إلى مجلد آخر.\n\n يمكن استخدامها لحفظ الملفات ؟ </string>
- <string name="BiftorStorageDeviceCantGrantWrite"> لا يمكن منح حق الوصول للكتابة ! </string>
-
  <!-- Biftor show view count in dialog list-->
  <string name="BiftorShowViewCount">إظهار عداد المشاهدات بقائمة المحادثة</string>
  <string name="BiftorShowViewCountSub">إظهار عدد المشاهدات بدلاً من علامات التأشير للقنوات الخاصة في قائمة المحادثات.</string>
@@ -771,6 +764,12 @@
 
  <!--Biftor Translate-->
  <string name="BiftorTranslate">ترجمة</string>
+ <string name="BiftorUndoTranslation">Undo translation</string>
+ <string name="BiftorResetTranslation">Reset translation</string>
+ <string name="BiftorTranslateSettings">Translation Settings</string>
+ <string name="BiftorTranslateSource">Translation Source</string>
+ <string name="BiftorTranslateSourceGoogle">Google</string>
+ <string name="BiftorTranslateSourceYandex">Yandex</string>
  <string name="BiftorTranslateEnterText">أدخل نص</string>
  <string name="BiftorTranslateEnterTextEmpty">يجب عليك إدخال نص لترجمته</string>
  <string name="BiftorTranslateAUTO_DETECT">إكتشاف تلقائي</string>

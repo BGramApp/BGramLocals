@@ -68,6 +68,7 @@
 
     <string name="TabsHeight">Hauteur de la barre d\'onglets</string>
     <string name="TabsUnreadTextSize">Taille du texte du compteur</string>
+    <string name="BiftorShowFolderNameInHeader">Show folder\'s name in header</string>
     <string name="SetAsDefaultTab">Définir comme onglet par défaut</string>
     <string name="ResetDefaultTab">Réinitialiser l\'onglet par défaut</string>
     <string name="SortByStatus">Trier par statut</string>
@@ -513,14 +514,6 @@
     <string name="BiftorClearCacheOtherFilesInfo">De nombreux fichiers temporaires s\'accumulent dans le cache, ce qui peut poser des problèmes lors du chargement des discussions. Il est conseillé de les supprimer de la mémoire cache au moins une fois par semaine.(<![CDATA[Clear Cache —> Other files]]> bouton).</string>
     <string name="BiftorKeepMediaInfo">Dans Telegram, toutes les discussions et les fichiers envoyés sont stockés sur le serveur Telegram Cloud et téléchargés dans le dossier temporaire du périphérique où vous vous connectez à Telegram (mise en cache). Ce cache réduit le temps nécessaire pour ouvrir les fichiers, mais prend de la place sur votre appareil.\n\nLes photos, vidéos et autres fichiers issus de discussions en cloud auxquels vous n\'avez pas accédé au cours de cette période seront supprimés de ce périphérique pour économiser de l\'espace disque.\nTous les médias resterons dans le cloud Telegram et pourront être de nouveau téléchargés si nécessaire.</string>
 
-    <!-- Biftor Select storage -->
-    <string name="BiftorSelectStorage">Stockage d\'application</string>
-    <string name="BiftorStorageInternal">Stockage interne</string>
-    <string name="BiftorStorageSdcard">Carte SD</string>
-    <string name="BiftorStorageReadOnly">Lecture seulement</string>
-    <string name="BiftorStorageDeviceAlert">Il n’est pas possible de sauvegarder des fichiers sur un stockage externe sous Android 4.4 ou supérieur, mais l’application peut enregistrer des fichiers que dans le chemin suivant du stockage externe:\n\n%s\n\nRemarque: les fichiers sauvegardés dans ce chemin seront supprimés en désintallant BGram. Donc, si vous voulez désintaller l\'application sans supprimer les fichiers, avant la désinstallation de l\'application utilisez un gestionnaire de fichiers sur votre téléphone et déplacez les fichiers qui sont stockés dans le chemin vers un autre dossier.\n\nUtilser ce chemin pour sauvegarder les fichiers ?</string>
-    <string name="BiftorStorageDeviceCantGrantWrite">Impossible d\'accorder un accès en écriture!</string>
-
     <!-- Biftor show view count in dialog list-->
     <string name="BiftorShowViewCount">Afficher les vues dans la liste des discussions </string>
     <string name="BiftorShowViewCountSub">Afficher le nombre de vues au lieu de coches pour vos chaînes dans la liste des discussions.</string>
@@ -762,6 +755,12 @@
 
     <!--Biftor Translate-->
     <string name="BiftorTranslate">Traduire</string>
+    <string name="BiftorUndoTranslation">Undo translation</string>
+    <string name="BiftorResetTranslation">Reset translation</string>
+    <string name="BiftorTranslateSettings">Translation Settings</string>
+    <string name="BiftorTranslateSource">Translation Source</string>
+    <string name="BiftorTranslateSourceGoogle">Google</string>
+    <string name="BiftorTranslateSourceYandex">Yandex</string>
     <string name="BiftorTranslateEnterText">Entrer un texte</string>
     <string name="BiftorTranslateEnterTextEmpty">Vous devez saisir du texte à traduire</string>
     <string name="BiftorTranslateAUTO_DETECT">Détéction automatique</string>
@@ -869,8 +868,7 @@
     <string name="BiftorDeleteFromFav">Supprimer des favoris</string>
 
     <string name="BiftorHideSponsorProxy">Masquer le sponsor</string>
-    <string name="BiftorHideSponsorProxySub">Masquer le sponsor du proxy de la liste de discussion
-</string>
+    <string name="BiftorHideSponsorProxySub">Masquer le sponsor du proxy de la liste de discussion</string>
 
     <!--Biftor shadow socks-->
     <string name="BiftorPing">Ping</string>

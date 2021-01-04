@@ -68,6 +68,7 @@
 
     <string name="TabsHeight">Altura das abas</string>
     <string name="TabsUnreadTextSize">Tamanho do texto dos contadores</string>
+    <string name="BiftorShowFolderNameInHeader">Show folder\'s name in header</string>
     <string name="SetAsDefaultTab">-> Definir como pasta padrão</string>
     <string name="ResetDefaultTab">Redefinir aba padrão</string>
     <string name="SortByStatus">Ordenar por estado</string>
@@ -513,14 +514,6 @@
     <string name="BiftorClearCacheOtherFilesInfo">Muitos arquivos temporários se acumulam no cache, e isso pode causar problemas ao carregar bate-papos. É aconselhável excluí-los do cache pelo menos uma vez por semana (<![CDATA[Clear Cache —> Other files]]> botão).</string>
     <string name="BiftorKeepMediaInfo">No Telegram, todos os chats e mídias enviados são armazenados no servidor da nuvem do Telegram e baixados para a pasta temporária do dispositivo em que você faz login no Telegram (cache). Esse cache reduz o tempo para abrir arquivos, mas ocupa espaço no seu dispositivo.\n\nFotos, vídeos e outros arquivos de chats na nuvem que você possui **não acessados** durante esse período será removido deste dispositivo para economizar espaço em disco.\nTodas as mídias permanecerão na nuvem do Telegram e serão baixadas novamente quando você a reproduzir.</string>
 
-    <!-- Biftor Select storage -->
-    <string name="BiftorSelectStorage">Armazenamento de arquivos</string>
-    <string name="BiftorStorageInternal">Interno</string>
-    <string name="BiftorStorageSdcard">Cartão SD</string>
-    <string name="BiftorStorageReadOnly">Somente leitura</string>
-    <string name="BiftorStorageDeviceAlert">Não há possibilidade de salvar arquivos em armazenamento externo no Android 4.4 ou superior, mas o aplicativo pode salvar arquivos apenas no seguinte caminho no armazenamento externo:\n\n%s\n\nAviso: os arquivos salvos neste caminho serão removidos com a desinstalação do BGram. Portanto, se você quiser desinstalar o aplicativo sem excluir arquivos, antes de desinstalar o aplicativo, use o aplicativo gerenciador de arquivos em seu telefone e mova os arquivos armazenados nesse caminho para outra pasta. \n\nEste caminho será usado para salvar arquivos?</string>
-    <string name="BiftorStorageDeviceCantGrantWrite">Não é possível conceder acesso de gravação!</string>
-
     <!-- Biftor show view count in dialog list-->
     <string name="BiftorShowViewCount">Mostrar exibições na lista de chats</string>
     <string name="BiftorShowViewCountSub">Mostrar contagem de visualizações em vez de marcas de seleção para os próprios canais na lista de chats.</string>
@@ -763,6 +756,12 @@
 
     <!--Biftor Translate-->
     <string name="BiftorTranslate">Traduzir</string>
+    <string name="BiftorUndoTranslation">Undo translation</string>
+    <string name="BiftorResetTranslation">Reset translation</string>
+    <string name="BiftorTranslateSettings">Translation Settings</string>
+    <string name="BiftorTranslateSource">Translation Source</string>
+    <string name="BiftorTranslateSourceGoogle">Google</string>
+    <string name="BiftorTranslateSourceYandex">Yandex</string>
     <string name="BiftorTranslateEnterText">Texto</string>
     <string name="BiftorTranslateEnterTextEmpty">Você deve inserir o texto para traduzir</string>
     <string name="BiftorTranslateAUTO_DETECT">AUTOMÁTICO</string>

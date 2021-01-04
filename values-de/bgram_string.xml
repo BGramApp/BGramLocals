@@ -68,6 +68,7 @@
 
     <string name="TabsHeight">Höhe Tab-Leiste</string>
     <string name="TabsUnreadTextSize">Textgröße Zähler</string>
+    <string name="BiftorShowFolderNameInHeader">Show folder\'s name in header</string>
     <string name="SetAsDefaultTab">Setze als Standarttab</string>
     <string name="ResetDefaultTab">Standarttab zurücksetzen</string>
     <string name="SortByStatus">Sortiere nach Status</string>
@@ -511,14 +512,6 @@
     <string name="BiftorClearCacheOtherFilesInfo">Eine Menge an temporären Daten sammeln sich im Cache an und dass kann Probleme beim Laden von Chats auslösen. Es ist ratsam diese mind. einmal die Woche aus dem Cache zu löschen (<![CDATA[Cache löschen —> Andere Dateien]]> Schaltfläche).</string>
     <string name="BiftorKeepMediaInfo">In Telegram werden alle Chats und gesendete Dateien auf den Telegram Cloud Servern gespeichert und in den temporären Ordner des Gerätes, mit dem du dich anmeldest, geladen. Dieser Cache reduziert die Zeit die es zum öffnen der Dateien benötigt, nutzt aber auch Speicher von deinem Gerät. \n\nFotos, Videos und andere Dateien auf die du während der eingestellten Zeit **nicht zugegriffen* hast werden vom Gerät gelöscht um Speicherplatz zu sparen.\nAlle Medien bleiben aber in der Telegram Cloud und können erneut heruntergeladen werden, wenn du sie wieder brauchst.</string>
 
-    <!-- Biftor Select storage -->
-    <string name="BiftorSelectStorage">App Speicher</string>
-    <string name="BiftorStorageInternal">Interne SD Karte</string>
-    <string name="BiftorStorageSdcard">SD Karte</string>
-    <string name="BiftorStorageReadOnly">Nur Lesen</string>
-    <string name="BiftorStorageDeviceAlert">Unter Android 4.4 (und neuer) gibt es keine Möglichkeit Dateien auf dem externen Speicher zu speichern, aber die App kann die Daten unter dem folgenden externen Pfad zu speichern:\n\n%s\n\nHinweis: Daten die in diesem Pfad gespeichert sind, werden bei einer deinstallation von BGRam ebenfalls gelöscht. Wenn du planst die Applikation zu löschen ohne die Daten zu verlieren, musst du sie vorher mit einem File-Manager an einen Ort deiner Wahl verschieben.\n\nSoll dieser Pfad benutzt werden um die Daten zu speichern?</string>
-    <string name="BiftorStorageDeviceCantGrantWrite">Kann keine Schreibrechte erhalten!</string>
-
     <!-- Biftor show view count in dialog list-->
     <string name="BiftorShowViewCount">Zeige Ansichten in der Chat Übersicht </string>
     <string name="BiftorShowViewCountSub">Zeige Ansichten statt der Haken für die eigenen Channel in der Chat Liste.</string>
@@ -759,6 +752,12 @@
 
     <!--Biftor Translate-->
     <string name="BiftorTranslate">Translate</string>
+    <string name="BiftorUndoTranslation">Undo translation</string>
+    <string name="BiftorResetTranslation">Reset translation</string>
+    <string name="BiftorTranslateSettings">Translation Settings</string>
+    <string name="BiftorTranslateSource">Translation Source</string>
+    <string name="BiftorTranslateSourceGoogle">Google</string>
+    <string name="BiftorTranslateSourceYandex">Yandex</string>
     <string name="BiftorTranslateEnterText">Enter text</string>
     <string name="BiftorTranslateEnterTextEmpty">You must enter text to translate</string>
     <string name="BiftorTranslateAUTO_DETECT">Auto detect</string>
@@ -914,5 +913,4 @@
     <string name="BiftorAdsTypeCustom">Ads</string>
     <string name="BiftorAdsTitle">BGram Ads</string>
     <string name="BiftorAdsSubTitle">Support BGram by Watching an Ad</string>
-
 </resources>

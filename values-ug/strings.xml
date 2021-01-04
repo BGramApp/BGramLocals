@@ -3,7 +3,7 @@
     <string name="LanguageName">ئۇيغۇرچە</string>
     <string name="English">ئۇيغۇرچە</string>
     <string name="LanguageNameInEnglish">Uyghur</string>
-    <string name="LanguageCode">ug_ex</string>
+    <string name="LanguageCode">ug</string>
     <string name="ContinueOnThisLanguage">ئۇيغۇرچە بىلەن داۋاملاشتۇراي</string>
     <!--signin view-->
     <string name="YourPhone">تېلفون نومۇرىڭىز</string>

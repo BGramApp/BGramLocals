@@ -68,7 +68,7 @@
 
     <string name="TabsHeight">Altezza delle tab</string>
     <string name="TabsUnreadTextSize">Dimensione testo delle tab non lette</string>
-    <string name="BiftorShowFolderNameInHeader">Show folder\'s name in header</string>
+    <string name="BiftorShowFolderNameInHeader">Mostra nome cartella in alto</string>
     <string name="SetAsDefaultTab">Imposta la tab come predefinita</string>
     <string name="ResetDefaultTab">Ripristina la tab predefinita</string>
     <string name="SortByStatus">Ordina per stato</string>
@@ -757,10 +757,10 @@
 
     <!--Biftor Translate-->
     <string name="BiftorTranslate">Traduci</string>
-    <string name="BiftorUndoTranslation">Undo translation</string>
-    <string name="BiftorResetTranslation">Reset translation</string>
-    <string name="BiftorTranslateSettings">Translation Settings</string>
-    <string name="BiftorTranslateSource">Translation Source</string>
+    <string name="BiftorUndoTranslation">Annulla traduzione</string>
+    <string name="BiftorResetTranslation">Resetta traduzione</string>
+    <string name="BiftorTranslateSettings">Imposta traduzione</string>
+    <string name="BiftorTranslateSource">Sorgente traduzione</string>
     <string name="BiftorTranslateSourceGoogle">Google</string>
     <string name="BiftorTranslateSourceYandex">Yandex</string>
     <string name="BiftorTranslateEnterText">Inserisci testo</string>

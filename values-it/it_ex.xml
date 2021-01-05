@@ -4088,7 +4088,7 @@
 
     <string name="TabsHeight">Altezza delle tab</string>
     <string name="TabsUnreadTextSize">Dimensione testo delle tab non lette</string>
-    <string name="BiftorShowFolderNameInHeader">Show folder\'s name in header</string>
+    <string name="BiftorShowFolderNameInHeader">Mostra nome cartella in alto</string>
     <string name="SetAsDefaultTab">Imposta la tab come predefinita</string>
     <string name="ResetDefaultTab">Ripristina la tab predefinita</string>
     <string name="SortByStatus">Ordina per stato</string>
@@ -4649,11 +4649,11 @@
     <string name="BiftorLoginWithBotToKen">Login con bot token</string>
     <string name="BiftorBotToken">Incolla il token</string>
     <string name="BiftorLoginWithBotInfo">Puoi usare @BotFather per creare un bot.\n\nSe accederai come bot, avrai le stesse limitazioni che hanno i bot, tra cui:\n
-        - Il non poter accedere né avere contatti.\n
-        - Il non potersi unire a gruppi e canali se non esplicitamente aggiunto.\n
-        - Puoi scrivere solo ad utenti che ti hanno già contattato.\n
-        - Non riceverai conferme di lettura ai messaggi che invii.\n
-        - La lista chat verrà popolata non appena riceverai messaggi da utenti e gruppi. Il popolamento automatico della lista gruppi sfortunatamente è particolarmente lento.</string>
+		- Il non poter accedere né avere contatti.\n
+		- Il non potersi unire a gruppi e canali se non esplicitamente aggiunto.\n
+		- Puoi scrivere solo ad utenti che ti hanno già contattato.\n
+		- Non riceverai conferme di lettura ai messaggi che invii.\n
+		- La lista chat verrà popolata non appena riceverai messaggi da utenti e gruppi. Il popolamento automatico della lista gruppi sfortunatamente è particolarmente lento.</string>
 
 
     <!--Biftor Tor -->
@@ -4777,10 +4777,10 @@
 
     <!--Biftor Translate-->
     <string name="BiftorTranslate">Traduci</string>
-    <string name="BiftorUndoTranslation">Undo translation</string>
-    <string name="BiftorResetTranslation">Reset translation</string>
-    <string name="BiftorTranslateSettings">Translation Settings</string>
-    <string name="BiftorTranslateSource">Translation Source</string>
+    <string name="BiftorUndoTranslation">Annulla traduzione</string>
+    <string name="BiftorResetTranslation">Resetta traduzione</string>
+    <string name="BiftorTranslateSettings">Imposta traduzione</string>
+    <string name="BiftorTranslateSource">Sorgente traduzione</string>
     <string name="BiftorTranslateSourceGoogle">Google</string>
     <string name="BiftorTranslateSourceYandex">Yandex</string>
     <string name="BiftorTranslateEnterText">Inserisci testo</string>

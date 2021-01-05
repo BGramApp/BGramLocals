@@ -568,7 +568,7 @@
     <string name="SlowmodeSelectSendError">Sekin rejim yoqilgan. Siz koʻproq element tanlay olmaysiz.</string>
     <string name="SlowmodeSendErrorTooLong">Kechirasiz, bu matn bitta xabar sifatida yuborish uchun juda uzun.\n\nSekin rejim yoqilgan. Siz birdaniga bittadan ortiq xabar yubora olmaysiz.</string>
     <string name="UserSetAsAdminHint">**%1$s** administrator qilib tayinlandi</string>
-	<string name="UserRemovedFromChatHint">**%1$s** **%2$s**dan chetlatildi</string
+	<string name="UserRemovedFromChatHint">**%1$s** **%2$s**dan chetlatildi</string>
     <!--polls-->
     <string name="NewPoll">Yangi soʻrovnoma</string>
     <string name="NewQuiz">Yangi viktorina</string>

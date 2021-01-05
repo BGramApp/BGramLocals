@@ -199,8 +199,8 @@
     <string name="SendGifPreview">GIF yuborish</string>
     <string name="ViewPackPreview">Toʻplamni koʻrish</string>
     <string name="PinToTop">Tepaga biriktirish</string>
-    <string name="PinToTopLimitReached2">Kechirasiz asosiy roʻyxat yuqori qismiga faqatgina %1$s ta chatni qaday olasiz. Koʻproq chatlarni Chat jildlari va Arxivingizda biriktirishingiz mumkin.</string>
-    <string name="PinFolderLimitReached">Kechirasiz, yuqoriga boshqa chatlarni qaday olmaysiz.</string>
+    <string name="PinToTopLimitReached2">Kechirasiz asosiy roʻyxat yuqori qismiga faqatgina %1$s ta chatni biriktira olasiz. Koʻproq chatlarni Chat jildlari va Arxivingizda biriktirishingiz mumkin.</string>
+    <string name="PinFolderLimitReached">Kechirasiz, yuqoriga boshqa chatlarni biriktira olmaysiz.</string>
     <string name="UnpinFromTop">Tepadan olib tashlash</string>
     <string name="MarkAsUnread">Oʻqilmagan deb belgilash</string>
     <string name="MarkAsRead">Oʻqilgan deb belgilash</string>
@@ -250,7 +250,7 @@
     <string name="SearchEmptyViewFilteredSubtitleVoice">Barcha chatlaringizdan ovozlar bu yerda chiqariladi.</string>
     <string name="SearchEmptyViewFilteredSubtitleMedia">Barcha chatlaringizdan multimedialar bu yerda chiqariladi.</string>
     <string name="SearchAllChatsShort">Chatlar</string>
-    <string name="MessagePinnedHint">Xabar qadaldi</string>
+    <string name="MessagePinnedHint">Xabar biriktirildi</string>
     <string name="MessageUnpinnedHint">Xabar olib tashlandi</string>
     <!--channels-->
     <string name="SetAsAdmin">Administrator qilib tayinlash</string>
@@ -914,7 +914,7 @@
     <string name="UnpinMessageAlertTitle">Xabarni olib tashlash</string>
     <string name="PinOldMessageAlert">Yangiroq xabarni biriktirilgan holda qoldirib, eskiroq xabarni biriktirishni xohlaysizmi?</string>
     <string name="PinMessageAlert">Bu xabarni ushbu guruhdagi barcha aʼzolar uchun biriktirishni xohlaysizmi?</string>
-    <string name="PinMessageAlertChannel">Bu xabarni ushbu kanalda qadamoqchimisiz?</string>
+    <string name="PinMessageAlertChannel">Bu xabarni ushbu kanalda biriktirmoqchimisiz?</string>
     <string name="PinMessageAlertChat">Bu xabarni chatning tepa qismiga biriktirishni xohlaysizmi?</string>
     <string name="UnpinMessageAlert">Bu xabarni olib tashlashni istaysizmi?</string>
     <string name="DeleteBanUser">Foydalanuvchini bloklash</string>
@@ -1087,7 +1087,7 @@
     <string name="UnpinAllMessages">BARCHA XABARLARNI OLIB TASHLASH</string>
     <string name="HidePinnedMessages">BIRIKTIRILGAN XABARLARNI BERKITISH</string>
     <string name="PinnedMessagesHidden">Biriktirilgan xabarlar berkitildi</string>
-    <string name="PinnedMessagesHiddenInfo">Agar yangi xabar qadalsa, biriktirilgan xabarlar yana chiqariladi.</string>
+    <string name="PinnedMessagesHiddenInfo">Agar yangi xabar biriktirilsa, biriktirilgan xabarlar yana chiqariladi.</string>
     <!--notification-->
     <string name="MessageLifetimeChanged">%1$s taymer boʻyicha oʻchirishni %2$s qilib belgiladi</string>
     <string name="MessageLifetimeChangedOutgoing">Siz taymer boʻyicha oʻchirishni %1$s qilib sozladingiz</string>

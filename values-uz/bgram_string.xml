@@ -627,8 +627,8 @@
 
 	<!--Biftor login with bot-->
 	<string name="BiftorLoginWithBotToKen">Token orqali kirish</string>
-	<string name="BiftorBotToken">Token botni kiriting</string>
-	<string name="BiftorLoginWithBotInfo">Siz yangi botni @BotFather orqali tuzishingiz mumkin.\n\nBot bilan kirganingizda, botlarda mavjud boʻlgan barcha cheklovlarga ega boʻlasiz, jumladan:\n
+	<string name="BiftorBotToken">Bot tokenini kiriting</string>
+	<string name="BiftorLoginWithBotInfo">Yangi botni @BotFather orqali tuzishingiz mumkin.\n\nBot bilan kirganingizda, botlarda mavjud boʻlgan barcha cheklovlarga ega boʻlasiz, jumladan:\n
 – Kontaktlaringizga kirishingiz mumkin emas.\n
 – Siz guruhlarga va kanallarga qoʻshila olmaysiz (agar administratorlar sizni qoʻshmasa).\n
 – Siz faqat \start buyrugʻi orqali foydalanuvchilarga yozishingiz mumkin.\n
@@ -636,18 +636,18 @@
 – Siz birinchi marta kirganingizda chat roʻyxati boʻsh boʻladi va bot foydalanuvchilar va guruhlardan xabarlar olganida toʻldiriladi. Guruhlarni aniqlash sekin boʻlishi mumkin.</string>
 
 	<!--Biftor Tor -->
-	<string name="BiftorTorStarting">TOR&#8230; kirish</string>
+	<string name="BiftorTorStarting">TOR&#8230; orqali kirish</string>
 	<string name="BiftorTorActivated">TOR faol</string>
 	<string name="BiftorTorDisabled">TOR oʻchiq</string>
 	<string name="BiftorTorShuttingDown">TOR xizmatini toʻxtatish</string>
 	<string name="BiftorTorProcessStarting">Tor &#8230; kirmoqda</string>
 	<string name="BiftorTorProcessComplete">bajarildi.</string>
 	<string name="BiftorStopTor">«TOR»ni toʻxtatish</string>
-	<string name="BiftorCouldntStartTorProcess">Torga kirib boʻlmadi: </string>
+	<string name="BiftorCouldntStartTorProcess">Tor orqali kirib boʻlmadi: </string>
 	<string name="BiftorTorYourReachableAddressesException">Sizning mavjud manzillarga ruxsat mustasno holatda!</string>
 	<string name="BiftorTorYourRelaySettingsException">Qayta oʻgirish tanlovingiz mustasno holatda!</string>
 	<string name="BiftorTorUseBridges">Oʻtkazmalardan foydalanish</string>
-	<string name="BiftorFoundExistingTorProcess">mavjud Tor &#8230; topildi</string>
+	<string name="BiftorFoundExistingTorProcess">Mavjud TOR &#8230; topildi</string>
 	<string name="BiftorTorSomethingBadHappened">Nimadir mos kelmadi.</string>
 	<string name="BiftorTorUnableToStartTor">Torni yoqib boʻlmadi</string>
 	<string name="BiftorTorNoInternetConnection">Internet bilan bogʻlanish imkoni yoʻq, Tor kutish rejimiga oʻtmoqda…</string>

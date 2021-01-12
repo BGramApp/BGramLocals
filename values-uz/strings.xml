@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="AppName">Telegram</string>
-    <string name="AppNameBeta">Telegram (beta)</string>
     <string name="LanguageName">Oʻzbekcha</string>
     <string name="English">English</string>
     <string name="LanguageNameInEnglish">Uzbek</string>

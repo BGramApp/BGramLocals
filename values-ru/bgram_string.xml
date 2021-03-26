@@ -1,4 +1,4 @@
-﻿<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <resources>
 
 	<string name="BGram">BGram</string>
@@ -8,6 +8,7 @@
 
 	<!--Biftor-->
 	<string name="BGramSettings">Настройки BGram</string>
+	<string name="BGramSearchInSettings">Поиск по настройкам</string>
 
 	<!-- Ghost mode-->
 	<string name="BiftorGhostMod">Режим скрытого чтения</string>
@@ -217,19 +218,26 @@
 	<string name="BiftorSupport">Поддержка</string>
 	<string name="BGramOfficialChannel">Официальный канал</string>
 	<string name="BGramOfficialChannelSub">Информация об обновлениях.</string>
-	<string name="BGramOfficialGroupPublic">Официальная группа</string>
+	<string name="BGramOfficialGroupPublic">Официальные группы поддержки</string>
 	<string name="BGramOfficialGroupPublicSub">Для сообщений об ошибках и предложений.</string>
-	<string name="BGramOfficialGroupNormal">Farsi группа</string>
-	<string name="BGramOfficialGroupNormalSub">Для иранских пользователей.</string>
+	<string name="BGramOfficialGroupsEN">English</string>
+	<string name="BGramOfficialGroupsFA">Persian</string>
+	<string name="BGramOfficialGroupsRU">На русском</string>
+	<string name="BGramOfficialGroupsUZ">Uzbek</string>
+	<string name="BGramOfficialGroupsAR">Arabic</string>
+	<string name="BGramOfficialGroupsES">Spanish</string>
+	<string name="BGramOfficialGroupsIT">Italian</string>
+	<string name="BGramOfficialGroupNormal">Farsi group</string>
+	<string name="BGramOfficialGroupNormalSub">Иранский чат.</string>
 	<string name="BGramRateApp">Оценить</string>
-	<string name="BGramRateAppSub">Будем признательны за высокую оценку в Google Play! Также вы нам поможете, отмечая как спам необоснованные отрицательные отзывы.\nБольшинство проблем легко решаются, если задать вопрос в официальной группе.</string>
+	<string name="BGramRateAppSub">Высокая оценка и отзыв в Google Play — отличная мотивация для авторов.\nБольшинство проблем легко решается в чатах поддержки!</string>
 	<string name="BiftorAppCredits">Благодарности</string>
-	<string name="BiftorAppCreditsSub">Тем, кто помогал создавать это приложение.</string>
-	<string name="BiftorAppHints">Советы и подсказки</string>
-	<string name="BiftorAppHintsSub">Демонстрация функций на видео и перечень действий при нажатии на различные элементы интерфейса.</string>
+	<string name="BiftorAppCreditsSub">Тем, кто помогал создавать приложение.</string>
+	<string name="BiftorAppHints">Советы и секреты</string>
+	<string name="BiftorAppHintsSub">Демонстрация функций и секреты (быстрые действия и переход в настройки при удержании различных элементов интерфейса).</string>
 	<string name="BiftorDonate">Поддержать проект</string>
-	<string name="BiftorDonateSub">Порадовать автора вознаграждением</string>
-	<string name="BiftorDonateMoreDetail">Поддержать рабочий настрой автора.\nДонат повышает шансы на добавление в приложение предложенных вами функций.</string>
+	<string name="BiftorDonateSub">Поблагодарить автора</string>
+	<string name="BiftorDonateMoreDetail">Если использование BGram доставляет вам удовольствие и вы хотите на деле выразить благодарность авторам, отправьте денежный перевод. Это лучший мотиватор для продолжения работы.</string>
 	<string name="BiftorDonateBTC">Bitcoin</string>
 	<string name="BiftorDonateBTCCASH">Bitcoin cash</string>
 	<string name="BiftorDonateEther">Ether</string>
@@ -239,7 +247,7 @@
 	<string name="BiftorDonatePayeer">Payeer</string>
 	<string name="BiftorDonateQiwi">Qiwi</string>
 	<string name="BiftorGettingDonationAddress">Запрос адреса…</string>
-	<string name="BiftorDonationAddressCopied">Адрес скопирован в буфер обмена.</string>
+	<string name="BiftorDonationAddressCopied">Платежный адрес скопирован в буфер обмена.</string>
 	<string name="BiftorGettingDonationAddressFailed">Не удалось загрузить адрес, попробуйте позже...</string>
 
 	<!-- Biftor added ghost mode tile-->
@@ -300,7 +308,7 @@
 	<string name="BiftorCopyMsgTitle">Копировать</string>
 	<string name="BiftorCopyMsgAsk">Добавить имя автора?</string>
 	<string name="BiftorCopyOnlyText">Без автора</string>
-	<string name="BiftorYes">Да</string>
+	<string name="BiftorYes">С автором</string>
 	<string name="BiftorNo">Нет</string>
 
 	<!--Biftor forward confirm panel -->
@@ -330,7 +338,7 @@
 	<string name="BiftorRemoveHiddenChatsNotifi">Не уведомлять о скрытых</string>
 
 	<!-- Biftor export chat list -->
-	<string name="BiftorExportChatsLink">Экспорт списка на SD-карту</string>
+	<string name="BiftorExportChatsLink">Экспорт списка чатов</string>
 	<string name="BiftorExportFailed">Не удалось выполнить экспорт</string>
 	<string name="BiftorExportNoTitle">—</string>
 	<string name="BiftorExportNoUserName">—</string>
@@ -363,7 +371,10 @@
 	<!--Biftor Font picker -->
 	<string name="BiftorFontsPickerCat">Пользовательские шрифты</string>
 	<string name="BiftorEnableCustomFont">Поддержка внешних шрифтов</string>
-	<string name="BiftorFontsPickerLight">Нормальный</string>
+	<string name="BiftorEnableSystemCustomFont">Использовать шрифт системы</string>
+	<string name="BiftorSystemFontLight">Начертание для нормального</string>
+	<string name="BiftorSystemFontBold">Начертание для жирного</string>
+	<string name="BiftorFontsPickerLight">Тонкий</string>
 	<string name="BiftorFontsPickerBold">Жирный</string>
 	<string name="BiftorFontsPickerItalic">Наклонный</string>
 	<string name="BiftorFontsPickerMono">Моноширинный</string>
@@ -505,7 +516,7 @@
 	<!-- Biftor Clear Cache other files -->
 	<string name="BiftorClearCacheOtherFiles"><![CDATA[Удалить временные файлы]]></string>
 	<string name="BiftorClearCacheOtherFilesInfo">✱​ Периодически избавляйтесь от временных файлов. Это мелкие служебные файлы, которые могут накапливаться и замедлять загрузку чатов.</string>
-	<string name="BiftorKeepMediaInfo">Telegram – облачный сервис. Ваши чаты и отправленные медиа находятся на облачном сервере и загружаются к вам на устройство, когда вы их смотрите (кешируются), где хранятся во временной папке для быстрого доступа (**в кеше**). Для экономии места задайте срок удаления **из кеша** медиа, которые вы не смотрите. Все вложения останутся в переписке и при просмотре скачаются снова.</string>
+	<string name="BiftorKeepMediaInfo">Telegram – облачный сервис. Ваши ваши чаты и отправленные вложения находятся на облачном сервере Telegram и загружаются к вам на устройство (кешируются), когда вы их смотрите. Там они хранятся во временной папке для быстрого доступа (**в кеше**). Для экономии места задайте срок удаления **из кеша** медиа, которые вы не смотрите. Все вложения останутся в переписке и скачаются снова при просмотре.</string>
 
 	<!-- Biftor show view count in dialog list-->
 	<string name="BiftorShowViewCount">Показывать просмотры</string>
@@ -607,6 +618,12 @@
 	<string name="BiftorTabsCat">Вкладки</string>
 	<string name="BiftorButtonsCat">Кнопки</string>
 	<string name="BiftorBubblesCat">Пузыри сообщений</string>
+
+	<!--Biftor customizable context menu-->
+	<string name="BiftorContextMenuCat">Контекстное меню</string>
+	<string name="BiftorMsgContextMenu">Настройка меню сообщения</string>
+	<string name="BiftorMsgContextMenuSub">Удерживайте для сброса</string>
+	<string name="BiftorSortMsgContextMenu">Порядок пунктов меню</string>
 
 	<string name="BiftorChatting"> Чат </string>
 	<string name="BiftorMsgMergingCat">Объединение сообщений</string>
@@ -743,6 +760,10 @@
 
 	<!--Biftor Translate-->
 	<string name="BiftorTranslate">Перевести</string>
+	<string name="BiftorTranslateAllLanguage">Все</string>
+	<string name="BiftorTranslateRecently">Последние выбранные</string>
+	<string name="BiftorTranslateClearRecently">Очистить список последних</string>
+	<string name="BiftorTranslateDefaultTarget">Основной язык перевода</string>
 	<string name="BiftorUndoTranslation">Отменить</string>
 	<string name="BiftorResetTranslation">Сброс</string>
 	<string name="BiftorTranslateSettings">Настройки переводчика</string>
@@ -822,7 +843,7 @@
 
 	<!--Biftor delete from recent search-->
 	<string name="BiftorDeletRecentSearchItem">Удалить **%1$s** из истории поиска?</string>
-	<string name="BiftorDrawerContactAndGroup">Контакты и группы</string>
+	<string name="BiftorDrawerContactAndGroup">Чаты и контакты</string>
 
 	<!--Biftor floating new msg-->
 	<string name="BiftorChangeToSaveMsg">Облако на плавающей кнопке</string>
@@ -830,7 +851,7 @@
 
 	<string name="BiftorShow">Показывать</string>
 	<string name="BiftorShowFolder">Показывать папку</string>
-	<string name="BiftorHideFolder">Скрыть папку</string>
+	<string name="BiftorHideFolder">Не показывать папку</string>
 	<string name="BiftorHideFolderAreYouSure">Хотите скрыть папку?</string>
 	<string name="BiftorShowFolderAreYouSure">Точно показать?</string>
 	<!--Biftor internal updater-->
@@ -850,47 +871,47 @@
 	<string name="BiftorDisplayDirectChatsSideTab">Оба варианта</string>
 	<string name="BiftorDirectChatsReorder">Сортировка Избранного</string>
 	<string name="BiftorShowDirectChatsInDrawer">Показывать Избранное в главном меню</string>
-	<string name="BiftorAddToFav">Добавить в любимые</string>
+	<string name="BiftorAddToFav">В любимые (панель пересылки)</string>
 	<string name="BiftorDeleteFromFav">Удалить из любимых</string>
 
 	<string name="BiftorHideSponsorProxy">Не показывать спонсора</string>
 	<string name="BiftorHideSponsorProxySub">Скрыть спонсора прокси в списке чатов.</string>
 
 	<!--Biftor shadow socks-->
-	<string name="BiftorPing">Ping</string>
+	<string name="BiftorPing">Пинг</string>
 	<string name="BiftorProxyTypeShadowSocks">ShadowSocks Proxy</string>
 	<string name="BiftorProxyTypeShadowSocksR">ShadowSocksR Proxy</string>
-	<string name="BiftorProxyTypeVmess">Vmess Proxy</string>
-	<string name="BiftorProxyInfoSSR">ShadowsocksR Proxy Settings</string>
-	<string name="BiftorProxyInfoSS">Shadowsocks Proxy Settings</string>
-	<string name="BiftorProxyInfoVmess">Vmess Proxy Settings</string>
+	<string name="BiftorProxyTypeVmess">Vmess-прокси</string>
+	<string name="BiftorProxyInfoSSR">Настройки ShadowsocksR-прокси</string>
+	<string name="BiftorProxyInfoSS">Настройки Shadowsocks-прокси</string>
+	<string name="BiftorProxyInfoVmess">Настройки Vmess-прокси</string>
 	<string name="BiftorShadowProxySponsor">Спонсор</string>
 
 	<string name="BiftorShadowSocksHelp">Помощь</string>
-	<string name="BiftorImportProxy">Import from url</string>
+	<string name="BiftorImportProxy">Импорт из URL</string>
 	<string name="BiftorConnection">Соединение: %1$d мс</string>
 
-	<string name="BiftorVmessUserId">User Id</string>
-	<string name="BiftorVmessAlterId">Alter Id</string>
-	<string name="BiftorVmessSecurity">Security</string>
-	<string name="BiftorVmessNetwork">Network</string>
+	<string name="BiftorVmessUserId">User ID</string>
+	<string name="BiftorVmessAlterId">Alter ID</string>
+	<string name="BiftorVmessSecurity">Безопасность</string>
+	<string name="BiftorVmessNetwork">Сеть</string>
 	<string name="BiftorVmessHeadType">Head Type</string>
-	<string name="BiftorVmessRequestHost">Request Host / QUIC Security</string>
-	<string name="BiftorVmessPath">Path / QUICK Key</string>
-	<string name="BiftorVmessTls">Use TLS</string>
+	<string name="BiftorVmessRequestHost">Запросить хост / QUIC безопасность</string>
+	<string name="BiftorVmessPath">Путь / горячая клавиша</string>
+	<string name="BiftorVmessTls">Использовать TLS</string>
 
-	<string name="BiftorSSPassword">Password</string>
-	<string name="BiftorSSMethod">Encrypt Method</string>
-	<string name="BiftorSSPlugin">Plugin</string>
-	<string name="BiftorSSPluginOpts">Plugin Config</string>
+	<string name="BiftorSSPassword">Пароль</string>
+	<string name="BiftorSSMethod">Метод шифрования</string>
+	<string name="BiftorSSPlugin">Плагин</string>
+	<string name="BiftorSSPluginOpts">Конфиг плагина</string>
 
-	<string name="BiftorSSRProtocol">Protocol</string>
-	<string name="BiftorSSRProtocolParams">Protocol Params</string>
+	<string name="BiftorSSRProtocol">Протокол</string>
+	<string name="BiftorSSRProtocolParams">Параметры протокола</string>
 	<string name="BiftorSSRObfs">Obfs</string>
 	<string name="BiftorSSRObfsParam">Obfs Param</string>
 	<string name="BiftorShadowSocksModule">Shadow socks</string>
-	<string name="BiftorStartShadowAsService">Start shadow as service</string>
-	<string name="BiftorStartShadowAsServiceSub">Run shadow socks as background service</string>
+	<string name="BiftorStartShadowAsService">Запустить Shadowsocks</string>
+	<string name="BiftorStartShadowAsServiceSub">Запустить Shadowsocks в фоне</string>
 	<string name="BiftorShadowSockServiceConnecting">Shadow Socks service is connecting</string>
 	<string name="BiftorShadowSockServiceConnected">Shadow Socks service is running: %s</string>
 	<string name="BiftorShadowSockServiceStop">Stop</string>
@@ -902,5 +923,36 @@
 	<string name="BiftorAdsTypeAdMob">AdMob</string>
 	<string name="BiftorAdsTypeCustom">Ads</string>
 	<string name="BiftorAdsTitle">BGram ads</string>
-	<string name="BiftorAdsSubTitle">Поддержите BGram просмотром рекламы</string>
+	<string name="BiftorAdsSubTitle">Поддержать BGram просмотром рекламы</string>
+	<string name="BiftorAdsHideFor">Смотреть и скрыть на  %s</string>
+
+	<!--Biftor times-->
+	<string name="BiftorHour">%s час</string>
+	<string name="BiftorHours">%s ч.</string>
+	<string name="BiftorDay">%s день</string>
+	<string name="BiftorDays">%s дня</string>
+
+	<!--Biftor send image as sticker-->
+	<string name="BiftorSendAsSticker">Отправить как стикер</string>
+	<!--Biftor caption on sticker-->
+	<string name="BiftorSendStickerWithCaption">Добавить скрытый текст</string>
+	<string name="BiftorShowStickerCaption">Показать скрытый текст</string>
+
+	<!--Biftor message details-->
+	<string name="BiftorMessageDetails">Сведения о сообщении</string>
+	<string name="BiftorMessageDetailsTitle">Сведения о сообщении</string>
+	<string name="BiftorMessageDetailsText">Текст сообщения</string>
+	<string name="BiftorMessageDetailsId">ID сообщения</string>
+	<string name="BiftorMessageDetailsType">Тип</string>
+	<string name="BiftorMessageDetailsStatus">Статус</string>
+	<string name="BiftorMessageDetailsTime">Время создания</string>
+	<string name="BiftorMessageDetailsEditTime">Время редактирования</string>
+	<string name="BiftorMessageDetailsDocumentName">Имя файла</string>
+	<string name="BiftorMessageDetailsReplyMessage">Отправлено в ответ на</string>
+	<string name="BiftorMessageDetailsReplyCount">Ответы</string>
+	<string name="BiftorMessageDetailsCommentCount">Комментарии</string>
+	<string name="BiftorMessageDetailsViewsCount">Просмотры</string>
+	<string name="BiftorMessageDetailsReply">Ответить</string>
+	<string name="BiftorMessageDetailsCopyContent">Копировать</string>
+	<string name="BiftorMessageDetailsForward">Переслать</string>
 </resources>

@@ -8,6 +8,7 @@
 
     <!--Biftor-->
     <string name="BGramSettings">Paramètres BGram</string>
+    <string name="BGramSearchInSettings">Search Settings</string>
 
     <!-- Ghost mode-->
     <string name="BiftorGhostMod">Lecture cachée</string>
@@ -219,10 +220,14 @@
     <string name="BiftorSupport">Support</string>
     <string name="BGramOfficialChannel">Chaîne officielle</string>
     <string name="BGramOfficialChannelSub">Nouveautés et mises à jour de BGram</string>
-    <string name="BGramOfficialGroupPublic">Groupe officiel</string>
-    <string name="BGramOfficialGroupPublicSub">Tous les bugs rapportés et les idées, sont les bienvenus.</string>
-    <string name="BGramOfficialGroupNormal">Groupe persan officiel</string>
-    <string name="BGramOfficialGroupNormalSub">Si le groupe officiel n\'est pas disponible dans votre pays.</string>
+    <string name="BGramOfficialGroups">Official Supporting Groups</string>
+    <string name="BGramOfficialGroupsSub">Tous les bugs rapportés et les idées, sont les bienvenus.</string>
+    <string name="BGramOfficialGroupsEN">English</string>
+    <string name="BGramOfficialGroupsFA">Persian</string>
+    <string name="BGramOfficialGroupsRU">Russian</string>
+    <string name="BGramOfficialGroupsUZ">Uzbek</string>
+    <string name="BGramOfficialGroupsAR">Arabic</string>
+    <string name="BGramOfficialGroupsES">Spanish</string>
     <string name="BGramRateApp">Noter l\'application</string>
     <string name="BGramRateAppSub">Si vous aimez l\'application, notez la sur le Google Play Store. En cas de problème, avant de donner une mauvaise note, n\'hésitez pas à poser votre question sur le groupe officiel.</string>
     <string name="BiftorAppCredits">Crédits</string>
@@ -365,6 +370,9 @@
     <!--Biftor Font picker -->
     <string name="BiftorFontsPickerCat">Sélecteur de polices</string>
     <string name="BiftorEnableCustomFont">Activer la police personnalisée</string>
+    <string name="BiftorEnableSystemCustomFont">Use device system font</string>
+    <string name="BiftorSystemFontLight">Select Light font style</string>
+    <string name="BiftorSystemFontBold">Select Bold font style</string>
     <string name="BiftorFontsPickerLight">Sélectionnez une police normal</string>
     <string name="BiftorFontsPickerBold">Sélectionnez une police en gras</string>
     <string name="BiftorFontsPickerItalic">Sélectionnez une police en italique</string>
@@ -615,6 +623,12 @@
     <string name="BiftorButtonsCat">Boutons</string>
     <string name="BiftorBubblesCat">Bulles des discssions</string>
 
+    <!--Biftor customizable context menu-->
+    <string name="BiftorContextMenuCat">Context menu</string>
+    <string name="BiftorMsgContextMenu">Message context menu</string>
+    <string name="BiftorMsgContextMenuSub">Long press on select all icon, for reset to default</string>
+    <string name="BiftorSortMsgContextMenu">Sort message context menu</string>
+
     <string name="BiftorChatting">Chat</string>
     <string name="BiftorMsgMergingCat">Message fusionné</string>
     <string name="BiftorSendConfirmCat">Confirmation d\'envoi</string>
@@ -755,6 +769,10 @@
 
     <!--Biftor Translate-->
     <string name="BiftorTranslate">Traduire</string>
+    <string name="BiftorTranslateAllLanguage">All language</string>
+    <string name="BiftorTranslateRecently">Recently used language</string>
+    <string name="BiftorTranslateClearRecently">Clear recently used language?</string>
+    <string name="BiftorTranslateDefaultTarget">Default Target</string>
     <string name="BiftorUndoTranslation">Undo translation</string>
     <string name="BiftorResetTranslation">Reset translation</string>
     <string name="BiftorTranslateSettings">Translation Settings</string>
@@ -868,7 +886,8 @@
     <string name="BiftorDeleteFromFav">Supprimer des favoris</string>
 
     <string name="BiftorHideSponsorProxy">Masquer le sponsor</string>
-    <string name="BiftorHideSponsorProxySub">Masquer le sponsor du proxy de la liste de discussion</string>
+    <string name="BiftorHideSponsorProxySub">Masquer le sponsor du proxy de la liste de discussion
+</string>
 
     <!--Biftor shadow socks-->
     <string name="BiftorPing">Ping</string>
@@ -917,4 +936,35 @@
     <string name="BiftorAdsTypeCustom">Ads</string>
     <string name="BiftorAdsTitle">BGram Ads</string>
     <string name="BiftorAdsSubTitle">Support BGram by Watching an Ad</string>
+    <string name="BiftorAdsHideFor">Watch this to hide for %s</string>
+
+    <!--Biftor times-->
+    <string name="BiftorHour">%s hour</string>
+    <string name="BiftorHours">%s hours</string>
+    <string name="BiftorDay">%s day</string>
+    <string name="BiftorDays">%s days</string>
+
+    <!--Biftor send image as sticker-->
+    <string name="BiftorSendAsSticker">Send as sticker</string>
+    <!--Biftor caption on sticker-->
+    <string name="BiftorSendStickerWithCaption">Send sticker with caption</string>
+    <string name="BiftorShowStickerCaption">Show sticker caption</string>
+
+    <!--Biftor message details-->
+    <string name="BiftorMessageDetails">Message details</string>
+    <string name="BiftorMessageDetailsTitle">Message details</string>
+    <string name="BiftorMessageDetailsText">Message</string>
+    <string name="BiftorMessageDetailsId">Message id</string>
+    <string name="BiftorMessageDetailsType">Message type</string>
+    <string name="BiftorMessageDetailsStatus">Message status</string>
+    <string name="BiftorMessageDetailsTime">Message time</string>
+    <string name="BiftorMessageDetailsEditTime">Message edit time</string>
+    <string name="BiftorMessageDetailsDocumentName">Document name</string>
+    <string name="BiftorMessageDetailsReplyMessage">Reply message</string>
+    <string name="BiftorMessageDetailsReplyCount">Replay count</string>
+    <string name="BiftorMessageDetailsCommentCount">Comment count</string>
+    <string name="BiftorMessageDetailsViewsCount">Views count</string>
+    <string name="BiftorMessageDetailsReply">Reply</string>
+    <string name="BiftorMessageDetailsCopyContent">Copy</string>
+    <string name="BiftorMessageDetailsForward">Forward</string>
 </resources>

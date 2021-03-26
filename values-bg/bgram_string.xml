@@ -11,6 +11,7 @@
 
     <!--Biftor-->
     <string name="BGramSettings">Настройки на BGram</string>
+    <string name="BGramSearchInSettings">Search Settings</string>
 
     <!-- Ghost mod-->
     <string name="BiftorGhostMod">Активиране на режим призрак</string>
@@ -220,10 +221,15 @@
     <string name="BiftorSupport">Поддръжка</string>
     <string name="BGramOfficialChannel">Официален канал</string>
     <string name="BGramOfficialChannelSub">Официален канал</string>
-    <string name="BGramOfficialGroupPublic">Официална обществена група</string>
-    <string name="BGramOfficialGroupPublicSub">Всички доклади за грешки и идеи са добре дошли.</string>
-    <string name="BGramOfficialGroupNormal">Официална група</string>
-    <string name="BGramOfficialGroupNormalSub">Ако публичните групи официално не са достъпни във вашата държава, използвайте това.</string>
+    <string name="BGramOfficialGroups">Official Supporting Groups</string>
+    <string name="BGramOfficialGroupsSub">Всички доклади за грешки и идеи са добре дошли.</string>
+    <string name="BGramOfficialGroupsEN">English</string>
+    <string name="BGramOfficialGroupsFA">Persian</string>
+    <string name="BGramOfficialGroupsRU">Russian</string>
+    <string name="BGramOfficialGroupsUZ">Uzbek</string>
+    <string name="BGramOfficialGroupsAR">Arabic</string>
+    <string name="BGramOfficialGroupsES">Spanish</string>
+    <string name="BGramOfficialGroupsIT">Italian</string>
     <string name="BGramRateApp">Оценете приложението</string>
     <string name="BGramRateAppSub">Ако харесвате приложението, оценяваме високата Ви оценка в Google Play. В случай на проблеми, преди да дадете нисък резултат, не се колебайте да зададете въпрос в официалната група!</string>
     <string name="BiftorAppCredits">Признание</string>
@@ -366,6 +372,9 @@
     <!--Biftor Font piker -->
     <string name="BiftorFontsPickerCat">Избор на шрифтове</string>
     <string name="BiftorEnableCustomFont">Активирайте персонализиран шрифт</string>
+    <string name="BiftorEnableSystemCustomFont">Use device system font</string>
+    <string name="BiftorSystemFontLight">Select Light font style</string>
+    <string name="BiftorSystemFontBold">Select Bold font style</string>
     <string name="BiftorFontsPickerLight">Изберете шрифт Light</string>
     <string name="BiftorFontsPickerBold">Изберете шрифт Medium Bold</string>
     <string name="BiftorFontsPickerItalic">Изберете шрифт Medium Italic</string>
@@ -615,6 +624,12 @@
     <string name="BiftorButtonsCat">Бутони</string>
     <string name="BiftorBubblesCat">Чат балончета</string>
 
+    <!--Biftor customizable context menu-->
+    <string name="BiftorContextMenuCat">Context menu</string>
+    <string name="BiftorMsgContextMenu">Message context menu</string>
+    <string name="BiftorMsgContextMenuSub">Long press on select all icon, for reset to default</string>
+    <string name="BiftorSortMsgContextMenu">Sort message context menu</string>
+
     <string name="BiftorChatting">Чат</string>
     <string name="BiftorMsgMergingCat">Сливане на съобщенията</string>
     <string name="BiftorSendConfirmCat">Изпращане на потвърждение</string>
@@ -750,6 +765,10 @@
 
     <!--Biftor Translate-->
     <string name="BiftorTranslate">Translate</string>
+    <string name="BiftorTranslateAllLanguage">All language</string>
+    <string name="BiftorTranslateRecently">Recently used language</string>
+    <string name="BiftorTranslateClearRecently">Clear recently used language?</string>
+    <string name="BiftorTranslateDefaultTarget">Default Target</string>
     <string name="BiftorUndoTranslation">Undo translation</string>
     <string name="BiftorResetTranslation">Reset translation</string>
     <string name="BiftorTranslateSettings">Translation Settings</string>
@@ -913,4 +932,35 @@
     <string name="BiftorAdsTypeCustom">Ads</string>
     <string name="BiftorAdsTitle">BGram Ads</string>
     <string name="BiftorAdsSubTitle">Support BGram by Watching an Ad</string>
+    <string name="BiftorAdsHideFor">Watch this to hide for %s</string>
+
+    <!--Biftor times-->
+    <string name="BiftorHour">%s hour</string>
+    <string name="BiftorHours">%s hours</string>
+    <string name="BiftorDay">%s day</string>
+    <string name="BiftorDays">%s days</string>
+
+    <!--Biftor send image as sticker-->
+    <string name="BiftorSendAsSticker">Send as sticker</string>
+    <!--Biftor caption on sticker-->
+    <string name="BiftorSendStickerWithCaption">Send sticker with caption</string>
+    <string name="BiftorShowStickerCaption">Show sticker caption</string>
+
+    <!--Biftor message details-->
+    <string name="BiftorMessageDetails">Message details</string>
+    <string name="BiftorMessageDetailsTitle">Message details</string>
+    <string name="BiftorMessageDetailsText">Message</string>
+    <string name="BiftorMessageDetailsId">Message id</string>
+    <string name="BiftorMessageDetailsType">Message type</string>
+    <string name="BiftorMessageDetailsStatus">Message status</string>
+    <string name="BiftorMessageDetailsTime">Message time</string>
+    <string name="BiftorMessageDetailsEditTime">Message edit time</string>
+    <string name="BiftorMessageDetailsDocumentName">Document name</string>
+    <string name="BiftorMessageDetailsReplyMessage">Reply message</string>
+    <string name="BiftorMessageDetailsReplyCount">Replay count</string>
+    <string name="BiftorMessageDetailsCommentCount">Comment count</string>
+    <string name="BiftorMessageDetailsViewsCount">Views count</string>
+    <string name="BiftorMessageDetailsReply">Reply</string>
+    <string name="BiftorMessageDetailsCopyContent">Copy</string>
+    <string name="BiftorMessageDetailsForward">Forward</string>
 </resources>

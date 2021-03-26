@@ -7,6 +7,7 @@
 
     <!--Biftor-->
     <string name="BGramSettings">تنظیمات بیگرام</string>
+    <string name="BGramSearchInSettings">جستوجو</string>
 
     <!-- Ghost mode-->
     <string name="BiftorGhostMod">حالت خواندن مخفی</string>
@@ -216,10 +217,15 @@
     <string name="BiftorSupport">ساپورت</string>
     <string name="BGramOfficialChannel">کانال رسمی برنامه</string>
     <string name="BGramOfficialChannelSub">بازکردن کانال رسمی برنامه</string>
-    <string name="BGramOfficialGroupPublic">گروه عمومی برنامه</string>
-    <string name="BGramOfficialGroupPublicSub">برای گزارش کردن مشکلات و ایده های جدید به این گروه مراجعه کنید.</string>
-    <string name="BGramOfficialGroupNormal">گروه برنامه</string>
-    <string name="BGramOfficialGroupNormalSub">اگر گروه عمومی برنامه به هر دلیلی برای شما باز نمی شود از این گروه استفاده کنید.</string>
+    <string name="BGramOfficialGroups">گروهای رسمی برنامه</string>
+    <string name="BGramOfficialGroupsSub">برای گزارش کردن مشکلات و ایده های جدید به این گروه مراجعه کنید.</string>
+    <string name="BGramOfficialGroupsEN">انگلیسی</string>
+    <string name="BGramOfficialGroupsFA">فارسی</string>
+    <string name="BGramOfficialGroupsRU">روسی</string>
+    <string name="BGramOfficialGroupsUZ">اُزبکی</string>
+    <string name="BGramOfficialGroupsAR">عربی</string>
+    <string name="BGramOfficialGroupsES">اسپانیایی</string>
+    <string name="BGramOfficialGroupsIT">ایتالیایی</string>
     <string name="BGramRateApp">امتیاز دادن به برنامه</string>
     <string name="BGramRateAppSub">اگر این برنامه را دوست دارید به برنامه در گوگل پلی امتیاز دهید.</string>
     <string name="BiftorAppCredits">تشکر ها</string>
@@ -367,6 +373,9 @@
     <!--Biftor Font piker -->
     <string name="BiftorFontsPickerCat">انتخاب فونت</string>
     <string name="BiftorEnableCustomFont">فعال کردن فونت شخصی</string>
+    <string name="BiftorEnableSystemCustomFont">استفاده از فونت سیستم</string>
+    <string name="BiftorSystemFontLight">انتخاب فونت نازک سیستمی</string>
+    <string name="BiftorSystemFontBold">انتخاب فونت بولد سیستمی</string>
     <string name="BiftorFontsPickerLight">انتخاب یک فونت نازک</string>
     <string name="BiftorFontsPickerBold">انتخاب یک فونت بولد متوسط</string>
     <string name="BiftorFontsPickerItalic">انتخاب یک فونت ایتالیک متوسط</string>
@@ -619,6 +628,12 @@
     <string name="BiftorButtonsCat">دکمه ها</string>
     <string name="BiftorBubblesCat">حباب پیام ها</string>
 
+    <!--Biftor customizable context menu-->
+    <string name="BiftorContextMenuCat">منوی زمینه</string>
+    <string name="BiftorMsgContextMenu">شخصی سازی منوی پیام ها</string>
+    <string name="BiftorMsgContextMenuSub">بر روی ایکون انتخاب همه لمس طولانی کنید تا به حالت اولیه باز گردد</string>
+    <string name="BiftorSortMsgContextMenu">مرتب کردن منوی پیام ها</string>
+
     <string name="BiftorChatting">چت</string>
     <string name="BiftorMsgMergingCat">ادغام پیام ها</string>
     <string name="BiftorSendConfirmCat">تایید فرستادن</string>
@@ -758,6 +773,10 @@
 
     <!--Biftor Translate-->
     <string name="BiftorTranslate">ترجمه</string>
+    <string name="BiftorTranslateAllLanguage">همه زبان ها</string>
+    <string name="BiftorTranslateRecently">زبان های اخیر</string>
+    <string name="BiftorTranslateClearRecently">آیا مایل به پاک کردن زبان هایی که اخیرا استفاده کرده اید هستید؟</string>
+    <string name="BiftorTranslateDefaultTarget">زبان پیشفرض</string>
     <string name="BiftorUndoTranslation">متن اصلی</string>
     <string name="BiftorResetTranslation">ریست کردن ترجمه</string>
     <string name="BiftorTranslateSettings">تنظیمات ترجمه</string>
@@ -921,4 +940,35 @@
     <string name="BiftorAdsTypeCustom">Ads</string>
     <string name="BiftorAdsTitle">BGram Ads</string>
     <string name="BiftorAdsSubTitle">با تماشای تبلیغ، از بیگرام حمایت کنید</string>
+    <string name="BiftorAdsHideFor">این تبلیغ با دیدن شما به مدت %s، مخفی میشود</string>
+
+    <!--Biftor times-->
+    <string name="BiftorHour">%s ساعت</string>
+    <string name="BiftorHours">%s ساعت</string>
+    <string name="BiftorDay">%s روز</string>
+    <string name="BiftorDays">%s روز</string>
+
+    <!--Biftor send image as sticker-->
+    <string name="BiftorSendAsSticker">ارسال مثل استیکر</string>
+    <!--Biftor caption on sticker-->
+    <string name="BiftorSendStickerWithCaption">ارسال استیکر با کپشن</string>
+    <string name="BiftorShowStickerCaption">نمایش کپشن استیکر</string>
+
+    <!--Biftor message details-->
+    <string name="BiftorMessageDetails">جزئیات پیام</string>
+    <string name="BiftorMessageDetailsTitle">جزئیات پیام</string>
+    <string name="BiftorMessageDetailsText">پیام</string>
+    <string name="BiftorMessageDetailsId">ایدی پیام</string>
+    <string name="BiftorMessageDetailsType">نوع پیام</string>
+    <string name="BiftorMessageDetailsStatus">وضعیت پیام</string>
+    <string name="BiftorMessageDetailsTime">زمان پیام</string>
+    <string name="BiftorMessageDetailsEditTime">زمان ویرایش پیام</string>
+    <string name="BiftorMessageDetailsDocumentName">اسم فایل</string>
+    <string name="BiftorMessageDetailsReplyMessage">در پاسخ به</string>
+    <string name="BiftorMessageDetailsReplyCount">تعداد پاسخ ها</string>
+    <string name="BiftorMessageDetailsCommentCount">تعداد کامنت ها</string>
+    <string name="BiftorMessageDetailsViewsCount">تعداد ویو ها</string>
+    <string name="BiftorMessageDetailsReply">پاسخ</string>
+    <string name="BiftorMessageDetailsCopyContent">کپی</string>
+    <string name="BiftorMessageDetailsForward">هدایت کردن</string>
 </resources>

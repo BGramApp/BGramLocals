@@ -8,6 +8,7 @@
 
     <!--Biftor-->
     <string name="BGramSettings">Налаштування BGram</string>
+    <string name="BGramSearchInSettings">Search Settings</string>
 
     <!-- Ghost mode-->
     <string name="BiftorGhostMod">Приховане читання</string>
@@ -217,10 +218,15 @@
     <string name="BiftorSupport">Підтримка</string>
     <string name="BGramOfficialChannel">Офіційний канал BGram</string>
     <string name="BGramOfficialChannelSub">Новини BGram</string>
-    <string name="BGramOfficialGroupPublic">Офіційна (публічна) група BGram</string>
-    <string name="BGramOfficialGroupPublicSub">Приймаємо всі повідомлення про недоліки, проблеми та ідеї.</string>
-    <string name="BGramOfficialGroupNormal">Офіційна (приватна) група BGram</string>
-    <string name="BGramOfficialGroupNormalSub">Якщо офіційна публічна група не доступна у вашій країні, то ви можете скористатися цією. Зауважте, що вона призначена для іранських користувачів</string>
+    <string name="BGramOfficialGroups">Official Supporting Groups</string>
+    <string name="BGramOfficialGroupsSub">Приймаємо всі повідомлення про недоліки, проблеми та ідеї.</string>
+    <string name="BGramOfficialGroupsEN">English</string>
+    <string name="BGramOfficialGroupsFA">Persian</string>
+    <string name="BGramOfficialGroupsRU">Russian</string>
+    <string name="BGramOfficialGroupsUZ">Uzbek</string>
+    <string name="BGramOfficialGroupsAR">Arabic</string>
+    <string name="BGramOfficialGroupsES">Spanish</string>
+    <string name="BGramOfficialGroupsIT">Italian</string>
     <string name="BGramRateApp">Оцініть додаток</string>
     <string name="BGramRateAppSub">Якщо вам подобається додаток, ми будемо вдячні за вашу високу оцінку в Google Play. У разі будь-яких проблем, перед тим, як ставити низьку оцінку, будь ласка, поставте питання в офіційній групі!</string>
     <string name="BiftorAppCredits">Подяки</string>
@@ -363,6 +369,9 @@
     <!--Biftor Font piker -->
     <string name="BiftorFontsPickerCat">Користувацькі шрифти</string>
     <string name="BiftorEnableCustomFont">Увімкнути користувацькі шрифти</string>
+    <string name="BiftorEnableSystemCustomFont">Use device system font</string>
+    <string name="BiftorSystemFontLight">Select Light font style</string>
+    <string name="BiftorSystemFontBold">Select Bold font style</string>
     <string name="BiftorFontsPickerLight">Нормальний</string>
     <string name="BiftorFontsPickerBold">Жирний</string>
     <string name="BiftorFontsPickerItalic">Курсив</string>
@@ -613,6 +622,12 @@
     <string name="BiftorButtonsCat">Кнопки</string>
     <string name="BiftorBubblesCat">Бульбашки чату</string>
 
+    <!--Biftor customizable context menu-->
+    <string name="BiftorContextMenuCat">Context menu</string>
+    <string name="BiftorMsgContextMenu">Message context menu</string>
+    <string name="BiftorMsgContextMenuSub">Long press on select all icon, for reset to default</string>
+    <string name="BiftorSortMsgContextMenu">Sort message context menu</string>
+
     <string name="BiftorChatting">Чат</string>
     <string name="BiftorMsgMergingCat">Об\'єднання повідомлень</string>
     <string name="BiftorSendConfirmCat">Підтверджувати відправлення</string>
@@ -753,6 +768,10 @@
 
     <!--Biftor Translate-->
     <string name="BiftorTranslate">Перекласти</string>
+    <string name="BiftorTranslateAllLanguage">All language</string>
+    <string name="BiftorTranslateRecently">Recently used language</string>
+    <string name="BiftorTranslateClearRecently">Clear recently used language?</string>
+    <string name="BiftorTranslateDefaultTarget">Default Target</string>
     <string name="BiftorUndoTranslation">Undo translation</string>
     <string name="BiftorResetTranslation">Reset translation</string>
     <string name="BiftorTranslateSettings">Translation Settings</string>
@@ -916,4 +935,35 @@
     <string name="BiftorAdsTypeCustom">Реклама</string>
     <string name="BiftorAdsTitle">BGram реклама</string>
     <string name="BiftorAdsSubTitle">Підтримати BGram переглядом реклами</string>
+    <string name="BiftorAdsHideFor">Watch this to hide for %s</string>
+
+    <!--Biftor times-->
+    <string name="BiftorHour">%s hour</string>
+    <string name="BiftorHours">%s hours</string>
+    <string name="BiftorDay">%s day</string>
+    <string name="BiftorDays">%s days</string>
+
+    <!--Biftor send image as sticker-->
+    <string name="BiftorSendAsSticker">Send as sticker</string>
+    <!--Biftor caption on sticker-->
+    <string name="BiftorSendStickerWithCaption">Send sticker with caption</string>
+    <string name="BiftorShowStickerCaption">Show sticker caption</string>
+
+    <!--Biftor message details-->
+    <string name="BiftorMessageDetails">Message details</string>
+    <string name="BiftorMessageDetailsTitle">Message details</string>
+    <string name="BiftorMessageDetailsText">Message</string>
+    <string name="BiftorMessageDetailsId">Message id</string>
+    <string name="BiftorMessageDetailsType">Message type</string>
+    <string name="BiftorMessageDetailsStatus">Message status</string>
+    <string name="BiftorMessageDetailsTime">Message time</string>
+    <string name="BiftorMessageDetailsEditTime">Message edit time</string>
+    <string name="BiftorMessageDetailsDocumentName">Document name</string>
+    <string name="BiftorMessageDetailsReplyMessage">Reply message</string>
+    <string name="BiftorMessageDetailsReplyCount">Replay count</string>
+    <string name="BiftorMessageDetailsCommentCount">Comment count</string>
+    <string name="BiftorMessageDetailsViewsCount">Views count</string>
+    <string name="BiftorMessageDetailsReply">Reply</string>
+    <string name="BiftorMessageDetailsCopyContent">Copy</string>
+    <string name="BiftorMessageDetailsForward">Forward</string>
 </resources>

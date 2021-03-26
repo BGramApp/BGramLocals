@@ -11,6 +11,7 @@
 
  <!--Biftor-->
  <string name="BGramSettings">إعدادات بيگرام</string>
+ <string name="BGramSearchInSettings">Search Settings</string>
 
  <!-- Ghost mod-->
  <string name="BiftorGhostMod">تمكين وضع الشبح</string>
@@ -222,10 +223,15 @@
  <string name="BiftorSupport">الدعم</string>
  <string name="BGramOfficialChannel">القناة الرسمية</string>
  <string name="BGramOfficialChannelSub">القناة الرسمية</string>
- <string name="BGramOfficialGroupPublic">المجموعة الرسمية العامة</string>
- <string name="BGramOfficialGroupPublicSub">كل تقارير الأخطاء والأفكار هي موضع ترحيب.</string>
- <string name="BGramOfficialGroupNormal">المجموعة الرسمية</string>
- <string name="BGramOfficialGroupNormalSub">إذا كانت المجموعة العامة الرسمية غير متوفرة في بلدك ، فيمكنك استخدام هذه المجموعة.</string>
+ <string name="BGramOfficialGroups">Official Supporting Groups</string>
+ <string name="BGramOfficialGroupsSub">كل تقارير الأخطاء والأفكار هي موضع ترحيب.</string>
+ <string name="BGramOfficialGroupsEN">English</string>
+ <string name="BGramOfficialGroupsFA">Persian</string>
+ <string name="BGramOfficialGroupsRU">Russian</string>
+ <string name="BGramOfficialGroupsUZ">Uzbek</string>
+ <string name="BGramOfficialGroupsAR">Arabic</string>
+ <string name="BGramOfficialGroupsES">Spanish</string>
+ <string name="BGramOfficialGroupsIT">Italian</string>
  <string name="BGramRateApp">تقييم التطبيق</string>
  <string name="BGramRateAppSub">إذا أعجبك التطبيق ، فإننا نقدر تقييمك العالي على غوغل بلاي. في حالة وجود أي مشاكل ، قبل إعطاء درجة منخفضة ، لا تتردد في طرح سؤالك في المجموعة الرسمية!</string>
  <string name="BiftorAppCredits">المساهمون</string>
@@ -374,6 +380,9 @@
  <!--Biftor Font piker -->
  <string name="BiftorFontsPickerCat">منتقي الخطوط</string>
  <string name="BiftorEnableCustomFont">تمكين الخط المخصص</string>
+ <string name="BiftorEnableSystemCustomFont">Use device system font</string>
+ <string name="BiftorSystemFontLight">Select Light font style</string>
+ <string name="BiftorSystemFontBold">Select Bold font style</string>
  <string name="BiftorFontsPickerLight">إختر خط خفيف</string>
  <string name="BiftorFontsPickerBold">إختر الخط  المتوسط العريض</string>
  <string name="BiftorFontsPickerItalic">إختر الخط المتوسط المائل</string>
@@ -625,6 +634,12 @@
  <string name="BiftorButtonsCat">الأزرار</string>
  <string name="BiftorBubblesCat">فقاعات المحادثة</string>
 
+ <!--Biftor customizable context menu-->
+ <string name="BiftorContextMenuCat">Context menu</string>
+ <string name="BiftorMsgContextMenu">Message context menu</string>
+ <string name="BiftorMsgContextMenuSub">Long press on select all icon, for reset to default</string>
+ <string name="BiftorSortMsgContextMenu">Sort message context menu</string>
+
  <string name="BiftorChatting">المحادثات</string>
  <string name="BiftorMsgMergingCat">دمج الرسائل</string>
  <string name="BiftorSendConfirmCat">إرسال التأكيد</string>
@@ -764,6 +779,10 @@
 
  <!--Biftor Translate-->
  <string name="BiftorTranslate">ترجمة</string>
+ <string name="BiftorTranslateAllLanguage">All language</string>
+ <string name="BiftorTranslateRecently">Recently used language</string>
+ <string name="BiftorTranslateClearRecently">Clear recently used language?</string>
+ <string name="BiftorTranslateDefaultTarget">Default Target</string>
  <string name="BiftorUndoTranslation">Undo translation</string>
  <string name="BiftorResetTranslation">Reset translation</string>
  <string name="BiftorTranslateSettings">Translation Settings</string>
@@ -927,4 +946,35 @@
  <string name="BiftorAdsTypeCustom">إعلانات</string>
  <string name="BiftorAdsTitle">إعلانات بيكرام</string>
  <string name="BiftorAdsSubTitle">إدعم بيغرام من خلال مشاهدة إعلان</string>
+ <string name="BiftorAdsHideFor">Watch this to hide for %s</string>
+
+ <!--Biftor times-->
+ <string name="BiftorHour">%s hour</string>
+ <string name="BiftorHours">%s hours</string>
+ <string name="BiftorDay">%s day</string>
+ <string name="BiftorDays">%s days</string>
+
+ <!--Biftor send image as sticker-->
+ <string name="BiftorSendAsSticker">Send as sticker</string>
+ <!--Biftor caption on sticker-->
+ <string name="BiftorSendStickerWithCaption">Send sticker with caption</string>
+ <string name="BiftorShowStickerCaption">Show sticker caption</string>
+
+ <!--Biftor message details-->
+ <string name="BiftorMessageDetails">Message details</string>
+ <string name="BiftorMessageDetailsTitle">Message details</string>
+ <string name="BiftorMessageDetailsText">Message</string>
+ <string name="BiftorMessageDetailsId">Message id</string>
+ <string name="BiftorMessageDetailsType">Message type</string>
+ <string name="BiftorMessageDetailsStatus">Message status</string>
+ <string name="BiftorMessageDetailsTime">Message time</string>
+ <string name="BiftorMessageDetailsEditTime">Message edit time</string>
+ <string name="BiftorMessageDetailsDocumentName">Document name</string>
+ <string name="BiftorMessageDetailsReplyMessage">Reply message</string>
+ <string name="BiftorMessageDetailsReplyCount">Replay count</string>
+ <string name="BiftorMessageDetailsCommentCount">Comment count</string>
+ <string name="BiftorMessageDetailsViewsCount">Views count</string>
+ <string name="BiftorMessageDetailsReply">Reply</string>
+ <string name="BiftorMessageDetailsCopyContent">Copy</string>
+ <string name="BiftorMessageDetailsForward">Forward</string>
 </resources>

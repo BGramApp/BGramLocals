@@ -114,7 +114,7 @@
     <!--chats view-->
     <string name="NewConversationShortcut">Yangi suhbat</string>
     <string name="AutoNightModeOff">Avtomatik tun rejimi oʻchirildi</string>
-    <string name="Settings">Sozlamalar</string>
+    <string name="Settings">Tanlovlar</string>
     <string name="Contacts">Kontaktlar</string>
     <string name="NewGroup">Yangi guruh</string>
     <string name="Yesterday">kecha</string>
@@ -385,7 +385,7 @@
     <string name="ChannelAddSubscribers">Obunachilar qoʻshish</string>
     <string name="LeaveChannel">Kanalni tark etish</string>
     <string name="LeaveChannelMenu">Kanalni tark etish</string>
-    <string name="ChannelSettings">Sozlamalar</string>
+    <string name="ChannelSettings">Tanlovlar</string>
     <string name="ChannelJoin">QOʻSHILISH</string>
     <string name="ChannelBroadcast">Xabar tarqatish</string>
     <string name="ChannelSilentBroadcast">Tovushsiz xabar tarqatish</string>
@@ -1255,7 +1255,7 @@
     <string name="NotificationGroupKickYou">%1$s sizni “%2$s” guruhidan chiqarib tashladi</string>
     <string name="NotificationGroupLeftMember">%1$s %2$s guruhini tark etdi</string>
     <string name="NotificationContactJoined">%1$s Telegramga qoʻshildi!</string>
-    <string name="NotificationUnrecognizedDevice">%1$s,\nBiz %2$s da yangi qurilma orqali hisobingizga kirilganini aniqladik.\n\nQurilma: %3$s\nGeolokatsiya: %4$s\n\nAgar bu siz boʻlmasangiz, ushbu seansni toʻxtatish uchun Sozlamalar &gt; Qurilmalar rukniga kirishingiz mumkin.\n\nAgar kimdir xohishingizga qarshi hisobingizga kirdi, deb hisoblasangiz, Maxfiylik va xavfsizlik sozlamalarida Ikki bosqichli tekshiruvni yoqishingiz mumkin.\n\nHurmat bilan,\nTelegram jamoasi</string>
+    <string name="NotificationUnrecognizedDevice">%1$s,\nBiz %2$s da yangi qurilma orqali hisobingizga kirilganini aniqladik.\n\nQurilma: %3$s\nGeolokatsiya: %4$s\n\nAgar bu siz boʻlmasangiz, ushbu seansni toʻxtatish uchun Tanlovlar &gt; Qurilmalar rukniga kirishingiz mumkin.\n\nAgar kimdir xohishingizga qarshi hisobingizga kirdi, deb hisoblasangiz, Maxfiylik va xavfsizlik sozlamalarida Ikki bosqichli tekshiruvni yoqishingiz mumkin.\n\nHurmat bilan,\nTelegram jamoasi</string>
     <string name="NotificationContactNewPhoto">%1$s profil rasmini yangiladi</string>
     <string name="NotificationInvitedToGroupByLink">%1$s %2$s guruhiga taklif havolasi orqali qoʻshildi</string>
     <string name="NotificationGroupFew">%1$s “%2$s” guruhiga %3$s yubordi</string>
@@ -1420,11 +1420,11 @@
     <string name="GigagroupConvertAlertTitle">Ishonchingiz komilmi?</string>
     <string name="GigagroupConvertAlertText">Guruhning oddiy aʼzolari (administrator emaslar) guruhda xabarlarni yuborish imkoniyatini **butunlay** yoʻqotadi.\n\nKeyin bu amalni bekor qilib **boʻlmaydi**.</string>
     <string name="GigagroupConvertAlertConver">AYLANTIRISH</string>
-    <string name="GigagroupConvertCancelHint">Agar fikringizni oʻzgartirsangiz, guruhingizning Sozlamalar &gt; Ruxsatlar runkiga kiring.</string>
+    <string name="GigagroupConvertCancelHint">Agar fikringizni oʻzgartirsangiz, guruhingizning Tanlovlar &gt; Ruxsatlar runkiga kiring.</string>
     <!--group info view-->
     <string name="GroupMembers">Aʼzolar</string>
     <string name="SharedMedia">Ulashilgan multimedialar</string>
-    <string name="SETTINGS">Sozlamalar</string>
+    <string name="SETTINGS">Tanlovlar</string>
     <string name="AddSubscriber">Obunachi qoʻshish</string>
     <string name="AddMember">Aʼzo qoʻshish</string>
     <string name="SetAdmins">Administratorlarni qoʻshish</string>
@@ -1594,7 +1594,7 @@
     <string name="ArchivedStickersAlertTitle">Arxivlangan stikerlar</string>
     <string name="ArchivedStickersAlertInfo">"Sizning baʼzi eski stikerlar toʻplamlaringiz arxivlandi. Siz ularni Stiker sozlamalari menyusida qayta faollashtirishingiz mumkin. "</string>
     <string name="ArchivedMasksAlertTitle">Arxivlangan niqoblar</string>
-    <string name="ArchivedMasksAlertInfo">"Sizning ba’zi eski niqoblaringiz to‘plami arxivga joylashtirildi. Siz ularni Niqoblar Sozlamalari menyusi orqali qayta tiklashingiz mumkin. "</string>
+    <string name="ArchivedMasksAlertInfo">"Sizning ba’zi eski niqoblaringiz to‘plami arxivga joylashtirildi. Siz ularni Niqoblar Tanlovlari menyusi orqali qayta tiklashingiz mumkin. "</string>
     <string name="DeleteStickerSetsAlertTitle">%1$sni oʻchirish</string>
     <string name="DeleteStickersAlertMessage">Tanlangan stiker to\'plamlarini o\'chirishni istaysizmi?</string>
     <string name="ArchiveStickerSetsAlertTitle">%1$sni arxivlash</string>
@@ -1711,7 +1711,7 @@
     <string name="ShareTheme">Mavzuni ulashish</string>
     <string name="EditThemeColors">Ranglarni tahrirlash</string>
     <string name="ThemeResetToDefaults">Asliga qaytarish</string>
-    <string name="ThemeResetToDefaultsTitle">Sozlamalarni asliga qaytarish</string>
+    <string name="ThemeResetToDefaultsTitle">Tanlovlarni asliga qaytarish</string>
     <string name="ThemeResetToDefaultsText">Haqiqatan matn oʻlchami va rang sozlamalarini asliga qaytarmoqchimisiz?</string>
     <string name="DeleteTheme">Mavzuni oʻchirish</string>
     <string name="OpenInEditor">Muharrirda ochish</string>
@@ -1848,7 +1848,7 @@
     <string name="LanguageUnknownTitle">Maʼlumot yetarli emas</string>
     <string name="LanguageUnofficial">Norasmiy tillar</string>
     <string name="LanguageUnsupportedError">Bunday til mavjud emas.</string>
-    <string name="LanguageSame">Siz bu til paketidan (**%1$s**) foydalanmoqdasiz. Dastur tilini istagan vaqt Sozlamalar oynasidan o\'zgartirishingiz mumkin.</string>
+    <string name="LanguageSame">Siz bu til paketidan (**%1$s**) foydalanmoqdasiz. Dastur tilini istagan vaqt Tanlovlar oynasidan o\'zgartirishingiz mumkin.</string>
     <string name="LanguageUnknownCustomAlert">Afsuski, odatiy til paketi (**%1$s**) da Telegram Android uchun tegishli ma\'lumot mavjud emas.</string>
     <string name="AskAQuestionInfo">Unutmang, Telegram qoʻllab-quvvatlash xizmati faqat koʻngillilar tomonidan yuritiladi. Biz imkon qadar tezroq javob berishga harakat qilamiz, lekin bu biroz vaqt olishi mumkin.\n\n<![CDATA[<a href=\"https://telegram.org/faq#general-questions\">Telegram haqida savollar</a>]]> boʻlimiga qarang: unda koʻplab savollarga javoblar va <![CDATA[<a href=\"https://telegram.org/faq#troubleshooting\"> muammolarni bartaraf etish</a>]]>  boʻyicha muhim maslahatlar berilgan.</string>
     <string name="AskButton">Ko‘ngillidan so‘rash</string>
@@ -1926,7 +1926,7 @@
     <string name="NoMediaAutoDownload">Hech narsa</string>
     <string name="NoGIFs">GIFlar yoʻq</string>
     <string name="ResetAutomaticMediaDownload">Avto-yuklash sozlamalarini asliga qaytarish</string>
-    <string name="ResetAutomaticMediaDownloadAlertTitle">Sozlamalarni qayta oʻrnatish</string>
+    <string name="ResetAutomaticMediaDownloadAlertTitle">Tanlovlarni qayta oʻrnatish</string>
     <string name="ResetAutomaticMediaDownloadAlert">Avto-yuklash sozlamalarini dastlabki holatiga qaytarishni istaysizmi?</string>
     <string name="WhenUsingMobileData">Mobil internet orqali ulanganda</string>
     <string name="WhenConnectedOnWiFi">Wi-Fi orqali ulanganda</string>
@@ -1944,7 +1944,7 @@
     <string name="NotificationsCustom">Maxsus</string>
     <string name="NotificationsEnableCustom">Maxsus bildirishnomalarni yoqish</string>
     <string name="NotificationsImportance">Muhimlik</string>
-    <string name="NotificationsPrioritySettings">Sozlamalardagi kabi</string>
+    <string name="NotificationsPrioritySettings">Tanlovlardagi kabi</string>
     <string name="NotificationsPriorityLow">Past</string>
     <string name="NotificationsPriorityMedium">Oʻrtacha</string>
     <string name="NotificationsPriorityHigh">Kuchli</string>
@@ -1952,7 +1952,7 @@
     <string name="RepeatNotificationsNever">Hech qachon</string>
     <string name="RepeatNotifications">Bildirishnomalarni takrorlash</string>
     <string name="PhoneNumberHelp">Telegram raqamingizni shu yerda almashtirishingiz mumkin. Hisobingiz va barcha bulut ma’lumotlaringiz — xabarlar, mediafayllar, kontaktlar va hokazo yangi raqamga koʻchiriladi.</string>
-    <string name="PhoneNumberAlert">Agar foydalanuvchilarning manzillar kitobida telefon raqamingiz boʻlsa yoki maxfiylik sozlamalaringiz ularga buni koʻrish imkonini bersa, ular yangi raqamingizni koʻradilar. Siz buni Sozlamalar &gt; Maxfiylik va xavfsizlik &gt; Telefon raqami ruknida oʻzgartirishingiz mumkin.</string>
+    <string name="PhoneNumberAlert">Agar foydalanuvchilarning manzillar kitobida telefon raqamingiz boʻlsa yoki maxfiylik sozlamalaringiz ularga buni koʻrish imkonini bersa, ular yangi raqamingizni koʻradilar. Siz buni Tanlovlar &gt; Maxfiylik va xavfsizlik &gt; Telefon raqami ruknida oʻzgartirishingiz mumkin.</string>
     <string name="PhoneNumberChange2">Raqamni almashtirish</string>
     <string name="PhoneNumberChangeTitle">Raqamni almashtirish</string>
     <string name="ChangePhoneNewNumber">Yangi raqam</string>
@@ -2013,7 +2013,7 @@
     <string name="DebugMenuResetContacts">Import qilingan kontaktlarni asliga qaytarish</string>
     <string name="DebugMenuClearMediaCache">Yuborilgan fayllar keshini tozalash</string>
     <string name="DebugMenuCallSettings">Chaqiruv sozlamalari</string>
-    <string name="ChangeLanguageLater">Tilingizni keyinchalik Sozlamalarda oʻzgartirishingiz mumkin.</string>
+    <string name="ChangeLanguageLater">Tilingizni keyinchalik Tanlovlarda oʻzgartirishingiz mumkin.</string>
     <string name="ChooseYourLanguage">Tilingizni tanlang</string>
     <string name="ChooseYourLanguageOther">Boshqa</string>
     <string name="PasteFromClipboard">Vaqtincha xotiradan qoʻyish</string>
@@ -2084,7 +2084,7 @@
     <string name="ContactSupportInfo">Bizga xatoliklar haqida xabar bering; chiqib ketish har doim ham yordam bermaydi.</string>
     <string name="LogOutTitle">Chiqish</string>
     <string name="LogOutInfo">Hisobdan chiqilganida barcha maxfiy chatlar yoʻqoladi.</string>
-    <string name="SearchInSettings">Sozlamalar va KBS\'larni Izlash</string>
+    <string name="SearchInSettings">Tanlovlar va KBS\'larni Izlash</string>
     <string name="SettingsRecent">Soʻnggi qidiruvlar</string>
     <string name="SettingsFaqSearchTitle">Tez-tez soʻraladigan savollar</string>
     <string name="SettingsNoResults">Natijalar topilmadi</string>
@@ -2104,7 +2104,7 @@
     <string name="AuthAnotherClientInfo1">Telegramni kompyuteringizda *desktop.telegram.org* saytidan yuklab oling.</string>
     <string name="AuthAnotherClientInfo2">QR kodni olish uchun Telegram Desktopni ishga tushiring.</string>
     <string name="AuthAnotherClientInfo3">Hisobingizni ulash uchun QR kodni skanerlang.</string>
-    <string name="AuthAnotherClientUrl">Bu koddan kimnidir Telegram hisobingizga kirishiga ruxsat berish uchun foydalanilishi mumkin.\n\nTelegramga kirishni tasdiqlash uchun Sozlamalar &gt; Qurilmalar &gt; QR kodni skanerlash rukniga kiring va kodni skanerlang.</string>
+    <string name="AuthAnotherClientUrl">Bu koddan kimnidir Telegram hisobingizga kirishiga ruxsat berish uchun foydalanilishi mumkin.\n\nTelegramga kirishni tasdiqlash uchun Tanlovlar &gt; Qurilmalar &gt; QR kodni skanerlash rukniga kiring va kodni skanerlang.</string>
     <string name="QRCodePermissionNoCamera">QR kodlarni skanerlashingiz uchun Telegram kamerangizdan foydalanishga ruxsat olishi kerak.</string>
     <string name="SetProfilePhoto">Profil rasmini belgilash</string>
     <!--cache view-->
@@ -2416,7 +2416,7 @@
     <string name="FilterRemoveInclusionChatText">Haqiqatan “%1$s”ni jildda koʻrsatilishi kerak boʻlgan chatlar roʻyxatidan olib tashlansinmi?</string>
     <string name="FilterRemoveInclusionUserText">Haqiqatan “%1$s”ni jildda koʻrsatilishi kerak boʻlgan chatlar roʻyxatidan olib tashlansinmi?</string>
     <string name="FilterAvailableTitle">Chat jildlari</string>
-    <string name="FilterAvailableText">Chatlaringizni jildlarga saralash uchun *Sozlamalar &gt; Jildlar* ruknini oching.</string>
+    <string name="FilterAvailableText">Chatlaringizni jildlarga saralash uchun *Tanlovlar &gt; Jildlar* ruknini oching.</string>
     <string name="FilterNameNonMuted">Tovushli</string>
     <string name="FilterNameUnread">Oʻqilmagan</string>
     <string name="FilterAddTo">Jildga qoʻshish</string>
@@ -2729,7 +2729,7 @@
     <string name="TwoStepVerificationTitle">Ikki bosqichli tekshiruv</string>
     <string name="TwoStepVerificationPasswordSet">Parol oʻrnatildi!</string>
     <string name="TwoStepVerificationPasswordSetInfo">Bu parol yangi qurilmaga kirganingizda siz SMS orqali oladigan kodga qoʻshimcha ravishda talab qilinadi.</string>
-    <string name="TwoStepVerificationPasswordReturnSettings">Sozlamalarga qaytish</string>
+    <string name="TwoStepVerificationPasswordReturnSettings">Tanlovlarga qaytish</string>
     <string name="TwoStepVerificationPasswordReturnPassport">Parolga qaytish</string>
     <string name="TwoStepVerificationSetPassword">Parol oʻrnatish</string>
     <string name="TwoStepVerificationShowPassword">Parolni koʻrsatish</string>
@@ -2932,7 +2932,7 @@
     <string name="Bot">bot</string>
     <string name="BotShare">Ulashish</string>
     <string name="BotInvite">Guruhga qoʻshish</string>
-    <string name="BotSettings">Sozlamalar</string>
+    <string name="BotSettings">Tanlovlar</string>
     <string name="BotHelp">Yordam</string>
     <string name="BotStatusRead">xabarlarga ruxsati bor</string>
     <string name="BotStatusCantRead">xabarlarga ruxsati yoʻq</string>
@@ -3199,7 +3199,7 @@
     <string name="PrivacyPolicyAndTerms">Maxfiylik siyosati va Xizmat shartlari</string>
     <string name="TosAgeText">%1$s yoki undan yuqori yoshda ekanligingizni tasdiqlash uchun “Roziman” tugmasini bosing.</string>
     <string name="TosUpdateDecline">Afsuski, bu holatda Telegramdan foydalanishdan voz kechishga toʻgʻri keladi. Boshqa xizmatlardan farqli ravishda, biz maʼlumotlaringizdan reklama va boshqa tijoriy maqsadlarda foydalanmaymiz. Serverlarda faqat Telegramdan toʻlaqonli ravishda foydalanishingizga imkon beradigan maʼlumotlar saqlanadi. Biz maʼlumotlaringizdan qanday foydalanishimizni (masalan, sinxronlangan kontaktlarni oʻchirib tashlash) Maxfiylik va xavfsizlik sozlamalarida oʻzgartirishingiz mumkin.\n\nAgar minimal muhim maʼlumotlarni taqdim etishga tayyor boʻlmasangiz, biz Telegramning ishlashini taʼminlay olmaymiz. Siz hisobingizni hozir faolsizlantirishingiz mumkin – yoki yana bir marta koʻrib chiqib, maʼlumotlaringizdan qanday foydalanishimiz sizga maʼqul kelmasa, keyin faolsizlantirishingiz mumkin.</string>
-    <string name="TosDeclineDeleteAccount">Diqqat, bunda siz Telegram bulutida saqlagan barcha maʼlumotlar bilan birga Telegram hisobingiz orqaga qaytarib boʻlmaydigan qilib oʻchirib tashlanadi.\n\nMuhim: Barcha maʼlumotlaringizni yoʻqotish oʻrniga hisobingizni oʻchirib tashlashdan avval hozir bekor qilishingiz va ularni eksport qilishingiz mumkin. (Buni bajarish uchun Telegram Desktop oxirgi versiyasini oching va Sozlamalar &gt; Kengaytirilgan &gt; Telegram maʼlumotlarini eksport qilish rukniga kiring.)</string>
+    <string name="TosDeclineDeleteAccount">Diqqat, bunda siz Telegram bulutida saqlagan barcha maʼlumotlar bilan birga Telegram hisobingiz orqaga qaytarib boʻlmaydigan qilib oʻchirib tashlanadi.\n\nMuhim: Barcha maʼlumotlaringizni yoʻqotish oʻrniga hisobingizni oʻchirib tashlashdan avval hozir bekor qilishingiz va ularni eksport qilishingiz mumkin. (Buni bajarish uchun Telegram Desktop oxirgi versiyasini oching va Tanlovlar &gt; Kengaytirilgan &gt; Telegram maʼlumotlarini eksport qilish rukniga kiring.)</string>
     <!--permissions-->
     <string name="PermissionContacts">Doʻstlaringiz bilan barcha qurilmalaringiz orqali muloqot qilishingiz uchun, kontaktlaringiz Telegramning kuchli shifrlanadigan bulut serverlari bilan muntazam ravishda sinxronlanadi.</string>
     <string name="PermissionStorage">Rasm, video, musiqa hamda boshqa mediafayllarni yuborish va saqlay olish uchun Telegram qurilmangiz xotirasiga kirish huquqiga ega boʻlishi kerak.</string>
@@ -3361,7 +3361,7 @@
     <string name="VoipGroupOfflineAirplane">Qurilmangizda hozir parvoz rejimi yoqilgan. Ovozli chatga qoʻshilish uchun uni faolsizlantiring yoki Wi-Fi tarmoqqa ulaning.</string>
     <string name="VoipOfflineTitle">Oflayn</string>
     <string name="VoipOfflineAirplaneTitle">Parvoz rejimi</string>
-    <string name="VoipOfflineOpenSettings">Sozlamalar</string>
+    <string name="VoipOfflineOpenSettings">Tanlovlar</string>
     <string name="CallMessageOutgoing">Chiquvchi chaqiruv</string>
     <string name="CallMessageIncoming">Kiruvchi chaqiruv</string>
     <string name="CallMessageVideoOutgoing">Chiquvchi chaqiruv</string>
@@ -4347,7 +4347,7 @@
     <string name="ChannelMessagePoll">%1$s soʻrovnoma joyladi</string>
     <string name="ChooseMapPreviewProvider">Xaritaga nazar solish provayderini tanlang</string>
     <string name="ConnectingToProxyDisable">Faolsizlantirish</string>
-    <string name="ConnectingToProxyDisableAlert">Siz %1$s Proxy serverni o‘chirib qo‘yasizmi? Siz keyinroq Sozlamalar (Ma’lumotlar va Xotira) ichidan qayta yoqishingiz mumkin.</string>
+    <string name="ConnectingToProxyDisableAlert">Siz %1$s Proxy serverni o‘chirib qo‘yasizmi? Siz keyinroq Tanlovlar (Ma’lumotlar va Xotira) ichidan qayta yoqishingiz mumkin.</string>
     <string name="ConnectingToProxyTapToDisable">Proksini faolsizlantirish uchun bosing...</string>
     <string name="CreateNewTheme">Yangi mavzu yaratish</string>
     <string name="CreateNewThemeInfo">Dastur rangini o\'zgartirish orqali siz o\'z mavzuyingizni yaratishingiz mumkin. Istalgan vaqtda ushbu oynada Telegramning odatiy mavzusiga qaytishingiz mumkin.</string>
@@ -4360,7 +4360,7 @@
     <string name="EmailPasswordConfirmText">Ikki bosqichli tekshiruvni oʻrnatishni yakunlash uchun quyidagi qadamlarni bajaring:\n\n1. Emailingizni tekshiring (spam jildini unutmang):\n%1$s\n\n2. Tekshiruv havolasini bosing.</string>
     <string name="EmojiBigSize">Bitta katta emoji chizish</string>
     <string name="EnableProxyAlert">Haqiqatan ham bu proksi yoqilsinmi?</string>
-    <string name="EnableProxyAlert2">Siz keyinchalik proksi serverni Sozlamalar (Ma’lumotlar va xotira) ichida o‘zgartirishingiz mumkin.</string>
+    <string name="EnableProxyAlert2">Siz keyinchalik proksi serverni Tanlovlar (Ma’lumotlar va xotira) ichida o‘zgartirishingiz mumkin.</string>
     <string name="GifsTab">GIFLAR</string>
     <string name="GpsDisabledAlert">GPS funksiyangiz faolsizlantirilganga oʻxshaydi, joylashuvga asoslangan funksiyalardan foydalanish uchun uni yoqing.</string>
     <string name="ImagesTab">RASMLAR</string>
@@ -4380,7 +4380,7 @@
     <string name="NewThemePreviewLine2">Tokioda tong otdi &#128526;</string>
     <string name="NoAudio">Musiqalarni bu yerda koʻrish uchun fayllarni qurilmangizning musiqa kutubxonasiga qoʻshing.</string>
     <string name="NoBlockedChannel">Bloklangan foydalanuvchilar  kanaldan o‘chirib tashlandi va faqat admin taklifi bilan qaytib kelishi mumkin. Taklif havolalari ular uchun ishlamaydi.</string>
-    <string name="NoBlockedGroup">Ban olgan foydalanuvchilar guruhdan chiqariladi va ularni faqatgina admin qayta qo\'shishi mumkin. Ular uchun taklif havolasi ishlamaydi.</string>
+    <string name="NoBlockedGroup">Ban olgan foydalanuvchilar guruhdan chiqariladi va ularni faqatgina admin qayta qoʻshishi mumkin. Ular uchun taklif havolasi ishlamaydi.</string>
     <string name="NoRecentPhotos">Oxirgi rasmlar yoʻq</string>
     <string name="NotificationActionPinnedContact">%1$s “%2$s” guruhida kontaktni qadadi</string>
     <string name="NotificationActionPinnedContactChannel">%1$s kontaktni qadadi</string>
@@ -4394,7 +4394,7 @@
     <string name="NotificationsPriorityDefault">Odatiy</string>
     <string name="NotificationsPriorityMax">Yuqori</string>
     <string name="OpenUrlAlert">Bu havola ochilsinmi: %1$s?</string>
-    <string name="PassportInfo">Telegram pasporti bilan veb-saytlar va xizmatlarga osonlik bilan kirishingiz mumkin.\n\nSizning shaxsiy ma\'lumotlaringiz va hujjatlaringizni hammasi shifrlash bilan himoyalangan. Hech kim, shu jumladan  Telegram ham sizning ruxsatingizsiz ularga kira olmaydi.\n\nQo\'shimcha ma\'lumot olish uchun KBS-ga tashrif buyuring.</string>
+    <string name="PassportInfo">Telegram pasporti bilan veb-saytlar va xizmatlarga osonlik bilan kirishingiz mumkin.\n\nSizning shaxsiy maʼlumotlaringiz va hujjatlaringizni hammasi shifrlash bilan himoyalangan. Hech kim, shu jumladan  Telegram ham sizning ruxsatingizsiz ularga kira olmaydi.\n\nQoʻshimcha maʼlumot olish uchun KBSga tashrif buyuring.</string>
     <string name="PassportSDK_Cancel">Bekor qilish</string>
     <string name="PassportSDK_DownloadTelegram">**%s**ʼga kirish uchun sizga Telegram kerak boʻladi. Uni oʻrnatishni xohlaysizmi?</string>
     <string name="PassportSDK_LogInWithTelegram">Telegram orqali kirish</string>
@@ -4422,7 +4422,7 @@
     <string name="SendMessagesToGroup">Xabarlar %1$sga yuborilsinmi?</string>
     <string name="SetAdminsAll">Barcha aʼzolar – adminlar</string>
     <string name="SetAdminsAllInfo">Barcha aʼzolar yangi aʼzolarni qoʻshishlari, xabarlarni qadashlari, guruh nomini va rasmini oʻzgartirishlari mumkin.</string>
-    <string name="SetAdminsNotAllInfo">Faqat administratorlar guruh a\'zolarini qo\'shishi va o\'chirishi, guruhning nomi va rasmini o\'zgartirishi mumkin.</string>
+    <string name="SetAdminsNotAllInfo">Faqat administratorlar guruh aʼzolarini qoʻshishi va oʻchirishi, guruhning nomi va rasmini oʻzgartirishi mumkin.</string>
     <string name="SetAdminsTitle">Administratorlar</string>
     <string name="SharedFilesTab">FAYLLAR</string>
     <string name="SharedLinksTab">HAVOLALAR</string>

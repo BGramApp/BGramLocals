@@ -221,13 +221,13 @@
 	<string name="BGramOfficialChannelSub">Yangilanish haqida</string>
 	<string name="BGramOfficialGroups">Official Supporting Groups</string>
 	<string name="BGramOfficialGroupsSub">Xatolik haqida va takliflar uchun xabar</string>
-	<string name="BGramOfficialGroupsEN">English</string>
-	<string name="BGramOfficialGroupsFA">Persian</string>
-	<string name="BGramOfficialGroupsRU">Russian</string>
-	<string name="BGramOfficialGroupsUZ">Uzbek</string>
-	<string name="BGramOfficialGroupsAR">Arabic</string>
-	<string name="BGramOfficialGroupsES">Spanish</string>
-	<string name="BGramOfficialGroupsIT">Italian</string>
+	<string name="BGramOfficialGroupsEN">Inglizcha</string>
+	<string name="BGramOfficialGroupsFA">Forscha</string>
+	<string name="BGramOfficialGroupsRU">Ruscha</string>
+	<string name="BGramOfficialGroupsUZ">Oʻzbekcha</string>
+	<string name="BGramOfficialGroupsAR">Arabcha</string>
+	<string name="BGramOfficialGroupsES">Ispancha</string>
+	<string name="BGramOfficialGroupsIT">Italyancha</string>
 	<string name="BGramRateApp">Ilovani baholash</string>
 	<string name="BGramRateAppSub">Agar ilova ma’qul kelgan boʻlsa, «Google Play»da ilovani yuqori baholang. \nIstalgan muammo toʻgʻrisida rasmiy guruhda bemalol baholashdan oldin xabar qoldiring!</string>
 	<string name="BiftorAppCredits">Minnadorchilik</string>
@@ -627,10 +627,10 @@
 	<string name="BiftorBubblesCat">Xabarlar oqimi</string>
 
 	<!--Biftor customizable context menu-->
-	<string name="BiftorContextMenuCat">Context menu</string>
-	<string name="BiftorMsgContextMenu">Message context menu</string>
-	<string name="BiftorMsgContextMenuSub">Long press on select all icon, for reset to default</string>
-	<string name="BiftorSortMsgContextMenu">Sort message context menu</string>
+	<string name="BiftorContextMenuCat">Konteks menyu</string>
+	<string name="BiftorMsgContextMenu">Xabar konteks menyusi</string>
+	<string name="BiftorMsgContextMenuSub">Odatiy holiga qaytarish uchun uzoq bosib turing</string>
+	<string name="BiftorSortMsgContextMenu">Xabar kontekst menyusini saralash</string>
 
 	<string name="BiftorChatting">Chat</string>
 	<string name="BiftorMsgMergingCat">Xabarlarni birlashtirish</string>
@@ -937,35 +937,35 @@
 	<string name="BiftorAdsTypeCustom">Reklamalar</string>
 	<string name="BiftorAdsTitle">BGram reklamalari</string>
 	<string name="BiftorAdsSubTitle">orqali ilovani qoʻllab-quvvatlang</string>
-	<string name="BiftorAdsHideFor">Watch this to hide for %s</string>
+	<string name="BiftorAdsHideFor">Buni koʻrish orqali %s berkitmoq</string>
 
 	<!--Biftor times-->
-	<string name="BiftorHour">%s hour</string>
-	<string name="BiftorHours">%s hours</string>
-	<string name="BiftorDay">%s day</string>
-	<string name="BiftorDays">%s days</string>
+	<string name="BiftorHour">%s soatga</string>
+	<string name="BiftorHours">%s soatga</string>
+	<string name="BiftorDay">%s kun</string>
+	<string name="BiftorDays">%s kunga</string>
 
 	<!--Biftor send image as sticker-->
-	<string name="BiftorSendAsSticker">Send as sticker</string>
+	<string name="BiftorSendAsSticker">Stiker kabi joʻnatmoq</string>
 	<!--Biftor caption on sticker-->
-	<string name="BiftorSendStickerWithCaption">Send sticker with caption</string>
-	<string name="BiftorShowStickerCaption">Show sticker caption</string>
+	<string name="BiftorSendStickerWithCaption">Stikerni sarlavha bilan joʻnatmoq</string>
+	<string name="BiftorShowStickerCaption">Stiker sarlavhasini koʻrsatmoq</string>
 
 	<!--Biftor message details-->
-	<string name="BiftorMessageDetails">Message details</string>
-	<string name="BiftorMessageDetailsTitle">Message details</string>
-	<string name="BiftorMessageDetailsText">Message</string>
-	<string name="BiftorMessageDetailsId">Message id</string>
-	<string name="BiftorMessageDetailsType">Message type</string>
-	<string name="BiftorMessageDetailsStatus">Message status</string>
-	<string name="BiftorMessageDetailsTime">Message time</string>
-	<string name="BiftorMessageDetailsEditTime">Message edit time</string>
-	<string name="BiftorMessageDetailsDocumentName">Document name</string>
-	<string name="BiftorMessageDetailsReplyMessage">Reply message</string>
-	<string name="BiftorMessageDetailsReplyCount">Replay count</string>
-	<string name="BiftorMessageDetailsCommentCount">Comment count</string>
-	<string name="BiftorMessageDetailsViewsCount">Views count</string>
-	<string name="BiftorMessageDetailsReply">Reply</string>
-	<string name="BiftorMessageDetailsCopyContent">Copy</string>
-	<string name="BiftorMessageDetailsForward">Forward</string>
+	<string name="BiftorMessageDetails">Xabar tafsilotlari</string>
+	<string name="BiftorMessageDetailsTitle">Xabar tafsilotlari</string>
+	<string name="BiftorMessageDetailsText">Xabar</string>
+	<string name="BiftorMessageDetailsId">Xabar ID kodi</string>
+	<string name="BiftorMessageDetailsType">Xabar turi</string>
+	<string name="BiftorMessageDetailsStatus">Xabar holati</string>
+	<string name="BiftorMessageDetailsTime">Joʻnatilgan vaqti</string>
+	<string name="BiftorMessageDetailsEditTime">Tahrirlangan vaqti</string>
+	<string name="BiftorMessageDetailsDocumentName">Hujjat nomi</string>
+	<string name="BiftorMessageDetailsReplyMessage">Xabarga javob</string>
+	<string name="BiftorMessageDetailsReplyCount">Javoblar soni</string>
+	<string name="BiftorMessageDetailsCommentCount">Sharhlar soni</string>
+	<string name="BiftorMessageDetailsViewsCount">Koʻrishlar soni</string>
+	<string name="BiftorMessageDetailsReply">Javob</string>
+	<string name="BiftorMessageDetailsCopyContent">Nusxalash</string>
+	<string name="BiftorMessageDetailsForward">Uzatish</string>
 </resources>

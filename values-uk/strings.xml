@@ -1159,7 +1159,7 @@
    <string name="NoComments">Коментарів ще немає...</string>
    <string name="NoReplies">Відповідей ще немає...</string>
    <string name="ViewInChat">Показати в чаті</string>
-   <string name="SendAnonymously">Анонімне повідомлення</string>
+   <string name="SendAnonymously">Анонімно</string>
    <string name="DiscussionStarted">Початок обговорення</string>
    <string name="ViewThread">Переглянути ланцюжок</string>
    <string name="ChooseDate">Виберіть дату</string>
@@ -3470,7 +3470,7 @@
    <string name="VoipGroupEnd">Закінчити</string>
    <string name="VoipGroupMuteMemberAlertTitle">Заглушити мікрофон</string>
    <string name="VoipGroupMuteMemberAlertText">Ви дійсно хочете заглушити **%1$s** у цьому голосовому чаті?</string>
-   <string name="VoipGroupRemoveMemberAlertTitle">Вилучити учасника</string>
+   <string name="VoipGroupRemoveMemberAlertTitle2">Вилучити присутнього</string>
    <string name="VoipGroupRemoveMemberAlertText2">Вилучити %1$s з голосового чату та заблокувати у %2$s?</string>
    <string name="VoipGroupRemovedFromGroup">**%1$s** вилучено з групи.</string>
    <string name="VoipGroupUserCanNowSpeak">**%1$s** тепер може говорити.</string>
@@ -4038,12 +4038,12 @@
    <string name="ForwardedPoll_few">%1$d пересланих опитування</string>
    <string name="ForwardedPoll_many">%1$d пересланих опитувань</string>
    <string name="ForwardedPoll_other">%1$d пересланих опитувань</string>
-   <string name="AndOther_zero">та ще %1$d інших</string>
-   <string name="AndOther_one">та ще %1$d інше</string>
-   <string name="AndOther_two">та ще %1$d інших</string>
-   <string name="AndOther_few">та ще %1$d інших</string>
-   <string name="AndOther_many">та ще %1$d інших</string>
-   <string name="AndOther_other">та ще %1$d інших</string>
+   <string name="AndOther_zero">та ще %1$d</string>
+   <string name="AndOther_one">та ще %1$d</string>
+   <string name="AndOther_two">та ще %1$d</string>
+   <string name="AndOther_few">та ще %1$d</string>
+   <string name="AndOther_many">та ще %1$d</string>
+   <string name="AndOther_other">та ще %1$d</string>
    <string name="PhotosSelected_zero">Вибрано %1$d фото</string>
    <string name="PhotosSelected_one">Вибрано %1$d фото</string>
    <string name="PhotosSelected_two">Вибрано %1$d фото</string>
@@ -4318,6 +4318,8 @@
    <string name="SwipeUnpin">Відкріпити</string>
    <string name="SwipePin">Прикріпити</string>
    <string name="CancelForwarding">Скасувати пересилання</string>
+   <string name="ThisIsYou">це ви</string>
+   <string name="VoipGroupOpenChat">Відкрити чат</string>
 
    <!-- new from translations.telegram.org -->
 
@@ -4444,6 +4446,7 @@
    <string name="UserRestrictionsUntil">Обмежений до</string>
    <string name="ViewDetails">ПЕРЕГЛЯНУТИ КОНТАКТ</string>
    <string name="VoipGroupRemoveMemberAlertText">Ви дійсно хочете вилучити %1$s з групи?</string>
+   <string name="VoipGroupRemoveMemberAlertTitle">Вилучити учасника</string>
    <string name="WiFiUsage">Використання даних по Wi-Fi</string>
    <string name="WidgetPasscode">\n\nЗверніть увагу: код блокування застосунку **не впливає** на віджети.</string>
    <string name="WidgetPasscodeEnable">​\n\nКод блокування застосунку **не впливатиме** на віджети, додані на головний екран.</string>

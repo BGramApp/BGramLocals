@@ -250,7 +250,7 @@
 
     <!-- Biftor added ghost mod tile-->
     <string name="BiftorGhostModTile">Режим прихованого читання</string>
-    <string name="BiftorGhostModIsEnable">Приховане читання АКТИВОВАНО</string>
+    <string name="BiftorGhostModIsEnable">Приховане читання ВВІМКНЕНО</string>
     <string name="BiftorGhostModIsDisable">Приховане читання ВИМКНЕНО</string>
 
     <!--Biftor allow to set a proxy before login-->
@@ -768,17 +768,17 @@
 
     <!--Biftor Translate-->
     <string name="BiftorTranslate">Перекласти</string>
-    <string name="BiftorTranslateAllLanguage">All language</string>
-    <string name="BiftorTranslateRecently">Recently used language</string>
-    <string name="BiftorTranslateClearRecently">Clear recently used language?</string>
-    <string name="BiftorTranslateDefaultTarget">Default Target</string>
-    <string name="BiftorUndoTranslation">Undo translation</string>
-    <string name="BiftorResetTranslation">Reset translation</string>
-    <string name="BiftorTranslateSettings">Translation Settings</string>
-    <string name="BiftorTranslateSource">Translation Source</string>
+    <string name="BiftorTranslateAllLanguage">Усі мови</string>
+    <string name="BiftorTranslateRecently">Найуживаніші</string>
+    <string name="BiftorTranslateClearRecently">Очистити список найуживаніших?</string>
+    <string name="BiftorTranslateDefaultTarget">Усталена мітка</string>
+    <string name="BiftorUndoTranslation">Застосувати переклад</string>
+    <string name="BiftorResetTranslation">Відновити переклад</string>
+    <string name="BiftorTranslateSettings">Налаштування перекладу</string>
+    <string name="BiftorTranslateSource">Служби перекладу</string>
     <string name="BiftorTranslateSourceGoogle">Google</string>
     <string name="BiftorTranslateSourceYandex">Yandex</string>
-    <string name="BiftorTranslateEnterText">Введіть текст</string>
+    <string name="BiftorTranslateEnterText">Уведіть текст</string>
     <string name="BiftorTranslateEnterTextEmpty">Ви повинні ввести текст для перекладу</string>
     <string name="BiftorTranslateAUTO_DETECT">Автовизначення</string>
     <string name="BiftorTranslateAFRIKAANS">AFRIKAANS</string>
@@ -931,39 +931,39 @@
     <string name="BiftorStopShadowSocksWhenAppClosedSub">зупинити Shadow socks коли додаток закритий, якщо застосувати це, коли Shadow socks діє додаток не закриється остаточно.</string>
 
     <!--Biftor ads-->
-    <string name="BiftorAdsTypeAdMob">AdMob</string>
+    <string name="BiftorAdsTypeAdMob">Реклама</string>
     <string name="BiftorAdsTypeCustom">Реклама</string>
     <string name="BiftorAdsTitle">BGram реклама</string>
     <string name="BiftorAdsSubTitle">Підтримати BGram переглядом реклами</string>
-    <string name="BiftorAdsHideFor">Watch this to hide for %s</string>
+    <string name="BiftorAdsHideFor">Подивись, щоб приховати на %</string>
 
     <!--Biftor times-->
-    <string name="BiftorHour">%s hour</string>
-    <string name="BiftorHours">%s hours</string>
-    <string name="BiftorDay">%s day</string>
-    <string name="BiftorDays">%s days</string>
+    <string name="BiftorHour">%s година</string>
+    <string name="BiftorHours">%s годин</string>
+    <string name="BiftorDay">%s день</string>
+    <string name="BiftorDays">%s днів</string>
 
     <!--Biftor send image as sticker-->
-    <string name="BiftorSendAsSticker">Send as sticker</string>
+    <string name="BiftorSendAsSticker">Відправити наліпкою</string>
     <!--Biftor caption on sticker-->
-    <string name="BiftorSendStickerWithCaption">Send sticker with caption</string>
-    <string name="BiftorShowStickerCaption">Show sticker caption</string>
+    <string name="BiftorSendStickerWithCaption">Відправити наліпку з надписом</string>
+    <string name="BiftorShowStickerCaption">Показати надпис наліпки</string>
 
     <!--Biftor message details-->
-    <string name="BiftorMessageDetails">Message details</string>
-    <string name="BiftorMessageDetailsTitle">Message details</string>
-    <string name="BiftorMessageDetailsText">Message</string>
-    <string name="BiftorMessageDetailsId">Message id</string>
-    <string name="BiftorMessageDetailsType">Message type</string>
-    <string name="BiftorMessageDetailsStatus">Message status</string>
-    <string name="BiftorMessageDetailsTime">Message time</string>
-    <string name="BiftorMessageDetailsEditTime">Message edit time</string>
-    <string name="BiftorMessageDetailsDocumentName">Document name</string>
-    <string name="BiftorMessageDetailsReplyMessage">Reply message</string>
-    <string name="BiftorMessageDetailsReplyCount">Replay count</string>
-    <string name="BiftorMessageDetailsCommentCount">Comment count</string>
-    <string name="BiftorMessageDetailsViewsCount">Views count</string>
-    <string name="BiftorMessageDetailsReply">Reply</string>
-    <string name="BiftorMessageDetailsCopyContent">Copy</string>
-    <string name="BiftorMessageDetailsForward">Forward</string>
+    <string name="BiftorMessageDetails">Дані повідомлення</string>
+    <string name="BiftorMessageDetailsTitle">Відомості про повідомлення</string>
+    <string name="BiftorMessageDetailsText">Повідомлення</string>
+    <string name="BiftorMessageDetailsId">id повідомлення</string>
+    <string name="BiftorMessageDetailsType">Текст повідомлення</string>
+    <string name="BiftorMessageDetailsStatus">Стан повідомлення</string>
+    <string name="BiftorMessageDetailsTime">Час повідомлення</string>
+    <string name="BiftorMessageDetailsEditTime">Час виправлення повідомлення</string>
+    <string name="BiftorMessageDetailsDocumentName">Назва документа</string>
+    <string name="BiftorMessageDetailsReplyMessage">Переслати</string>
+    <string name="BiftorMessageDetailsReplyCount">Кількість відповідей</string>
+    <string name="BiftorMessageDetailsCommentCount">Кількість коментарів</string>
+    <string name="BiftorMessageDetailsViewsCount">Показати кількість</string>
+    <string name="BiftorMessageDetailsReply">Відповісти</string>
+    <string name="BiftorMessageDetailsCopyContent">Копіювати</string>
+    <string name="BiftorMessageDetailsForward">Переслати</string>
 </resources>

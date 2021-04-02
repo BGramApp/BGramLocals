@@ -3,7 +3,7 @@
     <string name="LanguageName">O‘zbek</string>
     <string name="English">Ingliz</string>
     <string name="LanguageNameInEnglish">Uzbek</string>
-    <string name="LanguageCode">uz_ex</string>
+    <string name="LanguageCode">uz</string>
     <string name="ContinueOnThisLanguage">O‘zbek tilida davom etish</string>
     <!--signin view-->
     <string name="YourPhone">Telefon raqamingiz</string>
@@ -354,7 +354,7 @@
     <string name="ActionPinnedMusic">un1 audiofaylni qadadi</string>
     <string name="ActionMigrateFromGroup">Bu guruh superguruh darajasiga oshirildi</string>
     <string name="ActionMigrateFromGroupNotify">%1$s super guruh darajasiga oshirildi</string>
-    <string name="NoBlockedGroup2">Adminlar tomonidan guruhdan chiqarilgan aʼzolar taklif havolasi orqali guruhga qoʻshila olmaydilar.</string>
+    <string name="NoBlockedGroup2">Adminlar tomonidan guruhdan chiqarilgan a\'zolar taklif havolasi orqali guruhga qo\'shila olmaydilar.</string>
     <string name="NoBlockedChannel2">Adminlar tomonidan kanaldan bloklangan aʼzolar unga taklif havolalari orqali qayta qoʻshila olmaydi.</string>
     <string name="NewChannel">Yangi kanal</string>
     <string name="EnterChannelName">Kanal nomi</string>
@@ -745,10 +745,10 @@
     <string name="EventLogChangedOwnership">%1$sga egalik huquqini oʻtkazdi</string>
     <string name="EventLogChangedStickersSet">un1 guruh stiker toʻplamini oʻzgartirdi</string>
     <string name="EventLogRemovedStickersSet">un1 guruh stiker toʻplamini olib tashladi</string>
-    <string name="EventLogChangedLinkedGroup">un1  un2 guruhini ushbu kanalning muhokama guruhiga aylantirdi</string>
+    <string name="EventLogChangedLinkedGroup">un1  un2\'guruhini ushbu kanalning muhokama guruhiga aylantirdi</string>
     <string name="EventLogRemovedLinkedGroup">un1  un2 muhokama guruhini olib tashladi</string>
-    <string name="EventLogChangedLinkedChannel">un1 ushbu guruhni  un2ga biriktirdi</string>
-    <string name="EventLogRemovedLinkedChannel">un1 ushbu guruhni  un2dan ajratdi</string>
+    <string name="EventLogChangedLinkedChannel">un1 ushbu guruhni  un2\'ga biriktirdi</string>
+    <string name="EventLogRemovedLinkedChannel">un1 ushbu guruhni  un2\'dan ajratdi</string>
     <string name="EventLogChangedGroupLink">un1 guruh havolasini oʻzgartirdi:</string>
     <string name="EventLogChangedChannelLink">un1 kanal havolasini oʻzgartirdi:</string>
     <string name="EventLogRemovedGroupLink">un1 guruh havolasini olib tashladi</string>
@@ -4350,7 +4350,7 @@
     <string name="ConnectingToProxyDisableAlert">Siz %1$s Proxy serverni o‘chirib qo‘yasizmi? Siz keyinroq Tanlovlar (Ma’lumotlar va Xotira) ichidan qayta yoqishingiz mumkin.</string>
     <string name="ConnectingToProxyTapToDisable">Proksini faolsizlantirish uchun bosing...</string>
     <string name="CreateNewTheme">Yangi mavzu yaratish</string>
-    <string name="CreateNewThemeInfo">Dastur rangini oʻzgartirish orqali siz oʻz mavzuyingizni yaratishingiz mumkin. Istalgan vaqtda ushbu oynada Telegramning odatiy mavzusiga qaytishingiz mumkin.</string>
+    <string name="CreateNewThemeInfo">Dastur rangini o\'zgartirish orqali siz o\'z mavzuyingizni yaratishingiz mumkin. Istalgan vaqtda ushbu oynada Telegramning odatiy mavzusiga qaytishingiz mumkin.</string>
     <string name="DeleteAccountIfAwayFor">Agar shu vaqt ichida kirmasangiz</string>
     <string name="DeleteLocalization">Lokalizatsiya fayli oʻchirilsinmi?</string>
     <string name="DeleteTheseChats">Chatlarni oʻchirib tashlash</string>
@@ -4422,7 +4422,7 @@
     <string name="SendMessagesToGroup">Xabarlar %1$sga yuborilsinmi?</string>
     <string name="SetAdminsAll">Barcha aʼzolar – adminlar</string>
     <string name="SetAdminsAllInfo">Barcha aʼzolar yangi aʼzolarni qoʻshishlari, xabarlarni qadashlari, guruh nomini va rasmini oʻzgartirishlari mumkin.</string>
-    <string name="SetAdminsNotAllInfo">Faqat administratorlar guruh a\'zolarini qo\'shishi va o\'chirishi, guruhning nomi va rasmini o\'zgartirishi mumkin.</string>
+    <string name="SetAdminsNotAllInfo">Faqat administratorlar guruh aʼzolarini qoʻshishi va oʻchirishi, guruhning nomi va rasmini oʻzgartirishi mumkin.</string>
     <string name="SetAdminsTitle">Administratorlar</string>
     <string name="SharedFilesTab">FAYLLAR</string>
     <string name="SharedLinksTab">HAVOLALAR</string>
@@ -4466,7 +4466,7 @@
 
 	<!--Biftor-->
 	<string name="BGramSettings">BGram tanlovlari</string>
-	<string name="BGramSearchInSettings">Search Settings</string>
+	<string name="BGramSearchInSettings">Izlash tanlovlari</string>
 
 	<!-- Ghost mode-->
 	<string name="BiftorGhostMod">Maxfiy oʻqish</string>
@@ -4829,9 +4829,9 @@
 	<!--Biftor Font picker -->
 	<string name="BiftorFontsPickerCat">Foydalanuvchi shriftlari</string>
 	<string name="BiftorEnableCustomFont">Tashqi shriftni qoʻllash</string>
-	<string name="BiftorEnableSystemCustomFont">Use device system font</string>
-	<string name="BiftorSystemFontLight">Select Light font style</string>
-	<string name="BiftorSystemFontBold">Select Bold font style</string>
+	<string name="BiftorEnableSystemCustomFont">Tizim shriftini qoʻllash</string>
+	<string name="BiftorSystemFontLight">Ingichka uslubdagi shriftni qoʻllash</string>
+	<string name="BiftorSystemFontBold">Qalin uslubidagi shriftni qoʻllash</string>
 	<string name="BiftorFontsPickerLight">Oʻrtacha</string>
 	<string name="BiftorFontsPickerBold">Qalin</string>
 	<string name="BiftorFontsPickerItalic">Ogʻma</string>

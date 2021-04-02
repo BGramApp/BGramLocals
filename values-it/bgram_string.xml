@@ -8,7 +8,7 @@
 
     <!--Biftor-->
     <string name="BGramSettings">Impostazioni BGram</string>
-    <string name="BGramSearchInSettings">Search Settings</string>
+    <string name="BGramSearchInSettings">Impostazioni ricerca</string>
 
     <!-- Ghost mode-->
     <string name="BiftorGhostMod">Lettura nascosta (mod. fantasma)</string>
@@ -223,15 +223,15 @@
     <string name="BiftorSupport">Supporto</string>
     <string name="BGramOfficialChannel">Canale ufficiale</string>
     <string name="BGramOfficialChannelSub">Aggiornamenti e novità di BGram</string>
-    <string name="BGramOfficialGroups">Official Supporting Groups</string>
+    <string name="BGramOfficialGroups">Gruppi di supporto ufficiali</string>
     <string name="BGramOfficialGroupsSub">Tutte le segnalazioni di bug e idee per migliorare l\'app sono ben accette.</string>
-    <string name="BGramOfficialGroupsEN">English</string>
-    <string name="BGramOfficialGroupsFA">Persian</string>
-    <string name="BGramOfficialGroupsRU">Russian</string>
-    <string name="BGramOfficialGroupsUZ">Uzbek</string>
-    <string name="BGramOfficialGroupsAR">Arabic</string>
-    <string name="BGramOfficialGroupsES">Spanish</string>
-    <string name="BGramOfficialGroupsIT">Italian</string>
+    <string name="BGramOfficialGroupsEN">Inglese</string>
+    <string name="BGramOfficialGroupsFA">Persiano</string>
+    <string name="BGramOfficialGroupsRU">Russo</string>
+    <string name="BGramOfficialGroupsUZ">Uzbeco</string>
+    <string name="BGramOfficialGroupsAR">Arabo</string>
+    <string name="BGramOfficialGroupsES">Spagnolo</string>
+    <string name="BGramOfficialGroupsIT">Italiano</string>
     <string name="BGramRateApp">Valuta l\'applicazione</string>
     <string name="BGramRateAppSub">Se ti è piaciuta questa app, ci farebbe piacere avere una recensione su Google Play da parte tua. In caso di problemi, prima di darci poche stelline, visita il nostro gruppo ufficiale.</string>
     <string name="BiftorAppCredits">Crediti</string>
@@ -374,9 +374,9 @@
     <!--Biftor Font picker -->
     <string name="BiftorFontsPickerCat">Seleziona font</string>
     <string name="BiftorEnableCustomFont">Attiva font personalizzato</string>
-    <string name="BiftorEnableSystemCustomFont">Use device system font</string>
-    <string name="BiftorSystemFontLight">Select Light font style</string>
-    <string name="BiftorSystemFontBold">Select Bold font style</string>
+    <string name="BiftorEnableSystemCustomFont">Usa il font di sistema</string>
+    <string name="BiftorSystemFontLight">Seleziona stile font leggero</string>
+    <string name="BiftorSystemFontBold">Seleziona stile font grassetto</string>
     <string name="BiftorFontsPickerLight">Seleziona un font leggero</string>
     <string name="BiftorFontsPickerBold">Seleziona un font grassetto</string>
     <string name="BiftorFontsPickerItalic">Seleziona un font corsivo</string>
@@ -627,10 +627,10 @@
     <string name="BiftorBubblesCat">Nuvolette chat</string>
 
     <!--Biftor customizable context menu-->
-    <string name="BiftorContextMenuCat">Context menu</string>
-    <string name="BiftorMsgContextMenu">Message context menu</string>
-    <string name="BiftorMsgContextMenuSub">Long press on select all icon, for reset to default</string>
-    <string name="BiftorSortMsgContextMenu">Sort message context menu</string>
+    <string name="BiftorContextMenuCat">Menù contestuale</string>
+    <string name="BiftorMsgContextMenu">Menù contestuale messaggi</string>
+    <string name="BiftorMsgContextMenuSub">Tocco prolungato su seleziona tutto per resettare al default</string>
+    <string name="BiftorSortMsgContextMenu">Menù contestuale ordine messaggi</string>
 
     <string name="BiftorChatting">Chat</string>
     <string name="BiftorMsgMergingCat">Unisci messaggi</string>
@@ -772,10 +772,10 @@
 
     <!--Biftor Translate-->
     <string name="BiftorTranslate">Traduci</string>
-    <string name="BiftorTranslateAllLanguage">All language</string>
-    <string name="BiftorTranslateRecently">Recently used language</string>
-    <string name="BiftorTranslateClearRecently">Clear recently used language?</string>
-    <string name="BiftorTranslateDefaultTarget">Default Target</string>
+    <string name="BiftorTranslateAllLanguage">Tutte le lingue</string>
+    <string name="BiftorTranslateRecently">Ultime lingue usate</string>
+    <string name="BiftorTranslateClearRecently">Svuotare la lista delle lingue recenti?</string>
+    <string name="BiftorTranslateDefaultTarget">Lingua destinazione default</string>
     <string name="BiftorUndoTranslation">Annulla traduzione</string>
     <string name="BiftorResetTranslation">Resetta traduzione</string>
     <string name="BiftorTranslateSettings">Imposta traduzione</string>
@@ -938,35 +938,35 @@
     <string name="BiftorAdsTypeCustom">Pubblicità</string>
     <string name="BiftorAdsTitle">Pubblicità BGram</string>
     <string name="BiftorAdsSubTitle">Sostieni BGram guardando una pubblicità</string>
-    <string name="BiftorAdsHideFor">Watch this to hide for %s</string>
+    <string name="BiftorAdsHideFor">Guarda per nascondere le pubblicità per %s</string>
 
     <!--Biftor times-->
-    <string name="BiftorHour">%s hour</string>
-    <string name="BiftorHours">%s hours</string>
-    <string name="BiftorDay">%s day</string>
-    <string name="BiftorDays">%s days</string>
+    <string name="BiftorHour">%s ora</string>
+    <string name="BiftorHours">%s ore</string>
+    <string name="BiftorDay">%s giorno</string>
+    <string name="BiftorDays">%s giorni</string>
 
     <!--Biftor send image as sticker-->
-    <string name="BiftorSendAsSticker">Send as sticker</string>
+    <string name="BiftorSendAsSticker">Invia come sticker sticker</string>
     <!--Biftor caption on sticker-->
-    <string name="BiftorSendStickerWithCaption">Send sticker with caption</string>
-    <string name="BiftorShowStickerCaption">Show sticker caption</string>
+    <string name="BiftorSendStickerWithCaption">Invia sticker con didascalia</string>
+    <string name="BiftorShowStickerCaption">Mostra didascalia sticker</string>
 
     <!--Biftor message details-->
-    <string name="BiftorMessageDetails">Message details</string>
-    <string name="BiftorMessageDetailsTitle">Message details</string>
-    <string name="BiftorMessageDetailsText">Message</string>
-    <string name="BiftorMessageDetailsId">Message id</string>
-    <string name="BiftorMessageDetailsType">Message type</string>
-    <string name="BiftorMessageDetailsStatus">Message status</string>
-    <string name="BiftorMessageDetailsTime">Message time</string>
-    <string name="BiftorMessageDetailsEditTime">Message edit time</string>
-    <string name="BiftorMessageDetailsDocumentName">Document name</string>
-    <string name="BiftorMessageDetailsReplyMessage">Reply message</string>
-    <string name="BiftorMessageDetailsReplyCount">Replay count</string>
-    <string name="BiftorMessageDetailsCommentCount">Comment count</string>
-    <string name="BiftorMessageDetailsViewsCount">Views count</string>
-    <string name="BiftorMessageDetailsReply">Reply</string>
-    <string name="BiftorMessageDetailsCopyContent">Copy</string>
-    <string name="BiftorMessageDetailsForward">Forward</string>
+    <string name="BiftorMessageDetails">Dettagli messaggio</string>
+    <string name="BiftorMessageDetailsTitle">Dettagli messaggio</string>
+    <string name="BiftorMessageDetailsText">Messaggio</string>
+    <string name="BiftorMessageDetailsId">ID messaggio</string>
+    <string name="BiftorMessageDetailsType">Tipo messaggio</string>
+    <string name="BiftorMessageDetailsStatus">Stato messaggio</string>
+    <string name="BiftorMessageDetailsTime">Orario messaggio</string>
+    <string name="BiftorMessageDetailsEditTime">Orario modifica messaggio</string>
+    <string name="BiftorMessageDetailsDocumentName">Nome documento</string>
+    <string name="BiftorMessageDetailsReplyMessage">In risposta a</string>
+    <string name="BiftorMessageDetailsReplyCount">Numero risposte</string>
+    <string name="BiftorMessageDetailsCommentCount">Numero commenti</string>
+    <string name="BiftorMessageDetailsViewsCount">Numero visualizzazioni</string>
+    <string name="BiftorMessageDetailsReply">Rispondi</string>
+    <string name="BiftorMessageDetailsCopyContent">Copia</string>
+    <string name="BiftorMessageDetailsForward">Inoltra</string>
 </resources>

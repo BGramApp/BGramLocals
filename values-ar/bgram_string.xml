@@ -11,7 +11,7 @@
 
  <!--Biftor-->
  <string name="BGramSettings">إعدادات بيگرام</string>
- <string name="BGramSearchInSettings">Search Settings</string>
+ <string name="BGramSearchInSettings">إعدادات البحث</string>
 
  <!-- Ghost mod-->
  <string name="BiftorGhostMod">تمكين وضع الشبح</string>
@@ -76,7 +76,7 @@
 
  <string name="TabsHeight">إرتفاع علامات التبويب</string>
  <string name="TabsUnreadTextSize">حجم النص غير المقروء بعلامات التبويب </string>
- <string name="BiftorShowFolderNameInHeader">Show folder\'s name in header</string>
+ <string name="BiftorShowFolderNameInHeader">إظهار إسم المجلد بالرأس</string>
  <string name="SetAsDefaultTab">تعيين كعلامة تبويب إفتراضية</string>
  <string name="ResetDefaultTab">إعادة تعيين علامة التبويب الافتراضية</string>
  <string name="SortByStatus">فرز حسب الحالة</string>
@@ -223,32 +223,32 @@
  <string name="BiftorSupport">الدعم</string>
  <string name="BGramOfficialChannel">القناة الرسمية</string>
  <string name="BGramOfficialChannelSub">القناة الرسمية</string>
- <string name="BGramOfficialGroups">Official Supporting Groups</string>
+ <string name="BGramOfficialGroups">مجموعات الدعم الرسمية</string>
  <string name="BGramOfficialGroupsSub">كل تقارير الأخطاء والأفكار هي موضع ترحيب.</string>
- <string name="BGramOfficialGroupsEN">English</string>
- <string name="BGramOfficialGroupsFA">Persian</string>
- <string name="BGramOfficialGroupsRU">Russian</string>
- <string name="BGramOfficialGroupsUZ">Uzbek</string>
- <string name="BGramOfficialGroupsAR">Arabic</string>
- <string name="BGramOfficialGroupsES">Spanish</string>
- <string name="BGramOfficialGroupsIT">Italian</string>
+ <string name="BGramOfficialGroupsEN">الإنجليزية</string>
+ <string name="BGramOfficialGroupsFA">الفارسية</string>
+ <string name="BGramOfficialGroupsRU">الروسية</string>
+ <string name="BGramOfficialGroupsUZ">الأوزبكية</string>
+ <string name="BGramOfficialGroupsAR">العربية</string>
+ <string name="BGramOfficialGroupsES">الإسبانية</string>
+ <string name="BGramOfficialGroupsIT">الإيطالية</string>
  <string name="BGramRateApp">تقييم التطبيق</string>
  <string name="BGramRateAppSub">إذا أعجبك التطبيق ، فإننا نقدر تقييمك العالي على غوغل بلاي. في حالة وجود أي مشاكل ، قبل إعطاء درجة منخفضة ، لا تتردد في طرح سؤالك في المجموعة الرسمية!</string>
  <string name="BiftorAppCredits">المساهمون</string>
- <string name="BiftorAppCreditsSub">قائمة تحتوي معلومات عن أشخاص ساهموا بمهاراتهم من اجل خلق هذا التطبيق</string>
+ <string name="BiftorAppCreditsSub">قائمة تحتوي معلومات عن أشخاص ساهموا بمهاراتهم من أجل خلق هذا التطبيق</string>
  <string name="BiftorAppHints">تلميحات ودليل</string>
  <string name="BiftorAppHintsSub">دليل الفيديو و عمل قائمة النقر على مختلف عناصر الواجهة</string>
  <string name="BiftorDonate">التبرع</string>
- <string name="BiftorDonateSub">جعل المطور سعيد (بيتكوين).</string>
- <string name="BiftorDonateMoreDetail">يمكنك نقل مكافأة صغيرة للمطور للحفاظ على استمرارية العمل.</string>
+ <string name="BiftorDonateSub">إجعل المطور سعيد (بيتكوين).</string>
+ <string name="BiftorDonateMoreDetail">يمكنك نقل مكافأة صغيرة للمطور للحفاظ على إستمرارية العمل.</string>
  <string name="BiftorDonateBTC">بيتكوين</string>
  <string name="BiftorDonateBTCCASH">بيتكوين نقدية</string>
  <string name="BiftorDonateEther">إيثر</string>
  <string name="BiftorDonateStellar">ستيلر</string>
  <string name="BiftorDonatePayPal">بايبال</string>
- <string name="BiftorDonateYandex">Yandex</string>
- <string name="BiftorDonatePayeer">Payeer</string>
- <string name="BiftorDonateQiwi">Qiwi</string>
+ <string name="BiftorDonateYandex">ياندكس</string>
+ <string name="BiftorDonatePayeer">بايير</string>
+ <string name="BiftorDonateQiwi">كيوي</string>
  <string name="BiftorGettingDonationAddress"> الحصول على عنوان التبرع ...</string>
  <string name="BiftorDonationAddressCopied">تم نسخ عنوان التبرع الى الحافظة</string>
  <string name="BiftorGettingDonationAddressFailed">فشل تحميل  عنوان التبرع , حاول مرة أخرى في وقت لاحق...</string>
@@ -380,9 +380,9 @@
  <!--Biftor Font piker -->
  <string name="BiftorFontsPickerCat">منتقي الخطوط</string>
  <string name="BiftorEnableCustomFont">تمكين الخط المخصص</string>
- <string name="BiftorEnableSystemCustomFont">Use device system font</string>
- <string name="BiftorSystemFontLight">Select Light font style</string>
- <string name="BiftorSystemFontBold">Select Bold font style</string>
+ <string name="BiftorEnableSystemCustomFont">استخدم خط نظام الجهاز</string>
+ <string name="BiftorSystemFontLight">حدد نمط الخط الفاتح</string>
+ <string name="BiftorSystemFontBold">حدد نمط الخط الغامق</string>
  <string name="BiftorFontsPickerLight">إختر خط خفيف</string>
  <string name="BiftorFontsPickerBold">إختر الخط  المتوسط العريض</string>
  <string name="BiftorFontsPickerItalic">إختر الخط المتوسط المائل</string>
@@ -450,8 +450,8 @@
 
  <!-- Biftor auto download next media -->
  <string name="BiftorEnableAutoDownloadNextMedia">تحميل تلقائي للوسائط التالية</string>
- <string name="BiftorDisableGoToNextMedia">Disable go to next media</string>
- <string name="BiftorDisableGoToNextMediaSub">Disable go to next media by tapping on photo edge</string>
+ <string name="BiftorDisableGoToNextMedia">تعطيل الانتقال إلى الوسائط التالية</string>
+ <string name="BiftorDisableGoToNextMediaSub">تعطيل الانتقال إلى الوسائط التالية من خلال النقر على حافة الصورة</string>
 
  <!-- Biftor enable camera in attach menu -->
  <string name="BiftorEnableCameraAttachMenu">تمكين زر  الكاميرا بلوحة الإرفاق</string>
@@ -635,10 +635,10 @@
  <string name="BiftorBubblesCat">فقاعات المحادثة</string>
 
  <!--Biftor customizable context menu-->
- <string name="BiftorContextMenuCat">Context menu</string>
- <string name="BiftorMsgContextMenu">Message context menu</string>
- <string name="BiftorMsgContextMenuSub">Long press on select all icon, for reset to default</string>
- <string name="BiftorSortMsgContextMenu">Sort message context menu</string>
+ <string name="BiftorContextMenuCat">قائمة السياق</string>
+ <string name="BiftorMsgContextMenu">قائمة سياق الرسالة</string>
+ <string name="BiftorMsgContextMenuSub">اضغط لفترة طويلة على تحديد الكل، لإعادة التعيين إلى الوضع الافتراضي</string>
+ <string name="BiftorSortMsgContextMenu">فرز قائمة سياق الرسالة</string>
 
  <string name="BiftorChatting">المحادثات</string>
  <string name="BiftorMsgMergingCat">دمج الرسائل</string>
@@ -779,16 +779,16 @@
 
  <!--Biftor Translate-->
  <string name="BiftorTranslate">ترجمة</string>
- <string name="BiftorTranslateAllLanguage">All language</string>
- <string name="BiftorTranslateRecently">Recently used language</string>
- <string name="BiftorTranslateClearRecently">Clear recently used language?</string>
- <string name="BiftorTranslateDefaultTarget">Default Target</string>
- <string name="BiftorUndoTranslation">Undo translation</string>
- <string name="BiftorResetTranslation">Reset translation</string>
- <string name="BiftorTranslateSettings">Translation Settings</string>
- <string name="BiftorTranslateSource">Translation Source</string>
- <string name="BiftorTranslateSourceGoogle">Google</string>
- <string name="BiftorTranslateSourceYandex">Yandex</string>
+ <string name="BiftorTranslateAllLanguage">كل اللغات</string>
+ <string name="BiftorTranslateRecently">اللغة المستخدمة حديثا</string>
+ <string name="BiftorTranslateClearRecently">هل تريد مسح اللغة المستخدمة مؤخرا؟</string>
+ <string name="BiftorTranslateDefaultTarget">الهدف الافتراضي</string>
+ <string name="BiftorUndoTranslation">التراجع عن الترجمة</string>
+ <string name="BiftorResetTranslation">إعادة الترجمة</string>
+ <string name="BiftorTranslateSettings">إعدادات الترجمة</string>
+ <string name="BiftorTranslateSource">مصدر الترجمة</string>
+ <string name="BiftorTranslateSourceGoogle">غوغل</string>
+ <string name="BiftorTranslateSourceYandex">ياندكس</string>
  <string name="BiftorTranslateEnterText">أدخل نص</string>
  <string name="BiftorTranslateEnterTextEmpty">يجب عليك إدخال نص لترجمته</string>
  <string name="BiftorTranslateAUTO_DETECT">إكتشاف تلقائي</string>
@@ -946,35 +946,35 @@
  <string name="BiftorAdsTypeCustom">إعلانات</string>
  <string name="BiftorAdsTitle">إعلانات بيكرام</string>
  <string name="BiftorAdsSubTitle">إدعم بيغرام من خلال مشاهدة إعلان</string>
- <string name="BiftorAdsHideFor">Watch this to hide for %s</string>
+ <string name="BiftorAdsHideFor">مشاهدة هذا لإخفاء %s</string>
 
  <!--Biftor times-->
- <string name="BiftorHour">%s hour</string>
- <string name="BiftorHours">%s hours</string>
- <string name="BiftorDay">%s day</string>
- <string name="BiftorDays">%s days</string>
+ <string name="BiftorHour">%s ساعة</string>
+ <string name="BiftorHours">%s ساعات</string>
+ <string name="BiftorDay">%s يوم</string>
+ <string name="BiftorDays">%s أيام</string>
 
  <!--Biftor send image as sticker-->
- <string name="BiftorSendAsSticker">Send as sticker</string>
+ <string name="BiftorSendAsSticker">إرسال كملصق</string>
  <!--Biftor caption on sticker-->
- <string name="BiftorSendStickerWithCaption">Send sticker with caption</string>
- <string name="BiftorShowStickerCaption">Show sticker caption</string>
+ <string name="BiftorSendStickerWithCaption">إرسال الملصق مع التسمية التوضيحية</string>
+ <string name="BiftorShowStickerCaption">إظهار التسمية التوضيحية للملصق</string>
 
  <!--Biftor message details-->
- <string name="BiftorMessageDetails">Message details</string>
- <string name="BiftorMessageDetailsTitle">Message details</string>
- <string name="BiftorMessageDetailsText">Message</string>
- <string name="BiftorMessageDetailsId">Message id</string>
- <string name="BiftorMessageDetailsType">Message type</string>
- <string name="BiftorMessageDetailsStatus">Message status</string>
- <string name="BiftorMessageDetailsTime">Message time</string>
- <string name="BiftorMessageDetailsEditTime">Message edit time</string>
- <string name="BiftorMessageDetailsDocumentName">Document name</string>
- <string name="BiftorMessageDetailsReplyMessage">Reply message</string>
- <string name="BiftorMessageDetailsReplyCount">Replay count</string>
- <string name="BiftorMessageDetailsCommentCount">Comment count</string>
- <string name="BiftorMessageDetailsViewsCount">Views count</string>
- <string name="BiftorMessageDetailsReply">Reply</string>
- <string name="BiftorMessageDetailsCopyContent">Copy</string>
- <string name="BiftorMessageDetailsForward">Forward</string>
+  <string name="BiftorMessageDetails">تفاصيل الرسالة</string>
+ <string name="BiftorMessageDetailsTitle">تفاصيل الرسالة</string>
+ <string name="BiftorMessageDetailsText">رسالة</string>
+ <string name="BiftorMessageDetailsId">آيدي الرسالة</string>
+ <string name="BiftorMessageDetailsType">نوع الرسالة</string>
+ <string name="BiftorMessageDetailsStatus">حالة الرسالة</string>
+ <string name="BiftorMessageDetailsTime">توقيت الرسالة</string>
+ <string name="BiftorMessageDetailsEditTime">توقيت تعديل الرسالة</string>
+ <string name="BiftorMessageDetailsDocumentName">إسم المستند</string>
+ <string name="BiftorMessageDetailsReplyMessage">ردود الرسالة</string>
+ <string name="BiftorMessageDetailsReplyCount">عدد الردود</string>
+ <string name="BiftorMessageDetailsCommentCount">عدد التعليقات</string>
+ <string name="BiftorMessageDetailsViewsCount">عدد المشاهدات</string>
+ <string name="BiftorMessageDetailsReply">رد</string>
+ <string name="BiftorMessageDetailsCopyContent">نسخ</string>
+ <string name="BiftorMessageDetailsForward">توجيه</string>
 </resources>

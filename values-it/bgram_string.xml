@@ -947,7 +947,7 @@
     <string name="BiftorDays">%s giorni</string>
 
     <!--Biftor send image as sticker-->
-    <string name="BiftorSendAsSticker">Invia come sticker sticker</string>
+    <string name="BiftorSendAsSticker">Invia come sticker</string>
     <!--Biftor caption on sticker-->
     <string name="BiftorSendStickerWithCaption">Invia sticker con didascalia</string>
     <string name="BiftorShowStickerCaption">Mostra didascalia sticker</string>

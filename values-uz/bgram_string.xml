@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
 	<string name="BGram" translatable="false">BGram</string>
 	<string name="AppName" translatable="false">BGram</string>
@@ -7,7 +7,7 @@
 
 	<!--Biftor-->
 	<string name="BGramSettings">BGram tanlovlari</string>
-	<string name="BGramSearchInSettings">Search Settings</string>
+	<string name="BGramSearchInSettings">Izlash tanlovlari</string>
 
 	<!-- Ghost mode-->
 	<string name="BiftorGhostMod">Maxfiy oʻqish</string>
@@ -370,9 +370,9 @@
 	<!--Biftor Font picker -->
 	<string name="BiftorFontsPickerCat">Foydalanuvchi shriftlari</string>
 	<string name="BiftorEnableCustomFont">Tashqi shriftni qoʻllash</string>
-	<string name="BiftorEnableSystemCustomFont">Use device system font</string>
-	<string name="BiftorSystemFontLight">Select Light font style</string>
-	<string name="BiftorSystemFontBold">Select Bold font style</string>
+	<string name="BiftorEnableSystemCustomFont">Tizim shriftini qoʻllash</string>
+	<string name="BiftorSystemFontLight">Ingichka uslubdagi shriftni qoʻllash</string>
+	<string name="BiftorSystemFontBold">Qalin uslubidagi shriftni qoʻllash</string>
 	<string name="BiftorFontsPickerLight">Oʻrtacha</string>
 	<string name="BiftorFontsPickerBold">Qalin</string>
 	<string name="BiftorFontsPickerItalic">Ogʻma</string>

@@ -937,19 +937,19 @@
 	<string name="BiftorAdsTypeCustom">Reklamalar</string>
 	<string name="BiftorAdsTitle">BGram reklamalari</string>
 	<string name="BiftorAdsSubTitle">orqali ilovani qoʻllab-quvvatlang</string>
-	<string name="BiftorAdsHideFor">Buni koʻrish orqali %s berkitmoq</string>
+	<string name="BiftorAdsHideFor">koʻrish orqali reklamani %s berkitish</string>
 
 	<!--Biftor times-->
 	<string name="BiftorHour">%s soatga</string>
 	<string name="BiftorHours">%s soatga</string>
-	<string name="BiftorDay">%s kun</string>
+	<string name="BiftorDay">%s kunga</string>
 	<string name="BiftorDays">%s kunga</string>
 
 	<!--Biftor send image as sticker-->
-	<string name="BiftorSendAsSticker">Stiker kabi joʻnatmoq</string>
+	<string name="BiftorSendAsSticker">Stiker kabi joʻnatish</string>
 	<!--Biftor caption on sticker-->
-	<string name="BiftorSendStickerWithCaption">Stikerni sarlavha bilan joʻnatmoq</string>
-	<string name="BiftorShowStickerCaption">Stiker sarlavhasini koʻrsatmoq</string>
+	<string name="BiftorSendStickerWithCaption">Stikerni sarlavha bilan joʻnatish</string>
+	<string name="BiftorShowStickerCaption">Stiker sarlavhasini koʻrsatish</string>
 
 	<!--Biftor message details-->
 	<string name="BiftorMessageDetails">Xabar tafsilotlari</string>

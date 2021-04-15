@@ -4956,7 +4956,7 @@
     <string name="BiftorForwardPanelCat">Panel de reenvío</string>
 
     <!--Biftor External language-->
-    <string name="BiftorLocalVersion">0</string>
+    <string name="BiftorLocalVersion">1</string>
 
     <!--Biftor login with bot-->
     <string name="BiftorLoginWithBotToKen">Login con token de bot</string>

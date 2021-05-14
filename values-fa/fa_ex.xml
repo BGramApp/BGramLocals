@@ -4997,7 +4997,7 @@
     <string name="BiftorBackUpMain">پشتیبانگیری از تنظیمات برنامه</string>
     <string name="BiftorBackUpFav">پشتیبانگیری از چت های مورد علاقه</string>
     <string name="BiftorBackUpHidden">پشتیبانگیری از چت های مخفی</string>
-    <string name="BiftorBackUpCustomTabs">تب های شخصی</string>
+    <string name="BiftorBackUpFolders">پوشه ها</string>
     <string name="BiftorBackUpAllAndSaveToCloud">پشتیبانگیری از همه و ذخیره در فضای ابری</string>
     <string name="BiftorBackUpSuccessful">پشتیبان گیری با موفقیت انجام شد :</string>
     <string name="BiftorBackUpUnSuccessful">پشتیبان گیری موفق نبود</string>
@@ -5007,14 +5007,14 @@
     <string name="BiftorRestoreMain">بازگردانی تنظیمات اصلی</string>
     <string name="BiftorRestoreFav">بازگردانی چت های مورد علاقه</string>
     <string name="BiftorRestoreHidden">بازگردانی چت های مخفی</string>
-    <string name="BiftorRestoreCustomTabs">تب های شخصی</string>
+    <string name="BiftorRestoreFolders">پوشه ها</string>
 
     <string name="BiftorRestoreToDef">بازگردانی به حالت اولیه</string>
     <string name="BiftorRestoreGlobalToDef">بازگردانی تنظیمات عمومی به حالت اولیه</string>
     <string name="BiftorRestoreMainToDef">بازگردانی تنظیمات اصلی به حالت اولیه</string>
     <string name="BiftorRestoreFavToDef">بازگردانی چت های مورد علاقه به حالت اولیه</string>
     <string name="BiftorRestoreHiddenToDef"> به حالت اولیه بازگردانی چت های مخفی</string>
-    <string name="BiftorRestoreCustomTabsToDef">بازگردانی تب های شخصی به حالت اولیه</string>
+    <string name="BiftorRestoreDialogsFolderToDef">بازگردانی پوشه های شخصی به مقدار سرور</string>
 
     <string name="BiftorRestoreSuccessful">بازگردانی موفقیت آمیز بود</string>
     <string name="BiftorRestoreUnSuccessful">بازگردانی موفقیت آمیز نبود</string>
@@ -5185,6 +5185,9 @@
     <string name="BiftorHideCustomTabChatsFromAll">از تب همه</string>
     <string name="BiftorDontHideCustomTabChats">مخفی نکردن</string>
     <string name="BiftorMayNeedsToRestart">شاید نیاز به اجرای مجدد باشد</string>
+    <string name="BiftorAllowSyncExtraFolders">همگام سازی پوشه های زیادی</string>
+    <string name="BiftorAllowSyncExtraFoldersSub">اگر شما بیش از ۱۰ پوشه دارید ممکن است نیاز به غیر فعال کردن همگام سازی با سرور تلگرام را داشته باشید چون ممکن است پوشه های اضافی پاک شوند و یا ترتیب پوشه ها اشتباه باشد.</string>
+
     <string name="BiftorIsolateDest">آدرس‌های مقصد را مجزا کن</string>
     <string name="BiftorIsolateDestSub">برای هر آدرس مقصد از مداری متفاوت استفاده کن</string>
     <string name="BiftorPreferIpv6">IPv6 ترجیح دادن کانکش های</string>
@@ -5232,6 +5235,9 @@
 
     <!--Biftor Translate-->
     <string name="BiftorTranslate">ترجمه</string>
+    <string name="BiftorTranslateKeySave">ذخیر کلید</string>
+    <string name="BiftorTranslateYandexKey">کلید ترجمه یاندکس</string>
+    <string name="BiftorTranslateYouNeedYandexAPIKey">کلید ترجمه یاندکس وجود ندارن شما برای استفاده از مترجم یاندکس نیاز به ساخت کلید اختصاصی خود دارید</string>
     <string name="BiftorTranslateAllLanguage">همه زبان ها</string>
     <string name="BiftorTranslateRecently">زبان های اخیر</string>
     <string name="BiftorTranslateClearRecently">آیا مایل به پاک کردن زبان هایی که اخیرا استفاده کرده اید هستید؟</string>

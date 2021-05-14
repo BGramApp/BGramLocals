@@ -4854,7 +4854,7 @@
     <string name="BiftorBackUpMain">Ajustes principales</string>
     <string name="BiftorBackUpFav">Chats favoritos</string>
     <string name="BiftorBackUpHidden">Chats ocultos</string>
-    <string name="BiftorBackUpCustomTabs">Pestañas personales</string>
+    <string name="BiftorBackUpFolders">Folders</string>
     <string name="BiftorBackUpFonts">Fuentes de usuario</string>
     <string name="BiftorBackUpAllAndSaveToCloud">Copia de seguridad de todo en la nube</string>
     <string name="BiftorBackUpSuccessful">Backup completado en</string>
@@ -4865,14 +4865,14 @@
     <string name="BiftorRestoreMain">Ajustes principales</string>
     <string name="BiftorRestoreFav">Chats favoritos</string>
     <string name="BiftorRestoreHidden">Chats ocultos</string>
-    <string name="BiftorRestoreCustomTabs">Pestañas personales</string>
+    <string name="BiftorRestoreFolders">Folders</string>
 
     <string name="BiftorRestoreToDef">Restablecer por defecto</string>
     <string name="BiftorRestoreGlobalToDef">Restablecer ajustes globales por defecto</string>
     <string name="BiftorRestoreMainToDef">Restablecer ajustes principales por defecto</string>
     <string name="BiftorRestoreFavToDef">Restablecer chats favoritos por defecto</string>
     <string name="BiftorRestoreHiddenToDef">Restablecer chats ocultos por defecto</string>
-    <string name="BiftorRestoreCustomTabsToDef">Restablecer pestañas personales por defecto</string>
+    <string name="BiftorRestoreDialogsFolderToDef">Restore dialog\'s folders to server default</string>
 
     <string name="BiftorRestoreSuccessful">Restablecimiento completado</string>
     <string name="BiftorRestoreUnSuccessful">Restablecimiento falló</string>
@@ -5052,6 +5052,8 @@
     <string name="BiftorHideCustomTabChatsFromAll">La pestaña todos</string>
     <string name="BiftorDontHideCustomTabChats">No ocultar</string>
     <string name="BiftorMayNeedsToRestart">Se necesita reiniciar</string>
+    <string name="BiftorAllowSyncExtraFolders">Allow sync extra folders</string>
+    <string name="BiftorAllowSyncExtraFoldersSub">If you have more than 10 folders, you may need to disable sync folders to server because it may delete extra folders or change folder\'s order</string>
 
     <!-- Biftor goto msg for all chats-->
     <string name="BiftorMentionMsg">Mención</string>
@@ -5090,6 +5092,9 @@
 
     <!--Biftor Translate-->
     <string name="BiftorTranslate">Traductor</string>
+    <string name="BiftorTranslateKeySave">Save key</string>
+    <string name="BiftorTranslateYandexKey">Yandex translation key</string>
+    <string name="BiftorTranslateYouNeedYandexAPIKey">Yandex api key is empty, you need valid Yandex translation api key</string>
     <string name="BiftorTranslateAllLanguage">Todos los idiomas</string>
     <string name="BiftorTranslateRecently">Idiomas recientes</string>
     <string name="BiftorTranslateClearRecently">Borrar idiomas recientes?</string>

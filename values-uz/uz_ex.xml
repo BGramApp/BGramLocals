@@ -4990,7 +4990,7 @@
 	<string name="BiftorBackUpMain">Asosiy tanlovlarni</string>
 	<string name="BiftorBackUpFav">Tanlangan chatlarni</string>
 	<string name="BiftorBackUpHidden">Maxfiy chatlarni</string>
-	<string name="BiftorBackUpCustomTabs">Yaratilgan xatchoʻplar</string>
+	<string name="BiftorBackUpFolders">Folders</string>
 	<string name="BiftorBackUpFonts">Foydalanuvchi shriftlarini</string>
 	<string name="BiftorBackUpAllAndSaveToCloud">Barini saqlamaga saqlash</string>
 	<string name="BiftorBackUpSuccessful">Quyidagiga saqlandi:</string>
@@ -5001,14 +5001,14 @@
 	<string name="BiftorRestoreMain">Asosiy tanlovlarni</string>
 	<string name="BiftorRestoreFav">Tanlangan chatlarni</string>
 	<string name="BiftorRestoreHidden">Maxfiy chatlarni</string>
-	<string name="BiftorRestoreCustomTabs">Yaratilgan xatchoʻplarni</string>
+	<string name="BiftorRestoreFolders">Folders</string>
 
 	<string name="BiftorRestoreToDef">Asl holiga qaytarish</string>
 	<string name="BiftorRestoreGlobalToDef">Umumiy tanlovlarni</string>
 	<string name="BiftorRestoreMainToDef">Asosiy tanlovlarni</string>
 	<string name="BiftorRestoreFavToDef">Tanlangan chatlarni tiklash</string>
 	<string name="BiftorRestoreHiddenToDef">Maxfiy chatlarni tiklash</string>
-	<string name="BiftorRestoreCustomTabsToDef">Yaratilgan xatchoʻplarni bekor qilish</string>
+	<string name="BiftorRestoreDialogsFolderToDef">Restore dialog\'s folders to server default</string>
 
 	<string name="BiftorRestoreSuccessful">Muvaffaqiyatli tiklandi!</string>
 	<string name="BiftorRestoreUnSuccessful">Tiklashda xatolik mavjud!</string>
@@ -5193,6 +5193,8 @@
 	<string name="BiftorHideCustomTabChatsFromAll">Barcha xatchoʻplar</string>
 	<string name="BiftorDontHideCustomTabChats">Berkitmaslik</string>
 	<string name="BiftorMayNeedsToRestart">Qayta yuklashga toʻgʻri keladi</string>
+	<string name="BiftorAllowSyncExtraFolders">Allow sync extra folders</string>
+	<string name="BiftorAllowSyncExtraFoldersSub">If you have more than 10 folders, you may need to disable sync folders to server because it may delete extra folders or change folder\'s order</string>
 
 	<!-- Biftor goto msg for all chats-->
 	<string name="BiftorMentionMsg">Xabar ID kodi</string>
@@ -5230,6 +5232,9 @@
 
 	<!--Biftor Translate-->
 	<string name="BiftorTranslate">Tarjima qilish</string>
+	<string name="BiftorTranslateKeySave">Save key</string>
+	<string name="BiftorTranslateYandexKey">Yandex translation key</string>
+	<string name="BiftorTranslateYouNeedYandexAPIKey">Yandex api key is empty, you need valid Yandex translation api key</string>
 	<string name="BiftorTranslateAllLanguage">All language</string>
 	<string name="BiftorTranslateRecently">Recently used language</string>
 	<string name="BiftorTranslateClearRecently">Clear recently used language?</string>
@@ -5396,19 +5401,19 @@
 	<string name="BiftorAdsTypeCustom">Reklamalar</string>
 	<string name="BiftorAdsTitle">BGram reklamalari</string>
 	<string name="BiftorAdsSubTitle">orqali ilovani qoʻllab-quvvatlang</string>
-	<string name="BiftorAdsHideFor">Buni koʻrish orqali %s berkitmoq</string>
+	<string name="BiftorAdsHideFor">koʻrish orqali reklamani %s berkitish</string>
 
 	<!--Biftor times-->
 	<string name="BiftorHour">%s soatga</string>
 	<string name="BiftorHours">%s soatga</string>
-	<string name="BiftorDay">%s kun</string>
+	<string name="BiftorDay">%s kunga</string>
 	<string name="BiftorDays">%s kunga</string>
 
 	<!--Biftor send image as sticker-->
-	<string name="BiftorSendAsSticker">Stiker kabi joʻnatmoq</string>
+	<string name="BiftorSendAsSticker">Stiker kabi joʻnatish</string>
 	<!--Biftor caption on sticker-->
-	<string name="BiftorSendStickerWithCaption">Stikerni sarlavha bilan joʻnatmoq</string>
-	<string name="BiftorShowStickerCaption">Stiker sarlavhasini koʻrsatmoq</string>
+	<string name="BiftorSendStickerWithCaption">Stikerni sarlavha bilan joʻnatish</string>
+	<string name="BiftorShowStickerCaption">Stiker sarlavhasini koʻrsatish</string>
 
 	<!--Biftor message details-->
 	<string name="BiftorMessageDetails">Xabar tafsilotlari</string>

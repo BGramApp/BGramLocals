@@ -3,7 +3,7 @@
    <string name="LanguageName">Українська</string>
    <string name="English">Англійська</string>
    <string name="LanguageNameInEnglish">Ukrainian</string>
-   <string name="LanguageCode">uk_ex</string>
+   <string name="LanguageCode">uk</string>
    <string name="ContinueOnThisLanguage">Продовжити українською</string>
    <!--signin view-->
    <string name="YourPhone">Ваш номер</string>
@@ -1159,7 +1159,7 @@
    <string name="NoComments">Коментарів ще немає...</string>
    <string name="NoReplies">Відповідей ще немає...</string>
    <string name="ViewInChat">Показати в чаті</string>
-   <string name="SendAnonymously">Анонімне повідомлення</string>
+   <string name="SendAnonymously">Анонімно</string>
    <string name="DiscussionStarted">Початок обговорення</string>
    <string name="ViewThread">Переглянути ланцюжок</string>
    <string name="ChooseDate">Виберіть дату</string>
@@ -3470,7 +3470,7 @@
    <string name="VoipGroupEnd">Закінчити</string>
    <string name="VoipGroupMuteMemberAlertTitle">Заглушити мікрофон</string>
    <string name="VoipGroupMuteMemberAlertText">Ви дійсно хочете заглушити **%1$s** у цьому голосовому чаті?</string>
-   <string name="VoipGroupRemoveMemberAlertTitle">Вилучити учасника</string>
+   <string name="VoipGroupRemoveMemberAlertTitle2">Вилучити присутнього</string>
    <string name="VoipGroupRemoveMemberAlertText2">Вилучити %1$s з голосового чату та заблокувати у %2$s?</string>
    <string name="VoipGroupRemovedFromGroup">**%1$s** вилучено з групи.</string>
    <string name="VoipGroupUserCanNowSpeak">**%1$s** тепер може говорити.</string>
@@ -4038,12 +4038,12 @@
    <string name="ForwardedPoll_few">%1$d пересланих опитування</string>
    <string name="ForwardedPoll_many">%1$d пересланих опитувань</string>
    <string name="ForwardedPoll_other">%1$d пересланих опитувань</string>
-   <string name="AndOther_zero">та ще %1$d інших</string>
-   <string name="AndOther_one">та ще %1$d інше</string>
-   <string name="AndOther_two">та ще %1$d інших</string>
-   <string name="AndOther_few">та ще %1$d інших</string>
-   <string name="AndOther_many">та ще %1$d інших</string>
-   <string name="AndOther_other">та ще %1$d інших</string>
+   <string name="AndOther_zero">та ще %1$d</string>
+   <string name="AndOther_one">та ще %1$d</string>
+   <string name="AndOther_two">та ще %1$d</string>
+   <string name="AndOther_few">та ще %1$d</string>
+   <string name="AndOther_many">та ще %1$d</string>
+   <string name="AndOther_other">та ще %1$d</string>
    <string name="PhotosSelected_zero">Вибрано %1$d фото</string>
    <string name="PhotosSelected_one">Вибрано %1$d фото</string>
    <string name="PhotosSelected_two">Вибрано %1$d фото</string>
@@ -4318,6 +4318,8 @@
    <string name="SwipeUnpin">Відкріпити</string>
    <string name="SwipePin">Прикріпити</string>
    <string name="CancelForwarding">Скасувати пересилання</string>
+   <string name="ThisIsYou">це ви</string>
+   <string name="VoipGroupOpenChat">Відкрити чат</string>
 
    <!-- new from translations.telegram.org -->
 
@@ -4444,6 +4446,7 @@
    <string name="UserRestrictionsUntil">Обмежений до</string>
    <string name="ViewDetails">ПЕРЕГЛЯНУТИ КОНТАКТ</string>
    <string name="VoipGroupRemoveMemberAlertText">Ви дійсно хочете вилучити %1$s з групи?</string>
+   <string name="VoipGroupRemoveMemberAlertTitle">Вилучити учасника</string>
    <string name="WiFiUsage">Використання даних по Wi-Fi</string>
    <string name="WidgetPasscode">\n\nЗверніть увагу: код блокування застосунку **не впливає** на віджети.</string>
    <string name="WidgetPasscodeEnable">​\n\nКод блокування застосунку **не впливатиме** на віджети, додані на головний екран.</string>
@@ -4453,7 +4456,6 @@
    <string name="formatDateScheduleDay">d MMM, EEE</string>
    <string name="login_with_telegram">Увійти через Telegram</string>
    <string name="telegram_passport">Telegram Passport</string>
-
    <!-- BGram Strings--><!-- BGram Strings-->
    <!-- BGram Strings--><!-- BGram Strings-->
    <!-- BGram Strings--><!-- BGram Strings-->
@@ -4708,7 +4710,7 @@
 
    <!-- Biftor added ghost mod tile-->
    <string name="BiftorGhostModTile">Режим прихованого читання</string>
-   <string name="BiftorGhostModIsEnable">Приховане читання АКТИВОВАНО</string>
+   <string name="BiftorGhostModIsEnable">Приховане читання ВВІМКНЕНО</string>
    <string name="BiftorGhostModIsDisable">Приховане читання ВИМКНЕНО</string>
 
    <!--Biftor allow to set a proxy before login-->
@@ -4990,7 +4992,7 @@
    <string name="BiftorBackUpMain">Основні налаштування</string>
    <string name="BiftorBackUpFav">Улюблені чати</string>
    <string name="BiftorBackUpHidden">Приховані чати</string>
-   <string name="BiftorBackUpCustomTabs">Власні вкладки</string>
+   <string name="BiftorBackUpFolders">Folders</string>
    <string name="BiftorBackUpFonts">Користувацькі шрифти</string>
    <string name="BiftorBackUpAllAndSaveToCloud">Додати все до збереженого</string>
    <string name="BiftorBackUpSuccessful">Резервне копіювання виконано.\nЗбержено до:\n</string>
@@ -5001,14 +5003,14 @@
    <string name="BiftorRestoreMain">Відновити основні налаштування</string>
    <string name="BiftorRestoreFav">Відновити улюблені чати</string>
    <string name="BiftorRestoreHidden">Відновити приховані чати</string>
-   <string name="BiftorRestoreCustomTabs">Відновити власні вкладки</string>
+   <string name="BiftorRestoreFolders">Folders</string>
 
    <string name="BiftorRestoreToDef">Скинути до усталених значень</string>
    <string name="BiftorRestoreGlobalToDef">Скинути всеосяжні налаштування</string>
    <string name="BiftorRestoreMainToDef">Скинути основні налаштування</string>
    <string name="BiftorRestoreFavToDef">Скинути улюблені чати</string>
    <string name="BiftorRestoreHiddenToDef">Скинути приховані чати</string>
-   <string name="BiftorRestoreCustomTabsToDef">Скинути власні вкладки</string>
+   <string name="BiftorRestoreDialogsFolderToDef">Restore dialog\'s folders to server default</string>
 
    <string name="BiftorRestoreSuccessful">Відновлення виконано!</string>
    <string name="BiftorRestoreUnSuccessful">Відновлення не вдалось</string>
@@ -5175,6 +5177,9 @@
    <string name="BiftorHideCustomTabChatsFromAll">Укладка "Усі"</string>
    <string name="BiftorDontHideCustomTabChats">Не приховувати</string>
    <string name="BiftorMayNeedsToRestart">Може знадобитись перезапуск</string>
+   <string name="BiftorAllowSyncExtraFolders">Allow sync extra folders</string>
+   <string name="BiftorAllowSyncExtraFoldersSub">If you have more than 10 folders, you may need to disable sync folders to server because it may delete extra folders or change folder\'s order</string>
+
    <string name="BiftorIsolateDest">Відокремте адреси призначення</string>
    <string name="BiftorIsolateDestSub">Використовуйте іншу схему для кожної адреси призначення</string>
    <string name="BiftorPreferIpv6">Надвати перевагу підключенню IPv6</string>
@@ -5226,17 +5231,20 @@
 
    <!--Biftor Translate-->
    <string name="BiftorTranslate">Перекласти</string>
-   <string name="BiftorTranslateAllLanguage">All language</string>
-   <string name="BiftorTranslateRecently">Recently used language</string>
-   <string name="BiftorTranslateClearRecently">Clear recently used language?</string>
-   <string name="BiftorTranslateDefaultTarget">Default Target</string>
-   <string name="BiftorUndoTranslation">Undo translation</string>
-   <string name="BiftorResetTranslation">Reset translation</string>
-   <string name="BiftorTranslateSettings">Translation Settings</string>
-   <string name="BiftorTranslateSource">Translation Source</string>
+   <string name="BiftorTranslateKeySave">Save key</string>
+   <string name="BiftorTranslateYandexKey">Yandex translation key</string>
+   <string name="BiftorTranslateYouNeedYandexAPIKey">Yandex api key is empty, you need valid Yandex translation api key</string>
+   <string name="BiftorTranslateAllLanguage">Усі мови</string>
+   <string name="BiftorTranslateRecently">Найуживаніші</string>
+   <string name="BiftorTranslateClearRecently">Очистити список найуживаніших?</string>
+   <string name="BiftorTranslateDefaultTarget">Усталена мітка</string>
+   <string name="BiftorUndoTranslation">Застосувати переклад</string>
+   <string name="BiftorResetTranslation">Відновити переклад</string>
+   <string name="BiftorTranslateSettings">Налаштування перекладу</string>
+   <string name="BiftorTranslateSource">Служби перекладу</string>
    <string name="BiftorTranslateSourceGoogle">Google</string>
    <string name="BiftorTranslateSourceYandex">Yandex</string>
-   <string name="BiftorTranslateEnterText">Введіть текст</string>
+   <string name="BiftorTranslateEnterText">Уведіть текст</string>
    <string name="BiftorTranslateEnterTextEmpty">Ви повинні ввести текст для перекладу</string>
    <string name="BiftorTranslateAUTO_DETECT">Автовизначення</string>
    <string name="BiftorTranslateAFRIKAANS">AFRIKAANS</string>
@@ -5389,39 +5397,39 @@
    <string name="BiftorStopShadowSocksWhenAppClosedSub">зупинити Shadow socks коли додаток закритий, якщо застосувати це, коли Shadow socks діє додаток не закриється остаточно.</string>
 
    <!--Biftor ads-->
-   <string name="BiftorAdsTypeAdMob">AdMob</string>
+   <string name="BiftorAdsTypeAdMob">Реклама</string>
    <string name="BiftorAdsTypeCustom">Реклама</string>
    <string name="BiftorAdsTitle">BGram реклама</string>
    <string name="BiftorAdsSubTitle">Підтримати BGram переглядом реклами</string>
-   <string name="BiftorAdsHideFor">Watch this to hide for %s</string>
+   <string name="BiftorAdsHideFor">Подивись, щоб приховати на %</string>
 
    <!--Biftor times-->
-   <string name="BiftorHour">%s hour</string>
-   <string name="BiftorHours">%s hours</string>
-   <string name="BiftorDay">%s day</string>
-   <string name="BiftorDays">%s days</string>
+   <string name="BiftorHour">%s година</string>
+   <string name="BiftorHours">%s годин</string>
+   <string name="BiftorDay">%s день</string>
+   <string name="BiftorDays">%s днів</string>
 
    <!--Biftor send image as sticker-->
-   <string name="BiftorSendAsSticker">Send as sticker</string>
+   <string name="BiftorSendAsSticker">Відправити наліпкою</string>
    <!--Biftor caption on sticker-->
-   <string name="BiftorSendStickerWithCaption">Send sticker with caption</string>
-   <string name="BiftorShowStickerCaption">Show sticker caption</string>
+   <string name="BiftorSendStickerWithCaption">Відправити наліпку з надписом</string>
+   <string name="BiftorShowStickerCaption">Показати надпис наліпки</string>
 
    <!--Biftor message details-->
-   <string name="BiftorMessageDetails">Message details</string>
-   <string name="BiftorMessageDetailsTitle">Message details</string>
-   <string name="BiftorMessageDetailsText">Message</string>
-   <string name="BiftorMessageDetailsId">Message id</string>
-   <string name="BiftorMessageDetailsType">Message type</string>
-   <string name="BiftorMessageDetailsStatus">Message status</string>
-   <string name="BiftorMessageDetailsTime">Message time</string>
-   <string name="BiftorMessageDetailsEditTime">Message edit time</string>
-   <string name="BiftorMessageDetailsDocumentName">Document name</string>
-   <string name="BiftorMessageDetailsReplyMessage">Reply message</string>
-   <string name="BiftorMessageDetailsReplyCount">Replay count</string>
-   <string name="BiftorMessageDetailsCommentCount">Comment count</string>
-   <string name="BiftorMessageDetailsViewsCount">Views count</string>
-   <string name="BiftorMessageDetailsReply">Reply</string>
-   <string name="BiftorMessageDetailsCopyContent">Copy</string>
-   <string name="BiftorMessageDetailsForward">Forward</string>
+   <string name="BiftorMessageDetails">Дані повідомлення</string>
+   <string name="BiftorMessageDetailsTitle">Відомості про повідомлення</string>
+   <string name="BiftorMessageDetailsText">Повідомлення</string>
+   <string name="BiftorMessageDetailsId">id повідомлення</string>
+   <string name="BiftorMessageDetailsType">Текст повідомлення</string>
+   <string name="BiftorMessageDetailsStatus">Стан повідомлення</string>
+   <string name="BiftorMessageDetailsTime">Час повідомлення</string>
+   <string name="BiftorMessageDetailsEditTime">Час виправлення повідомлення</string>
+   <string name="BiftorMessageDetailsDocumentName">Назва документа</string>
+   <string name="BiftorMessageDetailsReplyMessage">Переслати</string>
+   <string name="BiftorMessageDetailsReplyCount">Кількість відповідей</string>
+   <string name="BiftorMessageDetailsCommentCount">Кількість коментарів</string>
+   <string name="BiftorMessageDetailsViewsCount">Показати кількість</string>
+   <string name="BiftorMessageDetailsReply">Відповісти</string>
+   <string name="BiftorMessageDetailsCopyContent">Копіювати</string>
+   <string name="BiftorMessageDetailsForward">Переслати</string>
 </resources>

@@ -536,7 +536,7 @@
     <string name="BiftorBackUpMain">Impostazioni principali</string>
     <string name="BiftorBackUpFav">Chat preferite</string>
     <string name="BiftorBackUpHidden">Chat nascoste</string>
-    <string name="BiftorBackUpCustomTabs">Tab custom</string>
+    <string name="BiftorBackUpFolders">Folders</string>
     <string name="BiftorBackUpFonts">Font personalizzato</string>
     <string name="BiftorBackUpAllAndSaveToCloud">Backup completo e salva sul cloud</string>
     <string name="BiftorBackUpSuccessful">Backup completato in:</string>
@@ -547,14 +547,14 @@
     <string name="BiftorRestoreMain">Impostazioni principali</string>
     <string name="BiftorRestoreFav">Chat preferite</string>
     <string name="BiftorRestoreHidden">Chat nascoste</string>
-    <string name="BiftorRestoreCustomTabs">Tab custom</string>
+    <string name="BiftorRestoreFolders">Folders</string>
 
     <string name="BiftorRestoreToDef">Ripristino alle impostaz. predefinite</string>
     <string name="BiftorRestoreGlobalToDef">Ripristina impostazioni globali predefinite</string>
     <string name="BiftorRestoreMainToDef">Ripristino delle impostaz. principali predefinite</string>
     <string name="BiftorRestoreFavToDef">Ripristina le chat preferite predefinite</string>
     <string name="BiftorRestoreHiddenToDef">Ripristina le chat nascoste predefinite</string>
-    <string name="BiftorRestoreCustomTabsToDef">Ripristina tab personalizzate predefinite</string>
+    <string name="BiftorRestoreDialogsFolderToDef">Restore dialog\'s folders to server default</string>
 
     <string name="BiftorRestoreSuccessful">Ripristino completato</string>
     <string name="BiftorRestoreUnSuccessful">Ripristino non riuscito</string>
@@ -732,6 +732,9 @@
     <string name="BiftorHideCustomTabChatsFromAll">Tutti</string>
     <string name="BiftorDontHideCustomTabChats">Non nascondere</string>
     <string name="BiftorMayNeedsToRestart">Potrebbe richiedere il riavvio</string>
+    <string name="BiftorAllowSyncExtraFolders">Allow sync extra folders</string>
+    <string name="BiftorAllowSyncExtraFoldersSub">If you have more than 10 folders, you may need to disable sync folders to server because it may delete extra folders or change folder\'s order</string>
+
     <string name="BiftorConnectTorWhenForNotify">Inizia la connessione a Tor alla ricezione di una notifica</string>
     <string name="BiftorGetBridgeFromGithub">Scarica lista bridge da Github</string>
     <string name="BiftorTORModule">BGram Tor</string>
@@ -772,6 +775,9 @@
 
     <!--Biftor Translate-->
     <string name="BiftorTranslate">Traduci</string>
+    <string name="BiftorTranslateKeySave">Save key</string>
+    <string name="BiftorTranslateYandexKey">Yandex translation key</string>
+    <string name="BiftorTranslateYouNeedYandexAPIKey">Yandex api key is empty, you need valid Yandex translation api key</string>
     <string name="BiftorTranslateAllLanguage">Tutte le lingue</string>
     <string name="BiftorTranslateRecently">Ultime lingue usate</string>
     <string name="BiftorTranslateClearRecently">Svuotare la lista delle lingue recenti?</string>

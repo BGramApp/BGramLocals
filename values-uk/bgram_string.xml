@@ -532,7 +532,7 @@
     <string name="BiftorBackUpMain">Основні налаштування</string>
     <string name="BiftorBackUpFav">Улюблені чати</string>
     <string name="BiftorBackUpHidden">Приховані чати</string>
-    <string name="BiftorBackUpCustomTabs">Власні вкладки</string>
+    <string name="BiftorBackUpFolders">Folders</string>
     <string name="BiftorBackUpFonts">Користувацькі шрифти</string>
     <string name="BiftorBackUpAllAndSaveToCloud">Додати все до збереженого</string>
     <string name="BiftorBackUpSuccessful">Резервне копіювання виконано.\nЗбержено до:\n</string>
@@ -543,14 +543,14 @@
     <string name="BiftorRestoreMain">Відновити основні налаштування</string>
     <string name="BiftorRestoreFav">Відновити улюблені чати</string>
     <string name="BiftorRestoreHidden">Відновити приховані чати</string>
-    <string name="BiftorRestoreCustomTabs">Відновити власні вкладки</string>
+    <string name="BiftorRestoreFolders">Folders</string>
 
     <string name="BiftorRestoreToDef">Скинути до усталених значень</string>
     <string name="BiftorRestoreGlobalToDef">Скинути всеосяжні налаштування</string>
     <string name="BiftorRestoreMainToDef">Скинути основні налаштування</string>
     <string name="BiftorRestoreFavToDef">Скинути улюблені чати</string>
     <string name="BiftorRestoreHiddenToDef">Скинути приховані чати</string>
-    <string name="BiftorRestoreCustomTabsToDef">Скинути власні вкладки</string>
+    <string name="BiftorRestoreDialogsFolderToDef">Restore dialog\'s folders to server default</string>
 
     <string name="BiftorRestoreSuccessful">Відновлення виконано!</string>
     <string name="BiftorRestoreUnSuccessful">Відновлення не вдалось</string>
@@ -717,6 +717,9 @@
     <string name="BiftorHideCustomTabChatsFromAll">Укладка "Усі"</string>
     <string name="BiftorDontHideCustomTabChats">Не приховувати</string>
     <string name="BiftorMayNeedsToRestart">Може знадобитись перезапуск</string>
+    <string name="BiftorAllowSyncExtraFolders">Allow sync extra folders</string>
+    <string name="BiftorAllowSyncExtraFoldersSub">If you have more than 10 folders, you may need to disable sync folders to server because it may delete extra folders or change folder\'s order</string>
+
     <string name="BiftorIsolateDest">Відокремте адреси призначення</string>
     <string name="BiftorIsolateDestSub">Використовуйте іншу схему для кожної адреси призначення</string>
     <string name="BiftorPreferIpv6">Надвати перевагу підключенню IPv6</string>
@@ -768,6 +771,9 @@
 
     <!--Biftor Translate-->
     <string name="BiftorTranslate">Перекласти</string>
+    <string name="BiftorTranslateKeySave">Save key</string>
+    <string name="BiftorTranslateYandexKey">Yandex translation key</string>
+    <string name="BiftorTranslateYouNeedYandexAPIKey">Yandex api key is empty, you need valid Yandex translation api key</string>
     <string name="BiftorTranslateAllLanguage">Усі мови</string>
     <string name="BiftorTranslateRecently">Найуживаніші</string>
     <string name="BiftorTranslateClearRecently">Очистити список найуживаніших?</string>

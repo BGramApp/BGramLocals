@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
 
 	<string name="BGram">BGram</string>
@@ -199,7 +199,7 @@
 	<string name="BiftorPaste">Вставить</string>
 	<string name="BiftorSelectAll">Выделить всё</string>
 	<string name="BiftorQuotation">\“&#8239;Q&#8239;”</string>
-	<string name="BiftorReply">\>&#8239;“&#8239;R&#8239;”</string>
+	<string name="BiftorReply">&#9475;&#82;</string>
 	<string name="BiftorShare">Поделиться</string>
 	<string name="BiftorUserMention">&#8288; ID</string>
 
@@ -218,8 +218,8 @@
 	<string name="BiftorSupport">Поддержка</string>
 	<string name="BGramOfficialChannel">Официальный канал</string>
 	<string name="BGramOfficialChannelSub">Информация об обновлениях.</string>
-	<string name="BGramOfficialGroupPublic">Официальные группы поддержки</string>
-	<string name="BGramOfficialGroupPublicSub">Для сообщений об ошибках и предложений.</string>
+	<string name="BGramOfficialGroups">Official Supporting Groups</string>
+	<string name="BGramOfficialGroupsSub">All bug reports and ideas are welcome.</string>
 	<string name="BGramOfficialGroupsEN">English</string>
 	<string name="BGramOfficialGroupsFA">Persian</string>
 	<string name="BGramOfficialGroupsRU">На русском</string>
@@ -227,8 +227,6 @@
 	<string name="BGramOfficialGroupsAR">Arabic</string>
 	<string name="BGramOfficialGroupsES">Spanish</string>
 	<string name="BGramOfficialGroupsIT">Italian</string>
-	<string name="BGramOfficialGroupNormal">Farsi group</string>
-	<string name="BGramOfficialGroupNormalSub">Иранский чат.</string>
 	<string name="BGramRateApp">Оценить</string>
 	<string name="BGramRateAppSub">Высокая оценка и отзыв в Google Play — отличная мотивация для авторов.\nБольшинство проблем легко решается в чатах поддержки!</string>
 	<string name="BiftorAppCredits">Благодарности</string>
@@ -453,24 +451,28 @@
 	<string name="BiftorMediaTabPhotos_few">%1$d фото</string>
 	<string name="BiftorMediaTabPhotos_many">%1$d фото</string>
 	<string name="BiftorMediaTabPhotos_other">%1$d фото</string>
+
 	<string name="BiftorMediaTabVideos_zero">%1$d видео</string>
 	<string name="BiftorMediaTabVideos_one">%1$d видео</string>
 	<string name="BiftorMediaTabVideos_two">%1$d видео</string>
 	<string name="BiftorMediaTabVideos_few">%1$d видео</string>
 	<string name="BiftorMediaTabVideos_many">%1$d видео</string>
 	<string name="BiftorMediaTabVideos_other">%1$d видео</string>
+
 	<string name="BiftorMediaTabGifs_zero">%1$d GIF</string>
 	<string name="BiftorMediaTabGifs_one">%1$d GIF</string>
 	<string name="BiftorMediaTabGifs_two">%1$d GIF</string>
 	<string name="BiftorMediaTabGifs_few">%1$d GIF</string>
 	<string name="BiftorMediaTabGifs_many">%1$d GIF</string>
 	<string name="BiftorMediaTabGifs_other">%1$d GIF</string>
+
 	<string name="BiftorMediaTabRounds_zero">%1$d записей</string>
 	<string name="BiftorMediaTabRounds_one">%1$d запись</string>
 	<string name="BiftorMediaTabRounds_two">%1$d записи</string>
 	<string name="BiftorMediaTabRounds_few">%1$d записи</string>
 	<string name="BiftorMediaTabRounds_many">%1$d записей</string>
 	<string name="BiftorMediaTabRounds_other">%1$d записей</string>
+
 	<string name="BiftorMediaTabPhotos">ФОТО</string>
 	<string name="BiftorProMediaTabPhotos">Фото</string>
 	<string name="BiftorProMediaTabVideos">Видео</string>
@@ -529,7 +531,7 @@
 	<string name="BiftorBackUpMain">Главные настройки</string>
 	<string name="BiftorBackUpFav">Любимые чаты</string>
 	<string name="BiftorBackUpHidden">Скрытые чаты</string>
-	<string name="BiftorBackUpCustomTabs">Созданные вкладки</string>
+	<string name="BiftorBackUpFolders">Folders</string>
 	<string name="BiftorBackUpFonts">Пользовательские шрифты</string>
 	<string name="BiftorBackUpAllAndSaveToCloud">Сохранить всё в облако</string>
 	<string name="BiftorBackUpSuccessful">Cохранено в</string>
@@ -540,14 +542,14 @@
 	<string name="BiftorRestoreMain">Главные настройки</string>
 	<string name="BiftorRestoreFav">Любимые чаты</string>
 	<string name="BiftorRestoreHidden">Скрытые чаты</string>
-	<string name="BiftorRestoreCustomTabs">Созданные вкладки</string>
+	<string name="BiftorRestoreFolders">Folders</string>
 
 	<string name="BiftorRestoreToDef">Сброс к значениям по умолчанию</string>
 	<string name="BiftorRestoreGlobalToDef">Сбросить общие настройки</string>
 	<string name="BiftorRestoreMainToDef">Сбросить главные настройки</string>
 	<string name="BiftorRestoreFavToDef">Восстановить любимые чаты</string>
 	<string name="BiftorRestoreHiddenToDef">Восстановить скрытые чаты</string>
-	<string name="BiftorRestoreCustomTabsToDef">Сбросить созданные вкладки</string>
+	<string name="BiftorRestoreDialogsFolderToDef">Restore dialog\'s folders to server default</string>
 
 	<string name="BiftorRestoreSuccessful">Успешно восстановлено</string>
 	<string name="BiftorRestoreUnSuccessful">Ошибка восстановления</string>
@@ -722,6 +724,8 @@
 	<string name="BiftorHideCustomTabChatsFromAll">Из всех чатов</string>
 	<string name="BiftorDontHideCustomTabChats">Не скрывать</string>
 	<string name="BiftorMayNeedsToRestart">Может потребоваться перезапуск.</string>
+	<string name="BiftorAllowSyncExtraFolders">Allow sync extra folders</string>
+	<string name="BiftorAllowSyncExtraFoldersSub">If you have more than 10 folders, you may need to disable sync folders to server because it may delete extra folders or change folder\'s order</string>
 
 	<!-- Biftor goto msg for all chats-->
 	<string name="BiftorMentionMsg">ID сообщения</string>
@@ -760,6 +764,9 @@
 
 	<!--Biftor Translate-->
 	<string name="BiftorTranslate">Перевести</string>
+	<string name="BiftorTranslateKeySave">Save key</string>
+	<string name="BiftorTranslateYandexKey">Yandex translation key</string>
+	<string name="BiftorTranslateYouNeedYandexAPIKey">Yandex api key is empty, you need valid Yandex translation api key</string>
 	<string name="BiftorTranslateAllLanguage">Все</string>
 	<string name="BiftorTranslateRecently">Последние выбранные</string>
 	<string name="BiftorTranslateClearRecently">Очистить список последних</string>
@@ -841,8 +848,10 @@
 	<string name="BiftorTranslateCHINESE_SIMPLIFIED">CHINESE SIMPLIFIED</string>
 	<string name="BiftorTranslateCHINESE_TRADITIONAL">CHINESE TRADITIONAL</string>
 
+
 	<!--Biftor delete from recent search-->
 	<string name="BiftorDeletRecentSearchItem">Удалить **%1$s** из истории поиска?</string>
+
 	<string name="BiftorDrawerContactAndGroup">Чаты и контакты</string>
 
 	<!--Biftor floating new msg-->
@@ -854,12 +863,14 @@
 	<string name="BiftorHideFolder">Не показывать папку</string>
 	<string name="BiftorHideFolderAreYouSure">Хотите скрыть папку?</string>
 	<string name="BiftorShowFolderAreYouSure">Точно показать?</string>
+
 	<!--Biftor internal updater-->
 	<string name="BiftorSkipUpdate">Пропустить</string>
 	<string name="BiftorRemindTomorrow">Завтранах!</string>
 	<string name="BiftorUpdateIsAvailable">Нажмите ОК для обновления</string>
 	<string name="BiftorCheckForUpdate">Проверить обновления</string>
 	<string name="BiftorDownloadLatestVersion">Скачать обновление</string>
+
 
 	<!--Biftor direct chats-->
 	<string name="BiftorDirectChats">Избранное</string>

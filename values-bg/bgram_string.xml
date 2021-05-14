@@ -534,7 +534,7 @@
     <string name="BiftorBackUpMain">Архивиране на основните настройки</string>
     <string name="BiftorBackUpFav">Архивиране на Любими чатове</string>
     <string name="BiftorBackUpHidden">Архивиране на Скрити чатове</string>
-    <string name="BiftorBackUpCustomTabs">Персонализирани раздели</string>
+    <string name="BiftorBackUpFolders">Folders</string>
     <string name="BiftorBackUpAllAndSaveToCloud">Архивирайте всички и запазете в облака</string>
     <string name="BiftorBackUpSuccessful">Архивирането е успешно:</string>
     <string name="BiftorBackUpUnSuccessful">Архивирането е неуспешно</string>
@@ -544,14 +544,14 @@
     <string name="BiftorRestoreMain">Възстанови основните настройки</string>
     <string name="BiftorRestoreFav">Възстанови Любими чатове</string>
     <string name="BiftorRestoreHidden">Възстанови Скрити чатове</string>
-    <string name="BiftorRestoreCustomTabs">Персонализирани раздели</string>
+    <string name="BiftorRestoreFolders">Folders</string>
 
     <string name="BiftorRestoreToDef">Възстанови по подразбиране</string>
     <string name="BiftorRestoreGlobalToDef">Възстановяване на стандартните настройки в глобален мащаб</string>
     <string name="BiftorRestoreMainToDef">Възстанови основните настройки по подразбиране</string>
     <string name="BiftorRestoreFavToDef">Възстанови Любими чатове по подразбиране</string>
     <string name="BiftorRestoreHiddenToDef">Възстанови Скрити чатове по подразбиране</string>
-    <string name="BiftorRestoreCustomTabsToDef">Възстановете персонализираните раздели по подразбиране</string>
+    <string name="BiftorRestoreDialogsFolderToDef">Restore dialog\'s folders to server default</string>
 
     <string name="BiftorRestoreSuccessful">Възстановяването е успешно</string>
     <string name="BiftorRestoreUnSuccessful">Възстановяването е неуспешно</string>
@@ -765,6 +765,9 @@
 
     <!--Biftor Translate-->
     <string name="BiftorTranslate">Translate</string>
+    <string name="BiftorTranslateKeySave">Save key</string>
+    <string name="BiftorTranslateYandexKey">Yandex translation key</string>
+    <string name="BiftorTranslateYouNeedYandexAPIKey">Yandex api key is empty, you need valid Yandex translation api key</string>
     <string name="BiftorTranslateAllLanguage">All language</string>
     <string name="BiftorTranslateRecently">Recently used language</string>
     <string name="BiftorTranslateClearRecently">Clear recently used language?</string>

@@ -4468,7 +4468,7 @@
 
    <!--Biftor-->
    <string name="BGramSettings">Налаштування BGram</string>
-   <string name="BGramSearchInSettings">Search Settings</string>
+   <string name="BGramSearchInSettings">Пошук налаштувань</string>
 
    <!-- Ghost mode-->
    <string name="BiftorGhostMod">Приховане читання</string>
@@ -4569,18 +4569,18 @@
    <string name="ChatCat">Чат</string>
    <string name="EnableSwipeLeftReply">Відповісти ковзанням ліворуч</string>
    <string name="EnableSwipeRightForward">Переслати ковзанням праворуч</string>
-   <string name="BiftorVibrationSwipeReply">Вібрувати при ковзанні</string>
+   <string name="BiftorVibrationSwipeReply">Дрижати при ковзанні</string>
    <string name="DisableSwipeBack">Вимкнути повернення назад</string>
    <string name="DisableSwipeBackSub">Якщо ви використовуєте «Переслати ковзанням праворуч», можливо, потрібно буде ввімкнути цей параметр, щоб уникнути небажаних закриттів чатів, коли проводитимете пальцем праворуч</string>
 
    <!-- BiftorProForward -->
    <string name="BiftorProForward">Змінити й переслати</string>
-   <string name="BiftorProForwardDeleteUrl">Видалити посилання</string>
+   <string name="BiftorProForwardDeleteUrl">Видалити поклик</string>
    <string name="EmptyMessageError">Неможливо надіслати порожнє повідомлення.</string>
-   <string name="Quote">ЦИТАТА</string>
+   <string name="Quote">ВИТЯГ</string>
 
    <!-- Biftor ghost mod icon -->
-   <string name="BiftorGhostModIndicator">Індикатор режиму прихованого читання</string>
+   <string name="BiftorGhostModIndicator">Значок прихованого читання</string>
    <string name="BiftorGhostModDisabled">Приховане читання ВИМКНЕНО</string>
 
    <!-- Biftor corner for chat Drawable -->
@@ -4609,10 +4609,10 @@
    <string name="BGramOldNight">BGram OldNight</string>
 
    <!-- Biftor select mess text -->
-   <string name="BiftorSelectMessText">Опрацювати фрагмент</string>
+   <string name="BiftorSelectMessText">Розгорнути</string>
 
    <!-- Biftor go to first message -->
-   <string name="GoToFirstMessage">До першого повідомлення</string>
+   <string name="GoToFirstMessage">Найперше повідомлення</string>
 
    <!--Biftor Save to cloud -->
    <string name="SaveToCloud">Додати до збереженого</string>
@@ -4637,7 +4637,7 @@
    <string name="BiftorOpenOrChat">Перейти до чату</string>
 
    <!-- Biftor user photo as bg of DrawerProfileCell-->
-   <string name="BiftorUserPhotoAsProfileCellBG">Світлина як тло бічного меню</string>
+   <string name="BiftorUserPhotoAsProfileCellBG">Світлину на тло бічного меню</string>
 
    <!--Biftor media activity context menu -->
    <string name="BiftorContextMenuGoToMessage">Показати в чаті</string>
@@ -4658,9 +4658,9 @@
    <string name="Strikethrough">Закреслений</string>
    <string name="BiftorPaste">Вкласти</string>
    <string name="BiftorSelectAll">Виділити все</string>
-   <string name="BiftorQuotation">Цитата</string>
+   <string name="BiftorQuotation">Витяг</string>
    <string name="BiftorReply">Копія</string>
-   <string name="BiftorShare">Поділитися</string>
+   <string name="BiftorShare">Поділитись</string>
    <string name="BiftorUserMention">Згадка</string>
 
    <!--Biftor custom markdown panel-->
@@ -4671,14 +4671,14 @@
    <string name="BiftorResetPinMessage">Показати закріплене повідомлення</string>
 
    <!-- Biftor added about tab-->
-   <string name="BiftorAbout">ІНФО</string>
+   <string name="BiftorAbout">ДАНІ</string>
    <string name="BGramChangeLog">Історія змін</string>
    <string name="BGramChangeLogSub">Усі зміни в хронологічному порядку</string>
    <string name="BGramChangeLogLoadFailed">Не вдалося завантажити історію змін</string>
    <string name="BiftorSupport">Підтримка</string>
    <string name="BGramOfficialChannel">Офіційний канал BGram</string>
    <string name="BGramOfficialChannelSub">Новини BGram</string>
-   <string name="BGramOfficialGroups">Official Supporting Groups</string>
+   <string name="BGramOfficialGroups">Офіційні групи підтримки</string>
    <string name="BGramOfficialGroupsSub">Приймаємо всі повідомлення про недоліки, проблеми та ідеї.</string>
    <string name="BGramOfficialGroupsEN">English</string>
    <string name="BGramOfficialGroupsFA">Persian</string>
@@ -4692,7 +4692,7 @@
    <string name="BiftorAppCredits">Подяки</string>
    <string name="BiftorAppCreditsSub">Подяки тим, хто допомагав створювати й покращувати цей додаток</string>
    <string name="BiftorAppHints">Поради й підказки</string>
-   <string name="BiftorAppHintsSub">Посібник з відео та списком дій щодо натискання різних елементів інтерфейсу.</string>
+   <string name="BiftorAppHintsSub">Посібник з відео та списком дій щодо натискання різних елементів оболонки.</string>
    <string name="BiftorDonate">Віддячити розробнику</string>
    <string name="BiftorDonateSub">Потішити автора нагородою</string>
    <string name="BiftorDonateMoreDetail">Ви можете передати невелику винагороду для розробника, щоб підтримувати робочий настрій.</string>
@@ -4819,7 +4819,7 @@
    <!--‌ Biftor forward config -->
    <string name="ForwardTabsCat">Укладки панелі пересилання</string>
    <string name="ForwardTabsHided">Не показувати вкладки</string>
-   <string name="BiftorForwardCopyLink">Посилання</string>
+   <string name="BiftorForwardCopyLink">Поклик</string>
 
    <!--‌ Biftor mark on msg -->
    <string name="BiftorSetMarkOnMsg">Установити закладку</string>
@@ -4829,13 +4829,13 @@
    <!--Biftor Font piker -->
    <string name="BiftorFontsPickerCat">Користувацькі шрифти</string>
    <string name="BiftorEnableCustomFont">Увімкнути користувацькі шрифти</string>
-   <string name="BiftorEnableSystemCustomFont">Use device system font</string>
-   <string name="BiftorSystemFontLight">Select Light font style</string>
-   <string name="BiftorSystemFontBold">Select Bold font style</string>
-   <string name="BiftorFontsPickerLight">Нормальний</string>
+   <string name="BiftorEnableSystemCustomFont">Ужити шрифт пристрою</string>
+   <string name="BiftorSystemFontLight">Світлий стиль шрифту</string>
+   <string name="BiftorSystemFontBold">Жирний стиль шрифту</string>
+   <string name="BiftorFontsPickerLight">Звичайний</string>
    <string name="BiftorFontsPickerBold">Жирний</string>
-   <string name="BiftorFontsPickerItalic">Курсив</string>
-   <string name="BiftorFontsPickerMono">Моноширинний</string>
+   <string name="BiftorFontsPickerItalic">Похилий</string>
+   <string name="BiftorFontsPickerMono">Друкований</string>
    <string name="BiftorFontsReset">Скинути до усталеного</string>
    <string name="BiftorFontRestarter">Перезапустити додаток</string>
    <string name="BiftorYouNeedToRestartApp">Щоб застосувати зміни шрифту, потрібно перезапустити додаток</string>
@@ -4880,10 +4880,10 @@
 
    <!-- Biftor apply font from chat -->
    <string name="BiftorApplyFontFile">Застосувати файл шрифту</string>
-   <string name="BiftorApplyFontLight">Нормальний</string>
+   <string name="BiftorApplyFontLight">Звичайний</string>
    <string name="BiftorApplyFontBold">Жирний</string>
-   <string name="BiftorApplyFontItalic">Курсив</string>
-   <string name="BiftorApplyFontMono">Моноширинний</string>
+   <string name="BiftorApplyFontItalic">Похилий</string>
+   <string name="BiftorApplyFontMono">Друкований</string>
 
    <!-- Biftor group members filter -->
    <string name="BiftorGroupMembersFilter">Фільтр учасників</string>
@@ -4897,7 +4897,7 @@
    <string name="BiftorId">id: </string>
 
    <!-- Biftor auto download next media -->
-   <string name="BiftorEnableAutoDownloadNextMedia">Автозавантаження сусідніх медіа</string>
+   <string name="BiftorEnableAutoDownloadNextMedia">Самозавантаження сусідніх медіа</string>
    <string name="BiftorDisableGoToNextMedia">Вимкнути перехід до наступного медіа</string>
    <string name="BiftorDisableGoToNextMediaSub">Вимкнути перехід до наступного медіа, торкнувшись краю фото</string>
 
@@ -4951,12 +4951,12 @@
    <string name="BiftorNoRoundMediaSecret">Відеповідомлення з цього чату будуть показані тут.</string>
 
    <!-- Biftor auto proxy switching -->
-   <string name="BiftorAutoProxySwitching">Автовибір проксі</string>
+   <string name="BiftorAutoProxySwitching">Самовибір проксі</string>
    <string name="BiftorProxySwitchingManual">Уручну</string>
    <string name="BiftorProxySwitchingPing">За пінгом</string>
    <string name="BiftorProxySwitchingSpeed">За швидкістю з\'єднання</string>
    <string name="BiftorProxySwitchingPingSpeed">За пінгом та швидкістю</string>
-   <string name="BiftorProxySwitchingToBest">Автовибір найкращого</string>
+   <string name="BiftorProxySwitchingToBest">Самовибір найкращого</string>
    <string name="BiftorProxyCopiedToClipboard">%1$s проксі-сервер скопійовано в буфер обміну</string>
    <string name="BiftorSave">Зберегти</string>
 
@@ -4992,7 +4992,7 @@
    <string name="BiftorBackUpMain">Основні налаштування</string>
    <string name="BiftorBackUpFav">Улюблені чати</string>
    <string name="BiftorBackUpHidden">Приховані чати</string>
-   <string name="BiftorBackUpFolders">Folders</string>
+   <string name="BiftorBackUpFolders">Теки</string>
    <string name="BiftorBackUpFonts">Користувацькі шрифти</string>
    <string name="BiftorBackUpAllAndSaveToCloud">Додати все до збереженого</string>
    <string name="BiftorBackUpSuccessful">Резервне копіювання виконано.\nЗбержено до:\n</string>
@@ -5003,7 +5003,7 @@
    <string name="BiftorRestoreMain">Відновити основні налаштування</string>
    <string name="BiftorRestoreFav">Відновити улюблені чати</string>
    <string name="BiftorRestoreHidden">Відновити приховані чати</string>
-   <string name="BiftorRestoreFolders">Folders</string>
+   <string name="BiftorRestoreFolders">Теки</string>
 
    <string name="BiftorRestoreToDef">Скинути до усталених значень</string>
    <string name="BiftorRestoreGlobalToDef">Скинути всеосяжні налаштування</string>
@@ -5070,7 +5070,7 @@
    <string name="BiftorEnterAndExitTelegramXAnim">Telegram X</string>
 
    <!--Biftor reorder the settings-->
-   <string name="BiftorPrivacyCat">Конфіденційність</string>
+   <string name="BiftorPrivacyCat">Доступність</string>
    <string name="BiftorSidebarCat">Бічна панель</string>
    <string name="BiftorFontPickerCat">Користувацькі шрифти</string>
    <string name="BiftorOthersCat">Інше</string>
@@ -5083,10 +5083,10 @@
    <string name="BiftorBubblesCat">Бульбашки чату</string>
 
    <!--Biftor customizable context menu-->
-   <string name="BiftorContextMenuCat">Context menu</string>
-   <string name="BiftorMsgContextMenu">Message context menu</string>
-   <string name="BiftorMsgContextMenuSub">Long press on select all icon, for reset to default</string>
-   <string name="BiftorSortMsgContextMenu">Sort message context menu</string>
+   <string name="BiftorContextMenuCat">Список дій</string>
+   <string name="BiftorMsgContextMenu">Список дій повідомлення</string>
+   <string name="BiftorMsgContextMenuSub">Затискання на виборі всіх поверне усталене значення</string>
+   <string name="BiftorSortMsgContextMenu">Порядок списку дій з повідомленням</string>
 
    <string name="BiftorChatting">Чат</string>
    <string name="BiftorMsgMergingCat">Об\'єднання повідомлень</string>
@@ -5098,7 +5098,7 @@
 
    <!--Biftor login with bot-->
    <string name="BiftorLoginWithBotToKen">Авторизуватись через токен бота</string>
-   <string name="BiftorBotToken">Вкладіть токен бота</string>
+   <string name="BiftorBotToken">Укладіть токен бота</string>
    <string name="BiftorLoginWithBotInfo">Використайте @BotFather для створення нового бота.\n\nВхід за допомогою бота має обмеження, які мають усі боти, як от:\n
 		- Ви не матимете доступу до своїх контактів.\n
 		- Не зможете приєднатися до груп чи каналів (якщо адмін не долучить вас).\n
@@ -5130,16 +5130,16 @@
    <string name="mbps">mbps</string>
    <string name="kb">KB</string>
    <string name="mb">MB</string>
-   <string name="BiftorTorDefaultWorld">Усталено (Авто)</string>
+   <string name="BiftorTorDefaultWorld">Усталено (Само)</string>
    <string name="BiftorTorBridgeHints">Якщо ваша мобільна мережа активно блокує TOR, можна використовувати \'мостовий сервер\' як альтернативний спосіб. ОБЕРІТЬ один із варіантів для налаштування та тестування…</string>
    <string name="BiftorTorTestingBridges">Тестування мостового з\'єднання з TOR....</string>
-   <string name="BiftorTorTestingBridgesSuccess">Успіх! Конфігурація моста прийнятна!</string>
+   <string name="BiftorTorTestingBridgesSuccess">Є! Налаштування моста прийнятне!</string>
    <string name="BiftorTorTestingBridgesFail">Невдача. Спробуйте інший варіант</string>
    <string name="BiftorTorBridgesDirectConnect">Підключення безпосередньо до TOR (найкраще)</string>
    <string name="BiftorTorBridgesCommunity">Підключення через сервери спільноти</string>
    <string name="BiftorTorBridgesCloud">Підключення через хмарні сервери</string>
    <string name="BiftorTorBridgesGetNew">Запитуйте нові мости з Інтернету</string>
-   <string name="BiftorTorBridgeInput">Вставте свій міст тут</string>
+   <string name="BiftorTorBridgeInput">Уставте свій міст тут</string>
    <string name="BiftorTorTroubleConnecting">Несправність підключення?</string>
    <string name="BiftorTorNewIdentity">Новий ідентифікатор</string>
    <string name="BiftorChangeSideBarProxyToTor">Перемикач TOR (замість перемикача проксі)</string>
@@ -5155,7 +5155,7 @@
    <string name="BiftorNewTab">Нова вкладка</string>
    <string name="BiftorTabName">Назва вкладки</string>
    <string name="BiftorTabNameHint">Введіть назву для вашої вкладки</string>
-   <string name="BiftorTabIcon">Іконка вкладки</string>
+   <string name="BiftorTabIcon">Значок укладки</string>
    <string name="BiftorAddToCustomTabs">Додати до власних укладок</string>
    <string name="BiftorDeleteFromCustomTabs">Видалити із власних вкладок</string>
    <string name="BiftorNoNameError">Ви не можете створити вкладку без імені</string>
@@ -5163,7 +5163,7 @@
    <string name="BiftorCleanCustomTabWarning">Упевнені, що хочете видалити створені вкладки? (%1$s)</string>
    <string name="BiftorTabIconSize">Розмір значків</string>
    <string name="BiftorTabIconTextIcon">Текстова іконка</string>
-   <string name="BiftorTabIconTextIconEnter">Введіть текст</string>
+   <string name="BiftorTabIconTextIconEnter">Уведіть текст</string>
    <string name="BiftorRemoveExtraIconWarning">Виділено значків: **%1$s**. \nВидалити?</string>
    <string name="BiftorRemoveAllExtraIconWarning">Ви впевнені, що хочете видалити всі додані вами значки?</string>
    <string name="BiftorMultiSelectEndReach">Ви не можете вибрати більше, ніж  **%1$s** елементів.</string>
@@ -5177,8 +5177,8 @@
    <string name="BiftorHideCustomTabChatsFromAll">Укладка "Усі"</string>
    <string name="BiftorDontHideCustomTabChats">Не приховувати</string>
    <string name="BiftorMayNeedsToRestart">Може знадобитись перезапуск</string>
-   <string name="BiftorAllowSyncExtraFolders">Allow sync extra folders</string>
-   <string name="BiftorAllowSyncExtraFoldersSub">If you have more than 10 folders, you may need to disable sync folders to server because it may delete extra folders or change folder\'s order</string>
+   <string name="BiftorAllowSyncExtraFolders">Дозволити синхронізацію додаткових тек</string>
+   <string name="BiftorAllowSyncExtraFoldersSub">Якщо у вас більше ніж 10 тек, можливо, доведеться вимкнути їхню синхронізацію із сервером, оскільки це може вилучити зайві теки або змінити їхній порядок.</string>
 
    <string name="BiftorIsolateDest">Відокремте адреси призначення</string>
    <string name="BiftorIsolateDestSub">Використовуйте іншу схему для кожної адреси призначення</string>
@@ -5231,9 +5231,9 @@
 
    <!--Biftor Translate-->
    <string name="BiftorTranslate">Перекласти</string>
-   <string name="BiftorTranslateKeySave">Save key</string>
-   <string name="BiftorTranslateYandexKey">Yandex translation key</string>
-   <string name="BiftorTranslateYouNeedYandexAPIKey">Yandex api key is empty, you need valid Yandex translation api key</string>
+   <string name="BiftorTranslateKeySave">Зберегти ключ</string>
+   <string name="BiftorTranslateYandexKey">Ключ Яндекс перекладача</string>
+   <string name="BiftorTranslateYouNeedYandexAPIKey">Ключ Яндекс api key пустий, ви повинні застосувати ключ Яндекс API</string>
    <string name="BiftorTranslateAllLanguage">Усі мови</string>
    <string name="BiftorTranslateRecently">Найуживаніші</string>
    <string name="BiftorTranslateClearRecently">Очистити список найуживаніших?</string>
@@ -5373,13 +5373,13 @@
    <string name="BiftorVmessSecurity">Безпека</string>
    <string name="BiftorVmessNetwork">Мережа</string>
    <string name="BiftorVmessHeadType">Head Type</string>
-   <string name="BiftorVmessRequestHost">Request Host / QUIC Security</string>
-   <string name="BiftorVmessPath">Path / QUICK Key</string>
+   <string name="BiftorVmessRequestHost">Запит наглядача / QUIC Security</string>
+   <string name="BiftorVmessPath">Шлях / Миттєвий ключ</string>
    <string name="BiftorVmessTls">Використовувати TLS</string>
 
    <string name="BiftorSSPassword">Пароль</string>
    <string name="BiftorSSMethod">Метод шифрування</string>
-   <string name="BiftorSSPlugin">Плагін</string>
+   <string name="BiftorSSPlugin">Втулок</string>
    <string name="BiftorSSPluginOpts">Конфігурація плагіну</string>
 
    <string name="BiftorSSRProtocol">Протокол</string>

@@ -219,8 +219,8 @@
 	<string name="BiftorSupport">Qoʻllab-quvvatlash</string>
 	<string name="BGramOfficialChannel">Rasmiy kanal</string>
 	<string name="BGramOfficialChannelSub">Yangilanish haqida</string>
-	<string name="BGramOfficialGroups">Official Supporting Groups</string>
-	<string name="BGramOfficialGroupsSub">Xatolik haqida va takliflar uchun xabar</string>
+	<string name="BGramOfficialGroups">Rasmiy guruhlar</string>
+	<string name="BGramOfficialGroupsSub">Barcha xatolar haqida hisobotlar hamda gʻoyalar qabul qilinadi.</string>
 	<string name="BGramOfficialGroupsEN">Inglizcha</string>
 	<string name="BGramOfficialGroupsFA">Forscha</string>
 	<string name="BGramOfficialGroupsRU">Ruscha</string>
@@ -231,12 +231,12 @@
 	<string name="BGramRateApp">Ilovani baholash</string>
 	<string name="BGramRateAppSub">Agar ilova ma’qul kelgan boʻlsa, «Google Play»da ilovani yuqori baholang. \nIstalgan muammo toʻgʻrisida rasmiy guruhda bemalol baholashdan oldin xabar qoldiring!</string>
 	<string name="BiftorAppCredits">Minnadorchilik</string>
-	<string name="BiftorAppCreditsSub">Ushbu ilovani tuzishga yordam berganlar</string>
+	<string name="BiftorAppCreditsSub">Ushbu ilovani tuzishga yordam bergan shaxslar.</string>
 	<string name="BiftorAppHints">Maslahatlar</string>
-	<string name="BiftorAppHintsSub">Interfeysda ishlash boʻyicha videogid</string>
-	<string name="BiftorDonate">Muallifni moddiy qoʻllab-quvvatlash</string>
-	<string name="BiftorDonateSub">Muallifni quvontirish</string>
-	<string name="BiftorDonateMoreDetail">Siz muallifning ishchanligini oshirish uchun kam summada ragʻbatlantirishingiz mumkin. Katta miqdorda ragʻbatlatirish, oʻzingiz istagan funksiyani kiritish taklifini berish imkonini beradi.</string>
+	<string name="BiftorAppHintsSub">Interfeysda ishlash boʻyicha video yoʻriqnoma.</string>
+	<string name="BiftorDonate">Muallifni ragʻbatlantirish</string>
+	<string name="BiftorDonateSub">Muallifni moddiy qoʻllab-quvvatlashingiz mumkin.</string>
+	<string name="BiftorDonateMoreDetail">Siz muallifning ishchanligini oshirish uchun kam summada boʻlsa ham ragʻbatlantirishingiz mumkin. Katta miqdorda ragʻbatlatirish, oʻzingiz istagan funksiyani kiritish taklifini berish imkonini beradi.</string>
 	<string name="BiftorDonateBTC">Bitkoin</string>
 	<string name="BiftorDonateBTCCASH">Bitkoin raqami</string>
 	<string name="BiftorDonateEther">Ether</string>
@@ -734,8 +734,8 @@
 	<string name="BiftorHideCustomTabChatsFromAll">Barcha xatchoʻplar</string>
 	<string name="BiftorDontHideCustomTabChats">Berkitmaslik</string>
 	<string name="BiftorMayNeedsToRestart">Qayta yuklashga toʻgʻri keladi</string>
-	<string name="BiftorAllowSyncExtraFolders">Allow sync extra folders</string>
-	<string name="BiftorAllowSyncExtraFoldersSub">If you have more than 10 folders, you may need to disable sync folders to server because it may delete extra folders or change folder\'s order</string>
+	<string name="BiftorAllowSyncExtraFolders">Qoʻshimcha jildlarni sinxronlashga ruxsat berish</string>
+	<string name="BiftorAllowSyncExtraFoldersSub">Agar Sizda 10 dan ortiq jild boʻlsa, jildlarni serverga sinxronlashni oʻchirib qoʻyishingiz kerak boʻladi, chunki u qoʻshimcha jildlarni yoʻq qilishi yoki jildning tartibini oʻzgartirishi mumkin.</string>
 
 	<!-- Biftor goto msg for all chats-->
 	<string name="BiftorMentionMsg">Xabar ID kodi</string>

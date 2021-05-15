@@ -212,7 +212,7 @@
 	<string name="BiftorResetPinMessage">Biriktirilganni koʻrsatish</string>
 
 	<!-- Biftor added about tab-->
-	<string name="BiftorAbout"> Info </string>
+	<string name="BiftorAbout"> Haqida </string>
 	<string name="BGramChangeLog">Oʻzgarishlar tarixi</string>
 	<string name="BGramChangeLogSub">Barcha funksiyalar qoʻshilgan tartibida boʻladi.</string>
 	<string name="BGramChangeLogLoadFailed">Oʻzgarishlar roʻyxatini yuklab boʻlmadi!</string>
@@ -542,14 +542,14 @@
 	<string name="BiftorRestoreMain">Asosiy tanlovlarni</string>
 	<string name="BiftorRestoreFav">Tanlangan chatlarni</string>
 	<string name="BiftorRestoreHidden">Maxfiy chatlarni</string>
-	<string name="BiftorRestoreFolders">Folders</string>
+	<string name="BiftorRestoreFolders">Jildlarni</string>
 
 	<string name="BiftorRestoreToDef">Asl holiga qaytarish</string>
 	<string name="BiftorRestoreGlobalToDef">Umumiy tanlovlarni</string>
 	<string name="BiftorRestoreMainToDef">Asosiy tanlovlarni</string>
 	<string name="BiftorRestoreFavToDef">Tanlangan chatlarni tiklash</string>
 	<string name="BiftorRestoreHiddenToDef">Maxfiy chatlarni tiklash</string>
-	<string name="BiftorRestoreDialogsFolderToDef">Restore dialog\'s folders to server default</string>
+	<string name="BiftorRestoreDialogsFolderToDef">Jildlarni standart serverga tiklash</string>
 
 	<string name="BiftorRestoreSuccessful">Muvaffaqiyatli tiklandi!</string>
 	<string name="BiftorRestoreUnSuccessful">Tiklashda xatolik mavjud!</string>
@@ -773,13 +773,13 @@
 
 	<!--Biftor Translate-->
 	<string name="BiftorTranslate">Tarjima qilish</string>
-	<string name="BiftorTranslateKeySave">Save key</string>
-	<string name="BiftorTranslateYandexKey">Yandex translation key</string>
-	<string name="BiftorTranslateYouNeedYandexAPIKey">Yandex api key is empty, you need valid Yandex translation api key</string>
-	<string name="BiftorTranslateAllLanguage">All language</string>
-	<string name="BiftorTranslateRecently">Recently used language</string>
-	<string name="BiftorTranslateClearRecently">Clear recently used language?</string>
-	<string name="BiftorTranslateDefaultTarget">Default Target</string>
+	<string name="BiftorTranslateKeySave">Kalitni saqlash</string>
+	<string name="BiftorTranslateYandexKey">Yandex tarjimon kaliti</string>
+	<string name="BiftorTranslateYouNeedYandexAPIKey">Yandex API kaliti boʻsh, Yandex tarjimon API kalitini tasdiqlashingiz kerak</string>
+	<string name="BiftorTranslateAllLanguage">Barcha tillar</string>
+	<string name="BiftorTranslateRecently">Oxirgi qoʻllangan til</string>
+	<string name="BiftorTranslateClearRecently">Oxirgi marta tarjima qilingan til oʻchirib tashlansinmi?</string>
+	<string name="BiftorTranslateDefaultTarget">Standart Til</string>
 	<string name="BiftorUndoTranslation">Tarjimani bekor qilish</string>
 	<string name="BiftorResetTranslation">Standart tarjima</string>
 	<string name="BiftorTranslateSettings">Tarjima tanlovlari</string>

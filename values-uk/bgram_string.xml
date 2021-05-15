@@ -941,7 +941,7 @@
     <string name="BiftorAdsTypeCustom">Реклама</string>
     <string name="BiftorAdsTitle">BGram реклама</string>
     <string name="BiftorAdsSubTitle">Підтримати BGram переглядом реклами</string>
-    <string name="BiftorAdsHideFor">Подивись, щоб приховати на %</string>
+    <string name="BiftorAdsHideFor">Перегляд приховає на %</string>
 
     <!--Biftor times-->
     <string name="BiftorHour">%s година</string>

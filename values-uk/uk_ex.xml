@@ -3034,6 +3034,7 @@
    <string name="ActionGroupCallInvited">un1 запрошує un2 до голосового чату</string>
    <string name="ActionGroupCallYouInvited">Ви запрошуєте un2 до голосового чату</string>
    <string name="ActionGroupCallInvitedYou">un1 запрошує вас до голосового чату</string>
+   <string name="ActionGroupCallInvitedYou">un1 запрошує вас до голосової бесіди</string>
    <string name="ActionBotAllowed">Цей бот зможе вам писати, оскільки ви увійшли на %1$s.</string>
    <string name="ActionBotDocuments">%1$s одержує такі документи: %2$s</string>
    <string name="ActionBotDocumentIdentity">Особисті дані</string>
@@ -3482,6 +3483,7 @@
    <string name="VoipGroupOnlyAdminsCanSpeak">Нові присутні заглушуються</string>
    <string name="VoipGroupShareInviteLink">Поділитися посиланням</string>
    <string name="VoipGroupEndChat">Закінчити голосовий чат</string>
+   <string name="VoipGroupCancelChat">Скасувати голосову бесіду</string>
    <string name="VoipGroupConnecting">Зʼєднання…</string>
    <string name="VoipGroupLeaveAlertTitle">Вийти з голосового чату</string>
    <string name="VoipGroupLeaveAlertText">Ви дійсно хочете вийти з голосового чату?</string>
@@ -3494,6 +3496,7 @@
    <string name="VoipGroupInviteAlreadyParticipant">Цей користувач уже в голосовому чаті.</string>
    <string name="VoipGroupJoinAnonymousAdmin">Анонімні адміністратори не можуть брати участі в голосових чатах.</string>
    <string name="VoipGroupTooMuch">На жаль, голосовий чат повний.</string>
+   <string name="VoipGroupTooMuch">На жаль, голосова бесіда повна.</string>
    <string name="VoipGroupInvitedToVoiceChat">un1 запрошує un2 до голосового чату</string>
    <string name="VoipGroupJoinCall">Увійти до голосового чату</string>
    <string name="VoipGroupInviteText">Привіт! Приєднуйся до нашого голосового чату: %1$s</string>
@@ -3549,6 +3552,22 @@
    <string name="VoipGroupJoinAsLinstener">УВІЙТИ ЯК СЛУХАЧ</string>
    <string name="VoipGroupJoinVoiceChatUrl">Увійти до голосового чату</string>
    <string name="VoipGroupJoinAnonymouseAlert">Ви дійсно хочете, щоб ваш особистий акаунт відображався в списку присутніх у голосовому чаті?</string>
+    <string name="VoipGroupSoundMuted">Бесіду заглушено.</string>
+    <string name="VoipGroupSoundUnmuted">Бесіду чутно.</string>
+    <string name="VoipGroupStart2">Учасники гурту отримають сповіщення про початок голосової бесіди.</string>
+    <string name="VoipChannelStart2">Підписники каналу отримають сповіщення про початок голосової бесіди.</string>
+    <string name="VoipChatDisplayedAs">Вас будуть бачити як:</string>
+    <string name="VoipGroupStartVoiceChat">Почати голосову бесіду</string>
+    <string name="VoipGroupScheduleVoiceChat">Вибрати час</string>
+    <string name="VoipGroupStartNow">Почати зараз</string>
+    <string name="VoipGroupSetReminder">Установити нагадування</string>
+    <string name="VoipGroupCancelReminder">Зняти нагадування</string>
+    <string name="VoipGroupScheduleInfo">Учасники гурту отримають сповіщення за %1$s до початку.</string>
+    <string name="VoipChannelScheduleInfo">Підписники каналу отримають сповіщення за %1$s до початку.</string>
+    <string name="VoipChatStartsIn">Початок за</string>
+    <string name="VoipChatLateBy">Спізнюється на</string>
+    <string name="VoipChatShare">Поділитись</string>
+    <string name="VoipChatReminderHint">Ви отримаєте сповіщення, щойно бесіда почнеться.</string>
    <!--invite links-->
    <string name="ManageInviteLinks">Керування посиланнями</string>
    <string name="ManageLinksInfoHelp">Можна створити додаткові запрошувальні посилання, що мають обмежений час або кількість використань.</string>
@@ -3755,6 +3774,30 @@
    <string name="FromChats_few">з %1$d чатів</string>
    <string name="FromChats_many">з %1$d чатів</string>
    <string name="FromChats_other">з %1$d чатів</string>
+   <string name="SecondsSchedule_zero">%1$d секунд</string>
+   <string name="SecondsSchedule_one">%1$d секунда</string>
+   <string name="SecondsSchedule_two">%1$d секунд</string>
+   <string name="SecondsSchedule_few">%1$d секунди</string>
+   <string name="SecondsSchedule_many">%1$d секунд</string>
+   <string name="SecondsSchedule_other">%1$d секунд</string>
+   <string name="MinutesSchedule_zero">%1$d хвилин</string>
+   <string name="MinutesSchedule_one">%1$d хвилина</string>
+   <string name="MinutesSchedule_two">%1$d хвилин</string>
+   <string name="MinutesSchedule_few">%1$d хвилини</string>
+   <string name="MinutesSchedule_many">%1$d хвилин</string>
+   <string name="MinutesSchedule_other">%1$d хвилин</string>
+   <string name="HoursSchedule_zero">%1$d годин</string>
+   <string name="HoursSchedule_one">%1$d година</string>
+   <string name="HoursSchedule_two">%1$d годин</string>
+   <string name="HoursSchedule_few">%1$d години</string>
+   <string name="HoursSchedule_many">%1$d годин</string>
+   <string name="HoursSchedule_other">%1$d годин</string>
+   <string name="DaysSchedule_zero">%1$d днів</string>
+   <string name="DaysSchedule_one">%1$d день</string>
+   <string name="DaysSchedule_two">%1$d днів</string>
+   <string name="DaysSchedule_few">%1$d дні</string>
+   <string name="DaysSchedule_many">%1$d днів</string>
+   <string name="DaysSchedule_other">%1$d днів</string>
    <string name="Seconds_zero">%1$d секунд</string>
    <string name="Seconds_one">%1$d секунду</string>
    <string name="Seconds_two">%1$d секунд</string>
@@ -4295,6 +4338,15 @@
    <string name="SendTodayAt">\'Надіслати сьогодні,\' HH:mm</string>
    <string name="SendDayAt">\'Надіслати\' d MMM\',\' HH:mm</string>
    <string name="SendDayYearAt">\'Надіслати\' d MMM yyyy\',\' HH:mm</string>
+   <string name="StartTodayAt">\'Почнеться сьогодні,\' HH:mm</string>
+   <string name="StartDayAt">\'Почнеться\' d MMM\',\' HH:mm</string>
+   <string name="StartDayYearAt">\'Почнеться\' d MMM yyyy\',\' HH:mm</string>
+   <string name="StartsTodayAt">\'Почнеться сьогодні,\' HH:mm</string>
+   <string name="StartsDayAt">\'Почнеться\' d MMM\',\' HH:mm</string>
+   <string name="StartsDayYearAt">\'Почнеться\' d MMM yyyy\',\' HH:mm</string>
+   <string name="StartShortTodayAt">\'Сьогодні,\' HH:mm</string>
+   <string name="StartShortDayAt">d MMM\',\' HH:mm</string>
+   <string name="StartShortDayYearAt">d MMM yyyy\',\' HH:mm</string>
    <string name="RemindTodayAt">\'Нагадати сьогодні,\' HH:mm</string>
    <string name="RemindDayAt">\'Нагадати\' d MMM\',\' HH:mm</string>
    <string name="RemindDayYearAt">\'Нагадати\' d MMM yyyy\',\' HH:mm</string>
@@ -5100,11 +5152,11 @@
    <string name="BiftorLoginWithBotToKen">Авторизуватись через токен бота</string>
    <string name="BiftorBotToken">Укладіть токен бота</string>
    <string name="BiftorLoginWithBotInfo">Використайте @BotFather для створення нового бота.\n\nВхід за допомогою бота має обмеження, які мають усі боти, як от:\n
-		- Ви не матимете доступу до своїх контактів.\n
-		- Не зможете приєднатися до груп чи каналів (якщо адмін не долучить вас).\n
-		- Зможете писати лише тим користувачам, котрі натиснули на /start.\n
-		- Не бачитимете коли користувачі набиратимуть для вас повідомлення.\n
-		- Список чату буде порожнім при першому вході в систему, та поповниться, коли бот отримає повідомлення від користувачів та груп. Виявлення груп може бути повільним.</string>
+      - Ви не матимете доступу до своїх контактів.\n
+      - Не зможете приєднатися до груп чи каналів (якщо адмін не долучить вас).\n
+      - Зможете писати лише тим користувачам, котрі натиснули на /start.\n
+      - Не бачитимете коли користувачі набиратимуть для вас повідомлення.\n
+      - Список чату буде порожнім при першому вході в систему, та поповниться, коли бот отримає повідомлення від користувачів та груп. Виявлення груп може бути повільним.</string>
 
    <!--Biftor Tor -->
    <string name="BiftorTorStarting">TOR запускається&#8230;</string>

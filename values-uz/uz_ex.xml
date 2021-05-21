@@ -1353,8 +1353,8 @@
     <string name="Online">tarmoqda</string>
     <string name="LastSeen">soʻnggi faolligi</string>
     <string name="LastSeenDate">soʻnggi faolligi</string>
-    <string name="LastSeenFormatted">soʻnggi faolligi %1$s da</string>
-    <string name="LastSeenDateFormatted">soʻnggi faolligi %1$s da</string>
+    <string name="LastSeenFormatted">soʻnggi faolligi %1$s</string>
+    <string name="LastSeenDateFormatted">soʻnggi faolligi %1$s</string>
     <string name="InviteFriends">Tanishlarni taklif qilish</string>
     <string name="SearchFriends">Kontaktlarni qidirish</string>
     <string name="GlobalSearch">Global qidiruv</string>

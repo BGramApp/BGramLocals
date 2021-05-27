@@ -942,7 +942,7 @@
 	<string name="BiftorAdsTypeCustom">Reklamalar</string>
 	<string name="BiftorAdsTitle">BGram reklamalari</string>
 	<string name="BiftorAdsSubTitle">orqali ilovani qoʻllab-quvvatlang</string>
-	<string name="BiftorAdsHideFor">koʻrish orqali reklamani %s berkitish</string>
+	<string name="BiftorAdsHideFor">reklamani %s berkitish</string>
 
 	<!--Biftor times-->
 	<string name="BiftorHour">%s soatga</string>

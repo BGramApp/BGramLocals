@@ -1348,8 +1348,8 @@
     <string name="TodayAt">soat</string>
     <string name="YesterdayAt">kecha</string>
     <string name="TodayAtFormatted">%1$s</string>
-    <string name="TodayAtFormattedWithToday">bugun %1$s da</string>
-    <string name="YesterdayAtFormatted">kecha %1$s da</string>
+    <string name="TodayAtFormattedWithToday">bugun %1$s</string>
+    <string name="YesterdayAtFormatted">kecha %1$s</string>
     <string name="Online">tarmoqda</string>
     <string name="LastSeen">soʻnggi faolligi</string>
     <string name="LastSeenDate">soʻnggi faolligi</string>
@@ -5494,7 +5494,7 @@
 	<string name="BiftorAdsTypeCustom">Reklamalar</string>
 	<string name="BiftorAdsTitle">BGram reklamalari</string>
 	<string name="BiftorAdsSubTitle">orqali ilovani qoʻllab-quvvatlang</string>
-	<string name="BiftorAdsHideFor">koʻrish orqali reklamani %s berkitish</string>
+	<string name="BiftorAdsHideFor">reklamani %s berkitish</string>
 
 	<!--Biftor times-->
 	<string name="BiftorHour">%s soatga</string>

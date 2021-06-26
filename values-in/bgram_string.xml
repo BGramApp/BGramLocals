@@ -1,0 +1,970 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="BGram" translatable="false">BGram</string>
+	<string name="AppName" translatable="false">BGram</string>
+	<string name="AppNameBeta" translatable="false">BGram Beta</string>
+	<string name="BGramVersion">BGram %1$s</string>
+
+	<!--Biftor-->
+	<string name="BGramSettings">B-Settings</string>
+	<string name="BGramSearchInSettings">Pengaturan pencarian</string>
+
+	<!-- Ghost mode-->
+	<string name="BiftorGhostMod">Bacaan tersembunyi</string>
+	<string name="BiftorGhostModSub">Seorang pengguna tidak tahu bahwa Anda membaca pesan sampai Anda membalas. Dalam mode ini, pesan yang sudah dibaca mungkin muncul lagi sebagai belum dibaca setelah beberapa saat.\nAktifkan: tekan lama pada header di daftar obrolan.</string>
+	<string name="BiftorGhostModHeaderLongClick">Beralih dengan menekan lama pada header</string>
+	<string name="BiftorGhostModHeaderLongClickSub">Peralihan Baca Tersembunyi Cepat dengan mengetuk dan menahan judul dalam daftar obrolan.</string>
+
+	<!-- Ghost mode hide status-->
+	<string name="BiftorGhostModHideStatus">Sembunyikan status online</string>
+	<string name="BiftorGhostModHideStatusSub">Tetap luring saat bacaan tersembunyi diaktifkan.\nCatatan: saat Anda mengirim pesan (bahkan ke Pesan Tersimpan), status Anda untuk sementara "online"!</string>
+
+	<!-- Biftor hide Typing-->
+	<string name="BiftorGhostModHideTyping">Sembunyikan pengetikan</string>
+	<string name="BiftorGhostModHideTypingSub">Jangan kirim status seperti mengetik, mengirim dll…</string>
+
+	<!-- Hide Channel Mute Button -->
+	<string name="BiftorHideChannelMuteButton">Sembunyikan panel bawah di saluran</string>
+
+	<!-- Tabs -->
+	<string name="BiftorTabsStyle">Gaya Tab</string>
+	<string name="BiftorVerticalTabsStyle">Gaya tab vertikal</string>
+	<string name="BiftorVerticalRightSideBarRound">Putaran</string>
+	<string name="BiftorVerticalRightSideBarOnlyIcon">Tampilkan hanya ikon</string>
+	<string name="BiftorVerticalRightSideBarIconAndText">Tampilkan ikon dan teks</string>
+	<string name="BiftorVerticalRightSideBar">Bilah sisi kanan vertikal</string>
+	<string name="BiftorRightSideAlwaysOpen">Selalu buka</string>
+	<string name="BiftorRightSideHideWhenScroll">Sembunyikan putaran saat menggulir</string>
+	<string name="BiftorVerticalRightSideRoundSize">Ukuran putaran</string>
+	<string name="BiftorVerticalRightSideRoundShowStyle">Putaran menunjukkan gaya</string>
+	<string name="BiftorVerticalRoundShowByDragging">Dengan menyeret</string>
+	<string name="BiftorVerticalRoundShowByTap">Dengan mengetuk tombol mengambang</string>
+	<string name="BiftorRightSidePushChatList">Dorong daftar obrolan ke kiri</string>
+	<string name="BiftorRightSideOpenButton">Tampilkan tombol buka cepat</string>
+	<string name="BiftorShowTabsAtTop">Tampilkan di atas</string>
+	<string name="BiftorShowTabsAtBottom">Tampilkan di bawah</string>
+	<string name="BiftorShowNewChatButton">Tampilkan tombol mengambang</string>
+	<string name="HideTabs">Nonaktifkan bilah tab</string>
+	<string name="All">Semua</string>
+	<string name="Users">Pengguna</string>
+	<string name="Groups">Grup</string>
+	<string name="SuperGroups">Supergrup</string>
+	<string name="Channels">saluran</string>
+	<string name="Bots">Bot</string>
+	<string name="Favorites">Favorit</string>
+
+	<string name="AllGroups">Semua grup</string>
+	<string name="Unreads">Belum dibaca</string>
+	<string name="Secrets">Rahasia</string>
+	<string name="AllAdmins">Semua admin</string>
+	<string name="AdminChannels">saluran admin</string>
+	<string name="AdminGroups">Grup admin</string>
+	<string name="AdminSGroups">Admin grup super</string>
+	<string name="OwnChannels">Saluran sendiri</string>
+	<string name="OwnGroups">Grup sendiri</string>
+	<string name="OwnSGroups">Grup super sendiri</string>
+	<string name="UnmuteUnreads">Belum dibaca disuarakan</string>
+	<string name="Sort">Urutan tab</string>
+
+	<string name="TabsHeight">Tinggi bilah tab</string>
+	<string name="TabsUnreadTextSize">Ukuran teks kontra</string>
+	<string name="BiftorShowFolderNameInHeader">Tampilkan nama folder di header</string>
+	<string name="SetAsDefaultTab">Tetapkan sebagai tab default</string>
+	<string name="ResetDefaultTab">Setel ulang tab default</string>
+	<string name="SortByStatus">Urutkan berdasarkan status</string>
+	<string name="SortByLastMessage">Urutkan berdasarkan pesan terakhir</string>
+	<string name="SortByUnreadCount">Urutkan berdasarkan pesan yang belum dibaca</string>
+	<string name="ShowSuperGroupsTab">Tampilkan tab grup super</string>
+	<string name="HideSuperGroupsTab">Sembunyikan tab supergrup</string>
+	<string name="Tabs">tab</string>
+	<string name="HideShowTabs">Pilih tab</string>
+	<string name="DisableTabsAnimation">Jangan sembunyikan tab saat menggulir</string>
+	<string name="InfiniteSwipe">Menggulir tanpa batas dengan menggesek</string>
+	<string name="HeaderTabCounterCountChats">Hitung obrolan alih-alih pesan</string>
+	<string name="HeaderTabCounterCountNotMuted">Hitung yang tidak dibisukan saja</string>
+	<string name="HideTabsCounters">Sembunyikan penghitung tab</string>
+	<string name="BiftorForceMarkAsRead">Tandai paksa sebagai telah dibaca</string>
+
+	<string name="ShowHeaderShadow">Tampilkan bayangan header</string>
+
+	<string name="ShowTabsAtBottom">Tampilkan bilah tab di bagian bawah</string>
+	<string name="BiftorNumberOfChats">Jumlah obrolan:</string>
+	<string name="BiftorLoadingNumberOfChats">Menghitung obrolan…</string>
+	<string name="BiftorNumberOfVisibleTabs">Jumlah tab yang terlihat</string>
+	<string name="BiftorTabsGravityCenter">Tarik tab ke tengah</string>
+	<string name="BiftorTabsCenterEachTabs">Lebar tab</string>
+	<string name="BiftorTabsFitToScreen">Paskan tab ke layar</string>
+	<string name="BiftorTabsFitToScreenSub">Nonaktifkan tab yang menarik ke tengah.</string>
+	<string name="BiftorDisableChangeTabSwipe">Nonaktifkan peralihan tab dengan menggesek</string>
+	<string name="BiftorJumpToFirstPosition">Langsung ke item pertama</string>
+
+	<string name="BiftorKeepSelection">Tetap pilih</string>
+	<string name="BiftorKeepSelectionAfterForward">Tetap pilih setelah maju</string>
+	<string name="BiftorKeepSelectionAfterForwardSub">Jangan batalkan pilihan pesan setelah penerusan (untuk tindakan lebih lanjut dengan yang dipilih).</string>
+
+	<string name="OnlineContacts">Kontak Online</string>
+
+	<!-- BGramSettings -->
+	<string name="ChatCat">Obrolan</string>
+	<string name="EnableSwipeLeftReply">Geser ke kiri untuk membalas</string>
+	<string name="EnableSwipeRightForward">Geser ke kanan untuk meneruskan</string>
+	<string name="BiftorVibrationSwipeReply">Geser getaran</string>
+	<string name="DisableSwipeBack">Nonaktifkan geser ke belakang</string>
+	<string name="DisableSwipeBackSub">Jika Anda menggunakan "Gesek ke kanan untuk meneruskan", Anda mungkin perlu mengaktifkan opsi ini, untuk menonaktifkan obrolan dekat yang tidak diinginkan saat menggesek ke kanan</string>
+
+	<!-- BiftorProForward -->
+	<string name="BiftorProForward">Edit dan posting ulang</string>
+	<string name="BiftorProForwardDeleteUrl">Hapus URL</string>
+	<string name="EmptyMessageError">Anda tidak dapat mengirim pesan kosong.</string>
+	<string name="Quote">KUTIPAN</string>
+
+	<!-- Biftor ghost mode icon -->
+	<string name="BiftorGhostModIndicator">Tampilkan indikator baca tersembunyi</string>
+	<string name="BiftorGhostModDisabled">Bacaan tersembunyi dinonaktifkan</string>
+
+	<!-- Biftor corner for chat Drawable -->
+	<string name="BiftorEnableChatMsgConrner">Aktifkan sudut bulat gelembung</string>
+	<string name="BiftorChatMsgInLeftTopConrnerRadi">Dalam radius pesan kiri-atas</string>
+	<string name="BiftorChatMsgInLeftBottomConrnerRadi">Dalam radius pesan kiri-bawah</string>
+	<string name="BiftorChatMsgInRightTopConrnerRadi">Dalam radius pesan kanan-atas</string>
+	<string name="BiftorChatMsgInRightBottomConrnerRadi">Dalam radius pesan kanan-bawah</string>
+	<string name="BiftorLastChatMsgInRightBottomConrnerRadi">Terakhir dalam radius pesan kiri-bawah</string>
+
+	<string name="BiftorChatMsgOutLeftTopConrnerRadi">Pesan keluar radius kiri-atas</string>
+	<string name="BiftorChatMsgOutLeftBottomConrnerRadi">Pesan keluar radius kiri-bawah</string>
+	<string name="BiftorChatMsgOutRightTopConrnerRadi">Pesan keluar radius kanan atas</string>
+	<string name="BiftorChatMsgOutRightBottomConrnerRadi">Pesan keluar radius kanan-bawah</string>
+	<string name="BiftorChatLastMsgOutRightBottomConrnerRadi">Pesan terakhir radius kanan-bawah</string>
+
+	<string name="BiftorChatMsgMediaConrnerRadi">Radius sudut pesan media</string>
+
+	<!-- Biftor dismiss only -->
+	<string name="BiftorDismissOnly">Abaikan saja</string>
+	<string name="BiftorUnpinMessageAlertTitle">Lepas pin pesan</string>
+	<string name="BiftorUnpinMessageAlert">Apakah Anda ingin menutup atau melepas sematan semua pesan?</string>
+
+	<!-- Biftor dark blue theme -->
+	<string name="BGramDarkBlue">BGram Biru Tua</string>
+	<string name="BGramOldNight">Malam Tua</string>
+
+	<!-- Biftor select mess text -->
+	<string name="BiftorSelectMessText">Pilih teks</string>
+
+	<!-- Biftor go to first message -->
+	<string name="GoToFirstMessage">Masuk ke pesan pertama</string>
+
+	<!--Biftor Save to cloud -->
+	<string name="SaveToCloud">Simpan ke awan</string>
+	<string name="SaveToCloudAlert">Simpan dengan atau tanpa kutipan?</string>
+	<string name="MessageSaved">Pesan disimpan</string>
+	<string name="BiftorSaveWithQuot">Dengan kutipan</string>
+	<string name="BiftorSaveWithOutQuot">Tanpa kutipan</string>
+	<string name="BiftorSaveToCloudDefaultAction">Mengutip saat menyimpan pesan</string>
+	<string name="BiftorSaveToCloudAskAlways">Selalu bertanya</string>
+
+	<!--Biftor Avatar click menu -->
+	<string name="ShowUserMessages">Tampilkan pesan pengguna</string>
+	<string name="ShowUserMedia">Tampilkan media pengguna</string>
+	<string name="ShowProfile">Buka profil</string>
+	<string name="BiftorCopyUsername">Salin nama pengguna</string>
+	<string name="BiftorUserNameCopied">Nama pengguna disalin ke papan klip</string>
+	<string name="BiftorCopiedToClipBoard"> disalin ke papan klip</string>
+	<string name="BiftorSendMessages">Mengirim pesan</string>
+	<string name="BiftorMention">Menyebut</string>
+	<string name="BiftorContextMenu">Menu konteks</string>
+	<string name="BiftorUserNameNotFound">Nama pengguna tidak ditemukan</string>
+	<string name="BiftorOpenOrChat">Pergi ke obrolan</string>
+
+	<!-- Biftor user photo as bg of DrawerProfileCell-->
+	<string name="BiftorUserPhotoAsProfileCellBG">Gunakan avatar sebagai latar belakang</string>
+
+	<!--Biftor media activity context menu -->
+	<string name="BiftorContextMenuGoToMessage">Pergi ke pesan</string>
+
+	<!--Biftor delete media from sdcard if exist too -->
+	<string name="BiftorDeleteMediaFromSdToo">Hapus juga dari cache</string>
+	<string name="BiftorDeleteFromYourSide">Akan menghapus hanya dari sisi Anda</string>
+	<string name="BiftorDeleteMediaAreYouSure">Apakah Anda yakin ingin menghapus media saja?</string>
+
+	<!--Biftor ChatPreView -->
+	<string name="BiftorChatPreViewCat">Pratinjau obrolan</string>
+	<string name="BiftorHideChatPreViewClearButton">Sembunyikan tombol Hapus Riwayat</string>
+	<string name="BiftorHideChatPreViewClearButtonSub">Sembunyikan tombol hapus riwayat untuk Pesan Tersimpan, grup dan saluran sendiri.</string>
+	<string name="BiftorHideChatPreViewDeleteButton">Sembunyikan Hapus tombol Obrolan</string>
+	<string name="BiftorHideChatPreViewDeleteButtonSub">Sembunyikan tombol hapus untuk Pesan Tersimpan, grup dan saluran sendiri.</string>
+
+	<!--Biftor port create link in message edit text-->
+	<string name="Strikethrough">Menyerang</string>
+	<string name="BiftorPaste">Tempel</string>
+	<string name="BiftorSelectAll">Pilih Semua</string>
+	<string name="BiftorQuotation">Kutipan</string>
+	<string name="BiftorReply">Balasan</string>
+	<string name="BiftorShare">Bagikan</string>
+	<string name="BiftorUserMention">&#8288; ID</string>
+
+	<!--Biftor custom markdown panel-->
+	<string name="EnableCustomMarkDown">Pemformatan lanjutan</string>
+	<string name="EnableCustomMarkDownSub">Panel pemformatan yang diperluas saat Anda memilih teks.</string>
+
+	<!--Biftor reset show pin message-->
+	<string name="BiftorResetPinMessage">Tampilkan pesan yang disematkan</string>
+
+	<!-- Biftor added about tab-->
+	<string name="BiftorAbout">Info</string>
+	<string name="BGramChangeLog">Ubah Log</string>
+	<string name="BGramChangeLogSub">Semua fitur dalam urutan mereka ditambahkan</string>
+	<string name="BGramChangeLogLoadFailed">Gagal memuat changelog</string>
+	<string name="BiftorSupport">Dukung</string>
+	<string name="BGramOfficialChannel">Saluran resmi</string>
+	<string name="BGramOfficialChannelSub">berita dan pembaruan bgram</string>
+	<string name="BGramOfficialGroups">Grup Pendukung Resmi</string>
+	<string name="BGramOfficialGroupsSub">Semua laporan bug dan ide dipersilakan.</string>
+	<string name="BGramOfficialGroupsEN">Inggris</string>
+	<string name="BGramOfficialGroupsFA">Orang Persia</string>
+	<string name="BGramOfficialGroupsRU">Rusia</string>
+	<string name="BGramOfficialGroupsUZ">Uzbek</string>
+	<string name="BGramOfficialGroupsAR">Arab</string>
+	<string name="BGramOfficialGroupsES">Orang Spanyol</string>
+	<string name="BGramOfficialGroupsIT">Italia</string>
+	<string name="BGramRateApp">Beri peringkat aplikasi</string>
+	<string name="BGramRateAppSub">Jika Anda menyukai aplikasi ini, kami menghargai skor tinggi Anda di Google Play. Jika ada masalah, sebelum memberikan skor rendah, jangan ragu untuk mengajukan pertanyaan di grup resmi.</string>
+	<string name="BiftorAppCredits">Kredit</string>
+	<string name="BiftorAppCreditsSub">Kredit untuk yang membantu membuat aplikasi ini</string>
+	<string name="BiftorAppHints">B-Guide</string>
+	<string name="BiftorAppHintsSub">Panduan video dan daftar tindakan dengan mengklik elemen antarmuka.</string>
+	<string name="BiftorDonate">Menyumbangkan</string>
+	<string name="BiftorDonateSub">Buat penulisnya bahagia</string>
+	<string name="BiftorDonateMoreDetail">Anda dapat merangsang penulis dengan sumbangan kecil untuk mempertahankan sikap kerja. Dengan mengirimkan hadiah yang lebih besar, Anda dapat meminta penulis untuk menambahkan fitur pilihan Anda ke aplikasi.</string>
+	<string name="BiftorDonateBTC">Bitcoin</string>
+	<string name="BiftorDonateBTCCASH">Uang tunai bitcoin</string>
+	<string name="BiftorDonateEther">Eter</string>
+	<string name="BiftorDonateStellar">bintang</string>
+	<string name="BiftorDonatePayPal">PayPal</string>
+	<string name="BiftorDonateYandex">Yandex</string>
+	<string name="BiftorDonatePayeer">pembayar</string>
+	<string name="BiftorDonateQiwi">Qiwi</string>
+	<string name="BiftorGettingDonationAddress">Mendapatkan alamat donasi…</string>
+	<string name="BiftorDonationAddressCopied">Alamat donasi disalin ke papan klip.</string>
+	<string name="BiftorGettingDonationAddressFailed">Gagal memuat alamat donasi, coba lagi nanti…</string>
+
+	<!-- Biftor added ghost mode tile-->
+	<string name="BiftorGhostModTile">Status mode baca tersembunyi</string>
+	<string name="BiftorGhostModIsEnable">Bacaan tersembunyi diaktifkan</string>
+	<string name="BiftorGhostModIsDisable">Bacaan tersembunyi dinonaktifkan</string>
+
+	<!--Biftor allow to set a proxy before login-->
+	<string name="BiftorLoginProxy">Cara mengaktifkan TOR:\n▸buka bagian SET PROXY,\n▸tambahkan proxy baru (kaus kaki5), server 127.0.0.1, port 9050,\n▸aktifkan TOR dan tunggu 100% bootstrap. \nSelesai. \n\nJika terjadi masalah koneksi, aktifkan bridge dan dapatkan dari Github.</string>
+	<string name="BiftorLoginProxyBTN">SET PROXY</string>
+
+	<!-- Biftor chat quick panel -->
+	<string name="QuickBarCat">Bilah cepat</string>
+	<string name="ShowQuickBar">Aktifkan bilah cepat</string>
+	<string name="VerticalQuickBar">Bilah cepat vertikal</string>
+	<string name="AlwaysBackToMain">Selalu kembali ke layar utama</string>
+	<string name="DoNotCloseQuickBar">Jangan tutup bilah cepat</string>
+	<string name="HideQuickBarOnScroll">Sembunyikan saat menggulir</string>
+	<string name="CenterQuickBarButton">Tombol bilah cepat tengah</string>
+	<string name="ShowMembersOnQuickBar">Tampilkan anggota dalam grup</string>
+	<string name="BiftorQuickBarClickAction">Tindakan klik avatar</string>
+	<string name="BiftorQuickBarLongClickAction">Avatar aksi pers lama</string>
+	<string name="BiftorQuickBarLongClickActionOnMembersList">Aksi pers lama anggota grup</string>
+
+	<!--Biftor confirm to voice and video msg-->
+	<string name="BiftorConfirmToSendVoice">Pesan suara</string>
+	<string name="BiftorConfirmToSendRoundVideo">Pesan video</string>
+	<string name="BiftorConfirmToSendSticker">Stiker</string>
+	<string name="BiftorConfirmToSendGIF">GIF</string>
+	<string name="BiftorSendGif">Kirim GIF</string>
+
+	<!--Biftor drawer show phone type-->
+	<string name="BiftorDrawerShowNameType">Baris nama</string>
+	<string name="BiftorDrawerShowPhoneType">Baris nomor telepon</string>
+	<string name="BiftorName">Nama</string>
+	<string name="BiftorPhone">Telepon</string>
+	<string name="BiftorUserName">Nama pengguna (jika ada)</string>
+	<string name="BiftorUserId">ID Telegram</string>
+	<string name="BiftorHide">Menyembunyikan</string>
+
+	<!--Biftor find my messages-->
+	<string name="BiftorFindMyMess">Temukan pesan saya</string>
+	<string name="BiftorFindReplyToThisMsg">Temukan balasan</string>
+
+	<!--Biftor View Channels only-->
+	<string name="BiftorViewOnly">Lihat saja</string>
+
+	<!--Biftor Direct save and edit btn -->
+	<string name="BiftorShowDirectSaveToCloud">Tampilkan tombol simpan pesan di obrolan</string>
+	<string name="BiftorShowDirectEdit">Tampilkan tombol edit dalam obrolan</string>
+	<string name="BiftorShowDirectShare">Tampilkan tombol bagikan langsung di obrolan</string>
+
+	<!--Biftor copy msg owner name -->
+	<string name="BiftorCopyMsgOwnerName">Mengutip saat menyalin pesan</string>
+	<string name="BiftorCopyMsgWithOwnerName">Dengan nama penulis</string>
+	<string name="BiftorCopyMsgWithOutOwnerName">Tanpa nama pengarang</string>
+	<string name="BiftorCopyMsgAlwaysAsk">Selalu bertanya</string>
+	<string name="BiftorCopyMsgTitle">Salin pesan</string>
+	<string name="BiftorCopyMsgAsk">Salin dengan nama penulis?</string>
+	<string name="BiftorCopyOnlyText">Hanya Teks</string>
+	<string name="BiftorYes">Iya</string>
+	<string name="BiftorNo">Tidak</string>
+
+	<!--Biftor forward confirm panel -->
+	<string name="BiftorShowForwardConfirm">Tampilkan penerima sebelum mengirim</string>
+	<string name="BiftorShowForwardConfirmsSub">Tampilkan daftar penerima pada panel khusus sebelum mengirim.</string>
+	<string name="BiftorGoBack">Kembali</string>
+
+	<!-- Biftor add night mode switch -->
+	<string name="BiftorNightMode">Mode malam</string>
+	<string name="BiftorNightModeManual">manual</string>
+	<string name="BiftorDefaultDayTheme">Tema hari default</string>
+	<string name="BiftorDefaultNightTheme">Tema malam default</string>
+	<string name="BiftorDefaultThemeDetail">Pengalih tema bilah sisi secara default</string>
+
+	<!-- Biftor hidden chats -->
+	<string name="BiftorHiddenChats">Obrolan tersembunyi</string>
+	<string name="BiftorAddToHiddenChat">Tambahkan ke obrolan tersembunyi</string>
+	<string name="BiftorDeleteHiddenChats">Hapus dari obrolan tersembunyi</string>
+	<string name="BiftorHiddenChatsPass">Obrolan tersembunyi Kunci Kode Sandi</string>
+	<string name="BiftorSetPassCodeForHiddenChats">Setel kata sandi obrolan tersembunyi Anda</string>
+	<string name="BiftorRemoveHiddenChatsFromSearch">Hapus obrolan tersembunyi dari pencarian</string>
+	<string name="BiftorChangePasscodeInfo">Saat Anda menyiapkan kode sandi tambahan untuk obrolan tersembunyi setiap kali Anda ingin mendapatkan akses ke properti obrolan tersembunyi, akan menanyakan kata sandi Anda. juga ini umum di semua akun Anda. \n\nCatatan: jika Anda lupa kode sandi, Anda tidak dapat membuka obrolan tersembunyi, Anda harus menghapus dan menginstal ulang aplikasi. Semua obrolan rahasia akan hilang.</string>
+	<string name="BiftorHiddenChatsButton">Tombol obrolan tersembunyi</string>
+	<string name="BiftorHiddenChatsButtonNewMessages">Tekan lama pada tombol mengambang</string>
+	<string name="BiftorHiddenChatsButtonSearch">Tekan lama pada pencarian</string>
+	<string name="BiftorHiddenChatsButtonOpenDrawer">Tekan lama pada tombol menu</string>
+	<string name="BiftorRemoveHiddenChatsNotifi">Hapus notifikasi obrolan tersembunyi</string>
+
+	<!-- Biftor export chat list -->
+	<string name="BiftorExportChatsLink">Ekspor daftar obrolan ke file</string>
+	<string name="BiftorExportFailed">Ekspor gagal</string>
+	<string name="BiftorExportNoTitle">Tanpa judul</string>
+	<string name="BiftorExportNoUserName">Tidak ada nama pengguna</string>
+	<string name="BiftorExportNoLink">Tidak ada hubungan</string>
+	<string name="BiftorExportTypePrefix">Type:</string>
+	<string name="BiftorExportTitlePrefix">Title:</string>
+	<string name="BiftorExportUserNamePrefix">Username:</string>
+	<string name="BiftorExportLinkPrefix">Link:</string>
+	<string name="BiftorExportUserIdPrefix">Identitas pengguna:</string>
+	<string name="BiftorExportChatIdPrefix">ID Obrolan:</string>
+	<string name="BiftorExportCountPrefix">Count:</string>
+
+	<!--Show real members of groups or channels -->
+	<string name="BiftorShowExactNumberOfMembers">Tampilkan angka pasti</string>
+	<string name="BiftorShowExactNumberOfMembersSub">Tampilkan jumlah penayangan dan anggota/pelanggan yang tepat</string>
+
+	<!--‌ Biftor remove call button in profile -->
+	<string name="BiftorRemoveCallButtonInProfile">Sembunyikan tombol panggilan di profil pengguna</string>
+
+	<!--‌ Biftor forward config -->
+	<string name="ForwardTabsCat">Tab Maju</string>
+	<string name="ForwardTabsHided">Tab teruskan disembunyikan</string>
+	<string name="BiftorForwardCopyLink">Salin tautan</string>
+
+	<!--‌ Biftor mark on msg -->
+	<string name="BiftorSetMarkOnMsg">Tetapkan tanda pada pesan</string>
+	<string name="BiftorGoToMarkedMsg">Pergi ke pesan yang ditandai</string>
+	<string name="BiftorResetMarkedMsg">Setel ulang tandai pesan</string>
+
+	<!--Biftor Font picker -->
+	<string name="BiftorFontsPickerCat">Pemilih Font</string>
+	<string name="BiftorEnableCustomFont">Aktifkan font khusus</string>
+	<string name="BiftorEnableSystemCustomFont">Gunakan font sistem perangkat</string>
+	<string name="BiftorSystemFontLight">Pilih gaya font ringan</string>
+	<string name="BiftorSystemFontBold">Pilih gaya font Tebal</string>
+	<string name="BiftorFontsPickerLight">Pilih sebagai font Ringan</string>
+	<string name="BiftorFontsPickerBold">Pilih sebagai font Tebal</string>
+	<string name="BiftorFontsPickerItalic">Pilih sebagai font Miring</string>
+	<string name="BiftorFontsPickerMono">Pilih sebagai font Mono</string>
+	<string name="BiftorFontsReset">Setel ulang ke font default</string>
+	<string name="BiftorFontRestarter">Mulai ulang aplikasi</string>
+	<string name="BiftorYouNeedToRestartApp">Mulai ulang aplikasi untuk menerapkan perubahan font</string>
+	<string name="BiftorLongClickOnEachOneToReset">Tekan lama untuk mengatur ulang ke default</string>
+	<string name="BiftorEmojiSize">Ukuran emoji</string>
+	<string name="BiftorEmojiPreview">Sesuaikan %1$s ukuran emoji</string>
+	<string name="BiftorVerticalAlignmentBottom">Perataan bawah emoji</string>
+
+	<!--Biftor use persian calendar -->
+	<string name="BiftorAlwaysUsePersianCalendar">Selalu gunakan kalender Persia</string>
+	<!-- Biftor multiaccount count -->
+	<string name="BiftorAccountRestarterTitle">Mulai ulang aplikasi!</string>
+	<string name="BiftorAccountRestarterMess">Akun baru terdeteksi. Silakan mulai ulang aplikasi untuk memuatnya.</string>
+	<string name="BiftorAccountRestarterNow">Restart sekarang</string>
+
+	<!-- Biftor on or off account -->
+	<string name="BiftorOnline">on line</string>
+	<string name="BiftorOffline">offline</string>
+	<string name="BiftorNow">sekarang adalah</string>
+
+	<string name="BiftorRestartMsg">Harap mulai ulang aplikasi untuk menyelesaikan tindakan ini.</string>
+
+	<string name="BiftorLongClickSetDefault">Tekan lama untuk mengatur ulang ke default.</string>
+	<string name="BiftorRestoredToDef">Dipulihkan ke default.</string>
+
+	<!-- Biftor Tablet Mode -->
+	<string name="BiftorSetTabletMode">Modus tablet</string>
+	<string name="BiftorSetTabletModeAuto">Mobil</string>
+	<string name="BiftorSetTabletModeAlwaysTablet">Selalu tablet (lanskap)</string>
+	<string name="BiftorSetTabletModeAlwaysPhone">Selalu telepon (potret)</string>
+
+	<!-- Biftor full width -->
+	<string name="BiftorFullWidthMsgs">Foto lebar penuh</string>
+	<string name="BiftorFullWidthThreshold">Ambang lebar penuh Full</string>
+	<string name="BiftorFullWidthThresholdOfScreen">%1$s layar</string>
+
+	<!-- Biftor font preview -->
+	<string name="BiftorFontPreviewTextEn" translatable="false">Ini adalah font pilihan Anda jika Anda suka lalu atur.</string>
+	<string name="BiftorFontPreviewTextFa" translatable="false">این اابی ا ا ا ا اال .</string>
+	<string name="BiftorFontPreviewTextAr" translatable="false">ا الخط الذي اخترته ا .</string>
+	<string name="BiftorFontPreviewTextRu" translatable="false">ерите ачертания  применения а.</string>
+
+	<!-- Biftor apply font from chat -->
+	<string name="BiftorApplyFontFile">Terapkan file font</string>
+	<string name="BiftorApplyFontLight">Untuk font Ringan</string>
+	<string name="BiftorApplyFontBold">Untuk huruf tebal</string>
+	<string name="BiftorApplyFontItalic">Untuk huruf miring</string>
+	<string name="BiftorApplyFontMono">Terapkan file Mono</string>
+
+	<!-- Biftor group members filter -->
+	<string name="BiftorGroupMembersFilter">Filter anggota</string>
+	<string name="BiftorGroupMembersFilterDeleteAccounts">Dihapus dulu</string>
+	<string name="BiftorGroupRemoveDeleteAccounts">Hapus akun yang dihapus</string>
+	<string name="BiftorAreYouSureDeletedAccounts">Anda yakin ingin menghapus akun terhapus yang terhitung?</string>
+	<string name="BiftorGroupDeleteAllMyMsgs">Hapus semua pesan saya</string>
+	<string name="BiftorAreYouSureDeletedAllMsg">Yakin ingin menghapus semua pesan Anda **%1$s**?</string>
+
+	<string name="BiftorCreator">Creator:&#160;</string>
+	<string name="BiftorId">ID&#160;</string>
+
+	<!-- Biftor auto download next media -->
+	<string name="BiftorEnableAutoDownloadNextMedia">Unduh otomatis media berikutnya</string>
+	<string name="BiftorDisableGoToNextMedia">Nonaktifkan buka media berikutnya</string>
+	<string name="BiftorDisableGoToNextMediaSub">Nonaktifkan buka media berikutnya dengan mengetuk tepi foto</string>
+
+	<!-- Biftor enable camera in attach menu -->
+	<string name="BiftorEnableCameraAttachMenu">Aktifkan kamera di panel lampirkan</string>
+
+	<!-- Biftor added more media screen tabs -->
+	<string name="BiftorMediaTabPhotos_zero">%1$d foto</string>
+	<string name="BiftorMediaTabPhotos_one">%1$d foto</string>
+	<string name="BiftorMediaTabPhotos_two">%1$d foto</string>
+	<string name="BiftorMediaTabPhotos_few">%1$d foto</string>
+	<string name="BiftorMediaTabPhotos_many">%1$d foto</string>
+	<string name="BiftorMediaTabPhotos_other">%1$d foto</string>
+
+	<string name="BiftorMediaTabVideos_zero">%1$d video</string>
+	<string name="BiftorMediaTabVideos_one">%1$d video</string>
+	<string name="BiftorMediaTabVideos_two">%1$d video</string>
+	<string name="BiftorMediaTabVideos_few">%1$d video</string>
+	<string name="BiftorMediaTabVideos_many">%1$d video</string>
+	<string name="BiftorMediaTabVideos_other">%1$d video</string>
+
+	<string name="BiftorMediaTabGifs_zero">%1$d gif</string>
+	<string name="BiftorMediaTabGifs_one">%1$d gif</string>
+	<string name="BiftorMediaTabGifs_two">%1$d gif</string>
+	<string name="BiftorMediaTabGifs_few">%1$d gif</string>
+	<string name="BiftorMediaTabGifs_many">%1$d gif</string>
+	<string name="BiftorMediaTabGifs_other">%1$d gif</string>
+
+	<string name="BiftorMediaTabRounds_zero">%1$d putaran</string>
+	<string name="BiftorMediaTabRounds_one">%1$d putaran</string>
+	<string name="BiftorMediaTabRounds_two">%1$d putaran</string>
+	<string name="BiftorMediaTabRounds_few">%1$d putaran</string>
+	<string name="BiftorMediaTabRounds_many">%1$d putaran</string>
+	<string name="BiftorMediaTabRounds_other">%1$d putaran</string>
+
+	<string name="BiftorMediaTabPhotos">FOTO</string>
+	<string name="BiftorProMediaTabPhotos">Foto</string>
+	<string name="BiftorProMediaTabVideos">Video</string>
+	<string name="BiftorProMediaTabGifs">GIF</string>
+	<string name="BiftorProMediaTabRounds">Putaran</string>
+	<string name="BiftorMediaTabVideos">VIDEO</string>
+	<string name="BiftorMediaTabGifs">GIF</string>
+	<string name="BiftorMediaTabRound">BULAT</string>
+	<string name="BiftorNoPhotoMedia">Bagikan foto dalam obrolan ini dan akses di salah satu perangkat Anda.</string>
+	<string name="BiftorNoPhotoMediaSecret">Foto dari obrolan ini akan ditampilkan di sini.</string>
+	<string name="BiftorNoVideoMedia">Bagikan video dalam obrolan ini dan akses di perangkat mana pun Anda.</string>
+	<string name="BiftorNoVideoMediaSecret">Video dari obrolan ini akan ditampilkan di sini.</string>
+	<string name="BiftorNoGifMedia">Bagikan GIF di obrolan ini dan akses di salah satu perangkat Anda.</string>
+	<string name="BiftorNoGifMediaSecret">Gif dari obrolan ini akan ditampilkan di sini.</string>
+	<string name="BiftorNoRoundMedia">Bagikan putaran dalam obrolan ini dan akses di salah satu perangkat Anda.</string>
+	<string name="BiftorNoRoundMediaSecret">Putaran dari obrolan ini akan ditampilkan di sini.</string>
+
+	<!-- Biftor auto proxy switching -->
+	<string name="BiftorAutoProxySwitching">Peralihan proxy</string>
+	<string name="BiftorProxySwitchingManual">manual</string>
+	<string name="BiftorProxySwitchingPing">Beralih otomatis dengan ping</string>
+	<string name="BiftorProxySwitchingSpeed">Peralihan otomatis dengan kecepatan koneksi</string>
+	<string name="BiftorProxySwitchingPingSpeed">Peralihan otomatis dengan ping dan kecepatan</string>
+	<string name="BiftorProxySwitchingToBest">Proxy otomatis beralih ke yang terbaik</string>
+	<string name="BiftorProxyCopiedToClipboard">%1$s proxy disalin ke papan klip</string>
+	<string name="BiftorSave">Menyimpan</string>
+
+	<!-- Biftor added ability to set photo quality -->
+	<string name="BiftorSendingPhotoQuality">Mengirim kualitas foto</string>
+
+	<!-- Biftor Dialogs avatar click action -->
+	<string name="BiftorDialogsAvatarDefClickAction">Tindakan klik avatar daftar obrolan</string>
+	<string name="BiftorDialogsAvatarDefLongClickAction">Avatar daftar obrolan, aksi tekan lama</string>
+	<string name="BiftorOpenAvatar">Buka avatar</string>
+
+	<!-- Biftor paint and mention button -->
+	<string name="BiftorShowPaintBtn">Tampilkan tombol menggambar di obrolan</string>
+	<string name="BiftorChatBotButton">Tindakan tombol bot</string>
+	<string name="BiftorChatBotShow">Perintah bot ( / )</string>
+	<string name="BiftorReplaceBotWithMentionBtn">Sebutkan anggota grup ( @ )</string>
+	<string name="BiftorChatBotHide">Menyembunyikan</string>
+
+	<!-- Biftor Clear Cache other files -->
+	<string name="BiftorClearCacheOtherFiles"><![CDATA[Clear сache —> Other files]]></string>
+	<string name="BiftorClearCacheOtherFilesInfo">A lot of temporary files accumulate in the cache, and this can cause problems when loading chats. It is advisable to delete them from the cache at least once a week (<![CDATA[Clear Cache —> Other files]]> button).</string>
+	<string name="BiftorKeepMediaInfo">Telegram adalah layanan cloud. Obrolan dan media bersama Anda disimpan di server awan Telegram dan diunduh ke folder sementara di perangkat Anda untuk akses cepat (dalam cache) saat Anda menontonnya.\n\nFoto, video, dan file lain dari obrolan awan yang Anda miliki **not diakses** selama periode ini akan dihapus dari perangkat ini untuk menghemat ruang disk.\nSemua media akan tetap berada di awan Telegram dan akan diunduh ulang saat Anda memutarnya.</string>
+
+	<!-- Biftor show view count in dialog list-->
+	<string name="BiftorShowViewCount">Tampilkan tampilan di daftar obrolan</string>
+	<string name="BiftorShowViewCountSub">Tampilkan jumlah penayangan alih-alih tanda centang untuk saluran sendiri dalam daftar obrolan.</string>
+
+	<!-- Biftor backup and restore-->
+	<string name="BiftorBackUpAndRestoreCat">Cadangkan dan pulihkan</string>
+	<string name="BiftorBackUp">Cadangan</string>
+	<string name="BiftorBackUpGlobal">Pengaturan global</string>
+	<string name="BiftorBackUpMain">Pengaturan utama</string>
+	<string name="BiftorBackUpFav">Obrolan favorit</string>
+	<string name="BiftorBackUpHidden">Obrolan tersembunyi</string>
+	<string name="BiftorBackUpFolders">Folder</string>
+	<string name="BiftorBackUpFonts">Font khusus</string>
+	<string name="BiftorBackUpAllAndSaveToCloud">Cadangkan semua dan simpan ke cloud</string>
+	<string name="BiftorBackUpSuccessful">Pencadangan berhasil ke</string>
+	<string name="BiftorBackUpUnSuccessful">Pencadangan gagal</string>
+
+	<string name="BiftorRestore">Mengembalikan</string>
+	<string name="BiftorRestoreGlobal">Pengaturan global</string>
+	<string name="BiftorRestoreMain">Pengaturan utama</string>
+	<string name="BiftorRestoreFav">Obrolan favorit</string>
+	<string name="BiftorRestoreHidden">Obrolan tersembunyi</string>
+	<string name="BiftorRestoreFolders">Folder</string>
+
+	<string name="BiftorRestoreToDef">Kembalikan ke default</string>
+	<string name="BiftorRestoreGlobalToDef">Kembalikan pengaturan global ke default</string>
+	<string name="BiftorRestoreMainToDef">Kembalikan pengaturan utama ke default</string>
+	<string name="BiftorRestoreFavToDef">Kembalikan obrolan favorit ke default</string>
+	<string name="BiftorRestoreHiddenToDef">Kembalikan obrolan tersembunyi ke default</string>
+	<string name="BiftorRestoreDialogsFolderToDef">Pulihkan folder dialog ke default server</string>
+
+	<string name="BiftorRestoreSuccessful">Berhasil dipulihkan</string>
+	<string name="BiftorRestoreUnSuccessful">Pemulihan gagal</string>
+	<string name="BiftorApplyBackUpFile">Terapkan file cadangan</string>
+
+	<!--Biftor show or hide cloud icon and record-->
+	<string name="BiftorShowCloudIconInHeader">Tampilkan tombol cloud di header</string>
+	<string name="BiftorShowVoiceRecordButton">Tampilkan tombol rekam suara/video</string>
+
+	<!--Biftor Contact multi select-->
+	<string name="BiftorAddToTheGroupTitle">Tambahkan %1$s kontak ke %2$s?</string>
+	<string name="BiftorAreYouSureDeleteContact">Anda yakin ingin menghapus %1$s kontak?</string>
+
+	<!--Biftor dialogs multi select and action-->
+	<string name="BiftorMultiSelect">Multi pilih untuk tindakan</string>
+	<string name="BiftorAddToGroupOrChannel">Tambahkan ke grup atau saluran</string>
+	<string name="BiftorDeleteOrLeave">Delete/Leave</string>
+	<string name="BiftorDeleteCacheOrDeleteFromCache">Hapus cache / Bersihkan riwayat</string>
+	<string name="BiftorAreYouSureDeleteCache">%1$s obrolan dipilih.\n\nPeringatan: untuk obrolan pribadi, ini akan menghapus riwayat.\n\nLanjutkan?</string>
+	<string name="BiftorAreYouSureDeleteChat">Anda yakin ingin menghapus/meninggalkan %1$s obrolan?</string>
+	<string name="BiftorMultiSelectAddToTheGroupTitle">Tambahkan %1$s pengguna ke %2$s?</string>
+
+	<!--Biftor open avatar photo everywhere-->
+	<string name="BiftorOpenAvatarPhoto">Buka avatar dengan mengetuk</string>
+	<string name="BiftorOpenAvatarPhotoSub">Buka foto saat mengetuk avatar di kontak dan daftar anggota grup.</string>
+
+	<!--Biftor open video or GIF with external player-->
+	<string name="BiftorOpenVideoBy">Pemutar video</string>
+	<string name="BiftorDoYouWantPlayWithExPlayer">Apakah Anda ingin membuka video dengan pemutar eksternal?</string>
+	<string name="BiftorVideoPlayerAlwaysExternal">Eksternal selalu</string>
+	<string name="BiftorVideoPlayerAlwaysInternal">internal selalu</string>
+	<string name="BiftorVideoPlayerAlwaysAsk">Selalu bertanya</string>
+
+	<!--Biftor merge msg antiflood-->
+	<string name="BiftorMergeMsgsIntoOne">Gabungkan pesan saya</string>
+	<string name="BiftorMergeMsgsIntoOneSub">Gabungkan pesan teks yang dikirim berturut-turut agar tidak membanjiri dan mengganggu orang lain.</string>
+	<string name="BiftorMergeMsgsTime">Batas waktu penggabungan</string>
+	<string name="BiftorMergeMsgsChars">Batas karakter pesan</string>
+	<string name="BiftorMergeToastEnabled">Penggabungan pesan diaktifkan</string>
+	<string name="BiftorMergeToastDisabled">Penggabungan pesan dinonaktifkan</string>
+
+	<!--Biftor add ability to sort accounts-->
+	<string name="BiftorSortAccounts">Pesanan akun</string>
+	<string name="BiftorHideOffAccounts">Sembunyikan dinonaktifkan</string>
+	<string name="BiftorHideOffAccountsSub">Jangan tampilkan akun yang dinonaktifkan dalam daftar</string>
+
+	<!--Biftor add ability to sort pinned dialogs-->
+	<string name="BiftorSortPinnedDialog">Urutkan obrolan yang disematkan</string>
+
+	<!--Biftor added inviter-->
+	<string name="BiftorInvitedBy">Diundang oleh %1$s</string>
+	<string name="BiftorSelfJoined">Bergabung melalui tautan</string>
+
+	<!--Biftor enter and exit animation -->
+	<string name="BiftorEnterAndExitAnim">Masuk/keluar animasi</string>
+	<string name="BiftorEnterAndExitTelegramAnim">Telegram</string>
+	<string name="BiftorEnterAndExitTelegramXAnim">Telegram X</string>
+
+	<!--Biftor reorder the settings-->
+	<string name="BiftorPrivacyCat">Pribadi</string>
+	<string name="BiftorSidebarCat">Bilah samping</string>
+	<string name="BiftorFontPickerCat">pemilih font</string>
+	<string name="BiftorOthersCat">Lain</string>
+
+	<string name="BiftorMain">Utama</string>
+	<string name="BiftorAppearance">Melihat</string>
+	<string name="BiftorChatListCat">daftar obrolan</string>
+	<string name="BiftorTabsCat">tab</string>
+	<string name="BiftorButtonsCat">Tombol</string>
+	<string name="BiftorBubblesCat">Gelembung obrolan</string>
+
+	<!--Biftor customizable context menu-->
+	<string name="BiftorContextMenuCat">Menu konteks</string>
+	<string name="BiftorMsgContextMenu">Menu konteks pesan</string>
+	<string name="BiftorMsgContextMenuSub">Tekan lama pada pilih semua ikon, untuk mengatur ulang ke default</string>
+	<string name="BiftorSortMsgContextMenu">Urutkan menu konteks pesan</string>
+
+	<string name="BiftorChatting">Obrolan</string>
+	<string name="BiftorMsgMergingCat">Penggabungan pesan</string>
+	<string name="BiftorSendConfirmCat">Mengirim konfirmasi</string>
+	<string name="BiftorForwardPanelCat">Panel penerusan</string>
+
+	<!--Biftor External language-->
+	<string name="BiftorLocalVersion">0</string>
+
+	<!--Biftor login with bot-->
+	<string name="BiftorLoginWithBotToKen">Masuk dengan token bot</string>
+	<string name="BiftorBotToken">Tempel token bot Anda</string>
+	<string name="BiftorLoginWithBotInfo">You can use the @BotFather to create a new bot.\n\nWhen you login with a bot, you will have all the limitations that bots have, including:\n - You do not have access to your contacts.\n - You can\'t join groups and channels (unless admins add you).\n - You can only write to users who have already sent you /start.\n - You will not be able to see when users read your messages.\n - You can\'t block users.\n - The chat list is empty when you first login, and will populate when the bot receives messages from users and groups. Group detection can be particularly slow.</string>
+
+	<!--Biftor Tor -->
+	<string name="BiftorTorStarting">TOR dimulai&#8230;</string>
+	<string name="BiftorTorActivated">Terhubung ke jaringan TOR</string>
+	<string name="BiftorTorDisabled">TOR dinonaktifkan</string>
+	<string name="BiftorTorShuttingDown">Layanan TOR dimatikan</string>
+	<string name="BiftorTorProcessStarting">Memulai klien TOR&#8230;</string>
+	<string name="BiftorTorProcessComplete">complete.</string>
+	<string name="BiftorStopTor">Hentikan TOR</string>
+	<string name="BiftorCouldntStartTorProcess">Tidak dapat memulai proses TOR:</string>
+	<string name="BiftorTorYourReachableAddressesException">Pengaturan ReachableAddresses Anda menyebabkan pengecualian!</string>
+	<string name="BiftorTorYourRelaySettingsException">Pengaturan relai Anda menyebabkan pengecualian!</string>
+	<string name="BiftorTorUseBridges">Gunakan Jembatan</string>
+	<string name="BiftorFoundExistingTorProcess">menemukan proses TOR yang ada&#8230;</string>
+	<string name="BiftorTorSomethingBadHappened">Sesuatu yang buruk telah terjadi. Cek lognya</string>
+	<string name="BiftorTorUnableToStartTor">Tidak dapat memulai TOR:</string>
+	<string name="BiftorTorNoInternetConnection">Tidak ada koneksi internet; TOR dalam keadaan siaga…</string>
+	<string name="BiftorTorNewnym">Anda telah beralih ke identitas TOR baru!</string>
+	<string name="BiftorTorNoInternetConnectionSleep">Tidak ada konektivitas jaringan. Menidurkan TOR…</string>
+	<string name="BiftorTorGoodInternetConnectionWakingUp">Konektivitas jaringan bagus. Membangunkan TOR…</string>
+	<string name="BiftorUpdatingSettingsInTor">memperbarui pengaturan di layanan TOR</string>
+	<string name="kbps">kbps</string>
+	<string name="mbps">mbps</string>
+	<string name="kb">KB</string>
+	<string name="mb">MB</string>
+	<string name="BiftorTorDefaultWorld">Global (Otomatis)</string>
+	<string name="BiftorTorBridgeHints">Jika jaringan seluler Anda secara aktif memblokir TOR, Anda dapat menggunakan \'Bridge Server\' sebagai cara alternatif masuk. PILIH salah satu opsi untuk mengonfigurasi dan menguji…</string>
+	<string name="BiftorTorTestingBridges">Menguji koneksi jembatan ke TOR....</string>
+	<string name="BiftorTorTestingBridgesSuccess">Keberhasilan. Konfigurasi jembatan bagus!</string>
+	<string name="BiftorTorTestingBridgesFail">GAGAL. Coba opsi lain</string>
+	<string name="BiftorTorBridgesDirectConnect">Terhubung langsung ke TOR (Terbaik)</string>
+	<string name="BiftorTorBridgesCommunity">Terhubung melalui server komunitas</string>
+	<string name="BiftorTorBridgesCloud">Terhubung melalui server cloud</string>
+	<string name="BiftorTorBridgesGetNew">Minta jembatan baru dari web</string>
+	<string name="BiftorTorBridgeInput">Tempel jembatan Anda di sini</string>
+	<string name="BiftorTorTroubleConnecting">Ada masalah saat menyambungkan?</string>
+	<string name="BiftorTorNewIdentity">Identitas Baru</string>
+	<string name="BiftorChangeSideBarProxyToTor">Ganti proxy Sidebar dengan TOR</string>
+	<string name="BiftorUseTor">Gunakan TOR</string>
+	<string name="BiftorTor">TOR</string>
+	<string name="BiftorConnectingToTor">Menghubungkan ke TOR</string>
+	<string name="BiftorTorSettings">pengaturan TOR</string>
+	<string name="BiftorPersistNotification">Pertahankan pemberitahuan</string>
+	<string name="BiftorStopTorWhenAppClosed">Hentikan saat aplikasi ditutup</string>
+	<string name="BiftorStopTorWhenAppClosedSub">Hentikan TOR saat Aplikasi Ditutup, jika Anda menonaktifkannya, saat TOR diaktifkan, seluruh aplikasi tidak akan ditutup.</string>
+	<string name="BiftorIsolateDest">Isolasi alamat tujuan</string>
+	<string name="BiftorIsolateDestSub">Gunakan sirkuit yang berbeda untuk setiap alamat tujuan</string>
+	<string name="BiftorPreferIpv6">Lebih suka koneksi IPv6</string>
+	<string name="BiftorPreferIpv6Sub">Memberitahu keluar bahwa alamat IPv6 lebih disukai</string>
+	<string name="BiftorDisableIpv4">Nonaktifkan koneksi IPv4</string>
+	<string name="BiftorDisableIpv4Sub">Memberitahu keluar untuk tidak terhubung ke alamat IPv4</string>
+	<string name="BiftorConnectionPadding">Bantalan koneksi</string>
+	<string name="BiftorConnectionPaddingSub">Selalu aktifkan padding koneksi untuk bertahan dari beberapa bentuk analisis lalu lintas. Bawaan: otomatis</string>
+	<string name="BiftorReducedConnectionPadding">Mengurangi bantalan koneksi</string>
+	<string name="BiftorReducedConnectionPaddingSub">Menutup koneksi relai lebih cepat dan mengirimkan lebih sedikit paket padding untuk mengurangi penggunaan data dan baterai</string>
+	<string name="BiftorConnectTorWhenForNotify">Hubungkan TOR saat pemberitahuan diterima</string>
+	<string name="BiftorGetBridgeFromGithub">Minta jembatan baru dari Github</string>
+	<string name="BiftorTORModule">BGram TOR</string>
+
+	<!--Biftor custom tabs-->
+	<string name="BiftorNewTab">Tab baru</string>
+	<string name="BiftorTabName">Nama tab</string>
+	<string name="BiftorTabNameHint">Masukkan nama tab Anda</string>
+	<string name="BiftorTabIcon">Ikon Tab</string>
+	<string name="BiftorAddToCustomTabs">Tambahkan ke tab khusus</string>
+	<string name="BiftorDeleteFromCustomTabs">Hapus dari tab khusus</string>
+	<string name="BiftorNoNameError">Anda tidak dapat membuat tab tanpa nama.</string>
+	<string name="BiftorCustomTabEndReach">Sudah menggunakan semua tab khusus, Anda tidak dapat membuat yang baru.</string>
+	<string name="BiftorCleanCustomTabWarning">Yakin ingin menghapus semua tentang ini: **%1$s** tab khusus?</string>
+	<string name="BiftorTabIconSize">Ukuran ikon tab</string>
+	<string name="BiftorTabIconTextIcon">Ikon teks</string>
+	<string name="BiftorTabIconTextIconEnter">Masukkan teks Anda</string>
+	<string name="BiftorRemoveExtraIconWarning">Yakin ingin menghapus ikon **%1$s**?</string>
+	<string name="BiftorRemoveAllExtraIconWarning">Anda yakin ingin menghapus semua ikon khusus?</string>
+	<string name="BiftorMultiSelectEndReach">Anda tidak dapat memilih lebih dari **%1$s** item.</string>
+	<string name="BiftorHideCustomTabChatsFrom">Sembunyikan obrolan tab khusus dari</string>
+	<string name="BiftorHideCustomTabChatsFromUser">Pengguna</string>
+	<string name="BiftorHideCustomTabChatsFromGroups">Grup</string>
+	<string name="BiftorHideCustomTabChatsFromChannel">saluran</string>
+	<string name="BiftorHideCustomTabChatsFromSupperGroups">Grup super</string>
+	<string name="BiftorHideCustomTabChatsFromBots">Bot</string>
+	<string name="BiftorHideCustomTabChatsFromAllGroups">Semua grup</string>
+	<string name="BiftorHideCustomTabChatsFromAll">Tab semua</string>
+	<string name="BiftorDontHideCustomTabChats">Jangan sembunyikan</string>
+	<string name="BiftorMayNeedsToRestart">Mungkin perlu dimulai ulang</string>
+	<string name="BiftorAllowSyncExtraFolders">Izinkan sinkronisasi folder ekstra</string>
+	<string name="BiftorAllowSyncExtraFoldersSub">Jika Anda memiliki lebih dari 10 folder, Anda mungkin perlu menonaktifkan sinkronisasi folder ke server karena dapat menghapus folder tambahan atau mengubah urutan folder</string>
+
+	<!-- Biftor goto msg for all chats-->
+	<string name="BiftorMentionMsg">Menyebut</string>
+	<string name="BiftorMentionMsgGoto">››&#160;</string>
+	<string name="BiftorGoToLinkChatNotFound">Obrolan **%1$s** tidak ditemukan, mungkin dihapus atau Anda tidak memiliki obrolan ini.</string>
+	<string name="BiftorGoToLinkInvalidLink">Tautan masuk ke pesan tidak valid</string>
+
+	<!-- Biftor goto msg for all chats-->
+	<string name="BiftorDisableVoiceProximitySensor">Nonaktifkan sensor jarak</string>
+	<string name="BiftorDisableVoiceProximitySensorSub">Nonaktifkan sensor jarak saat audio diputar</string>
+
+	<!-- Biftor custom user mention-->
+	<string name="BiftorCustomUserMention">Penyebutan pengguna khusus</string>
+	<string name="BiftorUserMentionListLongTap">Sebutkan daftar tekan lama</string>
+	<string name="BiftorUserMentionListLongTapSub">Tindakan dengan menekan lama pada nama dalam daftar drop-down setelah mengetik \@ dalam grup.</string>
+	<string name="BiftorUserMentionInsertName">Sisipkan sebutan dengan nama</string>
+	<string name="BiftorUserMentionInsertCustomName">Mengedit munculan sebutan mention</string>
+	<string name="BiftorCustomUserMentionName">Masukkan nama pengguna</string>
+	<string name="BiftorCustomUserMentionId">Masukkan ID pengguna</string>
+	<string name="BiftorCustomUserMentionError">Pengguna tidak ditemukan dalam database, salin ID dari profil pengguna.</string>
+
+	<!-- Biftor save to chat folder-->
+	<string name="BiftorSaveToChatFolder">Simpan ke folder obrolan</string>
+
+	<!--Biftor keep screen on -->
+	<string name="BiftorKeepScreenOn">Biarkan layarnya menyala</string>
+	<string name="BiftorKeepScreenOnSub">Batasi layar agar tidak mati saat aplikasi terbuka.</string>
+
+
+	<!--Biftor Drawer Menu to Avatar -->
+	<string name="BiftorChangeDrawerMenuToAvatar">Tampilkan Avatar di menu</string>
+	<string name="BiftorChangeDrawerMenuToAvatarSub">Tampilkan avatar akun saat ini di tombol menu bilah sisi</string>
+
+	<string name="BiftorQuoteForward">“Forward”</string>
+	<string name="BiftorChannelDiscuss">Bahas</string>
+
+	<!--Biftor Translate-->
+	<string name="BiftorTranslate">Menterjemahkan</string>
+	<string name="BiftorTranslateKeySave">Simpan kunci</string>
+	<string name="BiftorTranslateYandexKey">Kunci terjemahan Yandex</string>
+	<string name="BiftorTranslateYouNeedYandexAPIKey">Kunci api Yandex kosong, Anda memerlukan kunci api terjemahan Yandex yang valid</string>
+	<string name="BiftorTranslateAllLanguage">Semua bahasa</string>
+	<string name="BiftorTranslateRecently">Bahasa yang baru saja digunakan</string>
+	<string name="BiftorTranslateClearRecently">Hapus bahasa yang baru saja digunakan?</string>
+	<string name="BiftorTranslateDefaultTarget">Target Bawaan</string>
+	<string name="BiftorUndoTranslation">Urungkan terjemahan</string>
+	<string name="BiftorResetTranslation">Setel ulang terjemahan</string>
+	<string name="BiftorTranslateSettings">Pengaturan Terjemahan</string>
+	<string name="BiftorTranslateSource">Sumber Terjemahan</string>
+	<string name="BiftorTranslateSourceGoogle">Google</string>
+	<string name="BiftorTranslateSourceYandex">Yandex</string>
+	<string name="BiftorTranslateEnterText">Masukkan teks</string>
+	<string name="BiftorTranslateEnterTextEmpty">Anda harus memasukkan teks untuk menerjemahkan</string>
+	<string name="BiftorTranslateAUTO_DETECT">DETEKSI OTOMATIS</string>
+	<string name="BiftorTranslateAFRIKAANS">AFRIKANAS</string>
+	<string name="BiftorTranslateALBANIAN">BAHASA ALBANIA</string>
+	<string name="BiftorTranslateARABIC">ARAB</string>
+	<string name="BiftorTranslateARMENIAN">ARMENIA</string>
+	<string name="BiftorTranslateAZERBAIJANI">AZERBAIJANI</string>
+	<string name="BiftorTranslateBASQUE">DASAR</string>
+	<string name="BiftorTranslateBELARUSIAN">BELARUSIA</string>
+	<string name="BiftorTranslateBENGALI">BENGGALA</string>
+	<string name="BiftorTranslateBULGARIAN">BULGARIA</string>
+	<string name="BiftorTranslateCATALAN">KATALAN</string>
+	<string name="BiftorTranslateCHINESE">CINA</string>
+	<string name="BiftorTranslateCROATIAN">KROASIA</string>
+	<string name="BiftorTranslateCZECH">CEKO</string>
+	<string name="BiftorTranslateDANISH">ORANG DENMARK</string>
+	<string name="BiftorTranslateDUTCH">BELANDA</string>
+	<string name="BiftorTranslateENGLISH">INGGRIS</string>
+	<string name="BiftorTranslateESTONIAN">ESTONIA</string>
+	<string name="BiftorTranslateFILIPINO">FILIPINA</string>
+	<string name="BiftorTranslateFINNISH">FINLANDIA</string>
+	<string name="BiftorTranslateFRENCH">PERANCIS</string>
+	<string name="BiftorTranslateGALICIAN">GALI</string>
+	<string name="BiftorTranslateGEORGIAN">GEORGIA</string>
+	<string name="BiftorTranslateGERMAN">JERMAN</string>
+	<string name="BiftorTranslateGREEK">YUNANI</string>
+	<string name="BiftorTranslateGUJARATI">GUJARATI</string>
+	<string name="BiftorTranslateHAITIAN_CREOLE">KREOL HAITIAN</string>
+	<string name="BiftorTranslateHEBREW">IBRANI</string>
+	<string name="BiftorTranslateHINDI">HINDI</string>
+	<string name="BiftorTranslateHUNGARIAN">HONGARIA</string>
+	<string name="BiftorTranslateICELANDIC">Islandia</string>
+	<string name="BiftorTranslateINDONESIAN">BAHASA INDONESIA</string>
+	<string name="BiftorTranslateIRISH">ORANG IRLANDIA</string>
+	<string name="BiftorTranslateITALIAN">ITALIA</string>
+	<string name="BiftorTranslateJAPANESE">JEPANG</string>
+	<string name="BiftorTranslateKANNADA">KANNADA</string>
+	<string name="BiftorTranslateKAZAKH">KAZAKH</string>
+	<string name="BiftorTranslateKOREAN">KOREA</string>
+	<string name="BiftorTranslateLATIN">LATIN</string>
+	<string name="BiftorTranslateLATVIAN">LATVIA</string>
+	<string name="BiftorTranslateLITHUANIAN">LITHUANIA</string>
+	<string name="BiftorTranslateMACEDONIAN">MACEDONIA</string>
+	<string name="BiftorTranslateMALAY">MELAYU</string>
+	<string name="BiftorTranslateMALTESE">MALTA</string>
+	<string name="BiftorTranslateNORWEGIAN">NORWEGIA</string>
+	<string name="BiftorTranslatePERSIAN">ORANG PERSIA</string>
+	<string name="BiftorTranslatePOLISH">POLANDIA</string>
+	<string name="BiftorTranslatePORTUGUESE">PORTUGIS</string>
+	<string name="BiftorTranslateROMANIAN">RUMANIA</string>
+	<string name="BiftorTranslateRUSSIAN">RUSIA</string>
+	<string name="BiftorTranslateSERBIAN">ORANG SERBIA</string>
+	<string name="BiftorTranslateSLOVAK">ORANG SLOVAKIA</string>
+	<string name="BiftorTranslateSLOVENIAN">SLOVENIA</string>
+	<string name="BiftorTranslateSPANISH">ORANG SPANYOL</string>
+	<string name="BiftorTranslateSWAHILI">SWAILI</string>
+	<string name="BiftorTranslateSWEDISH">ORANG SWEDIA</string>
+	<string name="BiftorTranslateTAMIL">TAMIL</string>
+	<string name="BiftorTranslateTELUGU">Telugu</string>
+	<string name="BiftorTranslateTHAI">THAI</string>
+	<string name="BiftorTranslateTURKISH">TURKI</string>
+	<string name="BiftorTranslateUKRAINIAN">ORANG UKRAINA</string>
+	<string name="BiftorTranslateURDU">URDU</string>
+	<string name="BiftorTranslateUZBEK">UZBEK</string>
+	<string name="BiftorTranslateVIETNAMESE">ORANG VIETNAM</string>
+	<string name="BiftorTranslateWELSH">WELSH</string>
+	<string name="BiftorTranslateYIDDISH">YIDDI</string>
+	<string name="BiftorTranslateCHINESE_SIMPLIFIED">BAHASA TIONGKOK YANG DISEDERHANAKAN</string>
+	<string name="BiftorTranslateCHINESE_TRADITIONAL">CINA TRADISIONAL</string>
+
+
+	<!--Biftor delete from recent search-->
+	<string name="BiftorDeletRecentSearchItem">Yakin ingin menghapus **%1$s** dari penelusuran terbaru?</string>
+
+	<string name="BiftorDrawerContactAndGroup">Obrolan dan Kontak</string>
+
+	<!--Biftor floating new msg-->
+	<string name="BiftorChangeToSaveMsg">Pesan Tersimpan di mengambang</string>
+	<string name="BiftorChangeToSaveMsgSub">Ubah Obrolan Baru (tombol mengambang di layar utama) untuk membuka Pesan Tersimpan. Untuk memulai chat baru, cukup ketik namanya di penelusuran.</string>
+
+	<string name="BiftorShow">Menunjukkan</string>
+	<string name="BiftorShowFolder">Tampilkan folder</string>
+	<string name="BiftorHideFolder">Sembunyikan folder</string>
+	<string name="BiftorHideFolderAreYouSure">Anda yakin ingin menyembunyikan folder ini?</string>
+	<string name="BiftorShowFolderAreYouSure">Apakah Anda yakin ingin menampilkan folder ini?</string>
+
+	<!--Biftor internal updater-->
+	<string name="BiftorSkipUpdate">Melewatkan</string>
+	<string name="BiftorRemindTomorrow">Besok</string>
+	<string name="BiftorUpdateIsAvailable">Pembaruan tersedia</string>
+	<string name="BiftorCheckForUpdate">Memeriksa pembaruan</string>
+	<string name="BiftorDownloadLatestVersion">Unduh versi terakhir</string>
+
+
+	<!--Biftor direct chats-->
+	<string name="BiftorDirectChats">Obrolan Langsung</string>
+	<string name="BiftorSetAsDirectChats">Tetapkan sebagai Obrolan Langsung</string>
+	<string name="BiftorDirectChatsReset">Setel Ulang Obrolan Langsung</string>
+	<string name="BiftorDisplayDirectChats">Tampilkan Obrolan Langsung di</string>
+	<string name="BiftorDisplayDirectChatsSide">Bilah samping</string>
+	<string name="BiftorDisplayDirectChatsTab">tab</string>
+	<string name="BiftorDisplayDirectChatsSideTab">Bilah sisi dan tab</string>
+	<string name="BiftorDirectChatsReorder">Pesan chat langsung</string>
+	<string name="BiftorShowDirectChatsInDrawer">Tampilkan Obrolan Langsung di bilah sisi</string>
+	<string name="BiftorAddToFav">Tambahkan ke favorit</string>
+	<string name="BiftorDeleteFromFav">Hapus dari favorit</string>
+
+	<string name="BiftorHideSponsorProxy">Sembunyikan sponsor</string>
+	<string name="BiftorHideSponsorProxySub">Sembunyikan sponsor proxy dari daftar obrolan</string>
+
+	<!--Biftor shadow socks-->
+	<string name="BiftorPing">ping</string>
+	<string name="BiftorProxyTypeShadowSocks">Proxy ShadowSocks</string>
+	<string name="BiftorProxyTypeShadowSocksR">Proxy ShadowSocksR</string>
+	<string name="BiftorProxyTypeVmess">Proksi Vmess</string>
+	<string name="BiftorProxyInfoSSR">Pengaturan Proxy ShadowsocksR</string>
+	<string name="BiftorProxyInfoSS">Pengaturan Proksi Shadowsocks</string>
+	<string name="BiftorProxyInfoVmess">Pengaturan Proksi Vmess</string>
+	<string name="BiftorShadowProxySponsor">Sponsor</string>
+
+	<string name="BiftorShadowSocksHelp">Tolong</string>
+	<string name="BiftorImportProxy">Impor dari url</string>
+	<string name="BiftorConnection">Sambungkan: %1$d ms</string>
+
+	<string name="BiftorVmessUserId">Identitas pengguna</string>
+	<string name="BiftorVmessAlterId">Ubah Id</string>
+	<string name="BiftorVmessSecurity">Keamanan</string>
+	<string name="BiftorVmessNetwork">Jaringan</string>
+	<string name="BiftorVmessHeadType">Tipe Kepala</string>
+	<string name="BiftorVmessRequestHost">Minta Host / Keamanan QUIC</string>
+	<string name="BiftorVmessPath">Jalur / Kunci CEPAT</string>
+	<string name="BiftorVmessTls">Gunakan TLS</string>
+
+	<string name="BiftorSSPassword">Kata sandi</string>
+	<string name="BiftorSSMethod">Metode Enkripsi</string>
+	<string name="BiftorSSPlugin">Plugin</string>
+	<string name="BiftorSSPluginOpts">Konfigurasi Plugin</string>
+
+	<string name="BiftorSSRProtocol">Protokol</string>
+	<string name="BiftorSSRProtocolParams">Parameter Protokol</string>
+	<string name="BiftorSSRObfs">Obfs</string>
+	<string name="BiftorSSRObfsParam">Obfs Param</string>
+	<string name="BiftorShadowSocksModule">kaus kaki bayangan</string>
+	<string name="BiftorStartShadowAsService">Mulai bayangan sebagai layanan</string>
+	<string name="BiftorStartShadowAsServiceSub">Jalankan kaus kaki bayangan sebagai layanan latar belakang</string>
+	<string name="BiftorShadowSockServiceConnecting">Kaus Kaki Bayangan terhubung</string>
+	<string name="BiftorShadowSockServiceConnected">Shadow Socks sedang berjalan: %s</string>
+	<string name="BiftorShadowSockServiceStop">Berhenti</string>
+	<string name="BiftorShadowSocksConfig">Konfigurasi kaus kaki bayangan</string>
+	<string name="BiftorStopShadowSocksWhenAppClosed">Hentikan kaus kaki Shadow saat aplikasi ditutup</string>
+	<string name="BiftorStopShadowSocksWhenAppClosedSub">Hentikan kaus kaki Shadow saat App Ditutup, jika Anda menonaktifkannya, saat kaus kaki Shadow diaktifkan, seluruh aplikasi tidak akan ditutup.</string>
+
+	<!--Biftor ads-->
+	<string name="BiftorAdsTypeAdMob">AdMob</string>
+	<string name="BiftorAdsTypeCustom">Iklan</string>
+	<string name="BiftorAdsTitle">Iklan BGram</string>
+	<string name="BiftorAdsSubTitle">Dukung BGram dengan Menonton Iklan</string>
+	<string name="BiftorAdsHideFor">Tonton ini untuk menyembunyikan %s</string>
+
+	<!--Biftor times-->
+	<string name="BiftorHour">%s jam</string>
+	<string name="BiftorHours">{10 jam</string>
+	<string name="BiftorDay">%s hari</string>
+	<string name="BiftorDays">{10 hari</string>
+
+	<!--Biftor send image as sticker-->
+	<string name="BiftorSendAsSticker">Kirim sebagai stiker</string>
+	<!--Biftor caption on sticker-->
+	<string name="BiftorSendStickerWithCaption">Kirim stiker dengan keterangan</string>
+	<string name="BiftorShowStickerCaption">Tampilkan keterangan stiker</string>
+
+	<!--Biftor message details-->
+	<string name="BiftorMessageDetails">Detail pesan</string>
+	<string name="BiftorMessageDetailsTitle">Detail pesan</string>
+	<string name="BiftorMessageDetailsText">Pesan</string>
+	<string name="BiftorMessageDetailsId">ID pesan</string>
+	<string name="BiftorMessageDetailsType">Jenis pesan</string>
+	<string name="BiftorMessageDetailsStatus">Status pesan</string>
+	<string name="BiftorMessageDetailsTime">Waktu pesan</string>
+	<string name="BiftorMessageDetailsEditTime">Waktu edit pesan</string>
+	<string name="BiftorMessageDetailsDocumentName">Nama dokumen</string>
+	<string name="BiftorMessageDetailsReplyMessage">Balas pesan</string>
+	<string name="BiftorMessageDetailsReplyCount">Hitungan balasan</string>
+	<string name="BiftorMessageDetailsCommentCount">Jumlah komentar</string>
+	<string name="BiftorMessageDetailsViewsCount">Jumlah penayangan</string>
+	<string name="BiftorMessageDetailsReply">Balasan</string>
+	<string name="BiftorMessageDetailsCopyContent">Salinan</string>
+	<string name="BiftorMessageDetailsForward">Meneruskan</string>
+
+</resources>

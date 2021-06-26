@@ -3,7 +3,7 @@
     <string name="LanguageName">Bahasa Indonesia</string>
     <string name="English">Inggris</string>
     <string name="LanguageNameInEnglish">Indonesian</string>
-    <string name="LanguageCode">in</string>
+    <string name="LanguageCode">id</string>
     <string name="ContinueOnThisLanguage">Lanjutkan dalam bahasa Inggris</string>
     <!--signin view-->
     <string name="YourPhone">Telepon Anda</string>

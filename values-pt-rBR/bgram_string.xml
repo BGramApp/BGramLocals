@@ -356,18 +356,24 @@
     <string name="BiftorShowExactNumberOfMembers">Exibir números exatos</string>
     <string name="BiftorShowExactNumberOfMembersSub">Mostrar números exatos de visualizações e assinantes</string>
 
-    <!--‌ Biftor remove call button in profile -->
+    <!--Biftor remove call button in profile -->
     <string name="BiftorRemoveCallButtonInProfile">Ocultar botão de chamada no perfil</string>
 
-    <!--‌ Biftor forward config -->
+    <!--Biftor forward config -->
     <string name="ForwardTabsCat">Abas ao Encaminhar</string>
     <string name="ForwardTabsHided">Abas ocultas</string>
     <string name="BiftorForwardCopyLink">Copiar Link</string>
 
-    <!--‌ Biftor mark on msg -->
+    <!--Biftor mark on msg -->
     <string name="BiftorSetMarkOnMsg">Marcar</string>
     <string name="BiftorGoToMarkedMsg">Mensagem marcada</string>
-    <string name="BiftorResetMarkedMsg">Desmarcar</string>
+    <string name="BiftorRemoveMarkedMsg">Remove marked message</string>
+    <string name="BiftorRemoveAllMarkedMsg">Remove all marked message</string>
+    <string name="BiftorMarkedMsg">Marked messages</string>
+    <string name="BiftorMsgEmptyTextSearch">No message that contain \'**%1$s**\' have been found.</string>
+    <string name="BiftorNoMsgs">No messages yet!</string>
+    <string name="BiftorOrderByDateAdded">Order by date added</string>
+    <string name="BiftorUpdateMarkMessages">Update marked messages</string>
 
     <!--Biftor Font picker -->
     <string name="BiftorFontsPickerCat">Seletor de Fontes</string>
@@ -535,6 +541,7 @@
     <string name="BiftorBackUpFav">Chats favoritos</string>
     <string name="BiftorBackUpHidden">Conversas escondidas</string>
     <string name="BiftorBackUpFolders">Folders</string>
+    <string name="BiftorBackUpMarkedMessages">Marked messages</string>
     <string name="BiftorBackUpFonts">Fontes personalizadas</string>
     <string name="BiftorBackUpAllAndSaveToCloud">Tudo e salvar na nuvem</string>
     <string name="BiftorBackUpSuccessful">Backup bem sucedido para</string>
@@ -546,6 +553,7 @@
     <string name="BiftorRestoreFav">Chats favoritos</string>
     <string name="BiftorRestoreHidden">Conversas escondidas</string>
     <string name="BiftorRestoreFolders">Folders</string>
+    <string name="BiftorRestoreMarkedMessages">Marked messages</string>
 
     <string name="BiftorRestoreToDef">Resetar configurações</string>
     <string name="BiftorRestoreGlobalToDef">Restaurar configurações globais para o padrão</string>
@@ -553,6 +561,7 @@
     <string name="BiftorRestoreFavToDef">Restaurar chats favoritos para o padrão</string>
     <string name="BiftorRestoreHiddenToDef">Restaurar chats escondidos para o padrão</string>
     <string name="BiftorRestoreDialogsFolderToDef">Restore dialog\'s folders to server default</string>
+    <string name="BiftorRestoreMarkedMessagesToDef">Restore marked messages to default</string>
 
     <string name="BiftorRestoreSuccessful">Restaurado com sucesso</string>
     <string name="BiftorRestoreUnSuccessful">Restauração falhou</string>
@@ -859,9 +868,9 @@
 
 
     <!--Biftor delete from recent search-->
-    <string name="BiftorDeletRecentSearchItem">Deseja mesmo remover **%1$s** do histórico de busca?</string>
+    <string name="BiftorDeleteRecentSearchItem">Deseja mesmo remover **%1$s** do histórico de busca?</string>
 
-    <string name="BiftorDrawerContactAndGroup">Contatos e Grupos</string>
+    <string name="BiftorDrawerContactAndGroup">Chats</string>
 
     <!--Biftor floating new msg-->
     <string name="BiftorChangeToSaveMsg">Botão da nuvem flutuante</string>
@@ -878,6 +887,7 @@
     <string name="BiftorUpdateIsAvailable">Atualização disponível</string>
     <string name="BiftorCheckForUpdate">Verificar atualizações</string>
     <string name="BiftorDownloadLatestVersion">Baixar versão mais recente</string>
+    <string name="BiftorUpdateFileExists">Update file downloaded and located in:\n%s\nDo you want download it again?</string>
 
     <!--Biftor direct chats-->
     <string name="BiftorDirectChats">Chats diretos</string>

@@ -3,7 +3,7 @@
    <string name="LanguageName">Українська</string>
    <string name="English">Англійська</string>
    <string name="LanguageNameInEnglish">Ukrainian</string>
-   <string name="LanguageCode">uk</string>
+   <string name="LanguageCode">uk_ex</string>
    <string name="ContinueOnThisLanguage">Продовжити українською</string>
    <!--signin view-->
    <string name="YourPhone">Ваш номер</string>
@@ -24,7 +24,7 @@
    <string name="SentAppCode">Ми надіслали код до **Telegram** на іншому вашому пристрої.</string>
    <string name="SentAppCodeTitle">Перегляньте ваші повідомлення в Telegram</string>
    <string name="SentSmsCodeTitle">Введіть код</string>
-   <string name="SentCallCode">Ми телефонуємо на ваш номер **%1$s**.\n\nНе піднімайте слухавку, Telegram зробить все за вас.</string>
+   <string name="SentCallCode">Ми телефонуємо на ваш номер **%1$s**.\n\nВідповідати на виклик не потрібно, Telegram автоматично зробить усе сам.</string>
    <string name="SentCallOnly">Ми телефонуємо на номер **%1$s**, щоб продиктувати код.</string>
    <string name="CallText">Telegram зателефонує вам за %1$d:%2$02d</string>
    <string name="SmsText">Ми надішлемо вам SMS за %1$d:%2$02d</string>
@@ -66,6 +66,8 @@
    <string name="PaymentShippingZipPlaceholder">Поштовий індекс</string>
    <string name="PaymentShippingReceiver">Одержувач</string>
    <string name="PaymentShippingName">Повне імʼя</string>
+   <string name="PaymentTip">Чайові</string>
+   <string name="PaymentTipOptional">Чайові (за бажанням)</string>
    <string name="PaymentShippingPhoneNumber">Номер телефону</string>
    <string name="PaymentShippingEmailPlaceholder">Е-пошта</string>
    <string name="PaymentShippingSave">Зберегти дані доставки</string>
@@ -78,15 +80,16 @@
    <string name="PaymentBillingAddress">Платіжна адреса</string>
    <string name="PaymentCardName">Імʼя Прізвище</string>
    <string name="PaymentCardSavePaymentInformation">Зберегти платіжні дані</string>
-   <string name="PaymentCardSavePaymentInformationInfoLine1">Ви можете зберегти платіжні дані на майбутнє.</string>
+   <string name="PaymentCardSavePaymentInformationInfoLine1">Ви можете зберегти платіжні дані на майбутнє. Платіжні дані зберігає платіжний провайдер, а не Telegram. Telegram не має доступу до даних кредитних карток.</string>
    <string name="PaymentCardSavePaymentInformationInfoLine2">Для цього спершу *увімкніть двоетапну перевірку*.</string>
    <string name="PaymentTransactionReview">Огляд транзакції</string>
-   <string name="PaymentTransactionMessage">Ви дійсно хочете передати %1$s ботові %2$s за %3$s?</string>
+   <string name="PaymentTransactionMessage2">Передати **%1$s** боту %2$s **%3$s**?</string>
    <string name="PaymentTransactionTotal">Усього</string>
    <string name="PaymentInvoice">РАХУНОК</string>
    <string name="PaymentTestInvoice">ТЕСТОВИЙ РАХУНОК</string>
    <string name="PaymentCheckoutPay">ОПЛАТИТИ %1$s</string>
    <string name="PaymentCheckoutMethod">Метод оплати</string>
+   <string name="PaymentCheckoutMethodNewCard">Нова картка</string>
    <string name="PaymentCheckoutProvider">Провайдер платежу</string>
    <string name="PaymentCheckoutName">Імʼя</string>
    <string name="PaymentCheckoutPhoneNumber">Номер телефону</string>
@@ -94,7 +97,7 @@
    <string name="PaymentCheckoutShippingMethod">Метод доставки</string>
    <string name="PaymentReceipt">Чек</string>
    <string name="PaymentConfirmationNewCard">Виберіть іншу картку</string>
-   <string name="PaymentConfirmationMessage">Ваша картка %1$s у файлі. Щоб нею оплатити, введіть пароль 2-етапної перевірки.</string>
+   <string name="PaymentConfirmationMessage">У вас збережено картку %1$s. Щоб сплатити цією карткою, введіть пароль двоетапної перевірки.</string>
    <string name="PaymentPrecheckoutFailed">Бот скасував оплату.</string>
    <string name="PaymentFailed">Оплату було відхилено.</string>
    <string name="PaymentConnectionFailed">Неможливо зʼєднатись із сервером оплати. Перевірте інтернет-зʼєднання і спробуйте ще раз.</string>
@@ -111,6 +114,7 @@
    <string name="PaymentPhoneToProvider">Телефон буде передано до %1$s як платіжні дані.</string>
    <string name="PaymentEmailToProvider">Е-пошту буде передано до %1$s як платіжні дані.</string>
    <string name="PaymentPhoneEmailToProvider">Телефон та е-пошту буде передано до %1$s як платіжні дані.</string>
+   <string name="PaymentInfoHint">Ви платите **%1$s** за **%2$s**.</string>
    <!--chats view-->
    <string name="NewConversationShortcut">Нова розмова</string>
    <string name="AutoNightModeOff">Автоматичний нічний режим вимкнено</string>
@@ -210,7 +214,7 @@
    <string name="LinkPreview">Попередній перегляд посилання</string>
    <string name="Draft">Чернетка</string>
    <string name="HistoryCleared">Історію очищено</string>
-   <string name="ArticleByAuthor">від %1$s</string>
+   <string name="ArticleByAuthor">Автор: %1$s</string>
    <string name="ArticleDateByAuthor">%1$s, автор: %2$s</string>
    <string name="PreviewFeedback2">Помилка в макеті?</string>
    <string name="SendStickerPreview">Надіслати наліпку</string>
@@ -297,18 +301,19 @@
    <string name="ImportDoneTitle">Чат успішно імпортовано!</string>
    <string name="ImportDoneInfo">Щоб звільнити місце на пристрої, імпортуйте більше чатів до Telegram.</string>
    <string name="ImporImportingService">Імпортування повідомлень та медіа...</string>
+   <string name="ImporImportingStickersService">Імпортуємо наліпки…</string>
    <string name="ImportHeader">Імпортувати повідомлення та медіа до...</string>
    <string name="ImportHeaderContacts">Або виберіть один з ваших контактів</string>
    <!--widgets-->
    <string name="EditWidget">Редагувати віджет</string>
    <string name="EditWidgetContactsInfo">Віджет показуватиме ярлики для швидкого доступу до вибраних вами чатів.\n\nЯкщо нічого не вибрано, відображатимуться останні активні контакти.</string>
-   <string name="EditWidgetChatsInfo">Віджет показуватиме останнє повідомлення у вибраних вами чатах.\n\nЯкщо нічого не вибрано, відображатимуться останні активні чати.</string>
+   <string name="EditWidgetChatsInfo">Цей віджет показує останні повідомлення з вибраних тут чатів.\n\nЯкщо чатів не вибрано, відображатимуться ваші останні активні чати.</string>
    <string name="WidgetPasscode2">Увага: код блокування застосунку **не впливає** на віджети.</string>
    <string name="WidgetPasscodeEnable2">Код блокування застосунку **не впливає** на віджети, додані на головний екран.</string>
    <string name="SearchForChats">Пошук чатів...</string>
    <string name="WidgetPreview">Попередній перегляд</string>
-   <string name="TapToEditWidget">натисніть, щоб змінити віджет</string>
-   <string name="TapToEditWidgetShort">натисніть, щоб змінити</string>
+   <string name="TapToEditWidget">редагувати віджет</string>
+   <string name="TapToEditWidgetShort">редагувати</string>
    <string name="WidgetChats">Чати</string>
    <string name="WidgetShortcuts">Ярлики</string>
    <string name="WidgetLoggedOff">Акаунт не авторизований.</string>
@@ -364,7 +369,7 @@
    <string name="ChannelVerifiedWarning">Попередження</string>
    <string name="ChannelUsernamePlaceholder">посилання</string>
    <string name="ChannelPrivateLinkHelp">За цим посиланням можна приєднатись до вашого каналу. Його завжди можна зробити недійсним.</string>
-   <string name="MegaPrivateLinkHelp">За цим посиланням можна приєднатись до вашої групи. Відкликати посилання можна будь-коли.</string>
+   <string name="MegaPrivateLinkHelp">За цим посиланням можна приєднатися до вашої групи. Відкликати посилання можна будь-коли.</string>
    <string name="DescriptionOptionalPlaceholder">Опис (необовʼязково)</string>
    <string name="DescriptionPlaceholder">Опис</string>
    <string name="DescriptionInfo">Додайте опис для каналу за бажанням.</string>
@@ -408,7 +413,7 @@
    <string name="ChannelSubscribers">Підписники</string>
    <string name="ChannelBlacklist">Вилучені користувачі</string>
    <string name="ChannelPermissions">Дозволи</string>
-   <string name="ChannelPermissionsHeader">Що можуть учасники цієї групи?</string>
+   <string name="ChannelPermissionsHeader">Учасники групи можуть:</string>
    <string name="ChannelAddException">Додати виняток</string>
    <string name="ChannelSearchException">Пошук винятків</string>
    <string name="ChannelBlockedUsers">Вилучені користувачі</string>
@@ -534,7 +539,7 @@
    <string name="UserRemovedBy">Вилучив користувач %1$s</string>
    <string name="UserRestrictions">Дозволи для користувача</string>
    <string name="UserRestrictionsDisabled">Ця дія вимкнена для всіх учасників у налаштуваннях групи</string>
-   <string name="UserRestrictionsCanDo">Що може цей користувач?</string>
+   <string name="UserRestrictionsCanDo">Цей користувач може:</string>
    <string name="UserRestrictionsRead">Читати повідомлення</string>
    <string name="UserRestrictionsSend">Надсилати повідомлення</string>
    <string name="UserRestrictionsSendMedia">Надсилати медіа</string>
@@ -647,7 +652,10 @@
    <string name="PollCollapse">Згорнути</string>
    <string name="PollExpand">Розгорнути</string>
    <string name="PublicPollCantForward">Опитування з відкритим списком результатів не можна пересилати в канали.</string>
+   <string name="InvoiceCantForwardSecretChat">Рахунки не дозволено пересилати в секретні чати.</string>
    <string name="PollCantForwardSecretChat">Опитування не можна пересилати до секретних чатів.</string>
+   <string name="GameCantSendSecretChat">Ігри не дозволено надсилати в секретні чати.</string>
+   <string name="InvoiceCantSendSecretChat">Рахунки не дозволено надсилати в секретні чати.</string>
    <string name="PollMultiple">Вибір декількох варіантів</string>
    <string name="PollTapToSelect">Позначте правильну відповідь</string>
    <string name="QuizInfo">Опитування-вікторина має одну «правильну» відповідь. У вікторині не можна відкликати голос.</string>
@@ -706,8 +714,8 @@
    <string name="EventLogAllEvents">Усі дії</string>
    <string name="EventLogSelectedEvents">вибрані дії</string>
    <string name="EventLogAllAdmins">Усі адміністратори</string>
-   <string name="EventLogEmpty">**Подій ще немає**\n\nЖодних дій не було зроблено\nучасниками та адмінами групи\nза останні 48 годин.</string>
-   <string name="EventLogEmptyChannel">**Подій ще немає**\n\nЖодних дій не було зроблено\nучасниками та адмінами каналу\nза останні 48 годин.</string>
+   <string name="EventLogEmpty">**Подій ще немає**\n\nЖодних дій не було зроблено\nучасниками та адміністраторами групи\nза останні 48 годин.</string>
+   <string name="EventLogEmptyChannel">**Подій ще немає**\n\nЖодних дій не було зроблено\nучасниками та адміністраторами каналу\nза останні 48 годин.</string>
    <string name="EventLogEmptySearch">**Дій не знайдено**\n\nНе знайдено останніх дій, які б відповідали вашому запиту.</string>
    <string name="EventLogEmptyTextSearch">Не знайдено останніх дій, що містять \"**%1$s**\".</string>
    <string name="EventLogInfoTitle">Що таке «Останні дії»?</string>
@@ -807,8 +815,8 @@
    <string name="EventLogEndedVoiceChat">un1 закінчує голосовий чат</string>
    <string name="EventLogVoiceChatMuted">un1 заглушує un2 у голосовому чаті</string>
    <string name="EventLogVoiceChatUnmuted">un1 розглушує un2 в голосовому чаті</string>
-   <string name="EventLogVoiceChatAllowedToSpeak">un1 дозволяє говорити майбутнім учасникам голосових чатів</string>
-   <string name="EventLogVoiceChatNotAllowedToSpeak">un1 заглушує майбутніх учасників голосових чатів</string>
+   <string name="EventLogVoiceChatAllowedToSpeak">un1 дозволяє говорити майбутнім присутнім у голосових чатах</string>
+   <string name="EventLogVoiceChatNotAllowedToSpeak">un1 заглушує майбутніх присутніх у голосових чатах</string>
    <!--broadcasts-->
    <string name="NewBroadcastList">Новий список трансляцій</string>
    <string name="EnterListName">Введіть назву списку</string>
@@ -894,7 +902,7 @@
    <string name="SendingFile">надсилає файл...</string>
    <string name="GotAQuestion">Є питання\nщодо Telegram?</string>
    <string name="ChatGallery">Галерея</string>
-   <string name="ChatLocation">Розташув-ня</string>
+   <string name="ChatLocation">Розташування</string>
    <string name="ChatVideo">Відео</string>
    <string name="ChatDocument">Файл</string>
    <string name="ChatCamera">Камера</string>
@@ -982,7 +990,7 @@
    <string name="PinMessageAlert">Прикріпити повідомлення у групі?</string>
    <string name="PinMessageAlertChannel">Ви хочете прикріпити це повідомлення в цьому каналі?</string>
    <string name="PinMessageAlertChat">Прикріпити повідомлення вгорі чату?</string>
-   <string name="UnpinMessageAlert">Ви хочете відкріпити це повідомлення?</string>
+   <string name="UnpinMessageAlert">Відкріпити це повідомлення?</string>
    <string name="DeleteBanUser">Заблокувати користувача</string>
    <string name="DeleteReportSpam">Поскаржитися на спам</string>
    <string name="DeleteAllFrom">Видалити все від %1$s</string>
@@ -1189,6 +1197,10 @@
    <string name="FwdMessagesToUser">Повідомлення переслано до **%1$s**.</string>
    <string name="FwdMessageToChats">Повідомлення переслано до **%1$s**.</string>
    <string name="FwdMessagesToChats">Повідомлення переслано до **%1$s**.</string>
+   <string name="BackgroundToSavedMessages">Посилання на фон надіслано в **Збережене**.</string>
+   <string name="BackgroundToGroup">Посилання на фон надіслано до **%1$s**.</string>
+   <string name="BackgroundToUser">Ви поділилися фоном із **%1$s**.</string>
+   <string name="BackgroundToChats">Посилання на фон надіслано у **%1$s**.</string>
    <!--notification-->
    <string name="MessageLifetimeChanged">%1$s встановлює таймер самознищення на %2$s</string>
    <string name="MessageLifetimeChangedOutgoing">Ви встановили таймер самознищення на %1$s</string>
@@ -1523,7 +1535,7 @@
    <string name="UsernameHelp">Виберіть собі псевдонім у **Telegram**. Тоді інші зможуть вас за ним знайти та зʼєднатися з вами, не знаючи ваш номер телефону.\n\nДопускаються символи **a-z**, **0-9** та нижнє підкреслення (_). Мінімальна довжина – **5** символів.</string>
    <string name="UsernameHelpLink">Це посилання відкриє з вами чат у Telegram:\n%1$s</string>
    <string name="UsernameChecking">Перевірка псевдоніма...</string>
-   <string name="UsernameAvailable">"%1$s доступно. "</string>
+   <string name="UsernameAvailable">%1$s доступний.</string>
    <string name="UsernameEmpty">Немає</string>
    <string name="ErrorOccurred">Виникла помилка.</string>
    <!--stickers view-->
@@ -1599,6 +1611,22 @@
    <string name="DeleteStickersAlertMessage">Ви дійсно хочете видалити вибрані пакунки наліпок?</string>
    <string name="ArchiveStickerSetsAlertTitle">Архівувати %1$s</string>
    <string name="ArchiveStickersAlertMessage">Ви дійсно хочете заархівувати вибрані пакунки наліпок?</string>
+   <string name="ImportStickers">ІМПОРТУВАТИ %1$s</string>
+   <string name="ImportStickersProcessing">Обробка наліпок...</string>
+   <string name="ImportStickersRemove">ПРИБРАТИ З ІМПОРТУ</string>
+   <string name="ImportStickersRemoveMenu">Вилучити з імпорту</string>
+   <string name="ImportStickersEnterName">Введіть назву</string>
+   <string name="ImportStickersEnterNameInfo">Придумайте, як буде називатися новий пакунок.</string>
+   <string name="ImportStickersEnterUrlInfo">Можна використовувати літери (a–z), цифри (0–9) та підкреслення (_).</string>
+   <string name="ImportStickersLinkInvalid">Недопустиме посилання.</string>
+   <string name="ImportStickersLinkInvalidShort">Посилання має містити щонайменше 5 символів.</string>
+   <string name="ImportStickersLinkInvalidLong">Посилання може містити не більше ніж 32 символи.</string>
+   <string name="ImportStickersLinkChecking">Перевіряємо посилання…</string>
+   <string name="ImportStickersLinkAvailable">Це посилання доступне.</string>
+   <string name="ImportStickersLinkTaken">Це посилання вже зайняте.</string>
+   <string name="ImportStickersImportingTitle">Імпортуємо наліпки</string>
+   <string name="ImportStickersDoneTitle">Наліпки успішно імпортовано!</string>
+   <string name="ImportStickersDoneInfo">"Імпортуйте більше наліпок до Telegram і діліться ними з друзями. "</string>
    <!--theme view-->
    <string name="Theme">Тема</string>
    <string name="AutoNightTheme">Авто-нічний режим</string>
@@ -1708,6 +1736,7 @@
    <string name="ColorPickerResetAll">СКИНУТИ ВСЕ</string>
    <string name="ColorPickerReset">СКИНУТИ</string>
    <string name="ChangeWallpaperToColor">Ви дійсно хочете замінити ваш фон кольором?</string>
+   <string name="ChangeColorToColor">Використовувати раніше вибраний фон чи скинути його на фон з цієї теми?</string>
    <string name="ShareTheme">Поділитися темою</string>
    <string name="EditThemeColors">Редагувати кольори</string>
    <string name="ThemeResetToDefaults">Скинути на типові</string>
@@ -1807,14 +1836,14 @@
    <string name="FontSizePreviewLine1">Вже ніби день...</string>
    <string name="FontSizePreviewLine2">В Токіо ранок &#128526;</string>
    <string name="BackgroundColorSinglePreviewLine1">Щоб застосувати фон, натисніть «Встановити фон»</string>
-   <string name="BackgroundColorSinglePreviewLine2">Насолоджуйтесь видом</string>
+   <string name="BackgroundColorSinglePreviewLine2">Насолоджуйтеся видом</string>
    <string name="SetBackground">ВСТАНОВИТИ ФОН</string>
    <string name="SearchByColor">Пошук за кольором</string>
    <string name="SearchBackgrounds">Пошук фонів</string>
    <string name="BackgroundSearchColor">Колір:</string>
    <string name="BackgroundBrightness">Яскравість</string>
    <string name="BackgroundHexColorCode">HEX-код кольору</string>
-   <string name="BackgroundColor">Колір</string>
+   <string name="BackgroundColors">Кольори</string>
    <string name="BackgroundPattern">Із візерунком</string>
    <string name="BackgroundChoosePattern">Вибрати візерунок</string>
    <string name="BackgroundIntensity">Інтенсивність</string>
@@ -1854,6 +1883,8 @@
    <string name="AskButton">Запитати</string>
    <string name="TelegramFAQ">ЧаПи Telegram</string>
    <string name="TelegramFaq">ЧаПи Telegram</string>
+   <string name="TelegramFeatures">Можливості Telegram</string>
+   <string name="TelegramFeaturesUrl">https://t.me/TelegramTips</string>
    <string name="AddAccount">Додати акаунт</string>
    <string name="SelectAccount">Виберіть акаунт</string>
    <string name="TelegramFaqUrl">https://telegram.org/faq</string>
@@ -1913,7 +1944,7 @@
    <string name="AutoDownloadPreloadMusic">Завантажувати наступний трек</string>
    <string name="AutoDownloadPreloadMusicInfo">Почати завантаження наступного треку під час прослуховування аудіофайлу.</string>
    <string name="AutoDownloadPreloadVideo">Підвантажувати більші відео</string>
-   <string name="AutoDownloadPreloadVideoInfo">Підвантажувати перші декілька секунд відео, більших ніж %1$s, щоб відтворювати їх без затримки.</string>
+   <string name="AutoDownloadPreloadVideoInfo">Підвантажувати перші секунди (1–2 МБ) для відео понад %1$s, щоб відтворювати їх без затримки.</string>
    <string name="AutoDownloadOnMobileDataInfo">Увімкніть, щоб медіа автоматично завантажувалися при підключенні через мобільні дані.</string>
    <string name="AutoDownloadOnRoamingDataInfo">Увімкніть, щоб медіа автоматично завантажувалися у роумінгу при підключенні через мобільні дані.</string>
    <string name="AutoDownloadOnWiFiDataInfo">Увімкніть, щоб медіа автоматично завантажувалися при підключенні через Wi-Fi.</string>
@@ -1951,7 +1982,7 @@
    <string name="NotificationsPriorityUrgent">Терміновий</string>
    <string name="RepeatNotificationsNever">Ніколи</string>
    <string name="RepeatNotifications">Повторювати сповіщення через</string>
-   <string name="PhoneNumberHelp">Тут ви можете змінити номер Telegram. Ваш акаунт і всі дані – повідомлення, медіа, контакти і т.п. будуть перенесені на новий номер.</string>
+   <string name="PhoneNumberHelp">Тут ви можете змінити номер у Telegram. Ваш акаунт буде перенесено на новий номер включно зі всіма даними, такими як повідомлення, медіафайли та контакти.</string>
    <string name="PhoneNumberAlert">Новий номер побачать ті, хто має його у своєму списку контактів або може бачити ваш номер згідно з вашими налаштуваннями приватності (Налаштування &gt; Приватність і безпека &gt; Номер телефону).</string>
    <string name="PhoneNumberChange2">Змінити номер</string>
    <string name="PhoneNumberChangeTitle">Змінити номер</string>
@@ -1996,10 +2027,11 @@
    <string name="EmojiUseDefault">Використовувати типові системні емодзі</string>
    <string name="TelegramVersion">Telegram для Android %1$s</string>
    <string name="DebugMenu">Меню відлагодження</string>
-   <string name="DebugSendLogs">Надіслати журнали</string>
-   <string name="DebugClearLogs">Очистити журнали</string>
-   <string name="DebugMenuEnableLogs">Увімкнути журнали</string>
-   <string name="DebugMenuDisableLogs">Вимкнути журнали</string>
+   <string name="DebugSendLogs">Надіслати логи</string>
+   <string name="DebugSendLastLogs">Надіслати останні логи</string>
+   <string name="DebugClearLogs">Очистити логи</string>
+   <string name="DebugMenuEnableLogs">Увімкнути логи</string>
+   <string name="DebugMenuDisableLogs">Вимкнути логи</string>
    <string name="DebugMenuImportContacts">Імпортувати контакти</string>
    <string name="DebugMenuReloadContacts">Перезавантажити контакти</string>
    <string name="DebugMenuResetDialogs">Скинути чати</string>
@@ -2107,6 +2139,37 @@
    <string name="AuthAnotherClientUrl">За допомогою цього коду можна увійти до вашого акаунта Telegram.\n\nДля підтвердження входу відскануйте код у Налаштуваннях &gt; Пристрої &gt; Сканувати QR-код.</string>
    <string name="QRCodePermissionNoCamera">Telegram потрібен доступ до камери, щоб ви могли сканувати QR-коди.</string>
    <string name="SetProfilePhoto">Встановити фото</string>
+   <string name="AppUpdate">Оновити Telegram</string>
+   <string name="AppUpdateVersionAndSize">Версія %1$s • %2$s</string>
+   <string name="AppUpdateDownloading">Завантаження %1$d%%...</string>
+   <string name="AppUpdateNow">Почати оновлення</string>
+   <string name="AppUpdateDownloadNow">Почати завантаження</string>
+   <string name="AppUpdateRemindMeLater">Нагадати пізніше</string>
+   <string name="AppUpdateChangelogEmpty">**Зміни в цій версії:**\n\n• Виправлення помилок та поліпшення.</string>
+   <string name="Permanent">Основне посилання</string>
+   <string name="LinkHashExpired">Посилання більше не діє</string>
+   <string name="CancelForward">Скасувати пересилання</string>
+   <string name="SelectOtherChat">Вибрати інший чат</string>
+   <string name="CancelForwardMessage">Скасувати пересилання чи переслати до іншого чату?</string>
+   <string name="ChatListSwipeGesture">Дія при змахуванні в списку</string>
+   <string name="SwipeSettingsPin">Прикріплення</string>
+   <string name="SwipeSettingsRead">Познач. прочитаним</string>
+   <string name="SwipeSettingsArchive">Архівування</string>
+   <string name="SwipeSettingsMute">Вимикання сповіщ.</string>
+   <string name="SwipeSettingsDelete">Видалення</string>
+   <string name="SwipeSettingsFolders">Перехід між папками</string>
+   <string name="SwipeUnmute">Увімк. сповіщ.</string>
+   <string name="SwipeMute">Вимк. сповіщ.</string>
+   <string name="SwipeDeleteChat">Видалити</string>
+   <string name="SwipeMarkAsRead">Прочитаний</string>
+   <string name="SwipeMarkAsUnread">Непрочитаний</string>
+   <string name="SwipeUnpin">Відкріпити</string>
+   <string name="SwipePin">Прикріпити</string>
+   <string name="CancelForwarding">Скасувати пересилання</string>
+   <string name="YourBioChanged">«Про себе» оновлено.</string>
+   <string name="YourNameChanged">Ім’я оновлено.</string>
+   <string name="ChannelTitleChanged">Назву каналу оновлено.</string>
+   <string name="ChannelDescriptionChanged">Опис каналу оновлено.</string>
    <!--cache view-->
    <string name="LocalDatabase">Локальні дані</string>
    <string name="LocalDatabaseClearTextTitle">Очистити локальну базу даних</string>
@@ -2485,8 +2548,8 @@
    <string name="NoSharedFiles">Діліться файлами й документами в цьому чаті і майте до них доступ з будь-якого з ваших пристроїв.</string>
    <string name="NoSharedLinks">Діліться посиланнями в цьому чаті і майте до них доступ з будь-якого з ваших пристроїв.</string>
    <string name="NoSharedVoice">Діліться голосовими повідомленнями в цьому чаті, і вони будуть доступні вам з будь-якого пристрою.</string>
-   <string name="NoMediaSecret">Фото та відео в цьому чаті зʼявлятимуться тут.</string>
-   <string name="NoSharedAudioSecret">Музика в цьому чаті зʼявлятиметься тут.</string>
+   <string name="NoMediaSecret">Фото та відео з цього чату зʼявлятимуться тут.</string>
+   <string name="NoSharedAudioSecret">Музика з цього чату зʼявлятиметься тут.</string>
    <string name="NoSharedFilesSecret">Файли та документи в цьому чаті зʼявлятимуться тут.</string>
    <string name="NoSharedLinksSecret">Надіслані в цьому чаті посилання зʼявлятимуться тут.</string>
    <string name="NoSharedVoiceSecret">Голосові повідомлення з цього чату будуть тут.</string>
@@ -2602,7 +2665,7 @@
    <string name="NoPhotos">Фото ще немає</string>
    <string name="PleaseDownload">Спершу завантажте медіа</string>
    <string name="PleaseStreamDownload">Зачекайте, поки відео повністю завантажиться.</string>
-   <string name="VideoDoesNotSupportStreaming">Це відео не оптимізоване для медіапотоку. Щоб відтворити, вам доведеться його завантажити.</string>
+   <string name="VideoDoesNotSupportStreaming">Це відео не оптимізоване для потокового відтворення. Можливо, його доведеться завантажити повністю.</string>
    <string name="CantPlayVideo">Застосунок не зміг відтворити це відео. Спробувати в зовнішньому програвачі?</string>
    <string name="NoRecentSearches">Немає недавніх пошукових запитів</string>
    <string name="ImagesTab2">Зображення</string>
@@ -2630,7 +2693,7 @@
    <string name="SoftenSkin">Гладка шкіра</string>
    <string name="TintShadows">ТІНІ</string>
    <string name="TintHighlights">СВІТЛО</string>
-   <string name="CurvesAll">УСЕ</string>
+   <string name="CurvesAll">УСІ</string>
    <string name="CurvesRed">ЧЕРВОНИЙ</string>
    <string name="CurvesGreen">ЗЕЛЕНИЙ</string>
    <string name="CurvesBlue">СИНІЙ</string>
@@ -2638,7 +2701,7 @@
    <string name="BlurLinear">Лінійне</string>
    <string name="BlurRadial">Радіальне</string>
    <string name="AreYouSureDeletePhotoTitle">Видалити фото</string>
-   <string name="AreYouSureDeletePhoto">Ви дійсно хочете видалити це фото?</string>
+   <string name="AreYouSureDeletePhoto">Ви дійсно хочете видалити фото?</string>
    <string name="AreYouSureDeleteVideoTitle">Видалити відео</string>
    <string name="AreYouSureDeleteVideo">Ви дійсно хочете видалити це відео?</string>
    <string name="AreYouSureDeleteGIFTitle">Видалити GIF</string>
@@ -2759,7 +2822,7 @@
    <string name="YourPasswordSuccessText">Ваш пароль для двоетапної перевірки тепер активовано.</string>
    <string name="YourPasswordChangedSuccessText">Пароль двоетапної перевірки змінено.</string>
    <string name="YourEmailSuccessText">Адреса е-пошти для скидання пароля двоетапної перевірки тепер активна.</string>
-   <string name="YourEmailSuccessChangedText">Е-пошту для відновлення паролю двоетапної перевірки змінено.</string>
+   <string name="YourEmailSuccessChangedText">Е-пошту для відновлення пароля двоетапної перевірки змінено.</string>
    <string name="ChangePassword">Змінити пароль</string>
    <string name="TurnPasswordOff">Вимкнути пароль</string>
    <string name="SetRecoveryEmail">Встановити е-пошту для відновлення</string>
@@ -2798,7 +2861,7 @@
    <string name="ResetMyAccountWarningText">Це незворотня дія.\n\nЯкщо ви скинете ваш акаунт, всі ваші повідомлення та чати буде видалено.</string>
    <string name="ResetMyAccountWarningReset">Скинути акаунт</string>
    <string name="LoginPassword">Пароль</string>
-   <string name="LoginPasswordText">Ви увімкнули двоетапну перевірку, отже, ваш акаунт захищено додатковим паролем.</string>
+   <string name="LoginPasswordText">Ви вмикали двоетапну перевірку. Ваш акаунт захищений додатковим паролем.</string>
    <string name="ForgotPassword">Забули пароль?</string>
    <string name="PasswordRecovery">Відновлення пароля</string>
    <string name="PasswordCode">Код</string>
@@ -2861,7 +2924,10 @@
    <string name="PrivacyPaymentsClear">Видалити дані платежів і доставки</string>
    <string name="PrivacyPaymentsClearAlertTitle">Очистити платіжні дані</string>
    <string name="PrivacyPaymentsClearAlertText">Ви дійсно хочете видалити дані платежів і доставок?</string>
-   <string name="PrivacyPaymentsClearAlert">Видалити дані про доставку та попросити всіх платіжних провайдерів вилучити збережені кредитні картки? Telegram ніколи не зберігає дані вашої кредитної картки.</string>
+   <string name="PrivacyPaymentsClearAlert">Видалити дані про доставку та попросити всіх платіжних провайдерів вилучити збережені кредитні картки? Telegram ніколи не зберігає даних кредитних карток користувачів.</string>
+   <string name="PrivacyPaymentsPaymentInfoCleared">Дані оплати видалено.</string>
+   <string name="PrivacyPaymentsShippingInfoCleared">Дані доставки видалено.</string>
+   <string name="PrivacyPaymentsPaymentShippingCleared">Платіжні дані та дані доставки видалено.</string>
    <string name="PrivacyBotsInfo">Сайти, на які ви входили через Telegram.</string>
    <string name="PrivacyClearShipping">Дані про доставку</string>
    <string name="PrivacyClearPayment">Платіжні дані</string>
@@ -2919,7 +2985,7 @@
    <string name="SuggestContacts">Пропонувати часті контакти</string>
    <string name="SuggestContactsInfo">Показувати людей, яким ви часто пишете, вгорі пошуку для швидкого доступу.</string>
    <string name="SuggestContactsTitle">Вимкнути пропозиції</string>
-   <string name="SuggestContactsAlert">Усі дані про те, з якими людьми та інлайн-ботами ви часто спілкуєтесь, буде видалено.</string>
+   <string name="SuggestContactsAlert">Буде видалено всі дані про те, з якими людьми та інлайн-ботами ви найчастіше спілкуєтеся.</string>
    <string name="PrivacyAddAnException">Додати користувачів або групи</string>
    <string name="PrivacyExceptions">Винятки</string>
    <string name="BlockedEmpty">Немає</string>
@@ -3030,11 +3096,11 @@
    <string name="ActionGroupCallStarted">un1 починає голосовий чат</string>
    <string name="ActionGroupCallStartedByYou">Ви починаєте голосовий чат</string>
    <string name="ActionGroupCallJustStarted">Почато голосовий чат</string>
+   <string name="ActionGroupCallScheduled">Голосовий чат заплановано на %1$s</string>
    <string name="ActionGroupCallEnded">Голосовий чат закінчено (%s)</string>
    <string name="ActionGroupCallInvited">un1 запрошує un2 до голосового чату</string>
    <string name="ActionGroupCallYouInvited">Ви запрошуєте un2 до голосового чату</string>
    <string name="ActionGroupCallInvitedYou">un1 запрошує вас до голосового чату</string>
-   <string name="ActionGroupCallInvitedYou">un1 запрошує вас до голосової бесіди</string>
    <string name="ActionBotAllowed">Цей бот зможе вам писати, оскільки ви увійшли на %1$s.</string>
    <string name="ActionBotDocuments">%1$s одержує такі документи: %2$s</string>
    <string name="ActionBotDocumentIdentity">Особисті дані</string>
@@ -3113,16 +3179,16 @@
    <string name="AddMembersAlertCountText">Ви дійсно хочете додати %1$s до **%2$s**?</string>
    <string name="AddMembersForwardMessages">Показувати новим учасникам попередні 100 повідомлень</string>
    <string name="AddOneMemberForwardMessages">Показувати **%1$s** попередні 100 повідомлень</string>
-   <string name="SendMessagesToText">Ви дійсно хочете надіслати повідомлення користувачу **%1$s**?</string>
-   <string name="SendGameToText">Ви дійсно хочете надіслати гру користувачу **%1$s**?</string>
-   <string name="SendContactToText">Ви дійсно хочете надіслати контакт користувачу **%1$s**?</string>
+   <string name="SendMessagesToText">Надіслати повідомлення користувачу **%1$s**?</string>
+   <string name="SendGameToText">Надіслати гру користувачу **%1$s**?</string>
+   <string name="SendContactToText">Надіслати контакт користувачу **%1$s**?</string>
    <string name="AreYouSureLogout">Ви дійсно хочете вийти?\n\nВи можете без перешкод користуватися Telegram на всіх своїх пристроях одночасно.\n\nВихід знищує всі ваші секретні чати.</string>
    <string name="DeleteFewChatsTitle">Видалити %1$s</string>
    <string name="ClearFewChatsTitle">Очистити %1$s</string>
    <string name="ClearCacheFewChatsTitle">Очистити кеш у %1$s</string>
    <string name="AreYouSureDeleteFewChats">Ви дійсно хочете видалити вибрані чати?</string>
    <string name="AreYouSureClearHistoryFewChats">Ви дійсно хочете очистити історію вибраних чатів?</string>
-   <string name="AreYouSureClearHistoryCacheFewChats">Видалити з кешу всі текстові й медіаповідомлення вибраних чатів?</string>
+   <string name="AreYouSureClearHistoryCacheFewChats">Видалити з кешу всі тексти та медіа вибраних чатів?</string>
    <string name="AreYouSureDeleteAndExit">Ви дійсно хочете видалити і покинути цю групу?</string>
    <string name="AreYouSureDeleteAndExitChannel">Ви дійсно хочете покинути канал і видалити його?</string>
    <string name="AreYouSureDeleteAndExitName">Ви дійсно хочете видалити і покинути групу **%1$s**?</string>
@@ -3144,7 +3210,7 @@
    <string name="AreYouSureShareMyContactInfoUser">Поділитися вашим номером телефону %1$s із **%2$s**?</string>
    <string name="AreYouSureShareMyContactInfo">Ви дійсно хочете поділитися вашим номером телефону?</string>
    <string name="AreYouSureBlockContact2">Ви дійсно хочете заблокувати **%1$s**?</string>
-   <string name="AreYouSureUnblockContact">Ви дійсно хочете розблокувати цей контакт?</string>
+   <string name="AreYouSureUnblockContact">Ви дійсно хочете розблокувати цього користувача?</string>
    <string name="AreYouSureDeleteContact">Ви дійсно хочете видалити цей контакт?</string>
    <string name="AreYouSureSecretChatTitle">Секретний чат</string>
    <string name="AreYouSureSecretChat">Ви дійсно хочете почати секретний чат?</string>
@@ -3155,8 +3221,8 @@
    <string name="AreYouSureClearHistoryWithChat">Ви дійсно хочете очистити історію чату у **%1$s**?</string>
    <string name="AreYouSureClearHistory">Ви дійсно хочете видалити всі повідомлення в цьому чаті?</string>
    <string name="AreYouSureClearHistorySavedMessages">Ви дійсно хочете очистити чат **Збережене**?</string>
-   <string name="AreYouSureClearHistoryChannel">Видалити всі кешовані тексти та медіа з цього каналу?</string>
-   <string name="AreYouSureClearHistoryGroup">Видалити всі кешовані тексти та медіа з цієї групи?</string>
+   <string name="AreYouSureClearHistoryChannel">Видалити з кешу всі тексти та медіа цього каналу?</string>
+   <string name="AreYouSureClearHistoryGroup">Видалити з кешу всі тексти та медіа цієї групи?</string>
    <string name="DeleteMessagesTitle">Видалити %1$s</string>
    <string name="DeleteSingleMessagesTitle">Видалити повідомлення</string>
    <string name="DeleteMessagesTextGroupPart">Ви також можете видалити %1$s з історії для інших учасників групи, вибравши «Видалити для всіх учасників».</string>
@@ -3170,9 +3236,9 @@
    <string name="DeleteMessagesOptionAlso">Також видалити для %1$s</string>
    <string name="ClearHistoryOptionAlso">Також очистити історію для %1$s</string>
    <string name="SendMessageTitle">Надіслати повідомлення</string>
-   <string name="SendMessagesToGroupText">Ви дійсно хочете надіслати повідомлення до **%1$s**?</string>
+   <string name="SendMessagesToGroupText">Надіслати повідомлення користувачу **%1$s**?</string>
    <string name="SendGameToGroupText">Ви дійсно хочете поділитися грою у **%1$s**?</string>
-   <string name="SendContactToGroupText">Ви дійсно хочете надіслати контакт до **%1$s**?</string>
+   <string name="SendContactToGroupText">Надіслати контакт до **%1$s**?</string>
    <string name="NoUsernameFound">Немає акаунта Telegram з таким псевдонімом.</string>
    <string name="BotCantJoinGroups">Цей бот не може приєднуватися до груп.</string>
    <string name="SecretLinkPreviewAlert">Увімкнути попередній перегляд посилань у секретних чатах? Зауважте, що попередній перегляд формується на серверах Telegram.</string>
@@ -3213,7 +3279,7 @@
    <string name="PermissionDrawAboveOtherAppsGroupCall">Спливаюча кнопка дає змогу перемикати мікрофон та бачити, хто говорить, доки ви знаходитесь в іншій програмі.</string>
    <string name="PermissionOpenSettings">НАЛАШТУВАННЯ</string>
    <string name="PermissionXiaomiLockscreen">Для належної роботи викликів дозвольте Telegram відображатись на екрані блокування.</string>
-   <string name="PermissionBackgroundLocation">Telegram потрібен постійний доступ до геоданих у фоновому режимі, щоб ви могли транслювати своє розташування в цьому чаті.\n\nДодаток матиме доступ лише на вибраний вами період часу, і ви можете відкликати доступ будь-коли. Інформація використовуватиметься тільки для трансляції розташування в цьому чаті.</string>
+   <string name="PermissionBackgroundLocation">Telegram потрібен постійний доступ до геоданих у фоновому режимі, щоб ви могли транслювати своє розташування в цьому чаті.\n\nПрограма матиме доступ лише на вибраний вами період часу, і ви можете відкликати доступ будь-коли. Інформація використовуватиметься тільки для трансляції розташування в цьому чаті.</string>
    <string name="PermissionDrawAboveOtherAppsTitle">Зображення в зображенні</string>
    <string name="PermissionDrawAboveOtherAppsGroupCallTitle">Спливаюча кнопка голосового чату</string>
    <!--charts-->
@@ -3232,17 +3298,17 @@
    <string name="SlideUpToLock">Проведіть угору, щоб зафіксувати записування</string>
    <string name="NotificationsChartTitle">Сповіщення</string>
    <string name="DeviceStorage">Памʼять пристрою</string>
-   <string name="TotalDeviceFreeSize">%s вільно</string>
+   <string name="TotalDeviceFreeSize">%s Вільно</string>
    <string name="ClearTelegramCache">Очистити кеш Telegram</string>
    <string name="StatisticOverview">Огляд</string>
    <string name="ViewsPerPost">Перегляди публікацій</string>
    <string name="SharesPerPost">Пересилання публікацій</string>
    <string name="EnabledNotifications">Сповіщення увімкнено</string>
    <string name="ClearLocalDatabase">Очистити локальну базу даних</string>
-   <string name="TelegramCacheSize">%s кеш Telegram</string>
+   <string name="TelegramCacheSize">%s Кеш Telegram</string>
    <string name="LocalDatabaseSize">%s локальна база даних Telegram</string>
    <string name="CacheWasCleared">%s вивільнено на вашому пристрої!</string>
-   <string name="TotalDeviceSize">%s інших даних</string>
+   <string name="TotalDeviceSize">%s Інші програми</string>
    <string name="GroupMembersChartTitle">Учасники групи</string>
    <string name="NewMembersBySourceChartTitle">Джерела нових учасників</string>
    <string name="MembersLanguageChartTitle">Основна мова учасників</string>
@@ -3358,7 +3424,7 @@
    <string name="VoipDeclineCall">Відхилити</string>
    <string name="VoipOffline">Зараз ви поза мережею. Щоб зателефонувати, підʼєднайтеся до інтернету.</string>
    <string name="VoipGroupOffline">Ви не підʼєднані до інтернету. Щоб увійти до голосового чату, підʼєднайтеся до інтернету.</string>
-   <string name="VoipOfflineAirplane">Ви в режимі польоту. Щоб зателефонувати, вимкніть його або під\'єднайтеся до мережі Wi-Fi.</string>
+   <string name="VoipOfflineAirplane">Ви в режимі польоту. Щоб зателефонувати, вийдіть з режиму польоту або підʼєднайтеся до мережі Wi-Fi.</string>
    <string name="VoipGroupOfflineAirplane">Ви в режимі польоту. Щоб увійти до голосового чату, вимкніть режим польоту або підʼєднайтеся до Wi-Fi.</string>
    <string name="VoipOfflineTitle">Поза мережею</string>
    <string name="VoipOfflineAirplaneTitle">Режим польоту</string>
@@ -3374,7 +3440,8 @@
    <string name="CallMessageVideoOutgoingMissed">Скасований виклик</string>
    <string name="CallMessageVideoIncomingDeclined">Відхилений виклик</string>
    <string name="CallMessageWithDuration">%1$s (%2$s)</string>
-   <string name="NoCallLog">Історії викликів немає.</string>
+   <string name="NoRecentCalls">Недавніх викликів немає</string>
+   <string name="NoRecentCallsInfo">Тут зʼявляться ваші недавні\nголосові та відеовиклики.</string>
    <string name="VoipPeerIncompatible">Користувач **%1$s** має спершу оновити Telegram, щоб ви змогли йому зателефонувати, оскільки він використовує несумісний протокол.</string>
    <string name="VoipPeerOutdated">**%1$s** має спершу оновити Telegram, щоб ви змогли йому зателефонувати, оскільки він не підтримує виклики.</string>
    <string name="VoipPeerVideoOutdated">**%1$s** використовує стару версію Telegram, яка не підтримує відеовикликів.</string>
@@ -3382,6 +3449,7 @@
    <string name="VoipRateCallAlert">Оцініть якість виклику</string>
    <string name="VoipNeedMicPermission">Щоб телефонувати, Telegram потрібен доступ до мікрофона.</string>
    <string name="VoipNeedMicCameraPermission">Telegram потрібен доступ до мікрофона та камери, щоб робити відеовиклики.</string>
+   <string name="VoipNeedCameraPermission">Надайте Telegram доступ до камери, щоб ви могли здійснювати відеовиклики.</string>
    <string name="VoipFeedbackCommentHint">Додати коментар (необовʼязково)</string>
    <string name="CallBack">Перетелефонувати</string>
    <string name="CallAgain">Зателефонувати знову</string>
@@ -3392,6 +3460,7 @@
    <string name="VoipAudioRoutingEarpiece">Динамік</string>
    <string name="VoipAudioRoutingHeadset">Навушники</string>
    <string name="VoipAudioRoutingSpeaker">Гучномовець</string>
+   <string name="VoipAudioRoutingPhone">Телефон</string>
    <string name="VoipAudioRoutingBluetooth">Bluetooth</string>
    <string name="VoipOutputDevices">Вихідні пристрої</string>
    <string name="ReturnToCall">ПОВЕРНУТИСЯ ДО ВИКЛИКУ</string>
@@ -3464,6 +3533,7 @@
    <string name="MembersTalking_many">говорять %1$s учасників</string>
    <string name="MembersTalking_other">говорять %1$s учасників</string>
    <string name="Speaking">говорить</string>
+   <string name="SpeakingWithVolume">%1$d%% говорить</string>
    <string name="Listening">слухає</string>
    <string name="WantsToSpeak">бажає говорити</string>
    <string name="Invited">запрошено</string>
@@ -3483,7 +3553,7 @@
    <string name="VoipGroupOnlyAdminsCanSpeak">Нові присутні заглушуються</string>
    <string name="VoipGroupShareInviteLink">Поділитися посиланням</string>
    <string name="VoipGroupEndChat">Закінчити голосовий чат</string>
-   <string name="VoipGroupCancelChat">Скасувати голосову бесіду</string>
+   <string name="VoipGroupCancelChat">Скасувати голосовий чат</string>
    <string name="VoipGroupConnecting">Зʼєднання…</string>
    <string name="VoipGroupLeaveAlertTitle">Вийти з голосового чату</string>
    <string name="VoipGroupLeaveAlertText">Ви дійсно хочете вийти з голосового чату?</string>
@@ -3492,15 +3562,16 @@
    <string name="VoipGroupLeaveAlertEndChat">Закінчити голосовий чат</string>
    <string name="VoipGroupViewVoiceChat">ГОЛОСОВИЙ ЧАТ</string>
    <string name="VoipGroupVoiceChat">Голосовий чат</string>
+   <string name="VoipGroupScheduledVoiceChat">Запланований голосовий чат</string>
    <string name="VoipGroupOpenVoiceChat">Відкрити голосовий чат</string>
    <string name="VoipGroupInviteAlreadyParticipant">Цей користувач уже в голосовому чаті.</string>
    <string name="VoipGroupJoinAnonymousAdmin">Анонімні адміністратори не можуть брати участі в голосових чатах.</string>
    <string name="VoipGroupTooMuch">На жаль, голосовий чат повний.</string>
-   <string name="VoipGroupTooMuch">На жаль, голосова бесіда повна.</string>
    <string name="VoipGroupInvitedToVoiceChat">un1 запрошує un2 до голосового чату</string>
    <string name="VoipGroupJoinCall">Увійти до голосового чату</string>
    <string name="VoipGroupInviteText">Привіт! Приєднуйся до нашого голосового чату: %1$s</string>
    <string name="VoipGroupInviteMember">Запросити учасників</string>
+   <string name="VoipGroupShareLink">Подіилитися посиланням</string>
    <string name="VoipGroupUserRemove">Вилучити</string>
    <string name="VoipGroupOpenProfile">Відкрити профіль</string>
    <string name="VoipGroupOpenChannel">Відкрити канал</string>
@@ -3516,7 +3587,7 @@
    <string name="VoipGroupInvitedUser">**%1$s** запрошено до голосового чату.</string>
    <string name="VoipGroupAdd">Додати</string>
    <string name="VoipGroupVolume">Гучність</string>
-   <string name="VoipGroupMuteForMe">Вимкнути звук для себе</string>
+   <string name="VoipGroupMuteForMe">Вимкнути звук у мене</string>
    <string name="VoipGroupMutedForMe">Звук вимкнений для вас</string>
    <string name="VoipGroupUnmuteForMe">Увімкнути звук для себе</string>
    <string name="MembersTalkingNobody">Натисніть, щоб увійти</string>
@@ -3552,22 +3623,64 @@
    <string name="VoipGroupJoinAsLinstener">УВІЙТИ ЯК СЛУХАЧ</string>
    <string name="VoipGroupJoinVoiceChatUrl">Увійти до голосового чату</string>
    <string name="VoipGroupJoinAnonymouseAlert">Ви дійсно хочете, щоб ваш особистий акаунт відображався в списку присутніх у голосовому чаті?</string>
-    <string name="VoipGroupSoundMuted">Бесіду заглушено.</string>
-    <string name="VoipGroupSoundUnmuted">Бесіду чутно.</string>
-    <string name="VoipGroupStart2">Учасники гурту отримають сповіщення про початок голосової бесіди.</string>
-    <string name="VoipChannelStart2">Підписники каналу отримають сповіщення про початок голосової бесіди.</string>
-    <string name="VoipChatDisplayedAs">Вас будуть бачити як:</string>
-    <string name="VoipGroupStartVoiceChat">Почати голосову бесіду</string>
-    <string name="VoipGroupScheduleVoiceChat">Вибрати час</string>
-    <string name="VoipGroupStartNow">Почати зараз</string>
-    <string name="VoipGroupSetReminder">Установити нагадування</string>
-    <string name="VoipGroupCancelReminder">Зняти нагадування</string>
-    <string name="VoipGroupScheduleInfo">Учасники гурту отримають сповіщення за %1$s до початку.</string>
-    <string name="VoipChannelScheduleInfo">Підписники каналу отримають сповіщення за %1$s до початку.</string>
-    <string name="VoipChatStartsIn">Початок за</string>
-    <string name="VoipChatLateBy">Спізнюється на</string>
-    <string name="VoipChatShare">Поділитись</string>
-    <string name="VoipChatReminderHint">Ви отримаєте сповіщення, щойно бесіда почнеться.</string>
+   <string name="VoipGroupSoundMuted">Голосовий чат заглушено.</string>
+   <string name="VoipGroupSoundUnmuted">Голосовий чат розглушено.</string>
+   <string name="VoipGroupStart2">Учасники групи отримають сповіщення про початок голосового чату.</string>
+   <string name="VoipChannelStart2">Підписники каналу отримають сповіщення про початок голосового чату.</string>
+   <string name="VoipChatDisplayedAs">Вас будуть бачити як:</string>
+   <string name="VoipGroupStartVoiceChat">Почати голосовий чат</string>
+   <string name="VoipGroupScheduleVoiceChat">Вибрати час</string>
+   <string name="VoipGroupStartNow">Почати зараз</string>
+   <string name="VoipGroupSetReminder">Встановити нагадування</string>
+   <string name="VoipGroupCancelReminder">Скасувати нагадування</string>
+   <string name="VoipGroupScheduleInfo">Учасники групи отримають сповіщення за %1$s до початку.</string>
+   <string name="VoipChannelScheduleInfo">Підписники каналу отримають сповіщення за %1$s до початку.</string>
+   <string name="VoipChatStartsIn">Початок за</string>
+   <string name="VoipChatLateBy">Спізнюється на</string>
+   <string name="VoipChatShare">Поділитися</string>
+   <string name="VoipChatReminderHint">Ви отримаєте сповіщення, щойно чат почнеться.</string>
+   <string name="VoipChatUserJoined">**%1$s** входить до голосового чату.</string>
+   <string name="VoipChatChatJoined">**%1$s** входить до голосового чату.</string>
+   <string name="VoipChatActiveChats">Активні голосові чати</string>
+   <string name="VoipChatRecentCalls">Недавні виклики</string>
+   <string name="VoipChatStartScreenCapture">Демонструвати екран</string>
+   <string name="VoipChatStopScreenCapture">Зупинити демонстрацію</string>
+   <string name="ThisIsYou">це ви</string>
+   <string name="VoipGroupOpenChat">Відкрити чат</string>
+   <string name="VoipAddPhoto">Змінити фото</string>
+   <string name="VoipAddBio">Додати «Про себе»</string>
+   <string name="VoipEditName">Редагувати імʼя</string>
+   <string name="VoipGroupBioEditTitle">Про себе</string>
+   <string name="VoipGroupBioEditAlertText">Додайте кілька рядків про себе. Цей текст бачитимуть усі.</string>
+   <string name="VoipTapToAddBio">Додайте кілька слів про себе</string>
+   <string name="VoipEditBio">Редагувати «Про себе»</string>
+   <string name="VoipAddDescription">Додати опис</string>
+   <string name="VoipEditDescription">Змінити опис</string>
+   <string name="TapToAddPhotoOrBio">додайте фото або кілька слів про себе</string>
+   <string name="TapToAddBio">додайте кілька слів про себе</string>
+   <string name="TapToAddPhoto">натисніть, щоб додати фото</string>
+   <string name="TapToAddDescription">натисніть, щоб змінити опис</string>
+   <string name="TapToAddPhotoOrDescription">Натисніть, щоб змінити фото або опис</string>
+   <string name="VoipEditTitle">Змінити назву</string>
+   <string name="VoipEditTitleHint">Назва</string>
+   <string name="VoipSetNewPhoto">Встановити нове фото</string>
+   <string name="VoipCamera">Камера</string>
+   <string name="VideoPreview">Попередній перегляд</string>
+   <string name="VideoPreviewDesrciption">Присутні в голосовому чаті бачитимуть відео з вашої камери</string>
+   <string name="ShareVideo">Увімкнути відео</string>
+   <string name="CallVideoPreviewTitle">Попередній перегляд</string>
+   <string name="CallVideoPin">Прикріпити</string>
+   <string name="CallVideoUnpin">Відкріпити</string>
+   <string name="VoipGroupAudio">Аудіо</string>
+   <string name="VoipSelectAudioOutput">Вихідний пристрій</string>
+   <string name="VoipVideoOnPause">Відео призупинено</string>
+   <string name="VoipVideoScreenSharingTwoLines">Ви демонструєте\nекран</string>
+   <string name="VoipVideoScreenSharing">Ви демонструєте екран</string>
+   <string name="VoipVideoScreenStopSharing">ЗУПИНИТИ ДЕМОНСТРАЦІЮ</string>
+   <string name="VoipNoiseCancellation">Шумозаглушення</string>
+   <string name="VoipNoiseCancellationEnabled">Увімкнено</string>
+   <string name="VoipNoiseCancellationDisabled">Вимкнено</string>
+   <string name="VoipVideoNotAvailable">Відео доступне лише\nдля перших %1$s</string>
    <!--invite links-->
    <string name="ManageInviteLinks">Керування посиланнями</string>
    <string name="ManageLinksInfoHelp">Можна створити додаткові запрошувальні посилання, що мають обмежений час або кількість використань.</string>
@@ -3624,6 +3737,12 @@
    <string name="ContactShortcutVoiceCall">Відеовиклик %1$s</string>
    <string name="ContactShortcutVideoCall">Відеовиклик %1$s</string>
    <!--plural-->
+   <string name="MembersAreSpeakingToast_zero">un1 говорять</string>
+   <string name="MembersAreSpeakingToast_one">un1 говорить</string>
+   <string name="MembersAreSpeakingToast_two">un1 говорять</string>
+   <string name="MembersAreSpeakingToast_few">un1 говорять</string>
+   <string name="MembersAreSpeakingToast_many">un1 говорять</string>
+   <string name="MembersAreSpeakingToast_other">un1 говорять</string>
    <string name="DeleteBackground_zero">Видалити %1$d фон</string>
    <string name="DeleteBackground_one">Видалити фон</string>
    <string name="DeleteBackground_two">Видалити %1$d фон</string>
@@ -3726,12 +3845,12 @@
    <string name="Members_few">%1$d учасники</string>
    <string name="Members_many">%1$d учасників</string>
    <string name="Members_other">%1$d учасників</string>
-   <string name="Participants_zero">%1$d учасників</string>
-   <string name="Participants_one">%1$d учасник</string>
-   <string name="Participants_two">%1$d учасників</string>
-   <string name="Participants_few">%1$d учасники</string>
-   <string name="Participants_many">%1$d учасників</string>
-   <string name="Participants_other">%1$d учасників</string>
+   <string name="Participants_zero">%1$d присутніх</string>
+   <string name="Participants_one">%1$d присутній</string>
+   <string name="Participants_two">%1$d присутніх</string>
+   <string name="Participants_few">%1$d присутніх</string>
+   <string name="Participants_many">%1$d присутніх</string>
+   <string name="Participants_other">%1$d присутніх</string>
    <string name="AndMoreTyping_zero">і ще %1$d пишуть</string>
    <string name="AndMoreTyping_one">і ще %1$d пишуть</string>
    <string name="AndMoreTyping_two">і ще %1$d пишуть</string>
@@ -3874,7 +3993,7 @@
    <string name="Subscribers_one">%1$d підписник</string>
    <string name="Subscribers_two">%1$d підписників</string>
    <string name="Subscribers_few">%1$d підписники</string>
-   <string name="Subscribers_many">\n%1$d підписників</string>
+   <string name="Subscribers_many">%1$d підписників</string>
    <string name="Subscribers_other">%1$d підписників</string>
    <string name="Exception_zero">%1$d винятків</string>
    <string name="Exception_one">%1$d виняток</string>
@@ -4177,6 +4296,18 @@
    <string name="PeopleCanJoinViaLinkCount_few">%s людей можуть приєднатися цим посиланням</string>
    <string name="PeopleCanJoinViaLinkCount_many">%s людей можуть приєднатися цим посиланням</string>
    <string name="PeopleCanJoinViaLinkCount_other">%s людей можуть приєднатися цим посиланням</string>
+   <string name="PinnedDialogsCount_zero">%1$d чатів прикріплено</string>
+   <string name="PinnedDialogsCount_one">Чат прикріплено</string>
+   <string name="PinnedDialogsCount_two">%1$d чатів прикріплено</string>
+   <string name="PinnedDialogsCount_few">%1$d чати прикріплено</string>
+   <string name="PinnedDialogsCount_many">%1$d чатів прикріплено</string>
+   <string name="PinnedDialogsCount_other">%1$d чатів прикріплено</string>
+   <string name="UnpinnedDialogsCount_zero">%1$d чатів відкріплено</string>
+   <string name="UnpinnedDialogsCount_one">Чат відкріплено</string>
+   <string name="UnpinnedDialogsCount_two">%1$d чатів відкріплено</string>
+   <string name="UnpinnedDialogsCount_few">%1$d чати відкріплено</string>
+   <string name="UnpinnedDialogsCount_many">%1$d чатів відкріплено</string>
+   <string name="UnpinnedDialogsCount_other">%1$d чатів відкріплено</string>
    <!--accessibility descriptions-->
    <string name="AccDescrGroup">Група</string>
    <string name="AccDescrChannel">Канал</string>
@@ -4222,8 +4353,8 @@
    <string name="AccDescrReplying">Відповідь для</string>
    <string name="AccDescrForwarding">Пересилання від</string>
    <string name="AccDescrEditing">Редагування</string>
-   <string name="AccDescrPasscodeLock">Заблокувати додаток</string>
-   <string name="AccDescrPasscodeUnlock">Розблокувати додаток</string>
+   <string name="AccDescrPasscodeLock">Заблокувати програму</string>
+   <string name="AccDescrPasscodeUnlock">Розблокувати програму</string>
    <string name="AccDescrBackspace">Backspace</string>
    <string name="AccDescrPrevious">Попередній елемент</string>
    <string name="AccDescrRepeatOff">Повторювати: ні</string>
@@ -4350,28 +4481,7 @@
    <string name="RemindTodayAt">\'Нагадати сьогодні,\' HH:mm</string>
    <string name="RemindDayAt">\'Нагадати\' d MMM\',\' HH:mm</string>
    <string name="RemindDayYearAt">\'Нагадати\' d MMM yyyy\',\' HH:mm</string>
-   <string name="Permanent">Основне посилання</string>
-   <string name="LinkHashExpired">Посилання більше не діє</string>
-   <string name="CancelForward">Скасувати пересилання</string>
-   <string name="SelectOtherChat">Вибрати інший чат</string>
-   <string name="CancelForwardMessage">Скасувати пересилання чи переслати до іншого чату?</string>
-   <string name="ChatListSwipeGesture">Дія при змахуванні в списку</string>
-   <string name="SwipeSettingsPin">Прикріплення</string>
-   <string name="SwipeSettingsRead">Познач. прочитаним</string>
-   <string name="SwipeSettingsArchive">Архівування</string>
-   <string name="SwipeSettingsMute">Вимикання сповіщ.</string>
-   <string name="SwipeSettingsDelete">Видалення</string>
-   <string name="SwipeSettingsFolders">Перехід між папками</string>
-   <string name="SwipeUnmute">Увімк. сповіщ.</string>
-   <string name="SwipeMute">Вимк. сповіщ.</string>
-   <string name="SwipeDeleteChat">Видалити</string>
-   <string name="SwipeMarkAsRead">Прочитаний</string>
-   <string name="SwipeMarkAsUnread">Непрочитаний</string>
-   <string name="SwipeUnpin">Відкріпити</string>
-   <string name="SwipePin">Прикріпити</string>
-   <string name="CancelForwarding">Скасувати пересилання</string>
-   <string name="ThisIsYou">це ви</string>
-   <string name="VoipGroupOpenChat">Відкрити чат</string>
+   <string name="BotsMenuTitle">Меню</string>
 
    <!-- new from translations.telegram.org -->
 
@@ -4394,12 +4504,13 @@
    <string name="AreYouSureDeleteMessages">Ви дійсно хочете видалити %1$s?</string>
    <string name="AutoNightAutomatic">Автоматично</string>
    <string name="AutoplayGifs">Автовідтворення GIF</string>
-   <string name="CancelAccountResetInfo">Хтось із доступом до вашого номера телефону **%1$s** зробив запит на видалення вашого акаунта Telegram і скидання паролю двоетапної перевірки.\n\nЯкщо це були не ви, введіть код, щойно надісланий вам в SMS. Ви також можете це скасувати, **змінивши ваш номер телефону**.</string>
+   <string name="BackgroundColor">Колір</string>
+   <string name="CancelAccountResetInfo">Хтось із доступом до вашого номера телефону **%1$s** зробив запит на видалення вашого акаунта Telegram і скидання пароля двоетапної перевірки.\n\nЯкщо це були не ви, введіть код, щойно надісланий вам в SMS. Ви також можете це скасувати, **змінивши ваш номер телефону**.</string>
    <string name="ChannelAddMembers">Додати учасників</string>
    <string name="ChannelAlertCreate">СТВОРИТИ КАНАЛ</string>
    <string name="ChannelMessageContact">%1$s публікує контакт</string>
    <string name="ChannelMessagePoll">%1$s публікує опитування</string>
-   <string name="ChooseMapPreviewProvider">Виберіть постачальника мініатюр карт</string>
+   <string name="ChooseMapPreviewProvider">Постачальник мініатюр карт</string>
    <string name="ConnectingToProxyDisable">Вимкнути</string>
    <string name="ConnectingToProxyDisableAlert">Ви дійсно хочете вимкнути проксі-сервер %1$s? Ви зможете увімкнути його ще раз пізніше в Налаштуваннях &gt; Дані та сховище.</string>
    <string name="ConnectingToProxyTapToDisable">Натисніть тут, щоб вимкнути проксі...</string>
@@ -4432,9 +4543,10 @@
    <string name="NeverAllowPlaceholder">Не дозволяти...</string>
    <string name="NeverShareWithPlaceholder">Приховувати від...</string>
    <string name="NewThemePreviewLine2">В Токіо ранок &#128526;</string>
-   <string name="NoAudio">Додайте файли до музичної бібліотеки на вашому пристрої, щоб побачити їх тут.</string>
+   <string name="NoAudio">Додайте файли до музичної бібліотеки на пристрої, і вони зʼявляться тут.</string>
    <string name="NoBlockedChannel">Заблоковані користувачі вилучаються з каналу і лише адмін може їх повернути. Запрошувальні посилання для них не працюють.</string>
    <string name="NoBlockedGroup">Заблоковані користувачі вилучаються з групи і можуть повернутися до неї лише тоді, коли їх додасть адміністратор. Запрошувальні посилання для них не працюють.</string>
+   <string name="NoCallLog">Історії викликів немає.</string>
    <string name="NoRecentPhotos">Немає недавніх фото</string>
    <string name="NotificationActionPinnedContact">%1$s прикріплює контакт у групі %2$s</string>
    <string name="NotificationActionPinnedContactChannel">%1$s прикріплює контакт</string>
@@ -4454,6 +4566,7 @@
    <string name="PassportSDK_LogInWithTelegram">Увійти через Telegram</string>
    <string name="PassportSDK_OpenGooglePlay">Відкрити Google Play</string>
    <string name="PassportSDK_TelegramPassport">Telegram Passport</string>
+   <string name="PaymentTransactionMessage">Ви дійсно хочете передати %1$s ботові %2$s за %3$s?</string>
    <string name="PendingEmailText">Ваша е-пошта для відновлення %1$s ще не активна й очікує підтвердження.</string>
    <string name="PeopleCanJoinViaLink">%s людей може приєднатися за цим посиланням</string>
    <string name="PeopleNearbyInfo">Запропонуйте другові зайти в цей розділ, щоб обмінятися номерами телефонів.</string>
@@ -4472,8 +4585,8 @@
    <string name="SendContactToGroup">Надіслати контакт до %1$s?</string>
    <string name="SendGameTo">Поділитися грою із %1$s?</string>
    <string name="SendGameToGroup">Поділитися грою із %1$s?</string>
-   <string name="SendMessagesTo">Надіслати повідомлення до %1$s?</string>
-   <string name="SendMessagesToGroup">Надіслати повідомлення до %1$s?</string>
+   <string name="SendMessagesTo">Надіслати до %1$s?</string>
+   <string name="SendMessagesToGroup">Надіслати до %1$s?</string>
    <string name="SetAdminsAll">Усі учасники&#160;– адміністратори</string>
    <string name="SetAdminsAllInfo">Усі учасники можуть додавати нових учасників, прикріплювати повідомлення, змінювати назву та фото групи.</string>
    <string name="SetAdminsNotAllInfo">Лише адміністратори можуть додавати й вилучати учасників, прикріплювати повідомлення, змінювати назву та фото групи.</string>
@@ -4513,6 +4626,7 @@
    <!-- BGram Strings--><!-- BGram Strings-->
    <!-- BGram Strings--><!-- BGram Strings-->
    <!-- BGram Strings--><!-- BGram Strings-->
+
    <string name="BGram" translatable="false">BGram</string>
    <string name="AppName" translatable="false">BGram</string>
    <string name="AppNameBeta" translatable="false">BGram Beta</string>
@@ -4865,18 +4979,24 @@
    <string name="BiftorShowExactNumberOfMembers">Показувати точну кількість</string>
    <string name="BiftorShowExactNumberOfMembersSub">Показувати точне число переглядів й учасників/підписників («2 125», а не «2k»)</string>
 
-   <!--‌ Biftor remove call button in profile -->
+   <!--Biftor remove call button in profile -->
    <string name="BiftorRemoveCallButtonInProfile">Приховати кнопку виклику у профілі</string>
 
-   <!--‌ Biftor forward config -->
+   <!--Biftor forward config -->
    <string name="ForwardTabsCat">Укладки панелі пересилання</string>
    <string name="ForwardTabsHided">Не показувати вкладки</string>
    <string name="BiftorForwardCopyLink">Поклик</string>
 
-   <!--‌ Biftor mark on msg -->
+   <!--Biftor mark on msg -->
    <string name="BiftorSetMarkOnMsg">Установити закладку</string>
    <string name="BiftorGoToMarkedMsg">До закладки</string>
-   <string name="BiftorResetMarkedMsg">Видалити закладку</string>
+   <string name="BiftorRemoveMarkedMsg">Remove marked message</string>
+   <string name="BiftorRemoveAllMarkedMsg">Remove all marked message</string>
+   <string name="BiftorMarkedMsg">Marked messages</string>
+   <string name="BiftorMsgEmptyTextSearch">No message that contain \'**%1$s**\' have been found.</string>
+   <string name="BiftorNoMsgs">No messages yet!</string>
+   <string name="BiftorOrderByDateAdded">Order by date added</string>
+   <string name="BiftorUpdateMarkMessages">Update marked messages</string>
 
    <!--Biftor Font piker -->
    <string name="BiftorFontsPickerCat">Користувацькі шрифти</string>
@@ -4949,7 +5069,7 @@
    <string name="BiftorId">id: </string>
 
    <!-- Biftor auto download next media -->
-   <string name="BiftorEnableAutoDownloadNextMedia">Самозавантаження сусідніх медіа</string>
+   <string name="BiftorEnableAutoDownloadNextMedia">Смозавантаження сусідніх медіа</string>
    <string name="BiftorDisableGoToNextMedia">Вимкнути перехід до наступного медіа</string>
    <string name="BiftorDisableGoToNextMediaSub">Вимкнути перехід до наступного медіа, торкнувшись краю фото</string>
 
@@ -5045,6 +5165,7 @@
    <string name="BiftorBackUpFav">Улюблені чати</string>
    <string name="BiftorBackUpHidden">Приховані чати</string>
    <string name="BiftorBackUpFolders">Теки</string>
+   <string name="BiftorBackUpMarkedMessages">Marked messages</string>
    <string name="BiftorBackUpFonts">Користувацькі шрифти</string>
    <string name="BiftorBackUpAllAndSaveToCloud">Додати все до збереженого</string>
    <string name="BiftorBackUpSuccessful">Резервне копіювання виконано.\nЗбержено до:\n</string>
@@ -5056,6 +5177,7 @@
    <string name="BiftorRestoreFav">Відновити улюблені чати</string>
    <string name="BiftorRestoreHidden">Відновити приховані чати</string>
    <string name="BiftorRestoreFolders">Теки</string>
+   <string name="BiftorRestoreMarkedMessages">Marked messages</string>
 
    <string name="BiftorRestoreToDef">Скинути до усталених значень</string>
    <string name="BiftorRestoreGlobalToDef">Скинути всеосяжні налаштування</string>
@@ -5063,6 +5185,7 @@
    <string name="BiftorRestoreFavToDef">Скинути улюблені чати</string>
    <string name="BiftorRestoreHiddenToDef">Скинути приховані чати</string>
    <string name="BiftorRestoreDialogsFolderToDef">Restore dialog\'s folders to server default</string>
+   <string name="BiftorRestoreMarkedMessagesToDef">Restore marked messages to default</string>
 
    <string name="BiftorRestoreSuccessful">Відновлення виконано!</string>
    <string name="BiftorRestoreUnSuccessful">Відновлення не вдалось</string>
@@ -5152,11 +5275,11 @@
    <string name="BiftorLoginWithBotToKen">Авторизуватись через токен бота</string>
    <string name="BiftorBotToken">Укладіть токен бота</string>
    <string name="BiftorLoginWithBotInfo">Використайте @BotFather для створення нового бота.\n\nВхід за допомогою бота має обмеження, які мають усі боти, як от:\n
-      - Ви не матимете доступу до своїх контактів.\n
-      - Не зможете приєднатися до груп чи каналів (якщо адмін не долучить вас).\n
-      - Зможете писати лише тим користувачам, котрі натиснули на /start.\n
-      - Не бачитимете коли користувачі набиратимуть для вас повідомлення.\n
-      - Список чату буде порожнім при першому вході в систему, та поповниться, коли бот отримає повідомлення від користувачів та груп. Виявлення груп може бути повільним.</string>
+        - Ви не матимете доступу до своїх контактів.\n
+        - Не зможете приєднатися до груп чи каналів (якщо адмін не долучить вас).\n
+        - Зможете писати лише тим користувачам, котрі натиснули на /start.\n
+        - Не бачитимете коли користувачі набиратимуть для вас повідомлення.\n
+        - Список чату буде порожнім при першому вході в систему, та поповниться, коли бот отримає повідомлення від користувачів та груп. Виявлення груп може бути повільним.</string>
 
    <!--Biftor Tor -->
    <string name="BiftorTorStarting">TOR запускається&#8230;</string>
@@ -5368,9 +5491,9 @@
    <string name="BiftorTranslateCHINESE_TRADITIONAL">CHINESE TRADITIONAL</string>
 
    <!--Biftor delete from recent search-->
-   <string name="BiftorDeletRecentSearchItem">Ви впевнені, що хочете видалити : **%1$s** з нещодавнього пошуку?</string>
+   <string name="BiftorDeleteRecentSearchItem">Ви впевнені, що хочете видалити : **%1$s** з нещодавнього пошуку?</string>
 
-   <string name="BiftorDrawerContactAndGroup">Контакти та групи</string>
+   <string name="BiftorDrawerContactAndGroup">Chats</string>
 
    <!--Biftor floating new msg-->
    <string name="BiftorChangeToSaveMsg">Збережене на рухомій кнопці</string>
@@ -5388,7 +5511,7 @@
    <string name="BiftorUpdateIsAvailable">Оновлення доступне</string>
    <string name="BiftorCheckForUpdate">Перевірити наявність оновлень</string>
    <string name="BiftorDownloadLatestVersion">Завантажити останню версію</string>
-
+   <string name="BiftorUpdateFileExists">Update file downloaded and located in:\n%s\nDo you want download it again?</string>
 
    <!--Biftor direct chats-->
    <string name="BiftorDirectChats">Важливі чати</string>
@@ -5453,7 +5576,7 @@
    <string name="BiftorAdsTypeCustom">Реклама</string>
    <string name="BiftorAdsTitle">BGram реклама</string>
    <string name="BiftorAdsSubTitle">Підтримати BGram переглядом реклами</string>
-   <string name="BiftorAdsHideFor">Подивись, щоб приховати на %</string>
+   <string name="BiftorAdsHideFor">Перегляд приховає на %</string>
 
    <!--Biftor times-->
    <string name="BiftorHour">%s година</string>

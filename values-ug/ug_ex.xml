@@ -2481,12 +2481,12 @@
     <string name="formatterDay12H">h:mm a</string>
     <string name="formatDateAtTime">%1$s %2$s</string>
     <string name="formatDateScheduleDay">EEE MMM d</string>
+    <!-- BGram Strings--><!-- BGram Strings-->
+    <!-- BGram Strings--><!-- BGram Strings-->
+    <!-- BGram Strings--><!-- BGram Strings-->
+    <!-- BGram Strings--><!-- BGram Strings-->
+    <!-- BGram Strings--><!-- BGram Strings-->
 
-    <!-- BGram Strings--><!-- BGram Strings-->
-    <!-- BGram Strings--><!-- BGram Strings-->
-    <!-- BGram Strings--><!-- BGram Strings-->
-    <!-- BGram Strings--><!-- BGram Strings-->
-    <!-- BGram Strings--><!-- BGram Strings-->
     <string name="BGram" translatable="false">BGram</string>
     <string name="AppName" translatable="false">BGram</string>
     <string name="AppNameBeta" translatable="false">BGram Beta</string>
@@ -2553,7 +2553,6 @@
     <string name="HeaderTabCounterCountChats">ھەممىسىنى ئايرىم ھىساپلىسۇن</string>
     <string name="HeaderTabCounterCountNotMuted">ئۈنسىزنى سانىسۇن</string>
     <string name="HideTabsCounters">سىتون ھىسابلىغۇچنى يۇشۇرۇش</string>
-    <string name="MarkAllAsRead">بارلىق ئۇچۇرنى ئوقۇپ بولغان قىلىش</string>
     <string name="BiftorForceMarkAsRead">مەجبۇرى ئوقۇلغان قىلىش</string>
 
     <string name="ShowHeaderShadow">ماۋزۇ سىايىسى كۈرۈنسۇن</string>
@@ -2823,18 +2822,24 @@
     <string name="BiftorShowExactNumberOfMembers">Display exact numbers</string>
     <string name="BiftorShowExactNumberOfMembersSub">Show exact numbers of views and members/subscribers</string>
 
-    <!--‌ Biftor remove call button in profile -->
+    <!--Biftor remove call button in profile -->
     <string name="BiftorRemoveCallButtonInProfile">Hide call button in user profile</string>
 
-    <!--‌ Biftor forward config -->
+    <!--Biftor forward config -->
     <string name="ForwardTabsCat">Forward Tabs</string>
     <string name="ForwardTabsHided">Forward tabs hided</string>
     <string name="BiftorForwardCopyLink">Copy link</string>
 
-    <!--‌ Biftor mark on msg -->
+    <!--Biftor mark on msg -->
     <string name="BiftorSetMarkOnMsg">Set mark on message</string>
     <string name="BiftorGoToMarkedMsg">Go to marked message</string>
-    <string name="BiftorResetMarkedMsg">Reset mark message</string>
+    <string name="BiftorRemoveMarkedMsg">Remove marked message</string>
+    <string name="BiftorRemoveAllMarkedMsg">Remove all marked message</string>
+    <string name="BiftorMarkedMsg">Marked messages</string>
+    <string name="BiftorMsgEmptyTextSearch">No message that contain \'**%1$s**\' have been found.</string>
+    <string name="BiftorNoMsgs">No messages yet!</string>
+    <string name="BiftorOrderByDateAdded">Order by date added</string>
+    <string name="BiftorUpdateMarkMessages">Update marked messages</string>
 
     <!--Biftor Font picker -->
     <string name="BiftorFontsPickerCat">Font Picker</string>
@@ -3002,6 +3007,7 @@
     <string name="BiftorBackUpFav">Favorite chats</string>
     <string name="BiftorBackUpHidden">Hidden chats</string>
     <string name="BiftorBackUpFolders">Folders</string>
+    <string name="BiftorBackUpMarkedMessages">Marked messages</string>
     <string name="BiftorBackUpFonts">Custom fonts</string>
     <string name="BiftorBackUpAllAndSaveToCloud">Backup all and save to cloud</string>
     <string name="BiftorBackUpSuccessful">Backup successful to</string>
@@ -3013,6 +3019,7 @@
     <string name="BiftorRestoreFav">Favorite chats</string>
     <string name="BiftorRestoreHidden">Hidden chats</string>
     <string name="BiftorRestoreFolders">Folders</string>
+    <string name="BiftorRestoreMarkedMessages">Marked messages</string>
 
     <string name="BiftorRestoreToDef">Restore to default</string>
     <string name="BiftorRestoreGlobalToDef">Restore global settings to default</string>
@@ -3020,6 +3027,7 @@
     <string name="BiftorRestoreFavToDef">Restore favorite chats to default</string>
     <string name="BiftorRestoreHiddenToDef">Restore hidden chats to default</string>
     <string name="BiftorRestoreDialogsFolderToDef">Restore dialog\'s folders to server default</string>
+    <string name="BiftorRestoreMarkedMessagesToDef">Restore marked messages to default</string>
 
     <string name="BiftorRestoreSuccessful">Restored successfully</string>
     <string name="BiftorRestoreUnSuccessful">Restore failed</string>
@@ -3109,11 +3117,11 @@
     <string name="BiftorLoginWithBotToKen">Login with bot token</string>
     <string name="BiftorBotToken">Paste your bot token</string>
     <string name="BiftorLoginWithBotInfo">You can use the @BotFather to create a new bot.\n\nWhen you login with a bot, you will have all the limitations that bots have, including:\n
-		- You do not have access to your contacts.\n
-		- You can\'t join groups and channels (unless admins add you).\n
-		- You can only write to users who have already sent you /start.\n
-		- You will not be able to see when users read your messages.\n
-		- The chat list is empty when you first login, and will populate when the bot receives messages from users and groups. Group detection can be particularly slow.</string>
+        - You do not have access to your contacts.\n
+        - You can\'t join groups and channels (unless admins add you).\n
+        - You can only write to users who have already sent you /start.\n
+        - You will not be able to see when users read your messages.\n
+        - The chat list is empty when you first login, and will populate when the bot receives messages from users and groups. Group detection can be particularly slow.</string>
 
     <!--Biftor Tor -->
     <string name="BiftorTorStarting">TOR is starting&#8230;</string>
@@ -3325,9 +3333,9 @@
 
 
     <!--Biftor delete from recent search-->
-    <string name="BiftorDeletRecentSearchItem">Are you sure you want to delete this: **%1$s** from recent search?</string>
+    <string name="BiftorDeleteRecentSearchItem">Are you sure you want to delete this: **%1$s** from recent search?</string>
 
-    <string name="BiftorDrawerContactAndGroup">Contacts and groups</string>
+    <string name="BiftorDrawerContactAndGroup">Chats</string>
 
     <!--Biftor floating new msg-->
     <string name="BiftorChangeToSaveMsg">change FB to save message</string>
@@ -3344,6 +3352,7 @@
     <string name="BiftorUpdateIsAvailable">Update is available</string>
     <string name="BiftorCheckForUpdate">Check for update</string>
     <string name="BiftorDownloadLatestVersion">Download last version</string>
+    <string name="BiftorUpdateFileExists">Update file downloaded and located in:\n%s\nDo you want download it again?</string>
 
     <!--Biftor direct chats-->
     <string name="BiftorDirectChats">Direct chats</string>

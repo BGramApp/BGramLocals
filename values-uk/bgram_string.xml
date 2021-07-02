@@ -353,18 +353,24 @@
     <string name="BiftorShowExactNumberOfMembers">Показувати точну кількість</string>
     <string name="BiftorShowExactNumberOfMembersSub">Показувати точне число переглядів й учасників/підписників («2 125», а не «2k»)</string>
 
-    <!--‌ Biftor remove call button in profile -->
+    <!--Biftor remove call button in profile -->
     <string name="BiftorRemoveCallButtonInProfile">Приховати кнопку виклику у профілі</string>
 
-    <!--‌ Biftor forward config -->
+    <!--Biftor forward config -->
     <string name="ForwardTabsCat">Укладки панелі пересилання</string>
     <string name="ForwardTabsHided">Не показувати вкладки</string>
     <string name="BiftorForwardCopyLink">Поклик</string>
 
-    <!--‌ Biftor mark on msg -->
+    <!--Biftor mark on msg -->
     <string name="BiftorSetMarkOnMsg">Установити закладку</string>
     <string name="BiftorGoToMarkedMsg">До закладки</string>
-    <string name="BiftorResetMarkedMsg">Видалити закладку</string>
+    <string name="BiftorRemoveMarkedMsg">Remove marked message</string>
+    <string name="BiftorRemoveAllMarkedMsg">Remove all marked message</string>
+    <string name="BiftorMarkedMsg">Marked messages</string>
+    <string name="BiftorMsgEmptyTextSearch">No message that contain \'**%1$s**\' have been found.</string>
+    <string name="BiftorNoMsgs">No messages yet!</string>
+    <string name="BiftorOrderByDateAdded">Order by date added</string>
+    <string name="BiftorUpdateMarkMessages">Update marked messages</string>
 
     <!--Biftor Font piker -->
     <string name="BiftorFontsPickerCat">Користувацькі шрифти</string>
@@ -533,6 +539,7 @@
     <string name="BiftorBackUpFav">Улюблені чати</string>
     <string name="BiftorBackUpHidden">Приховані чати</string>
     <string name="BiftorBackUpFolders">Теки</string>
+    <string name="BiftorBackUpMarkedMessages">Marked messages</string>
     <string name="BiftorBackUpFonts">Користувацькі шрифти</string>
     <string name="BiftorBackUpAllAndSaveToCloud">Додати все до збереженого</string>
     <string name="BiftorBackUpSuccessful">Резервне копіювання виконано.\nЗбержено до:\n</string>
@@ -544,6 +551,7 @@
     <string name="BiftorRestoreFav">Відновити улюблені чати</string>
     <string name="BiftorRestoreHidden">Відновити приховані чати</string>
     <string name="BiftorRestoreFolders">Теки</string>
+    <string name="BiftorRestoreMarkedMessages">Marked messages</string>
 
     <string name="BiftorRestoreToDef">Скинути до усталених значень</string>
     <string name="BiftorRestoreGlobalToDef">Скинути всеосяжні налаштування</string>
@@ -551,6 +559,7 @@
     <string name="BiftorRestoreFavToDef">Скинути улюблені чати</string>
     <string name="BiftorRestoreHiddenToDef">Скинути приховані чати</string>
     <string name="BiftorRestoreDialogsFolderToDef">Restore dialog\'s folders to server default</string>
+    <string name="BiftorRestoreMarkedMessagesToDef">Restore marked messages to default</string>
 
     <string name="BiftorRestoreSuccessful">Відновлення виконано!</string>
     <string name="BiftorRestoreUnSuccessful">Відновлення не вдалось</string>
@@ -856,9 +865,9 @@
     <string name="BiftorTranslateCHINESE_TRADITIONAL">CHINESE TRADITIONAL</string>
 
     <!--Biftor delete from recent search-->
-    <string name="BiftorDeletRecentSearchItem">Ви впевнені, що хочете видалити : **%1$s** з нещодавнього пошуку?</string>
+    <string name="BiftorDeleteRecentSearchItem">Ви впевнені, що хочете видалити : **%1$s** з нещодавнього пошуку?</string>
 
-    <string name="BiftorDrawerContactAndGroup">Контакти та групи</string>
+    <string name="BiftorDrawerContactAndGroup">Chats</string>
 
     <!--Biftor floating new msg-->
     <string name="BiftorChangeToSaveMsg">Збережене на рухомій кнопці</string>
@@ -876,7 +885,7 @@
     <string name="BiftorUpdateIsAvailable">Оновлення доступне</string>
     <string name="BiftorCheckForUpdate">Перевірити наявність оновлень</string>
     <string name="BiftorDownloadLatestVersion">Завантажити останню версію</string>
-
+    <string name="BiftorUpdateFileExists">Update file downloaded and located in:\n%s\nDo you want download it again?</string>
 
     <!--Biftor direct chats-->
     <string name="BiftorDirectChats">Важливі чати</string>

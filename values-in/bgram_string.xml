@@ -364,7 +364,13 @@
 	<!--‌ Biftor mark on msg -->
 	<string name="BiftorSetMarkOnMsg">Tetapkan tanda pada pesan</string>
 	<string name="BiftorGoToMarkedMsg">Pergi ke pesan yang ditandai</string>
-	<string name="BiftorResetMarkedMsg">Setel ulang tandai pesan</string>
+	<string name="BiftorRemoveMarkedMsg">Remove marked message</string>
+	<string name="BiftorRemoveAllMarkedMsg">Remove all marked message</string>
+	<string name="BiftorMarkedMsg">Marked messages</string>
+	<string name="BiftorMsgEmptyTextSearch">No message that contain \'**%1$s**\' have been found.</string>
+	<string name="BiftorNoMsgs">No messages yet!</string>
+	<string name="BiftorOrderByDateAdded">Order by date added</string>
+	<string name="BiftorUpdateMarkMessages">Update marked messages</string>
 
 	<!--Biftor Font picker -->
 	<string name="BiftorFontsPickerCat">Pemilih Font</string>
@@ -543,6 +549,7 @@
 	<string name="BiftorRestoreFav">Obrolan favorit</string>
 	<string name="BiftorRestoreHidden">Obrolan tersembunyi</string>
 	<string name="BiftorRestoreFolders">Folder</string>
+	<string name="BiftorRestoreMarkedMessages">Marked messages</string>
 
 	<string name="BiftorRestoreToDef">Kembalikan ke default</string>
 	<string name="BiftorRestoreGlobalToDef">Kembalikan pengaturan global ke default</string>
@@ -550,6 +557,7 @@
 	<string name="BiftorRestoreFavToDef">Kembalikan obrolan favorit ke default</string>
 	<string name="BiftorRestoreHiddenToDef">Kembalikan obrolan tersembunyi ke default</string>
 	<string name="BiftorRestoreDialogsFolderToDef">Pulihkan folder dialog ke default server</string>
+	<string name="BiftorRestoreMarkedMessagesToDef">Restore marked messages to default</string>
 
 	<string name="BiftorRestoreSuccessful">Berhasil dipulihkan</string>
 	<string name="BiftorRestoreUnSuccessful">Pemulihan gagal</string>
@@ -850,9 +858,9 @@
 
 
 	<!--Biftor delete from recent search-->
-	<string name="BiftorDeletRecentSearchItem">Yakin ingin menghapus **%1$s** dari penelusuran terbaru?</string>
+	<string name="BiftorDeleteRecentSearchItem">Yakin ingin menghapus **%1$s** dari penelusuran terbaru?</string>
 
-	<string name="BiftorDrawerContactAndGroup">Obrolan dan Kontak</string>
+	<string name="BiftorDrawerContactAndGroup">Chats</string>
 
 	<!--Biftor floating new msg-->
 	<string name="BiftorChangeToSaveMsg">Pesan Tersimpan di mengambang</string>
@@ -870,6 +878,7 @@
 	<string name="BiftorUpdateIsAvailable">Pembaruan tersedia</string>
 	<string name="BiftorCheckForUpdate">Memeriksa pembaruan</string>
 	<string name="BiftorDownloadLatestVersion">Unduh versi terakhir</string>
+	<string name="BiftorUpdateFileExists">Update file downloaded and located in:\n%s\nDo you want download it again?</string>
 
 
 	<!--Biftor direct chats-->

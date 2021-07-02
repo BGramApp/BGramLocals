@@ -83,7 +83,7 @@
     <string name="HeaderTabCounterCountChats">شمارش تعداد چت ها به جای تعداد پیام ها</string>
     <string name="HeaderTabCounterCountNotMuted">فقط شمارش چت های ساکت نشده</string>
     <string name="HideTabsCounters">عدم نمایش شمارشگر تب ها</string>
-    <string name="MarkAllAsRead">خوانده شدن همه پیام ها</string>
+    <string name="BiftorForceMarkAsRead">انتخاب به عنوان خوانده شده اجباری</string>
 
     <string name="ShowHeaderShadow">نمایش سایه تب ها</string>
 
@@ -356,19 +356,24 @@
     <string name="BiftorShowExactNumberOfMembers">نمایش تعداد دقیق عضو ها</string>
     <string name="BiftorShowExactNumberOfMembersSub">نمایش تعداد دقیق عضو های گروه ها و کانال ها</string>
 
-    <!--‌ Biftor remove call button in profile -->
+    <!--Biftor remove call button in profile -->
     <string name="BiftorRemoveCallButtonInProfile">حذف دکمه تماس در پروفایل کاربر</string>
 
-    <!--‌ Biftor forward config -->
+    <!--Biftor forward config -->
     <string name="ForwardTabsCat">تب های هدایت</string>
     <string name="ForwardTabsHided">تب های پنل هدایت مخفی شد</string>
     <string name="BiftorForwardCopyLink">کپی کردن لینک</string>
-    <string name="BiftorForceMarkAsRead">انتخاب به عنوان خوانده شده اجباری</string>
 
-    <!--‌ Biftor mark on msg -->
+    <!--Biftor mark on msg -->
     <string name="BiftorSetMarkOnMsg">علامت زدن بر روی این پیام</string>
     <string name="BiftorGoToMarkedMsg">رفتن به پیام علامت زده</string>
-    <string name="BiftorResetMarkedMsg">ریست کردن پیام علامت زده</string>
+    <string name="BiftorRemoveMarkedMsg">ریست کردن پیام علامت زده</string>
+    <string name="BiftorRemoveAllMarkedMsg">ریست کردن تمام پیام های علامت زده</string>
+    <string name="BiftorMarkedMsg">پیام های علامت زده شده</string>
+    <string name="BiftorMsgEmptyTextSearch">No message that contain \'**%1$s**\' have been found.</string>
+    <string name="BiftorNoMsgs">No messages yet!</string>
+    <string name="BiftorOrderByDateAdded">Order by date added</string>
+    <string name="BiftorUpdateMarkMessages">Update marked messages</string>
 
     <!--Biftor Font piker -->
     <string name="BiftorFontsPickerCat">انتخاب فونت</string>
@@ -539,6 +544,7 @@
     <string name="BiftorBackUpFav">پشتیبانگیری از چت های مورد علاقه</string>
     <string name="BiftorBackUpHidden">پشتیبانگیری از چت های مخفی</string>
     <string name="BiftorBackUpFolders">پوشه ها</string>
+    <string name="BiftorBackUpMarkedMessages">Marked messages</string>
     <string name="BiftorBackUpAllAndSaveToCloud">پشتیبانگیری از همه و ذخیره در فضای ابری</string>
     <string name="BiftorBackUpSuccessful">پشتیبان گیری با موفقیت انجام شد :</string>
     <string name="BiftorBackUpUnSuccessful">پشتیبان گیری موفق نبود</string>
@@ -549,6 +555,7 @@
     <string name="BiftorRestoreFav">بازگردانی چت های مورد علاقه</string>
     <string name="BiftorRestoreHidden">بازگردانی چت های مخفی</string>
     <string name="BiftorRestoreFolders">پوشه ها</string>
+    <string name="BiftorRestoreMarkedMessages">Marked messages</string>
 
     <string name="BiftorRestoreToDef">بازگردانی به حالت اولیه</string>
     <string name="BiftorRestoreGlobalToDef">بازگردانی تنظیمات عمومی به حالت اولیه</string>
@@ -556,6 +563,7 @@
     <string name="BiftorRestoreFavToDef">بازگردانی چت های مورد علاقه به حالت اولیه</string>
     <string name="BiftorRestoreHiddenToDef"> به حالت اولیه بازگردانی چت های مخفی</string>
     <string name="BiftorRestoreDialogsFolderToDef">بازگردانی پوشه های شخصی به مقدار سرور</string>
+    <string name="BiftorRestoreMarkedMessagesToDef">Restore marked messages to default</string>
 
     <string name="BiftorRestoreSuccessful">بازگردانی موفقیت آمیز بود</string>
     <string name="BiftorRestoreUnSuccessful">بازگردانی موفقیت آمیز نبود</string>
@@ -863,9 +871,9 @@
 
 
     <!--Biftor delete from recent search-->
-    <string name="BiftorDeletRecentSearchItem">از پاک کردن این **%1$s** چت از جستوجوی اخیر خود اطمینان دارید؟</string>
+    <string name="BiftorDeleteRecentSearchItem">از پاک کردن این **%1$s** چت از جستوجوی اخیر خود اطمینان دارید؟</string>
 
-    <string name="BiftorDrawerContactAndGroup">مخاطبین و گروه ها</string>
+    <string name="BiftorDrawerContactAndGroup">چت ها</string>
 
     <!--Biftor floating new msg-->
     <string name="BiftorChangeToSaveMsg">تغییر دادن دکمه شناور</string>
@@ -882,6 +890,7 @@
     <string name="BiftorUpdateIsAvailable">آپدیت جدید</string>
     <string name="BiftorCheckForUpdate">چک کرد نسخه جدید</string>
     <string name="BiftorDownloadLatestVersion">دانلود کردن اخرین نسخه</string>
+    <string name="BiftorUpdateFileExists">فایل آپدیت قبلا دانلود شده:\n%s\nآیا مایل هستید دوباره آن را دانلود کنید؟</string>
 
     <!--Biftor direct chats-->
     <string name="BiftorDirectChats">چت های مستقیم</string>

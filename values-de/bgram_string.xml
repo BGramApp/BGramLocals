@@ -354,18 +354,24 @@
     <string name="BiftorShowExactNumberOfMembers">Zeige exakte Nummern</string>
     <string name="BiftorShowExactNumberOfMembersSub">Zeige exakte Nummer an Ansichten und Mitglieder/Abonnenten</string>
 
-    <!--‌ Biftor remove call button in profile -->
+    <!--Biftor remove call button in profile -->
     <string name="BiftorRemoveCallButtonInProfile">Verstecke Anruf-Schaltfläche im Nutzerprofil</string>
 
-    <!--‌ Biftor forward config -->
+    <!--Biftor forward config -->
     <string name="ForwardTabsCat">Weiterleitung Tabs</string>
     <string name="ForwardTabsHided">Forward tabs hided</string>
     <string name="BiftorForwardCopyLink">Kopiere Link</string>
 
-    <!--‌ Biftor mark on msg -->
+    <!--Biftor mark on msg -->
     <string name="BiftorSetMarkOnMsg">Setze Markierung auf die Nachricht</string>
     <string name="BiftorGoToMarkedMsg">Gehe zur markierten Nachricht</string>
-    <string name="BiftorResetMarkedMsg">Setze markierte Nachricht zurück</string>
+    <string name="BiftorRemoveMarkedMsg">Remove marked message</string>
+    <string name="BiftorRemoveAllMarkedMsg">Remove all marked message</string>
+    <string name="BiftorMarkedMsg">Marked messages</string>
+    <string name="BiftorMsgEmptyTextSearch">No message that contain \'**%1$s**\' have been found.</string>
+    <string name="BiftorNoMsgs">No messages yet!</string>
+    <string name="BiftorOrderByDateAdded">Order by date added</string>
+    <string name="BiftorUpdateMarkMessages">Update marked messages</string>
 
     <!--Biftor Font picker -->
     <string name="BiftorFontsPickerCat">Schriftart Auswahl</string>
@@ -533,6 +539,7 @@
     <string name="BiftorBackUpFav">Favoriten Chats</string>
     <string name="BiftorBackUpHidden">Versteckte Chats</string>
     <string name="BiftorBackUpFolders">Folders</string>
+    <string name="BiftorBackUpMarkedMessages">Marked messages</string>
     <string name="BiftorBackUpFonts">Benutzer-Schriftart</string>
     <string name="BiftorBackUpAllAndSaveToCloud">Sichere alles und lade es in die Cloud</string>
     <string name="BiftorBackUpSuccessful">Sicherung erfolgreich nach</string>
@@ -544,6 +551,7 @@
     <string name="BiftorRestoreFav">Favoriten Chats</string>
     <string name="BiftorRestoreHidden">Verstecke Chats</string>
     <string name="BiftorRestoreFolders">Folders</string>
+    <string name="BiftorRestoreMarkedMessages">Marked messages</string>
 
     <string name="BiftorRestoreToDef">Standard wiederherstellen</string>
     <string name="BiftorRestoreGlobalToDef">Setze Globale Einstellungen zurück</string>
@@ -551,6 +559,7 @@
     <string name="BiftorRestoreFavToDef">Setze Favoriten Chats zurück</string>
     <string name="BiftorRestoreHiddenToDef">Setze versteckte Chats zurück</string>
     <string name="BiftorRestoreDialogsFolderToDef">Restore dialog\'s folders to server default</string>
+    <string name="BiftorRestoreMarkedMessagesToDef">Restore marked messages to default</string>
 
     <string name="BiftorRestoreSuccessful">Wiederherstellung erfolgreich</string>
     <string name="BiftorRestoreUnSuccessful">Wiederherstellung fehlgeschlagen</string>
@@ -855,9 +864,9 @@
 
 
     <!--Biftor delete from recent search-->
-    <string name="BiftorDeletRecentSearchItem">Are you sure you want to delete this: **%1$s** from recent search?</string>
+    <string name="BiftorDeleteRecentSearchItem">Are you sure you want to delete this: **%1$s** from recent search?</string>
 
-    <string name="BiftorDrawerContactAndGroup">Contacts and groups</string>
+    <string name="BiftorDrawerContactAndGroup">Chats</string>
 
     <!--Biftor floating new msg-->
     <string name="BiftorChangeToSaveMsg">change FB to save message</string>
@@ -874,6 +883,8 @@
     <string name="BiftorUpdateIsAvailable">Update is available</string>
     <string name="BiftorCheckForUpdate">Check for update</string>
     <string name="BiftorDownloadLatestVersion">Download last version</string>
+    <string name="BiftorUpdateFileExists">Update file downloaded and located in:\n%s\nDo you want download it again?</string>
+
     <!--Biftor direct chats-->
     <string name="BiftorDirectChats">Direct chats</string>
     <string name="BiftorSetAsDirectChats">Set as direct chats</string>

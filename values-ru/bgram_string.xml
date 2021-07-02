@@ -219,7 +219,7 @@
 	<string name="BGramOfficialChannel">Официальный канал</string>
 	<string name="BGramOfficialChannelSub">Информация об обновлениях.</string>
 	<string name="BGramOfficialGroups">Official Supporting Groups</string>
-	<string name="BGramOfficialGroupsSub">All bug reports and ideas are welcome.</string>
+	<string name="BGramOfficialGroupsSub">Багрепорты и идеи приветствуются.</string>
 	<string name="BGramOfficialGroupsEN">English</string>
 	<string name="BGramOfficialGroupsFA">Persian</string>
 	<string name="BGramOfficialGroupsRU">На русском</string>
@@ -353,18 +353,24 @@
 	<string name="BiftorShowExactNumberOfMembers">Не округлять числа</string>
 	<string name="BiftorShowExactNumberOfMembersSub">Точное число участников и просмотров в группах и каналах («2125» вместо «2k»).</string>
 
-	<!--‌ Biftor remove call button in profile -->
+	<!--Biftor remove call button in profile -->
 	<string name="BiftorRemoveCallButtonInProfile">Скрыть кнопку вызова в профиле</string>
 
-	<!--‌ Biftor forward config -->
+	<!--Biftor forward config -->
 	<string name="ForwardTabsCat">Панель пересылки</string>
 	<string name="ForwardTabsHided">Не показывать вкладки</string>
 	<string name="BiftorForwardCopyLink">Ссылка</string>
 
-	<!--‌ Biftor mark on msg -->
+	<!--Biftor mark on msg -->
 	<string name="BiftorSetMarkOnMsg">Установить закладку</string>
-	<string name="BiftorGoToMarkedMsg">К закладке</string>
-	<string name="BiftorResetMarkedMsg">Сбросить закладку</string>
+	<string name="BiftorGoToMarkedMsg">К закладке</string>
+	<string name="BiftorRemoveMarkedMsg">Удалить закладку</string>
+	<string name="BiftorRemoveAllMarkedMsg">Удалить все закладки</string>
+	<string name="BiftorMarkedMsg">Закладки</string>
+	<string name="BiftorMsgEmptyTextSearch">Не найдено ни одного сообщения, содержащего «%1$s».</string>
+	<string name="BiftorNoMsgs">Нет закладок!</string>
+	<string name="BiftorOrderByDateAdded">Сортировать по дате добавления</string>
+	<string name="BiftorUpdateMarkMessages">Обновить закладки</string>
 
 	<!--Biftor Font picker -->
 	<string name="BiftorFontsPickerCat">Пользовательские шрифты</string>
@@ -531,7 +537,8 @@
 	<string name="BiftorBackUpMain">Главные настройки</string>
 	<string name="BiftorBackUpFav">Любимые чаты</string>
 	<string name="BiftorBackUpHidden">Скрытые чаты</string>
-	<string name="BiftorBackUpFolders">Folders</string>
+	<string name="BiftorBackUpFolders">Папки</string>
+	<string name="BiftorBackUpMarkedMessages">Закладки</string>
 	<string name="BiftorBackUpFonts">Пользовательские шрифты</string>
 	<string name="BiftorBackUpAllAndSaveToCloud">Сохранить всё в облако</string>
 	<string name="BiftorBackUpSuccessful">Cохранено в</string>
@@ -542,14 +549,16 @@
 	<string name="BiftorRestoreMain">Главные настройки</string>
 	<string name="BiftorRestoreFav">Любимые чаты</string>
 	<string name="BiftorRestoreHidden">Скрытые чаты</string>
-	<string name="BiftorRestoreFolders">Folders</string>
+	<string name="BiftorRestoreFolders">Папки</string>
+	<string name="BiftorRestoreMarkedMessages">Закладки</string>
 
 	<string name="BiftorRestoreToDef">Сброс к значениям по умолчанию</string>
 	<string name="BiftorRestoreGlobalToDef">Сбросить общие настройки</string>
 	<string name="BiftorRestoreMainToDef">Сбросить главные настройки</string>
 	<string name="BiftorRestoreFavToDef">Восстановить любимые чаты</string>
 	<string name="BiftorRestoreHiddenToDef">Восстановить скрытые чаты</string>
-	<string name="BiftorRestoreDialogsFolderToDef">Restore dialog\'s folders to server default</string>
+	<string name="BiftorRestoreDialogsFolderToDef">Восстановить папки на сервер</string>
+	<string name="BiftorRestoreMarkedMessagesToDef">Восстановить закладки по умолчанию</string>
 
 	<string name="BiftorRestoreSuccessful">Успешно восстановлено</string>
 	<string name="BiftorRestoreUnSuccessful">Ошибка восстановления</string>
@@ -724,8 +733,8 @@
 	<string name="BiftorHideCustomTabChatsFromAll">Из всех чатов</string>
 	<string name="BiftorDontHideCustomTabChats">Не скрывать</string>
 	<string name="BiftorMayNeedsToRestart">Может потребоваться перезапуск.</string>
-	<string name="BiftorAllowSyncExtraFolders">Allow sync extra folders</string>
-	<string name="BiftorAllowSyncExtraFoldersSub">If you have more than 10 folders, you may need to disable sync folders to server because it may delete extra folders or change folder\'s order</string>
+	<string name="BiftorAllowSyncExtraFolders">Cинхронизация папок</string>
+	<string name="BiftorAllowSyncExtraFoldersSub">Если у вас больше 10 папок, отключите синхронизацию папок с сервером, поскольку это может удалить лишние или изменить их порядок.</string>
 
 	<!-- Biftor goto msg for all chats-->
 	<string name="BiftorMentionMsg">ID сообщения</string>
@@ -764,9 +773,9 @@
 
 	<!--Biftor Translate-->
 	<string name="BiftorTranslate">Перевести</string>
-	<string name="BiftorTranslateKeySave">Save key</string>
-	<string name="BiftorTranslateYandexKey">Yandex translation key</string>
-	<string name="BiftorTranslateYouNeedYandexAPIKey">Yandex api key is empty, you need valid Yandex translation api key</string>
+	<string name="BiftorTranslateKeySave">Сохранить</string>
+	<string name="BiftorTranslateYandexKey">API-ключ Яндекс-Переводчика</string>
+	<string name="BiftorTranslateYouNeedYandexAPIKey">API-ключ Яндекс-Переводчика недействителен, нужен действующий ключ.</string>
 	<string name="BiftorTranslateAllLanguage">Все</string>
 	<string name="BiftorTranslateRecently">Последние выбранные</string>
 	<string name="BiftorTranslateClearRecently">Очистить список последних</string>
@@ -850,9 +859,9 @@
 
 
 	<!--Biftor delete from recent search-->
-	<string name="BiftorDeletRecentSearchItem">Удалить **%1$s** из истории поиска?</string>
+	<string name="BiftorDeleteRecentSearchItem">Удалить **%1$s** из истории поиска?</string>
 
-	<string name="BiftorDrawerContactAndGroup">Чаты и контакты</string>
+	<string name="BiftorDrawerContactAndGroup">Чаты</string>
 
 	<!--Biftor floating new msg-->
 	<string name="BiftorChangeToSaveMsg">Облако на плавающей кнопке</string>
@@ -870,6 +879,7 @@
 	<string name="BiftorUpdateIsAvailable">Нажмите ОК для обновления</string>
 	<string name="BiftorCheckForUpdate">Проверить обновления</string>
 	<string name="BiftorDownloadLatestVersion">Скачать обновление</string>
+	<string name="BiftorUpdateFileExists">Файл обновления уже скачан и находится в :\n%s\nХотите скачать его повторно?</string>
 
 
 	<!--Biftor direct chats-->
@@ -890,8 +900,8 @@
 
 	<!--Biftor shadow socks-->
 	<string name="BiftorPing">Пинг</string>
-	<string name="BiftorProxyTypeShadowSocks">ShadowSocks Proxy</string>
-	<string name="BiftorProxyTypeShadowSocksR">ShadowSocksR Proxy</string>
+	<string name="BiftorProxyTypeShadowSocks">Shadowsocks-прокси</string>
+	<string name="BiftorProxyTypeShadowSocksR">ShadowsocksR-прокси</string>
 	<string name="BiftorProxyTypeVmess">Vmess-прокси</string>
 	<string name="BiftorProxyInfoSSR">Настройки ShadowsocksR-прокси</string>
 	<string name="BiftorProxyInfoSS">Настройки Shadowsocks-прокси</string>
@@ -902,8 +912,8 @@
 	<string name="BiftorImportProxy">Импорт из URL</string>
 	<string name="BiftorConnection">Соединение: %1$d мс</string>
 
-	<string name="BiftorVmessUserId">User ID</string>
-	<string name="BiftorVmessAlterId">Alter ID</string>
+	<string name="BiftorVmessUserId">User Id</string>
+	<string name="BiftorVmessAlterId">Alter Id</string>
 	<string name="BiftorVmessSecurity">Безопасность</string>
 	<string name="BiftorVmessNetwork">Сеть</string>
 	<string name="BiftorVmessHeadType">Head Type</string>
@@ -920,15 +930,15 @@
 	<string name="BiftorSSRProtocolParams">Параметры протокола</string>
 	<string name="BiftorSSRObfs">Obfs</string>
 	<string name="BiftorSSRObfsParam">Obfs Param</string>
-	<string name="BiftorShadowSocksModule">Shadow socks</string>
-	<string name="BiftorStartShadowAsService">Запустить Shadowsocks</string>
-	<string name="BiftorStartShadowAsServiceSub">Запустить Shadowsocks в фоне</string>
-	<string name="BiftorShadowSockServiceConnecting">Shadow Socks service is connecting</string>
-	<string name="BiftorShadowSockServiceConnected">Shadow Socks service is running: %s</string>
-	<string name="BiftorShadowSockServiceStop">Stop</string>
-	<string name="BiftorShadowSocksConfig">Shadow socks config</string>
-	<string name="BiftorStopShadowSocksWhenAppClosed">Stop Shadow socks when app closed</string>
-	<string name="BiftorStopShadowSocksWhenAppClosedSub">Stop the Shadow socks when App Closed, if you disable it, when the Shadow socks is enable the whole app will not close.</string>
+	<string name="BiftorShadowSocksModule">Настройки Shadowsocks</string>
+	<string name="BiftorStartShadowAsService">Использовать Shadowsocks</string>
+	<string name="BiftorStartShadowAsServiceSub">Запускать Shadowsocks в фоне</string>
+	<string name="BiftorShadowSockServiceConnecting">Подключение через Shadowsocks...</string>
+	<string name="BiftorShadowSockServiceConnected">Shadowsocks запущен: %s</string>
+	<string name="BiftorShadowSockServiceStop">Остановить</string>
+	<string name="BiftorShadowSocksConfig">Настройки Shadowsocks</string>
+	<string name="BiftorStopShadowSocksWhenAppClosed">Завершать при выходе</string>
+	<string name="BiftorStopShadowSocksWhenAppClosedSub">Остановливайте Shadowsocks перед закрытием BGram, с включенным Shadowsocks, приложение не закроется.</string>
 
 	<!--Biftor ads-->
 	<string name="BiftorAdsTypeAdMob">AdMob</string>

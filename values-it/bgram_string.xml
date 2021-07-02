@@ -358,18 +358,24 @@
     <string name="BiftorShowExactNumberOfMembers">Mostra il numero esatto dei membri</string>
     <string name="BiftorShowExactNumberOfMembersSub">Mostra il numero esatto dei gruppi/membri dei canali/iscritti</string>
 
-    <!--‌ Biftor remove call button in profile -->
+    <!--Biftor remove call button in profile -->
     <string name="BiftorRemoveCallButtonInProfile">Rimuovi il tasto chiamata dal profilo</string>
 
-    <!--‌ Biftor forward config -->
+    <!--Biftor forward config -->
     <string name="ForwardTabsCat">Inoltro tab</string>
     <string name="ForwardTabsHided">Inoltra tab nascoste</string>
     <string name="BiftorForwardCopyLink">Copia link</string>
 
-    <!--‌ Biftor mark on msg -->
+    <!--Biftor mark on msg -->
     <string name="BiftorSetMarkOnMsg">Imposta segnalibro</string>
     <string name="BiftorGoToMarkedMsg">Vai al segnalibro</string>
-    <string name="BiftorResetMarkedMsg">Resetta segnalibro</string>
+    <string name="BiftorRemoveMarkedMsg">Rimuovi segnalibro</string>
+    <string name="BiftorRemoveAllMarkedMsg">Rimuovi tutti i segnalibri</string>
+    <string name="BiftorMarkedMsg">Segnalibri</string>
+    <string name="BiftorMsgEmptyTextSearch">Nessun messaggio trovato contenente \'**%1$s**\'.</string>
+    <string name="BiftorNoMsgs">Non ci sono ancora messaggi!</string>
+    <string name="BiftorOrderByDateAdded">Ordina per data d\'aggiunta</string>
+    <string name="BiftorUpdateMarkMessages">Aggiorna segnalibri</string>
 
     <!--Biftor Font picker -->
     <string name="BiftorFontsPickerCat">Seleziona font</string>
@@ -386,7 +392,7 @@
     <string name="BiftorYouNeedToRestartApp">Riavvia l\'app per applicare le modifiche al/ai font</string>
     <string name="BiftorLongClickOnEachOneToReset">Tocco prol. su ognuno per selezionare il font predefinito</string>
     <string name="BiftorEmojiSize">Imposta le dimensioni delle emoji</string>
-    <string name="BiftorEmojiPreview">Regola le dimensioni delle emoji\'s %1$s</string>
+    <string name="BiftorEmojiPreview">Regola le dimensioni delle emoji %1$s</string>
     <string name="BiftorVerticalAlignmentBottom">Allinea le emoji al testo</string>
 
     <!--Biftor use persian calendar -->
@@ -421,7 +427,7 @@
     <string name="BiftorFontPreviewTextEn" translatable="false">Cantami o diva della pelìde Naomi l\'ira funesta.</string>
     <string name="BiftorFontPreviewTextFa" translatable="false">این فونت انتخابی شما هست اگر مورد پسند است آن را اعمال کنید.</string>
     <string name="BiftorFontPreviewTextAr" translatable="false">هذا هو الخط الذي اخترته إذا أردت ثم تعيينه.</string>
-    <string name="BiftorFontPreviewTextRu" translatable="false">Выберите начертания для применения шрифта.</string>
+    <string name="BiftorFontPreviewTextRu" translatable="false">Выберите начертания для применения шрифта.</string>
 
     <!-- Biftor apply font from chat -->
     <string name="BiftorApplyFontFile">Applica il font dal file</string>
@@ -537,6 +543,7 @@
     <string name="BiftorBackUpFav">Chat preferite</string>
     <string name="BiftorBackUpHidden">Chat nascoste</string>
     <string name="BiftorBackUpFolders">Cartelle</string>
+    <string name="BiftorBackUpMarkedMessages">Marked messages</string>
     <string name="BiftorBackUpFonts">Font personalizzato</string>
     <string name="BiftorBackUpAllAndSaveToCloud">Backup completo e salva sul cloud</string>
     <string name="BiftorBackUpSuccessful">Backup completato in:</string>
@@ -548,6 +555,7 @@
     <string name="BiftorRestoreFav">Chat preferite</string>
     <string name="BiftorRestoreHidden">Chat nascoste</string>
     <string name="BiftorRestoreFolders">Cartelle</string>
+    <string name="BiftorRestoreMarkedMessages">Marked messages</string>
 
     <string name="BiftorRestoreToDef">Ripristino alle impostaz. predefinite</string>
     <string name="BiftorRestoreGlobalToDef">Ripristina impostazioni globali predefinite</string>
@@ -555,6 +563,7 @@
     <string name="BiftorRestoreFavToDef">Ripristina le chat preferite predefinite</string>
     <string name="BiftorRestoreHiddenToDef">Ripristina le chat nascoste predefinite</string>
     <string name="BiftorRestoreDialogsFolderToDef">Ripristina cartelle predefinite</string>
+    <string name="BiftorRestoreMarkedMessagesToDef">Restore marked messages to default</string>
 
     <string name="BiftorRestoreSuccessful">Ripristino completato</string>
     <string name="BiftorRestoreUnSuccessful">Ripristino non riuscito</string>
@@ -638,7 +647,7 @@
     <string name="BiftorForwardPanelCat">Finestra inoltro</string>
 
     <!--Biftor External language-->
-    <string name="BiftorLocalVersion">1</string>
+    <string name="BiftorLocalVersion">0</string>
 
     <!--Biftor login with bot-->
     <string name="BiftorLoginWithBotToKen">Login con bot token</string>
@@ -861,9 +870,9 @@
 
 
     <!--Biftor delete from recent search-->
-    <string name="BiftorDeletRecentSearchItem">Sicuro di voler eliminare: **%1$s** dalle ricerche recenti?</string>
+    <string name="BiftorDeleteRecentSearchItem">Sicuro di voler eliminare: **%1$s** dalle ricerche recenti?</string>
 
-    <string name="BiftorDrawerContactAndGroup">Contatti e gruppi</string>
+    <string name="BiftorDrawerContactAndGroup">Chat</string>
 
     <!--Biftor floating new msg-->
     <string name="BiftorChangeToSaveMsg">Modifica pulsante flottante su messaggi salvati</string>
@@ -880,6 +889,7 @@
     <string name="BiftorUpdateIsAvailable">Aggiornamento disponibile</string>
     <string name="BiftorCheckForUpdate">Controlla aggiornamenti</string>
     <string name="BiftorDownloadLatestVersion">Scarica ultima versione</string>
+    <string name="BiftorUpdateFileExists">Aggiornamento già scaricato in:\n%s\nVuoi riscaricarlo?</string>
 
     <!--Biftor direct chats-->
     <string name="BiftorDirectChats">Chat dirette</string>

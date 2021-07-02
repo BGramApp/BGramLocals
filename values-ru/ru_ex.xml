@@ -3,7 +3,7 @@
     <string name="LanguageName">Русский</string>
     <string name="English">English</string>
     <string name="LanguageNameInEnglish">Русский для BGram</string>
-    <string name="LanguageCode">ru</string>
+    <string name="LanguageCode">ru_ex</string>
     <string name="ContinueOnThisLanguage">Продолжить на русском</string>
     <!--signin view-->
     <string name="YourPhone">Ваш телефон</string>
@@ -66,6 +66,8 @@
     <string name="PaymentShippingZipPlaceholder">Индекс</string>
     <string name="PaymentShippingReceiver">Получатель</string>
     <string name="PaymentShippingName">Имя полностью</string>
+    <string name="PaymentTip">Чаевые</string>
+    <string name="PaymentTipOptional">Чаевые (необязательно)</string>
     <string name="PaymentShippingPhoneNumber">Номер телефона</string>
     <string name="PaymentShippingEmailPlaceholder">Электронная почта</string>
     <string name="PaymentShippingSave">Сохранить адрес доставки</string>
@@ -81,12 +83,13 @@
     <string name="PaymentCardSavePaymentInformationInfoLine1">Вы можете сохранить эти данные, чтобы в будущем использовать их для оплаты.</string>
     <string name="PaymentCardSavePaymentInformationInfoLine2">Чтобы сделать это, *настройте двухэтапную аутентификацию*.</string>
     <string name="PaymentTransactionReview">Ваша транзакция</string>
-    <string name="PaymentTransactionMessage">Вы точно хотите перевести %1$s боту %2$s за %3$s?</string>
+    <string name="PaymentTransactionMessage2">Перевести **%1$s** боту %2$s за **%3$s**?</string>
     <string name="PaymentTransactionTotal">Итого</string>
     <string name="PaymentInvoice">СЧЁТ</string>
     <string name="PaymentTestInvoice">ТЕСТОВЫЙ СЧЁТ</string>
     <string name="PaymentCheckoutPay">ОПЛАТИТЬ %1$s</string>
     <string name="PaymentCheckoutMethod">Способ оплаты</string>
+    <string name="PaymentCheckoutMethodNewCard">Новая карта</string>
     <string name="PaymentCheckoutProvider">Платёжный провайдер</string>
     <string name="PaymentCheckoutName">Имя</string>
     <string name="PaymentCheckoutPhoneNumber">Номер телефона</string>
@@ -111,6 +114,7 @@
     <string name="PaymentPhoneToProvider">В качестве платежной информации %1$s получит ваш номер телефона.</string>
     <string name="PaymentEmailToProvider">В качестве платежной информации %1$s получит данные о вашей электронной почте.</string>
     <string name="PaymentPhoneEmailToProvider">В качестве платежной информации %1$s получит ваш номер телефона и e-mail.</string>
+    <string name="PaymentInfoHint">Вы оплатили **%1$s** за **%2$s**.</string>
     <!--chats view-->
     <string name="NewConversationShortcut">Новый чат</string>
     <string name="AutoNightModeOff">Смена темы ночью отключена</string>
@@ -297,6 +301,7 @@
     <string name="ImportDoneTitle">Чат импортирован.</string>
     <string name="ImportDoneInfo">Импортируйте в Telegram больше чатов, чтобы освободить место на устройстве.</string>
     <string name="ImporImportingService">Импорт сообщений и медиа...</string>
+    <string name="ImporImportingStickersService">Импорт стикеров...</string>
     <string name="ImportHeader">Импорт сообщений и медиа...</string>
     <string name="ImportHeaderContacts">Или выберите один из своих контактов</string>
     <!--widgets-->
@@ -647,7 +652,10 @@
     <string name="PollCollapse">Скрыть</string>
     <string name="PollExpand">Развернуть</string>
     <string name="PublicPollCantForward">Опросы с открытым списком результатов нельзя пересылать в каналы.</string>
+    <string name="InvoiceCantForwardSecretChat">Счёт нельзя переслать в секретный чат.</string>
     <string name="PollCantForwardSecretChat">Публичные опросы нельзя пересылать в секретные чаты.</string>
+    <string name="GameCantSendSecretChat">Игру нельзя отправить в секретный чат.</string>
+    <string name="InvoiceCantSendSecretChat">Счёт нельзя отправить в секретный чат.</string>
     <string name="PollMultiple">Выбор нескольких ответов</string>
     <string name="PollTapToSelect">Выберите правильный ответ</string>
     <string name="QuizInfo">В викторинах есть правильный вариант ответа, а пользователям недоступна возможность переголосовать.</string>
@@ -986,7 +994,7 @@
     <string name="DeleteBanUser">Забанить</string>
     <string name="DeleteReportSpam">Сообщить о спаме</string>
     <string name="DeleteAllFrom">Удалить все сообщения</string>
-    <string name="ClearRecentEmoji">Удалить недавние смайлы?</string>
+    <string name="ClearRecentEmoji">Удалить недавние эмодзи?</string>
     <string name="Emoji1">Смайлы и люди</string>
     <string name="Emoji2">Животные и природа</string>
     <string name="Emoji3">Еда и напитки</string>
@@ -1189,6 +1197,10 @@
     <string name="FwdMessagesToUser">Сообщения пересланы в **%1$s**.</string>
     <string name="FwdMessageToChats">Сообщение переслано в **%1$s**.</string>
     <string name="FwdMessagesToChats">Сообщения пересланы в **%1$s**.</string>
+    <string name="BackgroundToSavedMessages">Фон сохранён в **Облако**.</string>
+    <string name="BackgroundToGroup">Фон отправлен в **%1$s**.</string>
+    <string name="BackgroundToUser">Фон отправлен **%1$s**.</string>
+    <string name="BackgroundToChats">Фон отправлен в **%1$s**.</string>
     <!--notification-->
     <string name="MessageLifetimeChanged">%1$s: автоудаление — %2$s</string>
     <string name="MessageLifetimeChangedOutgoing">Вы установили таймер удаления на %1$s</string>
@@ -1599,6 +1611,22 @@
     <string name="DeleteStickersAlertMessage">Удалить выбранные наборы?</string>
     <string name="ArchiveStickerSetsAlertTitle">Архивировать %1$s</string>
     <string name="ArchiveStickersAlertMessage">Архивировать выбранные наборы стикеров?</string>
+    <string name="ImportStickers">ИМПОРТИРОВАТЬ %1$s</string>
+    <string name="ImportStickersProcessing">Обработка стикеров…</string>
+    <string name="ImportStickersRemove">НЕ ИМПОРТИРОВАТЬ</string>
+    <string name="ImportStickersRemoveMenu">Убрать из импорта</string>
+    <string name="ImportStickersEnterName">Введите название</string>
+    <string name="ImportStickersEnterNameInfo">Выберите название для набора стикеров.</string>
+    <string name="ImportStickersEnterUrlInfo">Можно использовать символы a-z, 0-9 и _.</string>
+    <string name="ImportStickersLinkInvalid">Эта ссылка некорректна.</string>
+    <string name="ImportStickersLinkInvalidShort">Ссылка не может содержать меньше 5 символов.</string>
+    <string name="ImportStickersLinkInvalidLong">Ссылка не может быть длиннее 32 символов.</string>
+    <string name="ImportStickersLinkChecking">Проверка ссылки…</string>
+    <string name="ImportStickersLinkAvailable">Эта ссылка доступна.</string>
+    <string name="ImportStickersLinkTaken">Эта ссылка не доступна.</string>
+    <string name="ImportStickersImportingTitle">Импорт стикеров</string>
+    <string name="ImportStickersDoneTitle">Стикеры импортированы</string>
+    <string name="ImportStickersDoneInfo">Чтобы поделиться стикерами с друзьями, импортируйте их в Telegram.</string>
     <!--theme view-->
     <string name="Theme">Тема</string>
     <string name="AutoNightTheme">Ночная тема</string>
@@ -1644,7 +1672,7 @@
     <string name="CreateTheme">СОЗДАТЬ ТЕМУ</string>
     <string name="ApplyTheme">ПРИМЕНИТЬ</string>
     <string name="ThemePreview">Предпросмотр темы</string>
-    <string name="SelectColor">Выберите цвет</string>
+    <string name="SelectColor">Выбрать цвет</string>
     <string name="ColorThemes">Темы</string>
     <string name="ShowAllThemes">Список тем</string>
     <string name="ThemeNotFound">Тема не найдена</string>
@@ -1708,6 +1736,7 @@
     <string name="ColorPickerResetAll">СБРОСИТЬ ВСЕ</string>
     <string name="ColorPickerReset">СБРОС</string>
     <string name="ChangeWallpaperToColor">Вы точно хотите изменить фон чата на однотонный?</string>
+    <string name="ChangeColorToColor">Использовать ранее выбранный фон или сбросить его на фон по умолчанию для этой темы?</string>
     <string name="ShareTheme">Поделиться темой</string>
     <string name="EditThemeColors">Изменить цвета</string>
     <string name="ThemeResetToDefaults">Восстановить по умолчанию</string>
@@ -1814,7 +1843,7 @@
     <string name="BackgroundSearchColor">Цвет:</string>
     <string name="BackgroundBrightness">Яркость</string>
     <string name="BackgroundHexColorCode">Шестнадцатеричный код</string>
-    <string name="BackgroundColor">Цвет</string>
+    <string name="BackgroundColors">Цвета</string>
     <string name="BackgroundPattern">Узоры</string>
     <string name="BackgroundChoosePattern">Фоновый узор</string>
     <string name="BackgroundIntensity">Интенсивность</string>
@@ -1854,6 +1883,8 @@
     <string name="AskButton">Отправить вопрос</string>
     <string name="TelegramFAQ">Вопросы о Telegram</string>
     <string name="TelegramFaq">Прокси</string>
+    <string name="TelegramFeatures">Возможности Telegram</string>
+    <string name="TelegramFeaturesUrl">https://t.me/TelegramTips</string>
     <string name="AddAccount">Добавить аккаунт</string>
     <string name="SelectAccount">Выбрать аккаунт</string>
     <string name="TelegramFaqUrl">https://telegram.org/faq</string>
@@ -1993,10 +2024,11 @@
     <string name="DirectShareInfo">либо Direct Share (при поддержке устройством)</string>
     <string name="Emoji">Эмодзи</string>
     <string name="LargeEmoji">Анимация эмодзи</string>
-    <string name="EmojiUseDefault">Использовать смайлы системы</string>
+    <string name="EmojiUseDefault">Использовать эмодзи системы</string>
     <string name="TelegramVersion">BGram %1$s</string>
     <string name="DebugMenu">Меню отладки</string>
     <string name="DebugSendLogs">Отправить логи</string>
+    <string name="DebugSendLastLogs">Отправить свежие логи</string>
     <string name="DebugClearLogs">Очистить логи</string>
     <string name="DebugMenuEnableLogs">Включить логирование</string>
     <string name="DebugMenuDisableLogs">Отключить логирование</string>
@@ -2107,6 +2139,37 @@
     <string name="AuthAnotherClientUrl">Этот код можно использовать для входа в Ваш аккаунт в Telegram.\n\nДля подтверждения входа перейдите в Настройки &gt; Устройства &gt; Сканировать QR и отсканируйте этот код.</string>
     <string name="QRCodePermissionNoCamera">Telegram нужен доступ к камере, чтобы сканировать QR-код</string>
     <string name="SetProfilePhoto">Выбрать фото</string>
+    <string name="AppUpdate">Обновить</string>
+    <string name="AppUpdateVersionAndSize">Версия %1$s\n%2$s</string>
+    <string name="AppUpdateDownloading">Загрузка %1$d%%...</string>
+    <string name="AppUpdateNow">Обновить сейчас</string>
+    <string name="AppUpdateDownloadNow">Скачать</string>
+    <string name="AppUpdateRemindMeLater">Напомнить позже</string>
+    <string name="AppUpdateChangelogEmpty">**Что нового:**\nИсправление багов и незначительные улучшения.</string>
+    <string name="Permanent">Основная</string>
+    <string name="LinkHashExpired">Ссылка больше не активна</string>
+    <string name="CancelForward">Отмена пересылки</string>
+    <string name="SelectOtherChat">Другой чат</string>
+    <string name="CancelForwardMessage">Хотите отменить или выбрать другой чат?</string>
+    <string name="ChatListSwipeGesture">Жест списка чатов</string>
+    <string name="SwipeSettingsPin">Закрепить</string>
+    <string name="SwipeSettingsRead">Прочитать</string>
+    <string name="SwipeSettingsArchive">Архивировать</string>
+    <string name="SwipeSettingsMute">Выкл. звук</string>
+    <string name="SwipeSettingsDelete">Удалить</string>
+    <string name="SwipeSettingsFolders">Отключить</string>
+    <string name="SwipeUnmute">Вкл. звук</string>
+    <string name="SwipeMute">Выкл. звук</string>
+    <string name="SwipeDeleteChat">Удалить</string>
+    <string name="SwipeMarkAsRead">Прочитано</string>
+    <string name="SwipeMarkAsUnread">Не прочитано</string>
+    <string name="SwipeUnpin">Открепить</string>
+    <string name="SwipePin">Закрепить</string>
+    <string name="CancelForwarding">Отменить</string>
+    <string name="YourBioChanged">Текст обновлён.</string>
+    <string name="YourNameChanged">Имя обновлено.</string>
+    <string name="ChannelTitleChanged">Название канала обновлено.</string>
+    <string name="ChannelDescriptionChanged">Описание канала обновлено.</string>
     <!--cache view-->
     <string name="LocalDatabase">Очистить базу данных</string>
     <string name="LocalDatabaseClearTextTitle">Очистить базу данных</string>
@@ -2862,6 +2925,9 @@
     <string name="PrivacyPaymentsClearAlertTitle">Очистить платежные данные</string>
     <string name="PrivacyPaymentsClearAlertText">Вы точно хотите удалить данные о платежах и доставке?</string>
     <string name="PrivacyPaymentsClearAlert">Удалить вашу платёжную информацию и дать указание провайдерам удалить сохранённые кредитные карты? Обратите внимание, Telegram не хранит информацию о ваших кредитных картах.</string>
+    <string name="PrivacyPaymentsPaymentInfoCleared">Реквизиты удалены.</string>
+    <string name="PrivacyPaymentsShippingInfoCleared">Информация о доставке удалена.</string>
+    <string name="PrivacyPaymentsPaymentShippingCleared">Данные о платежах и доставке удалены.</string>
     <string name="PrivacyBotsInfo">Веб-сайты, где вы использовали вход через Telegram</string>
     <string name="PrivacyClearShipping">Информация о доставке</string>
     <string name="PrivacyClearPayment">Платёжная информация</string>
@@ -3030,6 +3096,7 @@
     <string name="ActionGroupCallStarted">un1 начал(а) голосовой чат</string>
     <string name="ActionGroupCallStartedByYou">Вы начали голосовой чат</string>
     <string name="ActionGroupCallJustStarted">Начался голосовой чат</string>
+    <string name="ActionGroupCallScheduled">Голосовой чат запланирован на %1$s</string>
     <string name="ActionGroupCallEnded">Голосовой чат завершен (%s)</string>
     <string name="ActionGroupCallInvited">un1 пригласил(а) un2 в голосовой чат</string>
     <string name="ActionGroupCallYouInvited">Вы пригласили un2 в голосовой чат</string>
@@ -3373,7 +3440,8 @@
     <string name="CallMessageVideoOutgoingMissed">Отменённый звонок</string>
     <string name="CallMessageVideoIncomingDeclined">Отклонённый видеозвонок</string>
     <string name="CallMessageWithDuration">%1$s (%2$s)</string>
-    <string name="NoCallLog">Вы пока никому не звонили.</string>
+    <string name="NoRecentCalls">Звонков пока нет</string>
+    <string name="NoRecentCallsInfo">Здесь будут отображаться ваши\nнедавние голосовые и видеозвонки.</string>
     <string name="VoipPeerIncompatible">Приложение пользователя **%1$s** использует несовместимую версию протокола. Он должен обновить приложение, чтобы вы могли ему звонить.</string>
     <string name="VoipPeerOutdated">Приложение пользователя **%1$s** не поддерживает звонки. Он должен обновить приложение, чтобы вы могли ему звонить.</string>
     <string name="VoipPeerVideoOutdated">**%1$s** использует устаревшую версию приложения, которая не поддерживает видеозвонки.</string>
@@ -3381,6 +3449,7 @@
     <string name="VoipRateCallAlert">Оцените качество звонка</string>
     <string name="VoipNeedMicPermission">BGram необходим доступ к микрофону для совершения звонков.</string>
     <string name="VoipNeedMicCameraPermission">Необходим доступ к микрофону и камере для совершения видеозвонков</string>
+    <string name="VoipNeedCameraPermission">BGram необходим доступ к камере, чтобы вы могли совершать видеозвонки.</string>
     <string name="VoipFeedbackCommentHint">Комментарий</string>
     <string name="CallBack">Перезвонить</string>
     <string name="CallAgain">Позвонить ещё раз</string>
@@ -3391,6 +3460,7 @@
     <string name="VoipAudioRoutingEarpiece">Наушники</string>
     <string name="VoipAudioRoutingHeadset">Гарнитура</string>
     <string name="VoipAudioRoutingSpeaker">Динамик</string>
+    <string name="VoipAudioRoutingPhone">Телефон</string>
     <string name="VoipAudioRoutingBluetooth">Bluetooth</string>
     <string name="VoipOutputDevices">Устройства вывода</string>
     <string name="ReturnToCall">ВЕРНУТЬСЯ К РАЗГОВОРУ</string>
@@ -3463,6 +3533,7 @@
     <string name="MembersTalking_many">В чате %1$s участников</string>
     <string name="MembersTalking_other">В чате %1$s участника</string>
     <string name="Speaking">говорит</string>
+    <string name="SpeakingWithVolume">говорит (%1$d%%)</string>
     <string name="Listening">слушает</string>
     <string name="WantsToSpeak">поднимает руку</string>
     <string name="Invited">приглашен(а)</string>
@@ -3470,7 +3541,7 @@
     <string name="VoipGroupEnd">Завершить</string>
     <string name="VoipGroupMuteMemberAlertTitle">Выкл. микрофон</string>
     <string name="VoipGroupMuteMemberAlertText">Выключить микрофон **%1$s** в этом голосовом чате?</string>
-    <string name="VoipGroupRemoveMemberAlertTitle">Исключить участника</string>
+    <string name="VoipGroupRemoveMemberAlertTitle2">Исключить участника</string>
     <string name="VoipGroupRemoveMemberAlertText2">Исключить %1$s из голосового чата и заблокировать в %2$s?</string>
     <string name="VoipGroupRemovedFromGroup">**%1$s** исключен(а) из группы.</string>
     <string name="VoipGroupUserCanNowSpeak">Теперь **%1$s** может говорить.</string>
@@ -3482,6 +3553,7 @@
     <string name="VoipGroupOnlyAdminsCanSpeak">Новые участники не говорят</string>
     <string name="VoipGroupShareInviteLink">Инвайт-ссылка</string>
     <string name="VoipGroupEndChat">Завершить голосовой чат</string>
+    <string name="VoipGroupCancelChat">Отменить голосовой чат</string>
     <string name="VoipGroupConnecting">Соединение...</string>
     <string name="VoipGroupLeaveAlertTitle">Выход из чата</string>
     <string name="VoipGroupLeaveAlertText">Вы точно хотите выйти из этого голосового чата?</string>
@@ -3490,6 +3562,7 @@
     <string name="VoipGroupLeaveAlertEndChat">Завершить голосовой чат</string>
     <string name="VoipGroupViewVoiceChat">ГОЛОСОВОЙ ЧАТ</string>
     <string name="VoipGroupVoiceChat">Голосовой чат</string>
+    <string name="VoipGroupScheduledVoiceChat">Запланирован голосовой чат</string>
     <string name="VoipGroupOpenVoiceChat">Открыть голосовой чат</string>
     <string name="VoipGroupInviteAlreadyParticipant">Этот пользователь уже есть в голосовом чате.</string>
     <string name="VoipGroupJoinAnonymousAdmin">Анонимные администраторы не могут участвовать в голосовых чатах.</string>
@@ -3498,6 +3571,7 @@
     <string name="VoipGroupJoinCall">Войти в голосовой чат</string>
     <string name="VoipGroupInviteText">Наш голосовой чат: %1$s</string>
     <string name="VoipGroupInviteMember">Пригласить участников</string>
+    <string name="VoipGroupShareLink">Инвайт-ссылка</string>
     <string name="VoipGroupUserRemove">Исключить</string>
     <string name="VoipGroupOpenProfile">Открыть профиль</string>
     <string name="VoipGroupOpenChannel">Перейти в канал</string>
@@ -3522,7 +3596,7 @@
     <string name="VoipGroupStartAs">Начать голосовой чат как...</string>
     <string name="VoipGroupJoinAs">Войти в голосовой чат как...</string>
     <string name="VoipGroupDisplayAs">Показывать меня как...</string>
-    <string name="VoipGroupStartAsInfo">Выберите, хотите ли вы участвовать от своего имени или от имени канала.</string>
+    <string name="VoipGroupStartAsInfo">Выберите, хотите ли вы участвовать от своего имени или от имени чата.</string>
     <string name="VoipGroupStartAsInfoGroup">Выберите, хотите ли вы участвовать от своего имени, от имени группы или от имени одного из своих каналов.</string>
     <string name="VoipGroupContinueAs">Продолжить как %1$s</string>
     <string name="VoipGroupEditTitle">Изменить название чата</string>
@@ -3549,6 +3623,64 @@
     <string name="VoipGroupJoinAsLinstener">ЗАЙТИ КАК СЛУШАТЕЛЬ</string>
     <string name="VoipGroupJoinVoiceChatUrl">Войти в голосовой чат</string>
     <string name="VoipGroupJoinAnonymouseAlert">Войти в голосовой чат от своего имени?</string>
+    <string name="VoipGroupSoundMuted">Звук голосового чата отключён.</string>
+    <string name="VoipGroupSoundUnmuted">Звук голосового чата включен.</string>
+    <string name="VoipGroupStart2">Участники группы получат уведомление, когда вы начнёте голосовой чат.</string>
+    <string name="VoipChannelStart2">Подписчики канала получат уведомление, когда вы начнёте голосовой чат.</string>
+    <string name="VoipChatDisplayedAs">Участвовать от имени:</string>
+    <string name="VoipGroupStartVoiceChat">Начать голосовой чат</string>
+    <string name="VoipGroupScheduleVoiceChat">Выбрать время</string>
+    <string name="VoipGroupStartNow">Начать сейчас</string>
+    <string name="VoipGroupSetReminder">Установить напоминание</string>
+    <string name="VoipGroupCancelReminder">Отменить напоминание</string>
+    <string name="VoipGroupScheduleInfo">Участники группы получат уведомление, что голосовой чат начнётся через %1$s.</string>
+    <string name="VoipChannelScheduleInfo">Подписчики канала получат уведомление, что голосовой чат начнётся через %1$s.</string>
+    <string name="VoipChatStartsIn">Начало через</string>
+    <string name="VoipChatLateBy">Ожидается</string>
+    <string name="VoipChatShare">Отправить</string>
+    <string name="VoipChatReminderHint">Вы получите уведомление о начале чата.</string>
+    <string name="VoipChatUserJoined">**%1$s** теперь в голосовом чате.</string>
+    <string name="VoipChatChatJoined">**%1$s** теперь в голосовом чате.</string>
+    <string name="VoipChatActiveChats">Активные голосовые чаты</string>
+    <string name="VoipChatRecentCalls">Недавние звонки</string>
+    <string name="VoipChatStartScreenCapture">Транслировать экран</string>
+    <string name="VoipChatStopScreenCapture">Не транслировать экран</string>
+    <string name="ThisIsYou">это вы</string>
+    <string name="VoipGroupOpenChat">Открыть чат</string>
+    <string name="VoipAddPhoto">Изменить аватарку</string>
+    <string name="VoipAddBio">Добавить «Инфо»</string>
+    <string name="VoipEditName">Изменить имя</string>
+    <string name="VoipGroupBioEditTitle">Инфо</string>
+    <string name="VoipGroupBioEditAlertText">Этот текст будут видеть все.</string>
+    <string name="VoipTapToAddBio">Нажмите для изменения</string>
+    <string name="VoipEditBio">Изменить «Инфо»</string>
+    <string name="VoipAddDescription">Добавить описание</string>
+    <string name="VoipEditDescription">Изменить описание</string>
+    <string name="TapToAddPhotoOrBio">нажмите для изменения</string>
+    <string name="TapToAddBio">нажмите для изменения</string>
+    <string name="TapToAddPhoto">нажмите для добавления аватарки</string>
+    <string name="TapToAddDescription">нажмите для добавления описания</string>
+    <string name="TapToAddPhotoOrDescription">Нажмите для добавления информации</string>
+    <string name="VoipEditTitle">Изменить название</string>
+    <string name="VoipEditTitleHint">Название</string>
+    <string name="VoipSetNewPhoto">Выбрать фотографию</string>
+    <string name="VoipCamera">Камера</string>
+    <string name="VideoPreview">Предпросмотр видео</string>
+    <string name="VideoPreviewDesrciption">Видео с камеры будет транслироваться участникам голосового чата</string>
+    <string name="ShareVideo">Транслировать видео с камеры</string>
+    <string name="CallVideoPreviewTitle">Предпросмотр</string>
+    <string name="CallVideoPin">Закрепить</string>
+    <string name="CallVideoUnpin">Открепить</string>
+    <string name="VoipGroupAudio">Звук</string>
+    <string name="VoipSelectAudioOutput">Выберите аудиовыход</string>
+    <string name="VoipVideoOnPause">Видео на паузе</string>
+    <string name="VoipVideoScreenSharingTwoLines">Вы транслируете\nэкран</string>
+    <string name="VoipVideoScreenSharing">Вы транслируете экран</string>
+    <string name="VoipVideoScreenStopSharing">ОСТАНОВИТЬ</string>
+    <string name="VoipNoiseCancellation">Шумоподавление</string>
+    <string name="VoipNoiseCancellationEnabled">Включено</string>
+    <string name="VoipNoiseCancellationDisabled">Отключено</string>
+    <string name="VoipVideoNotAvailable">Режим видео доступен\nтолько первым %1$s участникам</string>
     <!--invite links-->
     <string name="ManageInviteLinks">Управление инвайт-ссылками</string>
     <string name="ManageLinksInfoHelp">Вы можете создать дополнительные инвайт-ссылки с ограничением срока действия и числа использований.</string>
@@ -3556,7 +3688,7 @@
     <string name="PrimaryLinkHelpChannel">Пользователи Telegram смогут присоединиться к вашему каналу, перейдя по ссылке.</string>
     <string name="EditLink">Изменить ссылку</string>
     <string name="SaveLink">Сохранить ссылку</string>
-    <string name="NoLimit">Постоянная</string>
+    <string name="NoLimit">∞</string>
     <string name="LimitByPeriod">Лимит длительности</string>
     <string name="LimitNumberOfUses">Лимит использований</string>
     <string name="NewLink">Новая ссылка</string>
@@ -3573,7 +3705,7 @@
     <string name="Revoked">Аннулирована</string>
     <string name="LinkExpiresIn">Ссылка действительна до %s</string>
     <string name="ExpireAfter">Действует до</string>
-    <string name="SetTimeLimit">Выбрать срок действия</string>
+    <string name="SetTimeLimit">Задать срок действия</string>
     <string name="RevokedLinks">Аннулированные ссылки</string>
     <string name="DeleteLink">Удалить ссылку</string>
     <string name="RevokedLink">Ссылка аннулирована</string>
@@ -3587,7 +3719,7 @@
     <string name="QRCodeLinkHelpGroup">Пользователи смогут вступить в группу, отсканировав этот QR-код.</string>
     <string name="DeleteLinkHelp">Это удалит ссылку.</string>
     <string name="DeleteAllRevokedLinkHelp">Это удалит использованные и истекшие ссылки.</string>
-    <string name="CreateNewLinkHelp">Вы можете создавать инвайт-ссылки, после использования они станут недействительны.</string>
+    <string name="CreateNewLinkHelp">Вы можете создавать инвайт-ссылки с ограниченным действием.</string>
     <string name="LinksCreatedByThisAdmin">Ссылки, созданные администратором</string>
     <string name="LinksCreatedByOtherAdmins">Ссылки других администраторов</string>
     <string name="PermanentLinkForThisAdmin">Ссылка для этого администратора</string>
@@ -3605,6 +3737,12 @@
     <string name="ContactShortcutVoiceCall">Звонок %1$s</string>
     <string name="ContactShortcutVideoCall">Видеозвонок %1$s</string>
     <!--plural-->
+    <string name="MembersAreSpeakingToast_zero">un1 говорят</string>
+    <string name="MembersAreSpeakingToast_one">un1 говорит</string>
+    <string name="MembersAreSpeakingToast_two">un1 говорят</string>
+    <string name="MembersAreSpeakingToast_few">un1 говорят</string>
+    <string name="MembersAreSpeakingToast_many">un1 говорят</string>
+    <string name="MembersAreSpeakingToast_other">un1 говорят</string>
     <string name="DeleteBackground_zero">Удалить %1$d фонов</string>
     <string name="DeleteBackground_one">Удалить %1$d фон</string>
     <string name="DeleteBackground_two">Удалить %1$d фонов</string>
@@ -3755,6 +3893,30 @@
     <string name="FromChats_few">из %1$d чатов</string>
     <string name="FromChats_many">из %1$d чатов</string>
     <string name="FromChats_other">из %1$d чатов</string>
+    <string name="SecondsSchedule_zero">%1$d секунду</string>
+    <string name="SecondsSchedule_one">%1$d секунду</string>
+    <string name="SecondsSchedule_two">%1$d секунду</string>
+    <string name="SecondsSchedule_few">%1$d секунды</string>
+    <string name="SecondsSchedule_many">%1$d секунд</string>
+    <string name="SecondsSchedule_other">%1$d секунду</string>
+    <string name="MinutesSchedule_zero">%1$d минуты</string>
+    <string name="MinutesSchedule_one">%1$d минуту</string>
+    <string name="MinutesSchedule_two">%1$d минуты</string>
+    <string name="MinutesSchedule_few">%1$d минуты</string>
+    <string name="MinutesSchedule_many">%1$d минут</string>
+    <string name="MinutesSchedule_other">%1$d минуты</string>
+    <string name="HoursSchedule_zero">%1$d часа</string>
+    <string name="HoursSchedule_one">%1$d час</string>
+    <string name="HoursSchedule_two">%1$d часа</string>
+    <string name="HoursSchedule_few">%1$d часа</string>
+    <string name="HoursSchedule_many">%1$d часов</string>
+    <string name="HoursSchedule_other">%1$d часа</string>
+    <string name="DaysSchedule_zero">%1$d дня</string>
+    <string name="DaysSchedule_one">%1$d день</string>
+    <string name="DaysSchedule_two">%1$d дня</string>
+    <string name="DaysSchedule_few">%1$d дня</string>
+    <string name="DaysSchedule_many">%1$d дней</string>
+    <string name="DaysSchedule_other">%1$d дня</string>
     <string name="Seconds_zero">%1$d сек.</string>
     <string name="Seconds_one">%1$d сек.</string>
     <string name="Seconds_two">%1$d сек.</string>
@@ -4134,6 +4296,18 @@
     <string name="PeopleCanJoinViaLinkCount_few">Ссылку могут использовать %s человека.</string>
     <string name="PeopleCanJoinViaLinkCount_many">Ссылку могут использовать %s человек.</string>
     <string name="PeopleCanJoinViaLinkCount_other">Ссылку могут использовать %s человека.</string>
+    <string name="PinnedDialogsCount_zero">%1$d чатов закреплены</string>
+    <string name="PinnedDialogsCount_one">%1$d чат закреплён</string>
+    <string name="PinnedDialogsCount_two">%1$d чатов закреплены</string>
+    <string name="PinnedDialogsCount_few">%1$d чата закреплены</string>
+    <string name="PinnedDialogsCount_many">%1$d чатов закреплены</string>
+    <string name="PinnedDialogsCount_other">%1$d чатов закреплены</string>
+    <string name="UnpinnedDialogsCount_zero">%1$d чата откреплены</string>
+    <string name="UnpinnedDialogsCount_one">%1$d чат откреплён</string>
+    <string name="UnpinnedDialogsCount_two">%1$d чата откреплены</string>
+    <string name="UnpinnedDialogsCount_few">%1$d чата откреплены</string>
+    <string name="UnpinnedDialogsCount_many">%1$d чаты откреплены</string>
+    <string name="UnpinnedDialogsCount_other">%1$d чата откреплены</string>
     <!--accessibility descriptions-->
     <string name="AccDescrGroup">Группа</string>
     <string name="AccDescrChannel">Канал</string>
@@ -4295,34 +4469,25 @@
     <string name="SendTodayAt">\'Отправить сегодня в\' HH:mm</string>
     <string name="SendDayAt">\'Отправить\' d MMM \'в\' H:mm</string>
     <string name="SendDayYearAt">\'Отправить\' d MMM yyyy \'в\' H:mm</string>
+    <string name="StartTodayAt">\'Начать сегодня в\' HH:mm</string>
+    <string name="StartDayAt">\'Начать\' d MMM \'в\' HH:mm</string>
+    <string name="StartDayYearAt">\'Начать\' d MMM yyyy \'в\' HH:mm</string>
+    <string name="StartsTodayAt">\'Начнётся сегодня в\' HH:mm</string>
+    <string name="StartsDayAt">\'Начнётся\' d MMM \'в\' HH:mm</string>
+    <string name="StartsDayYearAt">\'Начнётся\' d MMM yyyy \'в\' HH:mm</string>
+    <string name="StartShortTodayAt">\'Сегодня в\' HH:mm</string>
+    <string name="StartShortDayAt">d MMM HH:mm</string>
+    <string name="StartShortDayYearAt">d MMM yyyy HH:mm</string>
     <string name="RemindTodayAt">\'Напомнить сегодня в\' H:mm</string>
     <string name="RemindDayAt">\'Напомнить\' d MMM \'в\' H:mm</string>
     <string name="RemindDayYearAt">\'Напомнить\' d MMM yyyy \'в\' H:mm</string>
-    <string name="Permanent">Основная</string>
-    <string name="LinkHashExpired">Ссылка больше не активна</string>
-    <string name="CancelForward">Отмена пересылки</string>
-    <string name="SelectOtherChat">Другой чат</string>
-    <string name="CancelForwardMessage">Хотите отменить или выбрать другой чат?</string>
-    <string name="ChatListSwipeGesture">"Жест списка чатов "</string>
-    <string name="SwipeSettingsPin">Закрепить</string>
-    <string name="SwipeSettingsRead">Прочитать</string>
-    <string name="SwipeSettingsArchive">Архивировать</string>
-    <string name="SwipeSettingsMute">Выкл. звук</string>
-    <string name="SwipeSettingsDelete">Удалить</string>
-    <string name="SwipeSettingsFolders">Отключить</string>
-    <string name="SwipeUnmute">Вкл. звук</string>
-    <string name="SwipeMute">Выкл. звук</string>
-    <string name="SwipeDeleteChat">Удалить</string>
-    <string name="SwipeMarkAsRead">Прочитано</string>
-    <string name="SwipeMarkAsUnread">Не прочитано</string>
-    <string name="SwipeUnpin">Открепить</string>
-    <string name="SwipePin">Закрепить</string>
-    <string name="CancelForwarding">Отменить</string>
+    <string name="BotsMenuTitle">Меню</string>
     <!-- BGram Strings--><!-- BGram Strings-->
     <!-- BGram Strings--><!-- BGram Strings-->
     <!-- BGram Strings--><!-- BGram Strings-->
     <!-- BGram Strings--><!-- BGram Strings-->
     <!-- BGram Strings--><!-- BGram Strings-->
+
     <string name="BGram">BGram</string>
     <string name="AppName">BGram</string>
     <string name="AppNameBeta">BGram Beta</string>
@@ -4541,7 +4706,7 @@
     <string name="BGramOfficialChannel">Официальный канал</string>
     <string name="BGramOfficialChannelSub">Информация об обновлениях.</string>
     <string name="BGramOfficialGroups">Official Supporting Groups</string>
-    <string name="BGramOfficialGroupsSub">All bug reports and ideas are welcome.</string>
+    <string name="BGramOfficialGroupsSub">Багрепорты и идеи приветствуются.</string>
     <string name="BGramOfficialGroupsEN">English</string>
     <string name="BGramOfficialGroupsFA">Persian</string>
     <string name="BGramOfficialGroupsRU">На русском</string>
@@ -4675,18 +4840,24 @@
     <string name="BiftorShowExactNumberOfMembers">Не округлять числа</string>
     <string name="BiftorShowExactNumberOfMembersSub">Точное число участников и просмотров в группах и каналах («2125» вместо «2k»).</string>
 
-    <!--‌ Biftor remove call button in profile -->
+    <!--Biftor remove call button in profile -->
     <string name="BiftorRemoveCallButtonInProfile">Скрыть кнопку вызова в профиле</string>
 
-    <!--‌ Biftor forward config -->
+    <!--Biftor forward config -->
     <string name="ForwardTabsCat">Панель пересылки</string>
     <string name="ForwardTabsHided">Не показывать вкладки</string>
     <string name="BiftorForwardCopyLink">Ссылка</string>
 
-    <!--‌ Biftor mark on msg -->
+    <!--Biftor mark on msg -->
     <string name="BiftorSetMarkOnMsg">Установить закладку</string>
-    <string name="BiftorGoToMarkedMsg">К закладке</string>
-    <string name="BiftorResetMarkedMsg">Сбросить закладку</string>
+    <string name="BiftorGoToMarkedMsg">К закладке</string>
+    <string name="BiftorRemoveMarkedMsg">Удалить закладку</string>
+    <string name="BiftorRemoveAllMarkedMsg">Удалить все закладки</string>
+    <string name="BiftorMarkedMsg">Закладки</string>
+    <string name="BiftorMsgEmptyTextSearch">Не найдено ни одного сообщения, содержащего «%1$s».</string>
+    <string name="BiftorNoMsgs">Нет закладок!</string>
+    <string name="BiftorOrderByDateAdded">Сортировать по дате добавления</string>
+    <string name="BiftorUpdateMarkMessages">Обновить закладки</string>
 
     <!--Biftor Font picker -->
     <string name="BiftorFontsPickerCat">Пользовательские шрифты</string>
@@ -4853,7 +5024,8 @@
     <string name="BiftorBackUpMain">Главные настройки</string>
     <string name="BiftorBackUpFav">Любимые чаты</string>
     <string name="BiftorBackUpHidden">Скрытые чаты</string>
-    <string name="BiftorBackUpFolders">Folders</string>
+    <string name="BiftorBackUpFolders">Папки</string>
+    <string name="BiftorBackUpMarkedMessages">Закладки</string>
     <string name="BiftorBackUpFonts">Пользовательские шрифты</string>
     <string name="BiftorBackUpAllAndSaveToCloud">Сохранить всё в облако</string>
     <string name="BiftorBackUpSuccessful">Cохранено в</string>
@@ -4864,14 +5036,16 @@
     <string name="BiftorRestoreMain">Главные настройки</string>
     <string name="BiftorRestoreFav">Любимые чаты</string>
     <string name="BiftorRestoreHidden">Скрытые чаты</string>
-    <string name="BiftorRestoreFolders">Folders</string>
+    <string name="BiftorRestoreFolders">Папки</string>
+    <string name="BiftorRestoreMarkedMessages">Закладки</string>
 
     <string name="BiftorRestoreToDef">Сброс к значениям по умолчанию</string>
     <string name="BiftorRestoreGlobalToDef">Сбросить общие настройки</string>
     <string name="BiftorRestoreMainToDef">Сбросить главные настройки</string>
     <string name="BiftorRestoreFavToDef">Восстановить любимые чаты</string>
     <string name="BiftorRestoreHiddenToDef">Восстановить скрытые чаты</string>
-    <string name="BiftorRestoreDialogsFolderToDef">Restore dialog\'s folders to server default</string>
+    <string name="BiftorRestoreDialogsFolderToDef">Восстановить папки на сервер</string>
+    <string name="BiftorRestoreMarkedMessagesToDef">Восстановить закладки по умолчанию</string>
 
     <string name="BiftorRestoreSuccessful">Успешно восстановлено</string>
     <string name="BiftorRestoreUnSuccessful">Ошибка восстановления</string>
@@ -5046,8 +5220,8 @@
     <string name="BiftorHideCustomTabChatsFromAll">Из всех чатов</string>
     <string name="BiftorDontHideCustomTabChats">Не скрывать</string>
     <string name="BiftorMayNeedsToRestart">Может потребоваться перезапуск.</string>
-    <string name="BiftorAllowSyncExtraFolders">Allow sync extra folders</string>
-    <string name="BiftorAllowSyncExtraFoldersSub">If you have more than 10 folders, you may need to disable sync folders to server because it may delete extra folders or change folder\'s order</string>
+    <string name="BiftorAllowSyncExtraFolders">Cинхронизация папок</string>
+    <string name="BiftorAllowSyncExtraFoldersSub">Если у вас больше 10 папок, отключите синхронизацию папок с сервером, поскольку это может удалить лишние или изменить их порядок.</string>
 
     <!-- Biftor goto msg for all chats-->
     <string name="BiftorMentionMsg">ID сообщения</string>
@@ -5086,9 +5260,9 @@
 
     <!--Biftor Translate-->
     <string name="BiftorTranslate">Перевести</string>
-    <string name="BiftorTranslateKeySave">Save key</string>
-    <string name="BiftorTranslateYandexKey">Yandex translation key</string>
-    <string name="BiftorTranslateYouNeedYandexAPIKey">Yandex api key is empty, you need valid Yandex translation api key</string>
+    <string name="BiftorTranslateKeySave">Сохранить</string>
+    <string name="BiftorTranslateYandexKey">API-ключ Яндекс-Переводчика</string>
+    <string name="BiftorTranslateYouNeedYandexAPIKey">API-ключ Яндекс-Переводчика недействителен, нужен действующий ключ.</string>
     <string name="BiftorTranslateAllLanguage">Все</string>
     <string name="BiftorTranslateRecently">Последние выбранные</string>
     <string name="BiftorTranslateClearRecently">Очистить список последних</string>
@@ -5172,9 +5346,9 @@
 
 
     <!--Biftor delete from recent search-->
-    <string name="BiftorDeletRecentSearchItem">Удалить **%1$s** из истории поиска?</string>
+    <string name="BiftorDeleteRecentSearchItem">Удалить **%1$s** из истории поиска?</string>
 
-    <string name="BiftorDrawerContactAndGroup">Чаты и контакты</string>
+    <string name="BiftorDrawerContactAndGroup">Чаты</string>
 
     <!--Biftor floating new msg-->
     <string name="BiftorChangeToSaveMsg">Облако на плавающей кнопке</string>
@@ -5192,6 +5366,7 @@
     <string name="BiftorUpdateIsAvailable">Нажмите ОК для обновления</string>
     <string name="BiftorCheckForUpdate">Проверить обновления</string>
     <string name="BiftorDownloadLatestVersion">Скачать обновление</string>
+    <string name="BiftorUpdateFileExists">Файл обновления уже скачан и находится в :\n%s\nХотите скачать его повторно?</string>
 
 
     <!--Biftor direct chats-->
@@ -5212,8 +5387,8 @@
 
     <!--Biftor shadow socks-->
     <string name="BiftorPing">Пинг</string>
-    <string name="BiftorProxyTypeShadowSocks">ShadowSocks Proxy</string>
-    <string name="BiftorProxyTypeShadowSocksR">ShadowSocksR Proxy</string>
+    <string name="BiftorProxyTypeShadowSocks">Shadowsocks-прокси</string>
+    <string name="BiftorProxyTypeShadowSocksR">ShadowsocksR-прокси</string>
     <string name="BiftorProxyTypeVmess">Vmess-прокси</string>
     <string name="BiftorProxyInfoSSR">Настройки ShadowsocksR-прокси</string>
     <string name="BiftorProxyInfoSS">Настройки Shadowsocks-прокси</string>
@@ -5224,8 +5399,8 @@
     <string name="BiftorImportProxy">Импорт из URL</string>
     <string name="BiftorConnection">Соединение: %1$d мс</string>
 
-    <string name="BiftorVmessUserId">User ID</string>
-    <string name="BiftorVmessAlterId">Alter ID</string>
+    <string name="BiftorVmessUserId">User Id</string>
+    <string name="BiftorVmessAlterId">Alter Id</string>
     <string name="BiftorVmessSecurity">Безопасность</string>
     <string name="BiftorVmessNetwork">Сеть</string>
     <string name="BiftorVmessHeadType">Head Type</string>
@@ -5242,15 +5417,15 @@
     <string name="BiftorSSRProtocolParams">Параметры протокола</string>
     <string name="BiftorSSRObfs">Obfs</string>
     <string name="BiftorSSRObfsParam">Obfs Param</string>
-    <string name="BiftorShadowSocksModule">Shadow socks</string>
-    <string name="BiftorStartShadowAsService">Запустить Shadowsocks</string>
-    <string name="BiftorStartShadowAsServiceSub">Запустить Shadowsocks в фоне</string>
-    <string name="BiftorShadowSockServiceConnecting">Shadow Socks service is connecting</string>
-    <string name="BiftorShadowSockServiceConnected">Shadow Socks service is running: %s</string>
-    <string name="BiftorShadowSockServiceStop">Stop</string>
-    <string name="BiftorShadowSocksConfig">Shadow socks config</string>
-    <string name="BiftorStopShadowSocksWhenAppClosed">Stop Shadow socks when app closed</string>
-    <string name="BiftorStopShadowSocksWhenAppClosedSub">Stop the Shadow socks when App Closed, if you disable it, when the Shadow socks is enable the whole app will not close.</string>
+    <string name="BiftorShadowSocksModule">Настройки Shadowsocks</string>
+    <string name="BiftorStartShadowAsService">Использовать Shadowsocks</string>
+    <string name="BiftorStartShadowAsServiceSub">Запускать Shadowsocks в фоне</string>
+    <string name="BiftorShadowSockServiceConnecting">Подключение через Shadowsocks...</string>
+    <string name="BiftorShadowSockServiceConnected">Shadowsocks запущен: %s</string>
+    <string name="BiftorShadowSockServiceStop">Остановить</string>
+    <string name="BiftorShadowSocksConfig">Настройки Shadowsocks</string>
+    <string name="BiftorStopShadowSocksWhenAppClosed">Завершать при выходе</string>
+    <string name="BiftorStopShadowSocksWhenAppClosedSub">Остановливайте Shadowsocks перед закрытием BGram, с включенным Shadowsocks, приложение не закроется.</string>
 
     <!--Biftor ads-->
     <string name="BiftorAdsTypeAdMob">AdMob</string>

@@ -364,18 +364,24 @@
  <string name="BiftorShowExactNumberOfMembers">إظهار العدد الدقيق للأعضاء</string>
  <string name="BiftorShowExactNumberOfMembersSub">إظهار العدد الدقيق للمجموعات / أعضاء القنوات / المشتركين</string>
 
- <!--‌ Biftor remove call button in profile -->
+ <!--Biftor remove call button in profile -->
  <string name="BiftorRemoveCallButtonInProfile">إزالة زر الاتصال من على الملف الشخصي</string>
 
- <!--‌ Biftor forward config -->
+ <!--Biftor forward config -->
  <string name="ForwardTabsCat">علامة تبويب التوجيه</string>
  <string name="ForwardTabsHided">علامة تبويب التوجيه مخفية</string>
  <string name="BiftorForwardCopyLink">نسخ الرابط</string>
 
- <!--‌ Biftor mark on msg -->
+ <!--Biftor mark on msg -->
  <string name="BiftorSetMarkOnMsg">وضع علامة على الرسالة</string>
  <string name="BiftorGoToMarkedMsg">الذهاب للرسالة التي عليها علامة</string>
- <string name="BiftorResetMarkedMsg">إعادة تعيين الرسائل التي عليها علامة</string>
+ <string name="BiftorRemoveMarkedMsg">Remove marked message</string>
+ <string name="BiftorRemoveAllMarkedMsg">Remove all marked message</string>
+ <string name="BiftorMarkedMsg">Marked messages</string>
+ <string name="BiftorMsgEmptyTextSearch">No message that contain \'**%1$s**\' have been found.</string>
+ <string name="BiftorNoMsgs">No messages yet!</string>
+ <string name="BiftorOrderByDateAdded">Order by date added</string>
+ <string name="BiftorUpdateMarkMessages">Update marked messages</string>
 
  <!--Biftor Font piker -->
  <string name="BiftorFontsPickerCat">منتقي الخطوط</string>
@@ -544,6 +550,8 @@
  <string name="BiftorBackUpFav">نسخ إحتياطي للمحادثات المفضلة</string>
  <string name="BiftorBackUpHidden">نسخ إحتياطي للمحادثات المخفية</string>
  <string name="BiftorBackUpFolders">Folders</string>
+ <string name="BiftorBackUpMarkedMessages">Marked messages</string>
+ <string name="BiftorBackUpFonts">Custom fonts</string>
  <string name="BiftorBackUpAllAndSaveToCloud">نسخ إحتياطي للكل وحفظ بالسحابة</string>
  <string name="BiftorBackUpSuccessful">نجحت عملية النسخ الإحتياطي إلى:</string>
  <string name="BiftorBackUpUnSuccessful">نجحت عملية النسخ الإحتياطي!</string>
@@ -554,6 +562,7 @@
  <string name="BiftorRestoreFav">إستعادة المحادثات المفضلة</string>
  <string name="BiftorRestoreHidden">إستعادة المحادثات المخفية</string>
  <string name="BiftorRestoreFolders">Folders</string>
+ <string name="BiftorRestoreMarkedMessages">Marked messages</string>
 
  <string name="BiftorRestoreToDef">إستعادة إلى الافتراضي</string>
  <string name="BiftorRestoreGlobalToDef">استعادة الإعدادات العامة إلى الافتراضي</string>
@@ -561,6 +570,7 @@
  <string name="BiftorRestoreFavToDef">إستعادة المحادثات المفضلة إلى ألإفتراضية</string>
  <string name="BiftorRestoreHiddenToDef">إستعادة المحادثات المخفية إلى الإفتراضية</string>
  <string name="BiftorRestoreDialogsFolderToDef">Restore dialog\'s folders to server default</string>
+ <string name="BiftorRestoreMarkedMessagesToDef">Restore marked messages to default</string>
 
  <string name="BiftorRestoreSuccessful">نجحت عملية الإستعادة!</string>
  <string name="BiftorRestoreUnSuccessful">نجحت عملية الإستعادة!</string>
@@ -868,9 +878,9 @@
 
 
  <!--Biftor delete from recent search-->
- <string name="BiftorDeletRecentSearchItem">هل أنت متأكد أنك تريد حذف هذا: **٪ 1 $s** من البحث الأخير؟</string>
+ <string name="BiftorDeleteRecentSearchItem">هل أنت متأكد أنك تريد حذف هذا: **٪ 1 $s** من البحث الأخير؟</string>
 
- <string name="BiftorDrawerContactAndGroup">جهات الاتصال والمجموعات</string>
+ <string name="BiftorDrawerContactAndGroup">Chats</string>
 
  <!--Biftor floating new msg-->
  <string name="BiftorChangeToSaveMsg">تغيير الزر العائم لحفظ الرسالة</string>
@@ -887,6 +897,7 @@
  <string name="BiftorUpdateIsAvailable">التحديث متوفر</string>
  <string name="BiftorCheckForUpdate">فحص لمعرفة توفر التحديث</string>
  <string name="BiftorDownloadLatestVersion">تحميل أحدث نسخة</string>
+ <string name="BiftorUpdateFileExists">Update file downloaded and located in:\n%s\nDo you want download it again?</string>
 
  <!--Biftor direct chats-->
  <string name="BiftorDirectChats">الدردشات المباشرة</string>

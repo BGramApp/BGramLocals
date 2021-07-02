@@ -354,18 +354,24 @@
 	<string name="BiftorShowExactNumberOfMembers">Sonlarni yaxlitlamaslik</string>
 	<string name="BiftorShowExactNumberOfMembersSub">Guruh va kanallarda a’zolar soni aniq koʻrsatiladi (mas., «2k» oʻrniga «2125»).</string>
 
-	<!--‌ Biftor remove call button in profile -->
+	<!--Biftor remove call button in profile -->
 	<string name="BiftorRemoveCallButtonInProfile">Profilda «qoʻngʻiroq» tugmasini berkitish</string>
 
-	<!--‌ Biftor forward config -->
+	<!--Biftor forward config -->
 	<string name="ForwardTabsCat">Yoʻllash paneli</string>
 	<string name="ForwardTabsHided">Xatchoʻpni koʻrsatmaslik</string>
 	<string name="BiftorForwardCopyLink">Havola</string>
 
-	<!--‌ Biftor mark on msg -->
+	<!--Biftor mark on msg -->
 	<string name="BiftorSetMarkOnMsg">Xatchoʻpni oʻrnatish</string>
 	<string name="BiftorGoToMarkedMsg">Xatchoʻpga oʻtish</string>
-	<string name="BiftorResetMarkedMsg">Xatchoʻpni bekor qilish</string>
+	<string name="BiftorRemoveMarkedMsg">Remove marked message</string>
+	<string name="BiftorRemoveAllMarkedMsg">Remove all marked message</string>
+	<string name="BiftorMarkedMsg">Marked messages</string>
+	<string name="BiftorMsgEmptyTextSearch">No message that contain \'**%1$s**\' have been found.</string>
+	<string name="BiftorNoMsgs">No messages yet!</string>
+	<string name="BiftorOrderByDateAdded">Order by date added</string>
+	<string name="BiftorUpdateMarkMessages">Update marked messages</string>
 
 	<!--Biftor Font picker -->
 	<string name="BiftorFontsPickerCat">Foydalanuvchi shriftlari</string>
@@ -532,6 +538,7 @@
 	<string name="BiftorBackUpFav">Tanlangan chatlarni</string>
 	<string name="BiftorBackUpHidden">Maxfiy chatlarni</string>
 	<string name="BiftorBackUpFolders">Folders</string>
+	<string name="BiftorBackUpMarkedMessages">Marked messages</string>
 	<string name="BiftorBackUpFonts">Foydalanuvchi shriftlarini</string>
 	<string name="BiftorBackUpAllAndSaveToCloud">Barini saqlamaga saqlash</string>
 	<string name="BiftorBackUpSuccessful">Quyidagiga saqlandi:</string>
@@ -543,6 +550,7 @@
 	<string name="BiftorRestoreFav">Tanlangan chatlarni</string>
 	<string name="BiftorRestoreHidden">Maxfiy chatlarni</string>
 	<string name="BiftorRestoreFolders">Jildlarni</string>
+	<string name="BiftorRestoreMarkedMessages">Marked messages</string>
 
 	<string name="BiftorRestoreToDef">Asl holiga qaytarish</string>
 	<string name="BiftorRestoreGlobalToDef">Umumiy tanlovlarni</string>
@@ -550,6 +558,7 @@
 	<string name="BiftorRestoreFavToDef">Tanlangan chatlarni tiklash</string>
 	<string name="BiftorRestoreHiddenToDef">Maxfiy chatlarni tiklash</string>
 	<string name="BiftorRestoreDialogsFolderToDef">Jildlarni standart serverga tiklash</string>
+	<string name="BiftorRestoreMarkedMessagesToDef">Restore marked messages to default</string>
 
 	<string name="BiftorRestoreSuccessful">Muvaffaqiyatli tiklandi!</string>
 	<string name="BiftorRestoreUnSuccessful">Tiklashda xatolik mavjud!</string>
@@ -858,10 +867,10 @@
 	<string name="BiftorTranslateCHINESE_TRADITIONAL">XITOY ANʼANAVIY</string>
 
 	<!--Biftor delete from recent search-->
-	<string name="BiftorDeletRecentSearchItem">Siz **%1$s**ni soʻnggi izlanganlar roʻyxatidan olib tashlamoqchimisiz?</string>
+	<string name="BiftorDeleteRecentSearchItem">Siz **%1$s**ni soʻnggi izlanganlar roʻyxatidan olib tashlamoqchimisiz?</string>
 
 
-	<string name="BiftorDrawerContactAndGroup">Kontaktlar va guruhlar</string>
+	<string name="BiftorDrawerContactAndGroup">Chats</string>
 
 	<!--Biftor floating new msg-->
 	<string name="BiftorChangeToSaveMsg">Saqlangan xabarlarga oʻtkazish</string>
@@ -878,6 +887,7 @@
 	<string name="BiftorUpdateIsAvailable">Yangi versiya mavjud</string>
 	<string name="BiftorCheckForUpdate">Tekshirib koʻrish</string>
 	<string name="BiftorDownloadLatestVersion">Yuklab olish</string>
+	<string name="BiftorUpdateFileExists">Update file downloaded and located in:\n%s\nDo you want download it again?</string>
 
 	<!--Biftor direct chats-->
 	<string name="BiftorDirectChats">Doimiy chatlar</string>

@@ -28,8 +28,8 @@
     <string name="BiftorHideChannelMuteButton">Ocultar panel inferior en canales</string>
 
     <!-- Tabs -->
-    <string name="BiftorTabsStyle">Estilo de pestañas</string>
-    <string name="BiftorVerticalTabsStyle">Estilo de pestañas vertical</string>
+    <string name="BiftorTabsStyle">Estilo de carpetas</string>
+    <string name="BiftorVerticalTabsStyle">Estilo de carpetas vertical</string>
     <string name="BiftorVerticalRightSideBarRound">Globos</string>
     <string name="BiftorVerticalRightSideBarOnlyIcon">Solo icono</string>
     <string name="BiftorVerticalRightSideBarIconAndText">Solo icono y texto</string>
@@ -42,10 +42,10 @@
     <string name="BiftorVerticalRoundShowByTap">Tocando en botón flotante</string>
     <string name="BiftorRightSidePushChatList">Arrastrar lista de chats a la izquierda</string>
     <string name="BiftorRightSideOpenButton">Mostrat botón de apertura rápida</string>
-    <string name="BiftorShowTabsAtTop">Mostrar pestañas arriba</string>
-    <string name="BiftorShowTabsAtBottom">Mostrar pestañas abajo</string>
+    <string name="BiftorShowTabsAtTop">Mostrar carpetas arriba</string>
+    <string name="BiftorShowTabsAtBottom">Mostrar carpetas abajo</string>
     <string name="BiftorShowNewChatButton">Mostrar botón de nuevo chat</string>
-    <string name="HideTabs">Ocultar barra de pestañas</string>
+    <string name="HideTabs">Ocultar barra de carpetas</string>
     <string name="All">Todos</string>
     <string name="Users">Usuarios</string>
     <string name="Groups">Grupos</string>
@@ -65,38 +65,38 @@
     <string name="OwnGroups">Grupos propios</string>
     <string name="OwnSGroups">Supergrupos propios</string>
     <string name="UnmuteUnreads">No leídos sin mutear</string>
-    <string name="Sort">Ordenar pestañas</string>
+    <string name="Sort">Ordenar carpetas</string>
 
-    <string name="TabsHeight">Altura de las pestañas</string>
-    <string name="TabsUnreadTextSize">Tamaño texto contadores en pestañas</string>
+    <string name="TabsHeight">Altura de las carpetas</string>
+    <string name="TabsUnreadTextSize">Tamaño texto contadores en carpetas</string>
     <string name="BiftorShowFolderNameInHeader">Mostrar nombre de carpeta en cabecera</string>
-    <string name="SetAsDefaultTab">Fijar como pestaña por defecto</string>
-    <string name="ResetDefaultTab">Restablecer pestaña por defecto</string>
+    <string name="SetAsDefaultTab">Fijar como carpeta por defecto</string>
+    <string name="ResetDefaultTab">Restablecer carpeta por defecto</string>
     <string name="SortByStatus">Ordenar por estado</string>
     <string name="SortByLastMessage">Ordenar por último mensaje</string>
     <string name="SortByUnreadCount">Ordenar por mensajes no leídos</string>
-    <string name="ShowSuperGroupsTab">Mostrar pestaña de Supergrupos</string>
-    <string name="HideSuperGroupsTab">Ocultar pestaña de Supergrupos</string>
-    <string name="Tabs">Pestañas</string>
-    <string name="HideShowTabs">Mostrar/Ocultar pestañas</string>
-    <string name="DisableTabsAnimation">No ocultar pestañas al hacer scroll</string>
-    <string name="InfiniteSwipe">Deslizar infinito entre pestañas</string>
+    <string name="ShowSuperGroupsTab">Mostrar carpeta de Supergrupos</string>
+    <string name="HideSuperGroupsTab">Ocultar carpeta de Supergrupos</string>
+    <string name="Tabs">Carpetas</string>
+    <string name="HideShowTabs">Mostrar/Ocultar carpetas</string>
+    <string name="DisableTabsAnimation">No ocultar carpetas al hacer scroll</string>
+    <string name="InfiniteSwipe">Deslizar infinito entre carpetas</string>
     <string name="HeaderTabCounterCountChats">Contar chats en vez de mensajes</string>
     <string name="HeaderTabCounterCountNotMuted">Contar solo mensajes no muteados</string>
-    <string name="HideTabsCounters">Ocultar contadores en pestañas</string>
+    <string name="HideTabsCounters">Ocultar contadores en carpetas</string>
     <string name="BiftorForceMarkAsRead">Forzar marcar como leído</string>
 
     <string name="ShowHeaderShadow">Mostrar sombra en encabezado</string>
 
-    <string name="ShowTabsAtBottom">Mostrar barra de pestañas abajo</string>
+    <string name="ShowTabsAtBottom">Mostrar barra de carpetas abajo</string>
     <string name="BiftorNumberOfChats">Número de chats:</string>
     <string name="BiftorLoadingNumberOfChats">Contando chats...</string>
-    <string name="BiftorNumberOfVisibleTabs">Número de pestañas visibles</string>
-    <string name="BiftorTabsGravityCenter">Centrar pestañas</string>
-    <string name="BiftorTabsCenterEachTabs">Ancho de pestañas</string>
-    <string name="BiftorTabsFitToScreen">Ajustar pestañas a pantalla</string>
-    <string name="BiftorTabsFitToScreenSub">Si activas ésto no puedes agrupar las pestañas.</string>
-    <string name="BiftorDisableChangeTabSwipe">Desactivar deslizamiento de pestañas</string>
+    <string name="BiftorNumberOfVisibleTabs">Número de carpetas visibles</string>
+    <string name="BiftorTabsGravityCenter">Centrar carpetas</string>
+    <string name="BiftorTabsCenterEachTabs">Ancho de carpetas</string>
+    <string name="BiftorTabsFitToScreen">Ajustar carpetas a pantalla</string>
+    <string name="BiftorTabsFitToScreenSub">Si activas ésto no puedes agrupar las carpetas.</string>
+    <string name="BiftorDisableChangeTabSwipe">Desactivar deslizamiento de carpetas</string>
     <string name="BiftorJumpToFirstPosition">Saltar al principio de la lista</string>
 
     <string name="BiftorKeepSelection">Mantener selección</string>
@@ -353,18 +353,24 @@
     <string name="BiftorShowExactNumberOfMembers">Mostrar número exacto</string>
     <string name="BiftorShowExactNumberOfMembersSub">Mostrar el número exacto de vistas y miembros/suscriptores.</string>
 
-    <!--‌ Biftor remove call button in profile -->
+    <!--Biftor remove call button in profile -->
     <string name="BiftorRemoveCallButtonInProfile">Ocultar botón de llamada en perfiles</string>
 
-    <!--‌ Biftor forward config -->
-    <string name="ForwardTabsCat">Pestañas del Panel Reenviar</string>
-    <string name="ForwardTabsHided">Pestañas ocultas del panel reenviar</string>
+    <!--Biftor forward config -->
+    <string name="ForwardTabsCat">Carpetas del Panel Reenviar</string>
+    <string name="ForwardTabsHided">Carpetas ocultas del panel reenviar</string>
     <string name="BiftorForwardCopyLink">Copiar enlace</string>
 
-    <!--‌ Biftor mark on msg -->
+    <!--Biftor mark on msg -->
     <string name="BiftorSetMarkOnMsg">Marcar mensaje</string>
     <string name="BiftorGoToMarkedMsg">Ir al mensaje marcado</string>
-    <string name="BiftorResetMarkedMsg">Desmarcar mensaje</string>
+    <string name="BiftorRemoveMarkedMsg">Eliminar mensaje marcado</string>
+    <string name="BiftorRemoveAllMarkedMsg">Eliminar todos los mensajes marcados</string>
+    <string name="BiftorMarkedMsg">Mensajes marcados</string>
+    <string name="BiftorMsgEmptyTextSearch">Ningún mensaje que contenga \'**%1$s**\' ha sido encontrado.</string>
+    <string name="BiftorNoMsgs">¡Todavía no hay mensajes!</string>
+    <string name="BiftorOrderByDateAdded">Añadido orden por fecha</string>
+    <string name="BiftorUpdateMarkMessages">Actualizar mensajes marcados</string>
 
     <!--Biftor Font piker -->
     <string name="BiftorFontsPickerCat">Selector de Fuentes</string>
@@ -416,7 +422,7 @@
     <string name="BiftorFontPreviewTextEn" translatable="false">Ésta es la fuente escogida. Si te gusta, aplícala.</string>
     <string name="BiftorFontPreviewTextFa" translatable="false">این فونت انتخابی شما هست اگر مورد پسند است آن را اعمال کنید.</string>
     <string name="BiftorFontPreviewTextAr" translatable="false">هذا هو الخط الذي اخترته إذا أردت ثم تعيينه.</string>
-    <string name="BiftorFontPreviewTextRu" translatable="false">Выберите начертания для применения шрифта.</string>
+    <string name="BiftorFontPreviewTextRu" translatable="false">Выберите начертания для применения шрифта.</string>
 
     <!-- Biftor apply font from chat -->
     <string name="BiftorApplyFontFile">Aplicar archivo</string>
@@ -531,7 +537,8 @@
     <string name="BiftorBackUpMain">Ajustes principales</string>
     <string name="BiftorBackUpFav">Chats favoritos</string>
     <string name="BiftorBackUpHidden">Chats ocultos</string>
-    <string name="BiftorBackUpFolders">Folders</string>
+    <string name="BiftorBackUpFolders">Carpetas</string>
+    <string name="BiftorBackUpMarkedMessages">Mensajes marcados</string>
     <string name="BiftorBackUpFonts">Fuentes de usuario</string>
     <string name="BiftorBackUpAllAndSaveToCloud">Copia de seguridad de todo en la nube</string>
     <string name="BiftorBackUpSuccessful">Backup completado en</string>
@@ -542,14 +549,16 @@
     <string name="BiftorRestoreMain">Ajustes principales</string>
     <string name="BiftorRestoreFav">Chats favoritos</string>
     <string name="BiftorRestoreHidden">Chats ocultos</string>
-    <string name="BiftorRestoreFolders">Folders</string>
+    <string name="BiftorRestoreFolders">Carpetas</string>
+    <string name="BiftorRestoreMarkedMessages">Mensajes marcados</string>
 
     <string name="BiftorRestoreToDef">Restablecer por defecto</string>
     <string name="BiftorRestoreGlobalToDef">Restablecer ajustes globales por defecto</string>
     <string name="BiftorRestoreMainToDef">Restablecer ajustes principales por defecto</string>
     <string name="BiftorRestoreFavToDef">Restablecer chats favoritos por defecto</string>
     <string name="BiftorRestoreHiddenToDef">Restablecer chats ocultos por defecto</string>
-    <string name="BiftorRestoreDialogsFolderToDef">Restore dialog\'s folders to server default</string>
+    <string name="BiftorRestoreDialogsFolderToDef">Restablecer carpetas a los valores por defecto del servidor</string>
+    <string name="BiftorRestoreMarkedMessagesToDef">Restaurar mensajes marcador por defecto</string>
 
     <string name="BiftorRestoreSuccessful">Restablecimiento completado</string>
     <string name="BiftorRestoreUnSuccessful">Restablecimiento falló</string>
@@ -617,7 +626,7 @@
     <string name="BiftorMain">Principal</string>
     <string name="BiftorAppearance">Aspecto</string>
     <string name="BiftorChatListCat">Lista de Chats</string>
-    <string name="BiftorTabsCat">Pestañas</string>
+    <string name="BiftorTabsCat">Carpetas</string>
     <string name="BiftorButtonsCat">Botones</string>
     <string name="BiftorBubblesCat">Burbujas de chat</string>
 
@@ -705,32 +714,32 @@
 
     <!--Biftor custom tabs-->
     <string name="BiftorNewTab">Nueva</string>
-    <string name="BiftorTabName">Nombre de la pestaña</string>
-    <string name="BiftorTabNameHint">Escribe el nombre de la pestaña</string>
-    <string name="BiftorTabIcon">Icono de la pestaña</string>
-    <string name="BiftorAddToCustomTabs">Añadir a pestaña personal</string>
-    <string name="BiftorDeleteFromCustomTabs">Eliminar de pestaña personal</string>
-    <string name="BiftorNoNameError">No puedes crear pestañas sin nombre.</string>
-    <string name="BiftorCustomTabEndReach">Ya has creado todas las pestañas posibles. No puedes crear más.</string>
-    <string name="BiftorCleanCustomTabWarning">¿Estás seguro de borrar la pestaña personal **%1$s**?</string>
+    <string name="BiftorTabName">Nombre de la carpeta</string>
+    <string name="BiftorTabNameHint">Escribe el nombre de la carpeta</string>
+    <string name="BiftorTabIcon">Icono de la carpeta</string>
+    <string name="BiftorAddToCustomTabs">Añadir a carpeta personal</string>
+    <string name="BiftorDeleteFromCustomTabs">Eliminar de carpeta personal</string>
+    <string name="BiftorNoNameError">No puedes crear carpetas sin nombre.</string>
+    <string name="BiftorCustomTabEndReach">Ya has creado todas las carpetas posibles. No puedes crear más.</string>
+    <string name="BiftorCleanCustomTabWarning">¿Estás seguro de borrar la carpeta personal **%1$s**?</string>
     <string name="BiftorTabIconSize">Tamaño del icono</string>
     <string name="BiftorTabIconTextIcon">Icono de texto</string>
     <string name="BiftorTabIconTextIconEnter">Introduce tu texto</string>
     <string name="BiftorRemoveExtraIconWarning">Estás seguro de borrar **%1$s** icono?</string>
     <string name="BiftorRemoveAllExtraIconWarning">Estás seguro de querer borrar todos los iconos personales?</string>
     <string name="BiftorMultiSelectEndReach">No puedes seleccionar más de **%1$s** elementos.</string>
-    <string name="BiftorHideCustomTabChatsFrom">Ocultar chats de pestañas personales en</string>
+    <string name="BiftorHideCustomTabChatsFrom">Ocultar chats de carpetas personales en</string>
     <string name="BiftorHideCustomTabChatsFromUser">Usuarios</string>
     <string name="BiftorHideCustomTabChatsFromGroups">Grupos</string>
     <string name="BiftorHideCustomTabChatsFromChannel">Canales</string>
     <string name="BiftorHideCustomTabChatsFromSupperGroups">Supergroupos</string>
     <string name="BiftorHideCustomTabChatsFromBots">Bots</string>
     <string name="BiftorHideCustomTabChatsFromAllGroups">Todos los grupos</string>
-    <string name="BiftorHideCustomTabChatsFromAll">La pestaña todos</string>
+    <string name="BiftorHideCustomTabChatsFromAll">La carpeta todos</string>
     <string name="BiftorDontHideCustomTabChats">No ocultar</string>
     <string name="BiftorMayNeedsToRestart">Se necesita reiniciar</string>
-    <string name="BiftorAllowSyncExtraFolders">Allow sync extra folders</string>
-    <string name="BiftorAllowSyncExtraFoldersSub">If you have more than 10 folders, you may need to disable sync folders to server because it may delete extra folders or change folder\'s order</string>
+    <string name="BiftorAllowSyncExtraFolders">Sincronización de carpetas</string>
+    <string name="BiftorAllowSyncExtraFoldersSub">Si tienes más de 10 carpetas necesitarás desactivar la sincronízación porque se podrán borrar las carpetas extra o modificar el orden de las mismas.</string>
 
     <!-- Biftor goto msg for all chats-->
     <string name="BiftorMentionMsg">Mención</string>
@@ -769,9 +778,9 @@
 
     <!--Biftor Translate-->
     <string name="BiftorTranslate">Traductor</string>
-    <string name="BiftorTranslateKeySave">Save key</string>
-    <string name="BiftorTranslateYandexKey">Yandex translation key</string>
-    <string name="BiftorTranslateYouNeedYandexAPIKey">Yandex api key is empty, you need valid Yandex translation api key</string>
+    <string name="BiftorTranslateKeySave">Guardar clave</string>
+    <string name="BiftorTranslateYandexKey">Clave del traductor Yandex</string>
+    <string name="BiftorTranslateYouNeedYandexAPIKey">La clave API de Yandex está vacía. Necesitas una clave válida del traductor Yandex</string>
     <string name="BiftorTranslateAllLanguage">Todos los idiomas</string>
     <string name="BiftorTranslateRecently">Idiomas recientes</string>
     <string name="BiftorTranslateClearRecently">Borrar idiomas recientes?</string>
@@ -855,9 +864,9 @@
 
 
     <!--Biftor delete from recent search-->
-    <string name="BiftorDeletRecentSearchItem">¿Estás seguro que quieres borrar esto: **%1$s** de la búsqueda reciente?</string>
+    <string name="BiftorDeleteRecentSearchItem">¿Estás seguro que quieres borrar esto: **%1$s** de la búsqueda reciente?</string>
 
-    <string name="BiftorDrawerContactAndGroup">Contactos y grupos</string>
+    <string name="BiftorDrawerContactAndGroup">Chats</string>
 
     <!--Biftor floating new msg-->
     <string name="BiftorChangeToSaveMsg">Cambiar botón a mensajes guardados</string>
@@ -874,6 +883,7 @@
     <string name="BiftorUpdateIsAvailable">Actualización disponible</string>
     <string name="BiftorCheckForUpdate">Buscar actualización</string>
     <string name="BiftorDownloadLatestVersion">Descargar la última versión</string>
+    <string name="BiftorUpdateFileExists">Actualización descargada en:\n%s\n¿Quieres descargarla otra vez?</string>
 
     <!--Biftor direct chats-->
     <string name="BiftorDirectChats">Chats directos</string>
@@ -881,8 +891,8 @@
     <string name="BiftorDirectChatsReset">Resetear chats directos</string>
     <string name="BiftorDisplayDirectChats">Mostrar chat directo en</string>
     <string name="BiftorDisplayDirectChatsSide">Barra lateral</string>
-    <string name="BiftorDisplayDirectChatsTab">Pestaña</string>
-    <string name="BiftorDisplayDirectChatsSideTab">Barra lateral y pestaña</string>
+    <string name="BiftorDisplayDirectChatsTab">Carpeta</string>
+    <string name="BiftorDisplayDirectChatsSideTab">Barra lateral y carpeta</string>
     <string name="BiftorDirectChatsReorder">Ordenar chats directos</string>
     <string name="BiftorShowDirectChatsInDrawer">Muestra chats directos en el cajón</string>
     <string name="BiftorAddToFav">Añadir a favoritos</string>
@@ -903,35 +913,35 @@
 
     <string name="BiftorShadowSocksHelp">Ayuda</string>
     <string name="BiftorImportProxy">Importar desde url</string>
-    <string name="BiftorConnection">Connect: %1$d ms</string>
+    <string name="BiftorConnection">Conectar: %1$d ms</string>
 
     <string name="BiftorVmessUserId">User Id</string>
     <string name="BiftorVmessAlterId">Alter Id</string>
-    <string name="BiftorVmessSecurity">Security</string>
-    <string name="BiftorVmessNetwork">Network</string>
-    <string name="BiftorVmessHeadType">Head Type</string>
-    <string name="BiftorVmessRequestHost">Request Host / QUIC Security</string>
-    <string name="BiftorVmessPath">Path / QUICK Key</string>
-    <string name="BiftorVmessTls">Use TLS</string>
+    <string name="BiftorVmessSecurity">Seguridad</string>
+    <string name="BiftorVmessNetwork">Red</string>
+    <string name="BiftorVmessHeadType">Tipo de encabezado</string>
+    <string name="BiftorVmessRequestHost">Solicitar Host / QUIC Security</string>
+    <string name="BiftorVmessPath">Ruta / QUICK Key</string>
+    <string name="BiftorVmessTls">Usar TLS</string>
 
-    <string name="BiftorSSPassword">Password</string>
-    <string name="BiftorSSMethod">Encrypt Method</string>
+    <string name="BiftorSSPassword">Contraseña</string>
+    <string name="BiftorSSMethod">Método de encriptación</string>
     <string name="BiftorSSPlugin">Plugin</string>
-    <string name="BiftorSSPluginOpts">Plugin Config</string>
+    <string name="BiftorSSPluginOpts">Configuración de Plugin</string>
 
-    <string name="BiftorSSRProtocol">Protocol</string>
-    <string name="BiftorSSRProtocolParams">Protocol Params</string>
+    <string name="BiftorSSRProtocol">Protocolo</string>
+    <string name="BiftorSSRProtocolParams">Parámetros de protocolo</string>
     <string name="BiftorSSRObfs">Obfs</string>
     <string name="BiftorSSRObfsParam">Obfs Param</string>
     <string name="BiftorShadowSocksModule">Shadow socks</string>
-    <string name="BiftorStartShadowAsService">Start shadow as service</string>
-    <string name="BiftorStartShadowAsServiceSub">Run shadow socks as background service</string>
-    <string name="BiftorShadowSockServiceConnecting">Shadow Socks service is connecting</string>
-    <string name="BiftorShadowSockServiceConnected">Shadow Socks service is running: %s</string>
-    <string name="BiftorShadowSockServiceStop">Stop</string>
-    <string name="BiftorShadowSocksConfig">Shadow socks config</string>
-    <string name="BiftorStopShadowSocksWhenAppClosed">Stop Shadow socks when app closed</string>
-    <string name="BiftorStopShadowSocksWhenAppClosedSub">Stop the Shadow socks when App Closed, if you disable it, when the Shadow socks is enable the whole app will not close.</string>
+    <string name="BiftorStartShadowAsService">Iniciar shadow socks como servicio</string>
+    <string name="BiftorStartShadowAsServiceSub">Ejecutar shadow socks en segundo plano</string>
+    <string name="BiftorShadowSockServiceConnecting">El servicio Shadow Socks está conectando</string>
+    <string name="BiftorShadowSockServiceConnected">El servicio Shadow Socks se está ejecutando: %s</string>
+    <string name="BiftorShadowSockServiceStop">Detener</string>
+    <string name="BiftorShadowSocksConfig">Configuración de Shadow socks</string>
+    <string name="BiftorStopShadowSocksWhenAppClosed">Detener Shadow socks al cerrar la app</string>
+    <string name="BiftorStopShadowSocksWhenAppClosedSub">Detiene Shadow socks cuando se cierra la aplicación, si dehabilitas esto, cuando Shadow socks esté habilitado la aplicación no se cerrará.</string>
 
     <!--Biftor ads-->
     <string name="BiftorAdsTypeAdMob">AdMob</string>
@@ -942,7 +952,7 @@
 
     <!--Biftor times-->
     <string name="BiftorHour">%s hora</string>
-    <string name="BiftorHours">%s houras</string>
+    <string name="BiftorHours">%s horas</string>
     <string name="BiftorDay">%s día</string>
     <string name="BiftorDays">%s días</string>
 

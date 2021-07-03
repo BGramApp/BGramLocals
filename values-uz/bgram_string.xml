@@ -884,11 +884,11 @@
 	<!--Biftor internal updater-->
 	<string name="BiftorSkipUpdate">Rad etish</string>
 	<string name="BiftorRemindTomorrow">Ertaga</string>
-	<string name="BiftorUpdateIsAvailable">Update is available **(%1$s)**</string>
+	<string name="BiftorUpdateIsAvailable">**(%1$s)** yangi versiyasi mavjud</string>
 	<string name="BiftorCheckForUpdate">Tekshirib koʻrish</string>
 	<string name="BiftorDownloadLatestVersion">Yuklab olish</string>
-	<string name="BiftorUpdateFileExists">Update file downloaded and located in:\n%s\nDo you want download it again?</string>
-	<string name="BiftorUpdateHaveLatestVersion">Congratulation you\'ve already installed the latest version!</string>
+	<string name="BiftorUpdateFileExists">Yangi versiya koʻchirib olindi va u \n%s joylashgan.\nUni qaytadan yuklab olmoqchimisiz?</string>
+	<string name="BiftorUpdateHaveLatestVersion">Tabriklaymiz Sizda eng soʻnggi versiya oʻrnatilgan!</string>
 
 	<!--Biftor direct chats-->
 	<string name="BiftorDirectChats">Doimiy chatlar</string>

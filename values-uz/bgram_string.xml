@@ -206,7 +206,7 @@
 	<string name="BiftorQuotation">Iqtibos</string>
 	<string name="BiftorReply">Javob</string>
 	<string name="BiftorShare">Ulashish</string>
-	<string name="BiftorUserMention">User</string>
+	<string name="BiftorUserMention">Foydalanuvchi</string>
 
 	<!--Biftor custom markdown panel-->
 	<string name="EnableCustomMarkDown">Muqobil formatlash</string>
@@ -337,7 +337,7 @@
 	<string name="BiftorHiddenChatsButton">Maxfiylikka kirish (uzoq bosib turiladi)</string>
 	<string name="BiftorHiddenChatsButtonNewMessages">Yangi xabar</string>
 	<string name="BiftorHiddenChatsButtonSearch">Izlash</string>
-	<string name="BiftorHiddenChatsButtonOpenDrawer">Long click on open drawer</string>
+	<string name="BiftorHiddenChatsButtonOpenDrawer">Maʼlumotlarni uzoq bosib turib ochish</string>
 	<string name="BiftorRemoveHiddenChatsNotifi">Maxfiylik haqida ogohlantirmaslik</string>
 
 	<!-- Biftor export chat list -->
@@ -369,13 +369,13 @@
 	<!--Biftor mark on msg -->
 	<string name="BiftorSetMarkOnMsg">Xatchoʻpni oʻrnatish</string>
 	<string name="BiftorGoToMarkedMsg">Xatchoʻpga oʻtish</string>
-	<string name="BiftorRemoveMarkedMsg">Remove marked message</string>
-	<string name="BiftorRemoveAllMarkedMsg">Remove all marked message</string>
-	<string name="BiftorMarkedMsg">Marked messages</string>
-	<string name="BiftorMsgEmptyTextSearch">No message that contain \'**%1$s**\' have been found.</string>
-	<string name="BiftorNoMsgs">No messages yet!</string>
-	<string name="BiftorOrderByDateAdded">Order by date added</string>
-	<string name="BiftorUpdateMarkMessages">Update marked messages</string>
+	<string name="BiftorRemoveMarkedMsg">Belgilangan xabarlarni oʻchirish</string>
+	<string name="BiftorRemoveAllMarkedMsg">Belgilangan barcha xabarlarni oʻchirish</string>
+	<string name="BiftorMarkedMsg">Belgilangan xabarlar</string>
+	<string name="BiftorMsgEmptyTextSearch">\'**%1$s**\'da xabarlar topilmadi.</string>
+	<string name="BiftorNoMsgs">Hali ham xabarlar yoʻq!</string>
+	<string name="BiftorOrderByDateAdded">Qoʻshilgan vaqti boʻyicha tartiblash</string>
+	<string name="BiftorUpdateMarkMessages">Belgilangan xabarlarni yangilash</string>
 
 	<!--Biftor Font picker -->
 	<string name="BiftorFontsPickerCat">Foydalanuvchi shriftlari</string>
@@ -554,7 +554,7 @@
 	<string name="BiftorRestoreFav">Tanlangan chatlarni</string>
 	<string name="BiftorRestoreHidden">Maxfiy chatlarni</string>
 	<string name="BiftorRestoreFolders">Jildlarni</string>
-	<string name="BiftorRestoreMarkedMessages">Marked messages</string>
+	<string name="BiftorRestoreMarkedMessages">Belgilangan xabarlar</string>
 
 	<string name="BiftorRestoreToDef">Asl holiga qaytarish</string>
 	<string name="BiftorRestoreGlobalToDef">Umumiy tanlovlarni</string>
@@ -562,7 +562,7 @@
 	<string name="BiftorRestoreFavToDef">Tanlangan chatlarni tiklash</string>
 	<string name="BiftorRestoreHiddenToDef">Maxfiy chatlarni tiklash</string>
 	<string name="BiftorRestoreDialogsFolderToDef">Jildlarni standart serverga tiklash</string>
-	<string name="BiftorRestoreMarkedMessagesToDef">Restore marked messages to default</string>
+	<string name="BiftorRestoreMarkedMessagesToDef">Belgilangan xabarlarni tiklash</string>
 
 	<string name="BiftorRestoreSuccessful">Muvaffaqiyatli tiklandi!</string>
 	<string name="BiftorRestoreUnSuccessful">Tiklashda xatolik mavjud!</string>
@@ -874,7 +874,7 @@
 	<string name="BiftorDeleteRecentSearchItem">Siz **%1$s**ni soʻnggi izlanganlar roʻyxatidan olib tashlamoqchimisiz?</string>
 
 
-	<string name="BiftorDrawerContactAndGroup">Chats</string>
+	<string name="BiftorDrawerContactAndGroup">Chatlar</string>
 
 	<!--Biftor floating new msg-->
 	<string name="BiftorChangeToSaveMsg">Saqlangan xabarlarga oʻtkazish</string>

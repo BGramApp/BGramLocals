@@ -4636,6 +4636,10 @@
     <string name="BGramSettings">Configurações BGram</string>
     <string name="BGramSearchInSettings">Search Settings</string>
 
+    <!--Biftor general strings-->
+    <string name="BiftorDialogYes">Sim</string>
+    <string name="BiftorDialogNo">Não</string>
+
     <!-- Ghost mode-->
     <string name="BiftorGhostMod">Leitura oculta</string>
     <string name="BiftorGhostModSub">Um usuário não sabe que você leu a mensagem até que você responda. Nesse modo, as mensagens lidas podem aparecer novamente como não lidas depois de um tempo.\nAtivar: toque no cabeçalho da lista de chats.</string>

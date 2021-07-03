@@ -4635,6 +4635,10 @@
     <string name="BGramSettings">تنظیمات بیگرام</string>
     <string name="BGramSearchInSettings">جستوجو</string>
 
+    <!--Biftor general strings-->
+    <string name="BiftorDialogYes">Oui</string>
+    <string name="BiftorDialogNo">Non</string>
+
     <!-- Ghost mode-->
     <string name="BiftorGhostMod">حالت خواندن مخفی</string>
     <string name="BiftorGhostModSub">فرستنده پیام تیک دوم مبنی بر خوانده شدن پیام را نمی بیند، این یعنی اینکه فقط شما پیام را میخوانید و تا زمانی که به پیام های آن چت  پاسخ ندهید تیک دوم مبنی بر خوانده شدن پیام ها ارسال نمی شود، \nو همچنین شما میتوانید با نگه داشتن سربرگ برنامه این امکان را خاموش یا روشن کنید.</string>

@@ -10,6 +10,10 @@
 	<string name="BGramSettings">B-Settings</string>
 	<string name="BGramSearchInSettings">Search Settings</string>
 
+	<!--Biftor general strings-->
+	<string name="BiftorDialogYes">Yes</string>
+	<string name="BiftorDialogNo">No</string>
+
 	<!-- Ghost mode-->
 	<string name="BiftorGhostMod">Hidden reading</string>
 	<string name="BiftorGhostModSub">A user doesn\'t know that you read the message until you reply. In this mode, read messages may appear again as unread after a while.\nEnable: long press on header in chat list.</string>
@@ -306,8 +310,8 @@
 	<string name="BiftorCopyMsgTitle">Copy message</string>
 	<string name="BiftorCopyMsgAsk">Copy with author name?</string>
 	<string name="BiftorCopyOnlyText">Only Text</string>
-	<string name="BiftorYes">Yes</string>
-	<string name="BiftorNo">No</string>
+	<string name="BiftorCopyMsgWith">Yes</string>
+	<string name="BiftorCopyMsgWithOut">No</string>
 
 	<!--Biftor forward confirm panel -->
 	<string name="BiftorShowForwardConfirm">Show recipients before sending</string>

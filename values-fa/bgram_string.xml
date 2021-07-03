@@ -9,6 +9,10 @@
     <string name="BGramSettings">تنظیمات بیگرام</string>
     <string name="BGramSearchInSettings">جستوجو</string>
 
+    <!--Biftor general strings-->
+    <string name="BiftorDialogYes">بله</string>
+    <string name="BiftorDialogNo">خیر</string>
+
     <!-- Ghost mode-->
     <string name="BiftorGhostMod">حالت خواندن مخفی</string>
     <string name="BiftorGhostModSub">فرستنده پیام تیک دوم مبنی بر خوانده شدن پیام را نمی بیند، این یعنی اینکه فقط شما پیام را میخوانید و تا زمانی که به پیام های آن چت  پاسخ ندهید تیک دوم مبنی بر خوانده شدن پیام ها ارسال نمی شود، \nو همچنین شما میتوانید با نگه داشتن سربرگ برنامه این امکان را خاموش یا روشن کنید.</string>
@@ -308,8 +312,8 @@
     <string name="BiftorCopyMsgTitle">کپی کردن پیام</string>
     <string name="BiftorCopyMsgAsk">کپی کردن با نام فرستنده؟</string>
     <string name="BiftorCopyOnlyText">فقط پیام</string>
-    <string name="BiftorYes">آره</string>
-    <string name="BiftorNo">نه</string>
+    <string name="BiftorCopyMsgWith">بله</string>
+    <string name="BiftorCopyMsgWithOut">خیر</string>
 
     <!--Biftor forward confirm panel -->
     <string name="BiftorShowForwardConfirm">نمایش پنل تایید هدایت پیام ها</string>

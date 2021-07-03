@@ -10,6 +10,10 @@
     <string name="BGramSettings">BGram Einstellungen</string>
     <string name="BGramSearchInSettings">Search Settings</string>
 
+    <!--Biftor general strings-->
+    <string name="BiftorDialogYes">Ja</string>
+    <string name="BiftorDialogNo">Nein</string>
+
     <!-- Ghost mode-->
     <string name="BiftorGhostMod">Verstecktes lesen</string>
     <string name="BiftorGhostModSub">Solange du nicht geantwortet hast, wird der Kontakt nicht wissen, dass du seine Nachricht gelesen hast.\nAKtivieren: Langes drücken auf den Header in der Chat Übersicht.</string>
@@ -307,8 +311,8 @@
     <string name="BiftorCopyMsgTitle">Nachricht kopieren</string>
     <string name="BiftorCopyMsgAsk">Kopiere mit Name vom Autor?</string>
     <string name="BiftorCopyOnlyText">Nur Text</string>
-    <string name="BiftorYes">Ja</string>
-    <string name="BiftorNo">Nein</string>
+    <string name="BiftorCopyMsgWith">Ja</string>
+    <string name="BiftorCopyMsgWithOut">Nein</string>
 
     <!--Biftor forward confirm panel -->
     <string name="BiftorShowForwardConfirm">Zeige Empfänger vorm abschicken</string>

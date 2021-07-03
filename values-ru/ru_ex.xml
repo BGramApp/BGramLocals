@@ -4497,6 +4497,10 @@
     <string name="BGramSettings">Настройки BGram</string>
     <string name="BGramSearchInSettings">Поиск по настройкам</string>
 
+    <!--Biftor general strings-->
+    <string name="BiftorDialogYes">Да</string>
+    <string name="BiftorDialogNo">Нет</string>
+
     <!-- Ghost mode-->
     <string name="BiftorGhostMod">Режим скрытого чтения</string>
     <string name="BiftorGhostModSub">Собеседник узнает, что вы прочли сообщение, только в момент отправки вами ответа. В этом режиме прочитанные сообщения могут периодически восстанавливать статус и отображаться в чатах как непрочитанные.\nДля быстрого включения/отключения удерживайте заголовок в списке чатов.</string>

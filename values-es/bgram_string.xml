@@ -10,6 +10,10 @@
     <string name="BGramSettings">Ajustes B</string>
     <string name="BGramSearchInSettings">Búsqueda de ajustes</string>
 
+    <!--Biftor general strings-->
+    <string name="BiftorDialogYes">Sí</string>
+    <string name="BiftorDialogNo">No</string>
+
     <!-- Ghost mode-->
     <string name="BiftorGhostMod">Modo de Lectura Oculta</string>
     <string name="BiftorGhostModSub">La otra persona no sabrá que estás leyendo hasta que escribas. Con este modo los mensajes leídos pueden aparecer como no leídos otra vez.</string>
@@ -306,8 +310,8 @@
     <string name="BiftorCopyMsgTitle">Copiar mensaje</string>
     <string name="BiftorCopyMsgAsk">¿Copiar con el nombre del autor?</string>
     <string name="BiftorCopyOnlyText">Solo texto</string>
-    <string name="BiftorYes">Sí</string>
-    <string name="BiftorNo">No</string>
+    <string name="BiftorCopyMsgWith">Sí</string>
+    <string name="BiftorCopyMsgWithOut">No</string>
 
     <!--Biftor forward confirm panel -->
     <string name="BiftorShowForwardConfirm">Mostrar receptores antes de reenvío</string>

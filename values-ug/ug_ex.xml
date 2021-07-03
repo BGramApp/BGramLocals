@@ -2496,6 +2496,10 @@
     <string name="BGramSettings">بېگېرام تەڭشەك</string>
     <string name="BGramSearchInSettings">Search Settings</string>
 
+    <!--Biftor general strings-->
+    <string name="BiftorDialogYes">Yes</string>
+    <string name="BiftorDialogNo">No</string>
+
     <!-- Ghost mode-->
     <string name="BiftorGhostMod">يوشۇرۇن ھالەت</string>
     <string name="BiftorGhostModSub">سىز ئۇچۇر قايتۇرمىغۇچە باشقىلار سىزنىڭ ئۇچۇرىنى كۆرگەن ياكى كۆرمىگىنىڭىزنى بىلەلمەيدۇ.\nئېچىش ئۈچۈن: سۆھبەت تىزىملىكىنىڭ ئۇستى تەرەپنى بېسىپ تۇرۇڭ.</string>

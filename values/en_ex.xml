@@ -4498,6 +4498,10 @@
     <string name="BGramSettings">B-Settings</string>
     <string name="BGramSearchInSettings">Search Settings</string>
 
+    <!--Biftor general strings-->
+    <string name="BiftorDialogYes">Yes</string>
+    <string name="BiftorDialogNo">No</string>
+
     <!-- Ghost mode-->
     <string name="BiftorGhostMod">Hidden reading</string>
     <string name="BiftorGhostModSub">A user doesn\'t know that you read the message until you reply. In this mode, read messages may appear again as unread after a while.\nEnable: long press on header in chat list.</string>

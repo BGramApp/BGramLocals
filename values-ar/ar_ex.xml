@@ -4638,6 +4638,10 @@
     <string name="BGramSettings">إعدادات بيگرام</string>
     <string name="BGramSearchInSettings">إعدادات البحث</string>
 
+    <!--Biftor general strings-->
+    <string name="BiftorDialogYes">نعم</string>
+    <string name="BiftorDialogNo">لا</string>
+
     <!-- Ghost mod-->
     <string name="BiftorGhostMod">تمكين وضع الشبح</string>
     <string name="BiftorGhostModSub">لن يرى الشخص الآخر علامة تمت القراءة ، مما يعني أنك تقرأ الرسالة حتى تكتب إليه.  يمكنك تبديل وضع القراءة المخفية عن طريق النقر طويلاً على رأس الصفحة.</string>

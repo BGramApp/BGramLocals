@@ -10,6 +10,10 @@
     <string name="BGramSettings">Impostazioni BGram</string>
     <string name="BGramSearchInSettings">Impostazioni ricerca</string>
 
+    <!--Biftor general strings-->
+    <string name="BiftorDialogYes">Sì</string>
+    <string name="BiftorDialogNo">No</string>
+
     <!-- Ghost mode-->
     <string name="BiftorGhostMod">Lettura nascosta (mod. fantasma)</string>
     <string name="BiftorGhostModSub">L\'altra persona non vedrà la seconda spunta fino a quando non gli scriverai.</string>
@@ -311,8 +315,8 @@
     <string name="BiftorCopyMsgTitle">Copia messaggio</string>
     <string name="BiftorCopyMsgAsk">Copiare citando l\'autore?</string>
     <string name="BiftorCopyOnlyText">Solo testo</string>
-    <string name="BiftorYes">Sì</string>
-    <string name="BiftorNo">No</string>
+    <string name="BiftorCopyMsgWith">Sì</string>
+    <string name="BiftorCopyMsgWithOut">No</string>
 
     <!--Biftor forward confirm panel -->
     <string name="BiftorShowForwardConfirm">Mostra finestra di conferma inoltro</string>

@@ -4636,6 +4636,10 @@
    <string name="BGramSettings">Налаштування BGram</string>
    <string name="BGramSearchInSettings">Пошук налаштувань</string>
 
+   <!--Biftor general strings-->
+   <string name="BiftorDialogYes">Так</string>
+   <string name="BiftorDialogNo">Ні</string>
+
    <!-- Ghost mode-->
    <string name="BiftorGhostMod">Приховане читання</string>
    <string name="BiftorGhostModSub">Користувач не знатиме, що ви прочитали повідомлення, доки ви не відповісте йому</string>

@@ -4636,6 +4636,10 @@
     <string name="BGramSettings">B-Settings</string>
     <string name="BGramSearchInSettings">Pengaturan pencarian</string>
 
+    <!--Biftor general strings-->
+    <string name="BiftorDialogYes">Iya</string>
+    <string name="BiftorDialogNo">Tidak</string>
+
     <!-- Ghost mode-->
     <string name="BiftorGhostMod">Bacaan tersembunyi</string>
     <string name="BiftorGhostModSub">Seorang pengguna tidak tahu bahwa Anda membaca pesan sampai Anda membalas. Dalam mode ini, pesan yang sudah dibaca mungkin muncul lagi sebagai belum dibaca setelah beberapa saat.\nAktifkan: tekan lama pada header di daftar obrolan.</string>

@@ -3,7 +3,7 @@
     <string name="LanguageName">Oʻzbek</string>
     <string name="English">Ingliz</string>
     <string name="LanguageNameInEnglish">Uzbek</string>
-    <string name="LanguageCode">uz</string>
+    <string name="LanguageCode">uz_ex</string>
     <string name="ContinueOnThisLanguage">Oʻzbek tilida davom etish</string>
     <!--signin view-->
     <string name="YourPhone">Telefon raqamingiz</string>
@@ -4635,6 +4635,10 @@
     <!--Biftor-->
     <string name="BGramSettings">BGram tanlovlari</string>
     <string name="BGramSearchInSettings">Izlash tanlovlari</string>
+
+    <!--Biftor general strings-->
+    <string name="BiftorDialogYes">Ha</string>
+    <string name="BiftorDialogNo">Yoʻq</string>
 
     <!-- Ghost mode-->
     <string name="BiftorGhostMod">Maxfiy oʻqish</string>

@@ -3143,6 +3143,10 @@
     <!--Biftor-->
     <string name="BGramSettings">Настройки BGram</string>
 
+    <!--Biftor general strings-->
+    <string name="BiftorDialogYes">Да</string>
+    <string name="BiftorDialogNo">Нет</string>
+
     <!-- Ghost mode-->
     <string name="BiftorGhostMod">Режим скрытого чтения</string>
     <string name="BiftorGhostModSub">Собеседник узнает, что вы прочли сообщение, только в момент отправки вами ответа. В этом режиме прочитанные сообщения могут периодически восстанавливать статус и отображаться в чатах как непрочитанные.\nДля быстрого включения/отключения удерживайте заголовок в списке чатов.</string>
@@ -3436,8 +3440,8 @@
     <string name="BiftorCopyMsgTitle">Копировать</string>
     <string name="BiftorCopyMsgAsk">Добавить имя автора?</string>
     <string name="BiftorCopyOnlyText">Без автора</string>
-    <string name="BiftorYes">Да</string>
-    <string name="BiftorNo">Нет</string>
+    <string name="BiftorCopyMsgWith">С автором</string>
+    <string name="BiftorCopyMsgWithOut">Нет</string>
 
     <!--Biftor forward confirm panel -->
     <string name="BiftorShowForwardConfirm">Просмотр списка получателей</string>

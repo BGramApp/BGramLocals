@@ -9,6 +9,10 @@
 	<string name="BGramSettings">BGram tanlovlari</string>
 	<string name="BGramSearchInSettings">Izlash tanlovlari</string>
 
+	<!--Biftor general strings-->
+	<string name="BiftorDialogYes">Ha</string>
+	<string name="BiftorDialogNo">Yoʻq</string>
+
 	<!-- Ghost mode-->
 	<string name="BiftorGhostMod">Maxfiy oʻqish</string>
 	<string name="BiftorGhostModSub">Suhbatdoshingiz unga javob yoʻllaganingizdagina, xabar oʻqilganini biladi.\nFaollashtirish uchun chatlar menyusi sarlavhasini uzoq bosib turing.</string>
@@ -307,8 +311,8 @@
 	<string name="BiftorCopyMsgTitle">Xabarni nusxalash</string>
 	<string name="BiftorCopyMsgAsk">Muallif nomi bilan nusxalansinmi?</string>
 	<string name="BiftorCopyOnlyText">Faqat matnni</string>
-	<string name="BiftorYes">Ha</string>
-	<string name="BiftorNo">Yoʻq</string>
+	<string name="BiftorCopyMsgWith">Ha</string>
+	<string name="BiftorCopyMsgWithOut">Yoʻq</string>
 
 	<!--Biftor forward confirm panel -->
 	<string name="BiftorShowForwardConfirm">Oluvchi roʻyxatini koʻrish</string>

@@ -10,6 +10,10 @@
     <string name="BGramSettings">Paramètres BGram</string>
     <string name="BGramSearchInSettings">Search Settings</string>
 
+    <!--Biftor general strings-->
+    <string name="BiftorDialogYes">Oui</string>
+    <string name="BiftorDialogNo">Non</string>
+
     <!-- Ghost mode-->
     <string name="BiftorGhostMod">Lecture cachée</string>
     <string name="BiftorGhostModSub">Un utilisateur ne sait pas que vous lisez le message tant que vous n’avez pas répondu. Activer : appuyez longuement sur l\’en-tête dans la liste des discussions.</string>
@@ -306,8 +310,8 @@
     <string name="BiftorCopyMsgTitle">Copier message</string>
     <string name="BiftorCopyMsgAsk">Copier en citant l\'auteur ?</string>
     <string name="BiftorCopyOnlyText">Texte uniquement</string>
-    <string name="BiftorYes">Oui</string>
-    <string name="BiftorNo">Non</string>
+    <string name="BiftorCopyMsgWith">Oui</string>
+    <string name="BiftorCopyMsgWithOut">Non</string>
 
     <!--Biftor forward confirm panel -->
     <string name="BiftorShowForwardConfirm">Afficher les destinataires avant l\'envoi</string>

@@ -10,6 +10,10 @@
 	<string name="BGramSettings">B-Settings</string>
 	<string name="BGramSearchInSettings">Pengaturan pencarian</string>
 
+	<!--Biftor general strings-->
+	<string name="BiftorDialogYes">Iya</string>
+	<string name="BiftorDialogNo">Tidak</string>
+
 	<!-- Ghost mode-->
 	<string name="BiftorGhostMod">Bacaan tersembunyi</string>
 	<string name="BiftorGhostModSub">Seorang pengguna tidak tahu bahwa Anda membaca pesan sampai Anda membalas. Dalam mode ini, pesan yang sudah dibaca mungkin muncul lagi sebagai belum dibaca setelah beberapa saat.\nAktifkan: tekan lama pada header di daftar obrolan.</string>
@@ -306,8 +310,8 @@
 	<string name="BiftorCopyMsgTitle">Salin pesan</string>
 	<string name="BiftorCopyMsgAsk">Salin dengan nama penulis?</string>
 	<string name="BiftorCopyOnlyText">Hanya Teks</string>
-	<string name="BiftorYes">Iya</string>
-	<string name="BiftorNo">Tidak</string>
+	<string name="BiftorCopyMsgWith">Iya</string>
+	<string name="BiftorCopyMsgWithOut">Tidak</string>
 
 	<!--Biftor forward confirm panel -->
 	<string name="BiftorShowForwardConfirm">Tampilkan penerima sebelum mengirim</string>

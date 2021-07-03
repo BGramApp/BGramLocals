@@ -10,6 +10,10 @@
     <string name="BGramSettings">Configurações BGram</string>
     <string name="BGramSearchInSettings">Search Settings</string>
 
+    <!--Biftor general strings-->
+    <string name="BiftorDialogYes">Sim</string>
+    <string name="BiftorDialogNo">Não</string>
+
     <!-- Ghost mode-->
     <string name="BiftorGhostMod">Leitura oculta</string>
     <string name="BiftorGhostModSub">Um usuário não sabe que você leu a mensagem até que você responda. Nesse modo, as mensagens lidas podem aparecer novamente como não lidas depois de um tempo.\nAtivar: toque no cabeçalho da lista de chats.</string>
@@ -309,8 +313,8 @@
     <string name="BiftorCopyMsgTitle">Copiar mensagem</string>
     <string name="BiftorCopyMsgAsk">Copiar com nome do autor?</string>
     <string name="BiftorCopyOnlyText">Somente texto</string>
-    <string name="BiftorYes">Sim</string>
-    <string name="BiftorNo">Não</string>
+    <string name="BiftorCopyMsgWith">Sim</string>
+    <string name="BiftorCopyMsgWithOut">Não</string>
 
     <!--Biftor forward confirm panel -->
     <string name="BiftorShowForwardConfirm">Ver destinatários antes de enviar</string>

@@ -4638,6 +4638,10 @@
     <string name="BGramSettings">Paramètres BGram</string>
     <string name="BGramSearchInSettings">Search Settings</string>
 
+    <!--Biftor general strings-->
+    <string name="BiftorDialogYes">Oui</string>
+    <string name="BiftorDialogNo">Non</string>
+
     <!-- Ghost mode-->
     <string name="BiftorGhostMod">Lecture cachée</string>
     <string name="BiftorGhostModSub">Un utilisateur ne sait pas que vous lisez le message tant que vous n’avez pas répondu. Activer : appuyez longuement sur l\’en-tête dans la liste des discussions.</string>

@@ -13,6 +13,10 @@
     <string name="BGramSettings">Настройки на BGram</string>
     <string name="BGramSearchInSettings">Search Settings</string>
 
+    <!--Biftor general strings-->
+    <string name="BiftorDialogYes">Yes</string>
+    <string name="BiftorDialogNo">No</string>
+
     <!-- Ghost mod-->
     <string name="BiftorGhostMod">Активиране на режим призрак</string>
     <string name="BiftorGhostModHeaderLongClick">Toggle by long tap on header</string>
@@ -308,8 +312,8 @@
     <string name="BiftorCopyMsgTitle">Copy message</string>
     <string name="BiftorCopyMsgAsk">Copy with author name?</string>
     <string name="BiftorCopyOnlyText">Only Text</string>
-    <string name="BiftorYes">Yes</string>
-    <string name="BiftorNo">No</string>
+    <string name="BiftorCopyMsgWith">Yes</string>
+    <string name="BiftorCopyMsgWithOut">No</string>
 
     <!--Biftor forward confirm panel -->
     <string name="BiftorShowForwardConfirm">Покажи панела за потвърждение преди изпращане</string>

@@ -4639,6 +4639,10 @@
     <string name="BGramSettings">Настройки на BGram</string>
     <string name="BGramSearchInSettings">Search Settings</string>
 
+    <!--Biftor general strings-->
+    <string name="BiftorDialogYes">Yes</string>
+    <string name="BiftorDialogNo">No</string>
+
     <!-- Ghost mod-->
     <string name="BiftorGhostMod">Активиране на режим призрак</string>
     <string name="BiftorGhostModHeaderLongClick">Toggle by long tap on header</string>

@@ -10,6 +10,10 @@
     <string name="BGramSettings">Налаштування BGram</string>
     <string name="BGramSearchInSettings">Пошук налаштувань</string>
 
+    <!--Biftor general strings-->
+    <string name="BiftorDialogYes">Так</string>
+    <string name="BiftorDialogNo">Ні</string>
+
     <!-- Ghost mode-->
     <string name="BiftorGhostMod">Приховане читання</string>
     <string name="BiftorGhostModSub">Користувач не знатиме, що ви прочитали повідомлення, доки ви не відповісте йому</string>
@@ -306,8 +310,8 @@
     <string name="BiftorCopyMsgTitle">Копіювати повідомлення</string>
     <string name="BiftorCopyMsgAsk">Копіювати з іменем автора?</string>
     <string name="BiftorCopyOnlyText">Тільки текст</string>
-    <string name="BiftorYes">Так</string>
-    <string name="BiftorNo">Ні</string>
+    <string name="BiftorCopyMsgWith">Так</string>
+    <string name="BiftorCopyMsgWithOut">Ні</string>
 
     <!--Biftor forward confirm panel -->
     <string name="BiftorShowForwardConfirm">Панель перегляду адресатів</string>

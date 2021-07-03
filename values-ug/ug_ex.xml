@@ -3349,10 +3349,11 @@
     <!--Biftor internal updater-->
     <string name="BiftorSkipUpdate">Skip</string>
     <string name="BiftorRemindTomorrow">Tomorrow</string>
-    <string name="BiftorUpdateIsAvailable">Update is available</string>
+    <string name="BiftorUpdateIsAvailable">Update is available **(%1$s)**</string>
     <string name="BiftorCheckForUpdate">Check for update</string>
     <string name="BiftorDownloadLatestVersion">Download last version</string>
     <string name="BiftorUpdateFileExists">Update file downloaded and located in:\n%s\nDo you want download it again?</string>
+    <string name="BiftorUpdateHaveLatestVersion">Congratulation you\'ve already installed the latest version!</string>
 
     <!--Biftor direct chats-->
     <string name="BiftorDirectChats">Direct chats</string>

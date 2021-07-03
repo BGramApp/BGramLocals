@@ -882,10 +882,11 @@
     <!--Biftor internal updater-->
     <string name="BiftorSkipUpdate">Пропустити</string>
     <string name="BiftorRemindTomorrow">Завтра</string>
-    <string name="BiftorUpdateIsAvailable">Оновлення доступне</string>
+    <string name="BiftorUpdateIsAvailable">Update is available **(%1$s)**</string>
     <string name="BiftorCheckForUpdate">Перевірити наявність оновлень</string>
     <string name="BiftorDownloadLatestVersion">Завантажити останню версію</string>
     <string name="BiftorUpdateFileExists">Update file downloaded and located in:\n%s\nDo you want download it again?</string>
+    <string name="BiftorUpdateHaveLatestVersion">Congratulation you\'ve already installed the latest version!</string>
 
     <!--Biftor direct chats-->
     <string name="BiftorDirectChats">Важливі чати</string>

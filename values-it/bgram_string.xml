@@ -886,10 +886,11 @@
     <!--Biftor internal updater-->
     <string name="BiftorSkipUpdate">Salta</string>
     <string name="BiftorRemindTomorrow">Domani</string>
-    <string name="BiftorUpdateIsAvailable">Aggiornamento disponibile</string>
+    <string name="BiftorUpdateIsAvailable">Update is available **(%1$s)**</string>
     <string name="BiftorCheckForUpdate">Controlla aggiornamenti</string>
     <string name="BiftorDownloadLatestVersion">Scarica ultima versione</string>
     <string name="BiftorUpdateFileExists">Aggiornamento già scaricato in:\n%s\nVuoi riscaricarlo?</string>
+    <string name="BiftorUpdateHaveLatestVersion">Congratulation you\'ve already installed the latest version!</string>
 
     <!--Biftor direct chats-->
     <string name="BiftorDirectChats">Chat dirette</string>

@@ -5506,10 +5506,11 @@
     <!--Biftor internal updater-->
     <string name="BiftorSkipUpdate">Saltar</string>
     <string name="BiftorRemindTomorrow">Mañana</string>
-    <string name="BiftorUpdateIsAvailable">Actualización disponible</string>
+    <string name="BiftorUpdateIsAvailable">Disponible la actualización **(%1$s)**</string>
     <string name="BiftorCheckForUpdate">Buscar actualización</string>
     <string name="BiftorDownloadLatestVersion">Descargar la última versión</string>
     <string name="BiftorUpdateFileExists">Actualización descargada en:\n%s\n¿Quieres descargarla otra vez?</string>
+    <string name="BiftorUpdateHaveLatestVersion">¡Enhorabuena, has instalado la última versión!</string>
 
     <!--Biftor direct chats-->
     <string name="BiftorDirectChats">Chats directos</string>

@@ -5363,10 +5363,11 @@
     <!--Biftor internal updater-->
     <string name="BiftorSkipUpdate">Пропустить</string>
     <string name="BiftorRemindTomorrow">Завтранах!</string>
-    <string name="BiftorUpdateIsAvailable">Нажмите ОК для обновления</string>
+    <string name="BiftorUpdateIsAvailable">Доступно обновление **(%1$s)**</string>
     <string name="BiftorCheckForUpdate">Проверить обновления</string>
     <string name="BiftorDownloadLatestVersion">Скачать обновление</string>
     <string name="BiftorUpdateFileExists">Файл обновления уже скачан и находится в :\n%s\nХотите скачать его повторно?</string>
+    <string name="BiftorUpdateHaveLatestVersion">У вас установена последняя версия!</string>
 
 
     <!--Biftor direct chats-->

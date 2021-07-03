@@ -887,10 +887,11 @@
     <!--Biftor internal updater-->
     <string name="BiftorSkipUpdate">بعدا</string>
     <string name="BiftorRemindTomorrow">فردا</string>
-    <string name="BiftorUpdateIsAvailable">آپدیت جدید</string>
+    <string name="BiftorUpdateIsAvailable">آپدیت جدید **(%1$s)**</string>
     <string name="BiftorCheckForUpdate">چک کرد نسخه جدید</string>
     <string name="BiftorDownloadLatestVersion">دانلود کردن اخرین نسخه</string>
     <string name="BiftorUpdateFileExists">فایل آپدیت قبلا دانلود شده:\n%s\nآیا مایل هستید دوباره آن را دانلود کنید؟</string>
+    <string name="BiftorUpdateHaveLatestVersion">تبریک شما جدید ترین نسخه برنامه را نصب دارید!</string>
 
     <!--Biftor direct chats-->
     <string name="BiftorDirectChats">چت های مستقیم</string>

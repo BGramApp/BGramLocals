@@ -555,15 +555,15 @@
     <string name="BiftorRestoreFav">Відновити улюблені чати</string>
     <string name="BiftorRestoreHidden">Відновити приховані чати</string>
     <string name="BiftorRestoreFolders">Теки</string>
-    <string name="BiftorRestoreMarkedMessages">Marked messages</string>
+    <string name="BiftorRestoreMarkedMessages">Закладки</string>
 
     <string name="BiftorRestoreToDef">Скинути до усталених значень</string>
     <string name="BiftorRestoreGlobalToDef">Скинути всеосяжні налаштування</string>
     <string name="BiftorRestoreMainToDef">Скинути основні налаштування</string>
     <string name="BiftorRestoreFavToDef">Скинути улюблені чати</string>
     <string name="BiftorRestoreHiddenToDef">Скинути приховані чати</string>
-    <string name="BiftorRestoreDialogsFolderToDef">Restore dialog\'s folders to server default</string>
-    <string name="BiftorRestoreMarkedMessagesToDef">Restore marked messages to default</string>
+    <string name="BiftorRestoreDialogsFolderToDef">Відновити усталені хмарні теки</string>
+    <string name="BiftorRestoreMarkedMessagesToDef">Відновити усталені закладки</string>
 
     <string name="BiftorRestoreSuccessful">Відновлення виконано!</string>
     <string name="BiftorRestoreUnSuccessful">Відновлення не вдалось</string>
@@ -871,7 +871,7 @@
     <!--Biftor delete from recent search-->
     <string name="BiftorDeleteRecentSearchItem">Ви впевнені, що хочете видалити : **%1$s** з нещодавнього пошуку?</string>
 
-    <string name="BiftorDrawerContactAndGroup">Chats</string>
+    <string name="BiftorDrawerContactAndGroup">Чати</string>
 
     <!--Biftor floating new msg-->
     <string name="BiftorChangeToSaveMsg">Збережене на рухомій кнопці</string>
@@ -886,7 +886,7 @@
     <!--Biftor internal updater-->
     <string name="BiftorSkipUpdate">Пропустити</string>
     <string name="BiftorRemindTomorrow">Завтра</string>
-    <string name="BiftorUpdateIsAvailable">Update is available **(%1$s)**</string>
+    <string name="BiftorUpdateIsAvailable">Доступно оновлення **(%1$s)**</string>
     <string name="BiftorCheckForUpdate">Перевірити наявність оновлень</string>
     <string name="BiftorDownloadLatestVersion">Завантажити останню версію</string>
     <string name="BiftorUpdateFileExists">Установлено файл завантажений у:\n%s\nХочете завантажити знову?</string>

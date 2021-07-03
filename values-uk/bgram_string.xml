@@ -364,13 +364,13 @@
     <!--Biftor mark on msg -->
     <string name="BiftorSetMarkOnMsg">Установити закладку</string>
     <string name="BiftorGoToMarkedMsg">До закладки</string>
-    <string name="BiftorRemoveMarkedMsg">Remove marked message</string>
-    <string name="BiftorRemoveAllMarkedMsg">Remove all marked message</string>
-    <string name="BiftorMarkedMsg">Marked messages</string>
-    <string name="BiftorMsgEmptyTextSearch">No message that contain \'**%1$s**\' have been found.</string>
-    <string name="BiftorNoMsgs">No messages yet!</string>
-    <string name="BiftorOrderByDateAdded">Order by date added</string>
-    <string name="BiftorUpdateMarkMessages">Update marked messages</string>
+    <string name="BiftorRemoveMarkedMsg">Вилучити цю закладку</string>
+    <string name="BiftorRemoveAllMarkedMsg">Вилучити всі закладки</string>
+    <string name="BiftorMarkedMsg">Закладки</string>
+    <string name="BiftorMsgEmptyTextSearch">Повідомлення з ус\містом \'**%1$s**\' не знайдено.</string>
+    <string name="BiftorNoMsgs">Жодної закладки!</string>
+    <string name="BiftorOrderByDateAdded">Упорядкувати за датою</string>
+    <string name="BiftorUpdateMarkMessages">Оновити закладки</string>
 
     <!--Biftor Font piker -->
     <string name="BiftorFontsPickerCat">Користувацькі шрифти</string>
@@ -539,7 +539,7 @@
     <string name="BiftorBackUpFav">Улюблені чати</string>
     <string name="BiftorBackUpHidden">Приховані чати</string>
     <string name="BiftorBackUpFolders">Теки</string>
-    <string name="BiftorBackUpMarkedMessages">Marked messages</string>
+    <string name="BiftorBackUpMarkedMessages">Закладки</string>
     <string name="BiftorBackUpFonts">Користувацькі шрифти</string>
     <string name="BiftorBackUpAllAndSaveToCloud">Додати все до збереженого</string>
     <string name="BiftorBackUpSuccessful">Резервне копіювання виконано.\nЗбержено до:\n</string>
@@ -885,8 +885,8 @@
     <string name="BiftorUpdateIsAvailable">Update is available **(%1$s)**</string>
     <string name="BiftorCheckForUpdate">Перевірити наявність оновлень</string>
     <string name="BiftorDownloadLatestVersion">Завантажити останню версію</string>
-    <string name="BiftorUpdateFileExists">Update file downloaded and located in:\n%s\nDo you want download it again?</string>
-    <string name="BiftorUpdateHaveLatestVersion">Congratulation you\'ve already installed the latest version!</string>
+    <string name="BiftorUpdateFileExists">Установлено файл завантажений у:\n%s\nХочете завантажити знову?</string>
+    <string name="BiftorUpdateHaveLatestVersion">Вітаємо, у вас установлена найновіша версія!</string>
 
     <!--Biftor direct chats-->
     <string name="BiftorDirectChats">Важливі чати</string>

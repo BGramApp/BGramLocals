@@ -4621,998 +4621,999 @@
     <string name="formatDateScheduleDay">d-MMM, EEE</string>
     <string name="login_with_telegram">Telegram orqali kirish</string>
     <string name="telegram_passport">Telegram Passport</string>
+
     <!-- BGram Strings--><!-- BGram Strings-->
     <!-- BGram Strings--><!-- BGram Strings-->
     <!-- BGram Strings--><!-- BGram Strings-->
     <!-- BGram Strings--><!-- BGram Strings-->
     <!-- BGram Strings--><!-- BGram Strings-->
 
-<string name="BGram" translatable="false">BGram</string>
-	<string name="AppName" translatable="false">BGram</string>
-	<string name="AppNameBeta" translatable="false">BGram Beta</string>
-	<string name="BGramVersion">Android %1$s uchun BGram ilovasi</string>
-
-	<!--Biftor-->
-	<string name="BGramSettings">BGram tanlovlari</string>
-	<string name="BGramSearchInSettings">Izlash tanlovlari</string>
-
-	<!--Biftor general strings-->
-	<string name="BiftorDialogYes">Ha</string>
-	<string name="BiftorDialogNo">Yoʻq</string>
-
-	<!-- Ghost mode-->
-	<string name="BiftorGhostMod">Maxfiy oʻqish</string>
-	<string name="BiftorGhostModSub">Suhbatdoshingiz unga javob yoʻllaganingizdagina, xabar oʻqilganini biladi.\nFaollashtirish uchun chatlar menyusi sarlavhasini uzoq bosib turing.</string>
-	<string name="BiftorGhostModHeaderLongClick">Sarlavha orqali oʻqish rejimi</string>
-	<string name="BiftorGhostModHeaderLongClickSub">Chatlar roʻyxatini uzoq bosib turish orqali, tezkor oʻqish rejimiga oʻtiladi.</string>
-
-	<!-- Ghost mode hide status-->
-	<string name="BiftorGhostModHideStatus">Tarmoq holatini berkitish</string>
-	<string name="BiftorGhostModHideStatusSub">Tarmoqda boʻlmagan holatda xabarlarni oʻqish imkonini beradi. Xabar joʻnatayotganingizda (saqlamalarga boʻlsa ham) vaqtinchalik tarmoq holatida boʻlasiz.</string>
-
-	<!-- Biftor hide Typing-->
-	<string name="BiftorGhostModHideTyping">Bildirgi bermaslik</string>
-	<string name="BiftorGhostModHideTypingSub">Suhbatdoshingizga Sizning unga yozayotganingiz, fayl joʻnatayotganingiz haqida bildirgi berilmaydi.</string>
-
-	<!-- Hide Channel Mute Button -->
-	<string name="BiftorHideChannelMuteButton">Kanallarda ovoz tugmasini berkitish</string>
-
-	<!-- Tabs -->
-	<string name="BiftorTabsStyle">Xatchoʻp joylashuvi</string>
-	<string name="BiftorVerticalTabsStyle">Vertikal</string>
-	<string name="BiftorVerticalRightSideBarRound">Tugma</string>
-	<string name="BiftorVerticalRightSideBarOnlyIcon">Faqat yorliq</string>
-	<string name="BiftorVerticalRightSideBarIconAndText">Yorliq va matnni</string>
-	<string name="BiftorVerticalRightSideBar">Oʻng tomonda koʻrsatish</string>
-	<string name="BiftorRightSideAlwaysOpen">Tugmani doim koʻrsatish</string>
-	<string name="BiftorRightSideHideWhenScroll">Harakatlanganda tugmani berkitish</string>
-	<string name="BiftorVerticalRightSideRoundSize">Tugma oʻlchami</string>
-	<string name="BiftorVerticalRightSideRoundShowStyle">Tugma koʻrinishi</string>
-	<string name="BiftorVerticalRoundShowByDragging">Oʻngga surish</string>
-	<string name="BiftorVerticalRoundShowByTap">Qalquvchi tugma</string>
-	<string name="BiftorRightSidePushChatList">Roʻyxatni chapga surish</string>
-	<string name="BiftorRightSideOpenButton">Tezkor ochish tugmasi</string>
-	<string name="BiftorShowTabsAtTop">Yuqorida koʻrsatish</string>
-	<string name="BiftorShowTabsAtBottom">Pastda koʻrsatish</string>
-	<string name="BiftorShowNewChatButton">Yangi tugmani koʻrsatish</string>
-	<string name="HideTabs">Xatchoʻplar panelini berkitish</string>
-	<string name="All">Barini</string>
-	<string name="Users">Shaxsiy</string>
-	<string name="Groups">Guruhlar</string>
-	<string name="SuperGroups">Superguruhlar</string>
-	<string name="Channels">Kanallar</string>
-	<string name="Bots">Botlar</string>
-	<string name="Favorites">Tanlanganlar</string>
-	<string name="AllGroups">Barcha guruhlar</string>
-	<string name="Unreads">Oʻqilmaganlar</string>
-	<string name="Secrets">Maxfiylar</string>
-	<string name="AllAdmins">Boshqaruv</string>
-	<string name="AdminChannels">Kanallar admini</string>
-	<string name="AdminGroups">Guruhlar admini</string>
-	<string name="AdminSGroups">Superguruhlar admini</string>
-	<string name="OwnChannels">Kanallarim</string>
-	<string name="OwnGroups">Guruhlarim</string>
-	<string name="OwnSGroups">Superguruhlarim</string>
-	<string name="UnmuteUnreads">Yangi bildirgilar</string>
-	<string name="Sort">Xatchoʻplar tartibi</string>
-	<string name="TabsHeight">Xatchoʻplar paneli boʻyi</string>
-	<string name="TabsUnreadTextSize">Hisoblagich raqami oʻlchami</string>
-	<string name="BiftorShowFolderNameInHeader">Sarlavhada jild nomini koʻrsatish</string>
-	<string name="SetAsDefaultTab">Xatchoʻpni soʻrovsiz oʻrnatish</string>
-	<string name="ResetDefaultTab">Xatchoʻpdagi oʻzgarishini bekor qilish</string>
-	<string name="SortByStatus">Holat boʻyicha saralash</string>
-	<string name="SortByLastMessage">Vaqt boʻyicha saralash</string>
-	<string name="SortByUnreadCount">Oʻqilmaganlik boʻyicha saralash</string>
-	<string name="ShowSuperGroupsTab">Superguruhlar xatchoʻpi</string>
-	<string name="HideSuperGroupsTab">Superguruhlar xatchoʻpini berkitish</string>
-	<string name="Tabs">Xatchoʻplar</string>
-	<string name="HideShowTabs">Xatchoʻplar tanlovi</string>
-	<string name="DisableTabsAnimation">Roʻyxatni koʻrayotganda berkitmaslik</string>
-	<string name="InfiniteSwipe">Cheklovsiz xatchoʻpni koʻrish</string>
-	<string name="HeaderTabCounterCountChats">Xabarlar oʻrniga chatlarni hisoblash</string>
-	<string name="HeaderTabCounterCountNotMuted">Ovozsizlarni hisoblamaslik</string>
-	<string name="HideTabsCounters">Hisoblagichni koʻrsatmaslik</string>
-	<string name="BiftorForceMarkAsRead">Majburiy oʻqish</string>
-	<string name="ShowHeaderShadow">Sarlavhani soyada ajratib koʻrsatish</string>
-	<string name="ShowTabsAtBottom">Xatchoʻpni pastga oʻtkazish</string>
-	<string name="BiftorNumberOfChats">Xatchoʻpdagi chatlar: </string>
-	<string name="BiftorLoadingNumberOfChats">Chatlar hisobi</string>
-	<string name="BiftorNumberOfVisibleTabs">Displeydagi xatchoʻplar soni</string>
-	<string name="BiftorTabsGravityCenter">Markazga tekislash</string>
-	<string name="BiftorTabsCenterEachTabs">Xatchoʻplar eni</string>
-	<string name="BiftorTabsFitToScreen">Displey eniga moslash</string>
-	<string name="BiftorTabsFitToScreenSub">Surish rejimini oʻchirib qoʻyiladi va eniga moslanadi.</string>
-	<string name="BiftorDisableChangeTabSwipe">Surishda xatchoʻplarni oʻzgartirmaslik</string>
-	<string name="BiftorJumpToFirstPosition">Boshiga oʻtish</string>
-
-	<string name="ForwardNoQuote">Muallifsiz uzatish</string>
-	<string name="BiftorKeepSelection">Belgilanganni saqlash</string>
-	<string name="BiftorKeepSelectionAfterForward">Belgilanganni yodda saqlash</string>
-	<string name="BiftorKeepSelectionAfterForwardSub">Yoʻllagandan soʻng xabar belgilab qoʻyiladi.</string>
-	<string name="OnlineContacts">Tarmoqdagi kontaktlar</string>
-
-	<!-- BGramSettings -->
-	<string name="ChatAndMesCat">Chatlar va xabarlar</string>
-	<string name="ChatMesBGCorner">Muloqot xabari koʻrinishi</string>
-	<string name="ChatCat">Chat</string>
-	<string name="EnableSwipeLeftReply">Chapga surib xabarga javob berish</string>
-	<string name="EnableSwipeRightForward">Oʻngga surib xabarni uzatish</string>
-	<string name="BiftorVibrationSwipeReply">Surish payti titrash</string>
-	<string name="DisableSwipeBack">Oʻngga surganda chatni yopmaslik</string>
-	<string name="DisableSwipeBackSub">Agar xabarni surib yoʻllash faol boʻlmasa, buni faollashtiring.</string>
-	<string name="MesCat">Xabar kiriting</string>
-
-	<!-- BiftorProForward -->
-	<string name="BiftorProForward">Oʻzgartirish va Uzatish</string>
-	<string name="BiftorProForwardDeleteUrl">Havolani olib tashlash</string>
-	<string name="EmptyMessageError">Boʻsh xabarni joʻnatib boʻlmaydi</string>
-	<string name="Quote">Muallif</string>
-
-	<!-- Biftor ghost mode icon -->
-	<string name="BiftorGhostModIndicator">Faollik indikatori</string>
-	<string name="BiftorGhostModDisabled">Maxfiy oʻqish faol emas</string>
-
-	<!-- Biftor corner for chat Drawable -->
-	<string name="BiftorChatBubbles">Xabarlar tasmasi</string>
-	<string name="BiftorEnableChatMsgConrner">Aylanasimon xabarlar tasmasi</string>
-
-	<string name="BiftorChatMsgInLeftTopConrnerRadi">Kiruvchi xabar: chapdan yuqorida</string>
-	<string name="BiftorChatMsgInLeftBottomConrnerRadi">Kiruvchi xabar: chapdan quyida</string>
-	<string name="BiftorChatMsgInRightTopConrnerRadi">Kiruvchi xabar: oʻngdan yuqorida</string>
-	<string name="BiftorChatMsgInRightBottomConrnerRadi">Kiruvchi xabar: oʻngdan quyida</string>
-	<string name="BiftorLastChatMsgInRightBottomConrnerRadi">Oxirigi kiruvchi: chapdan quyida</string>
-
-	<string name="BiftorChatMsgOutLeftTopConrnerRadi">Chiquvchi xabar: chapdan yuqorida</string>
-	<string name="BiftorChatMsgOutLeftBottomConrnerRadi">Chiquvchi xabar: chapdan quyida</string>
-	<string name="BiftorChatMsgOutRightTopConrnerRadi">Chiquvchi xabar: oʻngdan yuqorida</string>
-	<string name="BiftorChatMsgOutRightBottomConrnerRadi">Chiquvchi xabar: oʻngdan quyida</string>
-	<string name="BiftorChatLastMsgOutRightBottomConrnerRadi">Oxirigi chiquvchi: chapdan quyida</string>
-
-	<string name="BiftorChatMsgMediaConrnerRadi">Media cheti aylanasimon</string>
-
-	<!-- Biftor dismiss only -->
-	<string name="BiftorDismissOnly">Faqat berkitish</string>
-	<string name="BiftorUnpinMessageAlertTitle">Biriktirilmagan xabarlar</string>
-	<string name="BiftorUnpinMessageAlert">Barcha xabarlarni oʻchirishni yoki biriktirmaslikni xohlaysizmi?</string>
-
-	<!-- Biftor dark blue theme -->
-	<string name="BGramDarkBlue">BGram toʻqkoʻk</string>
-	<string name="BGramOldNight">Standart qora tema</string>
-
-	<!-- Biftor select mess text -->
-	<string name="BiftorSelectMessText">Belgilash amali</string>
-
-	<!-- Biftor go to first message -->
-	<string name="GoToFirstMessage">Chat boshiga oʻtish</string>
-
-	<!--Biftor Save to cloud -->
-	<string name="SaveToCloud">Saqlamaga saqlash</string>
-	<string name="SaveToCloudAlert">Iqtisob keltirish</string>
-	<string name="MessageSaved">Saqlandi!</string>
-	<string name="BiftorSaveWithQuot">Manbani saqlash</string>
-	<string name="BiftorSaveWithOutQuot">Muallifsiz</string>
-	<string name="BiftorSaveToCloudDefaultAction">Saqlamaga saqlaganda iqtibos keltirish</string>
-	<string name="BiftorSaveToCloudAskAlways">Doimo soʻrash</string>
-
-	<!--Biftor Avatar click menu -->
-	<string name="ShowUserMessages">Xabarlarni izlash</string>
-	<string name="ShowUserMedia">Mediafayllarni izlash</string>
-	<string name="ShowProfile">Profilni ochish</string>
-	<string name="BiftorCopyUsername">\@username nusxalash</string>
-	<string name="BiftorUserNameCopied">Foydalanuvchi nomi nusxalandi</string>
-	<string name="BiftorCopiedToClipBoard"> nusxalandi</string>
-	<string name="BiftorSendMessages">Yozish</string>
-	<string name="BiftorMention">Eslatish</string>
-	<string name="BiftorContextMenu">Menyuni koʻrsatish</string>
-	<string name="BiftorUserNameNotFound">Foydalanuvchi nomi yoʻq</string>
-	<string name="BiftorOpenOrChat">Chatni ochish</string>
-
-	<!-- Biftor user photo as bg of DrawerProfileCell-->
-	<string name="BiftorUserPhotoAsProfileCellBG">Avatar profil foni sifatida</string>
-
-	<!--Biftor media activity context menu -->
-	<string name="BiftorContextMenuGoToMessage">Chatda koʻrsatish</string>
-	<string name="BiftorContextMenuDownload">Koʻchirib olish</string>
-
-	<!--Biftor delete media from sdcard if exist too -->
-	<string name="BiftorDeleteMediaFromSdToo">Qurilma keshidan ham</string>
-	<string name="BiftorDeleteFromYourSide">Faqat Sizdan</string>
-
-	<!--Biftor ChatPreView -->
-	<string name="BiftorChatPreViewCat">Chatni oldindan koʻrish</string>
-	<string name="BiftorEableChatPreViewCat">Chatni oldindan koʻrishni faollashtirish</string>
-	<string name="BiftorHideChatPreViewClearButton">«Tarixni tozalash»ni koʻrsatmaslik</string>
-	<string name="BiftorHideChatPreViewClearButtonSub">Guruh va kanallaringizda saqlangan xabarlarda «Tarixni tozalash» tugmasi koʻrsatilmaydi.</string>
-	<string name="BiftorHideChatPreViewDeleteButton">«Chatni yoʻq qilish»ni berkitish</string>
-	<string name="BiftorHideChatPreViewDeleteButtonSub">Siz yaratgan guruh va kanallarda «Yoʻq qilish» tugmasi koʻrsatilmaydi.</string>
-
-	<!--Biftor port create link in message edit text-->
-	<string name="Strikethrough">Ustiga chizilgan</string>
-	<string name="BiftorPaste">Joylashtirish</string>
-	<string name="BiftorSelectAll">Barini belgilash</string>
-	<string name="BiftorQuotation">Iqtibos</string>
-	<string name="BiftorReply">Javob</string>
-	<string name="BiftorShare">Ulashish</string>
-	<string name="BiftorUserMention">Foydalanuvchi</string>
-
-	<!--Biftor custom markdown panel-->
-	<string name="EnableCustomMarkDown">Muqobil formatlash</string>
-	<string name="EnableCustomMarkDownSub">Matnni belgilaganda, yaxshilash paneli</string>
-
-	<!--Biftor reset show pin message-->
-	<string name="BiftorResetPinMessage">Biriktirilganni koʻrsatish</string>
-
-	<!-- Biftor added about tab-->
-	<string name="BiftorAbout"> Haqida </string>
-	<string name="BGramChangeLog">Oʻzgarishlar tarixi</string>
-	<string name="BGramChangeLogSub">Barcha funksiyalar qoʻshilgan tartibida boʻladi.</string>
-	<string name="BGramChangeLogLoadFailed">Oʻzgarishlar roʻyxatini yuklab boʻlmadi!</string>
-	<string name="BiftorSupport">Qoʻllab-quvvatlash</string>
-	<string name="BGramOfficialChannel">Rasmiy kanal</string>
-	<string name="BGramOfficialChannelSub">Yangilanish haqida</string>
-	<string name="BGramOfficialGroups">Rasmiy guruhlar</string>
-	<string name="BGramOfficialGroupsSub">Barcha xatolar haqida hisobotlar hamda gʻoyalar qabul qilinadi.</string>
-	<string name="BGramOfficialGroupsEN">Inglizcha</string>
-	<string name="BGramOfficialGroupsFA">Forscha</string>
-	<string name="BGramOfficialGroupsRU">Ruscha</string>
-	<string name="BGramOfficialGroupsUZ">Oʻzbekcha</string>
-	<string name="BGramOfficialGroupsAR">Arabcha</string>
-	<string name="BGramOfficialGroupsES">Ispancha</string>
-	<string name="BGramOfficialGroupsIT">Italyancha</string>
-	<string name="BGramRateApp">Ilovani baholash</string>
-	<string name="BGramRateAppSub">Agar ilova ma’qul kelgan boʻlsa, «Google Play»da ilovani yuqori baholang. \nIstalgan muammo toʻgʻrisida rasmiy guruhda bemalol baholashdan oldin xabar qoldiring!</string>
-	<string name="BiftorAppCredits">Minnadorchilik</string>
-	<string name="BiftorAppCreditsSub">Ushbu ilovani tuzishga yordam bergan shaxslar.</string>
-	<string name="BiftorAppHints">Maslahatlar</string>
-	<string name="BiftorAppHintsSub">Interfeysda ishlash boʻyicha video yoʻriqnoma.</string>
-	<string name="BiftorDonate">Muallifni ragʻbatlantirish</string>
-	<string name="BiftorDonateSub">Muallifni moddiy qoʻllab-quvvatlashingiz mumkin.</string>
-	<string name="BiftorDonateMoreDetail">Siz muallifning ishchanligini oshirish uchun kam summada boʻlsa ham ragʻbatlantirishingiz mumkin. Katta miqdorda ragʻbatlatirish, oʻzingiz istagan funksiyani kiritish taklifini berish imkonini beradi.</string>
-	<string name="BiftorDonateBTC">Bitkoin</string>
-	<string name="BiftorDonateBTCCASH">Bitkoin raqami</string>
-	<string name="BiftorDonateEther">Ether</string>
-	<string name="BiftorDonateStellar">Stellar</string>
-	<string name="BiftorDonatePayPal">PayPal</string>
-	<string name="BiftorDonateYandex">Yandex</string>
-	<string name="BiftorDonatePayeer">Payeer</string>
-	<string name="BiftorDonateQiwi">Qiwi</string>
-	<string name="BiftorGettingDonationAddress">Manzil soʻrovi ketmoqda…</string>
-	<string name="BiftorDonationAddressCopied">Bitkoin hamyoni manzilidan nusxa olindi.</string>
-	<string name="BiftorGettingDonationAddressFailed">Manzildan nusxa olib boʻlmadi…</string>
-
-	<!-- Biftor added ghost mode tile-->
-	<string name="BiftorGhostModTile">Maxfiy oʻqish rejimi</string>
-	<string name="BiftorGhostModIsEnable">Maxfiy oʻqish rejimi faollashdi</string>
-	<string name="BiftorGhostModIsDisable">Maxfiy oʻqish rejimi bekor qilindi</string>
-
-	<!--Biftor allow to set a proxy before login-->
-	<string name="BiftorLoginProxy">Proksi orqali tanlovli yoqishingiz mumkin.</string>
-	<string name="BiftorLoginProxyBTN">PROKSINI YOQMOQ</string>
-
-	<!-- Biftor chat quick panel -->
-	<string name="QuickBarCat">Soʻnggi chatlar paneli</string>
-	<string name="ShowQuickBar">Chatlar panelini koʻrsatish</string>
-	<string name="VerticalQuickBar">Vertikal rejim</string>
-	<string name="AlwaysBackToMain">Doim bosh darchaga qaytish</string>
-	<string name="DoNotCloseQuickBar">Panelni yopmaslik</string>
-	<string name="HideQuickBarOnScroll">Aylantirganda berkitish</string>
-	<string name="CenterQuickBarButton">Panel tugmasini markazlashtirish</string>
-	<string name="ShowMembersOnQuickBar">Guruh a’zolarini koʻrsatish</string>
-	<string name="BiftorQuickBarClickAction">Chatlar panelida avatarni bosish</string>
-	<string name="BiftorQuickBarLongClickAction">Chatlar panelida uzoq bosib turish</string>
-	<string name="BiftorQuickBarLongClickActionOnMembersList">Panelda uzoq bosib turish (guruhda)</string>
-
-	<!--Biftor confirm to voice and video msg-->
-	<string name="BiftorConfirmToSendVoice">Audioxabar</string>
-	<string name="BiftorConfirmToSendRoundVideo">Videoxabar</string>
-	<string name="BiftorConfirmToSendSticker">Stikerlar</string>
-	<string name="BiftorConfirmToSendGIF">GIF</string>
-	<string name="BiftorSendGif">GIF JOʻNATISH</string>
-
-	<!--Biftor drawer show phone type-->
-	<string name="BiftorDrawerShowNameType">Ism satri</string>
-	<string name="BiftorDrawerShowPhoneType">Telefon raqami satri</string>
-	<string name="BiftorName">Ismi</string>
-	<string name="BiftorPhone">Telefon</string>
-	<string name="BiftorUserName">Yuzerneym</string>
-	<string name="BiftorUserId">Telegram ID</string>
-	<string name="BiftorHide">Koʻrsatmaslik</string>
-
-	<!--Biftor find my messages-->
-	<string name="BiftorFindMyMess">Faqat xabarlarimni</string>
-	<string name="BiftorFindReplyToThisMsg">Javoblarni koʻrsatish</string>
-
-	<!--Biftor View Channels only-->
-	<string name="BiftorViewOnly">Koʻrish</string>
-
-	<!--Biftor Direct save and edit btn -->
-	<string name="BiftorShowDirectSaveToCloud">Chatda «bulutcha» tugmasi</string>
-	<string name="BiftorShowDirectEdit">Chatda «tahrirlash» tugmasi</string>
-	<string name="BiftorShowDirectShare">Chatda «yoʻllash» tugmasi</string>
-
-	<!--Biftor copy msg owner name -->
-	<string name="BiftorCopyMsgOwnerName">Muallif nomi bilan nusxalash</string>
-	<string name="BiftorCopyMsgWithOwnerName">Muallifning nomi bilan</string>
-	<string name="BiftorCopyMsgWithOutOwnerName">Muallif nomisiz</string>
-	<string name="BiftorCopyMsgAlwaysAsk">Bajarishdan oldin soʻrash</string>
-	<string name="BiftorCopyMsgTitle">Xabarni nusxalash</string>
-	<string name="BiftorCopyMsgAsk">Muallif nomi bilan nusxalansinmi?</string>
-	<string name="BiftorCopyOnlyText">Faqat matnni</string>
-	<string name="BiftorCopyMsgWith">Ha</string>
-	<string name="BiftorCopyMsgWithOut">Yoʻq</string>
-
-	<!--Biftor forward confirm panel -->
-	<string name="BiftorShowForwardConfirm">Oluvchi roʻyxatini koʻrish</string>
-	<string name="BiftorShowForwardConfirmsSub">Joʻnatishdan oldin oluvchilar roʻyxatining qoʻshimcha panelini koʻrsatadi.</string>
-	<string name="BiftorGoBack">Ortga</string>
-
-	<!-- Biftor add night mode switch -->
-	<string name="BiftorNightMode">Tungi rejim</string>
-	<string name="BiftorNightModeManual">Manual</string>
-	<string name="BiftorDefaultDayTheme">Kunduzgi tema</string>
-	<string name="BiftorDefaultNightTheme">Tungi tema</string>
-	<string name="BiftorDefaultThemeDetail">Menyu uchun tema rejimini tanlang.</string>
-
-	<!-- Biftor hidden chats -->
-	<string name="BiftorHiddenChats">Maxfiy chatlar</string>
-	<string name="BiftorAddToHiddenChat">Maxfiylikka qoʻshish</string>
-	<string name="BiftorDeleteHiddenChats">Maxfiylikdan oʻchirish</string>
-	<string name="BiftorHiddenChatsPass">Himoya kirish kodi</string>
-	<string name="BiftorSetPassCodeForHiddenChats">Maxfiylik uchun parol tayinlang</string>
-	<string name="BiftorRemoveHiddenChatsFromSearch">Izlaganda topmaslik</string>
-	<string name="BiftorChangePasscodeInfo">Parol oʻrnatilgandan soʻng doimo maxfiy chatga kirilganda uni kiritish soʻraladi. Tanlov barcha akkauntlaringiz uchun bitta boʻladi. \nAgar kodi yoddan koʻtarilsa, ilovani qayta oʻrnatishga toʻgʻri keladi. Bu vaqtda maxfiy chatlar yoʻqotiladi.</string>
-	<string name="BiftorHiddenChatsButton">Maxfiylikka kirish (uzoq bosib turiladi)</string>
-	<string name="BiftorHiddenChatsButtonNewMessages">Yangi xabar</string>
-	<string name="BiftorHiddenChatsButtonSearch">Izlash</string>
-	<string name="BiftorHiddenChatsButtonOpenDrawer">Maʼlumotlarni uzoq bosib turib ochish</string>
-	<string name="BiftorRemoveHiddenChatsNotifi">Maxfiylik haqida ogohlantirmaslik</string>
-
-	<!-- Biftor export chat list -->
-	<string name="BiftorExportChatsLink">Roʻyxatni SD kartaga joʻnatish</string>
-	<string name="BiftorExportFailed">Joʻnatib boʻlmadi!</string>
-	<string name="BiftorExportNoTitle">—</string>
-	<string name="BiftorExportNoUserName">—</string>
-	<string name="BiftorExportNoLink">—</string>
-	<string name="BiftorExportTypePrefix">Xatchoʻp:</string>
-	<string name="BiftorExportTitlePrefix">Nomi:</string>
-	<string name="BiftorExportUserNamePrefix">Yuzerneym:</string>
-	<string name="BiftorExportLinkPrefix">Havola:</string>
-	<string name="BiftorExportUserIdPrefix">Yuzer ID:</string>
-	<string name="BiftorExportChatIdPrefix">Chat ID:</string>
-	<string name="BiftorExportCountPrefix">№:</string>
-
-	<!--Show real members of groups or channels -->
-	<string name="BiftorShowExactNumberOfMembers">Sonlarni yaxlitlamaslik</string>
-	<string name="BiftorShowExactNumberOfMembersSub">Guruh va kanallarda a’zolar soni aniq koʻrsatiladi (mas., «2k» oʻrniga «2125»).</string>
-
-	<!--Biftor remove call button in profile -->
-	<string name="BiftorRemoveCallButtonInProfile">Profilda «qoʻngʻiroq» tugmasini berkitish</string>
-
-	<!--Biftor forward config -->
-	<string name="ForwardTabsCat">Yoʻllash paneli</string>
-	<string name="ForwardTabsHided">Xatchoʻpni koʻrsatmaslik</string>
-	<string name="BiftorForwardCopyLink">Havola</string>
-
-	<!--Biftor mark on msg -->
-	<string name="BiftorSetMarkOnMsg">Xatchoʻpni oʻrnatish</string>
-	<string name="BiftorGoToMarkedMsg">Xatchoʻpga oʻtish</string>
-	<string name="BiftorRemoveMarkedMsg">Belgilangan xabarlarni oʻchirish</string>
-	<string name="BiftorRemoveAllMarkedMsg">Belgilangan barcha xabarlarni oʻchirish</string>
-	<string name="BiftorMarkedMsg">Belgilangan xabarlar</string>
-	<string name="BiftorMsgEmptyTextSearch">\'**%1$s**\'da xabarlar topilmadi.</string>
-	<string name="BiftorNoMsgs">Hali ham xabarlar yoʻq!</string>
-	<string name="BiftorOrderByDateAdded">Qoʻshilgan vaqti boʻyicha tartiblash</string>
-	<string name="BiftorUpdateMarkMessages">Belgilangan xabarlarni yangilash</string>
-
-	<!--Biftor Font picker -->
-	<string name="BiftorFontsPickerCat">Foydalanuvchi shriftlari</string>
-	<string name="BiftorEnableCustomFont">Tashqi shriftni qoʻllash</string>
-	<string name="BiftorEnableSystemCustomFont">Tizim shriftini qoʻllash</string>
-	<string name="BiftorSystemFontLight">Ingichka uslubdagi shriftni qoʻllash</string>
-	<string name="BiftorSystemFontBold">Qalin uslubidagi shriftni qoʻllash</string>
-	<string name="BiftorFontsPickerLight">Oʻrtacha</string>
-	<string name="BiftorFontsPickerBold">Qalin</string>
-	<string name="BiftorFontsPickerItalic">Ogʻma</string>
-	<string name="BiftorFontsPickerMono">Mono enli</string>
-	<string name="BiftorFontsReset">Asliga qaytarish</string>
-	<string name="BiftorFontRestarter">Ilovaga qayta kirish</string>
-	<string name="BiftorYouNeedToRestartApp">Shriftni qoʻllash u-n qayta kiring</string>
-	<string name="BiftorLongClickOnEachOneToReset">Uzoq bosib turish, asl holatiga qaytaradi.</string>
-	<string name="BiftorEmojiSize">Smayllar oʻlchami</string>
-	<string name="BiftorEmojiPreview">Emodzi oʻlchami %1$s </string>
-	<string name="BiftorVerticalAlignmentBottom">Gorizonta boʻyicha tekislash</string>
-
-	<!--Biftor use persian calendar -->
-	<string name="BiftorAlwaysUsePersianCalendar">Eron taqvimidan foydalanish</string>
-	<!-- Biftor multiaccount count -->
-	<string name="BiftorAccountRestarterTitle">Ilovaga qayta kirasizmi?</string>
-	<string name="BiftorAccountRestarterMess">Yangi akkaunt aniqlandi, qayta kirish kerak.</string>
-	<string name="BiftorAccountRestarterNow">Qayta kirish</string>
-
-	<!-- Biftor on or off account -->
-	<string name="BiftorOnline">faol</string>
-	<string name="BiftorOffline">faol emas</string>
-	<string name="BiftorNow">— akkaunt</string>
-
-	<string name="BiftorRestartMsg">Ilovani qayta ishga tushiring</string>
-
-	<string name="BiftorLongClickSetDefault">Uzoq bosib turish asl holiga qaytaradi.</string>
-	<string name="BiftorRestoredToDef">Avtomatik tanlovlarni tiklaydi.</string>
-
-	<!-- Biftor Tablet Mode -->
-	<string name="BiftorSetTabletMode">Planshetga moslash</string>
-	<string name="BiftorSetTabletModeAuto">Avtomatik</string>
-	<string name="BiftorSetTabletModeAlwaysTablet">Doimo planshetga (landshaft)</string>
-	<string name="BiftorSetTabletModeAlwaysPhone">Doimo telefonga (portret)</string>
-
-	<!-- Biftor full width -->
-	<string name="BiftorFullWidthMsgs">Chatdagi rasm oʻlchamini kengaytirish</string>
-	<string name="BiftorFullWidthThreshold">Tomonlar boʻyicha</string>
-	<string name="BiftorFullWidthThresholdOfScreen">%1$s displeyda</string>
-
-	<!-- Biftor font preview -->
-	<string name="BiftorFontPreviewTextEn" translatable="false">Siz tanlamoqchi boʻlgan shrift koʻrnishi.</string>
-	<string name="BiftorFontPreviewTextFa" translatable="false">این فونت انتخابی شما هست اگر مورد پسند است آن را اعمال کنید.</string>
-	<string name="BiftorFontPreviewTextAr" translatable="false">هذا هو الخط الذي اخترته إذا أردت ثم تعيينه.</string>
-	<string name="BiftorFontPreviewTextRu" translatable="false">Выберите начертания для применения шрифта.</string>
-
-	<!-- Biftor apply font from chat -->
-	<string name="BiftorApplyFontFile">Shriftni qoʻllash</string>
-	<string name="BiftorApplyFontLight">Oʻrtacha</string>
-	<string name="BiftorApplyFontBold">Qalin</string>
-	<string name="BiftorApplyFontItalic">Ogʻma</string>
-	<string name="BiftorApplyFontMono">Monoenli</string>
-
-	<!-- Biftor group members filter -->
-	<string name="BiftorGroupMembersFilter">Filtr</string>
-	<string name="BiftorGroupMembersFilterDeleteAccounts">Birinchi oʻchirilgan</string>
-	<string name="BiftorGroupRemoveDeleteAccounts">Oʻchirilgan akkauntlarni yoʻq qilish</string>
-	<string name="BiftorAreYouSureDeletedAccounts">Tanlangan oʻchirilgan akkauntlarni yoʻq qilmoqchimisiz?</string>
-	<string name="BiftorGroupDeleteAllMyMsgs">Mening barcha xabarlarimni yoʻq qilish</string>
-	<string name="BiftorAreYouSureDeletedAllMsg">**%1$s**dagi barcha xabarlaringizni yoʻq qilasizmi?</string>
-	<string name="BiftorCreator">Tuzuvchi:&#160;</string>
-	<string name="BiftorId">ID&#160;</string>
-
-	<!-- Biftor auto download next media -->
-	<string name="BiftorEnableAutoDownloadNextMedia">Keyingi rasmni yuklash</string>
-	<string name="BiftorDisableGoToNextMedia">Keyingi rasmni yuklamaslik</string>
-	<string name="BiftorDisableGoToNextMediaSub">Keyingi rasm avtomatik tarzda yuklab olinmaydi.</string>
-
-	<!-- Biftor enable camera in attach menu -->
-	<string name="BiftorEnableCameraAttachMenu">«Biriktirish» panelida kamera</string>
-
-	<!-- Biftor added more media screen tabs -->
-	<string name="BiftorMediaTabPhotos_zero">%1$d ta rasm</string>
-	<string name="BiftorMediaTabPhotos_one">%1$d ta rasm</string>
-	<string name="BiftorMediaTabPhotos_two">%1$d ta rasm</string>
-	<string name="BiftorMediaTabPhotos_few">%1$d ta rasm</string>
-	<string name="BiftorMediaTabPhotos_many">%1$d ta rasm</string>
-	<string name="BiftorMediaTabPhotos_other">%1$d ta rasm</string>
-
-	<string name="BiftorMediaTabVideos_zero">%1$d ta video</string>
-	<string name="BiftorMediaTabVideos_one">%1$d ta video</string>
-	<string name="BiftorMediaTabVideos_two">%1$d ta video</string>
-	<string name="BiftorMediaTabVideos_few">%1$d ta video</string>
-	<string name="BiftorMediaTabVideos_many">%1$d ta video</string>
-	<string name="BiftorMediaTabVideos_other">%1$d ta video</string>
-
-	<string name="BiftorMediaTabGifs_zero">%1$d ta gif</string>
-	<string name="BiftorMediaTabGifs_one">%1$d ta gif</string>
-	<string name="BiftorMediaTabGifs_two">%1$d ta gif</string>
-	<string name="BiftorMediaTabGifs_few">%1$d ta gif</string>
-	<string name="BiftorMediaTabGifs_many">%1$d ta gif</string>
-	<string name="BiftorMediaTabGifs_other">%1$d ta gif</string>
-
-	<string name="BiftorMediaTabRounds_zero">%1$d ta videoxabar</string>
-	<string name="BiftorMediaTabRounds_one">%1$d ta videoxabar</string>
-	<string name="BiftorMediaTabRounds_two">%1$d ta videoxabar</string>
-	<string name="BiftorMediaTabRounds_few">%1$d ta videoxabar</string>
-	<string name="BiftorMediaTabRounds_many">%1$d ta videoxabar</string>
-	<string name="BiftorMediaTabRounds_other">%1$d ta videoxabar</string>
-
-	<string name="BiftorMediaTabPhotos">RASMLAR</string>
-	<string name="BiftorProMediaTabPhotos">Rasmlar</string>
-	<string name="BiftorProMediaTabVideos">Videolar</string>
-	<string name="BiftorProMediaTabGifs">Gif fayllar</string>
-	<string name="BiftorProMediaTabRounds">Video xabarlar</string>
-	<string name="BiftorMediaTabVideos">VIDEO</string>
-	<string name="BiftorMediaTabGifs">GIF</string>
-	<string name="BiftorMediaTabRound">VIDEOXABAR</string>
-	<string name="BiftorNoPhotoMedia">Istalgan qurilmada unga kirish uchun ushbu chatga rasm joʻnating.</string>
-	<string name="BiftorNoPhotoMediaSecret">Rasm yoʻq</string>
-	<string name="BiftorNoVideoMedia">Istalgan qurilmada unga kirish uchun ushbu chatga video joʻnating.</string>
-	<string name="BiftorNoVideoMediaSecret">Hozircha video yoʻq</string>
-	<string name="BiftorNoGifMedia">Istalgan qurilmada unga kirish uchun ushbu chatga GIF joʻnating.</string>
-	<string name="BiftorNoGifMediaSecret">Bu yerda hali GIF yoʻq</string>
-	<string name="BiftorNoRoundMedia">Istalgan qurilmada unga kirish uchun ushbu chatga rasm joʻnating.</string>
-	<string name="BiftorNoRoundMediaSecret">Videoxabar yoʻq</string>
-
-	<!-- Biftor auto proxy switching -->
-	<string name="BiftorAutoProxySwitching">Proksini avtomatik yoqish</string>
-	<string name="BiftorProxySwitchingManual">Dastaki</string>
-	<string name="BiftorProxySwitchingPing">Ping asosida</string>
-	<string name="BiftorProxySwitchingSpeed">Bogʻlanish tezligi asosida</string>
-	<string name="BiftorProxySwitchingPingSpeed">Ping va tezlikka qarab yoqildi.</string>
-	<string name="BiftorProxySwitchingToBest">Eng yaxshi avtoproksi yoqildi!</string>
-	<string name="BiftorProxyCopiedToClipboard">%1$s proksi nusxalandi</string>
-	<string name="BiftorSave">Saqlash</string>
-
-	<!-- Biftor added ability to set photo quality -->
-	<string name="BiftorSendingPhotoQuality">Joʻnatiladigan rasm sifati</string>
-
-	<!-- Biftor Dialogs avatar click action -->
-	<string name="BiftorDialogsAvatarDefClickAction">Chatlar roʻyxatidagi rasmni bosish</string>
-	<string name="BiftorDialogsAvatarDefLongClickAction">Rasmni uzoq bosib turish</string>
-	<string name="BiftorOpenAvatar">Rasmni ochish</string>
-
-	<!-- Biftor paint and mention button -->
-	<string name="BiftorShowPaintBtn">Chatdagi «qalamcha» tugmasi</string>
-	<string name="BiftorChatBotButton">Chatdagi bot tugmasi</string>
-	<string name="BiftorChatBotShow">Bot buyruqlari (standart)</string>
-	<string name="BiftorReplaceBotWithMentionBtn">Bildirgi tugmasini almashtirish</string>
-	<string name="BiftorChatBotHide">Koʻrsatmaslik</string>
-
-	<!-- Biftor Clear Cache other files -->
-	<string name="BiftorClearCacheOtherFiles"><![CDATA[Vaqtinchalik fayllarni tozalash]]></string>
-	<string name="BiftorClearCacheOtherFilesInfo">Ishlash jarayonida vaqtinchalik fayllar keshga saqlanadi. Bu esa chatlarni me’yoriy yuklanishiga xalaqit beradi. Haftada bir marta boʻlsa ham ularni keshdan tozalab tashlang («Vaqtinchalik fayllarni tozalash» tugmasidan foydalangan holda).</string>
-	<string name="BiftorKeepMediaInfo">Telegramda barcha chatlar va joʻnatilgan fayllar serverda saqlanadi va Siz akkauntingizga kirganingizda ular yuklab olinib, jildda saqlanadi. Kesh fayllarni ochishni tezlashtiradi, biroq qurilmada ortiqcha joy oladi. Joyni tejash maqsadida Siz muddatni belgilashingiz mumkin, ushbu muddat tugagandan soʻng agar foydalanmasangiz yuklab olingan rasm, video va boshqa fayllar **keshdan** olib tashlanadi. Barchasi yozishmalarda saqlanadi va ularni istalgan vaqt qayta yuklab olishingiz mumkin.</string>
-
-	<!-- Biftor show view count in dialog list-->
-	<string name="BiftorShowViewCount">Chatlar roʻyxatida oʻqilganlik soni</string>
-	<string name="BiftorShowViewCountSub">Chatlar roʻyxatidagi kanallaringiz uchun nishoncha oʻrniga oʻqiganlar soni koʻrsatiladi.</string>
-
-	<!-- Biftor backup and restore-->
-	<string name="BiftorBackUpAndRestoreCat">Zaxiraga nusxalash</string>
-	<string name="BiftorBackUp">Zaxiraga nusxalash</string>
-	<string name="BiftorBackUpGlobal">Umumiy tanlovlarni</string>
-	<string name="BiftorBackUpMain">Asosiy tanlovlarni</string>
-	<string name="BiftorBackUpFav">Tanlangan chatlarni</string>
-	<string name="BiftorBackUpHidden">Maxfiy chatlarni</string>
-	<string name="BiftorBackUpFolders">Folders</string>
-	<string name="BiftorBackUpMarkedMessages">Marked messages</string>
-	<string name="BiftorBackUpFonts">Foydalanuvchi shriftlarini</string>
-	<string name="BiftorBackUpAllAndSaveToCloud">Barini saqlamaga saqlash</string>
-	<string name="BiftorBackUpSuccessful">Quyidagiga saqlandi:</string>
-	<string name="BiftorBackUpUnSuccessful">Zaxiraga olib boʻlmadi!</string>
-
-	<string name="BiftorRestore">Tiklash</string>
-	<string name="BiftorRestoreGlobal">Umumiy tanlovlarni</string>
-	<string name="BiftorRestoreMain">Asosiy tanlovlarni</string>
-	<string name="BiftorRestoreFav">Tanlangan chatlarni</string>
-	<string name="BiftorRestoreHidden">Maxfiy chatlarni</string>
-	<string name="BiftorRestoreFolders">Jildlarni</string>
-	<string name="BiftorRestoreMarkedMessages">Belgilangan xabarlar</string>
-
-	<string name="BiftorRestoreToDef">Asl holiga qaytarish</string>
-	<string name="BiftorRestoreGlobalToDef">Umumiy tanlovlarni</string>
-	<string name="BiftorRestoreMainToDef">Asosiy tanlovlarni</string>
-	<string name="BiftorRestoreFavToDef">Tanlangan chatlarni tiklash</string>
-	<string name="BiftorRestoreHiddenToDef">Maxfiy chatlarni tiklash</string>
-	<string name="BiftorRestoreDialogsFolderToDef">Jildlarni standart serverga tiklash</string>
-	<string name="BiftorRestoreMarkedMessagesToDef">Belgilangan xabarlarni tiklash</string>
-
-	<string name="BiftorRestoreSuccessful">Muvaffaqiyatli tiklandi!</string>
-	<string name="BiftorRestoreUnSuccessful">Tiklashda xatolik mavjud!</string>
-	<string name="BiftorApplyBackUpFile">Zaxira fayli qabul qilindi!</string>
-
-	<!--Biftor show or hide cloud icon and record-->
-	<string name="BiftorShowCloudIconInHeader">Sarlavhada «bulut» tugmasi</string>
-	<string name="BiftorShowVoiceRecordButton">Audio/video yozish tugmasi</string>
-
-	<!--Biftor Contact multi select-->
-	<string name="BiftorAddToTheGroupTitle">%1$sni %2$ga qoʻshmoqchimisiz?</string>
-	<string name="BiftorAreYouSureDeleteContact">Siz haqiqatan ham %1$sni oʻchirasizmi?</string>
-
-	<!--Biftor dialogs multi select and action-->
-	<string name="BiftorMultiSelect">Koʻp tanlovlilik ...</string>
-	<string name="BiftorAddToGroupOrChannel">Guruh/kanalga qoʻshish</string>
-	<string name="BiftorDeleteOrLeave">Oʻchirish/tark etish</string>
-	<string name="BiftorDeleteCacheOrDeleteFromCache">Kesh/tarixni tozalash</string>
-	<string name="BiftorAreYouSureDeleteCache">%1$s ta tanlangan\n\nDiqqat: bu shaxsiy chatlar tarixini tozalaydi!\n\nDavom etasizmi?</string>
-	<string name="BiftorAreYouSureDeleteChat">%1$s ta tanlangan\n\nChatni yoʻq qilib, tark etasizmi?</string>
-	<string name="BiftorMultiSelectAddToTheGroupTitle">%2$sga %1$sni qoʻshasizmi?</string>
-
-	<!--Biftor open avatar photo everywhere-->
-	<string name="BiftorOpenAvatarPhoto">Avatarni bosganda ochish</string>
-	<string name="BiftorOpenAvatarPhotoSub">Kontakt rasmlari yoki guruh a’zolari avatari bosilganda ochiladi.</string>
-
-	<!--Biftor open video or GIF with external player-->
-	<string name="BiftorOpenVideoBy">Video ijro etgich</string>
-	<string name="BiftorDoYouWantPlayWithExPlayer">Video tashqi ilovada ochilsinmi?</string>
-	<string name="BiftorVideoPlayerAlwaysExternal">Doimo tashqi ilovada</string>
-	<string name="BiftorVideoPlayerAlwaysInternal">Ilovaning oʻzida</string>
-	<string name="BiftorVideoPlayerAlwaysAsk">Ochishdan oldin soʻrash</string>
-
-	<!--Biftor merge msg antiflood-->
-	<string name="BiftorMergeMsgsIntoOne">Xabarlarni birlashtirish</string>
-	<string name="BiftorMergeMsgsIntoOneSub">Koʻp joy olmaslik uchun ketma-ket joʻnatilgan xabarlar birlashtiriladi.</string>
-	<string name="BiftorMergeMsgsTime">Birlashish uchun vaqt chegarasi</string>
-	<string name="BiftorMergeMsgsChars">Birlashadigan matnlar uzunligi</string>
-	<string name="BiftorMergeToastEnabled">Message merging enabled</string>
-	<string name="BiftorMergeToastDisabled">Message merging disabled</string>
-
-	<!--Biftor add ability to sort accounts-->
-	<string name="BiftorSortAccounts">Akkauntlar roʻyxati</string>
-	<string name="BiftorHideOffAccounts">Nofaollarni berkitish</string>
-	<string name="BiftorHideOffAccountsSub">Roʻyxatdagi nofaol akkauntlar koʻrsatilmaydi.</string>
-
-	<!--Biftor add ability to sort pinned dialogs-->
-	<string name="BiftorSortPinnedDialog">Biriktirilgan chatlar tartibi</string>
-
-	<!--Biftor added inviter-->
-	<string name="BiftorInvitedBy">%1$s qoʻshgan</string>
-	<string name="BiftorSelfJoined">havola orqali qoʻshilgan</string>
-
-	<!--Biftor change the application name and icon-->
-	<string name="BiftorAppNameAndIcon">Ilova ikonkasi</string>
-	<string name="BiftorUseBGram">BGram</string>
-	<string name="BiftorUseBifToGram">BifToGram</string>
-
-	<!--Biftor enter and exit animation -->
-	<string name="BiftorEnterAndExitAnim">Kirish/chiqish animatsiyasi</string>
-	<string name="BiftorEnterAndExitTelegramAnim">Telegram kabi</string>
-	<string name="BiftorEnterAndExitTelegramXAnim">Telegram X kabi</string>
-
-	<!--Biftor reorder the settings-->
-	<string name="BiftorPrivacyCat">Shaxsiylik</string>
-	<string name="BiftorSidebarCat">Bosh menyu</string>
-	<string name="BiftorFontPickerCat">Shrift tanlovi</string>
-	<string name="BiftorOthersCat">Boshqalar</string>
-
-	<string name="BiftorMain">Asosiy</string>
-	<string name="BiftorAppearance">Koʻrinish</string>
-	<string name="BiftorChatListCat">Chatlar roʻyxati</string>
-	<string name="BiftorTabsCat">Xatchoʻplar</string>
-	<string name="BiftorButtonsCat">Tugmalar</string>
-	<string name="BiftorBubblesCat">Xabarlar oqimi</string>
-
-	<!--Biftor customizable context menu-->
-	<string name="BiftorContextMenuCat">Konteks menyu</string>
-	<string name="BiftorMsgContextMenu">Xabar konteks menyusi</string>
-	<string name="BiftorMsgContextMenuSub">Odatiy holiga qaytarish uchun uzoq bosib turing</string>
-	<string name="BiftorSortMsgContextMenu">Xabar kontekst menyusini saralash</string>
-
-	<string name="BiftorChatting">Chat</string>
-	<string name="BiftorMsgMergingCat">Xabarlarni birlashtirish</string>
-	<string name="BiftorSendConfirmCat">Joʻnatishni tasdiqlash</string>
-	<string name="BiftorForwardPanelCat">Yoʻllash paneli</string>
-
-	<!--Biftor External language-->
-	<string name="BiftorLocalVersion">0</string>
-
-	<!--Biftor login with bot-->
-	<string name="BiftorLoginWithBotToKen">Token orqali kirish</string>
-	<string name="BiftorBotToken">Bot tokenini kiriting</string>
-	<string name="BiftorLoginWithBotInfo">Yangi botni @BotFather orqali tuzishingiz mumkin.\n\nBot bilan kirganingizda, botlarda mavjud boʻlgan barcha cheklovlarga ega boʻlasiz, jumladan:\n
+    <string name="BGram" translatable="false">BGram</string>
+    <string name="AppName" translatable="false">BGram</string>
+    <string name="AppNameBeta" translatable="false">BGram Beta</string>
+    <string name="BGramVersion">Android %1$s uchun BGram ilovasi</string>
+
+    <!--Biftor-->
+    <string name="BGramSettings">BGram tanlovlari</string>
+    <string name="BGramSearchInSettings">Izlash tanlovlari</string>
+
+    <!--Biftor general strings-->
+    <string name="BiftorDialogYes">Ha</string>
+    <string name="BiftorDialogNo">Yoʻq</string>
+
+    <!-- Ghost mode-->
+    <string name="BiftorGhostMod">Maxfiy oʻqish</string>
+    <string name="BiftorGhostModSub">Suhbatdoshingiz unga javob yoʻllaganingizdagina, xabar oʻqilganini biladi.\nFaollashtirish uchun chatlar menyusi sarlavhasini uzoq bosib turing.</string>
+    <string name="BiftorGhostModHeaderLongClick">Sarlavha orqali oʻqish rejimi</string>
+    <string name="BiftorGhostModHeaderLongClickSub">Chatlar roʻyxatini uzoq bosib turish orqali, tezkor oʻqish rejimiga oʻtiladi.</string>
+
+    <!-- Ghost mode hide status-->
+    <string name="BiftorGhostModHideStatus">Tarmoq holatini berkitish</string>
+    <string name="BiftorGhostModHideStatusSub">Tarmoqda boʻlmagan holatda xabarlarni oʻqish imkonini beradi. Xabar joʻnatayotganingizda (saqlamalarga boʻlsa ham) vaqtinchalik tarmoq holatida boʻlasiz.</string>
+
+    <!-- Biftor hide Typing-->
+    <string name="BiftorGhostModHideTyping">Bildirgi bermaslik</string>
+    <string name="BiftorGhostModHideTypingSub">Suhbatdoshingizga Sizning unga yozayotganingiz, fayl joʻnatayotganingiz haqida bildirgi berilmaydi.</string>
+
+    <!-- Hide Channel Mute Button -->
+    <string name="BiftorHideChannelMuteButton">Kanallarda ovoz tugmasini berkitish</string>
+
+    <!-- Tabs -->
+    <string name="BiftorTabsStyle">Xatchoʻp joylashuvi</string>
+    <string name="BiftorVerticalTabsStyle">Vertikal</string>
+    <string name="BiftorVerticalRightSideBarRound">Tugma</string>
+    <string name="BiftorVerticalRightSideBarOnlyIcon">Faqat yorliq</string>
+    <string name="BiftorVerticalRightSideBarIconAndText">Yorliq va matnni</string>
+    <string name="BiftorVerticalRightSideBar">Oʻng tomonda koʻrsatish</string>
+    <string name="BiftorRightSideAlwaysOpen">Tugmani doim koʻrsatish</string>
+    <string name="BiftorRightSideHideWhenScroll">Harakatlanganda tugmani berkitish</string>
+    <string name="BiftorVerticalRightSideRoundSize">Tugma oʻlchami</string>
+    <string name="BiftorVerticalRightSideRoundShowStyle">Tugma koʻrinishi</string>
+    <string name="BiftorVerticalRoundShowByDragging">Oʻngga surish</string>
+    <string name="BiftorVerticalRoundShowByTap">Qalquvchi tugma</string>
+    <string name="BiftorRightSidePushChatList">Roʻyxatni chapga surish</string>
+    <string name="BiftorRightSideOpenButton">Tezkor ochish tugmasi</string>
+    <string name="BiftorShowTabsAtTop">Yuqorida koʻrsatish</string>
+    <string name="BiftorShowTabsAtBottom">Pastda koʻrsatish</string>
+    <string name="BiftorShowNewChatButton">Yangi tugmani koʻrsatish</string>
+    <string name="HideTabs">Xatchoʻplar panelini berkitish</string>
+    <string name="All">Barini</string>
+    <string name="Users">Shaxsiy</string>
+    <string name="Groups">Guruhlar</string>
+    <string name="SuperGroups">Superguruhlar</string>
+    <string name="Channels">Kanallar</string>
+    <string name="Bots">Botlar</string>
+    <string name="Favorites">Tanlanganlar</string>
+    <string name="AllGroups">Barcha guruhlar</string>
+    <string name="Unreads">Oʻqilmaganlar</string>
+    <string name="Secrets">Maxfiylar</string>
+    <string name="AllAdmins">Boshqaruv</string>
+    <string name="AdminChannels">Kanallar admini</string>
+    <string name="AdminGroups">Guruhlar admini</string>
+    <string name="AdminSGroups">Superguruhlar admini</string>
+    <string name="OwnChannels">Kanallarim</string>
+    <string name="OwnGroups">Guruhlarim</string>
+    <string name="OwnSGroups">Superguruhlarim</string>
+    <string name="UnmuteUnreads">Yangi bildirgilar</string>
+    <string name="Sort">Xatchoʻplar tartibi</string>
+    <string name="TabsHeight">Xatchoʻplar paneli boʻyi</string>
+    <string name="TabsUnreadTextSize">Hisoblagich raqami oʻlchami</string>
+    <string name="BiftorShowFolderNameInHeader">Sarlavhada jild nomini koʻrsatish</string>
+    <string name="SetAsDefaultTab">Xatchoʻpni soʻrovsiz oʻrnatish</string>
+    <string name="ResetDefaultTab">Xatchoʻpdagi oʻzgarishini bekor qilish</string>
+    <string name="SortByStatus">Holat boʻyicha saralash</string>
+    <string name="SortByLastMessage">Vaqt boʻyicha saralash</string>
+    <string name="SortByUnreadCount">Oʻqilmaganlik boʻyicha saralash</string>
+    <string name="ShowSuperGroupsTab">Superguruhlar xatchoʻpi</string>
+    <string name="HideSuperGroupsTab">Superguruhlar xatchoʻpini berkitish</string>
+    <string name="Tabs">Xatchoʻplar</string>
+    <string name="HideShowTabs">Xatchoʻplar tanlovi</string>
+    <string name="DisableTabsAnimation">Roʻyxatni koʻrayotganda berkitmaslik</string>
+    <string name="InfiniteSwipe">Cheklovsiz xatchoʻpni koʻrish</string>
+    <string name="HeaderTabCounterCountChats">Xabarlar oʻrniga chatlarni hisoblash</string>
+    <string name="HeaderTabCounterCountNotMuted">Ovozsizlarni hisoblamaslik</string>
+    <string name="HideTabsCounters">Hisoblagichni koʻrsatmaslik</string>
+    <string name="BiftorForceMarkAsRead">Majburiy oʻqish</string>
+    <string name="ShowHeaderShadow">Sarlavhani soyada ajratib koʻrsatish</string>
+    <string name="ShowTabsAtBottom">Xatchoʻpni pastga oʻtkazish</string>
+    <string name="BiftorNumberOfChats">Xatchoʻpdagi chatlar: </string>
+    <string name="BiftorLoadingNumberOfChats">Chatlar hisobi</string>
+    <string name="BiftorNumberOfVisibleTabs">Displeydagi xatchoʻplar soni</string>
+    <string name="BiftorTabsGravityCenter">Markazga tekislash</string>
+    <string name="BiftorTabsCenterEachTabs">Xatchoʻplar eni</string>
+    <string name="BiftorTabsFitToScreen">Displey eniga moslash</string>
+    <string name="BiftorTabsFitToScreenSub">Surish rejimini oʻchirib qoʻyiladi va eniga moslanadi.</string>
+    <string name="BiftorDisableChangeTabSwipe">Surishda xatchoʻplarni oʻzgartirmaslik</string>
+    <string name="BiftorJumpToFirstPosition">Boshiga oʻtish</string>
+
+    <string name="ForwardNoQuote">Muallifsiz uzatish</string>
+    <string name="BiftorKeepSelection">Belgilanganni saqlash</string>
+    <string name="BiftorKeepSelectionAfterForward">Belgilanganni yodda saqlash</string>
+    <string name="BiftorKeepSelectionAfterForwardSub">Yoʻllagandan soʻng xabar belgilab qoʻyiladi.</string>
+    <string name="OnlineContacts">Tarmoqdagi kontaktlar</string>
+
+    <!-- BGramSettings -->
+    <string name="ChatAndMesCat">Chatlar va xabarlar</string>
+    <string name="ChatMesBGCorner">Muloqot xabari koʻrinishi</string>
+    <string name="ChatCat">Chat</string>
+    <string name="EnableSwipeLeftReply">Chapga surib xabarga javob berish</string>
+    <string name="EnableSwipeRightForward">Oʻngga surib xabarni uzatish</string>
+    <string name="BiftorVibrationSwipeReply">Surish payti titrash</string>
+    <string name="DisableSwipeBack">Oʻngga surganda chatni yopmaslik</string>
+    <string name="DisableSwipeBackSub">Agar xabarni surib yoʻllash faol boʻlmasa, buni faollashtiring.</string>
+    <string name="MesCat">Xabar kiriting</string>
+
+    <!-- BiftorProForward -->
+    <string name="BiftorProForward">Oʻzgartirish va Uzatish</string>
+    <string name="BiftorProForwardDeleteUrl">Havolani olib tashlash</string>
+    <string name="EmptyMessageError">Boʻsh xabarni joʻnatib boʻlmaydi</string>
+    <string name="Quote">Muallif</string>
+
+    <!-- Biftor ghost mode icon -->
+    <string name="BiftorGhostModIndicator">Faollik indikatori</string>
+    <string name="BiftorGhostModDisabled">Maxfiy oʻqish faol emas</string>
+
+    <!-- Biftor corner for chat Drawable -->
+    <string name="BiftorChatBubbles">Xabarlar tasmasi</string>
+    <string name="BiftorEnableChatMsgConrner">Aylanasimon xabarlar tasmasi</string>
+
+    <string name="BiftorChatMsgInLeftTopConrnerRadi">Kiruvchi xabar: chapdan yuqorida</string>
+    <string name="BiftorChatMsgInLeftBottomConrnerRadi">Kiruvchi xabar: chapdan quyida</string>
+    <string name="BiftorChatMsgInRightTopConrnerRadi">Kiruvchi xabar: oʻngdan yuqorida</string>
+    <string name="BiftorChatMsgInRightBottomConrnerRadi">Kiruvchi xabar: oʻngdan quyida</string>
+    <string name="BiftorLastChatMsgInRightBottomConrnerRadi">Oxirigi kiruvchi: chapdan quyida</string>
+
+    <string name="BiftorChatMsgOutLeftTopConrnerRadi">Chiquvchi xabar: chapdan yuqorida</string>
+    <string name="BiftorChatMsgOutLeftBottomConrnerRadi">Chiquvchi xabar: chapdan quyida</string>
+    <string name="BiftorChatMsgOutRightTopConrnerRadi">Chiquvchi xabar: oʻngdan yuqorida</string>
+    <string name="BiftorChatMsgOutRightBottomConrnerRadi">Chiquvchi xabar: oʻngdan quyida</string>
+    <string name="BiftorChatLastMsgOutRightBottomConrnerRadi">Oxirigi chiquvchi: chapdan quyida</string>
+
+    <string name="BiftorChatMsgMediaConrnerRadi">Media cheti aylanasimon</string>
+
+    <!-- Biftor dismiss only -->
+    <string name="BiftorDismissOnly">Faqat berkitish</string>
+    <string name="BiftorUnpinMessageAlertTitle">Biriktirilmagan xabarlar</string>
+    <string name="BiftorUnpinMessageAlert">Barcha xabarlarni oʻchirishni yoki biriktirmaslikni xohlaysizmi?</string>
+
+    <!-- Biftor dark blue theme -->
+    <string name="BGramDarkBlue">BGram toʻqkoʻk</string>
+    <string name="BGramOldNight">Standart qora tema</string>
+
+    <!-- Biftor select mess text -->
+    <string name="BiftorSelectMessText">Belgilash amali</string>
+
+    <!-- Biftor go to first message -->
+    <string name="GoToFirstMessage">Chat boshiga oʻtish</string>
+
+    <!--Biftor Save to cloud -->
+    <string name="SaveToCloud">Saqlamaga saqlash</string>
+    <string name="SaveToCloudAlert">Iqtisob keltirish</string>
+    <string name="MessageSaved">Saqlandi!</string>
+    <string name="BiftorSaveWithQuot">Manbani saqlash</string>
+    <string name="BiftorSaveWithOutQuot">Muallifsiz</string>
+    <string name="BiftorSaveToCloudDefaultAction">Saqlamaga saqlaganda iqtibos keltirish</string>
+    <string name="BiftorSaveToCloudAskAlways">Doimo soʻrash</string>
+
+    <!--Biftor Avatar click menu -->
+    <string name="ShowUserMessages">Xabarlarni izlash</string>
+    <string name="ShowUserMedia">Mediafayllarni izlash</string>
+    <string name="ShowProfile">Profilni ochish</string>
+    <string name="BiftorCopyUsername">\@username nusxalash</string>
+    <string name="BiftorUserNameCopied">Foydalanuvchi nomi nusxalandi</string>
+    <string name="BiftorCopiedToClipBoard"> nusxalandi</string>
+    <string name="BiftorSendMessages">Yozish</string>
+    <string name="BiftorMention">Eslatish</string>
+    <string name="BiftorContextMenu">Menyuni koʻrsatish</string>
+    <string name="BiftorUserNameNotFound">Foydalanuvchi nomi yoʻq</string>
+    <string name="BiftorOpenOrChat">Chatni ochish</string>
+
+    <!-- Biftor user photo as bg of DrawerProfileCell-->
+    <string name="BiftorUserPhotoAsProfileCellBG">Avatar profil foni sifatida</string>
+
+    <!--Biftor media activity context menu -->
+    <string name="BiftorContextMenuGoToMessage">Chatda koʻrsatish</string>
+    <string name="BiftorContextMenuDownload">Koʻchirib olish</string>
+
+    <!--Biftor delete media from sdcard if exist too -->
+    <string name="BiftorDeleteMediaFromSdToo">Qurilma keshidan ham</string>
+    <string name="BiftorDeleteFromYourSide">Faqat Sizdan</string>
+
+    <!--Biftor ChatPreView -->
+    <string name="BiftorChatPreViewCat">Chatni oldindan koʻrish</string>
+    <string name="BiftorEableChatPreViewCat">Chatni oldindan koʻrishni faollashtirish</string>
+    <string name="BiftorHideChatPreViewClearButton">«Tarixni tozalash»ni koʻrsatmaslik</string>
+    <string name="BiftorHideChatPreViewClearButtonSub">Guruh va kanallaringizda saqlangan xabarlarda «Tarixni tozalash» tugmasi koʻrsatilmaydi.</string>
+    <string name="BiftorHideChatPreViewDeleteButton">«Chatni yoʻq qilish»ni berkitish</string>
+    <string name="BiftorHideChatPreViewDeleteButtonSub">Siz yaratgan guruh va kanallarda «Yoʻq qilish» tugmasi koʻrsatilmaydi.</string>
+
+    <!--Biftor port create link in message edit text-->
+    <string name="Strikethrough">Ustiga chizilgan</string>
+    <string name="BiftorPaste">Joylashtirish</string>
+    <string name="BiftorSelectAll">Barini belgilash</string>
+    <string name="BiftorQuotation">Iqtibos</string>
+    <string name="BiftorReply">Javob</string>
+    <string name="BiftorShare">Ulashish</string>
+    <string name="BiftorUserMention">Foydalanuvchi</string>
+
+    <!--Biftor custom markdown panel-->
+    <string name="EnableCustomMarkDown">Muqobil formatlash</string>
+    <string name="EnableCustomMarkDownSub">Matnni belgilaganda, yaxshilash paneli</string>
+
+    <!--Biftor reset show pin message-->
+    <string name="BiftorResetPinMessage">Biriktirilganni koʻrsatish</string>
+
+    <!-- Biftor added about tab-->
+    <string name="BiftorAbout"> Haqida </string>
+    <string name="BGramChangeLog">Oʻzgarishlar tarixi</string>
+    <string name="BGramChangeLogSub">Barcha funksiyalar qoʻshilgan tartibida boʻladi.</string>
+    <string name="BGramChangeLogLoadFailed">Oʻzgarishlar roʻyxatini yuklab boʻlmadi!</string>
+    <string name="BiftorSupport">Qoʻllab-quvvatlash</string>
+    <string name="BGramOfficialChannel">Rasmiy kanal</string>
+    <string name="BGramOfficialChannelSub">Yangilanish haqida</string>
+    <string name="BGramOfficialGroups">Rasmiy guruhlar</string>
+    <string name="BGramOfficialGroupsSub">Barcha xatolar haqida hisobotlar hamda gʻoyalar qabul qilinadi.</string>
+    <string name="BGramOfficialGroupsEN">Inglizcha</string>
+    <string name="BGramOfficialGroupsFA">Forscha</string>
+    <string name="BGramOfficialGroupsRU">Ruscha</string>
+    <string name="BGramOfficialGroupsUZ">Oʻzbekcha</string>
+    <string name="BGramOfficialGroupsAR">Arabcha</string>
+    <string name="BGramOfficialGroupsES">Ispancha</string>
+    <string name="BGramOfficialGroupsIT">Italyancha</string>
+    <string name="BGramRateApp">Ilovani baholash</string>
+    <string name="BGramRateAppSub">Agar ilova ma’qul kelgan boʻlsa, «Google Play»da ilovani yuqori baholang. \nIstalgan muammo toʻgʻrisida rasmiy guruhda bemalol baholashdan oldin xabar qoldiring!</string>
+    <string name="BiftorAppCredits">Minnadorchilik</string>
+    <string name="BiftorAppCreditsSub">Ushbu ilovani tuzishga yordam bergan shaxslar.</string>
+    <string name="BiftorAppHints">Maslahatlar</string>
+    <string name="BiftorAppHintsSub">Interfeysda ishlash boʻyicha video yoʻriqnoma.</string>
+    <string name="BiftorDonate">Muallifni ragʻbatlantirish</string>
+    <string name="BiftorDonateSub">Muallifni moddiy qoʻllab-quvvatlashingiz mumkin.</string>
+    <string name="BiftorDonateMoreDetail">Siz muallifning ishchanligini oshirish uchun kam summada boʻlsa ham ragʻbatlantirishingiz mumkin. Katta miqdorda ragʻbatlatirish, oʻzingiz istagan funksiyani kiritish taklifini berish imkonini beradi.</string>
+    <string name="BiftorDonateBTC">Bitkoin</string>
+    <string name="BiftorDonateBTCCASH">Bitkoin raqami</string>
+    <string name="BiftorDonateEther">Ether</string>
+    <string name="BiftorDonateStellar">Stellar</string>
+    <string name="BiftorDonatePayPal">PayPal</string>
+    <string name="BiftorDonateYandex">Yandex</string>
+    <string name="BiftorDonatePayeer">Payeer</string>
+    <string name="BiftorDonateQiwi">Qiwi</string>
+    <string name="BiftorGettingDonationAddress">Manzil soʻrovi ketmoqda…</string>
+    <string name="BiftorDonationAddressCopied">Bitkoin hamyoni manzilidan nusxa olindi.</string>
+    <string name="BiftorGettingDonationAddressFailed">Manzildan nusxa olib boʻlmadi…</string>
+
+    <!-- Biftor added ghost mode tile-->
+    <string name="BiftorGhostModTile">Maxfiy oʻqish rejimi</string>
+    <string name="BiftorGhostModIsEnable">Maxfiy oʻqish rejimi faollashdi</string>
+    <string name="BiftorGhostModIsDisable">Maxfiy oʻqish rejimi bekor qilindi</string>
+
+    <!--Biftor allow to set a proxy before login-->
+    <string name="BiftorLoginProxy">Proksi orqali tanlovli yoqishingiz mumkin.</string>
+    <string name="BiftorLoginProxyBTN">PROKSINI YOQMOQ</string>
+
+    <!-- Biftor chat quick panel -->
+    <string name="QuickBarCat">Soʻnggi chatlar paneli</string>
+    <string name="ShowQuickBar">Chatlar panelini koʻrsatish</string>
+    <string name="VerticalQuickBar">Vertikal rejim</string>
+    <string name="AlwaysBackToMain">Doim bosh darchaga qaytish</string>
+    <string name="DoNotCloseQuickBar">Panelni yopmaslik</string>
+    <string name="HideQuickBarOnScroll">Aylantirganda berkitish</string>
+    <string name="CenterQuickBarButton">Panel tugmasini markazlashtirish</string>
+    <string name="ShowMembersOnQuickBar">Guruh a’zolarini koʻrsatish</string>
+    <string name="BiftorQuickBarClickAction">Chatlar panelida avatarni bosish</string>
+    <string name="BiftorQuickBarLongClickAction">Chatlar panelida uzoq bosib turish</string>
+    <string name="BiftorQuickBarLongClickActionOnMembersList">Panelda uzoq bosib turish (guruhda)</string>
+
+    <!--Biftor confirm to voice and video msg-->
+    <string name="BiftorConfirmToSendVoice">Audioxabar</string>
+    <string name="BiftorConfirmToSendRoundVideo">Videoxabar</string>
+    <string name="BiftorConfirmToSendSticker">Stikerlar</string>
+    <string name="BiftorConfirmToSendGIF">GIF</string>
+    <string name="BiftorSendGif">GIF JOʻNATISH</string>
+
+    <!--Biftor drawer show phone type-->
+    <string name="BiftorDrawerShowNameType">Ism satri</string>
+    <string name="BiftorDrawerShowPhoneType">Telefon raqami satri</string>
+    <string name="BiftorName">Ismi</string>
+    <string name="BiftorPhone">Telefon</string>
+    <string name="BiftorUserName">Yuzerneym</string>
+    <string name="BiftorUserId">Telegram ID</string>
+    <string name="BiftorHide">Koʻrsatmaslik</string>
+
+    <!--Biftor find my messages-->
+    <string name="BiftorFindMyMess">Faqat xabarlarimni</string>
+    <string name="BiftorFindReplyToThisMsg">Javoblarni koʻrsatish</string>
+
+    <!--Biftor View Channels only-->
+    <string name="BiftorViewOnly">Koʻrish</string>
+
+    <!--Biftor Direct save and edit btn -->
+    <string name="BiftorShowDirectSaveToCloud">Chatda «bulutcha» tugmasi</string>
+    <string name="BiftorShowDirectEdit">Chatda «tahrirlash» tugmasi</string>
+    <string name="BiftorShowDirectShare">Chatda «yoʻllash» tugmasi</string>
+
+    <!--Biftor copy msg owner name -->
+    <string name="BiftorCopyMsgOwnerName">Muallif nomi bilan nusxalash</string>
+    <string name="BiftorCopyMsgWithOwnerName">Muallifning nomi bilan</string>
+    <string name="BiftorCopyMsgWithOutOwnerName">Muallif nomisiz</string>
+    <string name="BiftorCopyMsgAlwaysAsk">Bajarishdan oldin soʻrash</string>
+    <string name="BiftorCopyMsgTitle">Xabarni nusxalash</string>
+    <string name="BiftorCopyMsgAsk">Muallif nomi bilan nusxalansinmi?</string>
+    <string name="BiftorCopyOnlyText">Faqat matnni</string>
+    <string name="BiftorCopyMsgWith">Ha</string>
+    <string name="BiftorCopyMsgWithOut">Yoʻq</string>
+
+    <!--Biftor forward confirm panel -->
+    <string name="BiftorShowForwardConfirm">Oluvchi roʻyxatini koʻrish</string>
+    <string name="BiftorShowForwardConfirmsSub">Joʻnatishdan oldin oluvchilar roʻyxatining qoʻshimcha panelini koʻrsatadi.</string>
+    <string name="BiftorGoBack">Ortga</string>
+
+    <!-- Biftor add night mode switch -->
+    <string name="BiftorNightMode">Tungi rejim</string>
+    <string name="BiftorNightModeManual">Manual</string>
+    <string name="BiftorDefaultDayTheme">Kunduzgi tema</string>
+    <string name="BiftorDefaultNightTheme">Tungi tema</string>
+    <string name="BiftorDefaultThemeDetail">Menyu uchun tema rejimini tanlang.</string>
+
+    <!-- Biftor hidden chats -->
+    <string name="BiftorHiddenChats">Maxfiy chatlar</string>
+    <string name="BiftorAddToHiddenChat">Maxfiylikka qoʻshish</string>
+    <string name="BiftorDeleteHiddenChats">Maxfiylikdan oʻchirish</string>
+    <string name="BiftorHiddenChatsPass">Himoya kirish kodi</string>
+    <string name="BiftorSetPassCodeForHiddenChats">Maxfiylik uchun parol tayinlang</string>
+    <string name="BiftorRemoveHiddenChatsFromSearch">Izlaganda topmaslik</string>
+    <string name="BiftorChangePasscodeInfo">Parol oʻrnatilgandan soʻng doimo maxfiy chatga kirilganda uni kiritish soʻraladi. Tanlov barcha akkauntlaringiz uchun bitta boʻladi. \nAgar kodi yoddan koʻtarilsa, ilovani qayta oʻrnatishga toʻgʻri keladi. Bu vaqtda maxfiy chatlar yoʻqotiladi.</string>
+    <string name="BiftorHiddenChatsButton">Maxfiylikka kirish (uzoq bosib turiladi)</string>
+    <string name="BiftorHiddenChatsButtonNewMessages">Yangi xabar</string>
+    <string name="BiftorHiddenChatsButtonSearch">Izlash</string>
+    <string name="BiftorHiddenChatsButtonOpenDrawer">Maʼlumotlarni uzoq bosib turib ochish</string>
+    <string name="BiftorRemoveHiddenChatsNotifi">Maxfiylik haqida ogohlantirmaslik</string>
+
+    <!-- Biftor export chat list -->
+    <string name="BiftorExportChatsLink">Roʻyxatni SD kartaga joʻnatish</string>
+    <string name="BiftorExportFailed">Joʻnatib boʻlmadi!</string>
+    <string name="BiftorExportNoTitle">—</string>
+    <string name="BiftorExportNoUserName">—</string>
+    <string name="BiftorExportNoLink">—</string>
+    <string name="BiftorExportTypePrefix">Xatchoʻp:</string>
+    <string name="BiftorExportTitlePrefix">Nomi:</string>
+    <string name="BiftorExportUserNamePrefix">Yuzerneym:</string>
+    <string name="BiftorExportLinkPrefix">Havola:</string>
+    <string name="BiftorExportUserIdPrefix">Yuzer ID:</string>
+    <string name="BiftorExportChatIdPrefix">Chat ID:</string>
+    <string name="BiftorExportCountPrefix">№:</string>
+
+    <!--Show real members of groups or channels -->
+    <string name="BiftorShowExactNumberOfMembers">Sonlarni yaxlitlamaslik</string>
+    <string name="BiftorShowExactNumberOfMembersSub">Guruh va kanallarda a’zolar soni aniq koʻrsatiladi (mas., «2k» oʻrniga «2125»).</string>
+
+    <!--Biftor remove call button in profile -->
+    <string name="BiftorRemoveCallButtonInProfile">Profilda «qoʻngʻiroq» tugmasini berkitish</string>
+
+    <!--Biftor forward config -->
+    <string name="ForwardTabsCat">Yoʻllash paneli</string>
+    <string name="ForwardTabsHided">Xatchoʻpni koʻrsatmaslik</string>
+    <string name="BiftorForwardCopyLink">Havola</string>
+
+    <!--Biftor mark on msg -->
+    <string name="BiftorSetMarkOnMsg">Xatchoʻpni oʻrnatish</string>
+    <string name="BiftorGoToMarkedMsg">Xatchoʻpga oʻtish</string>
+    <string name="BiftorRemoveMarkedMsg">Belgilangan xabarlarni oʻchirish</string>
+    <string name="BiftorRemoveAllMarkedMsg">Belgilangan barcha xabarlarni oʻchirish</string>
+    <string name="BiftorMarkedMsg">Belgilangan xabarlar</string>
+    <string name="BiftorMsgEmptyTextSearch">\'**%1$s**\'da xabarlar topilmadi.</string>
+    <string name="BiftorNoMsgs">Hali ham xabarlar yoʻq!</string>
+    <string name="BiftorOrderByDateAdded">Qoʻshilgan vaqti boʻyicha tartiblash</string>
+    <string name="BiftorUpdateMarkMessages">Belgilangan xabarlarni yangilash</string>
+
+    <!--Biftor Font picker -->
+    <string name="BiftorFontsPickerCat">Foydalanuvchi shriftlari</string>
+    <string name="BiftorEnableCustomFont">Tashqi shriftni qoʻllash</string>
+    <string name="BiftorEnableSystemCustomFont">Tizim shriftini qoʻllash</string>
+    <string name="BiftorSystemFontLight">Ingichka uslubdagi shriftni qoʻllash</string>
+    <string name="BiftorSystemFontBold">Qalin uslubidagi shriftni qoʻllash</string>
+    <string name="BiftorFontsPickerLight">Oʻrtacha</string>
+    <string name="BiftorFontsPickerBold">Qalin</string>
+    <string name="BiftorFontsPickerItalic">Ogʻma</string>
+    <string name="BiftorFontsPickerMono">Mono enli</string>
+    <string name="BiftorFontsReset">Asliga qaytarish</string>
+    <string name="BiftorFontRestarter">Ilovaga qayta kirish</string>
+    <string name="BiftorYouNeedToRestartApp">Shriftni qoʻllash u-n qayta kiring</string>
+    <string name="BiftorLongClickOnEachOneToReset">Uzoq bosib turish, asl holatiga qaytaradi.</string>
+    <string name="BiftorEmojiSize">Smayllar oʻlchami</string>
+    <string name="BiftorEmojiPreview">Emodzi oʻlchami %1$s </string>
+    <string name="BiftorVerticalAlignmentBottom">Gorizonta boʻyicha tekislash</string>
+
+    <!--Biftor use persian calendar -->
+    <string name="BiftorAlwaysUsePersianCalendar">Eron taqvimidan foydalanish</string>
+    <!-- Biftor multiaccount count -->
+    <string name="BiftorAccountRestarterTitle">Ilovaga qayta kirasizmi?</string>
+    <string name="BiftorAccountRestarterMess">Yangi akkaunt aniqlandi, qayta kirish kerak.</string>
+    <string name="BiftorAccountRestarterNow">Qayta kirish</string>
+
+    <!-- Biftor on or off account -->
+    <string name="BiftorOnline">faol</string>
+    <string name="BiftorOffline">faol emas</string>
+    <string name="BiftorNow">— akkaunt</string>
+
+    <string name="BiftorRestartMsg">Ilovani qayta ishga tushiring</string>
+
+    <string name="BiftorLongClickSetDefault">Uzoq bosib turish asl holiga qaytaradi.</string>
+    <string name="BiftorRestoredToDef">Avtomatik tanlovlarni tiklaydi.</string>
+
+    <!-- Biftor Tablet Mode -->
+    <string name="BiftorSetTabletMode">Planshetga moslash</string>
+    <string name="BiftorSetTabletModeAuto">Avtomatik</string>
+    <string name="BiftorSetTabletModeAlwaysTablet">Doimo planshetga (landshaft)</string>
+    <string name="BiftorSetTabletModeAlwaysPhone">Doimo telefonga (portret)</string>
+
+    <!-- Biftor full width -->
+    <string name="BiftorFullWidthMsgs">Chatdagi rasm oʻlchamini kengaytirish</string>
+    <string name="BiftorFullWidthThreshold">Tomonlar boʻyicha</string>
+    <string name="BiftorFullWidthThresholdOfScreen">%1$s displeyda</string>
+
+    <!-- Biftor font preview -->
+    <string name="BiftorFontPreviewTextEn" translatable="false">Siz tanlamoqchi boʻlgan shrift koʻrnishi.</string>
+    <string name="BiftorFontPreviewTextFa" translatable="false">این فونت انتخابی شما هست اگر مورد پسند است آن را اعمال کنید.</string>
+    <string name="BiftorFontPreviewTextAr" translatable="false">هذا هو الخط الذي اخترته إذا أردت ثم تعيينه.</string>
+    <string name="BiftorFontPreviewTextRu" translatable="false">Выберите начертания для применения шрифта.</string>
+
+    <!-- Biftor apply font from chat -->
+    <string name="BiftorApplyFontFile">Shriftni qoʻllash</string>
+    <string name="BiftorApplyFontLight">Oʻrtacha</string>
+    <string name="BiftorApplyFontBold">Qalin</string>
+    <string name="BiftorApplyFontItalic">Ogʻma</string>
+    <string name="BiftorApplyFontMono">Monoenli</string>
+
+    <!-- Biftor group members filter -->
+    <string name="BiftorGroupMembersFilter">Filtr</string>
+    <string name="BiftorGroupMembersFilterDeleteAccounts">Birinchi oʻchirilgan</string>
+    <string name="BiftorGroupRemoveDeleteAccounts">Oʻchirilgan akkauntlarni yoʻq qilish</string>
+    <string name="BiftorAreYouSureDeletedAccounts">Tanlangan oʻchirilgan akkauntlarni yoʻq qilmoqchimisiz?</string>
+    <string name="BiftorGroupDeleteAllMyMsgs">Mening barcha xabarlarimni yoʻq qilish</string>
+    <string name="BiftorAreYouSureDeletedAllMsg">**%1$s**dagi barcha xabarlaringizni yoʻq qilasizmi?</string>
+    <string name="BiftorCreator">Tuzuvchi:&#160;</string>
+    <string name="BiftorId">ID&#160;</string>
+
+    <!-- Biftor auto download next media -->
+    <string name="BiftorEnableAutoDownloadNextMedia">Keyingi rasmni yuklash</string>
+    <string name="BiftorDisableGoToNextMedia">Keyingi rasmni yuklamaslik</string>
+    <string name="BiftorDisableGoToNextMediaSub">Keyingi rasm avtomatik tarzda yuklab olinmaydi.</string>
+
+    <!-- Biftor enable camera in attach menu -->
+    <string name="BiftorEnableCameraAttachMenu">«Biriktirish» panelida kamera</string>
+
+    <!-- Biftor added more media screen tabs -->
+    <string name="BiftorMediaTabPhotos_zero">%1$d ta rasm</string>
+    <string name="BiftorMediaTabPhotos_one">%1$d ta rasm</string>
+    <string name="BiftorMediaTabPhotos_two">%1$d ta rasm</string>
+    <string name="BiftorMediaTabPhotos_few">%1$d ta rasm</string>
+    <string name="BiftorMediaTabPhotos_many">%1$d ta rasm</string>
+    <string name="BiftorMediaTabPhotos_other">%1$d ta rasm</string>
+
+    <string name="BiftorMediaTabVideos_zero">%1$d ta video</string>
+    <string name="BiftorMediaTabVideos_one">%1$d ta video</string>
+    <string name="BiftorMediaTabVideos_two">%1$d ta video</string>
+    <string name="BiftorMediaTabVideos_few">%1$d ta video</string>
+    <string name="BiftorMediaTabVideos_many">%1$d ta video</string>
+    <string name="BiftorMediaTabVideos_other">%1$d ta video</string>
+
+    <string name="BiftorMediaTabGifs_zero">%1$d ta gif</string>
+    <string name="BiftorMediaTabGifs_one">%1$d ta gif</string>
+    <string name="BiftorMediaTabGifs_two">%1$d ta gif</string>
+    <string name="BiftorMediaTabGifs_few">%1$d ta gif</string>
+    <string name="BiftorMediaTabGifs_many">%1$d ta gif</string>
+    <string name="BiftorMediaTabGifs_other">%1$d ta gif</string>
+
+    <string name="BiftorMediaTabRounds_zero">%1$d ta videoxabar</string>
+    <string name="BiftorMediaTabRounds_one">%1$d ta videoxabar</string>
+    <string name="BiftorMediaTabRounds_two">%1$d ta videoxabar</string>
+    <string name="BiftorMediaTabRounds_few">%1$d ta videoxabar</string>
+    <string name="BiftorMediaTabRounds_many">%1$d ta videoxabar</string>
+    <string name="BiftorMediaTabRounds_other">%1$d ta videoxabar</string>
+
+    <string name="BiftorMediaTabPhotos">RASMLAR</string>
+    <string name="BiftorProMediaTabPhotos">Rasmlar</string>
+    <string name="BiftorProMediaTabVideos">Videolar</string>
+    <string name="BiftorProMediaTabGifs">Gif fayllar</string>
+    <string name="BiftorProMediaTabRounds">Video xabarlar</string>
+    <string name="BiftorMediaTabVideos">VIDEO</string>
+    <string name="BiftorMediaTabGifs">GIF</string>
+    <string name="BiftorMediaTabRound">VIDEOXABAR</string>
+    <string name="BiftorNoPhotoMedia">Istalgan qurilmada unga kirish uchun ushbu chatga rasm joʻnating.</string>
+    <string name="BiftorNoPhotoMediaSecret">Rasm yoʻq</string>
+    <string name="BiftorNoVideoMedia">Istalgan qurilmada unga kirish uchun ushbu chatga video joʻnating.</string>
+    <string name="BiftorNoVideoMediaSecret">Hozircha video yoʻq</string>
+    <string name="BiftorNoGifMedia">Istalgan qurilmada unga kirish uchun ushbu chatga GIF joʻnating.</string>
+    <string name="BiftorNoGifMediaSecret">Bu yerda hali GIF yoʻq</string>
+    <string name="BiftorNoRoundMedia">Istalgan qurilmada unga kirish uchun ushbu chatga rasm joʻnating.</string>
+    <string name="BiftorNoRoundMediaSecret">Videoxabar yoʻq</string>
+
+    <!-- Biftor auto proxy switching -->
+    <string name="BiftorAutoProxySwitching">Proksini avtomatik yoqish</string>
+    <string name="BiftorProxySwitchingManual">Dastaki</string>
+    <string name="BiftorProxySwitchingPing">Ping asosida</string>
+    <string name="BiftorProxySwitchingSpeed">Bogʻlanish tezligi asosida</string>
+    <string name="BiftorProxySwitchingPingSpeed">Ping va tezlikka qarab yoqildi.</string>
+    <string name="BiftorProxySwitchingToBest">Eng yaxshi avtoproksi yoqildi!</string>
+    <string name="BiftorProxyCopiedToClipboard">%1$s proksi nusxalandi</string>
+    <string name="BiftorSave">Saqlash</string>
+
+    <!-- Biftor added ability to set photo quality -->
+    <string name="BiftorSendingPhotoQuality">Joʻnatiladigan rasm sifati</string>
+
+    <!-- Biftor Dialogs avatar click action -->
+    <string name="BiftorDialogsAvatarDefClickAction">Chatlar roʻyxatidagi rasmni bosish</string>
+    <string name="BiftorDialogsAvatarDefLongClickAction">Rasmni uzoq bosib turish</string>
+    <string name="BiftorOpenAvatar">Rasmni ochish</string>
+
+    <!-- Biftor paint and mention button -->
+    <string name="BiftorShowPaintBtn">Chatdagi «qalamcha» tugmasi</string>
+    <string name="BiftorChatBotButton">Chatdagi bot tugmasi</string>
+    <string name="BiftorChatBotShow">Bot buyruqlari (standart)</string>
+    <string name="BiftorReplaceBotWithMentionBtn">Bildirgi tugmasini almashtirish</string>
+    <string name="BiftorChatBotHide">Koʻrsatmaslik</string>
+
+    <!-- Biftor Clear Cache other files -->
+    <string name="BiftorClearCacheOtherFiles"><![CDATA[Vaqtinchalik fayllarni tozalash]]></string>
+    <string name="BiftorClearCacheOtherFilesInfo">Ishlash jarayonida vaqtinchalik fayllar keshga saqlanadi. Bu esa chatlarni me’yoriy yuklanishiga xalaqit beradi. Haftada bir marta boʻlsa ham ularni keshdan tozalab tashlang («Vaqtinchalik fayllarni tozalash» tugmasidan foydalangan holda).</string>
+    <string name="BiftorKeepMediaInfo">Telegramda barcha chatlar va joʻnatilgan fayllar serverda saqlanadi va Siz akkauntingizga kirganingizda ular yuklab olinib, jildda saqlanadi. Kesh fayllarni ochishni tezlashtiradi, biroq qurilmada ortiqcha joy oladi. Joyni tejash maqsadida Siz muddatni belgilashingiz mumkin, ushbu muddat tugagandan soʻng agar foydalanmasangiz yuklab olingan rasm, video va boshqa fayllar **keshdan** olib tashlanadi. Barchasi yozishmalarda saqlanadi va ularni istalgan vaqt qayta yuklab olishingiz mumkin.</string>
+
+    <!-- Biftor show view count in dialog list-->
+    <string name="BiftorShowViewCount">Chatlar roʻyxatida oʻqilganlik soni</string>
+    <string name="BiftorShowViewCountSub">Chatlar roʻyxatidagi kanallaringiz uchun nishoncha oʻrniga oʻqiganlar soni koʻrsatiladi.</string>
+
+    <!-- Biftor backup and restore-->
+    <string name="BiftorBackUpAndRestoreCat">Zaxiraga nusxalash</string>
+    <string name="BiftorBackUp">Zaxiraga nusxalash</string>
+    <string name="BiftorBackUpGlobal">Umumiy tanlovlarni</string>
+    <string name="BiftorBackUpMain">Asosiy tanlovlarni</string>
+    <string name="BiftorBackUpFav">Tanlangan chatlarni</string>
+    <string name="BiftorBackUpHidden">Maxfiy chatlarni</string>
+    <string name="BiftorBackUpFolders">Folders</string>
+    <string name="BiftorBackUpMarkedMessages">Marked messages</string>
+    <string name="BiftorBackUpFonts">Foydalanuvchi shriftlarini</string>
+    <string name="BiftorBackUpAllAndSaveToCloud">Barini saqlamaga saqlash</string>
+    <string name="BiftorBackUpSuccessful">Quyidagiga saqlandi:</string>
+    <string name="BiftorBackUpUnSuccessful">Zaxiraga olib boʻlmadi!</string>
+
+    <string name="BiftorRestore">Tiklash</string>
+    <string name="BiftorRestoreGlobal">Umumiy tanlovlarni</string>
+    <string name="BiftorRestoreMain">Asosiy tanlovlarni</string>
+    <string name="BiftorRestoreFav">Tanlangan chatlarni</string>
+    <string name="BiftorRestoreHidden">Maxfiy chatlarni</string>
+    <string name="BiftorRestoreFolders">Jildlarni</string>
+    <string name="BiftorRestoreMarkedMessages">Belgilangan xabarlar</string>
+
+    <string name="BiftorRestoreToDef">Asl holiga qaytarish</string>
+    <string name="BiftorRestoreGlobalToDef">Umumiy tanlovlarni</string>
+    <string name="BiftorRestoreMainToDef">Asosiy tanlovlarni</string>
+    <string name="BiftorRestoreFavToDef">Tanlangan chatlarni tiklash</string>
+    <string name="BiftorRestoreHiddenToDef">Maxfiy chatlarni tiklash</string>
+    <string name="BiftorRestoreDialogsFolderToDef">Jildlarni standart serverga tiklash</string>
+    <string name="BiftorRestoreMarkedMessagesToDef">Belgilangan xabarlarni tiklash</string>
+
+    <string name="BiftorRestoreSuccessful">Muvaffaqiyatli tiklandi!</string>
+    <string name="BiftorRestoreUnSuccessful">Tiklashda xatolik mavjud!</string>
+    <string name="BiftorApplyBackUpFile">Zaxira fayli qabul qilindi!</string>
+
+    <!--Biftor show or hide cloud icon and record-->
+    <string name="BiftorShowCloudIconInHeader">Sarlavhada «bulut» tugmasi</string>
+    <string name="BiftorShowVoiceRecordButton">Audio/video yozish tugmasi</string>
+
+    <!--Biftor Contact multi select-->
+    <string name="BiftorAddToTheGroupTitle">%1$sni %2$ga qoʻshmoqchimisiz?</string>
+    <string name="BiftorAreYouSureDeleteContact">Siz haqiqatan ham %1$sni oʻchirasizmi?</string>
+
+    <!--Biftor dialogs multi select and action-->
+    <string name="BiftorMultiSelect">Koʻp tanlovlilik ...</string>
+    <string name="BiftorAddToGroupOrChannel">Guruh/kanalga qoʻshish</string>
+    <string name="BiftorDeleteOrLeave">Oʻchirish/tark etish</string>
+    <string name="BiftorDeleteCacheOrDeleteFromCache">Kesh/tarixni tozalash</string>
+    <string name="BiftorAreYouSureDeleteCache">%1$s ta tanlangan\n\nDiqqat: bu shaxsiy chatlar tarixini tozalaydi!\n\nDavom etasizmi?</string>
+    <string name="BiftorAreYouSureDeleteChat">%1$s ta tanlangan\n\nChatni yoʻq qilib, tark etasizmi?</string>
+    <string name="BiftorMultiSelectAddToTheGroupTitle">%2$sga %1$sni qoʻshasizmi?</string>
+
+    <!--Biftor open avatar photo everywhere-->
+    <string name="BiftorOpenAvatarPhoto">Avatarni bosganda ochish</string>
+    <string name="BiftorOpenAvatarPhotoSub">Kontakt rasmlari yoki guruh a’zolari avatari bosilganda ochiladi.</string>
+
+    <!--Biftor open video or GIF with external player-->
+    <string name="BiftorOpenVideoBy">Video ijro etgich</string>
+    <string name="BiftorDoYouWantPlayWithExPlayer">Video tashqi ilovada ochilsinmi?</string>
+    <string name="BiftorVideoPlayerAlwaysExternal">Doimo tashqi ilovada</string>
+    <string name="BiftorVideoPlayerAlwaysInternal">Ilovaning oʻzida</string>
+    <string name="BiftorVideoPlayerAlwaysAsk">Ochishdan oldin soʻrash</string>
+
+    <!--Biftor merge msg antiflood-->
+    <string name="BiftorMergeMsgsIntoOne">Xabarlarni birlashtirish</string>
+    <string name="BiftorMergeMsgsIntoOneSub">Koʻp joy olmaslik uchun ketma-ket joʻnatilgan xabarlar birlashtiriladi.</string>
+    <string name="BiftorMergeMsgsTime">Birlashish uchun vaqt chegarasi</string>
+    <string name="BiftorMergeMsgsChars">Birlashadigan matnlar uzunligi</string>
+    <string name="BiftorMergeToastEnabled">Message merging enabled</string>
+    <string name="BiftorMergeToastDisabled">Message merging disabled</string>
+
+    <!--Biftor add ability to sort accounts-->
+    <string name="BiftorSortAccounts">Akkauntlar roʻyxati</string>
+    <string name="BiftorHideOffAccounts">Nofaollarni berkitish</string>
+    <string name="BiftorHideOffAccountsSub">Roʻyxatdagi nofaol akkauntlar koʻrsatilmaydi.</string>
+
+    <!--Biftor add ability to sort pinned dialogs-->
+    <string name="BiftorSortPinnedDialog">Biriktirilgan chatlar tartibi</string>
+
+    <!--Biftor added inviter-->
+    <string name="BiftorInvitedBy">%1$s qoʻshgan</string>
+    <string name="BiftorSelfJoined">havola orqali qoʻshilgan</string>
+
+    <!--Biftor change the application name and icon-->
+    <string name="BiftorAppNameAndIcon">Ilova ikonkasi</string>
+    <string name="BiftorUseBGram">BGram</string>
+    <string name="BiftorUseBifToGram">BifToGram</string>
+
+    <!--Biftor enter and exit animation -->
+    <string name="BiftorEnterAndExitAnim">Kirish/chiqish animatsiyasi</string>
+    <string name="BiftorEnterAndExitTelegramAnim">Telegram kabi</string>
+    <string name="BiftorEnterAndExitTelegramXAnim">Telegram X kabi</string>
+
+    <!--Biftor reorder the settings-->
+    <string name="BiftorPrivacyCat">Shaxsiylik</string>
+    <string name="BiftorSidebarCat">Bosh menyu</string>
+    <string name="BiftorFontPickerCat">Shrift tanlovi</string>
+    <string name="BiftorOthersCat">Boshqalar</string>
+
+    <string name="BiftorMain">Asosiy</string>
+    <string name="BiftorAppearance">Koʻrinish</string>
+    <string name="BiftorChatListCat">Chatlar roʻyxati</string>
+    <string name="BiftorTabsCat">Xatchoʻplar</string>
+    <string name="BiftorButtonsCat">Tugmalar</string>
+    <string name="BiftorBubblesCat">Xabarlar oqimi</string>
+
+    <!--Biftor customizable context menu-->
+    <string name="BiftorContextMenuCat">Konteks menyu</string>
+    <string name="BiftorMsgContextMenu">Xabar konteks menyusi</string>
+    <string name="BiftorMsgContextMenuSub">Odatiy holiga qaytarish uchun uzoq bosib turing</string>
+    <string name="BiftorSortMsgContextMenu">Xabar kontekst menyusini saralash</string>
+
+    <string name="BiftorChatting">Chat</string>
+    <string name="BiftorMsgMergingCat">Xabarlarni birlashtirish</string>
+    <string name="BiftorSendConfirmCat">Joʻnatishni tasdiqlash</string>
+    <string name="BiftorForwardPanelCat">Yoʻllash paneli</string>
+
+    <!--Biftor External language-->
+    <string name="BiftorLocalVersion">1</string>
+
+    <!--Biftor login with bot-->
+    <string name="BiftorLoginWithBotToKen">Token orqali kirish</string>
+    <string name="BiftorBotToken">Bot tokenini kiriting</string>
+    <string name="BiftorLoginWithBotInfo">Yangi botni @BotFather orqali tuzishingiz mumkin.\n\nBot bilan kirganingizda, botlarda mavjud boʻlgan barcha cheklovlarga ega boʻlasiz, jumladan:\n
 – Kontaktlaringizga kirishingiz mumkin emas.\n
 – Siz guruhlarga va kanallarga qoʻshila olmaysiz (agar administratorlar sizni qoʻshmasa).\n
 – Siz faqat \start buyrugʻi orqali foydalanuvchilarga yozishingiz mumkin.\n
 – Foydalanuvchilar Sizning xabarlaringizni qachon oʻqiganini koʻra olmaysiz.\n
 – Siz birinchi marta kirganingizda chat roʻyxati boʻsh boʻladi va bot foydalanuvchilar va guruhlardan xabarlar olganida toʻldiriladi. Guruhlarni aniqlash sekin boʻlishi mumkin.</string>
 
-	<!--Biftor Tor -->
-	<string name="BiftorTorStarting">TOR&#8230; orqali kirish</string>
-	<string name="BiftorTorActivated">TOR faol</string>
-	<string name="BiftorTorDisabled">TOR oʻchiq</string>
-	<string name="BiftorTorShuttingDown">TOR xizmatini toʻxtatish</string>
-	<string name="BiftorTorProcessStarting">Tor &#8230; kirmoqda</string>
-	<string name="BiftorTorProcessComplete">bajarildi.</string>
-	<string name="BiftorStopTor">«TOR»ni toʻxtatish</string>
-	<string name="BiftorCouldntStartTorProcess">Tor orqali kirib boʻlmadi: </string>
-	<string name="BiftorTorYourReachableAddressesException">Sizning mavjud manzillarga ruxsat mustasno holatda!</string>
-	<string name="BiftorTorYourRelaySettingsException">Qayta oʻgirish tanlovingiz mustasno holatda!</string>
-	<string name="BiftorTorUseBridges">Oʻtkazmalardan foydalanish</string>
-	<string name="BiftorFoundExistingTorProcess">Mavjud TOR &#8230; topildi</string>
-	<string name="BiftorTorSomethingBadHappened">Nimadir mos kelmadi.</string>
-	<string name="BiftorTorUnableToStartTor">Torni yoqib boʻlmadi</string>
-	<string name="BiftorTorNoInternetConnection">Internet bilan bogʻlanish imkoni yoʻq, Tor kutish rejimiga oʻtmoqda…</string>
-	<string name="BiftorTorNewnym">Yangi Tor identifikatorini oʻrnatdingiz!</string>
-	<string name="BiftorTorNoInternetConnectionSleep">Tarmoq bilan bogʻlanish yoʻq. Tor nofaollashmoqda...</string>
-	<string name="BiftorTorGoodInternetConnectionWakingUp">Tarmoqqa bogʻlanish oʻrnatildi. Tor kechikmoqda...</string>
-	<string name="BiftorUpdatingSettingsInTor">Tor xizmati tanlovini yangilash</string>
-	<string name="kbps">kbit\/s</string>
-	<string name="mbps">Mbit\/s</string>
-	<string name="kb">KB</string>
-	<string name="mb">MB</string>
-	<string name="BiftorTorDefaultWorld">Dunyo (avto)</string>
-	<string name="BiftorTorBridgeHints">Agar Mobil tarmogʻingiz faol Torni bloklagan boʻlsa, tarmoqqa kirish uchun aylanma Tor serverlaridan foydalanishingiz mumkin. Bir necha variantlardan birini tanlang va sinab koʻring.</string>
-	<string name="BiftorTorTestingBridges">Oʻtkazma orqali Tor bilan bogʻlanish sinalmoqda…</string>
-	<string name="BiftorTorTestingBridgesSuccess">Muvaffaqiyatli! Oʻtkazma toʻgʻri oʻrnatildi.</string>
-	<string name="BiftorTorTestingBridgesFail">MUVAFFAQIYATSIZ. Boshqa yoʻlini sinab koʻring.</string>
-	<string name="BiftorTorBridgesDirectConnect">«TOR»ga bevosita bogʻlanish (tavsiya etiladi)</string>
-	<string name="BiftorTorBridgesCommunity">Jamoaviy serverlar bilan bogʻlanish</string>
-	<string name="BiftorTorBridgesCloud">Aylanma serverlar bilan bogʻlanish</string>
-	<string name="BiftorTorBridgesGetNew">Yangi oʻtkazuvchini soʻrash</string>
-	<string name="BiftorTorBridgeInput">Ushbu oʻtkazuvchini kiriting</string>
-	<string name="BiftorTorTroubleConnecting">Bogʻlanishda muammolar bormi?</string>
-	<string name="BiftorTorNewIdentity">Yangi identifikator</string>
-	<string name="BiftorChangeSideBarProxyToTor">Proksi oʻrniga «Tor»ni yoqish</string>
-	<string name="BiftorUseTor">«TOR»dan foydalanish</string>
-	<string name="BiftorTor">TOR</string>
-	<string name="BiftorConnectingToTor">TOR bilan bogʻlanish</string>
-	<string name="BiftorTorSettings">Tor tanlovlari</string>
-	<string name="BiftorPersistNotification">Bildirgi yorligʻi</string>
-	<string name="BiftorStopTorWhenAppClosed">Chiqayotganda yopish</string>
-	<string name="BiftorStopTorWhenAppClosedSub">Ilovadan chiqayotganda TOR toʻxtatiladi.</string>
-	<string name="BiftorIsolateDest">Belgilangan manzillarni izolyatsiyalash</string>
-	<string name="BiftorIsolateDestSub">Belgilangan manzillarning har biri uchun alohida tanlovdan foydalanishingiz mumkin.</string>
-	<string name="BiftorPreferIpv6">IPv6 bogʻlanishini qoʻllash</string>
-	<string name="BiftorPreferIpv6Sub">IPv6 qoʻllanganda, xabarlarlar mavjud boʻladi.</string>
-	<string name="BiftorDisableIpv4">IPv4 bogʻlanishini bekor qilish</string>
-	<string name="BiftorDisableIpv4Sub">IPv4 manziliga bogʻlanganda, xabarlar mavjud boʻlmaydi.</string>
-	<string name="BiftorConnectionPadding">Bogʻlanish band</string>
-	<string name="BiftorConnectionPaddingSub">Doimo bogʻlanish bandligini amalga oshirgan holda, ayrim traffik tahliliga qarshi himoya yoqiladi. Standart holadi: avtomatik</string>
-	<string name="BiftorReducedConnectionPadding">Bogʻlanish bandligini kamaytirish</string>
-	<string name="BiftorReducedConnectionPaddingSub">Bogʻlanishni tezlashtirgan holda, uzatishni kamaytirib battareya sarfi tejab qolinadi.</string>
-	<string name="BiftorConnectTorWhenForNotify">Bildirgi qabul qilinganda, TOR rejimini yoqish</string>
-	<string name="BiftorGetBridgeFromGithub">Github orqali yangi oʻtilmani soʻrash</string>
-	<string name="BiftorTORModule">BGram TOR</string>
+    <!--Biftor Tor -->
+    <string name="BiftorTorStarting">TOR&#8230; orqali kirish</string>
+    <string name="BiftorTorActivated">TOR faol</string>
+    <string name="BiftorTorDisabled">TOR oʻchiq</string>
+    <string name="BiftorTorShuttingDown">TOR xizmatini toʻxtatish</string>
+    <string name="BiftorTorProcessStarting">Tor &#8230; kirmoqda</string>
+    <string name="BiftorTorProcessComplete">bajarildi.</string>
+    <string name="BiftorStopTor">«TOR»ni toʻxtatish</string>
+    <string name="BiftorCouldntStartTorProcess">Tor orqali kirib boʻlmadi: </string>
+    <string name="BiftorTorYourReachableAddressesException">Sizning mavjud manzillarga ruxsat mustasno holatda!</string>
+    <string name="BiftorTorYourRelaySettingsException">Qayta oʻgirish tanlovingiz mustasno holatda!</string>
+    <string name="BiftorTorUseBridges">Oʻtkazmalardan foydalanish</string>
+    <string name="BiftorFoundExistingTorProcess">Mavjud TOR &#8230; topildi</string>
+    <string name="BiftorTorSomethingBadHappened">Nimadir mos kelmadi.</string>
+    <string name="BiftorTorUnableToStartTor">Torni yoqib boʻlmadi</string>
+    <string name="BiftorTorNoInternetConnection">Internet bilan bogʻlanish imkoni yoʻq, Tor kutish rejimiga oʻtmoqda…</string>
+    <string name="BiftorTorNewnym">Yangi Tor identifikatorini oʻrnatdingiz!</string>
+    <string name="BiftorTorNoInternetConnectionSleep">Tarmoq bilan bogʻlanish yoʻq. Tor nofaollashmoqda...</string>
+    <string name="BiftorTorGoodInternetConnectionWakingUp">Tarmoqqa bogʻlanish oʻrnatildi. Tor kechikmoqda...</string>
+    <string name="BiftorUpdatingSettingsInTor">Tor xizmati tanlovini yangilash</string>
+    <string name="kbps">kbit\/s</string>
+    <string name="mbps">Mbit\/s</string>
+    <string name="kb">KB</string>
+    <string name="mb">MB</string>
+    <string name="BiftorTorDefaultWorld">Dunyo (avto)</string>
+    <string name="BiftorTorBridgeHints">Agar Mobil tarmogʻingiz faol Torni bloklagan boʻlsa, tarmoqqa kirish uchun aylanma Tor serverlaridan foydalanishingiz mumkin. Bir necha variantlardan birini tanlang va sinab koʻring.</string>
+    <string name="BiftorTorTestingBridges">Oʻtkazma orqali Tor bilan bogʻlanish sinalmoqda…</string>
+    <string name="BiftorTorTestingBridgesSuccess">Muvaffaqiyatli! Oʻtkazma toʻgʻri oʻrnatildi.</string>
+    <string name="BiftorTorTestingBridgesFail">MUVAFFAQIYATSIZ. Boshqa yoʻlini sinab koʻring.</string>
+    <string name="BiftorTorBridgesDirectConnect">«TOR»ga bevosita bogʻlanish (tavsiya etiladi)</string>
+    <string name="BiftorTorBridgesCommunity">Jamoaviy serverlar bilan bogʻlanish</string>
+    <string name="BiftorTorBridgesCloud">Aylanma serverlar bilan bogʻlanish</string>
+    <string name="BiftorTorBridgesGetNew">Yangi oʻtkazuvchini soʻrash</string>
+    <string name="BiftorTorBridgeInput">Ushbu oʻtkazuvchini kiriting</string>
+    <string name="BiftorTorTroubleConnecting">Bogʻlanishda muammolar bormi?</string>
+    <string name="BiftorTorNewIdentity">Yangi identifikator</string>
+    <string name="BiftorChangeSideBarProxyToTor">Proksi oʻrniga «Tor»ni yoqish</string>
+    <string name="BiftorUseTor">«TOR»dan foydalanish</string>
+    <string name="BiftorTor">TOR</string>
+    <string name="BiftorConnectingToTor">TOR bilan bogʻlanish</string>
+    <string name="BiftorTorSettings">Tor tanlovlari</string>
+    <string name="BiftorPersistNotification">Bildirgi yorligʻi</string>
+    <string name="BiftorStopTorWhenAppClosed">Chiqayotganda yopish</string>
+    <string name="BiftorStopTorWhenAppClosedSub">Ilovadan chiqayotganda TOR toʻxtatiladi.</string>
+    <string name="BiftorIsolateDest">Belgilangan manzillarni izolyatsiyalash</string>
+    <string name="BiftorIsolateDestSub">Belgilangan manzillarning har biri uchun alohida tanlovdan foydalanishingiz mumkin.</string>
+    <string name="BiftorPreferIpv6">IPv6 bogʻlanishini qoʻllash</string>
+    <string name="BiftorPreferIpv6Sub">IPv6 qoʻllanganda, xabarlarlar mavjud boʻladi.</string>
+    <string name="BiftorDisableIpv4">IPv4 bogʻlanishini bekor qilish</string>
+    <string name="BiftorDisableIpv4Sub">IPv4 manziliga bogʻlanganda, xabarlar mavjud boʻlmaydi.</string>
+    <string name="BiftorConnectionPadding">Bogʻlanish band</string>
+    <string name="BiftorConnectionPaddingSub">Doimo bogʻlanish bandligini amalga oshirgan holda, ayrim traffik tahliliga qarshi himoya yoqiladi. Standart holadi: avtomatik</string>
+    <string name="BiftorReducedConnectionPadding">Bogʻlanish bandligini kamaytirish</string>
+    <string name="BiftorReducedConnectionPaddingSub">Bogʻlanishni tezlashtirgan holda, uzatishni kamaytirib battareya sarfi tejab qolinadi.</string>
+    <string name="BiftorConnectTorWhenForNotify">Bildirgi qabul qilinganda, TOR rejimini yoqish</string>
+    <string name="BiftorGetBridgeFromGithub">Github orqali yangi oʻtilmani soʻrash</string>
+    <string name="BiftorTORModule">BGram TOR</string>
 
-	<!--Biftor custom tabs-->
-	<string name="BiftorNewTab">Yangi xatchoʻp</string>
-	<string name="BiftorTabName">Sarlavha</string>
-	<string name="BiftorTabNameHint">Nom bering</string>
-	<string name="BiftorTabIcon">Ikonka</string>
-	<string name="BiftorAddToCustomTabs">Foydalanuvchiga qoʻshish</string>
-	<string name="BiftorDeleteFromCustomTabs">Foydalanuvchidan oʻchirish</string>
-	<string name="BiftorNoNameError">Nomsiz xatchoʻp yaratib boʻlmaydi.</string>
-	<string name="BiftorCustomTabEndReach">50 tagacha xatchoʻp yaratsa boʻladi</string>
-	<string name="BiftorCleanCustomTabWarning">%1$s nomli xatchoʻpni oʻchirib tashlaysizmi?</string>
-	<string name="BiftorTabIconSize">Xatchoʻp yorligʻi oʻlchami</string>
-	<string name="BiftorTabIconTextIcon">Yorliq matni</string>
-	<string name="BiftorTabIconTextIconEnter">Matn kiriting</string>
-	<string name="BiftorRemoveExtraIconWarning">**%1$s** yorliq oʻchirib tashlansinmi?</string>
-	<string name="BiftorRemoveAllExtraIconWarning">Barcha foydalanuvchi yorliqlari oʻchirib tashlansinmi?</string>
-	<string name="BiftorMultiSelectEndReach">**%1$s** tadan ortiq elementni tanlay olmaysiz.</string>
-	<string name="BiftorHideCustomTabChatsFrom">Quyidagiga qoʻshilganda, berkitish</string>
-	<string name="BiftorHideCustomTabChatsFromUser">Foydalanuvchi</string>
-	<string name="BiftorHideCustomTabChatsFromGroups">Guruhlar</string>
-	<string name="BiftorHideCustomTabChatsFromChannel">Kanallar</string>
-	<string name="BiftorHideCustomTabChatsFromSupperGroups">Superguruhlar</string>
-	<string name="BiftorHideCustomTabChatsFromBots">Botlar</string>
-	<string name="BiftorHideCustomTabChatsFromAllGroups">Barcha guruhlar</string>
-	<string name="BiftorHideCustomTabChatsFromAll">Barcha xatchoʻplar</string>
-	<string name="BiftorDontHideCustomTabChats">Berkitmaslik</string>
-	<string name="BiftorMayNeedsToRestart">Qayta yuklashga toʻgʻri keladi</string>
-	<string name="BiftorAllowSyncExtraFolders">Qoʻshimcha jildlarni sinxronlashga ruxsat berish</string>
-	<string name="BiftorAllowSyncExtraFoldersSub">Agar Sizda 10 dan ortiq jild boʻlsa, jildlarni serverga sinxronlashni oʻchirib qoʻyishingiz kerak boʻladi, chunki u qoʻshimcha jildlarni yoʻq qilishi yoki jildning tartibini oʻzgartirishi mumkin.</string>
+    <!--Biftor custom tabs-->
+    <string name="BiftorNewTab">Yangi xatchoʻp</string>
+    <string name="BiftorTabName">Sarlavha</string>
+    <string name="BiftorTabNameHint">Nom bering</string>
+    <string name="BiftorTabIcon">Ikonka</string>
+    <string name="BiftorAddToCustomTabs">Foydalanuvchiga qoʻshish</string>
+    <string name="BiftorDeleteFromCustomTabs">Foydalanuvchidan oʻchirish</string>
+    <string name="BiftorNoNameError">Nomsiz xatchoʻp yaratib boʻlmaydi.</string>
+    <string name="BiftorCustomTabEndReach">50 tagacha xatchoʻp yaratsa boʻladi</string>
+    <string name="BiftorCleanCustomTabWarning">%1$s nomli xatchoʻpni oʻchirib tashlaysizmi?</string>
+    <string name="BiftorTabIconSize">Xatchoʻp yorligʻi oʻlchami</string>
+    <string name="BiftorTabIconTextIcon">Yorliq matni</string>
+    <string name="BiftorTabIconTextIconEnter">Matn kiriting</string>
+    <string name="BiftorRemoveExtraIconWarning">**%1$s** yorliq oʻchirib tashlansinmi?</string>
+    <string name="BiftorRemoveAllExtraIconWarning">Barcha foydalanuvchi yorliqlari oʻchirib tashlansinmi?</string>
+    <string name="BiftorMultiSelectEndReach">**%1$s** tadan ortiq elementni tanlay olmaysiz.</string>
+    <string name="BiftorHideCustomTabChatsFrom">Quyidagiga qoʻshilganda, berkitish</string>
+    <string name="BiftorHideCustomTabChatsFromUser">Foydalanuvchi</string>
+    <string name="BiftorHideCustomTabChatsFromGroups">Guruhlar</string>
+    <string name="BiftorHideCustomTabChatsFromChannel">Kanallar</string>
+    <string name="BiftorHideCustomTabChatsFromSupperGroups">Superguruhlar</string>
+    <string name="BiftorHideCustomTabChatsFromBots">Botlar</string>
+    <string name="BiftorHideCustomTabChatsFromAllGroups">Barcha guruhlar</string>
+    <string name="BiftorHideCustomTabChatsFromAll">Barcha xatchoʻplar</string>
+    <string name="BiftorDontHideCustomTabChats">Berkitmaslik</string>
+    <string name="BiftorMayNeedsToRestart">Qayta yuklashga toʻgʻri keladi</string>
+    <string name="BiftorAllowSyncExtraFolders">Qoʻshimcha jildlarni sinxronlashga ruxsat berish</string>
+    <string name="BiftorAllowSyncExtraFoldersSub">Agar Sizda 10 dan ortiq jild boʻlsa, jildlarni serverga sinxronlashni oʻchirib qoʻyishingiz kerak boʻladi, chunki u qoʻshimcha jildlarni yoʻq qilishi yoki jildning tartibini oʻzgartirishi mumkin.</string>
 
-	<!-- Biftor goto msg for all chats-->
-	<string name="BiftorMentionMsg">Xabar ID kodi</string>
-	<string name="BiftorMentionMsgGoto">\»»</string>
-	<string name="BiftorGoToLinkChatNotFound">Havola topilmadi. **%1$s** chatlaringiz roʻyxatida yoʻq.</string>
-	<string name="BiftorGoToLinkInvalidLink">Havola notoʻgʻri</string>
+    <!-- Biftor goto msg for all chats-->
+    <string name="BiftorMentionMsg">Xabar ID kodi</string>
+    <string name="BiftorMentionMsgGoto">\»»</string>
+    <string name="BiftorGoToLinkChatNotFound">Havola topilmadi. **%1$s** chatlaringiz roʻyxatida yoʻq.</string>
+    <string name="BiftorGoToLinkInvalidLink">Havola notoʻgʻri</string>
 
-	<!-- Biftor goto msg for all chats-->
-	<string name="BiftorDisableVoiceProximitySensor">Dinamik almashinuvini taqiqlash</string>
-	<string name="BiftorDisableVoiceProximitySensorSub">Old dinamikni yaqinlashtirganda, ovoz faol holatda boʻlmaydi.</string>
+    <!-- Biftor goto msg for all chats-->
+    <string name="BiftorDisableVoiceProximitySensor">Dinamik almashinuvini taqiqlash</string>
+    <string name="BiftorDisableVoiceProximitySensorSub">Old dinamikni yaqinlashtirganda, ovoz faol holatda boʻlmaydi.</string>
 
-	<!-- Biftor custom user mention-->
-	<string name="BiftorCustomUserMention">Tasodifiy matn bilan saqlab qolish</string>
-	<string name="BiftorUserMentionListLongTap">Bildirgini nomi boʻyicha joylashtirish</string>
-	<string name="BiftorUserMentionListLongTapSub">Guruhga \@ kiritgandan keyingi qalquvchi roʻyxatdagi nomni uzoq bosib turish amali</string>
-	<string name="BiftorUserMentionInsertName">Nom qoʻyish</string>
-	<string name="BiftorUserMentionInsertCustomName">Bildirgi matnini tahrirlash</string>
-	<string name="BiftorCustomUserMentionName">Bildirgi matni</string>
-	<string name="BiftorCustomUserMentionId">Foydalanuvchi ID kodi</string>
-	<string name="BiftorCustomUserMentionError">ID kodi topilmadi, foydalanuvchi profilidan uni nusxalang.</string>
+    <!-- Biftor custom user mention-->
+    <string name="BiftorCustomUserMention">Tasodifiy matn bilan saqlab qolish</string>
+    <string name="BiftorUserMentionListLongTap">Bildirgini nomi boʻyicha joylashtirish</string>
+    <string name="BiftorUserMentionListLongTapSub">Guruhga \@ kiritgandan keyingi qalquvchi roʻyxatdagi nomni uzoq bosib turish amali</string>
+    <string name="BiftorUserMentionInsertName">Nom qoʻyish</string>
+    <string name="BiftorUserMentionInsertCustomName">Bildirgi matnini tahrirlash</string>
+    <string name="BiftorCustomUserMentionName">Bildirgi matni</string>
+    <string name="BiftorCustomUserMentionId">Foydalanuvchi ID kodi</string>
+    <string name="BiftorCustomUserMentionError">ID kodi topilmadi, foydalanuvchi profilidan uni nusxalang.</string>
 
-	<!-- Biftor save to chat folder-->
-	<string name="BiftorSaveToChatFolder">Chatlar jildiga saqlash</string>
+    <!-- Biftor save to chat folder-->
+    <string name="BiftorSaveToChatFolder">Chatlar jildiga saqlash</string>
 
-	<!--Biftor keep screen on -->
-	<string name="BiftorKeepScreenOn">Displeyni faol qilib turish</string>
-	<string name="BiftorKeepScreenOnSub">Ilova ochiq boʻlganda, displey yoniq turadi.</string>
+    <!--Biftor keep screen on -->
+    <string name="BiftorKeepScreenOn">Displeyni faol qilib turish</string>
+    <string name="BiftorKeepScreenOnSub">Ilova ochiq boʻlganda, displey yoniq turadi.</string>
 
-	<!--Biftor Drawer Menu to Avatar -->
-	<string name="BiftorChangeDrawerMenuToAvatar">Menyuda avatarni koʻrsatish</string>
-	<string name="BiftorChangeDrawerMenuToAvatarSub">Menyu tugmalari panelida avatar koʻrsatiladi.</string>
+    <!--Biftor Drawer Menu to Avatar -->
+    <string name="BiftorChangeDrawerMenuToAvatar">Menyuda avatarni koʻrsatish</string>
+    <string name="BiftorChangeDrawerMenuToAvatarSub">Menyu tugmalari panelida avatar koʻrsatiladi.</string>
 
-	<string name="BiftorQuoteForward">«Uzatish»</string>
-	<string name="BiftorChannelDiscuss">Muhokamaga</string>
+    <string name="BiftorQuoteForward">«Uzatish»</string>
+    <string name="BiftorChannelDiscuss">Muhokamaga</string>
 
-	<!--Biftor Translate-->
-	<string name="BiftorTranslate">Tarjima qilish</string>
-	<string name="BiftorTranslateKeySave">Kalitni saqlash</string>
-	<string name="BiftorTranslateYandexKey">Yandex tarjimon kaliti</string>
-	<string name="BiftorTranslateYouNeedYandexAPIKey">Yandex API kaliti boʻsh, Yandex tarjimon API kalitini tasdiqlashingiz kerak</string>
-	<string name="BiftorTranslateAllLanguage">Barcha tillar</string>
-	<string name="BiftorTranslateRecently">Oxirgi qoʻllangan til</string>
-	<string name="BiftorTranslateClearRecently">Oxirgi marta tarjima qilingan til oʻchirib tashlansinmi?</string>
-	<string name="BiftorTranslateDefaultTarget">Standart Til</string>
-	<string name="BiftorUndoTranslation">Tarjimani bekor qilish</string>
-	<string name="BiftorResetTranslation">Standart tarjima</string>
-	<string name="BiftorTranslateSettings">Tarjima tanlovlari</string>
-	<string name="BiftorTranslateSource">Tarjima qilish manbai</string>
-	<string name="BiftorTranslateSourceGoogle">Google</string>
-	<string name="BiftorTranslateSourceYandex">Yandex</string>
-	<string name="BiftorTranslateEnterText">Matn kiriting</string>
-	<string name="BiftorTranslateEnterTextEmpty">Tarjima qilish uchun matn kiriting</string>
-	<string name="BiftorTranslateAUTO_DETECT">Avtomatik aniqlash</string>
-	<string name="BiftorTranslateAFRIKAANS">AFRIKAANSCHA</string>
-	<string name="BiftorTranslateALBANIAN">ALBANCHA</string>
-	<string name="BiftorTranslateARABIC">ARABCHA</string>
-	<string name="BiftorTranslateARMENIAN">ARMANCHA</string>
-	<string name="BiftorTranslateAZERBAIJANI">OZARCHA</string>
-	<string name="BiftorTranslateBASQUE">BASKCHA</string>
-	<string name="BiftorTranslateBELARUSIAN">BELORUSCHA</string>
-	<string name="BiftorTranslateBENGALI">BENGALCHA</string>
-	<string name="BiftorTranslateBULGARIAN">BOLGARCHA</string>
-	<string name="BiftorTranslateCATALAN">KATALONCHA</string>
-	<string name="BiftorTranslateCHINESE">XITOYCHA</string>
-	<string name="BiftorTranslateCROATIAN">XORVATCHA</string>
-	<string name="BiftorTranslateCZECH">CHEXCHA</string>
-	<string name="BiftorTranslateDANISH">DANCHA</string>
-	<string name="BiftorTranslateDUTCH">GOLLANDCHA</string>
-	<string name="BiftorTranslateENGLISH">INGLIZCHA</string>
-	<string name="BiftorTranslateESTONIAN">ESTONCHA</string>
-	<string name="BiftorTranslateFILIPINO">FILIPINCHA</string>
-	<string name="BiftorTranslateFINNISH">FINCHA</string>
-	<string name="BiftorTranslateFRENCH">FRANSUZCHA</string>
-	<string name="BiftorTranslateGALICIAN">GALCHA</string>
-	<string name="BiftorTranslateGEORGIAN">GURUZINCHA</string>
-	<string name="BiftorTranslateGERMAN">NEMISCHA</string>
-	<string name="BiftorTranslateGREEK">GREKCHA</string>
-	<string name="BiftorTranslateGUJARATI">GUJAROTCHA</string>
-	<string name="BiftorTranslateHAITIAN_CREOLE">GAITI KREOLCHASI</string>
-	<string name="BiftorTranslateHEBREW">YAHUDIYCHA</string>
-	<string name="BiftorTranslateHINDI">HINDIYCHA</string>
-	<string name="BiftorTranslateHUNGARIAN">VENGERCHA</string>
-	<string name="BiftorTranslateICELANDIC">ISLANDCHA</string>
-	<string name="BiftorTranslateINDONESIAN">INDONEZCHA</string>
-	<string name="BiftorTranslateIRISH">IRLANDCHA</string>
-	<string name="BiftorTranslateITALIAN">ITALYANCHA</string>
-	<string name="BiftorTranslateJAPANESE">YAPONCHA</string>
-	<string name="BiftorTranslateKANNADA">KANNADA</string>
-	<string name="BiftorTranslateKAZAKH">QOZOQCHA</string>
-	<string name="BiftorTranslateKOREAN">KOREYSCHA</string>
-	<string name="BiftorTranslateLATIN">LOTINCHA</string>
-	<string name="BiftorTranslateLATVIAN">LATISHCHA</string>
-	<string name="BiftorTranslateLITHUANIAN">LITVANCHA</string>
-	<string name="BiftorTranslateMACEDONIAN">MAKEDONCHA</string>
-	<string name="BiftorTranslateMALAY">MALAYCHA</string>
-	<string name="BiftorTranslateMALTESE">MALTACHA</string>
-	<string name="BiftorTranslateNORWEGIAN">NORVEGCHA</string>
-	<string name="BiftorTranslatePERSIAN">FORSCHA</string>
-	<string name="BiftorTranslatePOLISH">POLYAKCHA</string>
-	<string name="BiftorTranslatePORTUGUESE">PORTUGALCHA</string>
-	<string name="BiftorTranslateROMANIAN">RUMINCHA</string>
-	<string name="BiftorTranslateRUSSIAN">RUSCHA</string>
-	<string name="BiftorTranslateSERBIAN">SERBCHA</string>
-	<string name="BiftorTranslateSLOVAK">SLOVAKCHA</string>
-	<string name="BiftorTranslateSLOVENIAN">SLOVENCHA</string>
-	<string name="BiftorTranslateSPANISH">ISPANCHA</string>
-	<string name="BiftorTranslateSWAHILI">SVAHILICHA</string>
-	<string name="BiftorTranslateSWEDISH">SHVEDCHA</string>
-	<string name="BiftorTranslateTAMIL">TAMILCHA</string>
-	<string name="BiftorTranslateTELUGU">TELUGUCHA</string>
-	<string name="BiftorTranslateTHAI">TAILANDCHA</string>
-	<string name="BiftorTranslateTURKISH">TURKCHA</string>
-	<string name="BiftorTranslateUKRAINIAN">UKRAINCHA</string>
-	<string name="BiftorTranslateURDU">URDUCHA</string>
-	<string name="BiftorTranslateUZBEK">OʻZBEKCHA</string>
-	<string name="BiftorTranslateVIETNAMESE">VETNAMCHA</string>
-	<string name="BiftorTranslateWELSH">UELSCHA</string>
-	<string name="BiftorTranslateYIDDISH">IDDISHCHA</string>
-	<string name="BiftorTranslateCHINESE_SIMPLIFIED">XITOY SODDA</string>
-	<string name="BiftorTranslateCHINESE_TRADITIONAL">XITOY ANʼANAVIY</string>
+    <!--Biftor Translate-->
+    <string name="BiftorTranslate">Tarjima qilish</string>
+    <string name="BiftorTranslateKeySave">Kalitni saqlash</string>
+    <string name="BiftorTranslateYandexKey">Yandex tarjimon kaliti</string>
+    <string name="BiftorTranslateYouNeedYandexAPIKey">Yandex API kaliti boʻsh, Yandex tarjimon API kalitini tasdiqlashingiz kerak</string>
+    <string name="BiftorTranslateAllLanguage">Barcha tillar</string>
+    <string name="BiftorTranslateRecently">Oxirgi qoʻllangan til</string>
+    <string name="BiftorTranslateClearRecently">Oxirgi marta tarjima qilingan til oʻchirib tashlansinmi?</string>
+    <string name="BiftorTranslateDefaultTarget">Standart Til</string>
+    <string name="BiftorUndoTranslation">Tarjimani bekor qilish</string>
+    <string name="BiftorResetTranslation">Standart tarjima</string>
+    <string name="BiftorTranslateSettings">Tarjima tanlovlari</string>
+    <string name="BiftorTranslateSource">Tarjima qilish manbai</string>
+    <string name="BiftorTranslateSourceGoogle">Google</string>
+    <string name="BiftorTranslateSourceYandex">Yandex</string>
+    <string name="BiftorTranslateEnterText">Matn kiriting</string>
+    <string name="BiftorTranslateEnterTextEmpty">Tarjima qilish uchun matn kiriting</string>
+    <string name="BiftorTranslateAUTO_DETECT">Avtomatik aniqlash</string>
+    <string name="BiftorTranslateAFRIKAANS">AFRIKAANSCHA</string>
+    <string name="BiftorTranslateALBANIAN">ALBANCHA</string>
+    <string name="BiftorTranslateARABIC">ARABCHA</string>
+    <string name="BiftorTranslateARMENIAN">ARMANCHA</string>
+    <string name="BiftorTranslateAZERBAIJANI">OZARCHA</string>
+    <string name="BiftorTranslateBASQUE">BASKCHA</string>
+    <string name="BiftorTranslateBELARUSIAN">BELORUSCHA</string>
+    <string name="BiftorTranslateBENGALI">BENGALCHA</string>
+    <string name="BiftorTranslateBULGARIAN">BOLGARCHA</string>
+    <string name="BiftorTranslateCATALAN">KATALONCHA</string>
+    <string name="BiftorTranslateCHINESE">XITOYCHA</string>
+    <string name="BiftorTranslateCROATIAN">XORVATCHA</string>
+    <string name="BiftorTranslateCZECH">CHEXCHA</string>
+    <string name="BiftorTranslateDANISH">DANCHA</string>
+    <string name="BiftorTranslateDUTCH">GOLLANDCHA</string>
+    <string name="BiftorTranslateENGLISH">INGLIZCHA</string>
+    <string name="BiftorTranslateESTONIAN">ESTONCHA</string>
+    <string name="BiftorTranslateFILIPINO">FILIPINCHA</string>
+    <string name="BiftorTranslateFINNISH">FINCHA</string>
+    <string name="BiftorTranslateFRENCH">FRANSUZCHA</string>
+    <string name="BiftorTranslateGALICIAN">GALCHA</string>
+    <string name="BiftorTranslateGEORGIAN">GURUZINCHA</string>
+    <string name="BiftorTranslateGERMAN">NEMISCHA</string>
+    <string name="BiftorTranslateGREEK">GREKCHA</string>
+    <string name="BiftorTranslateGUJARATI">GUJAROTCHA</string>
+    <string name="BiftorTranslateHAITIAN_CREOLE">GAITI KREOLCHASI</string>
+    <string name="BiftorTranslateHEBREW">YAHUDIYCHA</string>
+    <string name="BiftorTranslateHINDI">HINDIYCHA</string>
+    <string name="BiftorTranslateHUNGARIAN">VENGERCHA</string>
+    <string name="BiftorTranslateICELANDIC">ISLANDCHA</string>
+    <string name="BiftorTranslateINDONESIAN">INDONEZCHA</string>
+    <string name="BiftorTranslateIRISH">IRLANDCHA</string>
+    <string name="BiftorTranslateITALIAN">ITALYANCHA</string>
+    <string name="BiftorTranslateJAPANESE">YAPONCHA</string>
+    <string name="BiftorTranslateKANNADA">KANNADA</string>
+    <string name="BiftorTranslateKAZAKH">QOZOQCHA</string>
+    <string name="BiftorTranslateKOREAN">KOREYSCHA</string>
+    <string name="BiftorTranslateLATIN">LOTINCHA</string>
+    <string name="BiftorTranslateLATVIAN">LATISHCHA</string>
+    <string name="BiftorTranslateLITHUANIAN">LITVANCHA</string>
+    <string name="BiftorTranslateMACEDONIAN">MAKEDONCHA</string>
+    <string name="BiftorTranslateMALAY">MALAYCHA</string>
+    <string name="BiftorTranslateMALTESE">MALTACHA</string>
+    <string name="BiftorTranslateNORWEGIAN">NORVEGCHA</string>
+    <string name="BiftorTranslatePERSIAN">FORSCHA</string>
+    <string name="BiftorTranslatePOLISH">POLYAKCHA</string>
+    <string name="BiftorTranslatePORTUGUESE">PORTUGALCHA</string>
+    <string name="BiftorTranslateROMANIAN">RUMINCHA</string>
+    <string name="BiftorTranslateRUSSIAN">RUSCHA</string>
+    <string name="BiftorTranslateSERBIAN">SERBCHA</string>
+    <string name="BiftorTranslateSLOVAK">SLOVAKCHA</string>
+    <string name="BiftorTranslateSLOVENIAN">SLOVENCHA</string>
+    <string name="BiftorTranslateSPANISH">ISPANCHA</string>
+    <string name="BiftorTranslateSWAHILI">SVAHILICHA</string>
+    <string name="BiftorTranslateSWEDISH">SHVEDCHA</string>
+    <string name="BiftorTranslateTAMIL">TAMILCHA</string>
+    <string name="BiftorTranslateTELUGU">TELUGUCHA</string>
+    <string name="BiftorTranslateTHAI">TAILANDCHA</string>
+    <string name="BiftorTranslateTURKISH">TURKCHA</string>
+    <string name="BiftorTranslateUKRAINIAN">UKRAINCHA</string>
+    <string name="BiftorTranslateURDU">URDUCHA</string>
+    <string name="BiftorTranslateUZBEK">OʻZBEKCHA</string>
+    <string name="BiftorTranslateVIETNAMESE">VETNAMCHA</string>
+    <string name="BiftorTranslateWELSH">UELSCHA</string>
+    <string name="BiftorTranslateYIDDISH">IDDISHCHA</string>
+    <string name="BiftorTranslateCHINESE_SIMPLIFIED">XITOY SODDA</string>
+    <string name="BiftorTranslateCHINESE_TRADITIONAL">XITOY ANʼANAVIY</string>
 
-	<!--Biftor delete from recent search-->
-	<string name="BiftorDeleteRecentSearchItem">Siz **%1$s**ni soʻnggi izlanganlar roʻyxatidan olib tashlamoqchimisiz?</string>
+    <!--Biftor delete from recent search-->
+    <string name="BiftorDeleteRecentSearchItem">Siz **%1$s**ni soʻnggi izlanganlar roʻyxatidan olib tashlamoqchimisiz?</string>
 
 
-	<string name="BiftorDrawerContactAndGroup">Chatlar</string>
+    <string name="BiftorDrawerContactAndGroup">Chatlar</string>
 
-	<!--Biftor floating new msg-->
-	<string name="BiftorChangeToSaveMsg">Saqlangan xabarlarga oʻtkazish</string>
-	<string name="BiftorChangeToSaveMsgSub">«Qalamcha» tugmasi «Bulutcha» tugmasiga oʻzgartiriladi.</string>
+    <!--Biftor floating new msg-->
+    <string name="BiftorChangeToSaveMsg">Saqlangan xabarlarga oʻtkazish</string>
+    <string name="BiftorChangeToSaveMsgSub">«Qalamcha» tugmasi «Bulutcha» tugmasiga oʻzgartiriladi.</string>
 
-	<string name="BiftorShow">Koʻrsatish</string>
-	<string name="BiftorShowFolder">Jildni koʻrsatish</string>
-	<string name="BiftorHideFolder">Jildni berkitish</string>
-	<string name="BiftorHideFolderAreYouSure">Ushbu jild berkitilsinmi?</string>
-	<string name="BiftorShowFolderAreYouSure">Ushbu jild koʻrsatilsinmi?</string>
-	<!--Biftor internal updater-->
-	<string name="BiftorSkipUpdate">Rad etish</string>
-	<string name="BiftorRemindTomorrow">Ertaga</string>
-	<string name="BiftorUpdateIsAvailable">**(%1$s)** yangi versiyasi mavjud</string>
-	<string name="BiftorCheckForUpdate">Tekshirib koʻrish</string>
-	<string name="BiftorDownloadLatestVersion">Yuklab olish</string>
-	<string name="BiftorUpdateFileExists">Yangi versiya koʻchirib olindi va u \n%s joylashgan.\nUni qaytadan yuklab olmoqchimisiz?</string>
-	<string name="BiftorUpdateHaveLatestVersion">Tabriklaymiz Sizda eng soʻnggi versiya oʻrnatilgan!</string>
+    <string name="BiftorShow">Koʻrsatish</string>
+    <string name="BiftorShowFolder">Jildni koʻrsatish</string>
+    <string name="BiftorHideFolder">Jildni berkitish</string>
+    <string name="BiftorHideFolderAreYouSure">Ushbu jild berkitilsinmi?</string>
+    <string name="BiftorShowFolderAreYouSure">Ushbu jild koʻrsatilsinmi?</string>
+    <!--Biftor internal updater-->
+    <string name="BiftorSkipUpdate">Rad etish</string>
+    <string name="BiftorRemindTomorrow">Ertaga</string>
+    <string name="BiftorUpdateIsAvailable">**(%1$s)** yangi versiyasi mavjud</string>
+    <string name="BiftorCheckForUpdate">Tekshirib koʻrish</string>
+    <string name="BiftorDownloadLatestVersion">Yuklab olish</string>
+    <string name="BiftorUpdateFileExists">Yangi versiya koʻchirib olindi va u \n%s joylashgan.\nUni qaytadan yuklab olmoqchimisiz?</string>
+    <string name="BiftorUpdateHaveLatestVersion">Tabriklaymiz Sizda eng soʻnggi versiya oʻrnatilgan!</string>
 
-	<!--Biftor direct chats-->
-	<string name="BiftorDirectChats">Doimiy chatlar</string>
-	<string name="BiftorSetAsDirectChats">Doimiy chatlarga oʻtkazish</string>
-	<string name="BiftorDirectChatsReset">Doimiy chatlarni yoʻq qilish</string>
-	<string name="BiftorDisplayDirectChats">Doimiy chatlar bunda koʻrinsin</string>
-	<string name="BiftorDisplayDirectChatsSide">Xatchoʻpda</string>
-	<string name="BiftorDisplayDirectChatsTab">Panelda</string>
-	<string name="BiftorDisplayDirectChatsSideTab">Yonpanel va xatchoʻp</string>
-	<string name="BiftorDirectChatsReorder">Doimiy chatlar tartibi</string>
-	<string name="BiftorShowDirectChatsInDrawer">Jildlar boʻlimida koʻrsatish</string>
-	<string name="BiftorAddToFav">Tanlanganlarga qoʻshish</string>
-	<string name="BiftorDeleteFromFav">Tanlanganlardan oʻchirish</string>
+    <!--Biftor direct chats-->
+    <string name="BiftorDirectChats">Doimiy chatlar</string>
+    <string name="BiftorSetAsDirectChats">Doimiy chatlarga oʻtkazish</string>
+    <string name="BiftorDirectChatsReset">Doimiy chatlarni yoʻq qilish</string>
+    <string name="BiftorDisplayDirectChats">Doimiy chatlar bunda koʻrinsin</string>
+    <string name="BiftorDisplayDirectChatsSide">Xatchoʻpda</string>
+    <string name="BiftorDisplayDirectChatsTab">Panelda</string>
+    <string name="BiftorDisplayDirectChatsSideTab">Yonpanel va xatchoʻp</string>
+    <string name="BiftorDirectChatsReorder">Doimiy chatlar tartibi</string>
+    <string name="BiftorShowDirectChatsInDrawer">Jildlar boʻlimida koʻrsatish</string>
+    <string name="BiftorAddToFav">Tanlanganlarga qoʻshish</string>
+    <string name="BiftorDeleteFromFav">Tanlanganlardan oʻchirish</string>
 
-	<string name="BiftorHideSponsorProxy">Homiyni berkitish</string>
-	<string name="BiftorHideSponsorProxySub">Chatlar roʻyxatida reklama koʻrsatilmaydi.</string>
+    <string name="BiftorHideSponsorProxy">Homiyni berkitish</string>
+    <string name="BiftorHideSponsorProxySub">Chatlar roʻyxatida reklama koʻrsatilmaydi.</string>
 
-	<!--Biftor shadow socks-->
-	<string name="BiftorPing">Ping</string>
-	<string name="BiftorProxyTypeShadowSocks">«ShadowSocks» proksisi</string>
-	<string name="BiftorProxyTypeShadowSocksR">«ShadowSocksR» proksisi</string>
-	<string name="BiftorProxyTypeVmess">«Vmess» proksisi</string>
-	<string name="BiftorProxyInfoSSR">«ShadowSocksR» proksisi tanlovlari</string>
-	<string name="BiftorProxyInfoSS">«ShadowSocks» proksisi tanlovlari</string>
-	<string name="BiftorProxyInfoVmess">«Vmess» proksisi tanlovlari</string>
-	<string name="BiftorShadowProxySponsor">Homiy</string>
+    <!--Biftor shadow socks-->
+    <string name="BiftorPing">Ping</string>
+    <string name="BiftorProxyTypeShadowSocks">«ShadowSocks» proksisi</string>
+    <string name="BiftorProxyTypeShadowSocksR">«ShadowSocksR» proksisi</string>
+    <string name="BiftorProxyTypeVmess">«Vmess» proksisi</string>
+    <string name="BiftorProxyInfoSSR">«ShadowSocksR» proksisi tanlovlari</string>
+    <string name="BiftorProxyInfoSS">«ShadowSocks» proksisi tanlovlari</string>
+    <string name="BiftorProxyInfoVmess">«Vmess» proksisi tanlovlari</string>
+    <string name="BiftorShadowProxySponsor">Homiy</string>
 
-	<string name="BiftorShadowSocksHelp">Yordam</string>
-	<string name="BiftorImportProxy">Havoladan olish</string>
-	<string name="BiftorConnection">Ulanish vaqti: %1$d ms</string>
+    <string name="BiftorShadowSocksHelp">Yordam</string>
+    <string name="BiftorImportProxy">Havoladan olish</string>
+    <string name="BiftorConnection">Ulanish vaqti: %1$d ms</string>
 
-	<string name="BiftorVmessUserId">Foydalanuvchi ID kodi</string>
-	<string name="BiftorVmessAlterId">Alter ID</string>
-	<string name="BiftorVmessSecurity">Himoya</string>
-	<string name="BiftorVmessNetwork">Tarmoq</string>
-	<string name="BiftorVmessHeadType">Asosiy turi</string>
-	<string name="BiftorVmessRequestHost">Host soʻrovi/QUIC Xavfsizlik</string>
-	<string name="BiftorVmessPath">Yoʻlak/QUICK kalit</string>
-	<string name="BiftorVmessTls">«TLS»dan foydalanish</string>
+    <string name="BiftorVmessUserId">Foydalanuvchi ID kodi</string>
+    <string name="BiftorVmessAlterId">Alter ID</string>
+    <string name="BiftorVmessSecurity">Himoya</string>
+    <string name="BiftorVmessNetwork">Tarmoq</string>
+    <string name="BiftorVmessHeadType">Asosiy turi</string>
+    <string name="BiftorVmessRequestHost">Host soʻrovi/QUIC Xavfsizlik</string>
+    <string name="BiftorVmessPath">Yoʻlak/QUICK kalit</string>
+    <string name="BiftorVmessTls">«TLS»dan foydalanish</string>
 
-	<string name="BiftorSSPassword">Parol</string>
-	<string name="BiftorSSMethod">Shifrlash uslubi</string>
-	<string name="BiftorSSPlugin">Plagin</string>
-	<string name="BiftorSSPluginOpts">Plagin tanlovi</string>
+    <string name="BiftorSSPassword">Parol</string>
+    <string name="BiftorSSMethod">Shifrlash uslubi</string>
+    <string name="BiftorSSPlugin">Plagin</string>
+    <string name="BiftorSSPluginOpts">Plagin tanlovi</string>
 
-	<string name="BiftorSSRProtocol">Protokol</string>
-	<string name="BiftorSSRProtocolParams">Protokol parametrlari</string>
-	<string name="BiftorSSRObfs">Obfs</string>
-	<string name="BiftorSSRObfsParam">«Obfs» parametrlari</string>
-	<string name="BiftorShadowSocksModule">Shadow socks</string>
-	<string name="BiftorStartShadowAsService">«ShadowSocks» xizmati</string>
-	<string name="BiftorStartShadowAsServiceSub">Ilova «ShadowSocks» xizmatidan foydalanadi.</string>
-	<string name="BiftorShadowSockServiceConnecting">«ShadowSocks» xizmati bogʻlanmoqda</string>
-	<string name="BiftorShadowSockServiceConnected">«ShadowSocks» xizmatiga kirilmoqda: %s</string>
-	<string name="BiftorShadowSockServiceStop">Toʻxtatish</string>
-	<string name="BiftorShadowSocksConfig">«ShadowSocks» tanlovlari</string>
-	<string name="BiftorStopShadowSocksWhenAppClosed">BGram yopilganda xizmatni toʻxtatish</string>
-	<string name="BiftorStopShadowSocksWhenAppClosedSub">«ShadowSocks» xizmati ilova yopilganda, agar uni oʻchirib qoʻysangiz, «ShadowSocks» yoqilganda, butun ilova yopilmaydi.</string>
+    <string name="BiftorSSRProtocol">Protokol</string>
+    <string name="BiftorSSRProtocolParams">Protokol parametrlari</string>
+    <string name="BiftorSSRObfs">Obfs</string>
+    <string name="BiftorSSRObfsParam">«Obfs» parametrlari</string>
+    <string name="BiftorShadowSocksModule">Shadow socks</string>
+    <string name="BiftorStartShadowAsService">«ShadowSocks» xizmati</string>
+    <string name="BiftorStartShadowAsServiceSub">Ilova «ShadowSocks» xizmatidan foydalanadi.</string>
+    <string name="BiftorShadowSockServiceConnecting">«ShadowSocks» xizmati bogʻlanmoqda</string>
+    <string name="BiftorShadowSockServiceConnected">«ShadowSocks» xizmatiga kirilmoqda: %s</string>
+    <string name="BiftorShadowSockServiceStop">Toʻxtatish</string>
+    <string name="BiftorShadowSocksConfig">«ShadowSocks» tanlovlari</string>
+    <string name="BiftorStopShadowSocksWhenAppClosed">BGram yopilganda xizmatni toʻxtatish</string>
+    <string name="BiftorStopShadowSocksWhenAppClosedSub">«ShadowSocks» xizmati ilova yopilganda, agar uni oʻchirib qoʻysangiz, «ShadowSocks» yoqilganda, butun ilova yopilmaydi.</string>
 
-	<!--Biftor ads-->
-	<string name="BiftorAdsTypeAdMob">AdMob</string>
-	<string name="BiftorAdsTypeCustom">Reklamalar</string>
-	<string name="BiftorAdsTitle">BGram reklamalari</string>
-	<string name="BiftorAdsSubTitle">orqali ilovani qoʻllab-quvvatlang</string>
-	<string name="BiftorAdsHideFor">reklamani %s berkitish</string>
+    <!--Biftor ads-->
+    <string name="BiftorAdsTypeAdMob">AdMob</string>
+    <string name="BiftorAdsTypeCustom">Reklamalar</string>
+    <string name="BiftorAdsTitle">BGram reklamalari</string>
+    <string name="BiftorAdsSubTitle">orqali ilovani qoʻllab-quvvatlang</string>
+    <string name="BiftorAdsHideFor">reklamani %s berkitish</string>
 
-	<!--Biftor times-->
-	<string name="BiftorHour">%s soatga</string>
-	<string name="BiftorHours">%s soatga</string>
-	<string name="BiftorDay">%s kunga</string>
-	<string name="BiftorDays">%s kunga</string>
+    <!--Biftor times-->
+    <string name="BiftorHour">%s soatga</string>
+    <string name="BiftorHours">%s soatga</string>
+    <string name="BiftorDay">%s kunga</string>
+    <string name="BiftorDays">%s kunga</string>
 
-	<!--Biftor send image as sticker-->
-	<string name="BiftorSendAsSticker">Stiker kabi joʻnatish</string>
-	<!--Biftor caption on sticker-->
-	<string name="BiftorSendStickerWithCaption">Stikerni sarlavha bilan joʻnatish</string>
-	<string name="BiftorShowStickerCaption">Stiker sarlavhasini koʻrsatish</string>
+    <!--Biftor send image as sticker-->
+    <string name="BiftorSendAsSticker">Stiker kabi joʻnatish</string>
+    <!--Biftor caption on sticker-->
+    <string name="BiftorSendStickerWithCaption">Stikerni sarlavha bilan joʻnatish</string>
+    <string name="BiftorShowStickerCaption">Stiker sarlavhasini koʻrsatish</string>
 
-	<!--Biftor message details-->
-	<string name="BiftorMessageDetails">Xabar tafsilotlari</string>
-	<string name="BiftorMessageDetailsTitle">Xabar tafsilotlari</string>
-	<string name="BiftorMessageDetailsText">Xabar</string>
-	<string name="BiftorMessageDetailsId">Xabar ID kodi</string>
-	<string name="BiftorMessageDetailsType">Xabar turi</string>
-	<string name="BiftorMessageDetailsStatus">Xabar holati</string>
-	<string name="BiftorMessageDetailsTime">Joʻnatilgan vaqti</string>
-	<string name="BiftorMessageDetailsEditTime">Tahrirlangan vaqti</string>
-	<string name="BiftorMessageDetailsDocumentName">Hujjat nomi</string>
-	<string name="BiftorMessageDetailsReplyMessage">Xabarga javob</string>
-	<string name="BiftorMessageDetailsReplyCount">Javoblar soni</string>
-	<string name="BiftorMessageDetailsCommentCount">Sharhlar soni</string>
-	<string name="BiftorMessageDetailsViewsCount">Koʻrishlar soni</string>
-	<string name="BiftorMessageDetailsReply">Javob</string>
-	<string name="BiftorMessageDetailsCopyContent">Nusxalash</string>
-	<string name="BiftorMessageDetailsForward">Uzatish</string>
+    <!--Biftor message details-->
+    <string name="BiftorMessageDetails">Xabar tafsilotlari</string>
+    <string name="BiftorMessageDetailsTitle">Xabar tafsilotlari</string>
+    <string name="BiftorMessageDetailsText">Xabar</string>
+    <string name="BiftorMessageDetailsId">Xabar ID kodi</string>
+    <string name="BiftorMessageDetailsType">Xabar turi</string>
+    <string name="BiftorMessageDetailsStatus">Xabar holati</string>
+    <string name="BiftorMessageDetailsTime">Joʻnatilgan vaqti</string>
+    <string name="BiftorMessageDetailsEditTime">Tahrirlangan vaqti</string>
+    <string name="BiftorMessageDetailsDocumentName">Hujjat nomi</string>
+    <string name="BiftorMessageDetailsReplyMessage">Xabarga javob</string>
+    <string name="BiftorMessageDetailsReplyCount">Javoblar soni</string>
+    <string name="BiftorMessageDetailsCommentCount">Sharhlar soni</string>
+    <string name="BiftorMessageDetailsViewsCount">Koʻrishlar soni</string>
+    <string name="BiftorMessageDetailsReply">Javob</string>
+    <string name="BiftorMessageDetailsCopyContent">Nusxalash</string>
+    <string name="BiftorMessageDetailsForward">Uzatish</string>
 </resources>

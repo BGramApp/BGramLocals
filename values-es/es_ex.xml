@@ -5272,7 +5272,7 @@
     <string name="BiftorForwardPanelCat">Panel de reenvío</string>
 
     <!--Biftor External language-->
-    <string name="BiftorLocalVersion">2</string>
+    <string name="BiftorLocalVersion">0</string>
 
     <!--Biftor login with bot-->
     <string name="BiftorLoginWithBotToKen">Login con token de bot</string>

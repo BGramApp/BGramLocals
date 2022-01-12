@@ -5279,7 +5279,7 @@
     <string name="BiftorForwardPanelCat">Yoʻllash paneli</string>
 
     <!--Biftor External language-->
-    <string name="BiftorLocalVersion">1</string>
+    <string name="BiftorLocalVersion">0</string>
 
     <!--Biftor login with bot-->
     <string name="BiftorLoginWithBotToKen">Token orqali kirish</string>

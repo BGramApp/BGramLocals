@@ -42,7 +42,7 @@
  <string name="BiftorTabsStyle">نمط علامة التبويب</string>
  <string name="BiftorVerticalTabsStyle">علامة التبويب عمودية</string>
  <string name="BiftorVerticalRightSideBarRound">الحواف</string>
- <string name="BiftorVerticalRightSideBarOnlyIcon">إظهار الايقونة فقط</string>
+ <string name="BiftorVerticalRightSideBarOnlyIcon">إظهار الأيقونة فقط</string>
  <string name="BiftorVerticalRightSideBarIconAndText">إظهار الايقونة والنص</string>
  <string name="BiftorVerticalRightSideBar">الشريط الجانبي الأيمن عمودي</string>
  <string name="BiftorRightSideAlwaysOpen">دائما مفتوح</string>
@@ -207,7 +207,7 @@
  <string name="Strikethrough">يتوسطه</string>
  <string name="BiftorPaste">لصق</string>
  <string name="BiftorSelectAll">تحديد الكل</string>
- <string name="BiftorQuotation">اقتبس</string>
+ <string name="BiftorQuotation">إقتبس</string>
  <string name="BiftorReply">رد</string>
  <string name="BiftorShare">شارك</string>
  <string name="BiftorUserMention">مستخدم</string>
@@ -379,13 +379,13 @@
  <!--Biftor mark on msg -->
  <string name="BiftorSetMarkOnMsg">وضع علامة على الرسالة</string>
  <string name="BiftorGoToMarkedMsg">الذهاب للرسالة التي عليها علامة</string>
- <string name="BiftorRemoveMarkedMsg">Remove marked message</string>
- <string name="BiftorRemoveAllMarkedMsg">Remove all marked message</string>
- <string name="BiftorMarkedMsg">Marked messages</string>
- <string name="BiftorMsgEmptyTextSearch">No message that contain \'**%1$s**\' have been found.</string>
- <string name="BiftorNoMsgs">No messages yet!</string>
- <string name="BiftorOrderByDateAdded">Order by date added</string>
- <string name="BiftorUpdateMarkMessages">Update marked messages</string>
+ <string name="BiftorRemoveMarkedMsg">حذف الرسالة المميزة</string>
+ <string name="BiftorRemoveAllMarkedMsg">حذف كل الرسائل المميزة</string>
+ <string name="BiftorMarkedMsg">الرسائل المميزة</string>
+ <string name="BiftorMsgEmptyTextSearch">لم يتم العثور على رسالة تحتوي على \'**%1$s**\'</string>
+ <string name="BiftorNoMsgs">لا رسائل بعد!</string>
+ <string name="BiftorOrderByDateAdded">تمت إضافة الطلب حسب التاريخ</string>
+ <string name="BiftorUpdateMarkMessages">تحديث الرسائل المميزة</string>
 
  <!--Biftor Font piker -->
  <string name="BiftorFontsPickerCat">منتقي الخطوط</string>
@@ -553,9 +553,9 @@
  <string name="BiftorBackUpMain">نسخ إحتياطي للإعدادات الرئيسية</string>
  <string name="BiftorBackUpFav">نسخ إحتياطي للمحادثات المفضلة</string>
  <string name="BiftorBackUpHidden">نسخ إحتياطي للمحادثات المخفية</string>
- <string name="BiftorBackUpFolders">Folders</string>
- <string name="BiftorBackUpMarkedMessages">Marked messages</string>
- <string name="BiftorBackUpFonts">Custom fonts</string>
+ <string name="BiftorBackUpFolders">المجلدات</string>
+ <string name="BiftorBackUpMarkedMessages">الرسائل المميزة</string>
+ <string name="BiftorBackUpFonts">خطوط مخصصة</string>
  <string name="BiftorBackUpAllAndSaveToCloud">نسخ إحتياطي للكل وحفظ بالسحابة</string>
  <string name="BiftorBackUpSuccessful">نجحت عملية النسخ الإحتياطي إلى:</string>
  <string name="BiftorBackUpUnSuccessful">نجحت عملية النسخ الإحتياطي!</string>
@@ -565,16 +565,16 @@
  <string name="BiftorRestoreMain">إستعادة الإعدادات الرئيسية</string>
  <string name="BiftorRestoreFav">إستعادة المحادثات المفضلة</string>
  <string name="BiftorRestoreHidden">إستعادة المحادثات المخفية</string>
- <string name="BiftorRestoreFolders">Folders</string>
- <string name="BiftorRestoreMarkedMessages">Marked messages</string>
+ <string name="BiftorRestoreFolders">المجلدات</string>
+ <string name="BiftorRestoreMarkedMessages">الرسائل المميزة</string>
 
  <string name="BiftorRestoreToDef">إستعادة إلى الافتراضي</string>
  <string name="BiftorRestoreGlobalToDef">استعادة الإعدادات العامة إلى الافتراضي</string>
  <string name="BiftorRestoreMainToDef">إستعادة قائمة الإعدادات الإفتراضية</string>
  <string name="BiftorRestoreFavToDef">إستعادة المحادثات المفضلة إلى ألإفتراضية</string>
  <string name="BiftorRestoreHiddenToDef">إستعادة المحادثات المخفية إلى الإفتراضية</string>
- <string name="BiftorRestoreDialogsFolderToDef">Restore dialog\'s folders to server default</string>
- <string name="BiftorRestoreMarkedMessagesToDef">Restore marked messages to default</string>
+ <string name="BiftorRestoreDialogsFolderToDef">إستعادة مجلدات الحوار إلى الخادم الافتراضي</string>
+ <string name="BiftorRestoreMarkedMessagesToDef">إستعادة الرسائل المميزة إلى الافتراضي</string>
 
  <string name="BiftorRestoreSuccessful">نجحت عملية الإستعادة!</string>
  <string name="BiftorRestoreUnSuccessful">نجحت عملية الإستعادة!</string>
@@ -605,7 +605,7 @@
  <string name="BiftorOpenVideoBy">فتح الفيديو بإستخدام</string>
  <string name="BiftorDoYouWantPlayWithExPlayer">هل تريد التشغيل بإستخدام مشغل خارجي؟</string>
  <string name="BiftorVideoPlayerAlwaysExternal">إفتح دائما بإستخدام مشغل خارجي</string>
- <string name="BiftorVideoPlayerAlwaysInternal">إفتح دائما بإستخدام المشغل الذاخلي</string>
+ <string name="BiftorVideoPlayerAlwaysInternal">إفتح دائما بإستخدام المشغل الداخلي</string>
  <string name="BiftorVideoPlayerAlwaysAsk">إسأل دائما</string>
 
  <!--Biftor merge msg anti flood-->
@@ -627,12 +627,12 @@
 
  <!--Biftor added inviter-->
  <string name="BiftorInvitedBy">دعوة%1$s</string>
- <string name="BiftorSelfJoined">انضم عن طريق الرابط</string>
+ <string name="BiftorSelfJoined">إنضم عن طريق الرابط</string>
 
  <!--Biftor enter and exit animation -->
- <string name="BiftorEnterAndExitAnim">الدخول / الخروج انيميشن</string>
+ <string name="BiftorEnterAndExitAnim">الدخول / الخروج أنيميشن</string>
  <string name="BiftorEnterAndExitTelegramAnim">تيليجرام</string>
- <string name="BiftorEnterAndExitTelegramXAnim">تيليجرام اكس</string>
+ <string name="BiftorEnterAndExitTelegramXAnim">تيليجرام إكس</string>
 
 
  <!--Biftor reorder the settings-->
@@ -682,22 +682,22 @@
  <string name="BiftorStopTor">إيقاف تور</string>
  <string name="BiftorCouldntStartTorProcess">لا يمكن بدء عملية تور: </string>
  <string name="BiftorTorYourReachableAddressesException">تسببت إعدادات العناوين التي يمكن الوصول إليها في حدوث إستثناء!</string>
- <string name="BiftorTorYourRelaySettingsException">تسببت إعدادات التناوب في حدوث استثناء!</string>
- <string name="BiftorTorUseBridges">استخدم الجسور</string>
+ <string name="BiftorTorYourRelaySettingsException">تسببت إعدادات التناوب في حدوث إستثناء!</string>
+ <string name="BiftorTorUseBridges">إستخدم الجسور</string>
  <string name="BiftorFoundExistingTorProcess">تم العثور على عملية جارية لتور&#8230;</string>
  <string name="BiftorTorSomethingBadHappened">حدث شيء ليس جيد ، تحقق من السجل</string>
  <string name="BiftorTorUnableToStartTor">غير قادر على تشغيل تور:</string>
- <string name="BiftorTorNoInternetConnection">لا يوجد اتصال بالإنترنت!  تور في وضع الاستعداد ...</string>
+ <string name="BiftorTorNoInternetConnection">لا يوجد إتصال بالإنترنت!  تور في وضع الإستعداد ...</string>
  <string name="BiftorTorNewnym">لقد تم التحويل الى هوية تور جديدة!</string>
- <string name="BiftorTorNoInternetConnectionSleep">لا يوجد اتصال بالانترنت!  تور دخل وضعية النوم...</string>
- <string name="BiftorTorGoodInternetConnectionWakingUp">اتصال الانترنت جيد. جاري إيقاظ تور...</string>
+ <string name="BiftorTorNoInternetConnectionSleep">لا يوجد إتصال بالانترنت!  تور دخل وضعية النوم...</string>
+ <string name="BiftorTorGoodInternetConnectionWakingUp">إتصال الإنترنت جيد. جاري إيقاظ تور...</string>
  <string name="BiftorUpdatingSettingsInTor">تحديث الإعدادات الخاصة بخدمة تور</string>
  <string name="kbps">كيلوبايت</string>
  <string name="mbps">ميغابايت</string>
  <string name="kb">كيلوبايت</string>
  <string name="mb">ميغابايت</string>
  <string name="BiftorTorDefaultWorld">عالمي (تلقائي)</string>
- <string name="BiftorTorBridgeHints">إذا كانت شبكتك المتنقلة تحظر بشكل فعال خدمة تور، فيمكنك استخدام  \'خادم الجسر \' كطريقة بديلة . حدد أحد الخيارات للتهيئة والاختبار ..</string>
+ <string name="BiftorTorBridgeHints">إذا كانت شبكتك المتنقلة تحظر بشكل فعال خدمة تور، فيمكنك إستخدام  \'خادم الجسر \' كطريقة بديلة . حدد أحد الخيارات للتهيئة والإختبار ..</string>
  <string name="BiftorTorTestingBridges">إختبار إتصال الجسر بـ تور ...</string>
  <string name="BiftorTorTestingBridgesSuccess">نجحت! عملية تكوين جسر جيد!</string>
  <string name="BiftorTorTestingBridgesFail">فشلت العملية!. جرب خيار آخر</string>
@@ -756,8 +756,8 @@
  <string name="BiftorHideCustomTabChatsFromAll">تبويب الكل</string>
  <string name="BiftorDontHideCustomTabChats">لا تخفي</string>
  <string name="BiftorMayNeedsToRestart">قد يحتاج إلى إعادة التشغيل</string>
- <string name="BiftorAllowSyncExtraFolders">Allow sync extra folders</string>
- <string name="BiftorAllowSyncExtraFoldersSub">If you have more than 10 folders, you may need to disable sync folders to server because it may delete extra folders or change folder\'s order</string>
+ <string name="BiftorAllowSyncExtraFolders">السماح بمزامنة المجلدات الإضافية</string>
+ <string name="BiftorAllowSyncExtraFoldersSub">إذا كان لديك أكثر من 10 مجلدات، فقد تحتاج إلى تعطيل مجلدات المزامنة على الخادم لأنه قد يحذف مجلدات إضافية أو يغير ترتيب المجلد</string>
 
  <!-- Biftor goto msg for all chats-->
  <string name="BiftorMentionMsg">إشارة</string>
@@ -795,9 +795,9 @@
 
  <!--Biftor Translate-->
  <string name="BiftorTranslate">ترجمة</string>
- <string name="BiftorTranslateKeySave">Save key</string>
- <string name="BiftorTranslateYandexKey">Yandex translation key</string>
- <string name="BiftorTranslateYouNeedYandexAPIKey">Yandex api key is empty, you need valid Yandex translation api key</string>
+ <string name="BiftorTranslateKeySave">حفظ المفتاح</string>
+ <string name="BiftorTranslateYandexKey">مفتاح ترجمة ياندكس</string>
+ <string name="BiftorTranslateYouNeedYandexAPIKey">مفتاح واجهة برمجة تطبيق ياندكس (API) فارغ، أنت بحاجة إلى مفتاح API صالح لترجمة ياندكس</string>
  <string name="BiftorTranslateAllLanguage">كل اللغات</string>
  <string name="BiftorTranslateRecently">اللغة المستخدمة حديثا</string>
  <string name="BiftorTranslateClearRecently">هل تريد مسح اللغة المستخدمة مؤخرا؟</string>
@@ -884,7 +884,7 @@
  <!--Biftor delete from recent search-->
  <string name="BiftorDeleteRecentSearchItem">هل أنت متأكد أنك تريد حذف هذا: **٪ 1 $s** من البحث الأخير؟</string>
 
- <string name="BiftorDrawerContactAndGroup">Chats</string>
+ <string name="BiftorDrawerContactAndGroup">الدردشات</string>
 
  <!--Biftor floating new msg-->
  <string name="BiftorChangeToSaveMsg">تغيير الزر العائم لحفظ الرسالة</string>
@@ -898,11 +898,11 @@
  <!--Biftor internal updater-->
  <string name="BiftorSkipUpdate">تخطي</string>
  <string name="BiftorRemindTomorrow">غدا</string>
- <string name="BiftorUpdateIsAvailable">Update is available **(%1$s)**</string>
+ <string name="BiftorUpdateIsAvailable">يتوفر التحديث **(%1$s)**</string>
  <string name="BiftorCheckForUpdate">فحص لمعرفة توفر التحديث</string>
  <string name="BiftorDownloadLatestVersion">تحميل أحدث نسخة</string>
- <string name="BiftorUpdateFileExists">Update file downloaded and located in:\n%s\nDo you want download it again?</string>
- <string name="BiftorUpdateHaveLatestVersion">Congratulation you\'ve already installed the latest version!</string>
+ <string name="BiftorUpdateFileExists">تم تنزيل ملف التحديث ووضعه في:\n%s\ هل تريد تنزيله مرة أخرى؟</string>
+ <string name="BiftorUpdateHaveLatestVersion">تهانينا، لقد قمت بالفعل بتثبيت أحدث إصدار!</string>
 
  <!--Biftor direct chats-->
  <string name="BiftorDirectChats">الدردشات المباشرة</string>
@@ -965,8 +965,8 @@
  <!--Biftor ads-->
  <string name="BiftorAdsTypeAdMob">أدموب</string>
  <string name="BiftorAdsTypeCustom">إعلانات</string>
- <string name="BiftorAdsTitle">إعلانات بيكرام</string>
- <string name="BiftorAdsSubTitle">إدعم بيغرام من خلال مشاهدة إعلان</string>
+ <string name="BiftorAdsTitle">إعلانات بيگرام</string>
+ <string name="BiftorAdsSubTitle">إدعم بيگرام من خلال مشاهدة إعلان</string>
  <string name="BiftorAdsHideFor">مشاهدة هذا لإخفاء %s</string>
 
  <!--Biftor times-->
